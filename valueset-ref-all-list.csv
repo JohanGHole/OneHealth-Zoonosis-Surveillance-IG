@@ -1,1 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+https://dhis2.org/fhir/ValueSet/animal-type,0.1.0,draft,,AnimalTypeVS,Animal Type,"Value set for types of animals in the zoonosis surveillance.",,"Internal"

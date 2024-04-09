@@ -1,1 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+https://dhis2.org/fhir/CodeSystem/animal-type,0.1.0,draft,,AnimalTypeCS,Animal Type,"Code system for types of animals in the zoonosis surveillance.",

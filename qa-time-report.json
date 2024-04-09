@@ -1,50 +1,147 @@
 {
-  "date" : "Tue, 09 Apr, 2024 10:00:49 +0000",
+  "date" : "Tue, 09 Apr, 2024 11:42:02 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig.json",
-      "size" : 1227,
+      "size" : 1729,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 28,
-          "length" : 32
+          "start" : 46,
+          "length" : 23
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 28,
-          "length" : 7
+          "start" : 46,
+          "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 28,
-          "length" : 62
+          "start" : 46,
+          "length" : 58
         },
         {
           "activity" : "validate",
-          "start" : 28,
-          "length" : 1140
+          "start" : 47,
+          "length" : 927
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 48,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 29,
-          "length" : 78
+          "start" : 48,
+          "length" : 100
         },
         {
           "activity" : "generate2",
-          "start" : 30,
-          "length" : 51
+          "start" : 50,
+          "length" : 59
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 58,
+          "length" : 1
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 36,
-          "length" : 2
+          "start" : 59,
+          "length" : 4
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 40,
+          "start" : 64,
           "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-animal-type.json",
+      "size" : 521,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 46,
+          "length" : 12
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 46,
+          "length" : 20
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 52
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 1162
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-animal-type.json",
+      "size" : 391,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 46,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 81
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 3342
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 56,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 59,
+          "length" : 1
         }
       ]
     }

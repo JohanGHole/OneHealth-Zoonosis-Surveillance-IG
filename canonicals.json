@@ -1,9 +1,23 @@
 [
   {
+    "id" : "animal-type",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
+    "version" : "0.1.0",
+    "name" : "AnimalTypeCS"
+  },
+  {
     "id" : "zoonosis-surveillance-ig",
     "type" : "ImplementationGuide",
     "url" : "https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig",
     "version" : "0.1.0",
     "name" : "OneHealthZoonosisSurveillanceIG"
+  },
+  {
+    "id" : "animal-type",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
+    "version" : "0.1.0",
+    "name" : "AnimalTypeVS"
   }
 ]
