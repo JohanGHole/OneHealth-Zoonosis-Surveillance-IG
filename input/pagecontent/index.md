@@ -1,3 +1,3 @@
 # OneHealth - Zoonosis Surveillance IG
 
-Feel free to modify this index page with your own awesome content!
+This is a content IG for the OH-Zoonosis-Surveillance Tracker program.
