@@ -1,0 +1,9 @@
+[
+  {
+    "id" : "zoonosis-surveillance-ig",
+    "type" : "ImplementationGuide",
+    "url" : "https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig",
+    "version" : "0.1.0",
+    "name" : "OneHealthZoonosisSurveillanceIG"
+  }
+]
