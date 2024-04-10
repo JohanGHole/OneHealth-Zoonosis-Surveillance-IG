@@ -1,12 +1,28 @@
 {
   "codeSystems" : [
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/animal-class",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AnimalClassCS",
+      "title" : "Animal Class",
+      "description" : "Code system for classifying types of animals."
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalTypeCS",
       "title" : "Animal Type",
-      "description" : "Code system for types of animals in the zoonosis surveillance."
+      "description" : "Code system for types of animals."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "YesNoUnknownCS",
+      "title" : "Yes/No/Unknown",
+      "description" : "Standard code system for yes, no, and unknown responses."
     }
   ]
 }

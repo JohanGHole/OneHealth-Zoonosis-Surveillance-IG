@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-09T11:42:02+00:00",
+  "date" : "2024-04-10T09:09:18+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -608,10 +608,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/animal-class"
+      },
+      "name" : "Animal Class",
+      "description" : "Value set for classifying types of animals.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/animal-class"
+      },
+      "name" : "Animal Class",
+      "description" : "Code system for classifying types of animals.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/animal-type"
       },
       "name" : "Animal Type",
-      "description" : "Value set for types of animals in the zoonosis surveillance.",
+      "description" : "Value set for types of animals.",
       "exampleBoolean" : false
     },
     {
@@ -623,7 +647,31 @@
         "reference" : "CodeSystem/animal-type"
       },
       "name" : "Animal Type",
-      "description" : "Code system for types of animals in the zoonosis surveillance.",
+      "description" : "Code system for types of animals.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/yes-no-unknown"
+      },
+      "name" : "Yes/No/Unknown",
+      "description" : "Standard value set for yes, no, and unknown responses.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/yes-no-unknown"
+      },
+      "name" : "Yes/No/Unknown",
+      "description" : "Standard code system for yes, no, and unknown responses.",
       "exampleBoolean" : false
     }],
     "page" : {

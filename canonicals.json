@@ -1,10 +1,24 @@
 [
   {
+    "id" : "animal-class",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/animal-class",
+    "version" : "0.1.0",
+    "name" : "AnimalClassCS"
+  },
+  {
     "id" : "animal-type",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
     "version" : "0.1.0",
     "name" : "AnimalTypeCS"
+  },
+  {
+    "id" : "yes-no-unknown",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown",
+    "version" : "0.1.0",
+    "name" : "YesNoUnknownCS"
   },
   {
     "id" : "zoonosis-surveillance-ig",
@@ -14,10 +28,24 @@
     "name" : "OneHealthZoonosisSurveillanceIG"
   },
   {
+    "id" : "animal-class",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/animal-class",
+    "version" : "0.1.0",
+    "name" : "AnimalClassVS"
+  },
+  {
     "id" : "animal-type",
     "type" : "ValueSet",
     "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
     "version" : "0.1.0",
     "name" : "AnimalTypeVS"
+  },
+  {
+    "id" : "yes-no-unknown",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown",
+    "version" : "0.1.0",
+    "name" : "YesNoUnknownVS"
   }
 ]

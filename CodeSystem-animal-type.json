@@ -10,7 +10,7 @@
   "name" : "AnimalTypeCS",
   "title" : "Animal Type",
   "status" : "draft",
-  "date" : "2024-04-09T11:42:02+00:00",
+  "date" : "2024-04-10T09:09:18+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -23,7 +23,7 @@
       "value" : "johan.hole@dhis2.org"
     }]
   }],
-  "description" : "Code system for types of animals in the zoonosis surveillance.",
+  "description" : "Code system for types of animals.",
   "content" : "complete",
   "count" : 3,
   "concept" : [{

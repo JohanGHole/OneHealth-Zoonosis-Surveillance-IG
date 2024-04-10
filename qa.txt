@@ -1,23 +1,39 @@
 OneHealthZoonosisSurveillanceIG : Validation Results
 =========================================
 
-err = 0, warn = 7, info = 1
+err = 0, warn = 13, info = 3
 IG Publisher Version: 1.6.4
-Generated Tue Apr 09 11:42:19 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
+Generated Wed Apr 10 09:09:37 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
  Build Errors : 0 / 4 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-animal-class : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-type : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-yes-no-unknown : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-animal-class : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-animal-type : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-yes-no-unknown : 0 / 1 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-animal-class.json ==
+INFORMATION: CodeSystem/animal-class: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/animal-class: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/animal-class: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-animal-type.json ==
 INFORMATION: CodeSystem/animal-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/animal-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/animal-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-yes-no-unknown.json ==
+INFORMATION: CodeSystem/yes-no-unknown: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/yes-no-unknown: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/yes-no-unknown: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig.json ==
+== fsh-generated/resources/ValueSet-animal-class.json ==
+WARNING: ValueSet/animal-class: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-animal-type.json ==
 WARNING: ValueSet/animal-type: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-yes-no-unknown.json ==
+WARNING: ValueSet/yes-no-unknown: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

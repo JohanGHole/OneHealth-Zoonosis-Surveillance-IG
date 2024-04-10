@@ -1,11 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4dcbdfa8-9a2e-462e-bfbe-01808e393740"/>
+  <id value="63d21304-0e9a-4d8e-a780-d569877bfe78"/>
   <meta>
-    <lastUpdated value="2024-04-09T11:42:02.127+00:00"/>
+    <lastUpdated value="2024-04-10T09:09:18.622+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://dhis2.org/fhir/ValueSet/animal-class"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-animal-class.html">codesystem Animal Class v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 10 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-BIRDS"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-BIRDS">BIRDS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Birds</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-MAMMAL"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-MAMMAL">MAMMAL</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Mammal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-ARTHROPOD"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-ARTHROPOD">ARTHROPOD</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Arthropod</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-FISH"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-FISH">FISH</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Fish</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-CRUSTACEANS"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-CRUSTACEANS">CRUSTACEANS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Crustaceans</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-UNKNOWN"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-UNKNOWN">UNKNOWN</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-ENVIRONMENTAL-SAMPLE"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-ENVIRONMENTAL_SAMPLE">ENVIRONMENTAL_SAMPLE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Environmental sample</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-MOLLUSKS"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-MOLLUSKS">MOLLUSKS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Mollusks</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-AMPHIBIANS"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-AMPHIBIANS">AMPHIBIANS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Amphibians</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-REPTILES"> </a>  
+                  <a href="CodeSystem-animal-class.html#animal-class-REPTILES">REPTILES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>Reptiles</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/fhir/ValueSet/animal-class"/>
+        <version value="0.1.0"/>
+        <name value="AnimalClassVS"/>
+        <title value="Animal Class"/>
+        <status value="draft"/>
+        <date value="2024-04-10T09:09:18+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:5ef67dd4-f0c3-4bc7-a709-2881282516b9"/>
+          <timestamp value="2024-04-10T09:09:27+00:00"/>
+          <total value="10"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/fhir/CodeSystem/animal-class|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="BIRDS"/>
+            <display value="Birds"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="MAMMAL"/>
+            <display value="Mammal"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="ARTHROPOD"/>
+            <display value="Arthropod"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="FISH"/>
+            <display value="Fish"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="CRUSTACEANS"/>
+            <display value="Crustaceans"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="UNKNOWN"/>
+            <display value="Unknown"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="ENVIRONMENTAL_SAMPLE"/>
+            <display value="Environmental sample"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="MOLLUSKS"/>
+            <display value="Mollusks"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="AMPHIBIANS"/>
+            <display value="Amphibians"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <code value="REPTILES"/>
+            <display value="Reptiles"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="https://dhis2.org/fhir/ValueSet/animal-type"/>
     <resource>
@@ -61,10 +248,10 @@
         <name value="AnimalTypeVS"/>
         <title value="Animal Type"/>
         <status value="draft"/>
-        <date value="2024-04-09T11:42:02+00:00"/>
+        <date value="2024-04-10T09:09:18+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c1a2ce79-ec10-4e01-95fb-3d874bf1e020"/>
-          <timestamp value="2024-04-09T11:42:10+00:00"/>
+          <identifier value="urn:uuid:c940a2eb-101d-4592-baae-6073036c287a"/>
+          <timestamp value="2024-04-10T09:09:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -97,6 +284,102 @@
             <system value="https://dhis2.org/fhir/CodeSystem/animal-type"/>
             <code value="DOMESTIC"/>
             <display value="Domestic"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/fhir/ValueSet/yes-no-unknown"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-yes-no-unknown.html">codesystem Yes/No/Unknown v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-YES"> </a>  
+                  <a href="CodeSystem-yes-no-unknown.html#yes-no-unknown-YES">YES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-NO"> </a>  
+                  <a href="CodeSystem-yes-no-unknown.html#yes-no-unknown-NO">NO</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-UNKNOWN"> </a>  
+                  <a href="CodeSystem-yes-no-unknown.html#yes-no-unknown-UNKNOWN">UNKNOWN</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown</td>
+                <td>Unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/fhir/ValueSet/yes-no-unknown"/>
+        <version value="0.1.0"/>
+        <name value="YesNoUnknownVS"/>
+        <title value="Yes/No/Unknown"/>
+        <status value="draft"/>
+        <date value="2024-04-10T09:09:18+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:98afad09-1a73-4f77-800b-6c8f0ca9c88d"/>
+          <timestamp value="2024-04-10T09:09:27+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown"/>
+            <code value="YES"/>
+            <display value="Yes"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown"/>
+            <code value="NO"/>
+            <display value="No"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown"/>
+            <code value="UNKNOWN"/>
+            <display value="Unknown"/>
           </contains>
         </expansion>
       </ValueSet>

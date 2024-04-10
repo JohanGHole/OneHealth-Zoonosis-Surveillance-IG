@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/animal-class> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "animal-class"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/animal-class</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">BIRDS<a name=\"animal-class-BIRDS\"> </a></td><td>Birds</td></tr><tr><td style=\"white-space:nowrap\">MAMMAL<a name=\"animal-class-MAMMAL\"> </a></td><td>Mammal</td></tr><tr><td style=\"white-space:nowrap\">ARTHROPOD<a name=\"animal-class-ARTHROPOD\"> </a></td><td>Arthropod</td></tr><tr><td style=\"white-space:nowrap\">FISH<a name=\"animal-class-FISH\"> </a></td><td>Fish</td></tr><tr><td style=\"white-space:nowrap\">CRUSTACEANS<a name=\"animal-class-CRUSTACEANS\"> </a></td><td>Crustaceans</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"animal-class-UNKNOWN\"> </a></td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">ENVIRONMENTAL_SAMPLE<a name=\"animal-class-ENVIRONMENTAL_SAMPLE\"> </a></td><td>Environmental sample</td></tr><tr><td style=\"white-space:nowrap\">MOLLUSKS<a name=\"animal-class-MOLLUSKS\"> </a></td><td>Mollusks</td></tr><tr><td style=\"white-space:nowrap\">AMPHIBIANS<a name=\"animal-class-AMPHIBIANS\"> </a></td><td>Amphibians</td></tr><tr><td style=\"white-space:nowrap\">REPTILES<a name=\"animal-class-REPTILES\"> </a></td><td>Reptiles</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/animal-class"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AnimalClassCS"] ; # 
+  fhir:title [ fhir:v "Animal Class"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-10T09:09:18+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for classifying types of animals."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "BIRDS" ] ;
+     fhir:display [ fhir:v "Birds" ]
+  ] [
+     fhir:code [ fhir:v "MAMMAL" ] ;
+     fhir:display [ fhir:v "Mammal" ]
+  ] [
+     fhir:code [ fhir:v "ARTHROPOD" ] ;
+     fhir:display [ fhir:v "Arthropod" ]
+  ] [
+     fhir:code [ fhir:v "FISH" ] ;
+     fhir:display [ fhir:v "Fish" ]
+  ] [
+     fhir:code [ fhir:v "CRUSTACEANS" ] ;
+     fhir:display [ fhir:v "Crustaceans" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] [
+     fhir:code [ fhir:v "ENVIRONMENTAL_SAMPLE" ] ;
+     fhir:display [ fhir:v "Environmental sample" ]
+  ] [
+     fhir:code [ fhir:v "MOLLUSKS" ] ;
+     fhir:display [ fhir:v "Mollusks" ]
+  ] [
+     fhir:code [ fhir:v "AMPHIBIANS" ] ;
+     fhir:display [ fhir:v "Amphibians" ]
+  ] [
+     fhir:code [ fhir:v "REPTILES" ] ;
+     fhir:display [ fhir:v "Reptiles" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

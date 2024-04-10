@@ -1,13 +1,31 @@
 {
   "codeSystems" : [
     {
+      "url" : "https://dhis2.org/fhir/ValueSet/animal-class",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AnimalClassVS",
+      "title" : "Animal Class",
+      "description" : "Value set for classifying types of animals.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class"]
+    },
+    {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalTypeVS",
       "title" : "Animal Type",
-      "description" : "Value set for types of animals in the zoonosis surveillance.",
+      "description" : "Value set for types of animals.",
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type"]
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "YesNoUnknownVS",
+      "title" : "Yes/No/Unknown",
+      "description" : "Standard value set for yes, no, and unknown responses.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/yes-no-unknown"]
     }
   ]
 }

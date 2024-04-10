@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="yes-no-unknown"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/yes-no-unknown</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">YES<a name="yes-no-unknown-YES"> </a></td><td>Yes</td></tr><tr><td style="white-space:nowrap">NO<a name="yes-no-unknown-NO"> </a></td><td>No</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="yes-no-unknown-UNKNOWN"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown"/>
+  <version value="0.1.0"/>
+  <name value="YesNoUnknownCS"/>
+  <title value="Yes/No/Unknown"/>
+  <status value="draft"/>
+  <date value="2024-04-10T09:09:18+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Standard code system for yes, no, and unknown responses."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="YES"/>
+    <display value="Yes"/>
+  </concept>
+  <concept>
+    <code value="NO"/>
+    <display value="No"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

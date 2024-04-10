@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AnimalTypeCS"] ; # 
   fhir:title [ fhir:v "Animal Type"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-09T11:42:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-10T09:09:18+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -29,7 +29,7 @@
        fhir:value [ fhir:v "johan.hole@dhis2.org" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Code system for types of animals in the zoonosis surveillance."] ; # 
+  fhir:description [ fhir:v "Code system for types of animals."] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [

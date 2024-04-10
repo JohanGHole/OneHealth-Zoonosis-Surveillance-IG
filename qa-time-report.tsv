@@ -1,4 +1,8 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig.json	1729	-	0	0	0	0	0	0	5	58	0	0	0	0	0	0	0	1	0	0	100	59	0	0	1	4	0	2
-fsh-generated/resources/CodeSystem-animal-type.json	521	12	0	0	0	20	0	0	0	20	0	0	0	0	0	0	0	0	0	0	35	1162	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-animal-type.json	391	10	0	0	0	0	0	0	0	81	0	0	0	0	0	0	0	0	0	0	24	3342	0	1	0	1	0	0
+/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig.json	2637	-	0	0	0	0	0	0	7	65	0	0	0	0	0	0	0	0	0	0	88	58	0	0	0	4	0	2
+fsh-generated/resources/CodeSystem-animal-class.json	1004	11	0	0	0	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	22	1468	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-animal-type.json	492	10	1	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	14	58	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-yes-no-unknown.json	512	10	0	0	0	0	0	0	1	5	0	0	0	0	0	0	0	0	0	0	14	53	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-animal-class.json	379	10	0	0	0	0	0	0	0	61	0	0	0	0	0	0	0	0	0	0	11	3960	0	0	0	0	0	1
+fsh-generated/resources/ValueSet-animal-type.json	362	8	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	12	75	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-yes-no-unknown.json	399	7	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	11	97	0	0	0	0	0	0

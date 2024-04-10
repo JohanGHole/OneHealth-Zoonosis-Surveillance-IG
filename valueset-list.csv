@@ -1,2 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-https://dhis2.org/fhir/ValueSet/animal-type,0.1.0,draft,,AnimalTypeVS,Animal Type,"Value set for types of animals in the zoonosis surveillance.",,"Internal"
+https://dhis2.org/fhir/ValueSet/animal-class,0.1.0,draft,,AnimalClassVS,Animal Class,"Value set for classifying types of animals.",,"Internal"
+https://dhis2.org/fhir/ValueSet/animal-type,0.1.0,draft,,AnimalTypeVS,Animal Type,"Value set for types of animals.",,"Internal"
+https://dhis2.org/fhir/ValueSet/yes-no-unknown,0.1.0,draft,,YesNoUnknownVS,Yes/No/Unknown,"Standard value set for yes, no, and unknown responses.",,"Internal"

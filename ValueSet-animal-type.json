@@ -10,7 +10,7 @@
   "name" : "AnimalTypeVS",
   "title" : "Animal Type",
   "status" : "draft",
-  "date" : "2024-04-09T11:42:02+00:00",
+  "date" : "2024-04-10T09:09:18+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -23,7 +23,7 @@
       "value" : "johan.hole@dhis2.org"
     }]
   }],
-  "description" : "Value set for types of animals in the zoonosis surveillance.",
+  "description" : "Value set for types of animals.",
   "compose" : {
     "include" : [{
       "system" : "https://dhis2.org/fhir/CodeSystem/animal-type"
