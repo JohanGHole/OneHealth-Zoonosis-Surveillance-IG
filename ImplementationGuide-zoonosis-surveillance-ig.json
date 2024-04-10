@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-10T12:05:41+00:00",
+  "date" : "2024-04-10T12:38:22+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -704,7 +704,7 @@
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/ZoonosisSurveillance"
+        "reference" : "StructureDefinition/ZoonosisSurveillanceLM"
       },
       "name" : "Zoonosis Surveillance",
       "description" : "Logical model describing the structure of Zoonosis surveillance.",

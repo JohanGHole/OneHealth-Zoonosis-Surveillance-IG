@@ -3,7 +3,7 @@ OneHealthZoonosisSurveillanceIG : Validation Results
 
 err = 0, warn = 13, info = 3
 IG Publisher Version: 1.6.4
-Generated Wed Apr 10 12:06:00 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
+Generated Wed Apr 10 12:38:41 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-animal-class : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-type : 0 / 2 / 2
@@ -11,7 +11,7 @@ Generated Wed Apr 10 12:06:00 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-AnimalSurveillanceLM : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-LaboratoryLM : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-ZoonosisSurveillance : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ZoonosisSurveillanceLM : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-animal-class : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-animal-type : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-yes-no-unknown : 0 / 1 / 1
@@ -36,7 +36,7 @@ WARNING: CodeSystem/yes-no-unknown: CodeSystem: Published code systems SHOULD co
 == fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig.json ==
 == fsh-generated/resources/StructureDefinition-AnimalSurveillanceLM.json ==
 == fsh-generated/resources/StructureDefinition-LaboratoryLM.json ==
-== fsh-generated/resources/StructureDefinition-ZoonosisSurveillance.json ==
+== fsh-generated/resources/StructureDefinition-ZoonosisSurveillanceLM.json ==
 == fsh-generated/resources/ValueSet-animal-class.json ==
 WARNING: ValueSet/animal-class: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-animal-type.json ==

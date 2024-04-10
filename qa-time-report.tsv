@@ -1,11 +1,11 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig.json	3488	-	0	0	0	0	0	0	8	68	0	0	0	0	0	0	0	0	0	0	82	72	0	0	0	4	0	2
-fsh-generated/resources/CodeSystem-animal-class.json	1004	18	1	0	0	1	0	0	0	26	0	0	0	0	0	0	0	0	0	0	17	1411	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-animal-type.json	492	10	0	0	0	0	0	0	0	20	0	0	0	0	0	0	0	0	0	0	10	57	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-yes-no-unknown.json	503	9	0	0	0	0	0	0	1	16	0	0	0	0	0	0	0	0	0	0	10	50	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-AnimalSurveillanceLM.json	1303	11	0	0	0	0	0	12	0	42	0	0	0	0	0	0	0	1	0	0	56	502	0	0	0	2	0	0
-fsh-generated/resources/StructureDefinition-LaboratoryLM.json	1283	19	0	0	0	0	0	15	0	24	0	0	0	0	0	0	0	0	0	0	56	192	0	0	0	2	0	0
-fsh-generated/resources/StructureDefinition-ZoonosisSurveillance.json	7559	13	1	0	0	0	0	34	0	40	0	0	1	0	0	0	0	1	0	0	194	406	0	0	0	7	0	1
-fsh-generated/resources/ValueSet-animal-class.json	379	10	0	0	0	0	0	0	0	61	0	0	0	0	0	0	0	0	0	0	9	3090	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-animal-type.json	362	13	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	9	44	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-yes-no-unknown.json	400	18	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	10	43	0	0	0	0	0	0
+/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig.json	3490	-	0	0	0	0	0	0	11	62	0	0	0	0	0	0	0	0	0	0	90	57	0	0	0	3	0	1
+fsh-generated/resources/CodeSystem-animal-class.json	1004	9	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	17	1418	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-animal-type.json	492	7	0	0	0	0	0	0	1	8	0	0	0	0	0	0	0	0	0	0	12	52	0	0	1	0	0	0
+fsh-generated/resources/CodeSystem-yes-no-unknown.json	503	7	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	11	54	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-AnimalSurveillanceLM.json	1303	8	0	0	0	0	0	8	0	28	0	0	0	0	0	0	0	1	0	0	73	495	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-LaboratoryLM.json	1283	8	1	0	0	0	0	14	0	12	0	0	0	0	0	0	0	0	0	0	71	195	1	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-ZoonosisSurveillanceLM.json	7782	11	0	0	0	0	0	35	0	28	0	0	1	0	0	0	0	1	0	0	255	456	0	0	0	7	0	0
+fsh-generated/resources/ValueSet-animal-class.json	379	7	0	0	0	0	0	0	0	95	0	0	0	0	0	0	0	0	0	0	9	3688	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-animal-type.json	362	7	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	9	40	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-yes-no-unknown.json	400	8	0	0	0	0	0	0	0	20	0	0	0	0	0	0	0	0	0	0	9	39	0	0	0	0	0	0

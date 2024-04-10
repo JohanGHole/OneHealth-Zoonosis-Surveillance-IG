@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-10T12:05:41+00:00"/>
+  <date value="2024-04-10T12:38:22+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -541,7 +541,7 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ZoonosisSurveillance"/>
+        <reference value="StructureDefinition/ZoonosisSurveillanceLM"/>
       </reference>
       <name value="Zoonosis Surveillance"/>
       <description value="Logical model describing the structure of Zoonosis surveillance."/>

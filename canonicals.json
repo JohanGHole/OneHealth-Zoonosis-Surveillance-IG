@@ -42,11 +42,11 @@
     "name" : "LaboratoryLM"
   },
   {
-    "id" : "ZoonosisSurveillance",
+    "id" : "ZoonosisSurveillanceLM",
     "type" : "StructureDefinition",
-    "url" : "https://dhis2.org/fhir/StructureDefinition/ZoonosisSurveillance",
+    "url" : "https://dhis2.org/fhir/StructureDefinition/ZoonosisSurveillanceLM",
     "version" : "0.1.0",
-    "name" : "ZoonosisSurveillance"
+    "name" : "ZoonosisSurveillanceLM"
   },
   {
     "id" : "animal-class",
