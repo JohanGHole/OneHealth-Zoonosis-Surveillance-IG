@@ -1,0 +1,113 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "locality-source-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/locality-source-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALEXANDRIA_DIGITAL_LIBRARY<a name=\"locality-source-cs-ALEXANDRIA_DIGITAL_LIBRARY\"> </a></td><td>Alexandria Digital Library</td></tr><tr><td style=\"white-space:nowrap\">ASTODIENST_PROGRAM<a name=\"locality-source-cs-ASTODIENST_PROGRAM\"> </a></td><td>Astodienst program</td></tr><tr><td style=\"white-space:nowrap\">CDROM_WHO_UNICEF<a name=\"locality-source-cs-CDROM_WHO_UNICEF\"> </a></td><td>CDrom WHO/UNICEF</td></tr><tr><td style=\"white-space:nowrap\">COLLINS_MAPS<a name=\"locality-source-cs-COLLINS_MAPS\"> </a></td><td>Collins Maps</td></tr><tr><td style=\"white-space:nowrap\">ENCYCLOPEDIA<a name=\"locality-source-cs-ENCYCLOPEDIA\"> </a></td><td>Encyclopedia</td></tr><tr><td style=\"white-space:nowrap\">ESRI_WEB_SITE<a name=\"locality-source-cs-ESRI_WEB_SITE\"> </a></td><td>ESRI Web Site</td></tr><tr><td style=\"white-space:nowrap\">FAO_FIELD_OFFICER<a name=\"locality-source-cs-FAO_FIELD_OFFICER\"> </a></td><td>FAO field officer</td></tr><tr><td style=\"white-space:nowrap\">FAO_OFFICER<a name=\"locality-source-cs-FAO_OFFICER\"> </a></td><td>FAO Officer</td></tr><tr><td style=\"white-space:nowrap\">GAUL_2007<a name=\"locality-source-cs-GAUL_2007\"> </a></td><td>GAUL 2007</td></tr><tr><td style=\"white-space:nowrap\">GEONAMES<a name=\"locality-source-cs-GEONAMES\"> </a></td><td>Geonames</td></tr><tr><td style=\"white-space:nowrap\">GLOBAL_GAZETTEER_VERSION_2<a name=\"locality-source-cs-GLOBAL_GAZETTEER_VERSION_2\"> </a></td><td>Global Gazetteer Version 2</td></tr><tr><td style=\"white-space:nowrap\">GOOGLE_EARTH<a name=\"locality-source-cs-GOOGLE_EARTH\"> </a></td><td>Google Earth</td></tr><tr><td style=\"white-space:nowrap\">GPS<a name=\"locality-source-cs-GPS\"> </a></td><td>GPS</td></tr><tr><td style=\"white-space:nowrap\">MAP<a name=\"locality-source-cs-MAP\"> </a></td><td>Map</td></tr><tr><td style=\"white-space:nowrap\">MAPLANDIA_COM<a name=\"locality-source-cs-MAPLANDIA_COM\"> </a></td><td>maplandia.com</td></tr><tr><td style=\"white-space:nowrap\">NATIONAL_GOVERNMENT<a name=\"locality-source-cs-NATIONAL_GOVERNMENT\"> </a></td><td>National Government</td></tr><tr><td style=\"white-space:nowrap\">NIMA<a name=\"locality-source-cs-NIMA\"> </a></td><td>NIMA</td></tr><tr><td style=\"white-space:nowrap\">OIE<a name=\"locality-source-cs-OIE\"> </a></td><td>OIE</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"locality-source-cs-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">TIMES_ATLAS_OF_THE_WORLD<a name=\"locality-source-cs-TIMES_ATLAS_OF_THE_WORLD\"> </a></td><td>Times Atlas of the World</td></tr><tr><td style=\"white-space:nowrap\">WIKIPEDIA<a name=\"locality-source-cs-WIKIPEDIA\"> </a></td><td>Wikipedia</td></tr></table></div>"
+  },
+  "url" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+  "version" : "0.1.0",
+  "name" : "LocalitySourceCS",
+  "title" : "Locality Source Code System",
+  "status" : "draft",
+  "date" : "2024-04-10T14:10:05+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Code system for sources of locality information.",
+  "content" : "complete",
+  "count" : 21,
+  "concept" : [{
+    "code" : "ALEXANDRIA_DIGITAL_LIBRARY",
+    "display" : "Alexandria Digital Library"
+  },
+  {
+    "code" : "ASTODIENST_PROGRAM",
+    "display" : "Astodienst program"
+  },
+  {
+    "code" : "CDROM_WHO_UNICEF",
+    "display" : "CDrom WHO/UNICEF"
+  },
+  {
+    "code" : "COLLINS_MAPS",
+    "display" : "Collins Maps"
+  },
+  {
+    "code" : "ENCYCLOPEDIA",
+    "display" : "Encyclopedia"
+  },
+  {
+    "code" : "ESRI_WEB_SITE",
+    "display" : "ESRI Web Site"
+  },
+  {
+    "code" : "FAO_FIELD_OFFICER",
+    "display" : "FAO field officer"
+  },
+  {
+    "code" : "FAO_OFFICER",
+    "display" : "FAO Officer"
+  },
+  {
+    "code" : "GAUL_2007",
+    "display" : "GAUL 2007"
+  },
+  {
+    "code" : "GEONAMES",
+    "display" : "Geonames"
+  },
+  {
+    "code" : "GLOBAL_GAZETTEER_VERSION_2",
+    "display" : "Global Gazetteer Version 2"
+  },
+  {
+    "code" : "GOOGLE_EARTH",
+    "display" : "Google Earth"
+  },
+  {
+    "code" : "GPS",
+    "display" : "GPS"
+  },
+  {
+    "code" : "MAP",
+    "display" : "Map"
+  },
+  {
+    "code" : "MAPLANDIA_COM",
+    "display" : "maplandia.com"
+  },
+  {
+    "code" : "NATIONAL_GOVERNMENT",
+    "display" : "National Government"
+  },
+  {
+    "code" : "NIMA",
+    "display" : "NIMA"
+  },
+  {
+    "code" : "OIE",
+    "display" : "OIE"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  },
+  {
+    "code" : "TIMES_ATLAS_OF_THE_WORLD",
+    "display" : "Times Atlas of the World"
+  },
+  {
+    "code" : "WIKIPEDIA",
+    "display" : "Wikipedia"
+  }]
+}

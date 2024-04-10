@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "locality-quality-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-locality-quality-cs.html\"><code>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</code></a></li></ul></div>"
+  },
+  "url" : "https://dhis2.org/fhir/ValueSet/locality-quality-vs",
+  "version" : "0.1.0",
+  "name" : "LocalityQualityVS",
+  "title" : "Locality Quality Value Set",
+  "status" : "draft",
+  "date" : "2024-04-10T14:10:05+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Value set for the quality of locality data.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs"
+    }]
+  }
+}

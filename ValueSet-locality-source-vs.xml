@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="locality-source-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-locality-source-cs.html"><code>https://dhis2.org/fhir/CodeSystem/locality-source-cs</code></a></li></ul></div>
+  </text>
+  <url value="https://dhis2.org/fhir/ValueSet/locality-source-vs"/>
+  <version value="0.1.0"/>
+  <name value="LocalitySourceVS"/>
+  <title value="Locality Source Value Set"/>
+  <status value="draft"/>
+  <date value="2024-04-10T14:10:05+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Value set for sources of locality information."/>
+  <compose>
+    <include>
+      <system value="https://dhis2.org/fhir/CodeSystem/locality-source-cs"/>
+    </include>
+  </compose>
+</ValueSet>

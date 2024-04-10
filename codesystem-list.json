@@ -17,6 +17,30 @@
       "description" : "Code system for types of animals."
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DistrictsCS",
+      "title" : "Districts Code System",
+      "description" : "Code system for districts."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LocalityQualityCS",
+      "title" : "Locality Quality Code System",
+      "description" : "Code system for the quality of locality data."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LocalitySourceCS",
+      "title" : "Locality Source Code System",
+      "description" : "Code system for sources of locality information."
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/regions-cs",
       "version" : "0.1.0",
       "status" : "draft",

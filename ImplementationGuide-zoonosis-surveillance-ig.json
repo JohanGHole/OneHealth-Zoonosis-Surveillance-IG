@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-10T12:47:47+00:00",
+  "date" : "2024-04-10T14:10:05+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -629,18 +629,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/AnimalSurveillanceLM"
-      },
-      "name" : "Animal Surveillance",
-      "description" : "Logical model describing attributes related to animal surveillance.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -665,13 +653,109 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/districts-cs"
+      },
+      "name" : "Districts Code System",
+      "description" : "Code system for districts.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/districts-vs"
+      },
+      "name" : "Districts Value Set",
+      "description" : "Value set for districts.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/locality-quality-cs"
+      },
+      "name" : "Locality Quality Code System",
+      "description" : "Code system for the quality of locality data.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/locality-quality-vs"
+      },
+      "name" : "Locality Quality Value Set",
+      "description" : "Value set for the quality of locality data.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/locality-source-cs"
+      },
+      "name" : "Locality Source Code System",
+      "description" : "Code system for sources of locality information.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/locality-source-vs"
+      },
+      "name" : "Locality Source Value Set",
+      "description" : "Value set for sources of locality information.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/LaboratoryLM"
+        "reference" : "StructureDefinition/AnimalSurveillance"
       },
-      "name" : "Laboratory",
+      "name" : "Logical Model - Animal Surveillance",
+      "description" : "Logical model describing attributes related to animal surveillance.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Laboratory"
+      },
+      "name" : "Logical Model - Laboratory",
       "description" : "Logical model describing laboratory information, including sample identification and test details.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ZoonosisSurveillance"
+      },
+      "name" : "Logical Model - Zoonosis Surveillance",
+      "description" : "Logical model describing the structure of Zoonosis surveillance.",
       "exampleBoolean" : false
     },
     {
@@ -720,18 +804,6 @@
       },
       "name" : "Yes/No/Unknown Value Set",
       "description" : "Value set for yes, no, and unknown responses.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ZoonosisSurveillanceLM"
-      },
-      "name" : "Zoonosis Surveillance",
-      "description" : "Logical model describing the structure of Zoonosis surveillance.",
       "exampleBoolean" : false
     }],
     "page" : {

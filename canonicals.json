@@ -14,6 +14,27 @@
     "name" : "AnimalTypeCS"
   },
   {
+    "id" : "districts-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+    "version" : "0.1.0",
+    "name" : "DistrictsCS"
+  },
+  {
+    "id" : "locality-quality-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+    "version" : "0.1.0",
+    "name" : "LocalityQualityCS"
+  },
+  {
+    "id" : "locality-source-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+    "version" : "0.1.0",
+    "name" : "LocalitySourceCS"
+  },
+  {
     "id" : "regions-cs",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/regions-cs",
@@ -35,25 +56,25 @@
     "name" : "OneHealthZoonosisSurveillanceIG"
   },
   {
-    "id" : "AnimalSurveillanceLM",
+    "id" : "AnimalSurveillance",
     "type" : "StructureDefinition",
-    "url" : "https://dhis2.org/fhir/StructureDefinition/AnimalSurveillanceLM",
+    "url" : "https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance",
     "version" : "0.1.0",
-    "name" : "AnimalSurveillanceLM"
+    "name" : "AnimalSurveillance"
   },
   {
-    "id" : "LaboratoryLM",
+    "id" : "Laboratory",
     "type" : "StructureDefinition",
-    "url" : "https://dhis2.org/fhir/StructureDefinition/LaboratoryLM",
+    "url" : "https://dhis2.org/fhir/StructureDefinition/Laboratory",
     "version" : "0.1.0",
-    "name" : "LaboratoryLM"
+    "name" : "Laboratory"
   },
   {
-    "id" : "ZoonosisSurveillanceLM",
+    "id" : "ZoonosisSurveillance",
     "type" : "StructureDefinition",
-    "url" : "https://dhis2.org/fhir/StructureDefinition/ZoonosisSurveillanceLM",
+    "url" : "https://dhis2.org/fhir/StructureDefinition/ZoonosisSurveillance",
     "version" : "0.1.0",
-    "name" : "ZoonosisSurveillanceLM"
+    "name" : "ZoonosisSurveillance"
   },
   {
     "id" : "animal-class",
@@ -68,6 +89,27 @@
     "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
     "version" : "0.1.0",
     "name" : "AnimalTypeVS"
+  },
+  {
+    "id" : "districts-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/districts-vs",
+    "version" : "0.1.0",
+    "name" : "DistrictsVS"
+  },
+  {
+    "id" : "locality-quality-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/locality-quality-vs",
+    "version" : "0.1.0",
+    "name" : "LocalityQualityVS"
+  },
+  {
+    "id" : "locality-source-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/locality-source-vs",
+    "version" : "0.1.0",
+    "name" : "LocalitySourceVS"
   },
   {
     "id" : "regions-vs",

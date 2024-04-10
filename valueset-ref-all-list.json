@@ -12,7 +12,7 @@
       "sources" : ["2.16.840.1.113883.1.11.171"],
       "uses" : {
       },
-      "StructureDefinition-ZoonosisSurveillanceLM.html" : "Zoonosis Surveillance"
+      "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-class",
@@ -24,8 +24,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class"],
       "uses" : {
       },
-      "StructureDefinition-LaboratoryLM.html" : "Laboratory",
-      "StructureDefinition-AnimalSurveillanceLM.html" : "Animal Surveillance"
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
@@ -37,6 +37,42 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type"]
     },
     {
+      "url" : "https://dhis2.org/fhir/ValueSet/districts-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DistrictsVS",
+      "title" : "Districts Value Set",
+      "description" : "Value set for districts.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/districts-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/locality-quality-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LocalityQualityVS",
+      "title" : "Locality Quality Value Set",
+      "description" : "Value set for the quality of locality data.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/locality-quality-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/locality-source-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LocalitySourceVS",
+      "title" : "Locality Source Value Set",
+      "description" : "Value set for sources of locality information.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/locality-source-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
+    },
+    {
       "url" : "https://dhis2.org/fhir/ValueSet/regions-vs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -46,7 +82,7 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/regions-cs"],
       "uses" : {
       },
-      "StructureDefinition-ZoonosisSurveillanceLM.html" : "Zoonosis Surveillance"
+      "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown",

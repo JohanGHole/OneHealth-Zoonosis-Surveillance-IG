@@ -1,20 +1,26 @@
 OneHealthZoonosisSurveillanceIG : Validation Results
 =========================================
 
-err = 0, warn = 16, info = 4
+err = 0, warn = 25, info = 7
 IG Publisher Version: 1.6.4
-Generated Wed Apr 10 12:48:06 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
+Generated Wed Apr 10 14:10:27 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-animal-class : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-type : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-districts-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-locality-quality-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-locality-source-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-regions-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-yes-no-unknown : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-AnimalSurveillanceLM : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-LaboratoryLM : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-ZoonosisSurveillanceLM : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-AnimalSurveillance : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Laboratory : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ZoonosisSurveillance : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-animal-class : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-animal-type : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-districts-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-locality-quality-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-locality-source-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-regions-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-yes-no-unknown : 0 / 1 / 1
 </table>
@@ -31,6 +37,18 @@ WARNING: CodeSystem/animal-class: CodeSystem: Published code systems SHOULD conf
 INFORMATION: CodeSystem/animal-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/animal-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/animal-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-districts-cs.json ==
+INFORMATION: CodeSystem/districts-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/districts-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/districts-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-locality-quality-cs.json ==
+INFORMATION: CodeSystem/locality-quality-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/locality-quality-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/locality-quality-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-locality-source-cs.json ==
+INFORMATION: CodeSystem/locality-source-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/locality-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/locality-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-regions-cs.json ==
 INFORMATION: CodeSystem/regions-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/regions-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
@@ -40,13 +58,19 @@ INFORMATION: CodeSystem/yes-no-unknown: CodeSystem: CodeSystems SHOULD have a st
 WARNING: CodeSystem/yes-no-unknown: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/yes-no-unknown: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig.json ==
-== fsh-generated/resources/StructureDefinition-AnimalSurveillanceLM.json ==
-== fsh-generated/resources/StructureDefinition-LaboratoryLM.json ==
-== fsh-generated/resources/StructureDefinition-ZoonosisSurveillanceLM.json ==
+== fsh-generated/resources/StructureDefinition-AnimalSurveillance.json ==
+== fsh-generated/resources/StructureDefinition-Laboratory.json ==
+== fsh-generated/resources/StructureDefinition-ZoonosisSurveillance.json ==
 == fsh-generated/resources/ValueSet-animal-class.json ==
 WARNING: ValueSet/animal-class: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-animal-type.json ==
 WARNING: ValueSet/animal-type: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-districts-vs.json ==
+WARNING: ValueSet/districts-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-locality-quality-vs.json ==
+WARNING: ValueSet/locality-quality-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-locality-source-vs.json ==
+WARNING: ValueSet/locality-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-regions-vs.json ==
 WARNING: ValueSet/regions-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-yes-no-unknown.json ==

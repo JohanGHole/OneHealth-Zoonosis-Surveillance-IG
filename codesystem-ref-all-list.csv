@@ -1,6 +1,9 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Used
 https://dhis2.org/fhir/CodeSystem/animal-class,0.1.0,draft,,AnimalClassCS,Animal Class,"Code system for classifying types of animals.","ValueSet/animal-class"
 https://dhis2.org/fhir/CodeSystem/animal-type,0.1.0,draft,,AnimalTypeCS,Animal Type,"Code system for types of animals.","ValueSet/animal-type"
+https://dhis2.org/fhir/CodeSystem/districts-cs,0.1.0,draft,,DistrictsCS,Districts Code System,"Code system for districts.","ValueSet/districts-vs"
+https://dhis2.org/fhir/CodeSystem/locality-quality-cs,0.1.0,draft,,LocalityQualityCS,Locality Quality Code System,"Code system for the quality of locality data.","ValueSet/locality-quality-vs"
+https://dhis2.org/fhir/CodeSystem/locality-source-cs,0.1.0,draft,,LocalitySourceCS,Locality Source Code System,"Code system for sources of locality information.","ValueSet/locality-source-vs"
 https://dhis2.org/fhir/CodeSystem/regions-cs,0.1.0,draft,,RegionsCS,Regions Code System,"Code system for regions.","ValueSet/regions-vs"
 https://dhis2.org/fhir/CodeSystem/yes-no-unknown,0.1.0,draft,,YesNoUnknownCS,Yes/No/Unknown,"Code system for yes, no, and unknown responses.","ValueSet/yes-no-unknown"
 urn:iso:std:iso:3166,1.0.0,active,"1.0.3166.1",ISO3166Part1,ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code,"ISO 3166-1 establishes codes that represent the current names of countries, dependencies, and other areas of particular geopolitical interest, on the basis of country names obtained from the United Nations.","ValueSet/v3-Country"

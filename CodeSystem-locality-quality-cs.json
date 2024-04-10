@@ -1,0 +1,53 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "locality-quality-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN1<a name=\"locality-quality-cs-CENTROID_ADMIN1\"> </a></td><td>Centroid Admin1</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN2<a name=\"locality-quality-cs-CENTROID_ADMIN2\"> </a></td><td>Centroid Admin2</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN3<a name=\"locality-quality-cs-CENTROID_ADMIN3\"> </a></td><td>Centroid Admin3</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_LOCALITY<a name=\"locality-quality-cs-CENTROID_LOCALITY\"> </a></td><td>Centroid Locality</td></tr><tr><td style=\"white-space:nowrap\">EXACT<a name=\"locality-quality-cs-EXACT\"> </a></td><td>Exact</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"locality-quality-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+  "version" : "0.1.0",
+  "name" : "LocalityQualityCS",
+  "title" : "Locality Quality Code System",
+  "status" : "draft",
+  "date" : "2024-04-10T14:10:05+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Code system for the quality of locality data.",
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "CENTROID_ADMIN1",
+    "display" : "Centroid Admin1"
+  },
+  {
+    "code" : "CENTROID_ADMIN2",
+    "display" : "Centroid Admin2"
+  },
+  {
+    "code" : "CENTROID_ADMIN3",
+    "display" : "Centroid Admin3"
+  },
+  {
+    "code" : "CENTROID_LOCALITY",
+    "display" : "Centroid Locality"
+  },
+  {
+    "code" : "EXACT",
+    "display" : "Exact"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

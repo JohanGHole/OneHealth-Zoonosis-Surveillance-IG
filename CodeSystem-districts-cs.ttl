@@ -1,0 +1,440 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/districts-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "districts-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/districts-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ATSAPHANGTHONG<a name=\"districts-cs-ATSAPHANGTHONG\"> </a></td><td>Atsaphangthong</td></tr><tr><td style=\"white-space:nowrap\">ATSAPHONE<a name=\"districts-cs-ATSAPHONE\"> </a></td><td>Atsaphone</td></tr><tr><td style=\"white-space:nowrap\">BACHIANGCHALEUNSOOK<a name=\"districts-cs-BACHIANGCHALEUNSOOK\"> </a></td><td>Bachiangchaleunsook</td></tr><tr><td style=\"white-space:nowrap\">BENG<a name=\"districts-cs-BENG\"> </a></td><td>Beng</td></tr><tr><td style=\"white-space:nowrap\">BOLIKHANH<a name=\"districts-cs-BOLIKHANH\"> </a></td><td>Bolikhanh</td></tr><tr><td style=\"white-space:nowrap\">BOON_NEUA<a name=\"districts-cs-BOON_NEUA\"> </a></td><td>Boon Neua</td></tr><tr><td style=\"white-space:nowrap\">BOONTAI<a name=\"districts-cs-BOONTAI\"> </a></td><td>Boontai</td></tr><tr><td style=\"white-space:nowrap\">BOTENE<a name=\"districts-cs-BOTENE\"> </a></td><td>Botene</td></tr><tr><td style=\"white-space:nowrap\">BUALAPHA<a name=\"districts-cs-BUALAPHA\"> </a></td><td>Bualapha</td></tr><tr><td style=\"white-space:nowrap\">CHAMPASSACK<a name=\"districts-cs-CHAMPASSACK\"> </a></td><td>Champassack</td></tr><tr><td style=\"white-space:nowrap\">CHAMPHONE<a name=\"districts-cs-CHAMPHONE\"> </a></td><td>Champhone</td></tr><tr><td style=\"white-space:nowrap\">CHANTHABULY<a name=\"districts-cs-CHANTHABULY\"> </a></td><td>Chanthabuly</td></tr><tr><td style=\"white-space:nowrap\">CHOMPHET<a name=\"districts-cs-CHOMPHET\"> </a></td><td>Chomphet</td></tr><tr><td style=\"white-space:nowrap\">DAKCHEUNG<a name=\"districts-cs-DAKCHEUNG\"> </a></td><td>Dakcheung</td></tr><tr><td style=\"white-space:nowrap\">FEUANG<a name=\"districts-cs-FEUANG\"> </a></td><td>Feuang</td></tr><tr><td style=\"white-space:nowrap\">HADXAIFONG<a name=\"districts-cs-HADXAIFONG\"> </a></td><td>Hadxaifong</td></tr><tr><td style=\"white-space:nowrap\">HINBOON<a name=\"districts-cs-HINBOON\"> </a></td><td>Hinboon</td></tr><tr><td style=\"white-space:nowrap\">HINHURP<a name=\"districts-cs-HINHURP\"> </a></td><td>Hinhurp</td></tr><tr><td style=\"white-space:nowrap\">HOM<a name=\"districts-cs-HOM\"> </a></td><td>Hom</td></tr><tr><td style=\"white-space:nowrap\">HONGSA<a name=\"districts-cs-HONGSA\"> </a></td><td>Hongsa</td></tr><tr><td style=\"white-space:nowrap\">HOON<a name=\"districts-cs-HOON\"> </a></td><td>Hoon</td></tr><tr><td style=\"white-space:nowrap\">HOUIXAI<a name=\"districts-cs-HOUIXAI\"> </a></td><td>Houixai</td></tr><tr><td style=\"white-space:nowrap\">HUAMEUANG<a name=\"districts-cs-HUAMEUANG\"> </a></td><td>Huameuang</td></tr><tr><td style=\"white-space:nowrap\">KALEUM<a name=\"districts-cs-KALEUM\"> </a></td><td>Kaleum</td></tr><tr><td style=\"white-space:nowrap\">KASY<a name=\"districts-cs-KASY\"> </a></td><td>Kasy</td></tr><tr><td style=\"white-space:nowrap\">KAYSONE_PHOMVIHANE<a name=\"districts-cs-KAYSONE_PHOMVIHANE\"> </a></td><td>Kaysone Phomvihane</td></tr><tr><td style=\"white-space:nowrap\">KENETHAO<a name=\"districts-cs-KENETHAO\"> </a></td><td>Kenethao</td></tr><tr><td style=\"white-space:nowrap\">KEO_OUDOM<a name=\"districts-cs-KEO_OUDOM\"> </a></td><td>Keo Oudom</td></tr><tr><td style=\"white-space:nowrap\">KHAM<a name=\"districts-cs-KHAM\"> </a></td><td>Kham</td></tr><tr><td style=\"white-space:nowrap\">KHAMKHEUTH<a name=\"districts-cs-KHAMKHEUTH\"> </a></td><td>Khamkheuth</td></tr><tr><td style=\"white-space:nowrap\">KHONGXEDONE<a name=\"districts-cs-KHONGXEDONE\"> </a></td><td>Khongxedone</td></tr><tr><td style=\"white-space:nowrap\">KHOP<a name=\"districts-cs-KHOP\"> </a></td><td>Khop</td></tr><tr><td style=\"white-space:nowrap\">KHOUNE<a name=\"districts-cs-KHOUNE\"> </a></td><td>Khoune</td></tr><tr><td style=\"white-space:nowrap\">KHUA<a name=\"districts-cs-KHUA\"> </a></td><td>Khua</td></tr><tr><td style=\"white-space:nowrap\">LA<a name=\"districts-cs-LA\"> </a></td><td>La</td></tr><tr><td style=\"white-space:nowrap\">LAKHONEPHENG<a name=\"districts-cs-LAKHONEPHENG\"> </a></td><td>Lakhonepheng</td></tr><tr><td style=\"white-space:nowrap\">LAMARM<a name=\"districts-cs-LAMARM\"> </a></td><td>Lamarm</td></tr><tr><td style=\"white-space:nowrap\">LAO_NGARM<a name=\"districts-cs-LAO_NGARM\"> </a></td><td>Lao Ngarm</td></tr><tr><td style=\"white-space:nowrap\">LOUANGPHRABANG<a name=\"districts-cs-LOUANGPHRABANG\"> </a></td><td>Louangphrabang</td></tr><tr><td style=\"white-space:nowrap\">MAD<a name=\"districts-cs-MAD\"> </a></td><td>Mad</td></tr><tr><td style=\"white-space:nowrap\">MAHAXAY<a name=\"districts-cs-MAHAXAY\"> </a></td><td>Mahaxay</td></tr><tr><td style=\"white-space:nowrap\">MAY<a name=\"districts-cs-MAY\"> </a></td><td>May</td></tr><tr><td style=\"white-space:nowrap\">MAYPARKNGUM<a name=\"districts-cs-MAYPARKNGUM\"> </a></td><td>Mayparkngum</td></tr><tr><td style=\"white-space:nowrap\">MEUNG<a name=\"districts-cs-MEUNG\"> </a></td><td>Meung</td></tr><tr><td style=\"white-space:nowrap\">MOONLAPAMOK<a name=\"districts-cs-MOONLAPAMOK\"> </a></td><td>Moonlapamok</td></tr><tr><td style=\"white-space:nowrap\">MORKMAY<a name=\"districts-cs-MORKMAY\"> </a></td><td>Morkmay</td></tr><tr><td style=\"white-space:nowrap\">MUANG_ET<a name=\"districts-cs-MUANG_ET\"> </a></td><td>Muang Et</td></tr><tr><td style=\"white-space:nowrap\">NAKAI<a name=\"districts-cs-NAKAI\"> </a></td><td>Nakai</td></tr><tr><td style=\"white-space:nowrap\">NALAE<a name=\"districts-cs-NALAE\"> </a></td><td>Nalae</td></tr><tr><td style=\"white-space:nowrap\">NAMBAK<a name=\"districts-cs-NAMBAK\"> </a></td><td>Nambak</td></tr><tr><td style=\"white-space:nowrap\">NAMOR<a name=\"districts-cs-NAMOR\"> </a></td><td>Namor</td></tr><tr><td style=\"white-space:nowrap\">NAMTHA<a name=\"districts-cs-NAMTHA\"> </a></td><td>Namtha</td></tr><tr><td style=\"white-space:nowrap\">NAN<a name=\"districts-cs-NAN\"> </a></td><td>Nan</td></tr><tr><td style=\"white-space:nowrap\">NAXAITHONG<a name=\"districts-cs-NAXAITHONG\"> </a></td><td>Naxaithong</td></tr><tr><td style=\"white-space:nowrap\">NGA<a name=\"districts-cs-NGA\"> </a></td><td>Nga</td></tr><tr><td style=\"white-space:nowrap\">NGEUN<a name=\"districts-cs-NGEUN\"> </a></td><td>Ngeun</td></tr><tr><td style=\"white-space:nowrap\">NGOI<a name=\"districts-cs-NGOI\"> </a></td><td>Ngoi</td></tr><tr><td style=\"white-space:nowrap\">NHOMMALATH<a name=\"districts-cs-NHOMMALATH\"> </a></td><td>Nhommalath</td></tr><tr><td style=\"white-space:nowrap\">NHOT_OU<a name=\"districts-cs-NHOT_OU\"> </a></td><td>Nhot Ou</td></tr><tr><td style=\"white-space:nowrap\">NONG<a name=\"districts-cs-NONG\"> </a></td><td>Nong</td></tr><tr><td style=\"white-space:nowrap\">NONGBOK<a name=\"districts-cs-NONGBOK\"> </a></td><td>Nongbok</td></tr><tr><td style=\"white-space:nowrap\">NONGHED<a name=\"districts-cs-NONGHED\"> </a></td><td>Nonghed</td></tr><tr><td style=\"white-space:nowrap\">OUTHOOMPHONE<a name=\"districts-cs-OUTHOOMPHONE\"> </a></td><td>Outhoomphone</td></tr><tr><td style=\"white-space:nowrap\">PAK_XENG<a name=\"districts-cs-PAK_XENG\"> </a></td><td>Pak Xeng</td></tr><tr><td style=\"white-space:nowrap\">PAKBENG<a name=\"districts-cs-PAKBENG\"> </a></td><td>Pakbeng</td></tr><tr><td style=\"white-space:nowrap\">PAKKADING<a name=\"districts-cs-PAKKADING\"> </a></td><td>Pakkading</td></tr><tr><td style=\"white-space:nowrap\">PAKSANE<a name=\"districts-cs-PAKSANE\"> </a></td><td>Paksane</td></tr><tr><td style=\"white-space:nowrap\">PAKSONG<a name=\"districts-cs-PAKSONG\"> </a></td><td>Paksong</td></tr><tr><td style=\"white-space:nowrap\">PAKTHA<a name=\"districts-cs-PAKTHA\"> </a></td><td>Paktha</td></tr><tr><td style=\"white-space:nowrap\">PAKXE<a name=\"districts-cs-PAKXE\"> </a></td><td>Pakxe</td></tr><tr><td style=\"white-space:nowrap\">PARK_OU<a name=\"districts-cs-PARK_OU\"> </a></td><td>Park Ou</td></tr><tr><td style=\"white-space:nowrap\">PARKLAI<a name=\"districts-cs-PARKLAI\"> </a></td><td>Parklai</td></tr><tr><td style=\"white-space:nowrap\">PATHOOMPHONE<a name=\"districts-cs-PATHOOMPHONE\"> </a></td><td>Pathoomphone</td></tr><tr><td style=\"white-space:nowrap\">PEK<a name=\"districts-cs-PEK\"> </a></td><td>Pek</td></tr><tr><td style=\"white-space:nowrap\">PHA_OUDOM<a name=\"districts-cs-PHA_OUDOM\"> </a></td><td>Pha Oudom</td></tr><tr><td style=\"white-space:nowrap\">PHAXAY<a name=\"districts-cs-PHAXAY\"> </a></td><td>Phaxay</td></tr><tr><td style=\"white-space:nowrap\">PHIANG<a name=\"districts-cs-PHIANG\"> </a></td><td>Phiang</td></tr><tr><td style=\"white-space:nowrap\">PHINE<a name=\"districts-cs-PHINE\"> </a></td><td>Phine</td></tr><tr><td style=\"white-space:nowrap\">PHONGSALY<a name=\"districts-cs-PHONGSALY\"> </a></td><td>Phongsaly</td></tr><tr><td style=\"white-space:nowrap\">PHONHONG<a name=\"districts-cs-PHONHONG\"> </a></td><td>Phonhong</td></tr><tr><td style=\"white-space:nowrap\">PHONTHONG<a name=\"districts-cs-PHONTHONG\"> </a></td><td>Phonthong</td></tr><tr><td style=\"white-space:nowrap\">PHONXAY<a name=\"districts-cs-PHONXAY\"> </a></td><td>Phonxay</td></tr><tr><td style=\"white-space:nowrap\">PHOOKOOD<a name=\"districts-cs-PHOOKOOD\"> </a></td><td>Phookood</td></tr><tr><td style=\"white-space:nowrap\">PHOUKHOUNE<a name=\"districts-cs-PHOUKHOUNE\"> </a></td><td>Phoukhoune</td></tr><tr><td style=\"white-space:nowrap\">PHOUVONG<a name=\"districts-cs-PHOUVONG\"> </a></td><td>Phouvong</td></tr><tr><td style=\"white-space:nowrap\">SAMAKKHIXAY<a name=\"districts-cs-SAMAKKHIXAY\"> </a></td><td>Samakkhixay</td></tr><tr><td style=\"white-space:nowrap\">SAMPHANH<a name=\"districts-cs-SAMPHANH\"> </a></td><td>Samphanh</td></tr><tr><td style=\"white-space:nowrap\">SAMUOI<a name=\"districts-cs-SAMUOI\"> </a></td><td>Samuoi</td></tr><tr><td style=\"white-space:nowrap\">SANAMXAY<a name=\"districts-cs-SANAMXAY\"> </a></td><td>Sanamxay</td></tr><tr><td style=\"white-space:nowrap\">SANASOMBOON<a name=\"districts-cs-SANASOMBOON\"> </a></td><td>Sanasomboon</td></tr><tr><td style=\"white-space:nowrap\">SANGTHONG<a name=\"districts-cs-SANGTHONG\"> </a></td><td>Sangthong</td></tr><tr><td style=\"white-space:nowrap\">SANXAY<a name=\"districts-cs-SANXAY\"> </a></td><td>Sanxay</td></tr><tr><td style=\"white-space:nowrap\">SARAVANE<a name=\"districts-cs-SARAVANE\"> </a></td><td>Saravane</td></tr><tr><td style=\"white-space:nowrap\">SEPONE<a name=\"districts-cs-SEPONE\"> </a></td><td>Sepone</td></tr><tr><td style=\"white-space:nowrap\">SIKHOTTABONG<a name=\"districts-cs-SIKHOTTABONG\"> </a></td><td>Sikhottabong</td></tr><tr><td style=\"white-space:nowrap\">SING<a name=\"districts-cs-SING\"> </a></td><td>Sing</td></tr><tr><td style=\"white-space:nowrap\">SISATTANAK<a name=\"districts-cs-SISATTANAK\"> </a></td><td>Sisattanak</td></tr><tr><td style=\"white-space:nowrap\">SONGKHONE<a name=\"districts-cs-SONGKHONE\"> </a></td><td>Songkhone</td></tr><tr><td style=\"white-space:nowrap\">SOPBAO<a name=\"districts-cs-SOPBAO\"> </a></td><td>Sopbao</td></tr><tr><td style=\"white-space:nowrap\">SUKHUMA<a name=\"districts-cs-SUKHUMA\"> </a></td><td>Sukhuma</td></tr><tr><td style=\"white-space:nowrap\">TA_OI<a name=\"districts-cs-TA_OI\"> </a></td><td>Ta Oi</td></tr><tr><td style=\"white-space:nowrap\">THAKHEK<a name=\"districts-cs-THAKHEK\"> </a></td><td>Thakhek</td></tr><tr><td style=\"white-space:nowrap\">THAPANGTHONG<a name=\"districts-cs-THAPANGTHONG\"> </a></td><td>Thapangthong</td></tr><tr><td style=\"white-space:nowrap\">THAPHABATH<a name=\"districts-cs-THAPHABATH\"> </a></td><td>Thaphabath</td></tr><tr><td style=\"white-space:nowrap\">THAPHALANXAY<a name=\"districts-cs-THAPHALANXAY\"> </a></td><td>Thaphalanxay</td></tr><tr><td style=\"white-space:nowrap\">THATENG<a name=\"districts-cs-THATENG\"> </a></td><td>Thateng</td></tr><tr><td style=\"white-space:nowrap\">THATHOM<a name=\"districts-cs-THATHOM\"> </a></td><td>Thathom</td></tr><tr><td style=\"white-space:nowrap\">THONGMYXAY<a name=\"districts-cs-THONGMYXAY\"> </a></td><td>Thongmyxay</td></tr><tr><td style=\"white-space:nowrap\">THOULAKHOM<a name=\"districts-cs-THOULAKHOM\"> </a></td><td>Thoulakhom</td></tr><tr><td style=\"white-space:nowrap\">TONPHEUNG<a name=\"districts-cs-TONPHEUNG\"> </a></td><td>Tonpheung</td></tr><tr><td style=\"white-space:nowrap\">TOOMLARN<a name=\"districts-cs-TOOMLARN\"> </a></td><td>Toomlarn</td></tr><tr><td style=\"white-space:nowrap\">VANGVIENG<a name=\"districts-cs-VANGVIENG\"> </a></td><td>Vangvieng</td></tr><tr><td style=\"white-space:nowrap\">VAPY<a name=\"districts-cs-VAPY\"> </a></td><td>Vapy</td></tr><tr><td style=\"white-space:nowrap\">VIENGKHAM<a name=\"districts-cs-VIENGKHAM\"> </a></td><td>Viengkham</td></tr><tr><td style=\"white-space:nowrap\">VIENGPHOUKHA<a name=\"districts-cs-VIENGPHOUKHA\"> </a></td><td>Viengphoukha</td></tr><tr><td style=\"white-space:nowrap\">VIENGTHONG<a name=\"districts-cs-VIENGTHONG\"> </a></td><td>Viengthong</td></tr><tr><td style=\"white-space:nowrap\">VIENGXAY<a name=\"districts-cs-VIENGXAY\"> </a></td><td>Viengxay</td></tr><tr><td style=\"white-space:nowrap\">VILABULY<a name=\"districts-cs-VILABULY\"> </a></td><td>Vilabuly</td></tr><tr><td style=\"white-space:nowrap\">XAMNEUA<a name=\"districts-cs-XAMNEUA\"> </a></td><td>Xamneua</td></tr><tr><td style=\"white-space:nowrap\">XAMTAY<a name=\"districts-cs-XAMTAY\"> </a></td><td>Xamtay</td></tr><tr><td style=\"white-space:nowrap\">XANAKHARM<a name=\"districts-cs-XANAKHARM\"> </a></td><td>Xanakharm</td></tr><tr><td style=\"white-space:nowrap\">XAY<a name=\"districts-cs-XAY\"> </a></td><td>Xay</td></tr><tr><td style=\"white-space:nowrap\">XAYABURY<a name=\"districts-cs-XAYABURY\"> </a></td><td>Xayabury</td></tr><tr><td style=\"white-space:nowrap\">XAYBUATHONG<a name=\"districts-cs-XAYBUATHONG\"> </a></td><td>Xaybuathong</td></tr><tr><td style=\"white-space:nowrap\">XAYBULY<a name=\"districts-cs-XAYBULY\"> </a></td><td>Xaybuly</td></tr><tr><td style=\"white-space:nowrap\">XAYPHOOTHONG<a name=\"districts-cs-XAYPHOOTHONG\"> </a></td><td>Xayphoothong</td></tr><tr><td style=\"white-space:nowrap\">XAYSETHA<a name=\"districts-cs-XAYSETHA\"> </a></td><td>Xaysetha</td></tr><tr><td style=\"white-space:nowrap\">XAYSOMBOUN<a name=\"districts-cs-XAYSOMBOUN\"> </a></td><td>Xaysomboun</td></tr><tr><td style=\"white-space:nowrap\">XAYTHANY<a name=\"districts-cs-XAYTHANY\"> </a></td><td>Xaythany</td></tr><tr><td style=\"white-space:nowrap\">XEBANGFAY<a name=\"districts-cs-XEBANGFAY\"> </a></td><td>Xebangfay</td></tr><tr><td style=\"white-space:nowrap\">XIENG_NGEUN<a name=\"districts-cs-XIENG_NGEUN\"> </a></td><td>Xieng Ngeun</td></tr><tr><td style=\"white-space:nowrap\">XIENGHONE<a name=\"districts-cs-XIENGHONE\"> </a></td><td>Xienghone</td></tr><tr><td style=\"white-space:nowrap\">XIENGKHOR<a name=\"districts-cs-XIENGKHOR\"> </a></td><td>Xiengkhor</td></tr><tr><td style=\"white-space:nowrap\">XONBULY<a name=\"districts-cs-XONBULY\"> </a></td><td>Xonbuly</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/districts-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DistrictsCS"] ; # 
+  fhir:title [ fhir:v "Districts Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-10T14:10:05+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for districts."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "134"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ATSAPHANGTHONG" ] ;
+     fhir:display [ fhir:v "Atsaphangthong" ]
+  ] [
+     fhir:code [ fhir:v "ATSAPHONE" ] ;
+     fhir:display [ fhir:v "Atsaphone" ]
+  ] [
+     fhir:code [ fhir:v "BACHIANGCHALEUNSOOK" ] ;
+     fhir:display [ fhir:v "Bachiangchaleunsook" ]
+  ] [
+     fhir:code [ fhir:v "BENG" ] ;
+     fhir:display [ fhir:v "Beng" ]
+  ] [
+     fhir:code [ fhir:v "BOLIKHANH" ] ;
+     fhir:display [ fhir:v "Bolikhanh" ]
+  ] [
+     fhir:code [ fhir:v "BOON_NEUA" ] ;
+     fhir:display [ fhir:v "Boon Neua" ]
+  ] [
+     fhir:code [ fhir:v "BOONTAI" ] ;
+     fhir:display [ fhir:v "Boontai" ]
+  ] [
+     fhir:code [ fhir:v "BOTENE" ] ;
+     fhir:display [ fhir:v "Botene" ]
+  ] [
+     fhir:code [ fhir:v "BUALAPHA" ] ;
+     fhir:display [ fhir:v "Bualapha" ]
+  ] [
+     fhir:code [ fhir:v "CHAMPASSACK" ] ;
+     fhir:display [ fhir:v "Champassack" ]
+  ] [
+     fhir:code [ fhir:v "CHAMPHONE" ] ;
+     fhir:display [ fhir:v "Champhone" ]
+  ] [
+     fhir:code [ fhir:v "CHANTHABULY" ] ;
+     fhir:display [ fhir:v "Chanthabuly" ]
+  ] [
+     fhir:code [ fhir:v "CHOMPHET" ] ;
+     fhir:display [ fhir:v "Chomphet" ]
+  ] [
+     fhir:code [ fhir:v "DAKCHEUNG" ] ;
+     fhir:display [ fhir:v "Dakcheung" ]
+  ] [
+     fhir:code [ fhir:v "FEUANG" ] ;
+     fhir:display [ fhir:v "Feuang" ]
+  ] [
+     fhir:code [ fhir:v "HADXAIFONG" ] ;
+     fhir:display [ fhir:v "Hadxaifong" ]
+  ] [
+     fhir:code [ fhir:v "HINBOON" ] ;
+     fhir:display [ fhir:v "Hinboon" ]
+  ] [
+     fhir:code [ fhir:v "HINHURP" ] ;
+     fhir:display [ fhir:v "Hinhurp" ]
+  ] [
+     fhir:code [ fhir:v "HOM" ] ;
+     fhir:display [ fhir:v "Hom" ]
+  ] [
+     fhir:code [ fhir:v "HONGSA" ] ;
+     fhir:display [ fhir:v "Hongsa" ]
+  ] [
+     fhir:code [ fhir:v "HOON" ] ;
+     fhir:display [ fhir:v "Hoon" ]
+  ] [
+     fhir:code [ fhir:v "HOUIXAI" ] ;
+     fhir:display [ fhir:v "Houixai" ]
+  ] [
+     fhir:code [ fhir:v "HUAMEUANG" ] ;
+     fhir:display [ fhir:v "Huameuang" ]
+  ] [
+     fhir:code [ fhir:v "KALEUM" ] ;
+     fhir:display [ fhir:v "Kaleum" ]
+  ] [
+     fhir:code [ fhir:v "KASY" ] ;
+     fhir:display [ fhir:v "Kasy" ]
+  ] [
+     fhir:code [ fhir:v "KAYSONE_PHOMVIHANE" ] ;
+     fhir:display [ fhir:v "Kaysone Phomvihane" ]
+  ] [
+     fhir:code [ fhir:v "KENETHAO" ] ;
+     fhir:display [ fhir:v "Kenethao" ]
+  ] [
+     fhir:code [ fhir:v "KEO_OUDOM" ] ;
+     fhir:display [ fhir:v "Keo Oudom" ]
+  ] [
+     fhir:code [ fhir:v "KHAM" ] ;
+     fhir:display [ fhir:v "Kham" ]
+  ] [
+     fhir:code [ fhir:v "KHAMKHEUTH" ] ;
+     fhir:display [ fhir:v "Khamkheuth" ]
+  ] [
+     fhir:code [ fhir:v "KHONGXEDONE" ] ;
+     fhir:display [ fhir:v "Khongxedone" ]
+  ] [
+     fhir:code [ fhir:v "KHOP" ] ;
+     fhir:display [ fhir:v "Khop" ]
+  ] [
+     fhir:code [ fhir:v "KHOUNE" ] ;
+     fhir:display [ fhir:v "Khoune" ]
+  ] [
+     fhir:code [ fhir:v "KHUA" ] ;
+     fhir:display [ fhir:v "Khua" ]
+  ] [
+     fhir:code [ fhir:v "LA" ] ;
+     fhir:display [ fhir:v "La" ]
+  ] [
+     fhir:code [ fhir:v "LAKHONEPHENG" ] ;
+     fhir:display [ fhir:v "Lakhonepheng" ]
+  ] [
+     fhir:code [ fhir:v "LAMARM" ] ;
+     fhir:display [ fhir:v "Lamarm" ]
+  ] [
+     fhir:code [ fhir:v "LAO_NGARM" ] ;
+     fhir:display [ fhir:v "Lao Ngarm" ]
+  ] [
+     fhir:code [ fhir:v "LOUANGPHRABANG" ] ;
+     fhir:display [ fhir:v "Louangphrabang" ]
+  ] [
+     fhir:code [ fhir:v "MAD" ] ;
+     fhir:display [ fhir:v "Mad" ]
+  ] [
+     fhir:code [ fhir:v "MAHAXAY" ] ;
+     fhir:display [ fhir:v "Mahaxay" ]
+  ] [
+     fhir:code [ fhir:v "MAY" ] ;
+     fhir:display [ fhir:v "May" ]
+  ] [
+     fhir:code [ fhir:v "MAYPARKNGUM" ] ;
+     fhir:display [ fhir:v "Mayparkngum" ]
+  ] [
+     fhir:code [ fhir:v "MEUNG" ] ;
+     fhir:display [ fhir:v "Meung" ]
+  ] [
+     fhir:code [ fhir:v "MOONLAPAMOK" ] ;
+     fhir:display [ fhir:v "Moonlapamok" ]
+  ] [
+     fhir:code [ fhir:v "MORKMAY" ] ;
+     fhir:display [ fhir:v "Morkmay" ]
+  ] [
+     fhir:code [ fhir:v "MUANG_ET" ] ;
+     fhir:display [ fhir:v "Muang Et" ]
+  ] [
+     fhir:code [ fhir:v "NAKAI" ] ;
+     fhir:display [ fhir:v "Nakai" ]
+  ] [
+     fhir:code [ fhir:v "NALAE" ] ;
+     fhir:display [ fhir:v "Nalae" ]
+  ] [
+     fhir:code [ fhir:v "NAMBAK" ] ;
+     fhir:display [ fhir:v "Nambak" ]
+  ] [
+     fhir:code [ fhir:v "NAMOR" ] ;
+     fhir:display [ fhir:v "Namor" ]
+  ] [
+     fhir:code [ fhir:v "NAMTHA" ] ;
+     fhir:display [ fhir:v "Namtha" ]
+  ] [
+     fhir:code [ fhir:v "NAN" ] ;
+     fhir:display [ fhir:v "Nan" ]
+  ] [
+     fhir:code [ fhir:v "NAXAITHONG" ] ;
+     fhir:display [ fhir:v "Naxaithong" ]
+  ] [
+     fhir:code [ fhir:v "NGA" ] ;
+     fhir:display [ fhir:v "Nga" ]
+  ] [
+     fhir:code [ fhir:v "NGEUN" ] ;
+     fhir:display [ fhir:v "Ngeun" ]
+  ] [
+     fhir:code [ fhir:v "NGOI" ] ;
+     fhir:display [ fhir:v "Ngoi" ]
+  ] [
+     fhir:code [ fhir:v "NHOMMALATH" ] ;
+     fhir:display [ fhir:v "Nhommalath" ]
+  ] [
+     fhir:code [ fhir:v "NHOT_OU" ] ;
+     fhir:display [ fhir:v "Nhot Ou" ]
+  ] [
+     fhir:code [ fhir:v "NONG" ] ;
+     fhir:display [ fhir:v "Nong" ]
+  ] [
+     fhir:code [ fhir:v "NONGBOK" ] ;
+     fhir:display [ fhir:v "Nongbok" ]
+  ] [
+     fhir:code [ fhir:v "NONGHED" ] ;
+     fhir:display [ fhir:v "Nonghed" ]
+  ] [
+     fhir:code [ fhir:v "OUTHOOMPHONE" ] ;
+     fhir:display [ fhir:v "Outhoomphone" ]
+  ] [
+     fhir:code [ fhir:v "PAK_XENG" ] ;
+     fhir:display [ fhir:v "Pak Xeng" ]
+  ] [
+     fhir:code [ fhir:v "PAKBENG" ] ;
+     fhir:display [ fhir:v "Pakbeng" ]
+  ] [
+     fhir:code [ fhir:v "PAKKADING" ] ;
+     fhir:display [ fhir:v "Pakkading" ]
+  ] [
+     fhir:code [ fhir:v "PAKSANE" ] ;
+     fhir:display [ fhir:v "Paksane" ]
+  ] [
+     fhir:code [ fhir:v "PAKSONG" ] ;
+     fhir:display [ fhir:v "Paksong" ]
+  ] [
+     fhir:code [ fhir:v "PAKTHA" ] ;
+     fhir:display [ fhir:v "Paktha" ]
+  ] [
+     fhir:code [ fhir:v "PAKXE" ] ;
+     fhir:display [ fhir:v "Pakxe" ]
+  ] [
+     fhir:code [ fhir:v "PARK_OU" ] ;
+     fhir:display [ fhir:v "Park Ou" ]
+  ] [
+     fhir:code [ fhir:v "PARKLAI" ] ;
+     fhir:display [ fhir:v "Parklai" ]
+  ] [
+     fhir:code [ fhir:v "PATHOOMPHONE" ] ;
+     fhir:display [ fhir:v "Pathoomphone" ]
+  ] [
+     fhir:code [ fhir:v "PEK" ] ;
+     fhir:display [ fhir:v "Pek" ]
+  ] [
+     fhir:code [ fhir:v "PHA_OUDOM" ] ;
+     fhir:display [ fhir:v "Pha Oudom" ]
+  ] [
+     fhir:code [ fhir:v "PHAXAY" ] ;
+     fhir:display [ fhir:v "Phaxay" ]
+  ] [
+     fhir:code [ fhir:v "PHIANG" ] ;
+     fhir:display [ fhir:v "Phiang" ]
+  ] [
+     fhir:code [ fhir:v "PHINE" ] ;
+     fhir:display [ fhir:v "Phine" ]
+  ] [
+     fhir:code [ fhir:v "PHONGSALY" ] ;
+     fhir:display [ fhir:v "Phongsaly" ]
+  ] [
+     fhir:code [ fhir:v "PHONHONG" ] ;
+     fhir:display [ fhir:v "Phonhong" ]
+  ] [
+     fhir:code [ fhir:v "PHONTHONG" ] ;
+     fhir:display [ fhir:v "Phonthong" ]
+  ] [
+     fhir:code [ fhir:v "PHONXAY" ] ;
+     fhir:display [ fhir:v "Phonxay" ]
+  ] [
+     fhir:code [ fhir:v "PHOOKOOD" ] ;
+     fhir:display [ fhir:v "Phookood" ]
+  ] [
+     fhir:code [ fhir:v "PHOUKHOUNE" ] ;
+     fhir:display [ fhir:v "Phoukhoune" ]
+  ] [
+     fhir:code [ fhir:v "PHOUVONG" ] ;
+     fhir:display [ fhir:v "Phouvong" ]
+  ] [
+     fhir:code [ fhir:v "SAMAKKHIXAY" ] ;
+     fhir:display [ fhir:v "Samakkhixay" ]
+  ] [
+     fhir:code [ fhir:v "SAMPHANH" ] ;
+     fhir:display [ fhir:v "Samphanh" ]
+  ] [
+     fhir:code [ fhir:v "SAMUOI" ] ;
+     fhir:display [ fhir:v "Samuoi" ]
+  ] [
+     fhir:code [ fhir:v "SANAMXAY" ] ;
+     fhir:display [ fhir:v "Sanamxay" ]
+  ] [
+     fhir:code [ fhir:v "SANASOMBOON" ] ;
+     fhir:display [ fhir:v "Sanasomboon" ]
+  ] [
+     fhir:code [ fhir:v "SANGTHONG" ] ;
+     fhir:display [ fhir:v "Sangthong" ]
+  ] [
+     fhir:code [ fhir:v "SANXAY" ] ;
+     fhir:display [ fhir:v "Sanxay" ]
+  ] [
+     fhir:code [ fhir:v "SARAVANE" ] ;
+     fhir:display [ fhir:v "Saravane" ]
+  ] [
+     fhir:code [ fhir:v "SEPONE" ] ;
+     fhir:display [ fhir:v "Sepone" ]
+  ] [
+     fhir:code [ fhir:v "SIKHOTTABONG" ] ;
+     fhir:display [ fhir:v "Sikhottabong" ]
+  ] [
+     fhir:code [ fhir:v "SING" ] ;
+     fhir:display [ fhir:v "Sing" ]
+  ] [
+     fhir:code [ fhir:v "SISATTANAK" ] ;
+     fhir:display [ fhir:v "Sisattanak" ]
+  ] [
+     fhir:code [ fhir:v "SONGKHONE" ] ;
+     fhir:display [ fhir:v "Songkhone" ]
+  ] [
+     fhir:code [ fhir:v "SOPBAO" ] ;
+     fhir:display [ fhir:v "Sopbao" ]
+  ] [
+     fhir:code [ fhir:v "SUKHUMA" ] ;
+     fhir:display [ fhir:v "Sukhuma" ]
+  ] [
+     fhir:code [ fhir:v "TA_OI" ] ;
+     fhir:display [ fhir:v "Ta Oi" ]
+  ] [
+     fhir:code [ fhir:v "THAKHEK" ] ;
+     fhir:display [ fhir:v "Thakhek" ]
+  ] [
+     fhir:code [ fhir:v "THAPANGTHONG" ] ;
+     fhir:display [ fhir:v "Thapangthong" ]
+  ] [
+     fhir:code [ fhir:v "THAPHABATH" ] ;
+     fhir:display [ fhir:v "Thaphabath" ]
+  ] [
+     fhir:code [ fhir:v "THAPHALANXAY" ] ;
+     fhir:display [ fhir:v "Thaphalanxay" ]
+  ] [
+     fhir:code [ fhir:v "THATENG" ] ;
+     fhir:display [ fhir:v "Thateng" ]
+  ] [
+     fhir:code [ fhir:v "THATHOM" ] ;
+     fhir:display [ fhir:v "Thathom" ]
+  ] [
+     fhir:code [ fhir:v "THONGMYXAY" ] ;
+     fhir:display [ fhir:v "Thongmyxay" ]
+  ] [
+     fhir:code [ fhir:v "THOULAKHOM" ] ;
+     fhir:display [ fhir:v "Thoulakhom" ]
+  ] [
+     fhir:code [ fhir:v "TONPHEUNG" ] ;
+     fhir:display [ fhir:v "Tonpheung" ]
+  ] [
+     fhir:code [ fhir:v "TOOMLARN" ] ;
+     fhir:display [ fhir:v "Toomlarn" ]
+  ] [
+     fhir:code [ fhir:v "VANGVIENG" ] ;
+     fhir:display [ fhir:v "Vangvieng" ]
+  ] [
+     fhir:code [ fhir:v "VAPY" ] ;
+     fhir:display [ fhir:v "Vapy" ]
+  ] [
+     fhir:code [ fhir:v "VIENGKHAM" ] ;
+     fhir:display [ fhir:v "Viengkham" ]
+  ] [
+     fhir:code [ fhir:v "VIENGPHOUKHA" ] ;
+     fhir:display [ fhir:v "Viengphoukha" ]
+  ] [
+     fhir:code [ fhir:v "VIENGTHONG" ] ;
+     fhir:display [ fhir:v "Viengthong" ]
+  ] [
+     fhir:code [ fhir:v "VIENGXAY" ] ;
+     fhir:display [ fhir:v "Viengxay" ]
+  ] [
+     fhir:code [ fhir:v "VILABULY" ] ;
+     fhir:display [ fhir:v "Vilabuly" ]
+  ] [
+     fhir:code [ fhir:v "XAMNEUA" ] ;
+     fhir:display [ fhir:v "Xamneua" ]
+  ] [
+     fhir:code [ fhir:v "XAMTAY" ] ;
+     fhir:display [ fhir:v "Xamtay" ]
+  ] [
+     fhir:code [ fhir:v "XANAKHARM" ] ;
+     fhir:display [ fhir:v "Xanakharm" ]
+  ] [
+     fhir:code [ fhir:v "XAY" ] ;
+     fhir:display [ fhir:v "Xay" ]
+  ] [
+     fhir:code [ fhir:v "XAYABURY" ] ;
+     fhir:display [ fhir:v "Xayabury" ]
+  ] [
+     fhir:code [ fhir:v "XAYBUATHONG" ] ;
+     fhir:display [ fhir:v "Xaybuathong" ]
+  ] [
+     fhir:code [ fhir:v "XAYBULY" ] ;
+     fhir:display [ fhir:v "Xaybuly" ]
+  ] [
+     fhir:code [ fhir:v "XAYPHOOTHONG" ] ;
+     fhir:display [ fhir:v "Xayphoothong" ]
+  ] [
+     fhir:code [ fhir:v "XAYSETHA" ] ;
+     fhir:display [ fhir:v "Xaysetha" ]
+  ] [
+     fhir:code [ fhir:v "XAYSOMBOUN" ] ;
+     fhir:display [ fhir:v "Xaysomboun" ]
+  ] [
+     fhir:code [ fhir:v "XAYTHANY" ] ;
+     fhir:display [ fhir:v "Xaythany" ]
+  ] [
+     fhir:code [ fhir:v "XEBANGFAY" ] ;
+     fhir:display [ fhir:v "Xebangfay" ]
+  ] [
+     fhir:code [ fhir:v "XIENG_NGEUN" ] ;
+     fhir:display [ fhir:v "Xieng Ngeun" ]
+  ] [
+     fhir:code [ fhir:v "XIENGHONE" ] ;
+     fhir:display [ fhir:v "Xienghone" ]
+  ] [
+     fhir:code [ fhir:v "XIENGKHOR" ] ;
+     fhir:display [ fhir:v "Xiengkhor" ]
+  ] [
+     fhir:code [ fhir:v "XONBULY" ] ;
+     fhir:display [ fhir:v "Xonbuly" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

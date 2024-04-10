@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "0e2c1f34-09fc-4090-a489-a26645333a67",
+  "id" : "b21f6385-ba5a-4b23-b96c-abde591c545a",
   "meta" : {
-    "lastUpdated" : "2024-04-10T12:47:47.471+00:00"
+    "lastUpdated" : "2024-04-10T14:10:05.741+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,10 +18,10 @@
       "name" : "AnimalClassVS",
       "title" : "Animal Class",
       "status" : "draft",
-      "date" : "2024-04-10T12:47:47+00:00",
+      "date" : "2024-04-10T14:10:05+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:94dfb220-627a-42c7-aea6-b307f595fe92",
-        "timestamp" : "2024-04-10T12:47:57+00:00",
+        "identifier" : "urn:uuid:a1a3e5d5-38d9-4111-941b-7f1491363bbb",
+        "timestamp" : "2024-04-10T14:10:17+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -106,10 +106,10 @@
       "name" : "AnimalTypeVS",
       "title" : "Animal Type",
       "status" : "draft",
-      "date" : "2024-04-10T12:47:47+00:00",
+      "date" : "2024-04-10T14:10:05+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8d1d76b2-1fe8-4c8c-b144-564bd00b807d",
-        "timestamp" : "2024-04-10T12:47:57+00:00",
+        "identifier" : "urn:uuid:418e4c39-d1c7-4004-aea9-9e5068dd979a",
+        "timestamp" : "2024-04-10T14:10:17+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -147,6 +147,925 @@
     }
   },
   {
+    "fullUrl" : "https://dhis2.org/fhir/ValueSet/districts-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-districts-cs.html\">codesystem Districts Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 134 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-ATSAPHANGTHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-ATSAPHANGTHONG\">ATSAPHANGTHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Atsaphangthong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-ATSAPHONE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-ATSAPHONE\">ATSAPHONE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Atsaphone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-BACHIANGCHALEUNSOOK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-BACHIANGCHALEUNSOOK\">BACHIANGCHALEUNSOOK</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Bachiangchaleunsook</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-BENG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-BENG\">BENG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Beng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-BOLIKHANH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-BOLIKHANH\">BOLIKHANH</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Bolikhanh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-BOON-NEUA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-BOON_NEUA\">BOON_NEUA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Boon Neua</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-BOONTAI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-BOONTAI\">BOONTAI</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Boontai</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-BOTENE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-BOTENE\">BOTENE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Botene</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-BUALAPHA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-BUALAPHA\">BUALAPHA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Bualapha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-CHAMPASSACK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-CHAMPASSACK\">CHAMPASSACK</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Champassack</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-CHAMPHONE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-CHAMPHONE\">CHAMPHONE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Champhone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-CHANTHABULY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-CHANTHABULY\">CHANTHABULY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Chanthabuly</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-CHOMPHET\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-CHOMPHET\">CHOMPHET</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Chomphet</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-DAKCHEUNG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-DAKCHEUNG\">DAKCHEUNG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Dakcheung</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-FEUANG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-FEUANG\">FEUANG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Feuang</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-HADXAIFONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-HADXAIFONG\">HADXAIFONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Hadxaifong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-HINBOON\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-HINBOON\">HINBOON</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Hinboon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-HINHURP\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-HINHURP\">HINHURP</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Hinhurp</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-HOM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-HOM\">HOM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Hom</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-HONGSA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-HONGSA\">HONGSA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Hongsa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-HOON\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-HOON\">HOON</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Hoon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-HOUIXAI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-HOUIXAI\">HOUIXAI</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Houixai</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-HUAMEUANG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-HUAMEUANG\">HUAMEUANG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Huameuang</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KALEUM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KALEUM\">KALEUM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Kaleum</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KASY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KASY\">KASY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Kasy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KAYSONE-PHOMVIHANE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KAYSONE_PHOMVIHANE\">KAYSONE_PHOMVIHANE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Kaysone Phomvihane</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KENETHAO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KENETHAO\">KENETHAO</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Kenethao</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KEO-OUDOM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KEO_OUDOM\">KEO_OUDOM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Keo Oudom</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KHAM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KHAM\">KHAM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Kham</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KHAMKHEUTH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KHAMKHEUTH\">KHAMKHEUTH</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Khamkheuth</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KHONGXEDONE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KHONGXEDONE\">KHONGXEDONE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Khongxedone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KHOP\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KHOP\">KHOP</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Khop</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KHOUNE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KHOUNE\">KHOUNE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Khoune</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-KHUA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-KHUA\">KHUA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Khua</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-LA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-LA\">LA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>La</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-LAKHONEPHENG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-LAKHONEPHENG\">LAKHONEPHENG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Lakhonepheng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-LAMARM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-LAMARM\">LAMARM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Lamarm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-LAO-NGARM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-LAO_NGARM\">LAO_NGARM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Lao Ngarm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-LOUANGPHRABANG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-LOUANGPHRABANG\">LOUANGPHRABANG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Louangphrabang</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-MAD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-MAD\">MAD</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Mad</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-MAHAXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-MAHAXAY\">MAHAXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Mahaxay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-MAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-MAY\">MAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>May</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-MAYPARKNGUM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-MAYPARKNGUM\">MAYPARKNGUM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Mayparkngum</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-MEUNG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-MEUNG\">MEUNG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Meung</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-MOONLAPAMOK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-MOONLAPAMOK\">MOONLAPAMOK</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Moonlapamok</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-MORKMAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-MORKMAY\">MORKMAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Morkmay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-MUANG-ET\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-MUANG_ET\">MUANG_ET</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Muang Et</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NAKAI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NAKAI\">NAKAI</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nakai</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NALAE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NALAE\">NALAE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nalae</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NAMBAK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NAMBAK\">NAMBAK</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nambak</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NAMOR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NAMOR\">NAMOR</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Namor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NAMTHA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NAMTHA\">NAMTHA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Namtha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NAN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NAN\">NAN</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NAXAITHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NAXAITHONG\">NAXAITHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Naxaithong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NGA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NGA\">NGA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nga</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NGEUN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NGEUN\">NGEUN</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Ngeun</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NGOI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NGOI\">NGOI</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Ngoi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NHOMMALATH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NHOMMALATH\">NHOMMALATH</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nhommalath</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NHOT-OU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NHOT_OU\">NHOT_OU</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nhot Ou</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NONG\">NONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NONGBOK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NONGBOK\">NONGBOK</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nongbok</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-NONGHED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-NONGHED\">NONGHED</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Nonghed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-OUTHOOMPHONE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-OUTHOOMPHONE\">OUTHOOMPHONE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Outhoomphone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PAK-XENG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PAK_XENG\">PAK_XENG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Pak Xeng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PAKBENG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PAKBENG\">PAKBENG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Pakbeng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PAKKADING\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PAKKADING\">PAKKADING</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Pakkading</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PAKSANE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PAKSANE\">PAKSANE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Paksane</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PAKSONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PAKSONG\">PAKSONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Paksong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PAKTHA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PAKTHA\">PAKTHA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Paktha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PAKXE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PAKXE\">PAKXE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Pakxe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PARK-OU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PARK_OU\">PARK_OU</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Park Ou</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PARKLAI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PARKLAI\">PARKLAI</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Parklai</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PATHOOMPHONE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PATHOOMPHONE\">PATHOOMPHONE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Pathoomphone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PEK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PEK\">PEK</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Pek</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHA-OUDOM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHA_OUDOM\">PHA_OUDOM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Pha Oudom</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHAXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHAXAY\">PHAXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phaxay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHIANG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHIANG\">PHIANG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phiang</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHINE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHINE\">PHINE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHONGSALY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHONGSALY\">PHONGSALY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phongsaly</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHONHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHONHONG\">PHONHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phonhong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHONTHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHONTHONG\">PHONTHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phonthong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHONXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHONXAY\">PHONXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phonxay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHOOKOOD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHOOKOOD\">PHOOKOOD</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phookood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHOUKHOUNE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHOUKHOUNE\">PHOUKHOUNE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phoukhoune</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-PHOUVONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-PHOUVONG\">PHOUVONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Phouvong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SAMAKKHIXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SAMAKKHIXAY\">SAMAKKHIXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Samakkhixay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SAMPHANH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SAMPHANH\">SAMPHANH</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Samphanh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SAMUOI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SAMUOI\">SAMUOI</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Samuoi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SANAMXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SANAMXAY\">SANAMXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sanamxay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SANASOMBOON\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SANASOMBOON\">SANASOMBOON</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sanasomboon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SANGTHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SANGTHONG\">SANGTHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sangthong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SANXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SANXAY\">SANXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sanxay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SARAVANE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SARAVANE\">SARAVANE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Saravane</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SEPONE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SEPONE\">SEPONE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sepone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SIKHOTTABONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SIKHOTTABONG\">SIKHOTTABONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sikhottabong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SING\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SING\">SING</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SISATTANAK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SISATTANAK\">SISATTANAK</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sisattanak</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SONGKHONE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SONGKHONE\">SONGKHONE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Songkhone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SOPBAO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SOPBAO\">SOPBAO</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sopbao</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-SUKHUMA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-SUKHUMA\">SUKHUMA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Sukhuma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-TA-OI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-TA_OI\">TA_OI</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Ta Oi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-THAKHEK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-THAKHEK\">THAKHEK</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Thakhek</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-THAPANGTHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-THAPANGTHONG\">THAPANGTHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Thapangthong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-THAPHABATH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-THAPHABATH\">THAPHABATH</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Thaphabath</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-THAPHALANXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-THAPHALANXAY\">THAPHALANXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Thaphalanxay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-THATENG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-THATENG\">THATENG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Thateng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-THATHOM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-THATHOM\">THATHOM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Thathom</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-THONGMYXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-THONGMYXAY\">THONGMYXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Thongmyxay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-THOULAKHOM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-THOULAKHOM\">THOULAKHOM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Thoulakhom</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-TONPHEUNG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-TONPHEUNG\">TONPHEUNG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Tonpheung</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-TOOMLARN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-TOOMLARN\">TOOMLARN</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Toomlarn</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-VANGVIENG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-VANGVIENG\">VANGVIENG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Vangvieng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-VAPY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-VAPY\">VAPY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Vapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-VIENGKHAM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-VIENGKHAM\">VIENGKHAM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Viengkham</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-VIENGPHOUKHA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-VIENGPHOUKHA\">VIENGPHOUKHA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Viengphoukha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-VIENGTHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-VIENGTHONG\">VIENGTHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Viengthong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-VIENGXAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-VIENGXAY\">VIENGXAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Viengxay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-VILABULY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-VILABULY\">VILABULY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Vilabuly</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAMNEUA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAMNEUA\">XAMNEUA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xamneua</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAMTAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAMTAY\">XAMTAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xamtay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XANAKHARM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XANAKHARM\">XANAKHARM</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xanakharm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAY\">XAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAYABURY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAYABURY\">XAYABURY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xayabury</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAYBUATHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAYBUATHONG\">XAYBUATHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xaybuathong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAYBULY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAYBULY\">XAYBULY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xaybuly</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAYPHOOTHONG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAYPHOOTHONG\">XAYPHOOTHONG</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xayphoothong</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAYSETHA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAYSETHA\">XAYSETHA</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xaysetha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAYSOMBOUN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAYSOMBOUN\">XAYSOMBOUN</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xaysomboun</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XAYTHANY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XAYTHANY\">XAYTHANY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xaythany</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XEBANGFAY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XEBANGFAY\">XEBANGFAY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xebangfay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XIENG-NGEUN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XIENG_NGEUN\">XIENG_NGEUN</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xieng Ngeun</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XIENGHONE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XIENGHONE\">XIENGHONE</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xienghone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XIENGKHOR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XIENGKHOR\">XIENGKHOR</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xiengkhor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-districts-cs-XONBULY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-districts-cs.html#districts-cs-XONBULY\">XONBULY</a></td><td>https://dhis2.org/fhir/CodeSystem/districts-cs</td><td>Xonbuly</td></tr></table></div>"
+      },
+      "url" : "https://dhis2.org/fhir/ValueSet/districts-vs",
+      "version" : "0.1.0",
+      "name" : "DistrictsVS",
+      "title" : "Districts Value Set",
+      "status" : "draft",
+      "date" : "2024-04-10T14:10:05+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:7f29c47a-2f35-42c6-8576-a00efd9e4375",
+        "timestamp" : "2024-04-10T14:10:17+00:00",
+        "total" : 134,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://dhis2.org/fhir/CodeSystem/districts-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "ATSAPHANGTHONG",
+          "display" : "Atsaphangthong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "ATSAPHONE",
+          "display" : "Atsaphone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "BACHIANGCHALEUNSOOK",
+          "display" : "Bachiangchaleunsook"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "BENG",
+          "display" : "Beng"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "BOLIKHANH",
+          "display" : "Bolikhanh"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "BOON_NEUA",
+          "display" : "Boon Neua"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "BOONTAI",
+          "display" : "Boontai"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "BOTENE",
+          "display" : "Botene"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "BUALAPHA",
+          "display" : "Bualapha"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "CHAMPASSACK",
+          "display" : "Champassack"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "CHAMPHONE",
+          "display" : "Champhone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "CHANTHABULY",
+          "display" : "Chanthabuly"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "CHOMPHET",
+          "display" : "Chomphet"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "DAKCHEUNG",
+          "display" : "Dakcheung"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "FEUANG",
+          "display" : "Feuang"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "HADXAIFONG",
+          "display" : "Hadxaifong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "HINBOON",
+          "display" : "Hinboon"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "HINHURP",
+          "display" : "Hinhurp"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "HOM",
+          "display" : "Hom"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "HONGSA",
+          "display" : "Hongsa"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "HOON",
+          "display" : "Hoon"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "HOUIXAI",
+          "display" : "Houixai"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "HUAMEUANG",
+          "display" : "Huameuang"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KALEUM",
+          "display" : "Kaleum"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KASY",
+          "display" : "Kasy"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KAYSONE_PHOMVIHANE",
+          "display" : "Kaysone Phomvihane"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KENETHAO",
+          "display" : "Kenethao"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KEO_OUDOM",
+          "display" : "Keo Oudom"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KHAM",
+          "display" : "Kham"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KHAMKHEUTH",
+          "display" : "Khamkheuth"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KHONGXEDONE",
+          "display" : "Khongxedone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KHOP",
+          "display" : "Khop"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KHOUNE",
+          "display" : "Khoune"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "KHUA",
+          "display" : "Khua"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "LA",
+          "display" : "La"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "LAKHONEPHENG",
+          "display" : "Lakhonepheng"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "LAMARM",
+          "display" : "Lamarm"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "LAO_NGARM",
+          "display" : "Lao Ngarm"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "LOUANGPHRABANG",
+          "display" : "Louangphrabang"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "MAD",
+          "display" : "Mad"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "MAHAXAY",
+          "display" : "Mahaxay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "MAY",
+          "display" : "May"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "MAYPARKNGUM",
+          "display" : "Mayparkngum"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "MEUNG",
+          "display" : "Meung"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "MOONLAPAMOK",
+          "display" : "Moonlapamok"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "MORKMAY",
+          "display" : "Morkmay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "MUANG_ET",
+          "display" : "Muang Et"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NAKAI",
+          "display" : "Nakai"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NALAE",
+          "display" : "Nalae"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NAMBAK",
+          "display" : "Nambak"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NAMOR",
+          "display" : "Namor"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NAMTHA",
+          "display" : "Namtha"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NAN",
+          "display" : "Nan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NAXAITHONG",
+          "display" : "Naxaithong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NGA",
+          "display" : "Nga"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NGEUN",
+          "display" : "Ngeun"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NGOI",
+          "display" : "Ngoi"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NHOMMALATH",
+          "display" : "Nhommalath"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NHOT_OU",
+          "display" : "Nhot Ou"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NONG",
+          "display" : "Nong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NONGBOK",
+          "display" : "Nongbok"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "NONGHED",
+          "display" : "Nonghed"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "OUTHOOMPHONE",
+          "display" : "Outhoomphone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PAK_XENG",
+          "display" : "Pak Xeng"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PAKBENG",
+          "display" : "Pakbeng"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PAKKADING",
+          "display" : "Pakkading"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PAKSANE",
+          "display" : "Paksane"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PAKSONG",
+          "display" : "Paksong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PAKTHA",
+          "display" : "Paktha"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PAKXE",
+          "display" : "Pakxe"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PARK_OU",
+          "display" : "Park Ou"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PARKLAI",
+          "display" : "Parklai"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PATHOOMPHONE",
+          "display" : "Pathoomphone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PEK",
+          "display" : "Pek"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHA_OUDOM",
+          "display" : "Pha Oudom"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHAXAY",
+          "display" : "Phaxay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHIANG",
+          "display" : "Phiang"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHINE",
+          "display" : "Phine"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHONGSALY",
+          "display" : "Phongsaly"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHONHONG",
+          "display" : "Phonhong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHONTHONG",
+          "display" : "Phonthong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHONXAY",
+          "display" : "Phonxay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHOOKOOD",
+          "display" : "Phookood"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHOUKHOUNE",
+          "display" : "Phoukhoune"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "PHOUVONG",
+          "display" : "Phouvong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SAMAKKHIXAY",
+          "display" : "Samakkhixay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SAMPHANH",
+          "display" : "Samphanh"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SAMUOI",
+          "display" : "Samuoi"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SANAMXAY",
+          "display" : "Sanamxay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SANASOMBOON",
+          "display" : "Sanasomboon"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SANGTHONG",
+          "display" : "Sangthong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SANXAY",
+          "display" : "Sanxay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SARAVANE",
+          "display" : "Saravane"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SEPONE",
+          "display" : "Sepone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SIKHOTTABONG",
+          "display" : "Sikhottabong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SING",
+          "display" : "Sing"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SISATTANAK",
+          "display" : "Sisattanak"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SONGKHONE",
+          "display" : "Songkhone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SOPBAO",
+          "display" : "Sopbao"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "SUKHUMA",
+          "display" : "Sukhuma"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "TA_OI",
+          "display" : "Ta Oi"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "THAKHEK",
+          "display" : "Thakhek"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "THAPANGTHONG",
+          "display" : "Thapangthong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "THAPHABATH",
+          "display" : "Thaphabath"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "THAPHALANXAY",
+          "display" : "Thaphalanxay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "THATENG",
+          "display" : "Thateng"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "THATHOM",
+          "display" : "Thathom"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "THONGMYXAY",
+          "display" : "Thongmyxay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "THOULAKHOM",
+          "display" : "Thoulakhom"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "TONPHEUNG",
+          "display" : "Tonpheung"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "TOOMLARN",
+          "display" : "Toomlarn"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "VANGVIENG",
+          "display" : "Vangvieng"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "VAPY",
+          "display" : "Vapy"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "VIENGKHAM",
+          "display" : "Viengkham"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "VIENGPHOUKHA",
+          "display" : "Viengphoukha"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "VIENGTHONG",
+          "display" : "Viengthong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "VIENGXAY",
+          "display" : "Viengxay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "VILABULY",
+          "display" : "Vilabuly"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAMNEUA",
+          "display" : "Xamneua"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAMTAY",
+          "display" : "Xamtay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XANAKHARM",
+          "display" : "Xanakharm"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAY",
+          "display" : "Xay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAYABURY",
+          "display" : "Xayabury"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAYBUATHONG",
+          "display" : "Xaybuathong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAYBULY",
+          "display" : "Xaybuly"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAYPHOOTHONG",
+          "display" : "Xayphoothong"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAYSETHA",
+          "display" : "Xaysetha"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAYSOMBOUN",
+          "display" : "Xaysomboun"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XAYTHANY",
+          "display" : "Xaythany"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XEBANGFAY",
+          "display" : "Xebangfay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XIENG_NGEUN",
+          "display" : "Xieng Ngeun"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XIENGHONE",
+          "display" : "Xienghone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XIENGKHOR",
+          "display" : "Xiengkhor"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+          "code" : "XONBULY",
+          "display" : "Xonbuly"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://dhis2.org/fhir/ValueSet/locality-quality-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-locality-quality-cs.html\">codesystem Locality Quality Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 6 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-quality-cs-CENTROID-ADMIN1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-quality-cs.html#locality-quality-cs-CENTROID_ADMIN1\">CENTROID_ADMIN1</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</td><td>Centroid Admin1</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-quality-cs-CENTROID-ADMIN2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-quality-cs.html#locality-quality-cs-CENTROID_ADMIN2\">CENTROID_ADMIN2</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</td><td>Centroid Admin2</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-quality-cs-CENTROID-ADMIN3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-quality-cs.html#locality-quality-cs-CENTROID_ADMIN3\">CENTROID_ADMIN3</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</td><td>Centroid Admin3</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-quality-cs-CENTROID-LOCALITY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-quality-cs.html#locality-quality-cs-CENTROID_LOCALITY\">CENTROID_LOCALITY</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</td><td>Centroid Locality</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-quality-cs-EXACT\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-quality-cs.html#locality-quality-cs-EXACT\">EXACT</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</td><td>Exact</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-quality-cs-UNKNOWN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-quality-cs.html#locality-quality-cs-UNKNOWN\">UNKNOWN</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</td><td>Unknown</td></tr></table></div>"
+      },
+      "url" : "https://dhis2.org/fhir/ValueSet/locality-quality-vs",
+      "version" : "0.1.0",
+      "name" : "LocalityQualityVS",
+      "title" : "Locality Quality Value Set",
+      "status" : "draft",
+      "date" : "2024-04-10T14:10:05+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:58e06704-755c-458a-b9f9-54dbb87909fd",
+        "timestamp" : "2024-04-10T14:10:17+00:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+          "code" : "CENTROID_ADMIN1",
+          "display" : "Centroid Admin1"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+          "code" : "CENTROID_ADMIN2",
+          "display" : "Centroid Admin2"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+          "code" : "CENTROID_ADMIN3",
+          "display" : "Centroid Admin3"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+          "code" : "CENTROID_LOCALITY",
+          "display" : "Centroid Locality"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+          "code" : "EXACT",
+          "display" : "Exact"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+          "code" : "UNKNOWN",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://dhis2.org/fhir/ValueSet/locality-source-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-locality-source-cs.html\">codesystem Locality Source Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 21 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-ALEXANDRIA-DIGITAL-LIBRARY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-ALEXANDRIA_DIGITAL_LIBRARY\">ALEXANDRIA_DIGITAL_LIBRARY</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Alexandria Digital Library</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-ASTODIENST-PROGRAM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-ASTODIENST_PROGRAM\">ASTODIENST_PROGRAM</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Astodienst program</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-CDROM-WHO-UNICEF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-CDROM_WHO_UNICEF\">CDROM_WHO_UNICEF</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>CDrom WHO/UNICEF</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-COLLINS-MAPS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-COLLINS_MAPS\">COLLINS_MAPS</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Collins Maps</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-ENCYCLOPEDIA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-ENCYCLOPEDIA\">ENCYCLOPEDIA</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Encyclopedia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-ESRI-WEB-SITE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-ESRI_WEB_SITE\">ESRI_WEB_SITE</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>ESRI Web Site</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-FAO-FIELD-OFFICER\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-FAO_FIELD_OFFICER\">FAO_FIELD_OFFICER</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>FAO field officer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-FAO-OFFICER\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-FAO_OFFICER\">FAO_OFFICER</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>FAO Officer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-GAUL-2007\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-GAUL_2007\">GAUL_2007</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>GAUL 2007</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-GEONAMES\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-GEONAMES\">GEONAMES</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Geonames</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-GLOBAL-GAZETTEER-VERSION-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-GLOBAL_GAZETTEER_VERSION_2\">GLOBAL_GAZETTEER_VERSION_2</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Global Gazetteer Version 2</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-GOOGLE-EARTH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-GOOGLE_EARTH\">GOOGLE_EARTH</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Google Earth</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-GPS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-GPS\">GPS</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>GPS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-MAP\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-MAP\">MAP</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Map</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-MAPLANDIA-COM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-MAPLANDIA_COM\">MAPLANDIA_COM</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>maplandia.com</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-NATIONAL-GOVERNMENT\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-NATIONAL_GOVERNMENT\">NATIONAL_GOVERNMENT</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>National Government</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-NIMA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-NIMA\">NIMA</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>NIMA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-OIE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-OIE\">OIE</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>OIE</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-OTHER\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-OTHER\">OTHER</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Other</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-TIMES-ATLAS-OF-THE-WORLD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-TIMES_ATLAS_OF_THE_WORLD\">TIMES_ATLAS_OF_THE_WORLD</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Times Atlas of the World</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-locality-source-cs-WIKIPEDIA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-locality-source-cs.html#locality-source-cs-WIKIPEDIA\">WIKIPEDIA</a></td><td>https://dhis2.org/fhir/CodeSystem/locality-source-cs</td><td>Wikipedia</td></tr></table></div>"
+      },
+      "url" : "https://dhis2.org/fhir/ValueSet/locality-source-vs",
+      "version" : "0.1.0",
+      "name" : "LocalitySourceVS",
+      "title" : "Locality Source Value Set",
+      "status" : "draft",
+      "date" : "2024-04-10T14:10:05+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:26057a6c-fa73-4e88-b5e9-7fac78800461",
+        "timestamp" : "2024-04-10T14:10:17+00:00",
+        "total" : 21,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "ALEXANDRIA_DIGITAL_LIBRARY",
+          "display" : "Alexandria Digital Library"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "ASTODIENST_PROGRAM",
+          "display" : "Astodienst program"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "CDROM_WHO_UNICEF",
+          "display" : "CDrom WHO/UNICEF"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "COLLINS_MAPS",
+          "display" : "Collins Maps"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "ENCYCLOPEDIA",
+          "display" : "Encyclopedia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "ESRI_WEB_SITE",
+          "display" : "ESRI Web Site"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "FAO_FIELD_OFFICER",
+          "display" : "FAO field officer"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "FAO_OFFICER",
+          "display" : "FAO Officer"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "GAUL_2007",
+          "display" : "GAUL 2007"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "GEONAMES",
+          "display" : "Geonames"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "GLOBAL_GAZETTEER_VERSION_2",
+          "display" : "Global Gazetteer Version 2"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "GOOGLE_EARTH",
+          "display" : "Google Earth"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "GPS",
+          "display" : "GPS"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "MAP",
+          "display" : "Map"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "MAPLANDIA_COM",
+          "display" : "maplandia.com"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "NATIONAL_GOVERNMENT",
+          "display" : "National Government"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "NIMA",
+          "display" : "NIMA"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "OIE",
+          "display" : "OIE"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "OTHER",
+          "display" : "Other"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "TIMES_ATLAS_OF_THE_WORLD",
+          "display" : "Times Atlas of the World"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+          "code" : "WIKIPEDIA",
+          "display" : "Wikipedia"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://dhis2.org/fhir/ValueSet/regions-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -159,10 +1078,10 @@
       "name" : "RegionsVS",
       "title" : "Regions Value Set",
       "status" : "draft",
-      "date" : "2024-04-10T12:47:47+00:00",
+      "date" : "2024-04-10T14:10:05+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e57c7315-b313-425b-b41f-06b4eee3be50",
-        "timestamp" : "2024-04-10T12:47:57+00:00",
+        "identifier" : "urn:uuid:8164d046-8b2c-408c-992a-3160c7188622",
+        "timestamp" : "2024-04-10T14:10:17+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -282,10 +1201,10 @@
       "name" : "YesNoUnknownVS",
       "title" : "Yes/No/Unknown Value Set",
       "status" : "draft",
-      "date" : "2024-04-10T12:47:47+00:00",
+      "date" : "2024-04-10T14:10:05+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:864f5fbd-9eb4-4175-aa58-5f77f42e8490",
-        "timestamp" : "2024-04-10T12:47:57+00:00",
+        "identifier" : "urn:uuid:a99e1190-3b17-4f06-87a2-6ffea76c1965",
+        "timestamp" : "2024-04-10T14:10:17+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
