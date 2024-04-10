@@ -1,0 +1,14 @@
+CodeSystem: AnimalClassCS
+Id: animal-class
+Title: "Animal Class"
+Description: "Code system for classifying types of animals."
+* #BIRDS "Birds"
+* #MAMMAL "Mammal"
+* #ARTHROPOD "Arthropod"
+* #FISH "Fish"
+* #CRUSTACEANS "Crustaceans"
+* #UNKNOWN "Unknown"
+* #ENVIRONMENTAL_SAMPLE "Environmental sample"
+* #MOLLUSKS "Mollusks"
+* #AMPHIBIANS "Amphibians"
+* #REPTILES "Reptiles"
