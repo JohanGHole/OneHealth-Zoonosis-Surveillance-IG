@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="894200bb-f19f-4685-9b08-4de3f5371995"/>
+  <id value="0e2c1f34-09fc-4090-a489-a26645333a67"/>
   <meta>
-    <lastUpdated value="2024-04-10T12:38:22.905+00:00"/>
+    <lastUpdated value="2024-04-10T12:47:47.471+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -117,10 +117,10 @@
         <name value="AnimalClassVS"/>
         <title value="Animal Class"/>
         <status value="draft"/>
-        <date value="2024-04-10T12:38:22+00:00"/>
+        <date value="2024-04-10T12:47:47+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:39bdbf90-e058-4736-bcdb-a394e2202f3c"/>
-          <timestamp value="2024-04-10T12:38:33+00:00"/>
+          <identifier value="urn:uuid:94dfb220-627a-42c7-aea6-b307f595fe92"/>
+          <timestamp value="2024-04-10T12:47:57+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -248,10 +248,10 @@
         <name value="AnimalTypeVS"/>
         <title value="Animal Type"/>
         <status value="draft"/>
-        <date value="2024-04-10T12:38:22+00:00"/>
+        <date value="2024-04-10T12:47:47+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1eef5b7a-3342-4b7a-a481-d7342e1d5dfa"/>
-          <timestamp value="2024-04-10T12:38:33+00:00"/>
+          <identifier value="urn:uuid:8d1d76b2-1fe8-4c8c-b144-564bd00b807d"/>
+          <timestamp value="2024-04-10T12:47:57+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -284,6 +284,284 @@
             <system value="https://dhis2.org/fhir/CodeSystem/animal-type"/>
             <code value="DOMESTIC"/>
             <display value="Domestic"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/fhir/ValueSet/regions-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-regions-cs.html">codesystem Regions Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 17 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-ATTAPU"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-ATTAPU">ATTAPU</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Attapu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-BOKEO"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-BOKEO">BOKEO</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Bokeo</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-BOLIKHAMXAI"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-BOLIKHAMXAI">BOLIKHAMXAI</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Bolikhamxai</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-CHAMPASAK"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-CHAMPASAK">CHAMPASAK</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Champasak</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-HOUAPHAN"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-HOUAPHAN">HOUAPHAN</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Houaphan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-KHAMMOUAN"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-KHAMMOUAN">KHAMMOUAN</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Khammouan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-LOUANGNAMTHA"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-LOUANGNAMTHA">LOUANGNAMTHA</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Louang-Namtha</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-LOUANGPHABANG"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-LOUANGPHABANG">LOUANGPHABANG</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Louangphabang</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-OUDOMXAI"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-OUDOMXAI">OUDOMXAI</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Oudomxai</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-PHONGSALI"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-PHONGSALI">PHONGSALI</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Phongsali</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-SALAVAN"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-SALAVAN">SALAVAN</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Salavan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-SAVANNAKHET"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-SAVANNAKHET">SAVANNAKHET</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Savannakhet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-VIENTIANE"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-VIENTIANE">VIENTIANE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Vientiane</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-VIENTIANE-CAPITAL"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-VIENTIANE_CAPITAL">VIENTIANE_CAPITAL</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Vientiane capital</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-XAINYABOULI"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-XAINYABOULI">XAINYABOULI</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Xaignabouli</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-XEKONG"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-XEKONG">XEKONG</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Xekong</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-regions-cs-XIANGKHOUANG"> </a>  
+                  <a href="CodeSystem-regions-cs.html#regions-cs-XIANGKHOUANG">XIANGKHOUANG</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/regions-cs</td>
+                <td>Xiangkhouang</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/fhir/ValueSet/regions-vs"/>
+        <version value="0.1.0"/>
+        <name value="RegionsVS"/>
+        <title value="Regions Value Set"/>
+        <status value="draft"/>
+        <date value="2024-04-10T12:47:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:e57c7315-b313-425b-b41f-06b4eee3be50"/>
+          <timestamp value="2024-04-10T12:47:57+00:00"/>
+          <total value="17"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/fhir/CodeSystem/regions-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="ATTAPU"/>
+            <display value="Attapu"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="BOKEO"/>
+            <display value="Bokeo"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="BOLIKHAMXAI"/>
+            <display value="Bolikhamxai"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="CHAMPASAK"/>
+            <display value="Champasak"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="HOUAPHAN"/>
+            <display value="Houaphan"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="KHAMMOUAN"/>
+            <display value="Khammouan"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="LOUANGNAMTHA"/>
+            <display value="Louang-Namtha"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="LOUANGPHABANG"/>
+            <display value="Louangphabang"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="OUDOMXAI"/>
+            <display value="Oudomxai"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="PHONGSALI"/>
+            <display value="Phongsali"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="SALAVAN"/>
+            <display value="Salavan"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="SAVANNAKHET"/>
+            <display value="Savannakhet"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="VIENTIANE"/>
+            <display value="Vientiane"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="VIENTIANE_CAPITAL"/>
+            <display value="Vientiane capital"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="XAINYABOULI"/>
+            <display value="Xaignabouli"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="XEKONG"/>
+            <display value="Xekong"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
+            <code value="XIANGKHOUANG"/>
+            <display value="Xiangkhouang"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -344,10 +622,10 @@
         <name value="YesNoUnknownVS"/>
         <title value="Yes/No/Unknown Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-10T12:38:22+00:00"/>
+        <date value="2024-04-10T12:47:47+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8f190f6e-753f-4d27-988e-2a605ed2ef01"/>
-          <timestamp value="2024-04-10T12:38:33+00:00"/>
+          <identifier value="urn:uuid:864f5fbd-9eb4-4175-aa58-5f77f42e8490"/>
+          <timestamp value="2024-04-10T12:47:57+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

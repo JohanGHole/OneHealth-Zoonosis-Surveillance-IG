@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-10T12:38:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-10T12:47:47+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -584,6 +584,30 @@
        ] ;
        fhir:name [ fhir:v "Laboratory" ] ;
        fhir:description [ fhir:v "Logical model describing laboratory information, including sample identification and test details." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/regions-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/regions-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Regions Code System" ] ;
+       fhir:description [ fhir:v "Code system for regions." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/regions-vs> ;
+         fhir:reference [ fhir:v "ValueSet/regions-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Regions Value Set" ] ;
+       fhir:description [ fhir:v "Value set for regions." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

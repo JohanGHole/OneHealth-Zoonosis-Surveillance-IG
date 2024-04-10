@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-10T12:38:22+00:00",
+  "date" : "2024-04-10T12:47:47+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -672,6 +672,30 @@
       },
       "name" : "Laboratory",
       "description" : "Logical model describing laboratory information, including sample identification and test details.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/regions-cs"
+      },
+      "name" : "Regions Code System",
+      "description" : "Code system for regions.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/regions-vs"
+      },
+      "name" : "Regions Value Set",
+      "description" : "Value set for regions.",
       "exampleBoolean" : false
     },
     {

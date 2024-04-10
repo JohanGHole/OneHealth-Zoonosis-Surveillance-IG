@@ -2,4 +2,5 @@ URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
 http://terminology.hl7.org/ValueSet/v3-Country,2.0.0,active,"2.16.840.1.113883.1.11.171",Country,Country,"Countries of the world. ISO 3166, part 1, alpha-3 set.","StructureDefinition/ZoonosisSurveillanceLM","hl7.terminology.r4"
 https://dhis2.org/fhir/ValueSet/animal-class,0.1.0,draft,,AnimalClassVS,Animal Class,"Value set for classifying types of animals.","StructureDefinition/LaboratoryLM,StructureDefinition/AnimalSurveillanceLM","Internal"
 https://dhis2.org/fhir/ValueSet/animal-type,0.1.0,draft,,AnimalTypeVS,Animal Type,"Value set for types of animals.",,"Internal"
+https://dhis2.org/fhir/ValueSet/regions-vs,0.1.0,draft,,RegionsVS,Regions Value Set,"Value set for regions.","StructureDefinition/ZoonosisSurveillanceLM","Internal"
 https://dhis2.org/fhir/ValueSet/yes-no-unknown,0.1.0,draft,,YesNoUnknownVS,Yes/No/Unknown Value Set,"Value set for yes, no, and unknown responses.",,"Internal"

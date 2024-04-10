@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-10T12:38:22+00:00"/>
+  <date value="2024-04-10T12:47:47+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -512,6 +512,28 @@
       </reference>
       <name value="Laboratory"/>
       <description value="Logical model describing laboratory information, including sample identification and test details."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/regions-cs"/>
+      </reference>
+      <name value="Regions Code System"/>
+      <description value="Code system for regions."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/regions-vs"/>
+      </reference>
+      <name value="Regions Value Set"/>
+      <description value="Value set for regions."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

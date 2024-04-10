@@ -14,7 +14,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <name value="AnimalSurveillanceLM"/>
   <title value="Animal Surveillance"/>
   <status value="draft"/>
-  <date value="2024-04-10T12:38:22+00:00"/>
+  <date value="2024-04-10T12:47:47+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>

@@ -23,6 +23,17 @@
       "ValueSet-animal-type.html" : "Animal Type"
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/regions-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RegionsCS",
+      "title" : "Regions Code System",
+      "description" : "Code system for regions.",
+      "uses" : {
+      },
+      "ValueSet-regions-vs.html" : "Regions Value Set"
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown",
       "version" : "0.1.0",
       "status" : "draft",

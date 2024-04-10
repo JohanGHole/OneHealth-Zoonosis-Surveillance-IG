@@ -14,6 +14,13 @@
     "name" : "AnimalTypeCS"
   },
   {
+    "id" : "regions-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/regions-cs",
+    "version" : "0.1.0",
+    "name" : "RegionsCS"
+  },
+  {
     "id" : "yes-no-unknown",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown",
@@ -61,6 +68,13 @@
     "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
     "version" : "0.1.0",
     "name" : "AnimalTypeVS"
+  },
+  {
+    "id" : "regions-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/regions-vs",
+    "version" : "0.1.0",
+    "name" : "RegionsVS"
   },
   {
     "id" : "yes-no-unknown",

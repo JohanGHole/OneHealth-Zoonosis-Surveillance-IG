@@ -24,8 +24,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillanceLM.html" : "Animal Surveillance",
-      "StructureDefinition-LaboratoryLM.html" : "Laboratory"
+      "StructureDefinition-LaboratoryLM.html" : "Laboratory",
+      "StructureDefinition-AnimalSurveillanceLM.html" : "Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
@@ -35,6 +35,18 @@
       "title" : "Animal Type",
       "description" : "Value set for types of animals.",
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type"]
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/regions-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RegionsVS",
+      "title" : "Regions Value Set",
+      "description" : "Value set for regions.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/regions-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-ZoonosisSurveillanceLM.html" : "Zoonosis Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown",
