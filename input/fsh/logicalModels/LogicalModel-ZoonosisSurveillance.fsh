@@ -14,7 +14,7 @@ Description: "Logical model describing the structure of Zoonosis surveillance."
 * location                       0..1       BackboneElement       "Location Information"
   * country                      0..1       code                  "Country"
   * locality                     0..1       string                "Locality"
-  * adminLevel1                  0..1       string                "Admin Level 1" // need valueSet Regions
+  * adminLevel1                  0..1       code                  "Admin Level 1"
   * adminLevel2                  0..1       string                "Admin Level 2" // need valueSet districts
   * localitySource               0..1       string                "Locality Source" // need valueset locality source
   * localityQuality              0..1       string                "Locality Quality" // need valueSet locality quality
@@ -24,3 +24,4 @@ Description: "Logical model describing the structure of Zoonosis surveillance."
 
 // Bindings
 * location.country from http://terminology.hl7.org/ValueSet/v3-Country (required)
+* location.adminLevel1 from RegionsVS (required)
