@@ -1,6 +1,6 @@
 CodeSystem: AnimalClassCS
 Id: animal-class
-Title: "Animal Class"
+Title: "Animal Class Code System"
 Description: "Code system for classifying types of animals."
 * #BIRDS "Birds"
 * #MAMMAL "Mammal"
