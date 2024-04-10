@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-10T09:09:18+00:00",
+  "date" : "2024-04-10T09:46:51+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -672,6 +672,18 @@
       },
       "name" : "Yes/No/Unknown",
       "description" : "Standard code system for yes, no, and unknown responses.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ZoonosisSurveillance"
+      },
+      "name" : "Zoonosis Surveillance",
+      "description" : "Logical model describing the structure of Zoonosis surveillance.",
       "exampleBoolean" : false
     }],
     "page" : {

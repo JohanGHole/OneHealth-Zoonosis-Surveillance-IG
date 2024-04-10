@@ -28,6 +28,13 @@
     "name" : "OneHealthZoonosisSurveillanceIG"
   },
   {
+    "id" : "ZoonosisSurveillance",
+    "type" : "StructureDefinition",
+    "url" : "https://dhis2.org/fhir/StructureDefinition/ZoonosisSurveillance",
+    "version" : "0.1.0",
+    "name" : "ZoonosisSurveillance"
+  },
+  {
     "id" : "animal-class",
     "type" : "ValueSet",
     "url" : "https://dhis2.org/fhir/ValueSet/animal-class",

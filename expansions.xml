@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="63d21304-0e9a-4d8e-a780-d569877bfe78"/>
+  <id value="06ad7a9a-d041-4ccf-b417-77d40c365999"/>
   <meta>
-    <lastUpdated value="2024-04-10T09:09:18.622+00:00"/>
+    <lastUpdated value="2024-04-10T09:46:51.182+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -117,10 +117,10 @@
         <name value="AnimalClassVS"/>
         <title value="Animal Class"/>
         <status value="draft"/>
-        <date value="2024-04-10T09:09:18+00:00"/>
+        <date value="2024-04-10T09:46:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5ef67dd4-f0c3-4bc7-a709-2881282516b9"/>
-          <timestamp value="2024-04-10T09:09:27+00:00"/>
+          <identifier value="urn:uuid:2e4a0718-8dab-4403-a3ae-bf22118c3881"/>
+          <timestamp value="2024-04-10T09:47:00+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -248,10 +248,10 @@
         <name value="AnimalTypeVS"/>
         <title value="Animal Type"/>
         <status value="draft"/>
-        <date value="2024-04-10T09:09:18+00:00"/>
+        <date value="2024-04-10T09:46:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c940a2eb-101d-4592-baae-6073036c287a"/>
-          <timestamp value="2024-04-10T09:09:27+00:00"/>
+          <identifier value="urn:uuid:820b49ff-55e0-4818-96e5-1b677e384fdd"/>
+          <timestamp value="2024-04-10T09:47:00+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -344,10 +344,10 @@
         <name value="YesNoUnknownVS"/>
         <title value="Yes/No/Unknown"/>
         <status value="draft"/>
-        <date value="2024-04-10T09:09:18+00:00"/>
+        <date value="2024-04-10T09:46:51+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:98afad09-1a73-4f77-800b-6c8f0ca9c88d"/>
-          <timestamp value="2024-04-10T09:09:27+00:00"/>
+          <identifier value="urn:uuid:4f358a79-805d-44be-b552-371ae2ae61dc"/>
+          <timestamp value="2024-04-10T09:47:00+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

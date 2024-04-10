@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-10T09:09:18+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-10T09:46:51+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -584,6 +584,18 @@
        ] ;
        fhir:name [ fhir:v "Yes/No/Unknown" ] ;
        fhir:description [ fhir:v "Standard code system for yes, no, and unknown responses." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/StructureDefinition/ZoonosisSurveillance> ;
+         fhir:reference [ fhir:v "StructureDefinition/ZoonosisSurveillance" ]
+       ] ;
+       fhir:name [ fhir:v "Zoonosis Surveillance" ] ;
+       fhir:description [ fhir:v "Logical model describing the structure of Zoonosis surveillance." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
