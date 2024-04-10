@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-10T09:46:51+00:00"/>
+  <date value="2024-04-10T12:05:41+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -472,6 +472,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AnimalSurveillanceLM"/>
+      </reference>
+      <name value="Animal Surveillance"/>
+      <description value="Logical model describing attributes related to animal surveillance."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -494,13 +505,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="ValueSet/yes-no-unknown"/>
+        <reference value="StructureDefinition/LaboratoryLM"/>
       </reference>
-      <name value="Yes/No/Unknown"/>
-      <description value="Standard value set for yes, no, and unknown responses."/>
+      <name value="Laboratory"/>
+      <description value="Logical model describing laboratory information, including sample identification and test details."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -511,7 +522,18 @@
         <reference value="CodeSystem/yes-no-unknown"/>
       </reference>
       <name value="Yes/No/Unknown"/>
-      <description value="Standard code system for yes, no, and unknown responses."/>
+      <description value="Code system for yes, no, and unknown responses."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/yes-no-unknown"/>
+      </reference>
+      <name value="Yes/No/Unknown Value Set"/>
+      <description value="Value set for yes, no, and unknown responses."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

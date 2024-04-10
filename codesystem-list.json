@@ -22,7 +22,7 @@
       "status" : "draft",
       "name" : "YesNoUnknownCS",
       "title" : "Yes/No/Unknown",
-      "description" : "Standard code system for yes, no, and unknown responses."
+      "description" : "Code system for yes, no, and unknown responses."
     }
   ]
 }

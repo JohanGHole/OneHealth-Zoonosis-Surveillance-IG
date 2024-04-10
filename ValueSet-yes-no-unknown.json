@@ -8,9 +8,9 @@
   "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown",
   "version" : "0.1.0",
   "name" : "YesNoUnknownVS",
-  "title" : "Yes/No/Unknown",
+  "title" : "Yes/No/Unknown Value Set",
   "status" : "draft",
-  "date" : "2024-04-10T09:46:51+00:00",
+  "date" : "2024-04-10T12:05:41+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -23,7 +23,7 @@
       "value" : "johan.hole@dhis2.org"
     }]
   }],
-  "description" : "Standard value set for yes, no, and unknown responses.",
+  "description" : "Value set for yes, no, and unknown responses.",
   "compose" : {
     "include" : [{
       "system" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown"

@@ -28,6 +28,20 @@
     "name" : "OneHealthZoonosisSurveillanceIG"
   },
   {
+    "id" : "AnimalSurveillanceLM",
+    "type" : "StructureDefinition",
+    "url" : "https://dhis2.org/fhir/StructureDefinition/AnimalSurveillanceLM",
+    "version" : "0.1.0",
+    "name" : "AnimalSurveillanceLM"
+  },
+  {
+    "id" : "LaboratoryLM",
+    "type" : "StructureDefinition",
+    "url" : "https://dhis2.org/fhir/StructureDefinition/LaboratoryLM",
+    "version" : "0.1.0",
+    "name" : "LaboratoryLM"
+  },
+  {
     "id" : "ZoonosisSurveillance",
     "type" : "StructureDefinition",
     "url" : "https://dhis2.org/fhir/StructureDefinition/ZoonosisSurveillance",

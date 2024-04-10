@@ -6,7 +6,7 @@
   "profiles": {},
   "usage": {
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-identifier": [
-      "ZoonosisSurveillance"
+      "ZoonosisSurveillance.generalInformation"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"

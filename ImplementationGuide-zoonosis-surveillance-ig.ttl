@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-10T09:46:51+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-10T12:05:41+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -540,6 +540,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/StructureDefinition/AnimalSurveillanceLM> ;
+         fhir:reference [ fhir:v "StructureDefinition/AnimalSurveillanceLM" ]
+       ] ;
+       fhir:name [ fhir:v "Animal Surveillance" ] ;
+       fhir:description [ fhir:v "Logical model describing attributes related to animal surveillance." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
@@ -564,14 +576,14 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://dhis2.org/fhir/ValueSet/yes-no-unknown> ;
-         fhir:reference [ fhir:v "ValueSet/yes-no-unknown" ]
+         fhir:link <https://dhis2.org/fhir/StructureDefinition/LaboratoryLM> ;
+         fhir:reference [ fhir:v "StructureDefinition/LaboratoryLM" ]
        ] ;
-       fhir:name [ fhir:v "Yes/No/Unknown" ] ;
-       fhir:description [ fhir:v "Standard value set for yes, no, and unknown responses." ] ;
+       fhir:name [ fhir:v "Laboratory" ] ;
+       fhir:description [ fhir:v "Logical model describing laboratory information, including sample identification and test details." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -583,7 +595,19 @@
          fhir:reference [ fhir:v "CodeSystem/yes-no-unknown" ]
        ] ;
        fhir:name [ fhir:v "Yes/No/Unknown" ] ;
-       fhir:description [ fhir:v "Standard code system for yes, no, and unknown responses." ] ;
+       fhir:description [ fhir:v "Code system for yes, no, and unknown responses." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/yes-no-unknown> ;
+         fhir:reference [ fhir:v "ValueSet/yes-no-unknown" ]
+       ] ;
+       fhir:name [ fhir:v "Yes/No/Unknown Value Set" ] ;
+       fhir:description [ fhir:v "Value set for yes, no, and unknown responses." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
