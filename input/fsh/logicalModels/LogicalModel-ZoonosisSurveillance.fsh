@@ -1,4 +1,4 @@
-Logical: ZoonosisSurveillance
+Logical: ZoonosisSurveillanceLM
 Title: "Zoonosis Surveillance"
 Parent: BackboneElement
 Description: "Logical model describing the structure of Zoonosis surveillance."
@@ -12,7 +12,7 @@ Description: "Logical model describing the structure of Zoonosis surveillance."
   * url                          0..1       url                   "Public URL"  
   * comment                      0..1       string                "General Comment"
 * location                       0..1       BackboneElement       "Location Information"
-  * country                      0..1       string                "Country" // need valueSet!
+  * country                      0..1       code                  "Country"
   * locality                     0..1       string                "Locality"
   * adminLevel1                  0..1       string                "Admin Level 1" // need valueSet Regions
   * adminLevel2                  0..1       string                "Admin Level 2" // need valueSet districts
@@ -22,3 +22,5 @@ Description: "Logical model describing the structure of Zoonosis surveillance."
 * animalSurveillance             0..*       AnimalSurveillanceLM  "Logical Model for Animal Surveillance"
 * laboratory                     0..*       LaboratoryLM          "Logical Model for Laboratory Information"
 
+// Bindings
+* location.country from http://terminology.hl7.org/ValueSet/v3-Country (required)
