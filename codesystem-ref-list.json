@@ -5,7 +5,7 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalClassCS",
-      "title" : "Animal Class",
+      "title" : "Animal Class Code System",
       "description" : "Code system for classifying types of animals.",
       "uses" : {
       },
@@ -16,7 +16,7 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalTypeCS",
-      "title" : "Animal Type",
+      "title" : "Animal Type Code System",
       "description" : "Code system for types of animals.",
       "uses" : {
       },

@@ -8,9 +8,9 @@
   <url value="https://dhis2.org/fhir/CodeSystem/animal-type"/>
   <version value="0.1.0"/>
   <name value="AnimalTypeCS"/>
-  <title value="Animal Type"/>
+  <title value="Animal Type Code System"/>
   <status value="draft"/>
-  <date value="2024-04-10T14:10:05+00:00"/>
+  <date value="2024-04-10T14:13:50+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>

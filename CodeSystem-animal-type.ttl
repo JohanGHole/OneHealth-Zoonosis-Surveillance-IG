@@ -15,9 +15,9 @@
   fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/animal-type"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "AnimalTypeCS"] ; # 
-  fhir:title [ fhir:v "Animal Type"] ; # 
+  fhir:title [ fhir:v "Animal Type Code System"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-10T14:10:05+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-10T14:13:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;

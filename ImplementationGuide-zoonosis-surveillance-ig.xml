@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-10T14:10:05+00:00"/>
+  <date value="2024-04-10T14:13:50+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -466,7 +466,7 @@
       <reference>
         <reference value="CodeSystem/animal-class"/>
       </reference>
-      <name value="Animal Class"/>
+      <name value="Animal Class Code System"/>
       <description value="Code system for classifying types of animals."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -488,7 +488,7 @@
       <reference>
         <reference value="CodeSystem/animal-type"/>
       </reference>
-      <name value="Animal Type"/>
+      <name value="Animal Type Code System"/>
       <description value="Code system for types of animals."/>
       <exampleBoolean value="false"/>
     </resource>

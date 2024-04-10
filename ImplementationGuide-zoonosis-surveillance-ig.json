@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-10T14:10:05+00:00",
+  "date" : "2024-04-10T14:13:50+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -622,7 +622,7 @@
       "reference" : {
         "reference" : "CodeSystem/animal-class"
       },
-      "name" : "Animal Class",
+      "name" : "Animal Class Code System",
       "description" : "Code system for classifying types of animals.",
       "exampleBoolean" : false
     },
@@ -646,7 +646,7 @@
       "reference" : {
         "reference" : "CodeSystem/animal-type"
       },
-      "name" : "Animal Type",
+      "name" : "Animal Type Code System",
       "description" : "Code system for types of animals.",
       "exampleBoolean" : false
     },

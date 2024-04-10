@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-10T14:10:05+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-10T14:13:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -534,7 +534,7 @@
          fhir:link <https://dhis2.org/fhir/CodeSystem/animal-class> ;
          fhir:reference [ fhir:v "CodeSystem/animal-class" ]
        ] ;
-       fhir:name [ fhir:v "Animal Class" ] ;
+       fhir:name [ fhir:v "Animal Class Code System" ] ;
        fhir:description [ fhir:v "Code system for classifying types of animals." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -558,7 +558,7 @@
          fhir:link <https://dhis2.org/fhir/CodeSystem/animal-type> ;
          fhir:reference [ fhir:v "CodeSystem/animal-type" ]
        ] ;
-       fhir:name [ fhir:v "Animal Type" ] ;
+       fhir:name [ fhir:v "Animal Type Code System" ] ;
        fhir:description [ fhir:v "Code system for types of animals." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [

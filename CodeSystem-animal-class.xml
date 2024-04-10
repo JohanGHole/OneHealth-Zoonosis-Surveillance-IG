@@ -8,9 +8,9 @@
   <url value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
   <version value="0.1.0"/>
   <name value="AnimalClassCS"/>
-  <title value="Animal Class"/>
+  <title value="Animal Class Code System"/>
   <status value="draft"/>
-  <date value="2024-04-10T14:10:05+00:00"/>
+  <date value="2024-04-10T14:13:50+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>

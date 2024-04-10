@@ -8,9 +8,9 @@
   "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
   "version" : "0.1.0",
   "name" : "AnimalTypeCS",
-  "title" : "Animal Type",
+  "title" : "Animal Type Code System",
   "status" : "draft",
-  "date" : "2024-04-10T14:10:05+00:00",
+  "date" : "2024-04-10T14:13:50+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
