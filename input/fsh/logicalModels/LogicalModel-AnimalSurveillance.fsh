@@ -1,5 +1,5 @@
-Logical: AnimalSurveillanceLM
-Title: "Animal Surveillance"
+Logical: AnimalSurveillance
+Title: "Logical Model - Animal Surveillance"
 Parent: BackboneElement
 Description: "Logical model describing attributes related to animal surveillance."
 * animalClass             1..1                 code        "Animal Class"

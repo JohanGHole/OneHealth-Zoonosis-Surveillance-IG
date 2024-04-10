@@ -1,5 +1,5 @@
-Logical: LaboratoryLM
-Title: "Laboratory"
+Logical: Laboratory
+Title: "Logical Model - Laboratory"
 Parent: BackboneElement
 Description: "Logical model describing laboratory information, including sample identification and test details."
 * animalClass             1..1                 code        "Animal Class"
