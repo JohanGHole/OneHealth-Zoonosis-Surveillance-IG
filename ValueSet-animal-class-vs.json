@@ -1,16 +1,16 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "animal-class",
+  "id" : "animal-class-vs",
   "text" : {
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-animal-class.html\"><code>https://dhis2.org/fhir/CodeSystem/animal-class</code></a></li></ul></div>"
   },
-  "url" : "https://dhis2.org/fhir/ValueSet/animal-class",
+  "url" : "https://dhis2.org/fhir/ValueSet/animal-class-vs",
   "version" : "0.1.0",
   "name" : "AnimalClassVS",
-  "title" : "Animal Class",
+  "title" : "Animal Class Value Set",
   "status" : "draft",
-  "date" : "2024-04-10T14:13:50+00:00",
+  "date" : "2024-04-11T10:33:02+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",

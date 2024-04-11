@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-10T14:13:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-11T10:33:02+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -516,18 +516,6 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://dhis2.org/fhir/ValueSet/animal-class> ;
-         fhir:reference [ fhir:v "ValueSet/animal-class" ]
-       ] ;
-       fhir:name [ fhir:v "Animal Class" ] ;
-       fhir:description [ fhir:v "Value set for classifying types of animals." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -543,11 +531,11 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://dhis2.org/fhir/ValueSet/animal-type> ;
-         fhir:reference [ fhir:v "ValueSet/animal-type" ]
+         fhir:link <https://dhis2.org/fhir/ValueSet/animal-class-vs> ;
+         fhir:reference [ fhir:v "ValueSet/animal-class-vs" ]
        ] ;
-       fhir:name [ fhir:v "Animal Type" ] ;
-       fhir:description [ fhir:v "Value set for types of animals." ] ;
+       fhir:name [ fhir:v "Animal Class Value Set" ] ;
+       fhir:description [ fhir:v "Value set for classifying types of animals." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -560,6 +548,18 @@
        ] ;
        fhir:name [ fhir:v "Animal Type Code System" ] ;
        fhir:description [ fhir:v "Code system for types of animals." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/animal-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/animal-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Animal Type Value Set" ] ;
+       fhir:description [ fhir:v "Value set for types of animals." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -699,10 +699,10 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://dhis2.org/fhir/CodeSystem/yes-no-unknown> ;
-         fhir:reference [ fhir:v "CodeSystem/yes-no-unknown" ]
+         fhir:link <https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/yes-no-unknown-cs" ]
        ] ;
-       fhir:name [ fhir:v "Yes/No/Unknown" ] ;
+       fhir:name [ fhir:v "Yes/No/Unknown Code System" ] ;
        fhir:description [ fhir:v "Code system for yes, no, and unknown responses." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [

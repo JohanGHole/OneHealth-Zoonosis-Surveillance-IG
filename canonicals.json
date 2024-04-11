@@ -42,9 +42,9 @@
     "name" : "RegionsCS"
   },
   {
-    "id" : "yes-no-unknown",
+    "id" : "yes-no-unknown-cs",
     "type" : "CodeSystem",
-    "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown",
+    "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs",
     "version" : "0.1.0",
     "name" : "YesNoUnknownCS"
   },
@@ -77,16 +77,16 @@
     "name" : "ZoonosisSurveillance"
   },
   {
-    "id" : "animal-class",
+    "id" : "animal-class-vs",
     "type" : "ValueSet",
-    "url" : "https://dhis2.org/fhir/ValueSet/animal-class",
+    "url" : "https://dhis2.org/fhir/ValueSet/animal-class-vs",
     "version" : "0.1.0",
     "name" : "AnimalClassVS"
   },
   {
-    "id" : "animal-type",
+    "id" : "animal-type-vs",
     "type" : "ValueSet",
-    "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
+    "url" : "https://dhis2.org/fhir/ValueSet/animal-type-vs",
     "version" : "0.1.0",
     "name" : "AnimalTypeVS"
   },

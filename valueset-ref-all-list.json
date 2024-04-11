@@ -15,11 +15,11 @@
       "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
     },
     {
-      "url" : "https://dhis2.org/fhir/ValueSet/animal-class",
+      "url" : "https://dhis2.org/fhir/ValueSet/animal-class-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalClassVS",
-      "title" : "Animal Class",
+      "title" : "Animal Class Value Set",
       "description" : "Value set for classifying types of animals.",
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class"],
       "uses" : {
@@ -28,11 +28,11 @@
       "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
     },
     {
-      "url" : "https://dhis2.org/fhir/ValueSet/animal-type",
+      "url" : "https://dhis2.org/fhir/ValueSet/animal-type-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalTypeVS",
-      "title" : "Animal Type",
+      "title" : "Animal Type Value Set",
       "description" : "Value set for types of animals.",
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type"]
     },
@@ -91,7 +91,7 @@
       "name" : "YesNoUnknownVS",
       "title" : "Yes/No/Unknown Value Set",
       "description" : "Value set for yes, no, and unknown responses.",
-      "systems" : ["https://dhis2.org/fhir/CodeSystem/yes-no-unknown"]
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs"]
     }
   ]
 }

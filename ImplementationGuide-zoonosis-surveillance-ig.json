@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-10T14:13:50+00:00",
+  "date" : "2024-04-11T10:33:02+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -605,18 +605,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/animal-class"
-      },
-      "name" : "Animal Class",
-      "description" : "Value set for classifying types of animals.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -632,10 +620,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/animal-type"
+        "reference" : "ValueSet/animal-class-vs"
       },
-      "name" : "Animal Type",
-      "description" : "Value set for types of animals.",
+      "name" : "Animal Class Value Set",
+      "description" : "Value set for classifying types of animals.",
       "exampleBoolean" : false
     },
     {
@@ -648,6 +636,18 @@
       },
       "name" : "Animal Type Code System",
       "description" : "Code system for types of animals.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/animal-type-vs"
+      },
+      "name" : "Animal Type Value Set",
+      "description" : "Value set for types of animals.",
       "exampleBoolean" : false
     },
     {
@@ -788,9 +788,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/yes-no-unknown"
+        "reference" : "CodeSystem/yes-no-unknown-cs"
       },
-      "name" : "Yes/No/Unknown",
+      "name" : "Yes/No/Unknown Code System",
       "description" : "Code system for yes, no, and unknown responses.",
       "exampleBoolean" : false
     },

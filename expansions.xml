@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="e5bc073f-0e92-480f-a2aa-436cf592b028"/>
+  <id value="28ce65b5-c063-4780-8ccd-c082c099dd9e"/>
   <meta>
-    <lastUpdated value="2024-04-10T14:13:50.232+00:00"/>
+    <lastUpdated value="2024-04-11T10:33:02.741+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://dhis2.org/fhir/ValueSet/animal-class"/>
+    <fullUrl value="https://dhis2.org/fhir/ValueSet/animal-class-vs"/>
     <resource>
       <ValueSet>
         <text>
@@ -112,15 +112,15 @@
             </table>
           </div>
         </text>
-        <url value="https://dhis2.org/fhir/ValueSet/animal-class"/>
+        <url value="https://dhis2.org/fhir/ValueSet/animal-class-vs"/>
         <version value="0.1.0"/>
         <name value="AnimalClassVS"/>
-        <title value="Animal Class"/>
+        <title value="Animal Class Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-10T14:13:50+00:00"/>
+        <date value="2024-04-11T10:33:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:bd576c47-04d8-440f-874b-39e6b7ca8023"/>
-          <timestamp value="2024-04-10T14:14:03+00:00"/>
+          <identifier value="urn:uuid:86c071a5-2154-4e20-bf54-eef0926829c0"/>
+          <timestamp value="2024-04-11T10:33:13+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -194,7 +194,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://dhis2.org/fhir/ValueSet/animal-type"/>
+    <fullUrl value="https://dhis2.org/fhir/ValueSet/animal-type-vs"/>
     <resource>
       <ValueSet>
         <text>
@@ -243,15 +243,15 @@
             </table>
           </div>
         </text>
-        <url value="https://dhis2.org/fhir/ValueSet/animal-type"/>
+        <url value="https://dhis2.org/fhir/ValueSet/animal-type-vs"/>
         <version value="0.1.0"/>
         <name value="AnimalTypeVS"/>
-        <title value="Animal Type"/>
+        <title value="Animal Type Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-10T14:13:50+00:00"/>
+        <date value="2024-04-11T10:33:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a9b7c933-0ddf-46c3-b1e1-373ce17ec74f"/>
-          <timestamp value="2024-04-10T14:14:03+00:00"/>
+          <identifier value="urn:uuid:eb49eb36-1ddc-4c4a-8b22-6330473b597a"/>
+          <timestamp value="2024-04-11T10:33:13+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1392,10 +1392,10 @@
         <name value="DistrictsVS"/>
         <title value="Districts Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-10T14:13:50+00:00"/>
+        <date value="2024-04-11T10:33:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c6314b81-d82c-4884-933b-86c9c31c2c25"/>
-          <timestamp value="2024-04-10T14:14:03+00:00"/>
+          <identifier value="urn:uuid:f79cf939-0371-44c1-8e6b-d92ef8daf7b6"/>
+          <timestamp value="2024-04-11T10:33:13+00:00"/>
           <total value="134"/>
           <offset value="0"/>
           <parameter>
@@ -2167,10 +2167,10 @@
         <name value="LocalityQualityVS"/>
         <title value="Locality Quality Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-10T14:13:50+00:00"/>
+        <date value="2024-04-11T10:33:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:29ea0515-a3ab-48e4-a80e-ebb3db7213f1"/>
-          <timestamp value="2024-04-10T14:14:03+00:00"/>
+          <identifier value="urn:uuid:9e9de85c-a6af-4af1-b771-d5f0126dcfb9"/>
+          <timestamp value="2024-04-11T10:33:13+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -2422,10 +2422,10 @@
         <name value="LocalitySourceVS"/>
         <title value="Locality Source Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-10T14:13:50+00:00"/>
+        <date value="2024-04-11T10:33:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:10fce0ba-e9d7-4429-995a-da6fd4e65000"/>
-          <timestamp value="2024-04-10T14:14:03+00:00"/>
+          <identifier value="urn:uuid:97e8ce27-f9e4-479d-8ffd-f8c2a24f5208"/>
+          <timestamp value="2024-04-11T10:33:14+00:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -2720,10 +2720,10 @@
         <name value="RegionsVS"/>
         <title value="Regions Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-10T14:13:50+00:00"/>
+        <date value="2024-04-11T10:33:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:312e55b3-938d-4c0f-ad3f-3abf4e98c007"/>
-          <timestamp value="2024-04-10T14:14:03+00:00"/>
+          <identifier value="urn:uuid:e6ccfd01-7c6d-4f60-81a7-72d8e67cfdd3"/>
+          <timestamp value="2024-04-11T10:33:14+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -2839,7 +2839,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-yes-no-unknown.html">codesystem Yes/No/Unknown v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-yes-no-unknown-cs.html">codesystem Yes/No/Unknown Code System v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts.</p>
             <table class="codes">
@@ -2856,26 +2856,26 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-YES"> </a>  
-                  <a href="CodeSystem-yes-no-unknown.html#yes-no-unknown-YES">YES</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-cs-YES"> </a>  
+                  <a href="CodeSystem-yes-no-unknown-cs.html#yes-no-unknown-cs-YES">YES</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown</td>
+                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs</td>
                 <td>Yes</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-NO"> </a>  
-                  <a href="CodeSystem-yes-no-unknown.html#yes-no-unknown-NO">NO</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-cs-NO"> </a>  
+                  <a href="CodeSystem-yes-no-unknown-cs.html#yes-no-unknown-cs-NO">NO</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown</td>
+                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs</td>
                 <td>No</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-UNKNOWN"> </a>  
-                  <a href="CodeSystem-yes-no-unknown.html#yes-no-unknown-UNKNOWN">UNKNOWN</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-yes-no-unknown-cs-UNKNOWN"> </a>  
+                  <a href="CodeSystem-yes-no-unknown-cs.html#yes-no-unknown-cs-UNKNOWN">UNKNOWN</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown</td>
+                <td>https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs</td>
                 <td>Unknown</td>
               </tr>
             </table>
@@ -2886,10 +2886,10 @@
         <name value="YesNoUnknownVS"/>
         <title value="Yes/No/Unknown Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-10T14:13:50+00:00"/>
+        <date value="2024-04-11T10:33:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f75f82aa-a2eb-48aa-8f98-bcdd075e0433"/>
-          <timestamp value="2024-04-10T14:14:03+00:00"/>
+          <identifier value="urn:uuid:52c154c8-84ff-4ceb-a383-c4703d7e9dab"/>
+          <timestamp value="2024-04-11T10:33:14+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -2906,20 +2906,20 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown|0.1.0"/>
+            <valueUri value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs|0.1.0"/>
           </parameter>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs"/>
             <code value="YES"/>
             <display value="Yes"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs"/>
             <code value="NO"/>
             <display value="No"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs"/>
             <code value="UNKNOWN"/>
             <display value="Unknown"/>
           </contains>

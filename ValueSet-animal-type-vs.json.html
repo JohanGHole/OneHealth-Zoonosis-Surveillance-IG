@@ -1,9 +1,11 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Yes/No/Unknown - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+    <title>Animal Type Value Set - JSON Representation - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.17"}
-    h3,h4,h5,h6{--heading-prefix:"2.17"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.5"}
+    h3,h4,h5,h6{--heading-prefix:"2.5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -113,7 +115,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Yes/No/Unknown</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Animal Type Value Set</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -125,9 +127,9 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
 
 
 
@@ -138,29 +140,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li class="active">
-    <a href="#">Narrative Content</a>
+  <li>
+    <a href="ValueSet-animal-type-vs.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="CodeSystem-yes-no-unknown.xml.html">XML</a>
+      <a href="ValueSet-animal-type-vs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="CodeSystem-yes-no-unknown.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="CodeSystem-yes-no-unknown.ttl.html">TTL</a>
+      <a href="ValueSet-animal-type-vs.ttl.html">TTL</a>
     </li>
   
 
@@ -168,85 +170,80 @@
 
 </ul>
 
-  <a name="root"> </a>
-  <h2 id="root">CodeSystem: Yes/No/Unknown
 
-  </h2>
+<a name="root"> </a>
+
+
+<h2 id="root">: Animal Type Value Set - JSON Representation</h2>
 
   <table class="colsd">
-
-    <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/CodeSystem/yes-no-unknown<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/CodeSystem/yes-no-unknown"/></span>
-      </td>
-      <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/CodeSystem/yes-no-unknown|0.1.0"/></span>
-      </td>
-    </tr>
-
     <tr>
 
-
-
-
-
-
-
-      <td colspan="4">
+      <td colspan="2">
         
           Draft
           
-            as of 2024-04-10
+            as of 2024-04-11
           
         
       </td>
 
-
-
-      <td><i>Computable Name</i>: <span style="font-family: monospace;">YesNoUnknownCS</span></td>
     </tr>
-
-
-
-
   </table>
 
-<p>
-<p>Code system for yes, no, and unknown responses.</p>
 
-</p>
+<p><a href="ValueSet-animal-type-vs.json" no-download="true">Raw json</a> | <a href="ValueSet-animal-type-vs.json" download>Download</a></p>
 
   <!-- insert intro if present -->
   
 
 
 
-  <p>
-  This Code system is referenced in the content logical definition of the following value sets:
-  </p>
+  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a>" : "animal-type-vs",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-animal-type.html\&quot;&gt;&lt;code&gt;https://dhis2.org/fhir/CodeSystem/animal-type&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "https://dhis2.org/fhir/ValueSet/animal-type-vs",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "AnimalTypeVS",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "Animal Type Value Set",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2024-04-11T10:33:02+00:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "DHIS2",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "DHIS2",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://dhis2.org"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "johan.hole@dhis2.org"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>" : "Value set for types of animals.",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "https://dhis2.org/fhir/CodeSystem/animal-type"
+      }
+    ]
+  }
+}</code></pre>
 
-  
-<ul>
- <li><a href="ValueSet-yes-no-unknown.html">YesNoUnknownVS</a></li>
-</ul>
-
-
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/yes-no-unknown</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
-<tr><td style="white-space:nowrap">YES<a name="yes-no-unknown-YES"> </a></td>
-<td>Yes</td></tr>
-<tr><td style="white-space:nowrap">NO<a name="yes-no-unknown-NO"> </a></td>
-<td>No</td></tr>
-<tr><td style="white-space:nowrap">UNKNOWN<a name="yes-no-unknown-UNKNOWN"> </a></td>
-<td>Unknown</td></tr></table></div>
-
-  
 
   <!-- insert notes if present -->
   
 
 
-
-  
 
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -270,7 +267,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 10, 2024 14:13+0000">2024-04-10</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 11, 2024 10:33+0000">2024-04-11</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -49,11 +49,11 @@
       "description" : "Code system for regions."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown",
+      "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "YesNoUnknownCS",
-      "title" : "Yes/No/Unknown",
+      "title" : "Yes/No/Unknown Code System",
       "description" : "Code system for yes, no, and unknown responses."
     }
   ]
