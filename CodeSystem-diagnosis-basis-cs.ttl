@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "diagnosis-basis-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CLINICAL_SIGNS<a name=\"diagnosis-basis-cs-CLINICAL_SIGNS\"> </a></td><td>Clinical Signs</td></tr><tr><td style=\"white-space:nowrap\">NECROPSY_LESIONS<a name=\"diagnosis-basis-cs-NECROPSY_LESIONS\"> </a></td><td>Necropsy Lesions</td></tr><tr><td style=\"white-space:nowrap\">LABORATORY_TEST<a name=\"diagnosis-basis-cs-LABORATORY_TEST\"> </a></td><td>Laboratory Test</td></tr><tr><td style=\"white-space:nowrap\">OTHERS<a name=\"diagnosis-basis-cs-OTHERS\"> </a></td><td>Others</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DiagnosisBasisCS"] ; # 
+  fhir:title [ fhir:v "Diagnosis Basis Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for diagnosis basis."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CLINICAL_SIGNS" ] ;
+     fhir:display [ fhir:v "Clinical Signs" ]
+  ] [
+     fhir:code [ fhir:v "NECROPSY_LESIONS" ] ;
+     fhir:display [ fhir:v "Necropsy Lesions" ]
+  ] [
+     fhir:code [ fhir:v "LABORATORY_TEST" ] ;
+     fhir:display [ fhir:v "Laboratory Test" ]
+  ] [
+     fhir:code [ fhir:v "OTHERS" ] ;
+     fhir:display [ fhir:v "Others" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

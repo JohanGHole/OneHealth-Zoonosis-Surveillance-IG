@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "disease-subtype-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-disease-subtype-cs.html\"><code>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</code></a></li></ul></div>"
+  },
+  "url" : "https://dhis2.org/fhir/ValueSet/disease-subtype-vs",
+  "version" : "0.1.0",
+  "name" : "DiseaseSubtypeVS",
+  "title" : "Disease Subtype Value Set",
+  "status" : "draft",
+  "date" : "2024-04-11T13:02:26+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Value set for disease subtypes.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://dhis2.org/fhir/CodeSystem/disease-subtype-cs"
+    }]
+  }
+}

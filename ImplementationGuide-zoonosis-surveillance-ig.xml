@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-11T10:34:35+00:00"/>
+  <date value="2024-04-11T13:02:26+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -519,6 +519,182 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/clade-cs"/>
+      </reference>
+      <name value="Clade Code System"/>
+      <description value="Code system for clade."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/clade-vs"/>
+      </reference>
+      <name value="Clade Value Set"/>
+      <description value="Value set for clade."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/clinical-signs-cs"/>
+      </reference>
+      <name value="Clinical Signs Code System"/>
+      <description value="code system for clinical signs."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/clinical-signs-vs"/>
+      </reference>
+      <name value="Clinical Signs Value Set"/>
+      <description value="Value set for clinical signs."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/control-measures-cs"/>
+      </reference>
+      <name value="Control Measures Code System"/>
+      <description value="Code system for control measures."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/control-measures-vs"/>
+      </reference>
+      <name value="Control Measures Value Set"/>
+      <description value="Value set for control measures."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/diagnosis-basis-cs"/>
+      </reference>
+      <name value="Diagnosis Basis Code System"/>
+      <description value="Code system for diagnosis basis."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/diagnosis-basis-vs"/>
+      </reference>
+      <name value="Diagnosis Basis Value Set"/>
+      <description value="value set for diagnosis basis."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/diagnostic-source-cs"/>
+      </reference>
+      <name value="Diagnostic Source Code System"/>
+      <description value="Code system for diagnostic source."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/diagnostic-source-vs"/>
+      </reference>
+      <name value="Diagnostic Source Value Set"/>
+      <description value="Value set for diagnostic source."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/diagnostic-status-cs"/>
+      </reference>
+      <name value="Diagnostic Status Code System"/>
+      <description value="Code system for diagnostic status"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/disease-status-vs"/>
+      </reference>
+      <name value="Disease Status Value Set"/>
+      <description value="Value set for diagnostic status."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/disease-subtype-cs"/>
+      </reference>
+      <name value="Disease Subtype Code System"/>
+      <description value="Code system for disease subtypes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/disease-subtype-vs"/>
+      </reference>
+      <name value="Disease Subtype Value Set"/>
+      <description value="Value set for disease subtypes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/diseases-cs"/>
+      </reference>
+      <name value="Diseases Code System"/>
+      <description value="Code system for diseases."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/diseases-vs"/>
+      </reference>
+      <name value="Diseases Value Set"/>
+      <description value="Value set for diseases."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/districts-cs"/>
       </reference>
       <name value="Districts Code System"/>
@@ -618,6 +794,72 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/necropsy-lesions-cs"/>
+      </reference>
+      <name value="Necropsy Lesions Code System"/>
+      <description value="Code system for necropsy lesions."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/necropsy-lesions-vs"/>
+      </reference>
+      <name value="Necropsy Lesions Value Set"/>
+      <description value="Value set for necropsy lesions."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/production-system-one-cs"/>
+      </reference>
+      <name value="Production System One Code System"/>
+      <description value="Code system for production system one."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/production-system-one-vs"/>
+      </reference>
+      <name value="Production System One Value Set"/>
+      <description value="Value set for production system one."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/production-system-two-cs"/>
+      </reference>
+      <name value="Production System Two Code System"/>
+      <description value="Code system for production system two."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/production-system-two-vs"/>
+      </reference>
+      <name value="Production System Two Value Set"/>
+      <description value="Value set for production system two."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/regions-cs"/>
       </reference>
       <name value="Regions Code System"/>
@@ -633,6 +875,50 @@
       </reference>
       <name value="Regions Value Set"/>
       <description value="Value set for regions."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/surveillance-type-cs"/>
+      </reference>
+      <name value="Surveillance Type Code System"/>
+      <description value="Code system for surveillance types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/surveillance-type-vs"/>
+      </reference>
+      <name value="Surveillance Type Value Set"/>
+      <description value="Value set for surveillance types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/treatments-cs"/>
+      </reference>
+      <name value="Treatments Code System"/>
+      <description value="Code system for possible treatments."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/treatments-vs"/>
+      </reference>
+      <name value="Treatments Value Set"/>
+      <description value="Value set for treatments."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

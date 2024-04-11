@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="diseases-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-diseases-cs.html"><code>https://dhis2.org/fhir/CodeSystem/diseases-cs</code></a></li></ul></div>
+  </text>
+  <url value="https://dhis2.org/fhir/ValueSet/diseases-vs"/>
+  <version value="0.1.0"/>
+  <name value="DiseasesVS"/>
+  <title value="Diseases Value Set"/>
+  <status value="draft"/>
+  <date value="2024-04-11T13:02:26+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Value set for diseases."/>
+  <compose>
+    <include>
+      <system value="https://dhis2.org/fhir/CodeSystem/diseases-cs"/>
+    </include>
+  </compose>
+</ValueSet>

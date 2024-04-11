@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Clinical Signs Value Set - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.8"}
+    h3,h4,h5,h6{--heading-prefix:"2.8"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Clinical Signs Value Set</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-clinical-signs-vs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-clinical-signs-vs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-clinical-signs-vs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Clinical Signs Value Set
+
+  </h2>
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/ValueSet/clinical-signs-vs<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-04-11
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ClinicalSignsVS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Value set for clinical signs.</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-AnimalSurveillance.html">Logical Model - Animal Surveillance</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-clinical-signs-cs.html"><code>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</code></a></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-clinical-signs-cs.html">codesystem Clinical Signs Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 157 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ABDOMINAL-PAINS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ABDOMINAL_PAINS">ABDOMINAL_PAINS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Abdominal pains</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ABDOMINAL-SWELLING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ABDOMINAL_SWELLING">ABDOMINAL_SWELLING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Abdominal swelling</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ABORTION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ABORTION">ABORTION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Abortion</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ABSCESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ABSCESS">ABSCESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Abscess</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ACIDEMIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ACIDEMIA">ACIDEMIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Acidemia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-AGGRESSION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-AGGRESSION">AGGRESSION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Aggression</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-AIR-HUNGER-POSITION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-AIR_HUNGER_POSITION">AIR_HUNGER_POSITION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Air hunger position</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ALOPECIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ALOPECIA">ALOPECIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Alopecia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ANAEMIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ANAEMIA">ANAEMIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Anaemia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ANOREXIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ANOREXIA">ANOREXIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Anorexia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ASCITES"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ASCITES">ASCITES</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Ascites</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ASTHMA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ASTHMA">ASTHMA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Asthma</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ATAXIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ATAXIA">ATAXIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Ataxia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BEHAVIOURAL-CHANGE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BEHAVIOURAL_CHANGE">BEHAVIOURAL_CHANGE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Behavioural change</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BELLIGERENT"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BELLIGERENT">BELLIGERENT</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Belligerent</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BELLOWING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BELLOWING">BELLOWING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Bellowing</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BITE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BITE">BITE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Bite</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BLINDNESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BLINDNESS">BLINDNESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Blindness</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BLOAT"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BLOAT">BLOAT</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Bloat</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BLOOD-IN-FAECES"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BLOOD_IN_FAECES">BLOOD_IN_FAECES</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Blood in faeces</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BLOOD-IN-URINE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BLOOD_IN_URINE">BLOOD_IN_URINE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Blood in urine</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BLOODY-DIARRHOEA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BLOODY_DIARRHOEA">BLOODY_DIARRHOEA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Bloody diarrhoea</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BORN-DEAD"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BORN_DEAD">BORN_DEAD</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Born dead</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BORN-HAIRLESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BORN_HAIRLESS">BORN_HAIRLESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Born hairless</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-BORN-WEAK"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-BORN_WEAK">BORN_WEAK</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Born weak</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CACHEXIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CACHEXIA">CACHEXIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Cachexia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CAULIFLOWER-LIKE-GROWTH"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CAULIFLOWER_LIKE_GROWTH">CAULIFLOWER_LIKE_GROWTH</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Cauliflower like growth</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CIRCLING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CIRCLING">CIRCLING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Circling</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-COLIC"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-COLIC">COLIC</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Colic</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-COMATOSE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-COMATOSE">COMATOSE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Comatose</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CONGENITAL-MALFORMATION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CONGENITAL_MALFORMATION">CONGENITAL_MALFORMATION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Congenital malformation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CONGESTION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CONGESTION">CONGESTION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Congestion</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CONGESTION-OF-COMB"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CONGESTION_OF_COMB">CONGESTION_OF_COMB</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Congestion of comb</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CONJUNCTIVITIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CONJUNCTIVITIS">CONJUNCTIVITIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Conjunctivitis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CONSTIPATION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CONSTIPATION">CONSTIPATION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Constipation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CONVULSION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CONVULSION">CONVULSION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Convulsion</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CORNEAL-OPACITY"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CORNEAL_OPACITY">CORNEAL_OPACITY</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Corneal opacity</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-COUGHING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-COUGHING">COUGHING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Coughing</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-CYANOTIC-COMB-AND-WATTLE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-CYANOTIC_COMB_AND_WATTLE">CYANOTIC_COMB_AND_WATTLE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Cyanotic comb and wattle</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DEATH"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DEATH">DEATH</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Death</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DEATH--ACUTE-"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DEATH_.40ACUTE.41">DEATH_(ACUTE)</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Death (acute)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DEHYDRATION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DEHYDRATION">DEHYDRATION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Dehydration</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DEPRESSION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DEPRESSION">DEPRESSION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Depression</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DERMATITIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DERMATITIS">DERMATITIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Dermatitis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DIAMON-SHAPED-LESIONS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DIAMON_SHAPED_LESIONS">DIAMON_SHAPED_LESIONS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Diamon shaped lesions</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DIARRHOEA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DIARRHOEA">DIARRHOEA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Diarrhoea</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DIARRHOEA--WATERY"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DIARRHOEA__WATERY">DIARRHOEA__WATERY</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Diarrhoea - watery</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DICREASE-EGG-PRODUCTION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DICREASE_EGG_PRODUCTION">DICREASE_EGG_PRODUCTION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Dicrease egg production</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DISCHARGE-FROM-EAR"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DISCHARGE_FROM_EAR">DISCHARGE_FROM_EAR</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Discharge from ear</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DROPING-OF-WING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DROPING_OF_WING">DROPING_OF_WING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Droping of wing</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DULL-HAIRCOAT"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DULL_HAIRCOAT">DULL_HAIRCOAT</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Dull haircoat</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DYSENTERY"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DYSENTERY">DYSENTERY</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Dysentery</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DYSPHAGIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DYSPHAGIA">DYSPHAGIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Dysphagia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DYSPNOEA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DYSPNOEA">DYSPNOEA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Dyspnoea</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DYSTOCIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DYSTOCIA">DYSTOCIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Dystocia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-DYSURIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-DYSURIA">DYSURIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>DYSURIA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-EDEMATOUS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-EDEMATOUS">EDEMATOUS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Edematous</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-EDEMATOUS-HEAD"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-EDEMATOUS_HEAD">EDEMATOUS_HEAD</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Edematous head</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-EMACIATION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-EMACIATION">EMACIATION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Emaciation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ERYTHEMA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ERYTHEMA">ERYTHEMA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Erythema</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-FACIAL-SWELLING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-FACIAL_SWELLING">FACIAL_SWELLING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Facial swelling</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-FEVER"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-FEVER">FEVER</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Fever</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-FOCAL-NECROSIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-FOCAL_NECROSIS">FOCAL_NECROSIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Focal necrosis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-FOOT-ROT"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-FOOT_ROT">FOOT_ROT</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Foot rot</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-FRACTURE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-FRACTURE">FRACTURE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Fracture</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-FROTHING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-FROTHING">FROTHING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Frothing</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-GOITRE--ENLARGED-THYROID-"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-GOITRE_.40ENLARGED_THYROID.41">GOITRE_(ENLARGED_THYROID)</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Goitre (enlarged thyroid)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HAEMATURIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HAEMATURIA">HAEMATURIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Haematuria</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HAEMOGLOBINURIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HAEMOGLOBINURIA">HAEMOGLOBINURIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Haemoglobinuria</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HAEMORRHAGES-ON-THE-HOOKS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HAEMORRHAGES_ON_THE_HOOKS">HAEMORRHAGES_ON_THE_HOOKS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Haemorrhages on the hooks</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HALITOSIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HALITOSIS">HALITOSIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Halitosis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HEAD-ACHE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HEAD_ACHE">HEAD_ACHE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Head ache</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HEAD-SHAKING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HEAD_SHAKING">HEAD_SHAKING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Head shaking</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HEAD-TILT"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HEAD_TILT">HEAD_TILT</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Head tilt</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HEMORRHAGIC-AND-CYANOTIC-COMBS-AND-WATTLES"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HEMORRHAGIC_AND_CYANOTIC_COMBS_AND_WATTLES">HEMORRHAGIC_AND_CYANOTIC_COMBS_AND_WATTLES</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Hemorrhagic and cyanotic combs and wattles</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HYPERVENTILATION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HYPERVENTILATION">HYPERVENTILATION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Hyperventilation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-HYPOTHERMIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-HYPOTHERMIA">HYPOTHERMIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Hypothermia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-ICTERUS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-ICTERUS">ICTERUS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Icterus</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-INFESTATION-OF-EXTERNAL-PARASITES"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-INFESTATION_OF_EXTERNAL_PARASITES">INFESTATION_OF_EXTERNAL_PARASITES</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Infestation of external parasites</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-INJURY"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-INJURY">INJURY</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Injury</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-INTERDIGITAL-BLISTERS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-INTERDIGITAL_BLISTERS">INTERDIGITAL_BLISTERS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Interdigital blisters</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-INTERDIGITAL-DERMATITIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-INTERDIGITAL_DERMATITIS">INTERDIGITAL_DERMATITIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Interdigital dermatitis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-INTERDIGITAL-VESICLES"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-INTERDIGITAL_VESICLES">INTERDIGITAL_VESICLES</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Interdigital vesicles</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LAMENESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LAMENESS">LAMENESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Lameness</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LESIONS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LESIONS">LESIONS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Lesions</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LETHARGY"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LETHARGY">LETHARGY</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Lethargy</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LIMPING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LIMPING">LIMPING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Limping</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LINGUAL-BLISTERS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LINGUAL_BLISTERS">LINGUAL_BLISTERS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Lingual Blisters</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LINGUAL-ULCERATIONS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LINGUAL_ULCERATIONS">LINGUAL_ULCERATIONS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Lingual ulcerations</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LINGUAL-VESICLES"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LINGUAL_VESICLES">LINGUAL_VESICLES</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Lingual vesicles</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LUMPS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LUMPS">LUMPS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Lumps</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-LYMPHNODES-ENLARGED"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-LYMPHNODES_ENLARGED">LYMPHNODES_ENLARGED</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Lymphnodes enlarged</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-MASTITIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-MASTITIS">MASTITIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Mastitis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-MILK-WITH-BLOOD"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-MILK_WITH_BLOOD">MILK_WITH_BLOOD</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Milk with blood</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-MILK-WITH-FLAPPY"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-MILK_WITH_FLAPPY">MILK_WITH_FLAPPY</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Milk with flappy</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-MILK-WITHY-PUS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-MILK_WITHY_PUS">MILK_WITHY_PUS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Milk withy pus</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-MUSCULAR-ATROPHY"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-MUSCULAR_ATROPHY">MUSCULAR_ATROPHY</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Muscular atrophy</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-NASAL-DISCHARGE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-NASAL_DISCHARGE">NASAL_DISCHARGE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Nasal Discharge</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-NERVOUS-SYMPTOMS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-NERVOUS_SYMPTOMS">NERVOUS_SYMPTOMS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Nervous symptoms</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-NO-CLINICAL-SIGNS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-NO_CLINICAL_SIGNS">NO_CLINICAL_SIGNS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>No clinical signs</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-NOT-DRINKING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-NOT_DRINKING">NOT_DRINKING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Not drinking</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-OCULAR-DISCHARGE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-OCULAR_DISCHARGE">OCULAR_DISCHARGE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Ocular discharge</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-OEDEMA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-OEDEMA">OEDEMA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Oedema</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-OTHER"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-OTHER">OTHER</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Other</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-OTITIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-OTITIS">OTITIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Otitis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PARALYSIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PARALYSIS">PARALYSIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Paralysis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PARESIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PARESIS">PARESIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Paresis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PENILE-DISCHARGE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PENILE_DISCHARGE">PENILE_DISCHARGE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Penile discharge</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PETECHIAE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PETECHIAE">PETECHIAE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Petechiae</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PNEUMONIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PNEUMONIA">PNEUMONIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Pneumonia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-POX"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-POX">POX</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Pox</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PREGNANT"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PREGNANT">PREGNANT</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Pregnant</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PREMATURE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PREMATURE">PREMATURE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Premature</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PREPUTIAL-PROLAPSE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PREPUTIAL_PROLAPSE">PREPUTIAL_PROLAPSE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Preputial prolapse</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PROTRUDED-TONGUE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PROTRUDED_TONGUE">PROTRUDED_TONGUE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Protruded tongue</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PROTRUDING-MASS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PROTRUDING_MASS">PROTRUDING_MASS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Protruding mass</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PRURITIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PRURITIS">PRURITIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Pruritis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PULMONARY-ABSCESSATION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PULMONARY_ABSCESSATION">PULMONARY_ABSCESSATION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Pulmonary abscessation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PURULENT-DISCHARGE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PURULENT_DISCHARGE">PURULENT_DISCHARGE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Purulent discharge</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-PUSTULES"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-PUSTULES">PUSTULES</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Pustules</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-QUIVER"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-QUIVER">QUIVER</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Quiver</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-RECUMBENCY"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-RECUMBENCY">RECUMBENCY</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Recumbency</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-REDNESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-REDNESS">REDNESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Redness</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-REDUCED-MILK-PRODUCTION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-REDUCED_MILK_PRODUCTION">REDUCED_MILK_PRODUCTION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Reduced milk production</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-RESPIRATORY-DISTRESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-RESPIRATORY_DISTRESS">RESPIRATORY_DISTRESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Respiratory distress</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-RESTLESSNESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-RESTLESSNESS">RESTLESSNESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Restlessness</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-RUMEN-STASIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-RUMEN_STASIS">RUMEN_STASIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Rumen stasis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SALIVATION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SALIVATION">SALIVATION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Salivation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SCABS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SCABS">SCABS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Scabs</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SOMNOLENCE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SOMNOLENCE">SOMNOLENCE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Somnolence</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-STARING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-STARING">STARING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Staring</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-STIFFNESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-STIFFNESS">STIFFNESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Stiffness</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-STILL-BIRTH"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-STILL_BIRTH">STILL_BIRTH</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>STILL BIRTH</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-STOMATITIS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-STOMATITIS">STOMATITIS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Stomatitis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-STRAINING"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-STRAINING">STRAINING</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Straining</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SWAYING-GAIT"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SWAYING_GAIT">SWAYING_GAIT</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Swaying gait</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SWELLING-OF-JOINTS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SWELLING_OF_JOINTS">SWELLING_OF_JOINTS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Swelling of joints</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SWELLING-OF-MUSCLE-GROUPS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SWELLING_OF_MUSCLE_GROUPS">SWELLING_OF_MUSCLE_GROUPS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Swelling of muscle groups</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SWLELLING-OF-SOFT-TISSUE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SWLELLING_OF_SOFT_TISSUE">SWLELLING_OF_SOFT_TISSUE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Swlelling of soft tissue</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SWOLLEN-HEAD"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SWOLLEN_HEAD">SWOLLEN_HEAD</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Swollen head</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SWOLLEN-NOSE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SWOLLEN_NOSE">SWOLLEN_NOSE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Swollen nose</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SWOLLEN-PREPUCE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SWOLLEN_PREPUCE">SWOLLEN_PREPUCE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Swollen prepuce</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-SWOLLEN-TONGUE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-SWOLLEN_TONGUE">SWOLLEN_TONGUE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Swollen tongue</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-TENESMUS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-TENESMUS">TENESMUS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Tenesmus</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-TICK-INFESTATION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-TICK_INFESTATION">TICK_INFESTATION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Tick infestation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-TORTICOLLIS--SCEW-NECK-"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-TORTICOLLIS_.40SCEW_NECK.41">TORTICOLLIS_(SCEW_NECK)</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Torticollis (scew neck)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-TREMOR"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-TREMOR">TREMOR</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Tremor</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-TUMOUR--EXTERNAL-"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-TUMOUR_.40EXTERNAL.41">TUMOUR_(EXTERNAL)</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Tumour (external)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-UMBILICAL-HERNIA"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-UMBILICAL_HERNIA">UMBILICAL_HERNIA</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Umbilical hernia</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-UTERINE-PROLAPSE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-UTERINE_PROLAPSE">UTERINE_PROLAPSE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Uterine prolapse</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-VAGINAL-DISCHARGE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-VAGINAL_DISCHARGE">VAGINAL_DISCHARGE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Vaginal discharge</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-VAGINAL-PROLAPSE"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-VAGINAL_PROLAPSE">VAGINAL_PROLAPSE</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Vaginal prolapse</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-VOMITION"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-VOMITION">VOMITION</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Vomition</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-WARTS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-WARTS">WARTS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Warts</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-WATERY-MILK"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-WATERY_MILK">WATERY_MILK</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Watery milk</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-WEAKNESS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-WEAKNESS">WEAKNESS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Weakness</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-clinical-signs-cs-WEALS"> </a>  <a href="CodeSystem-clinical-signs-cs.html#clinical-signs-cs-WEALS">WEALS</a></td><td>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</td><td>Weals</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 11, 2024 13:02+0000">2024-04-11</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

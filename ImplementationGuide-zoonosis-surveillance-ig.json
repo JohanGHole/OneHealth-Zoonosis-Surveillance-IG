@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-11T10:34:35+00:00",
+  "date" : "2024-04-11T13:02:26+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -680,6 +680,198 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/clade-cs"
+      },
+      "name" : "Clade Code System",
+      "description" : "Code system for clade.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/clade-vs"
+      },
+      "name" : "Clade Value Set",
+      "description" : "Value set for clade.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/clinical-signs-cs"
+      },
+      "name" : "Clinical Signs Code System",
+      "description" : "code system for clinical signs.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/clinical-signs-vs"
+      },
+      "name" : "Clinical Signs Value Set",
+      "description" : "Value set for clinical signs.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/control-measures-cs"
+      },
+      "name" : "Control Measures Code System",
+      "description" : "Code system for control measures.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/control-measures-vs"
+      },
+      "name" : "Control Measures Value Set",
+      "description" : "Value set for control measures.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/diagnosis-basis-cs"
+      },
+      "name" : "Diagnosis Basis Code System",
+      "description" : "Code system for diagnosis basis.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/diagnosis-basis-vs"
+      },
+      "name" : "Diagnosis Basis Value Set",
+      "description" : "value set for diagnosis basis.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/diagnostic-source-cs"
+      },
+      "name" : "Diagnostic Source Code System",
+      "description" : "Code system for diagnostic source.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/diagnostic-source-vs"
+      },
+      "name" : "Diagnostic Source Value Set",
+      "description" : "Value set for diagnostic source.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/diagnostic-status-cs"
+      },
+      "name" : "Diagnostic Status Code System",
+      "description" : "Code system for diagnostic status",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/disease-status-vs"
+      },
+      "name" : "Disease Status Value Set",
+      "description" : "Value set for diagnostic status.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/disease-subtype-cs"
+      },
+      "name" : "Disease Subtype Code System",
+      "description" : "Code system for disease subtypes.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/disease-subtype-vs"
+      },
+      "name" : "Disease Subtype Value Set",
+      "description" : "Value set for disease subtypes.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/diseases-cs"
+      },
+      "name" : "Diseases Code System",
+      "description" : "Code system for diseases.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/diseases-vs"
+      },
+      "name" : "Diseases Value Set",
+      "description" : "Value set for diseases.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/districts-cs"
       },
       "name" : "Districts Code System",
@@ -788,6 +980,78 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/necropsy-lesions-cs"
+      },
+      "name" : "Necropsy Lesions Code System",
+      "description" : "Code system for necropsy lesions.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/necropsy-lesions-vs"
+      },
+      "name" : "Necropsy Lesions Value Set",
+      "description" : "Value set for necropsy lesions.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/production-system-one-cs"
+      },
+      "name" : "Production System One Code System",
+      "description" : "Code system for production system one.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/production-system-one-vs"
+      },
+      "name" : "Production System One Value Set",
+      "description" : "Value set for production system one.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/production-system-two-cs"
+      },
+      "name" : "Production System Two Code System",
+      "description" : "Code system for production system two.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/production-system-two-vs"
+      },
+      "name" : "Production System Two Value Set",
+      "description" : "Value set for production system two.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/regions-cs"
       },
       "name" : "Regions Code System",
@@ -804,6 +1068,54 @@
       },
       "name" : "Regions Value Set",
       "description" : "Value set for regions.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/surveillance-type-cs"
+      },
+      "name" : "Surveillance Type Code System",
+      "description" : "Code system for surveillance types.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/surveillance-type-vs"
+      },
+      "name" : "Surveillance Type Value Set",
+      "description" : "Value set for surveillance types.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/treatments-cs"
+      },
+      "name" : "Treatments Code System",
+      "description" : "Code system for possible treatments.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/treatments-vs"
+      },
+      "name" : "Treatments Value Set",
+      "description" : "Value set for treatments.",
       "exampleBoolean" : false
     },
     {

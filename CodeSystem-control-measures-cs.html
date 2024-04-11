@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Control Measures Code System - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.30"}
+    h3,h4,h5,h6{--heading-prefix:"2.30"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Control Measures Code System</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-control-measures-cs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-control-measures-cs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-control-measures-cs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: Control Measures Code System
+
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/CodeSystem/control-measures-cs<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/CodeSystem/control-measures-cs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/CodeSystem/control-measures-cs|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-04-11
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ControlMeasuresCS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Code system for control measures.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/control-measures-cs</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">BAN_PLACED_ON_LIVESTOCK_AND_MEAT_PRODUCTS<a name="control-measures-cs-BAN_PLACED_ON_LIVESTOCK_AND_MEAT_PRODUCTS"> </a></td>
+<td>A ban has been placed on livestock and meat products entering or leaving its boundaries</td></tr>
+<tr><td style="white-space:nowrap">ALL_ANIMALS_ARE_ASO_KILLED_TO_CONTAIN_THE_OUTBREAK<a name="control-measures-cs-ALL_ANIMALS_ARE_ASO_KILLED_TO_CONTAIN_THE_OUTBREAK"> </a></td>
+<td>All animals are aso killed to contain the outbreak</td></tr>
+<tr><td style="white-space:nowrap">ALL_THE_ENTRY_OF_BORDER_ALONG<a name="control-measures-cs-ALL_THE_ENTRY_OF_BORDER_ALONG"> </a></td>
+<td>All the entry of border along the district have been sealed</td></tr>
+<tr><td style="white-space:nowrap">ANTE_AND_POST_MORTEM_INSPECTION<a name="control-measures-cs-ANTE_AND_POST_MORTEM_INSPECTION"> </a></td>
+<td>Ante and post mortem inspection</td></tr>
+<tr><td style="white-space:nowrap">BAN_ALL_LIVESTOCK_PRODUCTS_ENTERING_OR_EXITING<a name="control-measures-cs-BAN_ALL_LIVESTOCK_PRODUCTS_ENTERING_OR_EXITING"> </a></td>
+<td>Ban all livestock products entering or exiting that farm</td></tr>
+<tr><td style="white-space:nowrap">BAN_OF_IMPORTATION_OF_LIVE_POULTRY<a name="control-measures-cs-BAN_OF_IMPORTATION_OF_LIVE_POULTRY"> </a></td>
+<td>Ban of importation of live poultry</td></tr>
+<tr><td style="white-space:nowrap">BAN_OF_TRANSPORT_OF_EGGS_AND_POULTRY<a name="control-measures-cs-BAN_OF_TRANSPORT_OF_EGGS_AND_POULTRY"> </a></td>
+<td>Ban of transport of eggs and poultry</td></tr>
+<tr><td style="white-space:nowrap">BAN_ON_IMPORTING_LIVE_ANIMALS_AND_MEATS<a name="control-measures-cs-BAN_ON_IMPORTING_LIVE_ANIMALS_AND_MEATS"> </a></td>
+<td>Ban on importing live animals and meats</td></tr>
+<tr><td style="white-space:nowrap">BAN_ON_TRANSPORTING_ANIMALS<a name="control-measures-cs-BAN_ON_TRANSPORTING_ANIMALS"> </a></td>
+<td>Ban on transporting animals</td></tr>
+<tr><td style="white-space:nowrap">BREEDERS_WHO_HAVE_LOST_THEIR_PIGS_TO_THE_PANDEMIC<a name="control-measures-cs-BREEDERS_WHO_HAVE_LOST_THEIR_PIGS_TO_THE_PANDEMIC"> </a></td>
+<td>Breeders who have lost their pigs to the pandemic are being forced to slaughter their entire herd</td></tr>
+<tr><td style="white-space:nowrap">BURIAL<a name="control-measures-cs-BURIAL"> </a></td>
+<td>Burial</td></tr>
+<tr><td style="white-space:nowrap">BURNING<a name="control-measures-cs-BURNING"> </a></td>
+<td>Burning</td></tr>
+<tr><td style="white-space:nowrap">CARRY_OUT_IN_ALL_MARKETS_AND_SHOPS_IN_BISHKEK<a name="control-measures-cs-CARRY_OUT_IN_ALL_MARKETS_AND_SHOPS_IN_BISHKEK"> </a></td>
+<td>Carry out in all markets and shops in Bishkek where meat and other livestock products are sold</td></tr>
+<tr><td style="white-space:nowrap">CLEANING<a name="control-measures-cs-CLEANING"> </a></td>
+<td>Cleaning</td></tr>
+<tr><td style="white-space:nowrap">CLOSURE_OF_LIVESTOCK_MARKETS<a name="control-measures-cs-CLOSURE_OF_LIVESTOCK_MARKETS"> </a></td>
+<td>Closure of livestock markets</td></tr>
+<tr><td style="white-space:nowrap">CLOSURE_OF_SLAUGHTERING_PREMISES<a name="control-measures-cs-CLOSURE_OF_SLAUGHTERING_PREMISES"> </a></td>
+<td>Closure of slaughtering premises</td></tr>
+<tr><td style="white-space:nowrap">CLOSURE_OF_THE_SHOP<a name="control-measures-cs-CLOSURE_OF_THE_SHOP"> </a></td>
+<td>Closure of the shop</td></tr>
+<tr><td style="white-space:nowrap">CONFISCATION<a name="control-measures-cs-CONFISCATION"> </a></td>
+<td>Confiscation</td></tr>
+<tr><td style="white-space:nowrap">CONTROL_OF_ARTHROPODS<a name="control-measures-cs-CONTROL_OF_ARTHROPODS"> </a></td>
+<td>Control of arthropods</td></tr>
+<tr><td style="white-space:nowrap">CONTROL_OF_VECTORS<a name="control-measures-cs-CONTROL_OF_VECTORS"> </a></td>
+<td>Control of Vectors</td></tr>
+<tr><td style="white-space:nowrap">CONTROL_OF_WILDLIFE_RESERVOIRS<a name="control-measures-cs-CONTROL_OF_WILDLIFE_RESERVOIRS"> </a></td>
+<td>Control of wildlife reservoirs</td></tr>
+<tr><td style="white-space:nowrap">COORDINATION_WITH_LOCAL_AUTHORITIES<a name="control-measures-cs-COORDINATION_WITH_LOCAL_AUTHORITIES"> </a></td>
+<td>Coordination with local authorities</td></tr>
+<tr><td style="white-space:nowrap">CULLING<a name="control-measures-cs-CULLING"> </a></td>
+<td>Culling</td></tr>
+<tr><td style="white-space:nowrap">CULLING_OF_AFFECTED_ANIMALS_ONLY<a name="control-measures-cs-CULLING_OF_AFFECTED_ANIMALS_ONLY"> </a></td>
+<td>Culling of affected animals only</td></tr>
+<tr><td style="white-space:nowrap">DESTRUCTION<a name="control-measures-cs-DESTRUCTION"> </a></td>
+<td>Destruction</td></tr>
+<tr><td style="white-space:nowrap">DESTRUCTION_OF_CARCASSES<a name="control-measures-cs-DESTRUCTION_OF_CARCASSES"> </a></td>
+<td>Destruction of carcasses</td></tr>
+<tr><td style="white-space:nowrap">DIPPING_/_SPRAYING<a name="control-measures-cs-DIPPING_.47_SPRAYING"> </a></td>
+<td>Dipping / Spraying</td></tr>
+<tr><td style="white-space:nowrap">DISINFECTION<a name="control-measures-cs-DISINFECTION"> </a></td>
+<td>Disinfection</td></tr>
+<tr><td style="white-space:nowrap">DISINFECTION_/_DISINFESTATION<a name="control-measures-cs-DISINFECTION_.47_DISINFESTATION"> </a></td>
+<td>Disinfection / Disinfestation</td></tr>
+<tr><td style="white-space:nowrap">EDUCATION_INFORMATION_AND_COMMUNICATION<a name="control-measures-cs-EDUCATION_INFORMATION_AND_COMMUNICATION"> </a></td>
+<td>Education, Information and Communication</td></tr>
+<tr><td style="white-space:nowrap">EXPOSURE_TO_SICK_AND_DEAD_POULTRY<a name="control-measures-cs-EXPOSURE_TO_SICK_AND_DEAD_POULTRY"> </a></td>
+<td>Exposure to sick and dead poultry</td></tr>
+<tr><td style="white-space:nowrap">EXPOSURE_TO_SICK_AND/OR_DEAD_POULTRY<a name="control-measures-cs-EXPOSURE_TO_SICK_AND.47OR_DEAD_POULTRY"> </a></td>
+<td>Exposure to sick and/or dead poultry</td></tr>
+<tr><td style="white-space:nowrap">EXPOSURE_TO_SICK_OR_DEAD_POULTRY<a name="control-measures-cs-EXPOSURE_TO_SICK_OR_DEAD_POULTRY"> </a></td>
+<td>Exposure to sick or dead poultry</td></tr>
+<tr><td style="white-space:nowrap">FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION<a name="control-measures-cs-FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION"> </a></td>
+<td>Flooding associated with mosquito multiplication</td></tr>
+<tr><td style="white-space:nowrap">GENERAL_SURVEILLANCE<a name="control-measures-cs-GENERAL_SURVEILLANCE"> </a></td>
+<td>General Surveillance</td></tr>
+<tr><td style="white-space:nowrap">IMPLEMENT_CAPTURE_OF_VAMPIRE_BATS<a name="control-measures-cs-IMPLEMENT_CAPTURE_OF_VAMPIRE_BATS"> </a></td>
+<td>Implement capture of vampire bats</td></tr>
+<tr><td style="white-space:nowrap">IMPOSURE_OF_A_BAN_OF_CONSUMPTION<a name="control-measures-cs-IMPOSURE_OF_A_BAN_OF_CONSUMPTION"> </a></td>
+<td>Imposure of a ban of consumption</td></tr>
+<tr><td style="white-space:nowrap">ISOLATION_OF_THE_AFFECTED_ANIMAL<a name="control-measures-cs-ISOLATION_OF_THE_AFFECTED_ANIMAL"> </a></td>
+<td>Isolation of the affected animal</td></tr>
+<tr><td style="white-space:nowrap">ISOLATION_OF_THE_AFFECTED_AREA<a name="control-measures-cs-ISOLATION_OF_THE_AFFECTED_AREA"> </a></td>
+<td>Isolation of the affected area</td></tr>
+<tr><td style="white-space:nowrap">ISOLATION_OF_THE_AFFECTED_BIRD<a name="control-measures-cs-ISOLATION_OF_THE_AFFECTED_BIRD"> </a></td>
+<td>Isolation of the affected bird</td></tr>
+<tr><td style="white-space:nowrap">MAINTAIN_STRICT_CONTROL_OF_SLAUGHTER<a name="control-measures-cs-MAINTAIN_STRICT_CONTROL_OF_SLAUGHTER"> </a></td>
+<td>Maintain strict control of slaughter, sale, movement of poultry and poultry products in the communes</td></tr>
+<tr><td style="white-space:nowrap">MODIFIED_STAMPING_OUT<a name="control-measures-cs-MODIFIED_STAMPING_OUT"> </a></td>
+<td>Modified stamping out</td></tr>
+<tr><td style="white-space:nowrap">MONITORING<a name="control-measures-cs-MONITORING"> </a></td>
+<td>Monitoring</td></tr>
+<tr><td style="white-space:nowrap">MOVEMENT_CONTROL_INSIDE_THE_COUNTRY<a name="control-measures-cs-MOVEMENT_CONTROL_INSIDE_THE_COUNTRY"> </a></td>
+<td>Movement control inside the country</td></tr>
+<tr><td style="white-space:nowrap">MOVEMENT_CONTROL_OF_ANIMALS<a name="control-measures-cs-MOVEMENT_CONTROL_OF_ANIMALS"> </a></td>
+<td>Movement control of animals in and out of the locality</td></tr>
+<tr><td style="white-space:nowrap">NO_ACTION<a name="control-measures-cs-NO_ACTION"> </a></td>
+<td>No action</td></tr>
+<tr><td style="white-space:nowrap">NO_TREATMENT_OF_AFFECTED_ANIMALS<a name="control-measures-cs-NO_TREATMENT_OF_AFFECTED_ANIMALS"> </a></td>
+<td>No treatment of affected animals</td></tr>
+<tr><td style="white-space:nowrap">NO_VACCINATION<a name="control-measures-cs-NO_VACCINATION"> </a></td>
+<td>No vaccination</td></tr>
+<tr><td style="white-space:nowrap">NOTIFIABLE_DISEASE<a name="control-measures-cs-NOTIFIABLE_DISEASE"> </a></td>
+<td>Notifiable disease</td></tr>
+<tr><td style="white-space:nowrap">OFFICIAL_DESTRUCTION_OF_ANIMAL_PRODUCTS<a name="control-measures-cs-OFFICIAL_DESTRUCTION_OF_ANIMAL_PRODUCTS"> </a></td>
+<td>Official destruction of animal products</td></tr>
+<tr><td style="white-space:nowrap">OFFICIAL_DISPOSAL<a name="control-measures-cs-OFFICIAL_DISPOSAL"> </a></td>
+<td>Official disposal of carcasses, by-products and waste</td></tr>
+<tr><td style="white-space:nowrap">OFFICIALS_DEPLOYED_TO_PREVENT<a name="control-measures-cs-OFFICIALS_DEPLOYED_TO_PREVENT"> </a></td>
+<td>Officials deployed to prevent traders from sending birds outside</td></tr>
+<tr><td style="white-space:nowrap">PARTICIPATORY_DISEASE_SEARCH<a name="control-measures-cs-PARTICIPATORY_DISEASE_SEARCH"> </a></td>
+<td>Participatory Disease Search</td></tr>
+<tr><td style="white-space:nowrap">PEOPLE_WHO_CAME_IN_CONTACT_WITH_INFECTED<a name="control-measures-cs-PEOPLE_WHO_CAME_IN_CONTACT_WITH_INFECTED"> </a></td>
+<td>People who came in contact with infected cattle are receiving preventive therapy</td></tr>
+<tr><td style="white-space:nowrap">POTENTIAL_CONTACT_WITH_WILDLIFE<a name="control-measures-cs-POTENTIAL_CONTACT_WITH_WILDLIFE"> </a></td>
+<td>Potential contact with wildlife</td></tr>
+<tr><td style="white-space:nowrap">PRECAUTIONS_AT_THE_BORDERS<a name="control-measures-cs-PRECAUTIONS_AT_THE_BORDERS"> </a></td>
+<td>Precautions at the borders</td></tr>
+<tr><td style="white-space:nowrap">PREEMPTIVE_CULLING<a name="control-measures-cs-PREEMPTIVE_CULLING"> </a></td>
+<td>Preemptive Culling</td></tr>
+<tr><td style="white-space:nowrap">PRESS_RELEASE<a name="control-measures-cs-PRESS_RELEASE"> </a></td>
+<td>Press release</td></tr>
+<tr><td style="white-space:nowrap">PREVENT_SALE_INFECTED<a name="control-measures-cs-PREVENT_SALE_INFECTED"> </a></td>
+<td>Prevent sale infected</td></tr>
+<tr><td style="white-space:nowrap">PREVENT_TRANSPORT_POULTRY_PRODUCT<a name="control-measures-cs-PREVENT_TRANSPORT_POULTRY_PRODUCT"> </a></td>
+<td>Prevent transport poultry product out of the region</td></tr>
+<tr><td style="white-space:nowrap">PROCESS_TO_INACTIVATE_THE_PATHOGENIC_AGENT<a name="control-measures-cs-PROCESS_TO_INACTIVATE_THE_PATHOGENIC_AGENT"> </a></td>
+<td>Process to inactivate the pathogenic agent in products or by products</td></tr>
+<tr><td style="white-space:nowrap">PROHIBIT_THE_MOVEMENT_OF_POULTRY_AND_POULTRY<a name="control-measures-cs-PROHIBIT_THE_MOVEMENT_OF_POULTRY_AND_POULTRY"> </a></td>
+<td>Prohibit the movement of poultry and poultry products from areas</td></tr>
+<tr><td style="white-space:nowrap">PROHIBITION_OF_PROCESSING_SELLING_AND_CONSUMING<a name="control-measures-cs-PROHIBITION_OF_PROCESSING_SELLING_AND_CONSUMING"> </a></td>
+<td>Prohibition of Processing, selling and consuming affected products in the province</td></tr>
+<tr><td style="white-space:nowrap">PUBLIC_AWARENESS_CAMPAIGN<a name="control-measures-cs-PUBLIC_AWARENESS_CAMPAIGN"> </a></td>
+<td>Public awareness campaign,</td></tr>
+<tr><td style="white-space:nowrap">QUARANTINE<a name="control-measures-cs-QUARANTINE"> </a></td>
+<td>Quarantine</td></tr>
+<tr><td style="white-space:nowrap">REMOVE_ALL_THE_BIRDS_TO_THE_DEPARTMENT'S<a name="control-measures-cs-REMOVE_ALL_THE_BIRDS_TO_THE_DEPARTMENT.39S"> </a></td>
+<td>Remove all the birds to the Department's animal management centre</td></tr>
+<tr><td style="white-space:nowrap">RESTRICTIONS_ON_MEAT_IMPORTS<a name="control-measures-cs-RESTRICTIONS_ON_MEAT_IMPORTS"> </a></td>
+<td>Restrictions on meat imports</td></tr>
+<tr><td style="white-space:nowrap">RING_VACCINATION<a name="control-measures-cs-RING_VACCINATION"> </a></td>
+<td>Ring vaccination</td></tr>
+<tr><td style="white-space:nowrap">ROUTINE_VACCINATION<a name="control-measures-cs-ROUTINE_VACCINATION"> </a></td>
+<td>Routine vaccination</td></tr>
+<tr><td style="white-space:nowrap">SANITARY_CORDON<a name="control-measures-cs-SANITARY_CORDON"> </a></td>
+<td>Sanitary cordon</td></tr>
+<tr><td style="white-space:nowrap">SCREENING<a name="control-measures-cs-SCREENING"> </a></td>
+<td>Screening</td></tr>
+<tr><td style="white-space:nowrap">SCREENING_AND_ZONING<a name="control-measures-cs-SCREENING_AND_ZONING"> </a></td>
+<td>Screening and zoning</td></tr>
+<tr><td style="white-space:nowrap">SELECTIVE_KILLING_AND_DISPOSAL<a name="control-measures-cs-SELECTIVE_KILLING_AND_DISPOSAL"> </a></td>
+<td>Selective killing and disposal</td></tr>
+<tr><td style="white-space:nowrap">SET_UP_QUARANTINE_FIVE_STATIONS_ALONG_MAIN_STREETS<a name="control-measures-cs-SET_UP_QUARANTINE_FIVE_STATIONS_ALONG_MAIN_STREETS"> </a></td>
+<td>Set up quarantine five stations along main streets</td></tr>
+<tr><td style="white-space:nowrap">SLAUGHTER<a name="control-measures-cs-SLAUGHTER"> </a></td>
+<td>Slaughter</td></tr>
+<tr><td style="white-space:nowrap">STAMPING_OUT<a name="control-measures-cs-STAMPING_OUT"> </a></td>
+<td>Stamping out</td></tr>
+<tr><td style="white-space:nowrap">SURVEILLANCE_OUTSIDE_CONTAINMENT<a name="control-measures-cs-SURVEILLANCE_OUTSIDE_CONTAINMENT"> </a></td>
+<td>Surveillance outside containment and/or protection zone</td></tr>
+<tr><td style="white-space:nowrap">SURVEILLANCE_WITHIN_CONTAINMENT<a name="control-measures-cs-SURVEILLANCE_WITHIN_CONTAINMENT"> </a></td>
+<td>Surveillance within containment and/or protection zone</td></tr>
+<tr><td style="white-space:nowrap">TARGETED_SURVEILLANCE<a name="control-measures-cs-TARGETED_SURVEILLANCE"> </a></td>
+<td>Targeted Surveillance</td></tr>
+<tr><td style="white-space:nowrap">TARGETED_VACCINATION<a name="control-measures-cs-TARGETED_VACCINATION"> </a></td>
+<td>Targeted vaccination</td></tr>
+<tr><td style="white-space:nowrap">TO_PREVENT_TRANSPORTATION_OF_PIGS<a name="control-measures-cs-TO_PREVENT_TRANSPORTATION_OF_PIGS"> </a></td>
+<td>To prevent transportation of pigs in and out of the affected areas</td></tr>
+<tr><td style="white-space:nowrap">TO_SEAL_OFF<a name="control-measures-cs-TO_SEAL_OFF"> </a></td>
+<td>To seal off</td></tr>
+<tr><td style="white-space:nowrap">TRACEABILITY<a name="control-measures-cs-TRACEABILITY"> </a></td>
+<td>Traceability</td></tr>
+<tr><td style="white-space:nowrap">TRACING_BACK<a name="control-measures-cs-TRACING_BACK"> </a></td>
+<td>Tracing back</td></tr>
+<tr><td style="white-space:nowrap">TRACING_FORWARD<a name="control-measures-cs-TRACING_FORWARD"> </a></td>
+<td>Tracing forward</td></tr>
+<tr><td style="white-space:nowrap">TREATMENT<a name="control-measures-cs-TREATMENT"> </a></td>
+<td>Treatment</td></tr>
+<tr><td style="white-space:nowrap">TREATMENT_OF_AFFECTED_ANIMALS_(ANTIPARASITIC_)<a name="control-measures-cs-TREATMENT_OF_AFFECTED_ANIMALS_.40ANTIPARASITIC_.41"> </a></td>
+<td>Treatment of affected animals (Antiparasitic )</td></tr>
+<tr><td style="white-space:nowrap">TREATMENT_OF_ANIMALS_AFFECTED_WITH_ANTIBIOTICS<a name="control-measures-cs-TREATMENT_OF_ANIMALS_AFFECTED_WITH_ANTIBIOTICS"> </a></td>
+<td>Treatment of animals affected with antibiotics</td></tr>
+<tr><td style="white-space:nowrap">VACCINATION<a name="control-measures-cs-VACCINATION"> </a></td>
+<td>Vaccination</td></tr>
+<tr><td style="white-space:nowrap">VACCINATION_CAMPAIGN_IN_THE_AREA_AFFECTED<a name="control-measures-cs-VACCINATION_CAMPAIGN_IN_THE_AREA_AFFECTED"> </a></td>
+<td>Vaccination campaign in the area affected</td></tr>
+<tr><td style="white-space:nowrap">VACCINATION_IN_REPONSE_TO_OUTBREAK<a name="control-measures-cs-VACCINATION_IN_REPONSE_TO_OUTBREAK"> </a></td>
+<td>Vaccination in reponse to outbreak</td></tr>
+<tr><td style="white-space:nowrap">VACCINATION_PERMITTED_(IF_A_VACCINE_EXISTS)<a name="control-measures-cs-VACCINATION_PERMITTED_.40IF_A_VACCINE_EXISTS.41"> </a></td>
+<td>Vaccination permitted (if a vaccine exists)</td></tr>
+<tr><td style="white-space:nowrap">VACCINATION_PROHIBITED<a name="control-measures-cs-VACCINATION_PROHIBITED"> </a></td>
+<td>Vaccination prohibited</td></tr>
+<tr><td style="white-space:nowrap">VECTOR_SURVEILLANCE<a name="control-measures-cs-VECTOR_SURVEILLANCE"> </a></td>
+<td>Vector surveillance</td></tr>
+<tr><td style="white-space:nowrap">ZONING<a name="control-measures-cs-ZONING"> </a></td>
+<td>Zoning</td></tr>
+<tr><td style="white-space:nowrap">DISINFESTATION<a name="control-measures-cs-DISINFESTATION"> </a></td>
+<td>Disinfestation</td></tr>
+<tr><td style="white-space:nowrap">NO_CONTROL_MEASURES<a name="control-measures-cs-NO_CONTROL_MEASURES"> </a></td>
+<td>No control measures</td></tr>
+<tr><td style="white-space:nowrap">SURVEILLANCE_INSIDE_THE_RESTRICTED_ZONE<a name="control-measures-cs-SURVEILLANCE_INSIDE_THE_RESTRICTED_ZONE"> </a></td>
+<td>Surveillance inside the restricted zone</td></tr>
+<tr><td style="white-space:nowrap">SURVEILLANCE_OUTSIDE_THE_RESTRICTED_ZONE<a name="control-measures-cs-SURVEILLANCE_OUTSIDE_THE_RESTRICTED_ZONE"> </a></td>
+<td>Surveillance outside the restricted zone</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 11, 2024 13:02+0000">2024-04-11</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

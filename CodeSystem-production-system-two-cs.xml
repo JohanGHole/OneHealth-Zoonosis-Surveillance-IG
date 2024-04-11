@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="production-system-two-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/production-system-two-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">MEAT<a name="production-system-two-cs-MEAT"> </a></td><td>Meat</td></tr><tr><td style="white-space:nowrap">BREEDING<a name="production-system-two-cs-BREEDING"> </a></td><td>Breeding</td></tr><tr><td style="white-space:nowrap">BROILER<a name="production-system-two-cs-BROILER"> </a></td><td>Broiler</td></tr><tr><td style="white-space:nowrap">LAYER<a name="production-system-two-cs-LAYER"> </a></td><td>Layer</td></tr><tr><td style="white-space:nowrap">PARENT_STOCK<a name="production-system-two-cs-PARENT_STOCK"> </a></td><td>Parent stock</td></tr><tr><td style="white-space:nowrap">HATCHERY<a name="production-system-two-cs-HATCHERY"> </a></td><td>Hatchery</td></tr><tr><td style="white-space:nowrap">FREE_RANGE<a name="production-system-two-cs-FREE_RANGE"> </a></td><td>Free range</td></tr><tr><td style="white-space:nowrap">BIRD_SHOP<a name="production-system-two-cs-BIRD_SHOP"> </a></td><td>Bird shop</td></tr><tr><td style="white-space:nowrap">LIVE_MARKET<a name="production-system-two-cs-LIVE_MARKET"> </a></td><td>Live market</td></tr><tr><td style="white-space:nowrap">GAME_FARM<a name="production-system-two-cs-GAME_FARM"> </a></td><td>Game farm</td></tr><tr><td style="white-space:nowrap">HOUSEHOLD<a name="production-system-two-cs-HOUSEHOLD"> </a></td><td>Household</td></tr><tr><td style="white-space:nowrap">VILLAGE<a name="production-system-two-cs-VILLAGE"> </a></td><td>Village</td></tr><tr><td style="white-space:nowrap">DAIRY<a name="production-system-two-cs-DAIRY"> </a></td><td>Dairy</td></tr><tr><td style="white-space:nowrap">DUAL_PURPOSE<a name="production-system-two-cs-DUAL_PURPOSE"> </a></td><td>Dual purpose</td></tr><tr><td style="white-space:nowrap">WOOL_/_HAIR<a name="production-system-two-cs-WOOL_.47_HAIR"> </a></td><td>Wool / Hair</td></tr><tr><td style="white-space:nowrap">FATTENING<a name="production-system-two-cs-FATTENING"> </a></td><td>Fattening</td></tr><tr><td style="white-space:nowrap">POULTRY_SHOP<a name="production-system-two-cs-POULTRY_SHOP"> </a></td><td>Poultry shop</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/fhir/CodeSystem/production-system-two-cs"/>
+  <version value="0.1.0"/>
+  <name value="ProductionSystemTwoCS"/>
+  <title value="Production System Two Code System"/>
+  <status value="draft"/>
+  <date value="2024-04-11T13:02:26+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Code system for production system two."/>
+  <content value="complete"/>
+  <count value="17"/>
+  <concept>
+    <code value="MEAT"/>
+    <display value="Meat"/>
+  </concept>
+  <concept>
+    <code value="BREEDING"/>
+    <display value="Breeding"/>
+  </concept>
+  <concept>
+    <code value="BROILER"/>
+    <display value="Broiler"/>
+  </concept>
+  <concept>
+    <code value="LAYER"/>
+    <display value="Layer"/>
+  </concept>
+  <concept>
+    <code value="PARENT_STOCK"/>
+    <display value="Parent stock"/>
+  </concept>
+  <concept>
+    <code value="HATCHERY"/>
+    <display value="Hatchery"/>
+  </concept>
+  <concept>
+    <code value="FREE_RANGE"/>
+    <display value="Free range"/>
+  </concept>
+  <concept>
+    <code value="BIRD_SHOP"/>
+    <display value="Bird shop"/>
+  </concept>
+  <concept>
+    <code value="LIVE_MARKET"/>
+    <display value="Live market"/>
+  </concept>
+  <concept>
+    <code value="GAME_FARM"/>
+    <display value="Game farm"/>
+  </concept>
+  <concept>
+    <code value="HOUSEHOLD"/>
+    <display value="Household"/>
+  </concept>
+  <concept>
+    <code value="VILLAGE"/>
+    <display value="Village"/>
+  </concept>
+  <concept>
+    <code value="DAIRY"/>
+    <display value="Dairy"/>
+  </concept>
+  <concept>
+    <code value="DUAL_PURPOSE"/>
+    <display value="Dual purpose"/>
+  </concept>
+  <concept>
+    <code value="WOOL_/_HAIR"/>
+    <display value="Wool / Hair"/>
+  </concept>
+  <concept>
+    <code value="FATTENING"/>
+    <display value="Fattening"/>
+  </concept>
+  <concept>
+    <code value="POULTRY_SHOP"/>
+    <display value="Poultry shop"/>
+  </concept>
+</CodeSystem>

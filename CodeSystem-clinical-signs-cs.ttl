@@ -1,0 +1,509 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/clinical-signs-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "clinical-signs-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABDOMINAL_PAINS<a name=\"clinical-signs-cs-ABDOMINAL_PAINS\"> </a></td><td>Abdominal pains</td></tr><tr><td style=\"white-space:nowrap\">ABDOMINAL_SWELLING<a name=\"clinical-signs-cs-ABDOMINAL_SWELLING\"> </a></td><td>Abdominal swelling</td></tr><tr><td style=\"white-space:nowrap\">ABORTION<a name=\"clinical-signs-cs-ABORTION\"> </a></td><td>Abortion</td></tr><tr><td style=\"white-space:nowrap\">ABSCESS<a name=\"clinical-signs-cs-ABSCESS\"> </a></td><td>Abscess</td></tr><tr><td style=\"white-space:nowrap\">ACIDEMIA<a name=\"clinical-signs-cs-ACIDEMIA\"> </a></td><td>Acidemia</td></tr><tr><td style=\"white-space:nowrap\">AGGRESSION<a name=\"clinical-signs-cs-AGGRESSION\"> </a></td><td>Aggression</td></tr><tr><td style=\"white-space:nowrap\">AIR_HUNGER_POSITION<a name=\"clinical-signs-cs-AIR_HUNGER_POSITION\"> </a></td><td>Air hunger position</td></tr><tr><td style=\"white-space:nowrap\">ALOPECIA<a name=\"clinical-signs-cs-ALOPECIA\"> </a></td><td>Alopecia</td></tr><tr><td style=\"white-space:nowrap\">ANAEMIA<a name=\"clinical-signs-cs-ANAEMIA\"> </a></td><td>Anaemia</td></tr><tr><td style=\"white-space:nowrap\">ANOREXIA<a name=\"clinical-signs-cs-ANOREXIA\"> </a></td><td>Anorexia</td></tr><tr><td style=\"white-space:nowrap\">ASCITES<a name=\"clinical-signs-cs-ASCITES\"> </a></td><td>Ascites</td></tr><tr><td style=\"white-space:nowrap\">ASTHMA<a name=\"clinical-signs-cs-ASTHMA\"> </a></td><td>Asthma</td></tr><tr><td style=\"white-space:nowrap\">ATAXIA<a name=\"clinical-signs-cs-ATAXIA\"> </a></td><td>Ataxia</td></tr><tr><td style=\"white-space:nowrap\">BEHAVIOURAL_CHANGE<a name=\"clinical-signs-cs-BEHAVIOURAL_CHANGE\"> </a></td><td>Behavioural change</td></tr><tr><td style=\"white-space:nowrap\">BELLIGERENT<a name=\"clinical-signs-cs-BELLIGERENT\"> </a></td><td>Belligerent</td></tr><tr><td style=\"white-space:nowrap\">BELLOWING<a name=\"clinical-signs-cs-BELLOWING\"> </a></td><td>Bellowing</td></tr><tr><td style=\"white-space:nowrap\">BITE<a name=\"clinical-signs-cs-BITE\"> </a></td><td>Bite</td></tr><tr><td style=\"white-space:nowrap\">BLINDNESS<a name=\"clinical-signs-cs-BLINDNESS\"> </a></td><td>Blindness</td></tr><tr><td style=\"white-space:nowrap\">BLOAT<a name=\"clinical-signs-cs-BLOAT\"> </a></td><td>Bloat</td></tr><tr><td style=\"white-space:nowrap\">BLOOD_IN_FAECES<a name=\"clinical-signs-cs-BLOOD_IN_FAECES\"> </a></td><td>Blood in faeces</td></tr><tr><td style=\"white-space:nowrap\">BLOOD_IN_URINE<a name=\"clinical-signs-cs-BLOOD_IN_URINE\"> </a></td><td>Blood in urine</td></tr><tr><td style=\"white-space:nowrap\">BLOODY_DIARRHOEA<a name=\"clinical-signs-cs-BLOODY_DIARRHOEA\"> </a></td><td>Bloody diarrhoea</td></tr><tr><td style=\"white-space:nowrap\">BORN_DEAD<a name=\"clinical-signs-cs-BORN_DEAD\"> </a></td><td>Born dead</td></tr><tr><td style=\"white-space:nowrap\">BORN_HAIRLESS<a name=\"clinical-signs-cs-BORN_HAIRLESS\"> </a></td><td>Born hairless</td></tr><tr><td style=\"white-space:nowrap\">BORN_WEAK<a name=\"clinical-signs-cs-BORN_WEAK\"> </a></td><td>Born weak</td></tr><tr><td style=\"white-space:nowrap\">CACHEXIA<a name=\"clinical-signs-cs-CACHEXIA\"> </a></td><td>Cachexia</td></tr><tr><td style=\"white-space:nowrap\">CAULIFLOWER_LIKE_GROWTH<a name=\"clinical-signs-cs-CAULIFLOWER_LIKE_GROWTH\"> </a></td><td>Cauliflower like growth</td></tr><tr><td style=\"white-space:nowrap\">CIRCLING<a name=\"clinical-signs-cs-CIRCLING\"> </a></td><td>Circling</td></tr><tr><td style=\"white-space:nowrap\">COLIC<a name=\"clinical-signs-cs-COLIC\"> </a></td><td>Colic</td></tr><tr><td style=\"white-space:nowrap\">COMATOSE<a name=\"clinical-signs-cs-COMATOSE\"> </a></td><td>Comatose</td></tr><tr><td style=\"white-space:nowrap\">CONGENITAL_MALFORMATION<a name=\"clinical-signs-cs-CONGENITAL_MALFORMATION\"> </a></td><td>Congenital malformation</td></tr><tr><td style=\"white-space:nowrap\">CONGESTION<a name=\"clinical-signs-cs-CONGESTION\"> </a></td><td>Congestion</td></tr><tr><td style=\"white-space:nowrap\">CONGESTION_OF_COMB<a name=\"clinical-signs-cs-CONGESTION_OF_COMB\"> </a></td><td>Congestion of comb</td></tr><tr><td style=\"white-space:nowrap\">CONJUNCTIVITIS<a name=\"clinical-signs-cs-CONJUNCTIVITIS\"> </a></td><td>Conjunctivitis</td></tr><tr><td style=\"white-space:nowrap\">CONSTIPATION<a name=\"clinical-signs-cs-CONSTIPATION\"> </a></td><td>Constipation</td></tr><tr><td style=\"white-space:nowrap\">CONVULSION<a name=\"clinical-signs-cs-CONVULSION\"> </a></td><td>Convulsion</td></tr><tr><td style=\"white-space:nowrap\">CORNEAL_OPACITY<a name=\"clinical-signs-cs-CORNEAL_OPACITY\"> </a></td><td>Corneal opacity</td></tr><tr><td style=\"white-space:nowrap\">COUGHING<a name=\"clinical-signs-cs-COUGHING\"> </a></td><td>Coughing</td></tr><tr><td style=\"white-space:nowrap\">CYANOTIC_COMB_AND_WATTLE<a name=\"clinical-signs-cs-CYANOTIC_COMB_AND_WATTLE\"> </a></td><td>Cyanotic comb and wattle</td></tr><tr><td style=\"white-space:nowrap\">DEATH<a name=\"clinical-signs-cs-DEATH\"> </a></td><td>Death</td></tr><tr><td style=\"white-space:nowrap\">DEATH_(ACUTE)<a name=\"clinical-signs-cs-DEATH_.40ACUTE.41\"> </a></td><td>Death (acute)</td></tr><tr><td style=\"white-space:nowrap\">DEHYDRATION<a name=\"clinical-signs-cs-DEHYDRATION\"> </a></td><td>Dehydration</td></tr><tr><td style=\"white-space:nowrap\">DEPRESSION<a name=\"clinical-signs-cs-DEPRESSION\"> </a></td><td>Depression</td></tr><tr><td style=\"white-space:nowrap\">DERMATITIS<a name=\"clinical-signs-cs-DERMATITIS\"> </a></td><td>Dermatitis</td></tr><tr><td style=\"white-space:nowrap\">DIAMON_SHAPED_LESIONS<a name=\"clinical-signs-cs-DIAMON_SHAPED_LESIONS\"> </a></td><td>Diamon shaped lesions</td></tr><tr><td style=\"white-space:nowrap\">DIARRHOEA<a name=\"clinical-signs-cs-DIARRHOEA\"> </a></td><td>Diarrhoea</td></tr><tr><td style=\"white-space:nowrap\">DIARRHOEA__WATERY<a name=\"clinical-signs-cs-DIARRHOEA__WATERY\"> </a></td><td>Diarrhoea - watery</td></tr><tr><td style=\"white-space:nowrap\">DICREASE_EGG_PRODUCTION<a name=\"clinical-signs-cs-DICREASE_EGG_PRODUCTION\"> </a></td><td>Dicrease egg production</td></tr><tr><td style=\"white-space:nowrap\">DISCHARGE_FROM_EAR<a name=\"clinical-signs-cs-DISCHARGE_FROM_EAR\"> </a></td><td>Discharge from ear</td></tr><tr><td style=\"white-space:nowrap\">DROPING_OF_WING<a name=\"clinical-signs-cs-DROPING_OF_WING\"> </a></td><td>Droping of wing</td></tr><tr><td style=\"white-space:nowrap\">DULL_HAIRCOAT<a name=\"clinical-signs-cs-DULL_HAIRCOAT\"> </a></td><td>Dull haircoat</td></tr><tr><td style=\"white-space:nowrap\">DYSENTERY<a name=\"clinical-signs-cs-DYSENTERY\"> </a></td><td>Dysentery</td></tr><tr><td style=\"white-space:nowrap\">DYSPHAGIA<a name=\"clinical-signs-cs-DYSPHAGIA\"> </a></td><td>Dysphagia</td></tr><tr><td style=\"white-space:nowrap\">DYSPNOEA<a name=\"clinical-signs-cs-DYSPNOEA\"> </a></td><td>Dyspnoea</td></tr><tr><td style=\"white-space:nowrap\">DYSTOCIA<a name=\"clinical-signs-cs-DYSTOCIA\"> </a></td><td>Dystocia</td></tr><tr><td style=\"white-space:nowrap\">DYSURIA<a name=\"clinical-signs-cs-DYSURIA\"> </a></td><td>DYSURIA</td></tr><tr><td style=\"white-space:nowrap\">EDEMATOUS<a name=\"clinical-signs-cs-EDEMATOUS\"> </a></td><td>Edematous</td></tr><tr><td style=\"white-space:nowrap\">EDEMATOUS_HEAD<a name=\"clinical-signs-cs-EDEMATOUS_HEAD\"> </a></td><td>Edematous head</td></tr><tr><td style=\"white-space:nowrap\">EMACIATION<a name=\"clinical-signs-cs-EMACIATION\"> </a></td><td>Emaciation</td></tr><tr><td style=\"white-space:nowrap\">ERYTHEMA<a name=\"clinical-signs-cs-ERYTHEMA\"> </a></td><td>Erythema</td></tr><tr><td style=\"white-space:nowrap\">FACIAL_SWELLING<a name=\"clinical-signs-cs-FACIAL_SWELLING\"> </a></td><td>Facial swelling</td></tr><tr><td style=\"white-space:nowrap\">FEVER<a name=\"clinical-signs-cs-FEVER\"> </a></td><td>Fever</td></tr><tr><td style=\"white-space:nowrap\">FOCAL_NECROSIS<a name=\"clinical-signs-cs-FOCAL_NECROSIS\"> </a></td><td>Focal necrosis</td></tr><tr><td style=\"white-space:nowrap\">FOOT_ROT<a name=\"clinical-signs-cs-FOOT_ROT\"> </a></td><td>Foot rot</td></tr><tr><td style=\"white-space:nowrap\">FRACTURE<a name=\"clinical-signs-cs-FRACTURE\"> </a></td><td>Fracture</td></tr><tr><td style=\"white-space:nowrap\">FROTHING<a name=\"clinical-signs-cs-FROTHING\"> </a></td><td>Frothing</td></tr><tr><td style=\"white-space:nowrap\">GOITRE_(ENLARGED_THYROID)<a name=\"clinical-signs-cs-GOITRE_.40ENLARGED_THYROID.41\"> </a></td><td>Goitre (enlarged thyroid)</td></tr><tr><td style=\"white-space:nowrap\">HAEMATURIA<a name=\"clinical-signs-cs-HAEMATURIA\"> </a></td><td>Haematuria</td></tr><tr><td style=\"white-space:nowrap\">HAEMOGLOBINURIA<a name=\"clinical-signs-cs-HAEMOGLOBINURIA\"> </a></td><td>Haemoglobinuria</td></tr><tr><td style=\"white-space:nowrap\">HAEMORRHAGES_ON_THE_HOOKS<a name=\"clinical-signs-cs-HAEMORRHAGES_ON_THE_HOOKS\"> </a></td><td>Haemorrhages on the hooks</td></tr><tr><td style=\"white-space:nowrap\">HALITOSIS<a name=\"clinical-signs-cs-HALITOSIS\"> </a></td><td>Halitosis</td></tr><tr><td style=\"white-space:nowrap\">HEAD_ACHE<a name=\"clinical-signs-cs-HEAD_ACHE\"> </a></td><td>Head ache</td></tr><tr><td style=\"white-space:nowrap\">HEAD_SHAKING<a name=\"clinical-signs-cs-HEAD_SHAKING\"> </a></td><td>Head shaking</td></tr><tr><td style=\"white-space:nowrap\">HEAD_TILT<a name=\"clinical-signs-cs-HEAD_TILT\"> </a></td><td>Head tilt</td></tr><tr><td style=\"white-space:nowrap\">HEMORRHAGIC_AND_CYANOTIC_COMBS_AND_WATTLES<a name=\"clinical-signs-cs-HEMORRHAGIC_AND_CYANOTIC_COMBS_AND_WATTLES\"> </a></td><td>Hemorrhagic and cyanotic combs and wattles</td></tr><tr><td style=\"white-space:nowrap\">HYPERVENTILATION<a name=\"clinical-signs-cs-HYPERVENTILATION\"> </a></td><td>Hyperventilation</td></tr><tr><td style=\"white-space:nowrap\">HYPOTHERMIA<a name=\"clinical-signs-cs-HYPOTHERMIA\"> </a></td><td>Hypothermia</td></tr><tr><td style=\"white-space:nowrap\">ICTERUS<a name=\"clinical-signs-cs-ICTERUS\"> </a></td><td>Icterus</td></tr><tr><td style=\"white-space:nowrap\">INFESTATION_OF_EXTERNAL_PARASITES<a name=\"clinical-signs-cs-INFESTATION_OF_EXTERNAL_PARASITES\"> </a></td><td>Infestation of external parasites</td></tr><tr><td style=\"white-space:nowrap\">INJURY<a name=\"clinical-signs-cs-INJURY\"> </a></td><td>Injury</td></tr><tr><td style=\"white-space:nowrap\">INTERDIGITAL_BLISTERS<a name=\"clinical-signs-cs-INTERDIGITAL_BLISTERS\"> </a></td><td>Interdigital blisters</td></tr><tr><td style=\"white-space:nowrap\">INTERDIGITAL_DERMATITIS<a name=\"clinical-signs-cs-INTERDIGITAL_DERMATITIS\"> </a></td><td>Interdigital dermatitis</td></tr><tr><td style=\"white-space:nowrap\">INTERDIGITAL_VESICLES<a name=\"clinical-signs-cs-INTERDIGITAL_VESICLES\"> </a></td><td>Interdigital vesicles</td></tr><tr><td style=\"white-space:nowrap\">LAMENESS<a name=\"clinical-signs-cs-LAMENESS\"> </a></td><td>Lameness</td></tr><tr><td style=\"white-space:nowrap\">LESIONS<a name=\"clinical-signs-cs-LESIONS\"> </a></td><td>Lesions</td></tr><tr><td style=\"white-space:nowrap\">LETHARGY<a name=\"clinical-signs-cs-LETHARGY\"> </a></td><td>Lethargy</td></tr><tr><td style=\"white-space:nowrap\">LIMPING<a name=\"clinical-signs-cs-LIMPING\"> </a></td><td>Limping</td></tr><tr><td style=\"white-space:nowrap\">LINGUAL_BLISTERS<a name=\"clinical-signs-cs-LINGUAL_BLISTERS\"> </a></td><td>Lingual Blisters</td></tr><tr><td style=\"white-space:nowrap\">LINGUAL_ULCERATIONS<a name=\"clinical-signs-cs-LINGUAL_ULCERATIONS\"> </a></td><td>Lingual ulcerations</td></tr><tr><td style=\"white-space:nowrap\">LINGUAL_VESICLES<a name=\"clinical-signs-cs-LINGUAL_VESICLES\"> </a></td><td>Lingual vesicles</td></tr><tr><td style=\"white-space:nowrap\">LUMPS<a name=\"clinical-signs-cs-LUMPS\"> </a></td><td>Lumps</td></tr><tr><td style=\"white-space:nowrap\">LYMPHNODES_ENLARGED<a name=\"clinical-signs-cs-LYMPHNODES_ENLARGED\"> </a></td><td>Lymphnodes enlarged</td></tr><tr><td style=\"white-space:nowrap\">MASTITIS<a name=\"clinical-signs-cs-MASTITIS\"> </a></td><td>Mastitis</td></tr><tr><td style=\"white-space:nowrap\">MILK_WITH_BLOOD<a name=\"clinical-signs-cs-MILK_WITH_BLOOD\"> </a></td><td>Milk with blood</td></tr><tr><td style=\"white-space:nowrap\">MILK_WITH_FLAPPY<a name=\"clinical-signs-cs-MILK_WITH_FLAPPY\"> </a></td><td>Milk with flappy</td></tr><tr><td style=\"white-space:nowrap\">MILK_WITHY_PUS<a name=\"clinical-signs-cs-MILK_WITHY_PUS\"> </a></td><td>Milk withy pus</td></tr><tr><td style=\"white-space:nowrap\">MUSCULAR_ATROPHY<a name=\"clinical-signs-cs-MUSCULAR_ATROPHY\"> </a></td><td>Muscular atrophy</td></tr><tr><td style=\"white-space:nowrap\">NASAL_DISCHARGE<a name=\"clinical-signs-cs-NASAL_DISCHARGE\"> </a></td><td>Nasal Discharge</td></tr><tr><td style=\"white-space:nowrap\">NERVOUS_SYMPTOMS<a name=\"clinical-signs-cs-NERVOUS_SYMPTOMS\"> </a></td><td>Nervous symptoms</td></tr><tr><td style=\"white-space:nowrap\">NO_CLINICAL_SIGNS<a name=\"clinical-signs-cs-NO_CLINICAL_SIGNS\"> </a></td><td>No clinical signs</td></tr><tr><td style=\"white-space:nowrap\">NOT_DRINKING<a name=\"clinical-signs-cs-NOT_DRINKING\"> </a></td><td>Not drinking</td></tr><tr><td style=\"white-space:nowrap\">OCULAR_DISCHARGE<a name=\"clinical-signs-cs-OCULAR_DISCHARGE\"> </a></td><td>Ocular discharge</td></tr><tr><td style=\"white-space:nowrap\">OEDEMA<a name=\"clinical-signs-cs-OEDEMA\"> </a></td><td>Oedema</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"clinical-signs-cs-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">OTITIS<a name=\"clinical-signs-cs-OTITIS\"> </a></td><td>Otitis</td></tr><tr><td style=\"white-space:nowrap\">PARALYSIS<a name=\"clinical-signs-cs-PARALYSIS\"> </a></td><td>Paralysis</td></tr><tr><td style=\"white-space:nowrap\">PARESIS<a name=\"clinical-signs-cs-PARESIS\"> </a></td><td>Paresis</td></tr><tr><td style=\"white-space:nowrap\">PENILE_DISCHARGE<a name=\"clinical-signs-cs-PENILE_DISCHARGE\"> </a></td><td>Penile discharge</td></tr><tr><td style=\"white-space:nowrap\">PETECHIAE<a name=\"clinical-signs-cs-PETECHIAE\"> </a></td><td>Petechiae</td></tr><tr><td style=\"white-space:nowrap\">PNEUMONIA<a name=\"clinical-signs-cs-PNEUMONIA\"> </a></td><td>Pneumonia</td></tr><tr><td style=\"white-space:nowrap\">POX<a name=\"clinical-signs-cs-POX\"> </a></td><td>Pox</td></tr><tr><td style=\"white-space:nowrap\">PREGNANT<a name=\"clinical-signs-cs-PREGNANT\"> </a></td><td>Pregnant</td></tr><tr><td style=\"white-space:nowrap\">PREMATURE<a name=\"clinical-signs-cs-PREMATURE\"> </a></td><td>Premature</td></tr><tr><td style=\"white-space:nowrap\">PREPUTIAL_PROLAPSE<a name=\"clinical-signs-cs-PREPUTIAL_PROLAPSE\"> </a></td><td>Preputial prolapse</td></tr><tr><td style=\"white-space:nowrap\">PROTRUDED_TONGUE<a name=\"clinical-signs-cs-PROTRUDED_TONGUE\"> </a></td><td>Protruded tongue</td></tr><tr><td style=\"white-space:nowrap\">PROTRUDING_MASS<a name=\"clinical-signs-cs-PROTRUDING_MASS\"> </a></td><td>Protruding mass</td></tr><tr><td style=\"white-space:nowrap\">PRURITIS<a name=\"clinical-signs-cs-PRURITIS\"> </a></td><td>Pruritis</td></tr><tr><td style=\"white-space:nowrap\">PULMONARY_ABSCESSATION<a name=\"clinical-signs-cs-PULMONARY_ABSCESSATION\"> </a></td><td>Pulmonary abscessation</td></tr><tr><td style=\"white-space:nowrap\">PURULENT_DISCHARGE<a name=\"clinical-signs-cs-PURULENT_DISCHARGE\"> </a></td><td>Purulent discharge</td></tr><tr><td style=\"white-space:nowrap\">PUSTULES<a name=\"clinical-signs-cs-PUSTULES\"> </a></td><td>Pustules</td></tr><tr><td style=\"white-space:nowrap\">QUIVER<a name=\"clinical-signs-cs-QUIVER\"> </a></td><td>Quiver</td></tr><tr><td style=\"white-space:nowrap\">RECUMBENCY<a name=\"clinical-signs-cs-RECUMBENCY\"> </a></td><td>Recumbency</td></tr><tr><td style=\"white-space:nowrap\">REDNESS<a name=\"clinical-signs-cs-REDNESS\"> </a></td><td>Redness</td></tr><tr><td style=\"white-space:nowrap\">REDUCED_MILK_PRODUCTION<a name=\"clinical-signs-cs-REDUCED_MILK_PRODUCTION\"> </a></td><td>Reduced milk production</td></tr><tr><td style=\"white-space:nowrap\">RESPIRATORY_DISTRESS<a name=\"clinical-signs-cs-RESPIRATORY_DISTRESS\"> </a></td><td>Respiratory distress</td></tr><tr><td style=\"white-space:nowrap\">RESTLESSNESS<a name=\"clinical-signs-cs-RESTLESSNESS\"> </a></td><td>Restlessness</td></tr><tr><td style=\"white-space:nowrap\">RUMEN_STASIS<a name=\"clinical-signs-cs-RUMEN_STASIS\"> </a></td><td>Rumen stasis</td></tr><tr><td style=\"white-space:nowrap\">SALIVATION<a name=\"clinical-signs-cs-SALIVATION\"> </a></td><td>Salivation</td></tr><tr><td style=\"white-space:nowrap\">SCABS<a name=\"clinical-signs-cs-SCABS\"> </a></td><td>Scabs</td></tr><tr><td style=\"white-space:nowrap\">SOMNOLENCE<a name=\"clinical-signs-cs-SOMNOLENCE\"> </a></td><td>Somnolence</td></tr><tr><td style=\"white-space:nowrap\">STARING<a name=\"clinical-signs-cs-STARING\"> </a></td><td>Staring</td></tr><tr><td style=\"white-space:nowrap\">STIFFNESS<a name=\"clinical-signs-cs-STIFFNESS\"> </a></td><td>Stiffness</td></tr><tr><td style=\"white-space:nowrap\">STILL_BIRTH<a name=\"clinical-signs-cs-STILL_BIRTH\"> </a></td><td>STILL BIRTH</td></tr><tr><td style=\"white-space:nowrap\">STOMATITIS<a name=\"clinical-signs-cs-STOMATITIS\"> </a></td><td>Stomatitis</td></tr><tr><td style=\"white-space:nowrap\">STRAINING<a name=\"clinical-signs-cs-STRAINING\"> </a></td><td>Straining</td></tr><tr><td style=\"white-space:nowrap\">SWAYING_GAIT<a name=\"clinical-signs-cs-SWAYING_GAIT\"> </a></td><td>Swaying gait</td></tr><tr><td style=\"white-space:nowrap\">SWELLING_OF_JOINTS<a name=\"clinical-signs-cs-SWELLING_OF_JOINTS\"> </a></td><td>Swelling of joints</td></tr><tr><td style=\"white-space:nowrap\">SWELLING_OF_MUSCLE_GROUPS<a name=\"clinical-signs-cs-SWELLING_OF_MUSCLE_GROUPS\"> </a></td><td>Swelling of muscle groups</td></tr><tr><td style=\"white-space:nowrap\">SWLELLING_OF_SOFT_TISSUE<a name=\"clinical-signs-cs-SWLELLING_OF_SOFT_TISSUE\"> </a></td><td>Swlelling of soft tissue</td></tr><tr><td style=\"white-space:nowrap\">SWOLLEN_HEAD<a name=\"clinical-signs-cs-SWOLLEN_HEAD\"> </a></td><td>Swollen head</td></tr><tr><td style=\"white-space:nowrap\">SWOLLEN_NOSE<a name=\"clinical-signs-cs-SWOLLEN_NOSE\"> </a></td><td>Swollen nose</td></tr><tr><td style=\"white-space:nowrap\">SWOLLEN_PREPUCE<a name=\"clinical-signs-cs-SWOLLEN_PREPUCE\"> </a></td><td>Swollen prepuce</td></tr><tr><td style=\"white-space:nowrap\">SWOLLEN_TONGUE<a name=\"clinical-signs-cs-SWOLLEN_TONGUE\"> </a></td><td>Swollen tongue</td></tr><tr><td style=\"white-space:nowrap\">TENESMUS<a name=\"clinical-signs-cs-TENESMUS\"> </a></td><td>Tenesmus</td></tr><tr><td style=\"white-space:nowrap\">TICK_INFESTATION<a name=\"clinical-signs-cs-TICK_INFESTATION\"> </a></td><td>Tick infestation</td></tr><tr><td style=\"white-space:nowrap\">TORTICOLLIS_(SCEW_NECK)<a name=\"clinical-signs-cs-TORTICOLLIS_.40SCEW_NECK.41\"> </a></td><td>Torticollis (scew neck)</td></tr><tr><td style=\"white-space:nowrap\">TREMOR<a name=\"clinical-signs-cs-TREMOR\"> </a></td><td>Tremor</td></tr><tr><td style=\"white-space:nowrap\">TUMOUR_(EXTERNAL)<a name=\"clinical-signs-cs-TUMOUR_.40EXTERNAL.41\"> </a></td><td>Tumour (external)</td></tr><tr><td style=\"white-space:nowrap\">UMBILICAL_HERNIA<a name=\"clinical-signs-cs-UMBILICAL_HERNIA\"> </a></td><td>Umbilical hernia</td></tr><tr><td style=\"white-space:nowrap\">UTERINE_PROLAPSE<a name=\"clinical-signs-cs-UTERINE_PROLAPSE\"> </a></td><td>Uterine prolapse</td></tr><tr><td style=\"white-space:nowrap\">VAGINAL_DISCHARGE<a name=\"clinical-signs-cs-VAGINAL_DISCHARGE\"> </a></td><td>Vaginal discharge</td></tr><tr><td style=\"white-space:nowrap\">VAGINAL_PROLAPSE<a name=\"clinical-signs-cs-VAGINAL_PROLAPSE\"> </a></td><td>Vaginal prolapse</td></tr><tr><td style=\"white-space:nowrap\">VOMITION<a name=\"clinical-signs-cs-VOMITION\"> </a></td><td>Vomition</td></tr><tr><td style=\"white-space:nowrap\">WARTS<a name=\"clinical-signs-cs-WARTS\"> </a></td><td>Warts</td></tr><tr><td style=\"white-space:nowrap\">WATERY_MILK<a name=\"clinical-signs-cs-WATERY_MILK\"> </a></td><td>Watery milk</td></tr><tr><td style=\"white-space:nowrap\">WEAKNESS<a name=\"clinical-signs-cs-WEAKNESS\"> </a></td><td>Weakness</td></tr><tr><td style=\"white-space:nowrap\">WEALS<a name=\"clinical-signs-cs-WEALS\"> </a></td><td>Weals</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/clinical-signs-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ClinicalSignsCS"] ; # 
+  fhir:title [ fhir:v "Clinical Signs Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "code system for clinical signs."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "157"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ABDOMINAL_PAINS" ] ;
+     fhir:display [ fhir:v "Abdominal pains" ]
+  ] [
+     fhir:code [ fhir:v "ABDOMINAL_SWELLING" ] ;
+     fhir:display [ fhir:v "Abdominal swelling" ]
+  ] [
+     fhir:code [ fhir:v "ABORTION" ] ;
+     fhir:display [ fhir:v "Abortion" ]
+  ] [
+     fhir:code [ fhir:v "ABSCESS" ] ;
+     fhir:display [ fhir:v "Abscess" ]
+  ] [
+     fhir:code [ fhir:v "ACIDEMIA" ] ;
+     fhir:display [ fhir:v "Acidemia" ]
+  ] [
+     fhir:code [ fhir:v "AGGRESSION" ] ;
+     fhir:display [ fhir:v "Aggression" ]
+  ] [
+     fhir:code [ fhir:v "AIR_HUNGER_POSITION" ] ;
+     fhir:display [ fhir:v "Air hunger position" ]
+  ] [
+     fhir:code [ fhir:v "ALOPECIA" ] ;
+     fhir:display [ fhir:v "Alopecia" ]
+  ] [
+     fhir:code [ fhir:v "ANAEMIA" ] ;
+     fhir:display [ fhir:v "Anaemia" ]
+  ] [
+     fhir:code [ fhir:v "ANOREXIA" ] ;
+     fhir:display [ fhir:v "Anorexia" ]
+  ] [
+     fhir:code [ fhir:v "ASCITES" ] ;
+     fhir:display [ fhir:v "Ascites" ]
+  ] [
+     fhir:code [ fhir:v "ASTHMA" ] ;
+     fhir:display [ fhir:v "Asthma" ]
+  ] [
+     fhir:code [ fhir:v "ATAXIA" ] ;
+     fhir:display [ fhir:v "Ataxia" ]
+  ] [
+     fhir:code [ fhir:v "BEHAVIOURAL_CHANGE" ] ;
+     fhir:display [ fhir:v "Behavioural change" ]
+  ] [
+     fhir:code [ fhir:v "BELLIGERENT" ] ;
+     fhir:display [ fhir:v "Belligerent" ]
+  ] [
+     fhir:code [ fhir:v "BELLOWING" ] ;
+     fhir:display [ fhir:v "Bellowing" ]
+  ] [
+     fhir:code [ fhir:v "BITE" ] ;
+     fhir:display [ fhir:v "Bite" ]
+  ] [
+     fhir:code [ fhir:v "BLINDNESS" ] ;
+     fhir:display [ fhir:v "Blindness" ]
+  ] [
+     fhir:code [ fhir:v "BLOAT" ] ;
+     fhir:display [ fhir:v "Bloat" ]
+  ] [
+     fhir:code [ fhir:v "BLOOD_IN_FAECES" ] ;
+     fhir:display [ fhir:v "Blood in faeces" ]
+  ] [
+     fhir:code [ fhir:v "BLOOD_IN_URINE" ] ;
+     fhir:display [ fhir:v "Blood in urine" ]
+  ] [
+     fhir:code [ fhir:v "BLOODY_DIARRHOEA" ] ;
+     fhir:display [ fhir:v "Bloody diarrhoea" ]
+  ] [
+     fhir:code [ fhir:v "BORN_DEAD" ] ;
+     fhir:display [ fhir:v "Born dead" ]
+  ] [
+     fhir:code [ fhir:v "BORN_HAIRLESS" ] ;
+     fhir:display [ fhir:v "Born hairless" ]
+  ] [
+     fhir:code [ fhir:v "BORN_WEAK" ] ;
+     fhir:display [ fhir:v "Born weak" ]
+  ] [
+     fhir:code [ fhir:v "CACHEXIA" ] ;
+     fhir:display [ fhir:v "Cachexia" ]
+  ] [
+     fhir:code [ fhir:v "CAULIFLOWER_LIKE_GROWTH" ] ;
+     fhir:display [ fhir:v "Cauliflower like growth" ]
+  ] [
+     fhir:code [ fhir:v "CIRCLING" ] ;
+     fhir:display [ fhir:v "Circling" ]
+  ] [
+     fhir:code [ fhir:v "COLIC" ] ;
+     fhir:display [ fhir:v "Colic" ]
+  ] [
+     fhir:code [ fhir:v "COMATOSE" ] ;
+     fhir:display [ fhir:v "Comatose" ]
+  ] [
+     fhir:code [ fhir:v "CONGENITAL_MALFORMATION" ] ;
+     fhir:display [ fhir:v "Congenital malformation" ]
+  ] [
+     fhir:code [ fhir:v "CONGESTION" ] ;
+     fhir:display [ fhir:v "Congestion" ]
+  ] [
+     fhir:code [ fhir:v "CONGESTION_OF_COMB" ] ;
+     fhir:display [ fhir:v "Congestion of comb" ]
+  ] [
+     fhir:code [ fhir:v "CONJUNCTIVITIS" ] ;
+     fhir:display [ fhir:v "Conjunctivitis" ]
+  ] [
+     fhir:code [ fhir:v "CONSTIPATION" ] ;
+     fhir:display [ fhir:v "Constipation" ]
+  ] [
+     fhir:code [ fhir:v "CONVULSION" ] ;
+     fhir:display [ fhir:v "Convulsion" ]
+  ] [
+     fhir:code [ fhir:v "CORNEAL_OPACITY" ] ;
+     fhir:display [ fhir:v "Corneal opacity" ]
+  ] [
+     fhir:code [ fhir:v "COUGHING" ] ;
+     fhir:display [ fhir:v "Coughing" ]
+  ] [
+     fhir:code [ fhir:v "CYANOTIC_COMB_AND_WATTLE" ] ;
+     fhir:display [ fhir:v "Cyanotic comb and wattle" ]
+  ] [
+     fhir:code [ fhir:v "DEATH" ] ;
+     fhir:display [ fhir:v "Death" ]
+  ] [
+     fhir:code [ fhir:v "DEATH_(ACUTE)" ] ;
+     fhir:display [ fhir:v "Death (acute)" ]
+  ] [
+     fhir:code [ fhir:v "DEHYDRATION" ] ;
+     fhir:display [ fhir:v "Dehydration" ]
+  ] [
+     fhir:code [ fhir:v "DEPRESSION" ] ;
+     fhir:display [ fhir:v "Depression" ]
+  ] [
+     fhir:code [ fhir:v "DERMATITIS" ] ;
+     fhir:display [ fhir:v "Dermatitis" ]
+  ] [
+     fhir:code [ fhir:v "DIAMON_SHAPED_LESIONS" ] ;
+     fhir:display [ fhir:v "Diamon shaped lesions" ]
+  ] [
+     fhir:code [ fhir:v "DIARRHOEA" ] ;
+     fhir:display [ fhir:v "Diarrhoea" ]
+  ] [
+     fhir:code [ fhir:v "DIARRHOEA__WATERY" ] ;
+     fhir:display [ fhir:v "Diarrhoea - watery" ]
+  ] [
+     fhir:code [ fhir:v "DICREASE_EGG_PRODUCTION" ] ;
+     fhir:display [ fhir:v "Dicrease egg production" ]
+  ] [
+     fhir:code [ fhir:v "DISCHARGE_FROM_EAR" ] ;
+     fhir:display [ fhir:v "Discharge from ear" ]
+  ] [
+     fhir:code [ fhir:v "DROPING_OF_WING" ] ;
+     fhir:display [ fhir:v "Droping of wing" ]
+  ] [
+     fhir:code [ fhir:v "DULL_HAIRCOAT" ] ;
+     fhir:display [ fhir:v "Dull haircoat" ]
+  ] [
+     fhir:code [ fhir:v "DYSENTERY" ] ;
+     fhir:display [ fhir:v "Dysentery" ]
+  ] [
+     fhir:code [ fhir:v "DYSPHAGIA" ] ;
+     fhir:display [ fhir:v "Dysphagia" ]
+  ] [
+     fhir:code [ fhir:v "DYSPNOEA" ] ;
+     fhir:display [ fhir:v "Dyspnoea" ]
+  ] [
+     fhir:code [ fhir:v "DYSTOCIA" ] ;
+     fhir:display [ fhir:v "Dystocia" ]
+  ] [
+     fhir:code [ fhir:v "DYSURIA" ] ;
+     fhir:display [ fhir:v "DYSURIA" ]
+  ] [
+     fhir:code [ fhir:v "EDEMATOUS" ] ;
+     fhir:display [ fhir:v "Edematous" ]
+  ] [
+     fhir:code [ fhir:v "EDEMATOUS_HEAD" ] ;
+     fhir:display [ fhir:v "Edematous head" ]
+  ] [
+     fhir:code [ fhir:v "EMACIATION" ] ;
+     fhir:display [ fhir:v "Emaciation" ]
+  ] [
+     fhir:code [ fhir:v "ERYTHEMA" ] ;
+     fhir:display [ fhir:v "Erythema" ]
+  ] [
+     fhir:code [ fhir:v "FACIAL_SWELLING" ] ;
+     fhir:display [ fhir:v "Facial swelling" ]
+  ] [
+     fhir:code [ fhir:v "FEVER" ] ;
+     fhir:display [ fhir:v "Fever" ]
+  ] [
+     fhir:code [ fhir:v "FOCAL_NECROSIS" ] ;
+     fhir:display [ fhir:v "Focal necrosis" ]
+  ] [
+     fhir:code [ fhir:v "FOOT_ROT" ] ;
+     fhir:display [ fhir:v "Foot rot" ]
+  ] [
+     fhir:code [ fhir:v "FRACTURE" ] ;
+     fhir:display [ fhir:v "Fracture" ]
+  ] [
+     fhir:code [ fhir:v "FROTHING" ] ;
+     fhir:display [ fhir:v "Frothing" ]
+  ] [
+     fhir:code [ fhir:v "GOITRE_(ENLARGED_THYROID)" ] ;
+     fhir:display [ fhir:v "Goitre (enlarged thyroid)" ]
+  ] [
+     fhir:code [ fhir:v "HAEMATURIA" ] ;
+     fhir:display [ fhir:v "Haematuria" ]
+  ] [
+     fhir:code [ fhir:v "HAEMOGLOBINURIA" ] ;
+     fhir:display [ fhir:v "Haemoglobinuria" ]
+  ] [
+     fhir:code [ fhir:v "HAEMORRHAGES_ON_THE_HOOKS" ] ;
+     fhir:display [ fhir:v "Haemorrhages on the hooks" ]
+  ] [
+     fhir:code [ fhir:v "HALITOSIS" ] ;
+     fhir:display [ fhir:v "Halitosis" ]
+  ] [
+     fhir:code [ fhir:v "HEAD_ACHE" ] ;
+     fhir:display [ fhir:v "Head ache" ]
+  ] [
+     fhir:code [ fhir:v "HEAD_SHAKING" ] ;
+     fhir:display [ fhir:v "Head shaking" ]
+  ] [
+     fhir:code [ fhir:v "HEAD_TILT" ] ;
+     fhir:display [ fhir:v "Head tilt" ]
+  ] [
+     fhir:code [ fhir:v "HEMORRHAGIC_AND_CYANOTIC_COMBS_AND_WATTLES" ] ;
+     fhir:display [ fhir:v "Hemorrhagic and cyanotic combs and wattles" ]
+  ] [
+     fhir:code [ fhir:v "HYPERVENTILATION" ] ;
+     fhir:display [ fhir:v "Hyperventilation" ]
+  ] [
+     fhir:code [ fhir:v "HYPOTHERMIA" ] ;
+     fhir:display [ fhir:v "Hypothermia" ]
+  ] [
+     fhir:code [ fhir:v "ICTERUS" ] ;
+     fhir:display [ fhir:v "Icterus" ]
+  ] [
+     fhir:code [ fhir:v "INFESTATION_OF_EXTERNAL_PARASITES" ] ;
+     fhir:display [ fhir:v "Infestation of external parasites" ]
+  ] [
+     fhir:code [ fhir:v "INJURY" ] ;
+     fhir:display [ fhir:v "Injury" ]
+  ] [
+     fhir:code [ fhir:v "INTERDIGITAL_BLISTERS" ] ;
+     fhir:display [ fhir:v "Interdigital blisters" ]
+  ] [
+     fhir:code [ fhir:v "INTERDIGITAL_DERMATITIS" ] ;
+     fhir:display [ fhir:v "Interdigital dermatitis" ]
+  ] [
+     fhir:code [ fhir:v "INTERDIGITAL_VESICLES" ] ;
+     fhir:display [ fhir:v "Interdigital vesicles" ]
+  ] [
+     fhir:code [ fhir:v "LAMENESS" ] ;
+     fhir:display [ fhir:v "Lameness" ]
+  ] [
+     fhir:code [ fhir:v "LESIONS" ] ;
+     fhir:display [ fhir:v "Lesions" ]
+  ] [
+     fhir:code [ fhir:v "LETHARGY" ] ;
+     fhir:display [ fhir:v "Lethargy" ]
+  ] [
+     fhir:code [ fhir:v "LIMPING" ] ;
+     fhir:display [ fhir:v "Limping" ]
+  ] [
+     fhir:code [ fhir:v "LINGUAL_BLISTERS" ] ;
+     fhir:display [ fhir:v "Lingual Blisters" ]
+  ] [
+     fhir:code [ fhir:v "LINGUAL_ULCERATIONS" ] ;
+     fhir:display [ fhir:v "Lingual ulcerations" ]
+  ] [
+     fhir:code [ fhir:v "LINGUAL_VESICLES" ] ;
+     fhir:display [ fhir:v "Lingual vesicles" ]
+  ] [
+     fhir:code [ fhir:v "LUMPS" ] ;
+     fhir:display [ fhir:v "Lumps" ]
+  ] [
+     fhir:code [ fhir:v "LYMPHNODES_ENLARGED" ] ;
+     fhir:display [ fhir:v "Lymphnodes enlarged" ]
+  ] [
+     fhir:code [ fhir:v "MASTITIS" ] ;
+     fhir:display [ fhir:v "Mastitis" ]
+  ] [
+     fhir:code [ fhir:v "MILK_WITH_BLOOD" ] ;
+     fhir:display [ fhir:v "Milk with blood" ]
+  ] [
+     fhir:code [ fhir:v "MILK_WITH_FLAPPY" ] ;
+     fhir:display [ fhir:v "Milk with flappy" ]
+  ] [
+     fhir:code [ fhir:v "MILK_WITHY_PUS" ] ;
+     fhir:display [ fhir:v "Milk withy pus" ]
+  ] [
+     fhir:code [ fhir:v "MUSCULAR_ATROPHY" ] ;
+     fhir:display [ fhir:v "Muscular atrophy" ]
+  ] [
+     fhir:code [ fhir:v "NASAL_DISCHARGE" ] ;
+     fhir:display [ fhir:v "Nasal Discharge" ]
+  ] [
+     fhir:code [ fhir:v "NERVOUS_SYMPTOMS" ] ;
+     fhir:display [ fhir:v "Nervous symptoms" ]
+  ] [
+     fhir:code [ fhir:v "NO_CLINICAL_SIGNS" ] ;
+     fhir:display [ fhir:v "No clinical signs" ]
+  ] [
+     fhir:code [ fhir:v "NOT_DRINKING" ] ;
+     fhir:display [ fhir:v "Not drinking" ]
+  ] [
+     fhir:code [ fhir:v "OCULAR_DISCHARGE" ] ;
+     fhir:display [ fhir:v "Ocular discharge" ]
+  ] [
+     fhir:code [ fhir:v "OEDEMA" ] ;
+     fhir:display [ fhir:v "Oedema" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] [
+     fhir:code [ fhir:v "OTITIS" ] ;
+     fhir:display [ fhir:v "Otitis" ]
+  ] [
+     fhir:code [ fhir:v "PARALYSIS" ] ;
+     fhir:display [ fhir:v "Paralysis" ]
+  ] [
+     fhir:code [ fhir:v "PARESIS" ] ;
+     fhir:display [ fhir:v "Paresis" ]
+  ] [
+     fhir:code [ fhir:v "PENILE_DISCHARGE" ] ;
+     fhir:display [ fhir:v "Penile discharge" ]
+  ] [
+     fhir:code [ fhir:v "PETECHIAE" ] ;
+     fhir:display [ fhir:v "Petechiae" ]
+  ] [
+     fhir:code [ fhir:v "PNEUMONIA" ] ;
+     fhir:display [ fhir:v "Pneumonia" ]
+  ] [
+     fhir:code [ fhir:v "POX" ] ;
+     fhir:display [ fhir:v "Pox" ]
+  ] [
+     fhir:code [ fhir:v "PREGNANT" ] ;
+     fhir:display [ fhir:v "Pregnant" ]
+  ] [
+     fhir:code [ fhir:v "PREMATURE" ] ;
+     fhir:display [ fhir:v "Premature" ]
+  ] [
+     fhir:code [ fhir:v "PREPUTIAL_PROLAPSE" ] ;
+     fhir:display [ fhir:v "Preputial prolapse" ]
+  ] [
+     fhir:code [ fhir:v "PROTRUDED_TONGUE" ] ;
+     fhir:display [ fhir:v "Protruded tongue" ]
+  ] [
+     fhir:code [ fhir:v "PROTRUDING_MASS" ] ;
+     fhir:display [ fhir:v "Protruding mass" ]
+  ] [
+     fhir:code [ fhir:v "PRURITIS" ] ;
+     fhir:display [ fhir:v "Pruritis" ]
+  ] [
+     fhir:code [ fhir:v "PULMONARY_ABSCESSATION" ] ;
+     fhir:display [ fhir:v "Pulmonary abscessation" ]
+  ] [
+     fhir:code [ fhir:v "PURULENT_DISCHARGE" ] ;
+     fhir:display [ fhir:v "Purulent discharge" ]
+  ] [
+     fhir:code [ fhir:v "PUSTULES" ] ;
+     fhir:display [ fhir:v "Pustules" ]
+  ] [
+     fhir:code [ fhir:v "QUIVER" ] ;
+     fhir:display [ fhir:v "Quiver" ]
+  ] [
+     fhir:code [ fhir:v "RECUMBENCY" ] ;
+     fhir:display [ fhir:v "Recumbency" ]
+  ] [
+     fhir:code [ fhir:v "REDNESS" ] ;
+     fhir:display [ fhir:v "Redness" ]
+  ] [
+     fhir:code [ fhir:v "REDUCED_MILK_PRODUCTION" ] ;
+     fhir:display [ fhir:v "Reduced milk production" ]
+  ] [
+     fhir:code [ fhir:v "RESPIRATORY_DISTRESS" ] ;
+     fhir:display [ fhir:v "Respiratory distress" ]
+  ] [
+     fhir:code [ fhir:v "RESTLESSNESS" ] ;
+     fhir:display [ fhir:v "Restlessness" ]
+  ] [
+     fhir:code [ fhir:v "RUMEN_STASIS" ] ;
+     fhir:display [ fhir:v "Rumen stasis" ]
+  ] [
+     fhir:code [ fhir:v "SALIVATION" ] ;
+     fhir:display [ fhir:v "Salivation" ]
+  ] [
+     fhir:code [ fhir:v "SCABS" ] ;
+     fhir:display [ fhir:v "Scabs" ]
+  ] [
+     fhir:code [ fhir:v "SOMNOLENCE" ] ;
+     fhir:display [ fhir:v "Somnolence" ]
+  ] [
+     fhir:code [ fhir:v "STARING" ] ;
+     fhir:display [ fhir:v "Staring" ]
+  ] [
+     fhir:code [ fhir:v "STIFFNESS" ] ;
+     fhir:display [ fhir:v "Stiffness" ]
+  ] [
+     fhir:code [ fhir:v "STILL_BIRTH" ] ;
+     fhir:display [ fhir:v "STILL BIRTH" ]
+  ] [
+     fhir:code [ fhir:v "STOMATITIS" ] ;
+     fhir:display [ fhir:v "Stomatitis" ]
+  ] [
+     fhir:code [ fhir:v "STRAINING" ] ;
+     fhir:display [ fhir:v "Straining" ]
+  ] [
+     fhir:code [ fhir:v "SWAYING_GAIT" ] ;
+     fhir:display [ fhir:v "Swaying gait" ]
+  ] [
+     fhir:code [ fhir:v "SWELLING_OF_JOINTS" ] ;
+     fhir:display [ fhir:v "Swelling of joints" ]
+  ] [
+     fhir:code [ fhir:v "SWELLING_OF_MUSCLE_GROUPS" ] ;
+     fhir:display [ fhir:v "Swelling of muscle groups" ]
+  ] [
+     fhir:code [ fhir:v "SWLELLING_OF_SOFT_TISSUE" ] ;
+     fhir:display [ fhir:v "Swlelling of soft tissue" ]
+  ] [
+     fhir:code [ fhir:v "SWOLLEN_HEAD" ] ;
+     fhir:display [ fhir:v "Swollen head" ]
+  ] [
+     fhir:code [ fhir:v "SWOLLEN_NOSE" ] ;
+     fhir:display [ fhir:v "Swollen nose" ]
+  ] [
+     fhir:code [ fhir:v "SWOLLEN_PREPUCE" ] ;
+     fhir:display [ fhir:v "Swollen prepuce" ]
+  ] [
+     fhir:code [ fhir:v "SWOLLEN_TONGUE" ] ;
+     fhir:display [ fhir:v "Swollen tongue" ]
+  ] [
+     fhir:code [ fhir:v "TENESMUS" ] ;
+     fhir:display [ fhir:v "Tenesmus" ]
+  ] [
+     fhir:code [ fhir:v "TICK_INFESTATION" ] ;
+     fhir:display [ fhir:v "Tick infestation" ]
+  ] [
+     fhir:code [ fhir:v "TORTICOLLIS_(SCEW_NECK)" ] ;
+     fhir:display [ fhir:v "Torticollis (scew neck)" ]
+  ] [
+     fhir:code [ fhir:v "TREMOR" ] ;
+     fhir:display [ fhir:v "Tremor" ]
+  ] [
+     fhir:code [ fhir:v "TUMOUR_(EXTERNAL)" ] ;
+     fhir:display [ fhir:v "Tumour (external)" ]
+  ] [
+     fhir:code [ fhir:v "UMBILICAL_HERNIA" ] ;
+     fhir:display [ fhir:v "Umbilical hernia" ]
+  ] [
+     fhir:code [ fhir:v "UTERINE_PROLAPSE" ] ;
+     fhir:display [ fhir:v "Uterine prolapse" ]
+  ] [
+     fhir:code [ fhir:v "VAGINAL_DISCHARGE" ] ;
+     fhir:display [ fhir:v "Vaginal discharge" ]
+  ] [
+     fhir:code [ fhir:v "VAGINAL_PROLAPSE" ] ;
+     fhir:display [ fhir:v "Vaginal prolapse" ]
+  ] [
+     fhir:code [ fhir:v "VOMITION" ] ;
+     fhir:display [ fhir:v "Vomition" ]
+  ] [
+     fhir:code [ fhir:v "WARTS" ] ;
+     fhir:display [ fhir:v "Warts" ]
+  ] [
+     fhir:code [ fhir:v "WATERY_MILK" ] ;
+     fhir:display [ fhir:v "Watery milk" ]
+  ] [
+     fhir:code [ fhir:v "WEAKNESS" ] ;
+     fhir:display [ fhir:v "Weakness" ]
+  ] [
+     fhir:code [ fhir:v "WEALS" ] ;
+     fhir:display [ fhir:v "Weals" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

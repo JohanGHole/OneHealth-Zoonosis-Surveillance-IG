@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Control Measures Value Set - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.9"}
+    h3,h4,h5,h6{--heading-prefix:"2.9"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Control Measures Value Set</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-control-measures-vs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-control-measures-vs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-control-measures-vs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Control Measures Value Set
+
+  </h2>
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/ValueSet/control-measures-vs<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-04-11
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ControlMeasuresVS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Value set for control measures.</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-AnimalSurveillance.html">Logical Model - Animal Surveillance</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-control-measures-cs.html"><code>https://dhis2.org/fhir/CodeSystem/control-measures-cs</code></a></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-control-measures-cs.html">codesystem Control Measures Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 99 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BAN-PLACED-ON-LIVESTOCK-AND-MEAT-PRODUCTS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BAN_PLACED_ON_LIVESTOCK_AND_MEAT_PRODUCTS">BAN_PLACED_ON_LIVESTOCK_AND_MEAT_PRODUCTS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>A ban has been placed on livestock and meat products entering or leaving its boundaries</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-ALL-ANIMALS-ARE-ASO-KILLED-TO-CONTAIN-THE-OUTBREAK"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-ALL_ANIMALS_ARE_ASO_KILLED_TO_CONTAIN_THE_OUTBREAK">ALL_ANIMALS_ARE_ASO_KILLED_TO_CONTAIN_THE_OUTBREAK</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>All animals are aso killed to contain the outbreak</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-ALL-THE-ENTRY-OF-BORDER-ALONG"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-ALL_THE_ENTRY_OF_BORDER_ALONG">ALL_THE_ENTRY_OF_BORDER_ALONG</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>All the entry of border along the district have been sealed</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-ANTE-AND-POST-MORTEM-INSPECTION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-ANTE_AND_POST_MORTEM_INSPECTION">ANTE_AND_POST_MORTEM_INSPECTION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Ante and post mortem inspection</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BAN-ALL-LIVESTOCK-PRODUCTS-ENTERING-OR-EXITING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BAN_ALL_LIVESTOCK_PRODUCTS_ENTERING_OR_EXITING">BAN_ALL_LIVESTOCK_PRODUCTS_ENTERING_OR_EXITING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Ban all livestock products entering or exiting that farm</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BAN-OF-IMPORTATION-OF-LIVE-POULTRY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BAN_OF_IMPORTATION_OF_LIVE_POULTRY">BAN_OF_IMPORTATION_OF_LIVE_POULTRY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Ban of importation of live poultry</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BAN-OF-TRANSPORT-OF-EGGS-AND-POULTRY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BAN_OF_TRANSPORT_OF_EGGS_AND_POULTRY">BAN_OF_TRANSPORT_OF_EGGS_AND_POULTRY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Ban of transport of eggs and poultry</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BAN-ON-IMPORTING-LIVE-ANIMALS-AND-MEATS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BAN_ON_IMPORTING_LIVE_ANIMALS_AND_MEATS">BAN_ON_IMPORTING_LIVE_ANIMALS_AND_MEATS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Ban on importing live animals and meats</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BAN-ON-TRANSPORTING-ANIMALS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BAN_ON_TRANSPORTING_ANIMALS">BAN_ON_TRANSPORTING_ANIMALS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Ban on transporting animals</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BREEDERS-WHO-HAVE-LOST-THEIR-PIGS-TO-THE-PANDEMIC"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BREEDERS_WHO_HAVE_LOST_THEIR_PIGS_TO_THE_PANDEMIC">BREEDERS_WHO_HAVE_LOST_THEIR_PIGS_TO_THE_PANDEMIC</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Breeders who have lost their pigs to the pandemic are being forced to slaughter their entire herd</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BURIAL"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BURIAL">BURIAL</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Burial</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-BURNING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-BURNING">BURNING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Burning</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CARRY-OUT-IN-ALL-MARKETS-AND-SHOPS-IN-BISHKEK"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CARRY_OUT_IN_ALL_MARKETS_AND_SHOPS_IN_BISHKEK">CARRY_OUT_IN_ALL_MARKETS_AND_SHOPS_IN_BISHKEK</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Carry out in all markets and shops in Bishkek where meat and other livestock products are sold</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CLEANING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CLEANING">CLEANING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Cleaning</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CLOSURE-OF-LIVESTOCK-MARKETS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CLOSURE_OF_LIVESTOCK_MARKETS">CLOSURE_OF_LIVESTOCK_MARKETS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Closure of livestock markets</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CLOSURE-OF-SLAUGHTERING-PREMISES"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CLOSURE_OF_SLAUGHTERING_PREMISES">CLOSURE_OF_SLAUGHTERING_PREMISES</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Closure of slaughtering premises</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CLOSURE-OF-THE-SHOP"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CLOSURE_OF_THE_SHOP">CLOSURE_OF_THE_SHOP</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Closure of the shop</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CONFISCATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CONFISCATION">CONFISCATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Confiscation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CONTROL-OF-ARTHROPODS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CONTROL_OF_ARTHROPODS">CONTROL_OF_ARTHROPODS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Control of arthropods</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CONTROL-OF-VECTORS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CONTROL_OF_VECTORS">CONTROL_OF_VECTORS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Control of Vectors</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CONTROL-OF-WILDLIFE-RESERVOIRS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CONTROL_OF_WILDLIFE_RESERVOIRS">CONTROL_OF_WILDLIFE_RESERVOIRS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Control of wildlife reservoirs</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-COORDINATION-WITH-LOCAL-AUTHORITIES"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-COORDINATION_WITH_LOCAL_AUTHORITIES">COORDINATION_WITH_LOCAL_AUTHORITIES</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Coordination with local authorities</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CULLING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CULLING">CULLING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Culling</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-CULLING-OF-AFFECTED-ANIMALS-ONLY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-CULLING_OF_AFFECTED_ANIMALS_ONLY">CULLING_OF_AFFECTED_ANIMALS_ONLY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Culling of affected animals only</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-DESTRUCTION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-DESTRUCTION">DESTRUCTION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Destruction</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-DESTRUCTION-OF-CARCASSES"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-DESTRUCTION_OF_CARCASSES">DESTRUCTION_OF_CARCASSES</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Destruction of carcasses</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-DIPPING---SPRAYING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-DIPPING_.47_SPRAYING">DIPPING_/_SPRAYING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Dipping / Spraying</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-DISINFECTION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-DISINFECTION">DISINFECTION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Disinfection</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-DISINFECTION---DISINFESTATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-DISINFECTION_.47_DISINFESTATION">DISINFECTION_/_DISINFESTATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Disinfection / Disinfestation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-EDUCATION-INFORMATION-AND-COMMUNICATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-EDUCATION_INFORMATION_AND_COMMUNICATION">EDUCATION_INFORMATION_AND_COMMUNICATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Education, Information and Communication</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-EXPOSURE-TO-SICK-AND-DEAD-POULTRY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-EXPOSURE_TO_SICK_AND_DEAD_POULTRY">EXPOSURE_TO_SICK_AND_DEAD_POULTRY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Exposure to sick and dead poultry</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-EXPOSURE-TO-SICK-AND-OR-DEAD-POULTRY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-EXPOSURE_TO_SICK_AND.47OR_DEAD_POULTRY">EXPOSURE_TO_SICK_AND/OR_DEAD_POULTRY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Exposure to sick and/or dead poultry</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-EXPOSURE-TO-SICK-OR-DEAD-POULTRY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-EXPOSURE_TO_SICK_OR_DEAD_POULTRY">EXPOSURE_TO_SICK_OR_DEAD_POULTRY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Exposure to sick or dead poultry</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-FLOODING-ASSOCIATED-WITH-MOSQUITO-MULTIPLICATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION">FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Flooding associated with mosquito multiplication</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-GENERAL-SURVEILLANCE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-GENERAL_SURVEILLANCE">GENERAL_SURVEILLANCE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>General Surveillance</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-IMPLEMENT-CAPTURE-OF-VAMPIRE-BATS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-IMPLEMENT_CAPTURE_OF_VAMPIRE_BATS">IMPLEMENT_CAPTURE_OF_VAMPIRE_BATS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Implement capture of vampire bats</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-IMPOSURE-OF-A-BAN-OF-CONSUMPTION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-IMPOSURE_OF_A_BAN_OF_CONSUMPTION">IMPOSURE_OF_A_BAN_OF_CONSUMPTION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Imposure of a ban of consumption</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-ISOLATION-OF-THE-AFFECTED-ANIMAL"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-ISOLATION_OF_THE_AFFECTED_ANIMAL">ISOLATION_OF_THE_AFFECTED_ANIMAL</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Isolation of the affected animal</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-ISOLATION-OF-THE-AFFECTED-AREA"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-ISOLATION_OF_THE_AFFECTED_AREA">ISOLATION_OF_THE_AFFECTED_AREA</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Isolation of the affected area</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-ISOLATION-OF-THE-AFFECTED-BIRD"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-ISOLATION_OF_THE_AFFECTED_BIRD">ISOLATION_OF_THE_AFFECTED_BIRD</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Isolation of the affected bird</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-MAINTAIN-STRICT-CONTROL-OF-SLAUGHTER"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-MAINTAIN_STRICT_CONTROL_OF_SLAUGHTER">MAINTAIN_STRICT_CONTROL_OF_SLAUGHTER</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Maintain strict control of slaughter, sale, movement of poultry and poultry products in the communes</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-MODIFIED-STAMPING-OUT"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-MODIFIED_STAMPING_OUT">MODIFIED_STAMPING_OUT</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Modified stamping out</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-MONITORING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-MONITORING">MONITORING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Monitoring</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-MOVEMENT-CONTROL-INSIDE-THE-COUNTRY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-MOVEMENT_CONTROL_INSIDE_THE_COUNTRY">MOVEMENT_CONTROL_INSIDE_THE_COUNTRY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Movement control inside the country</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-MOVEMENT-CONTROL-OF-ANIMALS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-MOVEMENT_CONTROL_OF_ANIMALS">MOVEMENT_CONTROL_OF_ANIMALS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Movement control of animals in and out of the locality</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-NO-ACTION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-NO_ACTION">NO_ACTION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>No action</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-NO-TREATMENT-OF-AFFECTED-ANIMALS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-NO_TREATMENT_OF_AFFECTED_ANIMALS">NO_TREATMENT_OF_AFFECTED_ANIMALS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>No treatment of affected animals</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-NO-VACCINATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-NO_VACCINATION">NO_VACCINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>No vaccination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-NOTIFIABLE-DISEASE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-NOTIFIABLE_DISEASE">NOTIFIABLE_DISEASE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Notifiable disease</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-OFFICIAL-DESTRUCTION-OF-ANIMAL-PRODUCTS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-OFFICIAL_DESTRUCTION_OF_ANIMAL_PRODUCTS">OFFICIAL_DESTRUCTION_OF_ANIMAL_PRODUCTS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Official destruction of animal products</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-OFFICIAL-DISPOSAL"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-OFFICIAL_DISPOSAL">OFFICIAL_DISPOSAL</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Official disposal of carcasses, by-products and waste</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-OFFICIALS-DEPLOYED-TO-PREVENT"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-OFFICIALS_DEPLOYED_TO_PREVENT">OFFICIALS_DEPLOYED_TO_PREVENT</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Officials deployed to prevent traders from sending birds outside</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PARTICIPATORY-DISEASE-SEARCH"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PARTICIPATORY_DISEASE_SEARCH">PARTICIPATORY_DISEASE_SEARCH</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Participatory Disease Search</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PEOPLE-WHO-CAME-IN-CONTACT-WITH-INFECTED"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PEOPLE_WHO_CAME_IN_CONTACT_WITH_INFECTED">PEOPLE_WHO_CAME_IN_CONTACT_WITH_INFECTED</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>People who came in contact with infected cattle are receiving preventive therapy</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-POTENTIAL-CONTACT-WITH-WILDLIFE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-POTENTIAL_CONTACT_WITH_WILDLIFE">POTENTIAL_CONTACT_WITH_WILDLIFE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Potential contact with wildlife</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PRECAUTIONS-AT-THE-BORDERS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PRECAUTIONS_AT_THE_BORDERS">PRECAUTIONS_AT_THE_BORDERS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Precautions at the borders</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PREEMPTIVE-CULLING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PREEMPTIVE_CULLING">PREEMPTIVE_CULLING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Preemptive Culling</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PRESS-RELEASE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PRESS_RELEASE">PRESS_RELEASE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Press release</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PREVENT-SALE-INFECTED"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PREVENT_SALE_INFECTED">PREVENT_SALE_INFECTED</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Prevent sale infected</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PREVENT-TRANSPORT-POULTRY-PRODUCT"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PREVENT_TRANSPORT_POULTRY_PRODUCT">PREVENT_TRANSPORT_POULTRY_PRODUCT</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Prevent transport poultry product out of the region</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PROCESS-TO-INACTIVATE-THE-PATHOGENIC-AGENT"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PROCESS_TO_INACTIVATE_THE_PATHOGENIC_AGENT">PROCESS_TO_INACTIVATE_THE_PATHOGENIC_AGENT</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Process to inactivate the pathogenic agent in products or by products</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PROHIBIT-THE-MOVEMENT-OF-POULTRY-AND-POULTRY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PROHIBIT_THE_MOVEMENT_OF_POULTRY_AND_POULTRY">PROHIBIT_THE_MOVEMENT_OF_POULTRY_AND_POULTRY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Prohibit the movement of poultry and poultry products from areas</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PROHIBITION-OF-PROCESSING-SELLING-AND-CONSUMING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PROHIBITION_OF_PROCESSING_SELLING_AND_CONSUMING">PROHIBITION_OF_PROCESSING_SELLING_AND_CONSUMING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Prohibition of Processing, selling and consuming affected products in the province</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-PUBLIC-AWARENESS-CAMPAIGN"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-PUBLIC_AWARENESS_CAMPAIGN">PUBLIC_AWARENESS_CAMPAIGN</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Public awareness campaign,</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-QUARANTINE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-QUARANTINE">QUARANTINE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Quarantine</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-REMOVE-ALL-THE-BIRDS-TO-THE-DEPARTMENT-S"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-REMOVE_ALL_THE_BIRDS_TO_THE_DEPARTMENT.39S">REMOVE_ALL_THE_BIRDS_TO_THE_DEPARTMENT'S</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Remove all the birds to the Department's animal management centre</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-RESTRICTIONS-ON-MEAT-IMPORTS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-RESTRICTIONS_ON_MEAT_IMPORTS">RESTRICTIONS_ON_MEAT_IMPORTS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Restrictions on meat imports</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-RING-VACCINATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-RING_VACCINATION">RING_VACCINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Ring vaccination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-ROUTINE-VACCINATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-ROUTINE_VACCINATION">ROUTINE_VACCINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Routine vaccination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SANITARY-CORDON"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SANITARY_CORDON">SANITARY_CORDON</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Sanitary cordon</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SCREENING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SCREENING">SCREENING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Screening</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SCREENING-AND-ZONING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SCREENING_AND_ZONING">SCREENING_AND_ZONING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Screening and zoning</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SELECTIVE-KILLING-AND-DISPOSAL"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SELECTIVE_KILLING_AND_DISPOSAL">SELECTIVE_KILLING_AND_DISPOSAL</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Selective killing and disposal</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SET-UP-QUARANTINE-FIVE-STATIONS-ALONG-MAIN-STREETS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SET_UP_QUARANTINE_FIVE_STATIONS_ALONG_MAIN_STREETS">SET_UP_QUARANTINE_FIVE_STATIONS_ALONG_MAIN_STREETS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Set up quarantine five stations along main streets</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SLAUGHTER"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SLAUGHTER">SLAUGHTER</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Slaughter</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-STAMPING-OUT"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-STAMPING_OUT">STAMPING_OUT</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Stamping out</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SURVEILLANCE-OUTSIDE-CONTAINMENT"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SURVEILLANCE_OUTSIDE_CONTAINMENT">SURVEILLANCE_OUTSIDE_CONTAINMENT</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Surveillance outside containment and/or protection zone</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SURVEILLANCE-WITHIN-CONTAINMENT"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SURVEILLANCE_WITHIN_CONTAINMENT">SURVEILLANCE_WITHIN_CONTAINMENT</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Surveillance within containment and/or protection zone</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TARGETED-SURVEILLANCE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TARGETED_SURVEILLANCE">TARGETED_SURVEILLANCE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Targeted Surveillance</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TARGETED-VACCINATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TARGETED_VACCINATION">TARGETED_VACCINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Targeted vaccination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TO-PREVENT-TRANSPORTATION-OF-PIGS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TO_PREVENT_TRANSPORTATION_OF_PIGS">TO_PREVENT_TRANSPORTATION_OF_PIGS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>To prevent transportation of pigs in and out of the affected areas</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TO-SEAL-OFF"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TO_SEAL_OFF">TO_SEAL_OFF</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>To seal off</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TRACEABILITY"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TRACEABILITY">TRACEABILITY</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Traceability</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TRACING-BACK"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TRACING_BACK">TRACING_BACK</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Tracing back</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TRACING-FORWARD"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TRACING_FORWARD">TRACING_FORWARD</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Tracing forward</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TREATMENT"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TREATMENT">TREATMENT</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Treatment</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TREATMENT-OF-AFFECTED-ANIMALS--ANTIPARASITIC--"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TREATMENT_OF_AFFECTED_ANIMALS_.40ANTIPARASITIC_.41">TREATMENT_OF_AFFECTED_ANIMALS_(ANTIPARASITIC_)</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Treatment of affected animals (Antiparasitic )</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-TREATMENT-OF-ANIMALS-AFFECTED-WITH-ANTIBIOTICS"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-TREATMENT_OF_ANIMALS_AFFECTED_WITH_ANTIBIOTICS">TREATMENT_OF_ANIMALS_AFFECTED_WITH_ANTIBIOTICS</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Treatment of animals affected with antibiotics</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-VACCINATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-VACCINATION">VACCINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Vaccination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-VACCINATION-CAMPAIGN-IN-THE-AREA-AFFECTED"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-VACCINATION_CAMPAIGN_IN_THE_AREA_AFFECTED">VACCINATION_CAMPAIGN_IN_THE_AREA_AFFECTED</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Vaccination campaign in the area affected</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-VACCINATION-IN-REPONSE-TO-OUTBREAK"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-VACCINATION_IN_REPONSE_TO_OUTBREAK">VACCINATION_IN_REPONSE_TO_OUTBREAK</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Vaccination in reponse to outbreak</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-VACCINATION-PERMITTED--IF-A-VACCINE-EXISTS-"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-VACCINATION_PERMITTED_.40IF_A_VACCINE_EXISTS.41">VACCINATION_PERMITTED_(IF_A_VACCINE_EXISTS)</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Vaccination permitted (if a vaccine exists)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-VACCINATION-PROHIBITED"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-VACCINATION_PROHIBITED">VACCINATION_PROHIBITED</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Vaccination prohibited</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-VECTOR-SURVEILLANCE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-VECTOR_SURVEILLANCE">VECTOR_SURVEILLANCE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Vector surveillance</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-ZONING"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-ZONING">ZONING</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Zoning</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-DISINFESTATION"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-DISINFESTATION">DISINFESTATION</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Disinfestation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-NO-CONTROL-MEASURES"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-NO_CONTROL_MEASURES">NO_CONTROL_MEASURES</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>No control measures</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SURVEILLANCE-INSIDE-THE-RESTRICTED-ZONE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SURVEILLANCE_INSIDE_THE_RESTRICTED_ZONE">SURVEILLANCE_INSIDE_THE_RESTRICTED_ZONE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Surveillance inside the restricted zone</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-control-measures-cs-SURVEILLANCE-OUTSIDE-THE-RESTRICTED-ZONE"> </a>  <a href="CodeSystem-control-measures-cs.html#control-measures-cs-SURVEILLANCE_OUTSIDE_THE_RESTRICTED_ZONE">SURVEILLANCE_OUTSIDE_THE_RESTRICTED_ZONE</a></td><td>https://dhis2.org/fhir/CodeSystem/control-measures-cs</td><td>Surveillance outside the restricted zone</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 11, 2024 13:02+0000">2024-04-11</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

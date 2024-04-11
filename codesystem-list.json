@@ -25,6 +25,70 @@
       "description" : "Code system for types of animals."
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/clade-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CladeCS",
+      "title" : "Clade Code System",
+      "description" : "Code system for clade."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/clinical-signs-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ClinicalSignsCS",
+      "title" : "Clinical Signs Code System",
+      "description" : "code system for clinical signs."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/control-measures-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ControlMeasuresCS",
+      "title" : "Control Measures Code System",
+      "description" : "Code system for control measures."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DiagnosisBasisCS",
+      "title" : "Diagnosis Basis Code System",
+      "description" : "Code system for diagnosis basis."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DiagnosticSourceCS",
+      "title" : "Diagnostic Source Code System",
+      "description" : "Code system for diagnostic source."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DiagnosticStatusCS",
+      "title" : "Diagnostic Status Code System",
+      "description" : "Code system for diagnostic status"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/disease-subtype-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DiseaseSubtypeCS",
+      "title" : "Disease Subtype Code System",
+      "description" : "Code system for disease subtypes."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/diseases-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DiseasesCS",
+      "title" : "Diseases Code System",
+      "description" : "Code system for diseases."
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -49,12 +113,52 @@
       "description" : "Code system for sources of locality information."
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "NecropsyLesionsCS",
+      "title" : "Necropsy Lesions Code System",
+      "description" : "Code system for necropsy lesions."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/production-system-one-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProductionSystemOneCS",
+      "title" : "Production System One Code System",
+      "description" : "Code system for production system one."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/production-system-two-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProductionSystemTwoCS",
+      "title" : "Production System Two Code System",
+      "description" : "Code system for production system two."
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/regions-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "RegionsCS",
       "title" : "Regions Code System",
       "description" : "Code system for regions."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/surveillance-type-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SurveillanceTypeCS",
+      "title" : "Surveillance Type Code System",
+      "description" : "Code system for surveillance types."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/treatments-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TreatmentsCS",
+      "title" : "Treatments Code System",
+      "description" : "Code system for possible treatments."
     },
     {
       "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs",

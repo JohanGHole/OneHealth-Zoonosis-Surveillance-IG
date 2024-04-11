@@ -1,0 +1,335 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/control-measures-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "control-measures-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/control-measures-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">BAN_PLACED_ON_LIVESTOCK_AND_MEAT_PRODUCTS<a name=\"control-measures-cs-BAN_PLACED_ON_LIVESTOCK_AND_MEAT_PRODUCTS\"> </a></td><td>A ban has been placed on livestock and meat products entering or leaving its boundaries</td></tr><tr><td style=\"white-space:nowrap\">ALL_ANIMALS_ARE_ASO_KILLED_TO_CONTAIN_THE_OUTBREAK<a name=\"control-measures-cs-ALL_ANIMALS_ARE_ASO_KILLED_TO_CONTAIN_THE_OUTBREAK\"> </a></td><td>All animals are aso killed to contain the outbreak</td></tr><tr><td style=\"white-space:nowrap\">ALL_THE_ENTRY_OF_BORDER_ALONG<a name=\"control-measures-cs-ALL_THE_ENTRY_OF_BORDER_ALONG\"> </a></td><td>All the entry of border along the district have been sealed</td></tr><tr><td style=\"white-space:nowrap\">ANTE_AND_POST_MORTEM_INSPECTION<a name=\"control-measures-cs-ANTE_AND_POST_MORTEM_INSPECTION\"> </a></td><td>Ante and post mortem inspection</td></tr><tr><td style=\"white-space:nowrap\">BAN_ALL_LIVESTOCK_PRODUCTS_ENTERING_OR_EXITING<a name=\"control-measures-cs-BAN_ALL_LIVESTOCK_PRODUCTS_ENTERING_OR_EXITING\"> </a></td><td>Ban all livestock products entering or exiting that farm</td></tr><tr><td style=\"white-space:nowrap\">BAN_OF_IMPORTATION_OF_LIVE_POULTRY<a name=\"control-measures-cs-BAN_OF_IMPORTATION_OF_LIVE_POULTRY\"> </a></td><td>Ban of importation of live poultry</td></tr><tr><td style=\"white-space:nowrap\">BAN_OF_TRANSPORT_OF_EGGS_AND_POULTRY<a name=\"control-measures-cs-BAN_OF_TRANSPORT_OF_EGGS_AND_POULTRY\"> </a></td><td>Ban of transport of eggs and poultry</td></tr><tr><td style=\"white-space:nowrap\">BAN_ON_IMPORTING_LIVE_ANIMALS_AND_MEATS<a name=\"control-measures-cs-BAN_ON_IMPORTING_LIVE_ANIMALS_AND_MEATS\"> </a></td><td>Ban on importing live animals and meats</td></tr><tr><td style=\"white-space:nowrap\">BAN_ON_TRANSPORTING_ANIMALS<a name=\"control-measures-cs-BAN_ON_TRANSPORTING_ANIMALS\"> </a></td><td>Ban on transporting animals</td></tr><tr><td style=\"white-space:nowrap\">BREEDERS_WHO_HAVE_LOST_THEIR_PIGS_TO_THE_PANDEMIC<a name=\"control-measures-cs-BREEDERS_WHO_HAVE_LOST_THEIR_PIGS_TO_THE_PANDEMIC\"> </a></td><td>Breeders who have lost their pigs to the pandemic are being forced to slaughter their entire herd</td></tr><tr><td style=\"white-space:nowrap\">BURIAL<a name=\"control-measures-cs-BURIAL\"> </a></td><td>Burial</td></tr><tr><td style=\"white-space:nowrap\">BURNING<a name=\"control-measures-cs-BURNING\"> </a></td><td>Burning</td></tr><tr><td style=\"white-space:nowrap\">CARRY_OUT_IN_ALL_MARKETS_AND_SHOPS_IN_BISHKEK<a name=\"control-measures-cs-CARRY_OUT_IN_ALL_MARKETS_AND_SHOPS_IN_BISHKEK\"> </a></td><td>Carry out in all markets and shops in Bishkek where meat and other livestock products are sold</td></tr><tr><td style=\"white-space:nowrap\">CLEANING<a name=\"control-measures-cs-CLEANING\"> </a></td><td>Cleaning</td></tr><tr><td style=\"white-space:nowrap\">CLOSURE_OF_LIVESTOCK_MARKETS<a name=\"control-measures-cs-CLOSURE_OF_LIVESTOCK_MARKETS\"> </a></td><td>Closure of livestock markets</td></tr><tr><td style=\"white-space:nowrap\">CLOSURE_OF_SLAUGHTERING_PREMISES<a name=\"control-measures-cs-CLOSURE_OF_SLAUGHTERING_PREMISES\"> </a></td><td>Closure of slaughtering premises</td></tr><tr><td style=\"white-space:nowrap\">CLOSURE_OF_THE_SHOP<a name=\"control-measures-cs-CLOSURE_OF_THE_SHOP\"> </a></td><td>Closure of the shop</td></tr><tr><td style=\"white-space:nowrap\">CONFISCATION<a name=\"control-measures-cs-CONFISCATION\"> </a></td><td>Confiscation</td></tr><tr><td style=\"white-space:nowrap\">CONTROL_OF_ARTHROPODS<a name=\"control-measures-cs-CONTROL_OF_ARTHROPODS\"> </a></td><td>Control of arthropods</td></tr><tr><td style=\"white-space:nowrap\">CONTROL_OF_VECTORS<a name=\"control-measures-cs-CONTROL_OF_VECTORS\"> </a></td><td>Control of Vectors</td></tr><tr><td style=\"white-space:nowrap\">CONTROL_OF_WILDLIFE_RESERVOIRS<a name=\"control-measures-cs-CONTROL_OF_WILDLIFE_RESERVOIRS\"> </a></td><td>Control of wildlife reservoirs</td></tr><tr><td style=\"white-space:nowrap\">COORDINATION_WITH_LOCAL_AUTHORITIES<a name=\"control-measures-cs-COORDINATION_WITH_LOCAL_AUTHORITIES\"> </a></td><td>Coordination with local authorities</td></tr><tr><td style=\"white-space:nowrap\">CULLING<a name=\"control-measures-cs-CULLING\"> </a></td><td>Culling</td></tr><tr><td style=\"white-space:nowrap\">CULLING_OF_AFFECTED_ANIMALS_ONLY<a name=\"control-measures-cs-CULLING_OF_AFFECTED_ANIMALS_ONLY\"> </a></td><td>Culling of affected animals only</td></tr><tr><td style=\"white-space:nowrap\">DESTRUCTION<a name=\"control-measures-cs-DESTRUCTION\"> </a></td><td>Destruction</td></tr><tr><td style=\"white-space:nowrap\">DESTRUCTION_OF_CARCASSES<a name=\"control-measures-cs-DESTRUCTION_OF_CARCASSES\"> </a></td><td>Destruction of carcasses</td></tr><tr><td style=\"white-space:nowrap\">DIPPING_/_SPRAYING<a name=\"control-measures-cs-DIPPING_.47_SPRAYING\"> </a></td><td>Dipping / Spraying</td></tr><tr><td style=\"white-space:nowrap\">DISINFECTION<a name=\"control-measures-cs-DISINFECTION\"> </a></td><td>Disinfection</td></tr><tr><td style=\"white-space:nowrap\">DISINFECTION_/_DISINFESTATION<a name=\"control-measures-cs-DISINFECTION_.47_DISINFESTATION\"> </a></td><td>Disinfection / Disinfestation</td></tr><tr><td style=\"white-space:nowrap\">EDUCATION_INFORMATION_AND_COMMUNICATION<a name=\"control-measures-cs-EDUCATION_INFORMATION_AND_COMMUNICATION\"> </a></td><td>Education, Information and Communication</td></tr><tr><td style=\"white-space:nowrap\">EXPOSURE_TO_SICK_AND_DEAD_POULTRY<a name=\"control-measures-cs-EXPOSURE_TO_SICK_AND_DEAD_POULTRY\"> </a></td><td>Exposure to sick and dead poultry</td></tr><tr><td style=\"white-space:nowrap\">EXPOSURE_TO_SICK_AND/OR_DEAD_POULTRY<a name=\"control-measures-cs-EXPOSURE_TO_SICK_AND.47OR_DEAD_POULTRY\"> </a></td><td>Exposure to sick and/or dead poultry</td></tr><tr><td style=\"white-space:nowrap\">EXPOSURE_TO_SICK_OR_DEAD_POULTRY<a name=\"control-measures-cs-EXPOSURE_TO_SICK_OR_DEAD_POULTRY\"> </a></td><td>Exposure to sick or dead poultry</td></tr><tr><td style=\"white-space:nowrap\">FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION<a name=\"control-measures-cs-FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION\"> </a></td><td>Flooding associated with mosquito multiplication</td></tr><tr><td style=\"white-space:nowrap\">GENERAL_SURVEILLANCE<a name=\"control-measures-cs-GENERAL_SURVEILLANCE\"> </a></td><td>General Surveillance</td></tr><tr><td style=\"white-space:nowrap\">IMPLEMENT_CAPTURE_OF_VAMPIRE_BATS<a name=\"control-measures-cs-IMPLEMENT_CAPTURE_OF_VAMPIRE_BATS\"> </a></td><td>Implement capture of vampire bats</td></tr><tr><td style=\"white-space:nowrap\">IMPOSURE_OF_A_BAN_OF_CONSUMPTION<a name=\"control-measures-cs-IMPOSURE_OF_A_BAN_OF_CONSUMPTION\"> </a></td><td>Imposure of a ban of consumption</td></tr><tr><td style=\"white-space:nowrap\">ISOLATION_OF_THE_AFFECTED_ANIMAL<a name=\"control-measures-cs-ISOLATION_OF_THE_AFFECTED_ANIMAL\"> </a></td><td>Isolation of the affected animal</td></tr><tr><td style=\"white-space:nowrap\">ISOLATION_OF_THE_AFFECTED_AREA<a name=\"control-measures-cs-ISOLATION_OF_THE_AFFECTED_AREA\"> </a></td><td>Isolation of the affected area</td></tr><tr><td style=\"white-space:nowrap\">ISOLATION_OF_THE_AFFECTED_BIRD<a name=\"control-measures-cs-ISOLATION_OF_THE_AFFECTED_BIRD\"> </a></td><td>Isolation of the affected bird</td></tr><tr><td style=\"white-space:nowrap\">MAINTAIN_STRICT_CONTROL_OF_SLAUGHTER<a name=\"control-measures-cs-MAINTAIN_STRICT_CONTROL_OF_SLAUGHTER\"> </a></td><td>Maintain strict control of slaughter, sale, movement of poultry and poultry products in the communes</td></tr><tr><td style=\"white-space:nowrap\">MODIFIED_STAMPING_OUT<a name=\"control-measures-cs-MODIFIED_STAMPING_OUT\"> </a></td><td>Modified stamping out</td></tr><tr><td style=\"white-space:nowrap\">MONITORING<a name=\"control-measures-cs-MONITORING\"> </a></td><td>Monitoring</td></tr><tr><td style=\"white-space:nowrap\">MOVEMENT_CONTROL_INSIDE_THE_COUNTRY<a name=\"control-measures-cs-MOVEMENT_CONTROL_INSIDE_THE_COUNTRY\"> </a></td><td>Movement control inside the country</td></tr><tr><td style=\"white-space:nowrap\">MOVEMENT_CONTROL_OF_ANIMALS<a name=\"control-measures-cs-MOVEMENT_CONTROL_OF_ANIMALS\"> </a></td><td>Movement control of animals in and out of the locality</td></tr><tr><td style=\"white-space:nowrap\">NO_ACTION<a name=\"control-measures-cs-NO_ACTION\"> </a></td><td>No action</td></tr><tr><td style=\"white-space:nowrap\">NO_TREATMENT_OF_AFFECTED_ANIMALS<a name=\"control-measures-cs-NO_TREATMENT_OF_AFFECTED_ANIMALS\"> </a></td><td>No treatment of affected animals</td></tr><tr><td style=\"white-space:nowrap\">NO_VACCINATION<a name=\"control-measures-cs-NO_VACCINATION\"> </a></td><td>No vaccination</td></tr><tr><td style=\"white-space:nowrap\">NOTIFIABLE_DISEASE<a name=\"control-measures-cs-NOTIFIABLE_DISEASE\"> </a></td><td>Notifiable disease</td></tr><tr><td style=\"white-space:nowrap\">OFFICIAL_DESTRUCTION_OF_ANIMAL_PRODUCTS<a name=\"control-measures-cs-OFFICIAL_DESTRUCTION_OF_ANIMAL_PRODUCTS\"> </a></td><td>Official destruction of animal products</td></tr><tr><td style=\"white-space:nowrap\">OFFICIAL_DISPOSAL<a name=\"control-measures-cs-OFFICIAL_DISPOSAL\"> </a></td><td>Official disposal of carcasses, by-products and waste</td></tr><tr><td style=\"white-space:nowrap\">OFFICIALS_DEPLOYED_TO_PREVENT<a name=\"control-measures-cs-OFFICIALS_DEPLOYED_TO_PREVENT\"> </a></td><td>Officials deployed to prevent traders from sending birds outside</td></tr><tr><td style=\"white-space:nowrap\">PARTICIPATORY_DISEASE_SEARCH<a name=\"control-measures-cs-PARTICIPATORY_DISEASE_SEARCH\"> </a></td><td>Participatory Disease Search</td></tr><tr><td style=\"white-space:nowrap\">PEOPLE_WHO_CAME_IN_CONTACT_WITH_INFECTED<a name=\"control-measures-cs-PEOPLE_WHO_CAME_IN_CONTACT_WITH_INFECTED\"> </a></td><td>People who came in contact with infected cattle are receiving preventive therapy</td></tr><tr><td style=\"white-space:nowrap\">POTENTIAL_CONTACT_WITH_WILDLIFE<a name=\"control-measures-cs-POTENTIAL_CONTACT_WITH_WILDLIFE\"> </a></td><td>Potential contact with wildlife</td></tr><tr><td style=\"white-space:nowrap\">PRECAUTIONS_AT_THE_BORDERS<a name=\"control-measures-cs-PRECAUTIONS_AT_THE_BORDERS\"> </a></td><td>Precautions at the borders</td></tr><tr><td style=\"white-space:nowrap\">PREEMPTIVE_CULLING<a name=\"control-measures-cs-PREEMPTIVE_CULLING\"> </a></td><td>Preemptive Culling</td></tr><tr><td style=\"white-space:nowrap\">PRESS_RELEASE<a name=\"control-measures-cs-PRESS_RELEASE\"> </a></td><td>Press release</td></tr><tr><td style=\"white-space:nowrap\">PREVENT_SALE_INFECTED<a name=\"control-measures-cs-PREVENT_SALE_INFECTED\"> </a></td><td>Prevent sale infected</td></tr><tr><td style=\"white-space:nowrap\">PREVENT_TRANSPORT_POULTRY_PRODUCT<a name=\"control-measures-cs-PREVENT_TRANSPORT_POULTRY_PRODUCT\"> </a></td><td>Prevent transport poultry product out of the region</td></tr><tr><td style=\"white-space:nowrap\">PROCESS_TO_INACTIVATE_THE_PATHOGENIC_AGENT<a name=\"control-measures-cs-PROCESS_TO_INACTIVATE_THE_PATHOGENIC_AGENT\"> </a></td><td>Process to inactivate the pathogenic agent in products or by products</td></tr><tr><td style=\"white-space:nowrap\">PROHIBIT_THE_MOVEMENT_OF_POULTRY_AND_POULTRY<a name=\"control-measures-cs-PROHIBIT_THE_MOVEMENT_OF_POULTRY_AND_POULTRY\"> </a></td><td>Prohibit the movement of poultry and poultry products from areas</td></tr><tr><td style=\"white-space:nowrap\">PROHIBITION_OF_PROCESSING_SELLING_AND_CONSUMING<a name=\"control-measures-cs-PROHIBITION_OF_PROCESSING_SELLING_AND_CONSUMING\"> </a></td><td>Prohibition of Processing, selling and consuming affected products in the province</td></tr><tr><td style=\"white-space:nowrap\">PUBLIC_AWARENESS_CAMPAIGN<a name=\"control-measures-cs-PUBLIC_AWARENESS_CAMPAIGN\"> </a></td><td>Public awareness campaign,</td></tr><tr><td style=\"white-space:nowrap\">QUARANTINE<a name=\"control-measures-cs-QUARANTINE\"> </a></td><td>Quarantine</td></tr><tr><td style=\"white-space:nowrap\">REMOVE_ALL_THE_BIRDS_TO_THE_DEPARTMENT'S<a name=\"control-measures-cs-REMOVE_ALL_THE_BIRDS_TO_THE_DEPARTMENT.39S\"> </a></td><td>Remove all the birds to the Department's animal management centre</td></tr><tr><td style=\"white-space:nowrap\">RESTRICTIONS_ON_MEAT_IMPORTS<a name=\"control-measures-cs-RESTRICTIONS_ON_MEAT_IMPORTS\"> </a></td><td>Restrictions on meat imports</td></tr><tr><td style=\"white-space:nowrap\">RING_VACCINATION<a name=\"control-measures-cs-RING_VACCINATION\"> </a></td><td>Ring vaccination</td></tr><tr><td style=\"white-space:nowrap\">ROUTINE_VACCINATION<a name=\"control-measures-cs-ROUTINE_VACCINATION\"> </a></td><td>Routine vaccination</td></tr><tr><td style=\"white-space:nowrap\">SANITARY_CORDON<a name=\"control-measures-cs-SANITARY_CORDON\"> </a></td><td>Sanitary cordon</td></tr><tr><td style=\"white-space:nowrap\">SCREENING<a name=\"control-measures-cs-SCREENING\"> </a></td><td>Screening</td></tr><tr><td style=\"white-space:nowrap\">SCREENING_AND_ZONING<a name=\"control-measures-cs-SCREENING_AND_ZONING\"> </a></td><td>Screening and zoning</td></tr><tr><td style=\"white-space:nowrap\">SELECTIVE_KILLING_AND_DISPOSAL<a name=\"control-measures-cs-SELECTIVE_KILLING_AND_DISPOSAL\"> </a></td><td>Selective killing and disposal</td></tr><tr><td style=\"white-space:nowrap\">SET_UP_QUARANTINE_FIVE_STATIONS_ALONG_MAIN_STREETS<a name=\"control-measures-cs-SET_UP_QUARANTINE_FIVE_STATIONS_ALONG_MAIN_STREETS\"> </a></td><td>Set up quarantine five stations along main streets</td></tr><tr><td style=\"white-space:nowrap\">SLAUGHTER<a name=\"control-measures-cs-SLAUGHTER\"> </a></td><td>Slaughter</td></tr><tr><td style=\"white-space:nowrap\">STAMPING_OUT<a name=\"control-measures-cs-STAMPING_OUT\"> </a></td><td>Stamping out</td></tr><tr><td style=\"white-space:nowrap\">SURVEILLANCE_OUTSIDE_CONTAINMENT<a name=\"control-measures-cs-SURVEILLANCE_OUTSIDE_CONTAINMENT\"> </a></td><td>Surveillance outside containment and/or protection zone</td></tr><tr><td style=\"white-space:nowrap\">SURVEILLANCE_WITHIN_CONTAINMENT<a name=\"control-measures-cs-SURVEILLANCE_WITHIN_CONTAINMENT\"> </a></td><td>Surveillance within containment and/or protection zone</td></tr><tr><td style=\"white-space:nowrap\">TARGETED_SURVEILLANCE<a name=\"control-measures-cs-TARGETED_SURVEILLANCE\"> </a></td><td>Targeted Surveillance</td></tr><tr><td style=\"white-space:nowrap\">TARGETED_VACCINATION<a name=\"control-measures-cs-TARGETED_VACCINATION\"> </a></td><td>Targeted vaccination</td></tr><tr><td style=\"white-space:nowrap\">TO_PREVENT_TRANSPORTATION_OF_PIGS<a name=\"control-measures-cs-TO_PREVENT_TRANSPORTATION_OF_PIGS\"> </a></td><td>To prevent transportation of pigs in and out of the affected areas</td></tr><tr><td style=\"white-space:nowrap\">TO_SEAL_OFF<a name=\"control-measures-cs-TO_SEAL_OFF\"> </a></td><td>To seal off</td></tr><tr><td style=\"white-space:nowrap\">TRACEABILITY<a name=\"control-measures-cs-TRACEABILITY\"> </a></td><td>Traceability</td></tr><tr><td style=\"white-space:nowrap\">TRACING_BACK<a name=\"control-measures-cs-TRACING_BACK\"> </a></td><td>Tracing back</td></tr><tr><td style=\"white-space:nowrap\">TRACING_FORWARD<a name=\"control-measures-cs-TRACING_FORWARD\"> </a></td><td>Tracing forward</td></tr><tr><td style=\"white-space:nowrap\">TREATMENT<a name=\"control-measures-cs-TREATMENT\"> </a></td><td>Treatment</td></tr><tr><td style=\"white-space:nowrap\">TREATMENT_OF_AFFECTED_ANIMALS_(ANTIPARASITIC_)<a name=\"control-measures-cs-TREATMENT_OF_AFFECTED_ANIMALS_.40ANTIPARASITIC_.41\"> </a></td><td>Treatment of affected animals (Antiparasitic )</td></tr><tr><td style=\"white-space:nowrap\">TREATMENT_OF_ANIMALS_AFFECTED_WITH_ANTIBIOTICS<a name=\"control-measures-cs-TREATMENT_OF_ANIMALS_AFFECTED_WITH_ANTIBIOTICS\"> </a></td><td>Treatment of animals affected with antibiotics</td></tr><tr><td style=\"white-space:nowrap\">VACCINATION<a name=\"control-measures-cs-VACCINATION\"> </a></td><td>Vaccination</td></tr><tr><td style=\"white-space:nowrap\">VACCINATION_CAMPAIGN_IN_THE_AREA_AFFECTED<a name=\"control-measures-cs-VACCINATION_CAMPAIGN_IN_THE_AREA_AFFECTED\"> </a></td><td>Vaccination campaign in the area affected</td></tr><tr><td style=\"white-space:nowrap\">VACCINATION_IN_REPONSE_TO_OUTBREAK<a name=\"control-measures-cs-VACCINATION_IN_REPONSE_TO_OUTBREAK\"> </a></td><td>Vaccination in reponse to outbreak</td></tr><tr><td style=\"white-space:nowrap\">VACCINATION_PERMITTED_(IF_A_VACCINE_EXISTS)<a name=\"control-measures-cs-VACCINATION_PERMITTED_.40IF_A_VACCINE_EXISTS.41\"> </a></td><td>Vaccination permitted (if a vaccine exists)</td></tr><tr><td style=\"white-space:nowrap\">VACCINATION_PROHIBITED<a name=\"control-measures-cs-VACCINATION_PROHIBITED\"> </a></td><td>Vaccination prohibited</td></tr><tr><td style=\"white-space:nowrap\">VECTOR_SURVEILLANCE<a name=\"control-measures-cs-VECTOR_SURVEILLANCE\"> </a></td><td>Vector surveillance</td></tr><tr><td style=\"white-space:nowrap\">ZONING<a name=\"control-measures-cs-ZONING\"> </a></td><td>Zoning</td></tr><tr><td style=\"white-space:nowrap\">DISINFESTATION<a name=\"control-measures-cs-DISINFESTATION\"> </a></td><td>Disinfestation</td></tr><tr><td style=\"white-space:nowrap\">NO_CONTROL_MEASURES<a name=\"control-measures-cs-NO_CONTROL_MEASURES\"> </a></td><td>No control measures</td></tr><tr><td style=\"white-space:nowrap\">SURVEILLANCE_INSIDE_THE_RESTRICTED_ZONE<a name=\"control-measures-cs-SURVEILLANCE_INSIDE_THE_RESTRICTED_ZONE\"> </a></td><td>Surveillance inside the restricted zone</td></tr><tr><td style=\"white-space:nowrap\">SURVEILLANCE_OUTSIDE_THE_RESTRICTED_ZONE<a name=\"control-measures-cs-SURVEILLANCE_OUTSIDE_THE_RESTRICTED_ZONE\"> </a></td><td>Surveillance outside the restricted zone</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/control-measures-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ControlMeasuresCS"] ; # 
+  fhir:title [ fhir:v "Control Measures Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for control measures."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "99"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "BAN_PLACED_ON_LIVESTOCK_AND_MEAT_PRODUCTS" ] ;
+     fhir:display [ fhir:v "A ban has been placed on livestock and meat products entering or leaving its boundaries" ]
+  ] [
+     fhir:code [ fhir:v "ALL_ANIMALS_ARE_ASO_KILLED_TO_CONTAIN_THE_OUTBREAK" ] ;
+     fhir:display [ fhir:v "All animals are aso killed to contain the outbreak" ]
+  ] [
+     fhir:code [ fhir:v "ALL_THE_ENTRY_OF_BORDER_ALONG" ] ;
+     fhir:display [ fhir:v "All the entry of border along the district have been sealed" ]
+  ] [
+     fhir:code [ fhir:v "ANTE_AND_POST_MORTEM_INSPECTION" ] ;
+     fhir:display [ fhir:v "Ante and post mortem inspection" ]
+  ] [
+     fhir:code [ fhir:v "BAN_ALL_LIVESTOCK_PRODUCTS_ENTERING_OR_EXITING" ] ;
+     fhir:display [ fhir:v "Ban all livestock products entering or exiting that farm" ]
+  ] [
+     fhir:code [ fhir:v "BAN_OF_IMPORTATION_OF_LIVE_POULTRY" ] ;
+     fhir:display [ fhir:v "Ban of importation of live poultry" ]
+  ] [
+     fhir:code [ fhir:v "BAN_OF_TRANSPORT_OF_EGGS_AND_POULTRY" ] ;
+     fhir:display [ fhir:v "Ban of transport of eggs and poultry" ]
+  ] [
+     fhir:code [ fhir:v "BAN_ON_IMPORTING_LIVE_ANIMALS_AND_MEATS" ] ;
+     fhir:display [ fhir:v "Ban on importing live animals and meats" ]
+  ] [
+     fhir:code [ fhir:v "BAN_ON_TRANSPORTING_ANIMALS" ] ;
+     fhir:display [ fhir:v "Ban on transporting animals" ]
+  ] [
+     fhir:code [ fhir:v "BREEDERS_WHO_HAVE_LOST_THEIR_PIGS_TO_THE_PANDEMIC" ] ;
+     fhir:display [ fhir:v "Breeders who have lost their pigs to the pandemic are being forced to slaughter their entire herd" ]
+  ] [
+     fhir:code [ fhir:v "BURIAL" ] ;
+     fhir:display [ fhir:v "Burial" ]
+  ] [
+     fhir:code [ fhir:v "BURNING" ] ;
+     fhir:display [ fhir:v "Burning" ]
+  ] [
+     fhir:code [ fhir:v "CARRY_OUT_IN_ALL_MARKETS_AND_SHOPS_IN_BISHKEK" ] ;
+     fhir:display [ fhir:v "Carry out in all markets and shops in Bishkek where meat and other livestock products are sold" ]
+  ] [
+     fhir:code [ fhir:v "CLEANING" ] ;
+     fhir:display [ fhir:v "Cleaning" ]
+  ] [
+     fhir:code [ fhir:v "CLOSURE_OF_LIVESTOCK_MARKETS" ] ;
+     fhir:display [ fhir:v "Closure of livestock markets" ]
+  ] [
+     fhir:code [ fhir:v "CLOSURE_OF_SLAUGHTERING_PREMISES" ] ;
+     fhir:display [ fhir:v "Closure of slaughtering premises" ]
+  ] [
+     fhir:code [ fhir:v "CLOSURE_OF_THE_SHOP" ] ;
+     fhir:display [ fhir:v "Closure of the shop" ]
+  ] [
+     fhir:code [ fhir:v "CONFISCATION" ] ;
+     fhir:display [ fhir:v "Confiscation" ]
+  ] [
+     fhir:code [ fhir:v "CONTROL_OF_ARTHROPODS" ] ;
+     fhir:display [ fhir:v "Control of arthropods" ]
+  ] [
+     fhir:code [ fhir:v "CONTROL_OF_VECTORS" ] ;
+     fhir:display [ fhir:v "Control of Vectors" ]
+  ] [
+     fhir:code [ fhir:v "CONTROL_OF_WILDLIFE_RESERVOIRS" ] ;
+     fhir:display [ fhir:v "Control of wildlife reservoirs" ]
+  ] [
+     fhir:code [ fhir:v "COORDINATION_WITH_LOCAL_AUTHORITIES" ] ;
+     fhir:display [ fhir:v "Coordination with local authorities" ]
+  ] [
+     fhir:code [ fhir:v "CULLING" ] ;
+     fhir:display [ fhir:v "Culling" ]
+  ] [
+     fhir:code [ fhir:v "CULLING_OF_AFFECTED_ANIMALS_ONLY" ] ;
+     fhir:display [ fhir:v "Culling of affected animals only" ]
+  ] [
+     fhir:code [ fhir:v "DESTRUCTION" ] ;
+     fhir:display [ fhir:v "Destruction" ]
+  ] [
+     fhir:code [ fhir:v "DESTRUCTION_OF_CARCASSES" ] ;
+     fhir:display [ fhir:v "Destruction of carcasses" ]
+  ] [
+     fhir:code [ fhir:v "DIPPING_/_SPRAYING" ] ;
+     fhir:display [ fhir:v "Dipping / Spraying" ]
+  ] [
+     fhir:code [ fhir:v "DISINFECTION" ] ;
+     fhir:display [ fhir:v "Disinfection" ]
+  ] [
+     fhir:code [ fhir:v "DISINFECTION_/_DISINFESTATION" ] ;
+     fhir:display [ fhir:v "Disinfection / Disinfestation" ]
+  ] [
+     fhir:code [ fhir:v "EDUCATION_INFORMATION_AND_COMMUNICATION" ] ;
+     fhir:display [ fhir:v "Education, Information and Communication" ]
+  ] [
+     fhir:code [ fhir:v "EXPOSURE_TO_SICK_AND_DEAD_POULTRY" ] ;
+     fhir:display [ fhir:v "Exposure to sick and dead poultry" ]
+  ] [
+     fhir:code [ fhir:v "EXPOSURE_TO_SICK_AND/OR_DEAD_POULTRY" ] ;
+     fhir:display [ fhir:v "Exposure to sick and/or dead poultry" ]
+  ] [
+     fhir:code [ fhir:v "EXPOSURE_TO_SICK_OR_DEAD_POULTRY" ] ;
+     fhir:display [ fhir:v "Exposure to sick or dead poultry" ]
+  ] [
+     fhir:code [ fhir:v "FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION" ] ;
+     fhir:display [ fhir:v "Flooding associated with mosquito multiplication" ]
+  ] [
+     fhir:code [ fhir:v "GENERAL_SURVEILLANCE" ] ;
+     fhir:display [ fhir:v "General Surveillance" ]
+  ] [
+     fhir:code [ fhir:v "IMPLEMENT_CAPTURE_OF_VAMPIRE_BATS" ] ;
+     fhir:display [ fhir:v "Implement capture of vampire bats" ]
+  ] [
+     fhir:code [ fhir:v "IMPOSURE_OF_A_BAN_OF_CONSUMPTION" ] ;
+     fhir:display [ fhir:v "Imposure of a ban of consumption" ]
+  ] [
+     fhir:code [ fhir:v "ISOLATION_OF_THE_AFFECTED_ANIMAL" ] ;
+     fhir:display [ fhir:v "Isolation of the affected animal" ]
+  ] [
+     fhir:code [ fhir:v "ISOLATION_OF_THE_AFFECTED_AREA" ] ;
+     fhir:display [ fhir:v "Isolation of the affected area" ]
+  ] [
+     fhir:code [ fhir:v "ISOLATION_OF_THE_AFFECTED_BIRD" ] ;
+     fhir:display [ fhir:v "Isolation of the affected bird" ]
+  ] [
+     fhir:code [ fhir:v "MAINTAIN_STRICT_CONTROL_OF_SLAUGHTER" ] ;
+     fhir:display [ fhir:v "Maintain strict control of slaughter, sale, movement of poultry and poultry products in the communes" ]
+  ] [
+     fhir:code [ fhir:v "MODIFIED_STAMPING_OUT" ] ;
+     fhir:display [ fhir:v "Modified stamping out" ]
+  ] [
+     fhir:code [ fhir:v "MONITORING" ] ;
+     fhir:display [ fhir:v "Monitoring" ]
+  ] [
+     fhir:code [ fhir:v "MOVEMENT_CONTROL_INSIDE_THE_COUNTRY" ] ;
+     fhir:display [ fhir:v "Movement control inside the country" ]
+  ] [
+     fhir:code [ fhir:v "MOVEMENT_CONTROL_OF_ANIMALS" ] ;
+     fhir:display [ fhir:v "Movement control of animals in and out of the locality" ]
+  ] [
+     fhir:code [ fhir:v "NO_ACTION" ] ;
+     fhir:display [ fhir:v "No action" ]
+  ] [
+     fhir:code [ fhir:v "NO_TREATMENT_OF_AFFECTED_ANIMALS" ] ;
+     fhir:display [ fhir:v "No treatment of affected animals" ]
+  ] [
+     fhir:code [ fhir:v "NO_VACCINATION" ] ;
+     fhir:display [ fhir:v "No vaccination" ]
+  ] [
+     fhir:code [ fhir:v "NOTIFIABLE_DISEASE" ] ;
+     fhir:display [ fhir:v "Notifiable disease" ]
+  ] [
+     fhir:code [ fhir:v "OFFICIAL_DESTRUCTION_OF_ANIMAL_PRODUCTS" ] ;
+     fhir:display [ fhir:v "Official destruction of animal products" ]
+  ] [
+     fhir:code [ fhir:v "OFFICIAL_DISPOSAL" ] ;
+     fhir:display [ fhir:v "Official disposal of carcasses, by-products and waste" ]
+  ] [
+     fhir:code [ fhir:v "OFFICIALS_DEPLOYED_TO_PREVENT" ] ;
+     fhir:display [ fhir:v "Officials deployed to prevent traders from sending birds outside" ]
+  ] [
+     fhir:code [ fhir:v "PARTICIPATORY_DISEASE_SEARCH" ] ;
+     fhir:display [ fhir:v "Participatory Disease Search" ]
+  ] [
+     fhir:code [ fhir:v "PEOPLE_WHO_CAME_IN_CONTACT_WITH_INFECTED" ] ;
+     fhir:display [ fhir:v "People who came in contact with infected cattle are receiving preventive therapy" ]
+  ] [
+     fhir:code [ fhir:v "POTENTIAL_CONTACT_WITH_WILDLIFE" ] ;
+     fhir:display [ fhir:v "Potential contact with wildlife" ]
+  ] [
+     fhir:code [ fhir:v "PRECAUTIONS_AT_THE_BORDERS" ] ;
+     fhir:display [ fhir:v "Precautions at the borders" ]
+  ] [
+     fhir:code [ fhir:v "PREEMPTIVE_CULLING" ] ;
+     fhir:display [ fhir:v "Preemptive Culling" ]
+  ] [
+     fhir:code [ fhir:v "PRESS_RELEASE" ] ;
+     fhir:display [ fhir:v "Press release" ]
+  ] [
+     fhir:code [ fhir:v "PREVENT_SALE_INFECTED" ] ;
+     fhir:display [ fhir:v "Prevent sale infected" ]
+  ] [
+     fhir:code [ fhir:v "PREVENT_TRANSPORT_POULTRY_PRODUCT" ] ;
+     fhir:display [ fhir:v "Prevent transport poultry product out of the region" ]
+  ] [
+     fhir:code [ fhir:v "PROCESS_TO_INACTIVATE_THE_PATHOGENIC_AGENT" ] ;
+     fhir:display [ fhir:v "Process to inactivate the pathogenic agent in products or by products" ]
+  ] [
+     fhir:code [ fhir:v "PROHIBIT_THE_MOVEMENT_OF_POULTRY_AND_POULTRY" ] ;
+     fhir:display [ fhir:v "Prohibit the movement of poultry and poultry products from areas" ]
+  ] [
+     fhir:code [ fhir:v "PROHIBITION_OF_PROCESSING_SELLING_AND_CONSUMING" ] ;
+     fhir:display [ fhir:v "Prohibition of Processing, selling and consuming affected products in the province" ]
+  ] [
+     fhir:code [ fhir:v "PUBLIC_AWARENESS_CAMPAIGN" ] ;
+     fhir:display [ fhir:v "Public awareness campaign," ]
+  ] [
+     fhir:code [ fhir:v "QUARANTINE" ] ;
+     fhir:display [ fhir:v "Quarantine" ]
+  ] [
+     fhir:code [ fhir:v "REMOVE_ALL_THE_BIRDS_TO_THE_DEPARTMENT'S" ] ;
+     fhir:display [ fhir:v "Remove all the birds to the Department's animal management centre" ]
+  ] [
+     fhir:code [ fhir:v "RESTRICTIONS_ON_MEAT_IMPORTS" ] ;
+     fhir:display [ fhir:v "Restrictions on meat imports" ]
+  ] [
+     fhir:code [ fhir:v "RING_VACCINATION" ] ;
+     fhir:display [ fhir:v "Ring vaccination" ]
+  ] [
+     fhir:code [ fhir:v "ROUTINE_VACCINATION" ] ;
+     fhir:display [ fhir:v "Routine vaccination" ]
+  ] [
+     fhir:code [ fhir:v "SANITARY_CORDON" ] ;
+     fhir:display [ fhir:v "Sanitary cordon" ]
+  ] [
+     fhir:code [ fhir:v "SCREENING" ] ;
+     fhir:display [ fhir:v "Screening" ]
+  ] [
+     fhir:code [ fhir:v "SCREENING_AND_ZONING" ] ;
+     fhir:display [ fhir:v "Screening and zoning" ]
+  ] [
+     fhir:code [ fhir:v "SELECTIVE_KILLING_AND_DISPOSAL" ] ;
+     fhir:display [ fhir:v "Selective killing and disposal" ]
+  ] [
+     fhir:code [ fhir:v "SET_UP_QUARANTINE_FIVE_STATIONS_ALONG_MAIN_STREETS" ] ;
+     fhir:display [ fhir:v "Set up quarantine five stations along main streets" ]
+  ] [
+     fhir:code [ fhir:v "SLAUGHTER" ] ;
+     fhir:display [ fhir:v "Slaughter" ]
+  ] [
+     fhir:code [ fhir:v "STAMPING_OUT" ] ;
+     fhir:display [ fhir:v "Stamping out" ]
+  ] [
+     fhir:code [ fhir:v "SURVEILLANCE_OUTSIDE_CONTAINMENT" ] ;
+     fhir:display [ fhir:v "Surveillance outside containment and/or protection zone" ]
+  ] [
+     fhir:code [ fhir:v "SURVEILLANCE_WITHIN_CONTAINMENT" ] ;
+     fhir:display [ fhir:v "Surveillance within containment and/or protection zone" ]
+  ] [
+     fhir:code [ fhir:v "TARGETED_SURVEILLANCE" ] ;
+     fhir:display [ fhir:v "Targeted Surveillance" ]
+  ] [
+     fhir:code [ fhir:v "TARGETED_VACCINATION" ] ;
+     fhir:display [ fhir:v "Targeted vaccination" ]
+  ] [
+     fhir:code [ fhir:v "TO_PREVENT_TRANSPORTATION_OF_PIGS" ] ;
+     fhir:display [ fhir:v "To prevent transportation of pigs in and out of the affected areas" ]
+  ] [
+     fhir:code [ fhir:v "TO_SEAL_OFF" ] ;
+     fhir:display [ fhir:v "To seal off" ]
+  ] [
+     fhir:code [ fhir:v "TRACEABILITY" ] ;
+     fhir:display [ fhir:v "Traceability" ]
+  ] [
+     fhir:code [ fhir:v "TRACING_BACK" ] ;
+     fhir:display [ fhir:v "Tracing back" ]
+  ] [
+     fhir:code [ fhir:v "TRACING_FORWARD" ] ;
+     fhir:display [ fhir:v "Tracing forward" ]
+  ] [
+     fhir:code [ fhir:v "TREATMENT" ] ;
+     fhir:display [ fhir:v "Treatment" ]
+  ] [
+     fhir:code [ fhir:v "TREATMENT_OF_AFFECTED_ANIMALS_(ANTIPARASITIC_)" ] ;
+     fhir:display [ fhir:v "Treatment of affected animals (Antiparasitic )" ]
+  ] [
+     fhir:code [ fhir:v "TREATMENT_OF_ANIMALS_AFFECTED_WITH_ANTIBIOTICS" ] ;
+     fhir:display [ fhir:v "Treatment of animals affected with antibiotics" ]
+  ] [
+     fhir:code [ fhir:v "VACCINATION" ] ;
+     fhir:display [ fhir:v "Vaccination" ]
+  ] [
+     fhir:code [ fhir:v "VACCINATION_CAMPAIGN_IN_THE_AREA_AFFECTED" ] ;
+     fhir:display [ fhir:v "Vaccination campaign in the area affected" ]
+  ] [
+     fhir:code [ fhir:v "VACCINATION_IN_REPONSE_TO_OUTBREAK" ] ;
+     fhir:display [ fhir:v "Vaccination in reponse to outbreak" ]
+  ] [
+     fhir:code [ fhir:v "VACCINATION_PERMITTED_(IF_A_VACCINE_EXISTS)" ] ;
+     fhir:display [ fhir:v "Vaccination permitted (if a vaccine exists)" ]
+  ] [
+     fhir:code [ fhir:v "VACCINATION_PROHIBITED" ] ;
+     fhir:display [ fhir:v "Vaccination prohibited" ]
+  ] [
+     fhir:code [ fhir:v "VECTOR_SURVEILLANCE" ] ;
+     fhir:display [ fhir:v "Vector surveillance" ]
+  ] [
+     fhir:code [ fhir:v "ZONING" ] ;
+     fhir:display [ fhir:v "Zoning" ]
+  ] [
+     fhir:code [ fhir:v "DISINFESTATION" ] ;
+     fhir:display [ fhir:v "Disinfestation" ]
+  ] [
+     fhir:code [ fhir:v "NO_CONTROL_MEASURES" ] ;
+     fhir:display [ fhir:v "No control measures" ]
+  ] [
+     fhir:code [ fhir:v "SURVEILLANCE_INSIDE_THE_RESTRICTED_ZONE" ] ;
+     fhir:display [ fhir:v "Surveillance inside the restricted zone" ]
+  ] [
+     fhir:code [ fhir:v "SURVEILLANCE_OUTSIDE_THE_RESTRICTED_ZONE" ] ;
+     fhir:display [ fhir:v "Surveillance outside the restricted zone" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

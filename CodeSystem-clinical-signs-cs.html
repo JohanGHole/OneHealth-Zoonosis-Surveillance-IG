@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Clinical Signs Code System - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.29"}
+    h3,h4,h5,h6{--heading-prefix:"2.29"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Clinical Signs Code System</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-clinical-signs-cs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-clinical-signs-cs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-clinical-signs-cs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: Clinical Signs Code System
+
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/CodeSystem/clinical-signs-cs<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/CodeSystem/clinical-signs-cs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/CodeSystem/clinical-signs-cs|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-04-11
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ClinicalSignsCS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>code system for clinical signs.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/clinical-signs-cs</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">ABDOMINAL_PAINS<a name="clinical-signs-cs-ABDOMINAL_PAINS"> </a></td>
+<td>Abdominal pains</td></tr>
+<tr><td style="white-space:nowrap">ABDOMINAL_SWELLING<a name="clinical-signs-cs-ABDOMINAL_SWELLING"> </a></td>
+<td>Abdominal swelling</td></tr>
+<tr><td style="white-space:nowrap">ABORTION<a name="clinical-signs-cs-ABORTION"> </a></td>
+<td>Abortion</td></tr>
+<tr><td style="white-space:nowrap">ABSCESS<a name="clinical-signs-cs-ABSCESS"> </a></td>
+<td>Abscess</td></tr>
+<tr><td style="white-space:nowrap">ACIDEMIA<a name="clinical-signs-cs-ACIDEMIA"> </a></td>
+<td>Acidemia</td></tr>
+<tr><td style="white-space:nowrap">AGGRESSION<a name="clinical-signs-cs-AGGRESSION"> </a></td>
+<td>Aggression</td></tr>
+<tr><td style="white-space:nowrap">AIR_HUNGER_POSITION<a name="clinical-signs-cs-AIR_HUNGER_POSITION"> </a></td>
+<td>Air hunger position</td></tr>
+<tr><td style="white-space:nowrap">ALOPECIA<a name="clinical-signs-cs-ALOPECIA"> </a></td>
+<td>Alopecia</td></tr>
+<tr><td style="white-space:nowrap">ANAEMIA<a name="clinical-signs-cs-ANAEMIA"> </a></td>
+<td>Anaemia</td></tr>
+<tr><td style="white-space:nowrap">ANOREXIA<a name="clinical-signs-cs-ANOREXIA"> </a></td>
+<td>Anorexia</td></tr>
+<tr><td style="white-space:nowrap">ASCITES<a name="clinical-signs-cs-ASCITES"> </a></td>
+<td>Ascites</td></tr>
+<tr><td style="white-space:nowrap">ASTHMA<a name="clinical-signs-cs-ASTHMA"> </a></td>
+<td>Asthma</td></tr>
+<tr><td style="white-space:nowrap">ATAXIA<a name="clinical-signs-cs-ATAXIA"> </a></td>
+<td>Ataxia</td></tr>
+<tr><td style="white-space:nowrap">BEHAVIOURAL_CHANGE<a name="clinical-signs-cs-BEHAVIOURAL_CHANGE"> </a></td>
+<td>Behavioural change</td></tr>
+<tr><td style="white-space:nowrap">BELLIGERENT<a name="clinical-signs-cs-BELLIGERENT"> </a></td>
+<td>Belligerent</td></tr>
+<tr><td style="white-space:nowrap">BELLOWING<a name="clinical-signs-cs-BELLOWING"> </a></td>
+<td>Bellowing</td></tr>
+<tr><td style="white-space:nowrap">BITE<a name="clinical-signs-cs-BITE"> </a></td>
+<td>Bite</td></tr>
+<tr><td style="white-space:nowrap">BLINDNESS<a name="clinical-signs-cs-BLINDNESS"> </a></td>
+<td>Blindness</td></tr>
+<tr><td style="white-space:nowrap">BLOAT<a name="clinical-signs-cs-BLOAT"> </a></td>
+<td>Bloat</td></tr>
+<tr><td style="white-space:nowrap">BLOOD_IN_FAECES<a name="clinical-signs-cs-BLOOD_IN_FAECES"> </a></td>
+<td>Blood in faeces</td></tr>
+<tr><td style="white-space:nowrap">BLOOD_IN_URINE<a name="clinical-signs-cs-BLOOD_IN_URINE"> </a></td>
+<td>Blood in urine</td></tr>
+<tr><td style="white-space:nowrap">BLOODY_DIARRHOEA<a name="clinical-signs-cs-BLOODY_DIARRHOEA"> </a></td>
+<td>Bloody diarrhoea</td></tr>
+<tr><td style="white-space:nowrap">BORN_DEAD<a name="clinical-signs-cs-BORN_DEAD"> </a></td>
+<td>Born dead</td></tr>
+<tr><td style="white-space:nowrap">BORN_HAIRLESS<a name="clinical-signs-cs-BORN_HAIRLESS"> </a></td>
+<td>Born hairless</td></tr>
+<tr><td style="white-space:nowrap">BORN_WEAK<a name="clinical-signs-cs-BORN_WEAK"> </a></td>
+<td>Born weak</td></tr>
+<tr><td style="white-space:nowrap">CACHEXIA<a name="clinical-signs-cs-CACHEXIA"> </a></td>
+<td>Cachexia</td></tr>
+<tr><td style="white-space:nowrap">CAULIFLOWER_LIKE_GROWTH<a name="clinical-signs-cs-CAULIFLOWER_LIKE_GROWTH"> </a></td>
+<td>Cauliflower like growth</td></tr>
+<tr><td style="white-space:nowrap">CIRCLING<a name="clinical-signs-cs-CIRCLING"> </a></td>
+<td>Circling</td></tr>
+<tr><td style="white-space:nowrap">COLIC<a name="clinical-signs-cs-COLIC"> </a></td>
+<td>Colic</td></tr>
+<tr><td style="white-space:nowrap">COMATOSE<a name="clinical-signs-cs-COMATOSE"> </a></td>
+<td>Comatose</td></tr>
+<tr><td style="white-space:nowrap">CONGENITAL_MALFORMATION<a name="clinical-signs-cs-CONGENITAL_MALFORMATION"> </a></td>
+<td>Congenital malformation</td></tr>
+<tr><td style="white-space:nowrap">CONGESTION<a name="clinical-signs-cs-CONGESTION"> </a></td>
+<td>Congestion</td></tr>
+<tr><td style="white-space:nowrap">CONGESTION_OF_COMB<a name="clinical-signs-cs-CONGESTION_OF_COMB"> </a></td>
+<td>Congestion of comb</td></tr>
+<tr><td style="white-space:nowrap">CONJUNCTIVITIS<a name="clinical-signs-cs-CONJUNCTIVITIS"> </a></td>
+<td>Conjunctivitis</td></tr>
+<tr><td style="white-space:nowrap">CONSTIPATION<a name="clinical-signs-cs-CONSTIPATION"> </a></td>
+<td>Constipation</td></tr>
+<tr><td style="white-space:nowrap">CONVULSION<a name="clinical-signs-cs-CONVULSION"> </a></td>
+<td>Convulsion</td></tr>
+<tr><td style="white-space:nowrap">CORNEAL_OPACITY<a name="clinical-signs-cs-CORNEAL_OPACITY"> </a></td>
+<td>Corneal opacity</td></tr>
+<tr><td style="white-space:nowrap">COUGHING<a name="clinical-signs-cs-COUGHING"> </a></td>
+<td>Coughing</td></tr>
+<tr><td style="white-space:nowrap">CYANOTIC_COMB_AND_WATTLE<a name="clinical-signs-cs-CYANOTIC_COMB_AND_WATTLE"> </a></td>
+<td>Cyanotic comb and wattle</td></tr>
+<tr><td style="white-space:nowrap">DEATH<a name="clinical-signs-cs-DEATH"> </a></td>
+<td>Death</td></tr>
+<tr><td style="white-space:nowrap">DEATH_(ACUTE)<a name="clinical-signs-cs-DEATH_.40ACUTE.41"> </a></td>
+<td>Death (acute)</td></tr>
+<tr><td style="white-space:nowrap">DEHYDRATION<a name="clinical-signs-cs-DEHYDRATION"> </a></td>
+<td>Dehydration</td></tr>
+<tr><td style="white-space:nowrap">DEPRESSION<a name="clinical-signs-cs-DEPRESSION"> </a></td>
+<td>Depression</td></tr>
+<tr><td style="white-space:nowrap">DERMATITIS<a name="clinical-signs-cs-DERMATITIS"> </a></td>
+<td>Dermatitis</td></tr>
+<tr><td style="white-space:nowrap">DIAMON_SHAPED_LESIONS<a name="clinical-signs-cs-DIAMON_SHAPED_LESIONS"> </a></td>
+<td>Diamon shaped lesions</td></tr>
+<tr><td style="white-space:nowrap">DIARRHOEA<a name="clinical-signs-cs-DIARRHOEA"> </a></td>
+<td>Diarrhoea</td></tr>
+<tr><td style="white-space:nowrap">DIARRHOEA__WATERY<a name="clinical-signs-cs-DIARRHOEA__WATERY"> </a></td>
+<td>Diarrhoea - watery</td></tr>
+<tr><td style="white-space:nowrap">DICREASE_EGG_PRODUCTION<a name="clinical-signs-cs-DICREASE_EGG_PRODUCTION"> </a></td>
+<td>Dicrease egg production</td></tr>
+<tr><td style="white-space:nowrap">DISCHARGE_FROM_EAR<a name="clinical-signs-cs-DISCHARGE_FROM_EAR"> </a></td>
+<td>Discharge from ear</td></tr>
+<tr><td style="white-space:nowrap">DROPING_OF_WING<a name="clinical-signs-cs-DROPING_OF_WING"> </a></td>
+<td>Droping of wing</td></tr>
+<tr><td style="white-space:nowrap">DULL_HAIRCOAT<a name="clinical-signs-cs-DULL_HAIRCOAT"> </a></td>
+<td>Dull haircoat</td></tr>
+<tr><td style="white-space:nowrap">DYSENTERY<a name="clinical-signs-cs-DYSENTERY"> </a></td>
+<td>Dysentery</td></tr>
+<tr><td style="white-space:nowrap">DYSPHAGIA<a name="clinical-signs-cs-DYSPHAGIA"> </a></td>
+<td>Dysphagia</td></tr>
+<tr><td style="white-space:nowrap">DYSPNOEA<a name="clinical-signs-cs-DYSPNOEA"> </a></td>
+<td>Dyspnoea</td></tr>
+<tr><td style="white-space:nowrap">DYSTOCIA<a name="clinical-signs-cs-DYSTOCIA"> </a></td>
+<td>Dystocia</td></tr>
+<tr><td style="white-space:nowrap">DYSURIA<a name="clinical-signs-cs-DYSURIA"> </a></td>
+<td>DYSURIA</td></tr>
+<tr><td style="white-space:nowrap">EDEMATOUS<a name="clinical-signs-cs-EDEMATOUS"> </a></td>
+<td>Edematous</td></tr>
+<tr><td style="white-space:nowrap">EDEMATOUS_HEAD<a name="clinical-signs-cs-EDEMATOUS_HEAD"> </a></td>
+<td>Edematous head</td></tr>
+<tr><td style="white-space:nowrap">EMACIATION<a name="clinical-signs-cs-EMACIATION"> </a></td>
+<td>Emaciation</td></tr>
+<tr><td style="white-space:nowrap">ERYTHEMA<a name="clinical-signs-cs-ERYTHEMA"> </a></td>
+<td>Erythema</td></tr>
+<tr><td style="white-space:nowrap">FACIAL_SWELLING<a name="clinical-signs-cs-FACIAL_SWELLING"> </a></td>
+<td>Facial swelling</td></tr>
+<tr><td style="white-space:nowrap">FEVER<a name="clinical-signs-cs-FEVER"> </a></td>
+<td>Fever</td></tr>
+<tr><td style="white-space:nowrap">FOCAL_NECROSIS<a name="clinical-signs-cs-FOCAL_NECROSIS"> </a></td>
+<td>Focal necrosis</td></tr>
+<tr><td style="white-space:nowrap">FOOT_ROT<a name="clinical-signs-cs-FOOT_ROT"> </a></td>
+<td>Foot rot</td></tr>
+<tr><td style="white-space:nowrap">FRACTURE<a name="clinical-signs-cs-FRACTURE"> </a></td>
+<td>Fracture</td></tr>
+<tr><td style="white-space:nowrap">FROTHING<a name="clinical-signs-cs-FROTHING"> </a></td>
+<td>Frothing</td></tr>
+<tr><td style="white-space:nowrap">GOITRE_(ENLARGED_THYROID)<a name="clinical-signs-cs-GOITRE_.40ENLARGED_THYROID.41"> </a></td>
+<td>Goitre (enlarged thyroid)</td></tr>
+<tr><td style="white-space:nowrap">HAEMATURIA<a name="clinical-signs-cs-HAEMATURIA"> </a></td>
+<td>Haematuria</td></tr>
+<tr><td style="white-space:nowrap">HAEMOGLOBINURIA<a name="clinical-signs-cs-HAEMOGLOBINURIA"> </a></td>
+<td>Haemoglobinuria</td></tr>
+<tr><td style="white-space:nowrap">HAEMORRHAGES_ON_THE_HOOKS<a name="clinical-signs-cs-HAEMORRHAGES_ON_THE_HOOKS"> </a></td>
+<td>Haemorrhages on the hooks</td></tr>
+<tr><td style="white-space:nowrap">HALITOSIS<a name="clinical-signs-cs-HALITOSIS"> </a></td>
+<td>Halitosis</td></tr>
+<tr><td style="white-space:nowrap">HEAD_ACHE<a name="clinical-signs-cs-HEAD_ACHE"> </a></td>
+<td>Head ache</td></tr>
+<tr><td style="white-space:nowrap">HEAD_SHAKING<a name="clinical-signs-cs-HEAD_SHAKING"> </a></td>
+<td>Head shaking</td></tr>
+<tr><td style="white-space:nowrap">HEAD_TILT<a name="clinical-signs-cs-HEAD_TILT"> </a></td>
+<td>Head tilt</td></tr>
+<tr><td style="white-space:nowrap">HEMORRHAGIC_AND_CYANOTIC_COMBS_AND_WATTLES<a name="clinical-signs-cs-HEMORRHAGIC_AND_CYANOTIC_COMBS_AND_WATTLES"> </a></td>
+<td>Hemorrhagic and cyanotic combs and wattles</td></tr>
+<tr><td style="white-space:nowrap">HYPERVENTILATION<a name="clinical-signs-cs-HYPERVENTILATION"> </a></td>
+<td>Hyperventilation</td></tr>
+<tr><td style="white-space:nowrap">HYPOTHERMIA<a name="clinical-signs-cs-HYPOTHERMIA"> </a></td>
+<td>Hypothermia</td></tr>
+<tr><td style="white-space:nowrap">ICTERUS<a name="clinical-signs-cs-ICTERUS"> </a></td>
+<td>Icterus</td></tr>
+<tr><td style="white-space:nowrap">INFESTATION_OF_EXTERNAL_PARASITES<a name="clinical-signs-cs-INFESTATION_OF_EXTERNAL_PARASITES"> </a></td>
+<td>Infestation of external parasites</td></tr>
+<tr><td style="white-space:nowrap">INJURY<a name="clinical-signs-cs-INJURY"> </a></td>
+<td>Injury</td></tr>
+<tr><td style="white-space:nowrap">INTERDIGITAL_BLISTERS<a name="clinical-signs-cs-INTERDIGITAL_BLISTERS"> </a></td>
+<td>Interdigital blisters</td></tr>
+<tr><td style="white-space:nowrap">INTERDIGITAL_DERMATITIS<a name="clinical-signs-cs-INTERDIGITAL_DERMATITIS"> </a></td>
+<td>Interdigital dermatitis</td></tr>
+<tr><td style="white-space:nowrap">INTERDIGITAL_VESICLES<a name="clinical-signs-cs-INTERDIGITAL_VESICLES"> </a></td>
+<td>Interdigital vesicles</td></tr>
+<tr><td style="white-space:nowrap">LAMENESS<a name="clinical-signs-cs-LAMENESS"> </a></td>
+<td>Lameness</td></tr>
+<tr><td style="white-space:nowrap">LESIONS<a name="clinical-signs-cs-LESIONS"> </a></td>
+<td>Lesions</td></tr>
+<tr><td style="white-space:nowrap">LETHARGY<a name="clinical-signs-cs-LETHARGY"> </a></td>
+<td>Lethargy</td></tr>
+<tr><td style="white-space:nowrap">LIMPING<a name="clinical-signs-cs-LIMPING"> </a></td>
+<td>Limping</td></tr>
+<tr><td style="white-space:nowrap">LINGUAL_BLISTERS<a name="clinical-signs-cs-LINGUAL_BLISTERS"> </a></td>
+<td>Lingual Blisters</td></tr>
+<tr><td style="white-space:nowrap">LINGUAL_ULCERATIONS<a name="clinical-signs-cs-LINGUAL_ULCERATIONS"> </a></td>
+<td>Lingual ulcerations</td></tr>
+<tr><td style="white-space:nowrap">LINGUAL_VESICLES<a name="clinical-signs-cs-LINGUAL_VESICLES"> </a></td>
+<td>Lingual vesicles</td></tr>
+<tr><td style="white-space:nowrap">LUMPS<a name="clinical-signs-cs-LUMPS"> </a></td>
+<td>Lumps</td></tr>
+<tr><td style="white-space:nowrap">LYMPHNODES_ENLARGED<a name="clinical-signs-cs-LYMPHNODES_ENLARGED"> </a></td>
+<td>Lymphnodes enlarged</td></tr>
+<tr><td style="white-space:nowrap">MASTITIS<a name="clinical-signs-cs-MASTITIS"> </a></td>
+<td>Mastitis</td></tr>
+<tr><td style="white-space:nowrap">MILK_WITH_BLOOD<a name="clinical-signs-cs-MILK_WITH_BLOOD"> </a></td>
+<td>Milk with blood</td></tr>
+<tr><td style="white-space:nowrap">MILK_WITH_FLAPPY<a name="clinical-signs-cs-MILK_WITH_FLAPPY"> </a></td>
+<td>Milk with flappy</td></tr>
+<tr><td style="white-space:nowrap">MILK_WITHY_PUS<a name="clinical-signs-cs-MILK_WITHY_PUS"> </a></td>
+<td>Milk withy pus</td></tr>
+<tr><td style="white-space:nowrap">MUSCULAR_ATROPHY<a name="clinical-signs-cs-MUSCULAR_ATROPHY"> </a></td>
+<td>Muscular atrophy</td></tr>
+<tr><td style="white-space:nowrap">NASAL_DISCHARGE<a name="clinical-signs-cs-NASAL_DISCHARGE"> </a></td>
+<td>Nasal Discharge</td></tr>
+<tr><td style="white-space:nowrap">NERVOUS_SYMPTOMS<a name="clinical-signs-cs-NERVOUS_SYMPTOMS"> </a></td>
+<td>Nervous symptoms</td></tr>
+<tr><td style="white-space:nowrap">NO_CLINICAL_SIGNS<a name="clinical-signs-cs-NO_CLINICAL_SIGNS"> </a></td>
+<td>No clinical signs</td></tr>
+<tr><td style="white-space:nowrap">NOT_DRINKING<a name="clinical-signs-cs-NOT_DRINKING"> </a></td>
+<td>Not drinking</td></tr>
+<tr><td style="white-space:nowrap">OCULAR_DISCHARGE<a name="clinical-signs-cs-OCULAR_DISCHARGE"> </a></td>
+<td>Ocular discharge</td></tr>
+<tr><td style="white-space:nowrap">OEDEMA<a name="clinical-signs-cs-OEDEMA"> </a></td>
+<td>Oedema</td></tr>
+<tr><td style="white-space:nowrap">OTHER<a name="clinical-signs-cs-OTHER"> </a></td>
+<td>Other</td></tr>
+<tr><td style="white-space:nowrap">OTITIS<a name="clinical-signs-cs-OTITIS"> </a></td>
+<td>Otitis</td></tr>
+<tr><td style="white-space:nowrap">PARALYSIS<a name="clinical-signs-cs-PARALYSIS"> </a></td>
+<td>Paralysis</td></tr>
+<tr><td style="white-space:nowrap">PARESIS<a name="clinical-signs-cs-PARESIS"> </a></td>
+<td>Paresis</td></tr>
+<tr><td style="white-space:nowrap">PENILE_DISCHARGE<a name="clinical-signs-cs-PENILE_DISCHARGE"> </a></td>
+<td>Penile discharge</td></tr>
+<tr><td style="white-space:nowrap">PETECHIAE<a name="clinical-signs-cs-PETECHIAE"> </a></td>
+<td>Petechiae</td></tr>
+<tr><td style="white-space:nowrap">PNEUMONIA<a name="clinical-signs-cs-PNEUMONIA"> </a></td>
+<td>Pneumonia</td></tr>
+<tr><td style="white-space:nowrap">POX<a name="clinical-signs-cs-POX"> </a></td>
+<td>Pox</td></tr>
+<tr><td style="white-space:nowrap">PREGNANT<a name="clinical-signs-cs-PREGNANT"> </a></td>
+<td>Pregnant</td></tr>
+<tr><td style="white-space:nowrap">PREMATURE<a name="clinical-signs-cs-PREMATURE"> </a></td>
+<td>Premature</td></tr>
+<tr><td style="white-space:nowrap">PREPUTIAL_PROLAPSE<a name="clinical-signs-cs-PREPUTIAL_PROLAPSE"> </a></td>
+<td>Preputial prolapse</td></tr>
+<tr><td style="white-space:nowrap">PROTRUDED_TONGUE<a name="clinical-signs-cs-PROTRUDED_TONGUE"> </a></td>
+<td>Protruded tongue</td></tr>
+<tr><td style="white-space:nowrap">PROTRUDING_MASS<a name="clinical-signs-cs-PROTRUDING_MASS"> </a></td>
+<td>Protruding mass</td></tr>
+<tr><td style="white-space:nowrap">PRURITIS<a name="clinical-signs-cs-PRURITIS"> </a></td>
+<td>Pruritis</td></tr>
+<tr><td style="white-space:nowrap">PULMONARY_ABSCESSATION<a name="clinical-signs-cs-PULMONARY_ABSCESSATION"> </a></td>
+<td>Pulmonary abscessation</td></tr>
+<tr><td style="white-space:nowrap">PURULENT_DISCHARGE<a name="clinical-signs-cs-PURULENT_DISCHARGE"> </a></td>
+<td>Purulent discharge</td></tr>
+<tr><td style="white-space:nowrap">PUSTULES<a name="clinical-signs-cs-PUSTULES"> </a></td>
+<td>Pustules</td></tr>
+<tr><td style="white-space:nowrap">QUIVER<a name="clinical-signs-cs-QUIVER"> </a></td>
+<td>Quiver</td></tr>
+<tr><td style="white-space:nowrap">RECUMBENCY<a name="clinical-signs-cs-RECUMBENCY"> </a></td>
+<td>Recumbency</td></tr>
+<tr><td style="white-space:nowrap">REDNESS<a name="clinical-signs-cs-REDNESS"> </a></td>
+<td>Redness</td></tr>
+<tr><td style="white-space:nowrap">REDUCED_MILK_PRODUCTION<a name="clinical-signs-cs-REDUCED_MILK_PRODUCTION"> </a></td>
+<td>Reduced milk production</td></tr>
+<tr><td style="white-space:nowrap">RESPIRATORY_DISTRESS<a name="clinical-signs-cs-RESPIRATORY_DISTRESS"> </a></td>
+<td>Respiratory distress</td></tr>
+<tr><td style="white-space:nowrap">RESTLESSNESS<a name="clinical-signs-cs-RESTLESSNESS"> </a></td>
+<td>Restlessness</td></tr>
+<tr><td style="white-space:nowrap">RUMEN_STASIS<a name="clinical-signs-cs-RUMEN_STASIS"> </a></td>
+<td>Rumen stasis</td></tr>
+<tr><td style="white-space:nowrap">SALIVATION<a name="clinical-signs-cs-SALIVATION"> </a></td>
+<td>Salivation</td></tr>
+<tr><td style="white-space:nowrap">SCABS<a name="clinical-signs-cs-SCABS"> </a></td>
+<td>Scabs</td></tr>
+<tr><td style="white-space:nowrap">SOMNOLENCE<a name="clinical-signs-cs-SOMNOLENCE"> </a></td>
+<td>Somnolence</td></tr>
+<tr><td style="white-space:nowrap">STARING<a name="clinical-signs-cs-STARING"> </a></td>
+<td>Staring</td></tr>
+<tr><td style="white-space:nowrap">STIFFNESS<a name="clinical-signs-cs-STIFFNESS"> </a></td>
+<td>Stiffness</td></tr>
+<tr><td style="white-space:nowrap">STILL_BIRTH<a name="clinical-signs-cs-STILL_BIRTH"> </a></td>
+<td>STILL BIRTH</td></tr>
+<tr><td style="white-space:nowrap">STOMATITIS<a name="clinical-signs-cs-STOMATITIS"> </a></td>
+<td>Stomatitis</td></tr>
+<tr><td style="white-space:nowrap">STRAINING<a name="clinical-signs-cs-STRAINING"> </a></td>
+<td>Straining</td></tr>
+<tr><td style="white-space:nowrap">SWAYING_GAIT<a name="clinical-signs-cs-SWAYING_GAIT"> </a></td>
+<td>Swaying gait</td></tr>
+<tr><td style="white-space:nowrap">SWELLING_OF_JOINTS<a name="clinical-signs-cs-SWELLING_OF_JOINTS"> </a></td>
+<td>Swelling of joints</td></tr>
+<tr><td style="white-space:nowrap">SWELLING_OF_MUSCLE_GROUPS<a name="clinical-signs-cs-SWELLING_OF_MUSCLE_GROUPS"> </a></td>
+<td>Swelling of muscle groups</td></tr>
+<tr><td style="white-space:nowrap">SWLELLING_OF_SOFT_TISSUE<a name="clinical-signs-cs-SWLELLING_OF_SOFT_TISSUE"> </a></td>
+<td>Swlelling of soft tissue</td></tr>
+<tr><td style="white-space:nowrap">SWOLLEN_HEAD<a name="clinical-signs-cs-SWOLLEN_HEAD"> </a></td>
+<td>Swollen head</td></tr>
+<tr><td style="white-space:nowrap">SWOLLEN_NOSE<a name="clinical-signs-cs-SWOLLEN_NOSE"> </a></td>
+<td>Swollen nose</td></tr>
+<tr><td style="white-space:nowrap">SWOLLEN_PREPUCE<a name="clinical-signs-cs-SWOLLEN_PREPUCE"> </a></td>
+<td>Swollen prepuce</td></tr>
+<tr><td style="white-space:nowrap">SWOLLEN_TONGUE<a name="clinical-signs-cs-SWOLLEN_TONGUE"> </a></td>
+<td>Swollen tongue</td></tr>
+<tr><td style="white-space:nowrap">TENESMUS<a name="clinical-signs-cs-TENESMUS"> </a></td>
+<td>Tenesmus</td></tr>
+<tr><td style="white-space:nowrap">TICK_INFESTATION<a name="clinical-signs-cs-TICK_INFESTATION"> </a></td>
+<td>Tick infestation</td></tr>
+<tr><td style="white-space:nowrap">TORTICOLLIS_(SCEW_NECK)<a name="clinical-signs-cs-TORTICOLLIS_.40SCEW_NECK.41"> </a></td>
+<td>Torticollis (scew neck)</td></tr>
+<tr><td style="white-space:nowrap">TREMOR<a name="clinical-signs-cs-TREMOR"> </a></td>
+<td>Tremor</td></tr>
+<tr><td style="white-space:nowrap">TUMOUR_(EXTERNAL)<a name="clinical-signs-cs-TUMOUR_.40EXTERNAL.41"> </a></td>
+<td>Tumour (external)</td></tr>
+<tr><td style="white-space:nowrap">UMBILICAL_HERNIA<a name="clinical-signs-cs-UMBILICAL_HERNIA"> </a></td>
+<td>Umbilical hernia</td></tr>
+<tr><td style="white-space:nowrap">UTERINE_PROLAPSE<a name="clinical-signs-cs-UTERINE_PROLAPSE"> </a></td>
+<td>Uterine prolapse</td></tr>
+<tr><td style="white-space:nowrap">VAGINAL_DISCHARGE<a name="clinical-signs-cs-VAGINAL_DISCHARGE"> </a></td>
+<td>Vaginal discharge</td></tr>
+<tr><td style="white-space:nowrap">VAGINAL_PROLAPSE<a name="clinical-signs-cs-VAGINAL_PROLAPSE"> </a></td>
+<td>Vaginal prolapse</td></tr>
+<tr><td style="white-space:nowrap">VOMITION<a name="clinical-signs-cs-VOMITION"> </a></td>
+<td>Vomition</td></tr>
+<tr><td style="white-space:nowrap">WARTS<a name="clinical-signs-cs-WARTS"> </a></td>
+<td>Warts</td></tr>
+<tr><td style="white-space:nowrap">WATERY_MILK<a name="clinical-signs-cs-WATERY_MILK"> </a></td>
+<td>Watery milk</td></tr>
+<tr><td style="white-space:nowrap">WEAKNESS<a name="clinical-signs-cs-WEAKNESS"> </a></td>
+<td>Weakness</td></tr>
+<tr><td style="white-space:nowrap">WEALS<a name="clinical-signs-cs-WEALS"> </a></td>
+<td>Weals</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 11, 2024 13:02+0000">2024-04-11</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

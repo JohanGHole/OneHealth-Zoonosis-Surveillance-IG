@@ -1,0 +1,890 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/diseases-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "diseases-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/diseases-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABALONE_HERPES<a name=\"diseases-cs-ABALONE_HERPES\"> </a></td><td>Abalone Herpes</td></tr><tr><td style=\"white-space:nowrap\">ACARAPISOSIS_OF_HONEY_BEES<a name=\"diseases-cs-ACARAPISOSIS_OF_HONEY_BEES\"> </a></td><td>Acarapisosis of honey bees</td></tr><tr><td style=\"white-space:nowrap\">AFRICAN_HORSE_SICKNESS<a name=\"diseases-cs-AFRICAN_HORSE_SICKNESS\"> </a></td><td>African horse sickness</td></tr><tr><td style=\"white-space:nowrap\">AFRICAN_SWINE_FEVER<a name=\"diseases-cs-AFRICAN_SWINE_FEVER\"> </a></td><td>African swine fever</td></tr><tr><td style=\"white-space:nowrap\">AKABANE_DISEASE<a name=\"diseases-cs-AKABANE_DISEASE\"> </a></td><td>Akabane Disease</td></tr><tr><td style=\"white-space:nowrap\">ALASKAPOX_VIRUS<a name=\"diseases-cs-ALASKAPOX_VIRUS\"> </a></td><td>Alaskapox virus</td></tr><tr><td style=\"white-space:nowrap\">ALGAL_BLOOM_OF_MICRCYSTICS<a name=\"diseases-cs-ALGAL_BLOOM_OF_MICRCYSTICS\"> </a></td><td>Algal bloom of micrcystics</td></tr><tr><td style=\"white-space:nowrap\">AMERICAN_FOULBROOD_OF_HONEY_BEES<a name=\"diseases-cs-AMERICAN_FOULBROOD_OF_HONEY_BEES\"> </a></td><td>American foulbrood of honey bees</td></tr><tr><td style=\"white-space:nowrap\">AMYLOODINIUM_SPP_INFECTION<a name=\"diseases-cs-AMYLOODINIUM_SPP_INFECTION\"> </a></td><td>Amyloodinium spp infection</td></tr><tr><td style=\"white-space:nowrap\">ANAPLASMA_SPP<a name=\"diseases-cs-ANAPLASMA_SPP\"> </a></td><td>Anaplasma spp</td></tr><tr><td style=\"white-space:nowrap\">ANTHRAX<a name=\"diseases-cs-ANTHRAX\"> </a></td><td>Anthrax</td></tr><tr><td style=\"white-space:nowrap\">ARENA_VIRUS<a name=\"diseases-cs-ARENA_VIRUS\"> </a></td><td>Arena virus</td></tr><tr><td style=\"white-space:nowrap\">ARGENTINE_HEMORRHAGIC_FEVER_JUNIN_VIRUS<a name=\"diseases-cs-ARGENTINE_HEMORRHAGIC_FEVER_JUNIN_VIRUS\"> </a></td><td>Argentine hemorrhagic fever (Junin virus)</td></tr><tr><td style=\"white-space:nowrap\">ASPERGILLOSIS<a name=\"diseases-cs-ASPERGILLOSIS\"> </a></td><td>Aspergillosis</td></tr><tr><td style=\"white-space:nowrap\">ATKINSIELLA_SPP<a name=\"diseases-cs-ATKINSIELLA_SPP\"> </a></td><td>Atkinsiella spp</td></tr><tr><td style=\"white-space:nowrap\">ATRESIA_ANI<a name=\"diseases-cs-ATRESIA_ANI\"> </a></td><td>Atresia Ani</td></tr><tr><td style=\"white-space:nowrap\">ATROPHIC_RHINITIS_AR<a name=\"diseases-cs-ATROPHIC_RHINITIS_AR\"> </a></td><td>Atrophic Rhinitis (AR)</td></tr><tr><td style=\"white-space:nowrap\">AUJESZKY'S_DISEASE<a name=\"diseases-cs-AUJESZKY.39S_DISEASE\"> </a></td><td>Aujeszky's disease</td></tr><tr><td style=\"white-space:nowrap\">AVIAN_CHLAMYDIOSIS<a name=\"diseases-cs-AVIAN_CHLAMYDIOSIS\"> </a></td><td>Avian chlamydiosis</td></tr><tr><td style=\"white-space:nowrap\">AVIAN_INFECTIOUS_BRONCHITIS<a name=\"diseases-cs-AVIAN_INFECTIOUS_BRONCHITIS\"> </a></td><td>Avian infectious bronchitis</td></tr><tr><td style=\"white-space:nowrap\">AVIAN_INFECTIOUS_LARYNGOTRACHEITIS<a name=\"diseases-cs-AVIAN_INFECTIOUS_LARYNGOTRACHEITIS\"> </a></td><td>Avian infectious laryngotracheitis</td></tr><tr><td style=\"white-space:nowrap\">AVIAN_MYCOPLASMOSIS_M_GALLISEPTICUM<a name=\"diseases-cs-AVIAN_MYCOPLASMOSIS_M_GALLISEPTICUM\"> </a></td><td>Avian mycoplasmosis (M. gallisepticum)</td></tr><tr><td style=\"white-space:nowrap\">AVIAN_MYCOPLASMOSIS_M_SYNOVIAE<a name=\"diseases-cs-AVIAN_MYCOPLASMOSIS_M_SYNOVIAE\"> </a></td><td>Avian mycoplasmosis (M. synoviae)</td></tr><tr><td style=\"white-space:nowrap\">AVIAN_MYCOPLASMOSIS_M_SYNSHEEPAE<a name=\"diseases-cs-AVIAN_MYCOPLASMOSIS_M_SYNSHEEPAE\"> </a></td><td>Avian mycoplasmosis (M. synsheepae)</td></tr><tr><td style=\"white-space:nowrap\">AVIAN_TUBERCULOSIS<a name=\"diseases-cs-AVIAN_TUBERCULOSIS\"> </a></td><td>Avian tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">BABESIA_SPP<a name=\"diseases-cs-BABESIA_SPP\"> </a></td><td>Babesia spp</td></tr><tr><td style=\"white-space:nowrap\">BACTERIAL_ENTERIC_DISEASES<a name=\"diseases-cs-BACTERIAL_ENTERIC_DISEASES\"> </a></td><td>Bacterial Enteric Diseases</td></tr><tr><td style=\"white-space:nowrap\">BACTERIAL_KIDNEY_DISEASE<a name=\"diseases-cs-BACTERIAL_KIDNEY_DISEASE\"> </a></td><td>Bacterial kidney disease (Renibacterium salmoninarum)</td></tr><tr><td style=\"white-space:nowrap\">BACTERIAL_MENINGITIS<a name=\"diseases-cs-BACTERIAL_MENINGITIS\"> </a></td><td>Bacterial Meningitis</td></tr><tr><td style=\"white-space:nowrap\">NECROSIS_SHELL_DISEASE_FILAMENTOUS_BACTERIAL<a name=\"diseases-cs-NECROSIS_SHELL_DISEASE_FILAMENTOUS_BACTERIAL\"> </a></td><td>Bactrial necrosis/shell disease Filamentous bacterial diseases</td></tr><tr><td style=\"white-space:nowrap\">BACULOVIRUS_INFECTION<a name=\"diseases-cs-BACULOVIRUS_INFECTION\"> </a></td><td>Baculovirus infection</td></tr><tr><td style=\"white-space:nowrap\">BATRACHOCHYTRIUM_DENDROBATIDIS<a name=\"diseases-cs-BATRACHOCHYTRIUM_DENDROBATIDIS\"> </a></td><td>Batrachochytrium dendrobatidis</td></tr><tr><td style=\"white-space:nowrap\">BEETLES<a name=\"diseases-cs-BEETLES\"> </a></td><td>Beetles</td></tr><tr><td style=\"white-space:nowrap\">BLACK_DISEASE<a name=\"diseases-cs-BLACK_DISEASE\"> </a></td><td>Black disease</td></tr><tr><td style=\"white-space:nowrap\">BLACKLEG<a name=\"diseases-cs-BLACKLEG\"> </a></td><td>Blackleg</td></tr><tr><td style=\"white-space:nowrap\">BLUETONGUE<a name=\"diseases-cs-BLUETONGUE\"> </a></td><td>Bluetongue</td></tr><tr><td style=\"white-space:nowrap\">BONAMIA_EXITIOSA<a name=\"diseases-cs-BONAMIA_EXITIOSA\"> </a></td><td>Bonamia exitiosa</td></tr><tr><td style=\"white-space:nowrap\">BONAMIA_OSTREAE<a name=\"diseases-cs-BONAMIA_OSTREAE\"> </a></td><td>Bonamia ostreae</td></tr><tr><td style=\"white-space:nowrap\">BOTULISM<a name=\"diseases-cs-BOTULISM\"> </a></td><td>Botulism</td></tr><tr><td style=\"white-space:nowrap\">BOVINE_ANAPLASMOSIS<a name=\"diseases-cs-BOVINE_ANAPLASMOSIS\"> </a></td><td>Bovine anaplasmosis</td></tr><tr><td style=\"white-space:nowrap\">BOVINE_BABESIOSIS<a name=\"diseases-cs-BOVINE_BABESIOSIS\"> </a></td><td>Bovine babesiosis</td></tr><tr><td style=\"white-space:nowrap\">BOVINE_CYSTICERCOSIS<a name=\"diseases-cs-BOVINE_CYSTICERCOSIS\"> </a></td><td>Bovine cysticercosis</td></tr><tr><td style=\"white-space:nowrap\">BOVINE_GENITAL_CAMPYLOBACTERIOSIS<a name=\"diseases-cs-BOVINE_GENITAL_CAMPYLOBACTERIOSIS\"> </a></td><td>Bovine genital campylobacteriosis</td></tr><tr><td style=\"white-space:nowrap\">BOVINE_SPONGIFORM_ENCEPHALOPATHY<a name=\"diseases-cs-BOVINE_SPONGIFORM_ENCEPHALOPATHY\"> </a></td><td>Bovine spongiform encephalopathy</td></tr><tr><td style=\"white-space:nowrap\">BOVINE_TUBERCULOSIS<a name=\"diseases-cs-BOVINE_TUBERCULOSIS\"> </a></td><td>Bovine tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">BOVINE_VIRAL_DIARRHOEA<a name=\"diseases-cs-BOVINE_VIRAL_DIARRHOEA\"> </a></td><td>Bovine viral diarrhoea</td></tr><tr><td style=\"white-space:nowrap\">BRUCELLOSIS<a name=\"diseases-cs-BRUCELLOSIS\"> </a></td><td>Brucellosis</td></tr><tr><td style=\"white-space:nowrap\">BRUCELLOSIS_BRUCELLA_ABORTUS<a name=\"diseases-cs-BRUCELLOSIS_BRUCELLA_ABORTUS\"> </a></td><td>Brucellosis (Brucella abortus)</td></tr><tr><td style=\"white-space:nowrap\">BRUCELLOSIS_BRUCELLA_MELITENSIS<a name=\"diseases-cs-BRUCELLOSIS_BRUCELLA_MELITENSIS\"> </a></td><td>Brucellosis (Brucella melitensis)</td></tr><tr><td style=\"white-space:nowrap\">BRUCELLOSIS_BRUCELLA_SUIS<a name=\"diseases-cs-BRUCELLOSIS_BRUCELLA_SUIS\"> </a></td><td>Brucellosis (Brucella suis)</td></tr><tr><td style=\"white-space:nowrap\">CAMELPOX<a name=\"diseases-cs-CAMELPOX\"> </a></td><td>Camelpox</td></tr><tr><td style=\"white-space:nowrap\">CAMPYLOBACTERIOSIS<a name=\"diseases-cs-CAMPYLOBACTERIOSIS\"> </a></td><td>Campylobacteriosis</td></tr><tr><td style=\"white-space:nowrap\">CANINE_DISTEMPER<a name=\"diseases-cs-CANINE_DISTEMPER\"> </a></td><td>Canine distemper</td></tr><tr><td style=\"white-space:nowrap\">CAPRINE_ARTHRITIS_ENCEPHALITIS<a name=\"diseases-cs-CAPRINE_ARTHRITIS_ENCEPHALITIS\"> </a></td><td>Caprine arthritis/encephalitis</td></tr><tr><td style=\"white-space:nowrap\">CAT_FLUE<a name=\"diseases-cs-CAT_FLUE\"> </a></td><td>Cat flue</td></tr><tr><td style=\"white-space:nowrap\">CHANNEL_CATFISH_VIRUS_DISEASE<a name=\"diseases-cs-CHANNEL_CATFISH_VIRUS_DISEASE\"> </a></td><td>Channel catfish virus disease</td></tr><tr><td style=\"white-space:nowrap\">CHILL_BROOD<a name=\"diseases-cs-CHILL_BROOD\"> </a></td><td>Chill brood</td></tr><tr><td style=\"white-space:nowrap\">CHONDROCOCCUS_COLUMNARIS_FINS_EROSION<a name=\"diseases-cs-CHONDROCOCCUS_COLUMNARIS_FINS_EROSION\"> </a></td><td>Chondrococcus columnaris/fins erosion</td></tr><tr><td style=\"white-space:nowrap\">CHRONIC_RESPIRATORY_DISEASE<a name=\"diseases-cs-CHRONIC_RESPIRATORY_DISEASE\"> </a></td><td>Chronic respiratory disease</td></tr><tr><td style=\"white-space:nowrap\">CHRONIC_WASTING_DISEASE<a name=\"diseases-cs-CHRONIC_WASTING_DISEASE\"> </a></td><td>Chronic wasting disease</td></tr><tr><td style=\"white-space:nowrap\">CLASSICAL_SWINE_FEVER<a name=\"diseases-cs-CLASSICAL_SWINE_FEVER\"> </a></td><td>Classical swine fever</td></tr><tr><td style=\"white-space:nowrap\">COCCIDIOSIS<a name=\"diseases-cs-COCCIDIOSIS\"> </a></td><td>Coccidiosis</td></tr><tr><td style=\"white-space:nowrap\">COLIBACILLOSIS<a name=\"diseases-cs-COLIBACILLOSIS\"> </a></td><td>Colibacillosis</td></tr><tr><td style=\"white-space:nowrap\">COLONY_COLLAPSE<a name=\"diseases-cs-COLONY_COLLAPSE\"> </a></td><td>Colony Collapse</td></tr><tr><td style=\"white-space:nowrap\">CONTAGIOUS_AGALACTIA<a name=\"diseases-cs-CONTAGIOUS_AGALACTIA\"> </a></td><td>Contagious agalactia</td></tr><tr><td style=\"white-space:nowrap\">CONTAGIOUS_BOVINE_PLEUROPNEUMONIA<a name=\"diseases-cs-CONTAGIOUS_BOVINE_PLEUROPNEUMONIA\"> </a></td><td>Contagious bovine pleuropneumonia</td></tr><tr><td style=\"white-space:nowrap\">CONTAGIOUS_CAPRINE_PLEUROPNEUMONIA<a name=\"diseases-cs-CONTAGIOUS_CAPRINE_PLEUROPNEUMONIA\"> </a></td><td>Contagious caprine pleuropneumonia</td></tr><tr><td style=\"white-space:nowrap\">CONTAGIOUS_ECTHYMA<a name=\"diseases-cs-CONTAGIOUS_ECTHYMA\"> </a></td><td>Contagious Ecthyma</td></tr><tr><td style=\"white-space:nowrap\">CONTAGIOUS_EQUINE_ANEMIA<a name=\"diseases-cs-CONTAGIOUS_EQUINE_ANEMIA\"> </a></td><td>Contagious Equine Anemia</td></tr><tr><td style=\"white-space:nowrap\">CONTAGIOUS_EQUINE_METRITIS<a name=\"diseases-cs-CONTAGIOUS_EQUINE_METRITIS\"> </a></td><td>Contagious equine metritis</td></tr><tr><td style=\"white-space:nowrap\">COVID19_SARSCOV2<a name=\"diseases-cs-COVID19_SARSCOV2\"> </a></td><td>COVID-19 (SARS-COV-2)</td></tr><tr><td style=\"white-space:nowrap\">CRAYFISH_PLAGUE_APHANOMYCES_ASTACI<a name=\"diseases-cs-CRAYFISH_PLAGUE_APHANOMYCES_ASTACI\"> </a></td><td>Crayfish plague (Aphanomyces astaci)</td></tr><tr><td style=\"white-space:nowrap\">CRIMEAN_CONGO_HAEMORRHAGIC_FEVER<a name=\"diseases-cs-CRIMEAN_CONGO_HAEMORRHAGIC_FEVER\"> </a></td><td>Crimean Congo haemorrhagic fever</td></tr><tr><td style=\"white-space:nowrap\">CYSTICERCOSIS<a name=\"diseases-cs-CYSTICERCOSIS\"> </a></td><td>Cysticercosis</td></tr><tr><td style=\"white-space:nowrap\">DENGUE<a name=\"diseases-cs-DENGUE\"> </a></td><td>Dengue</td></tr><tr><td style=\"white-space:nowrap\">DERMATOPHILOSIS<a name=\"diseases-cs-DERMATOPHILOSIS\"> </a></td><td>Dermatophilosis</td></tr><tr><td style=\"white-space:nowrap\">DISTEMPER<a name=\"diseases-cs-DISTEMPER\"> </a></td><td>Distemper</td></tr><tr><td style=\"white-space:nowrap\">DISTOMATOSIS<a name=\"diseases-cs-DISTOMATOSIS\"> </a></td><td>Distomatosis</td></tr><tr><td style=\"white-space:nowrap\">DOURINE<a name=\"diseases-cs-DOURINE\"> </a></td><td>Dourine</td></tr><tr><td style=\"white-space:nowrap\">DRACUNCULIASIS<a name=\"diseases-cs-DRACUNCULIASIS\"> </a></td><td>Dracunculiasis</td></tr><tr><td style=\"white-space:nowrap\">DUCK_VIRUS_ENTERITIS<a name=\"diseases-cs-DUCK_VIRUS_ENTERITIS\"> </a></td><td>Duck virus enteritis</td></tr><tr><td style=\"white-space:nowrap\">DUCK_VIRUS_HEPATITIS<a name=\"diseases-cs-DUCK_VIRUS_HEPATITIS\"> </a></td><td>Duck virus hepatitis</td></tr><tr><td style=\"white-space:nowrap\">DYSTOCIA<a name=\"diseases-cs-DYSTOCIA\"> </a></td><td>Dystocia</td></tr><tr><td style=\"white-space:nowrap\">EAST_COAST_FEVER<a name=\"diseases-cs-EAST_COAST_FEVER\"> </a></td><td>East Coast fever</td></tr><tr><td style=\"white-space:nowrap\">EASTERN_EQUINE_ENCEPHALOMYELITIS<a name=\"diseases-cs-EASTERN_EQUINE_ENCEPHALOMYELITIS\"> </a></td><td>Eastern equine encephalomyelitis</td></tr><tr><td style=\"white-space:nowrap\">EBOLARESTON<a name=\"diseases-cs-EBOLARESTON\"> </a></td><td>Ebola-Reston</td></tr><tr><td style=\"white-space:nowrap\">EBOLA_VIRUS<a name=\"diseases-cs-EBOLA_VIRUS\"> </a></td><td>Ebola Virus</td></tr><tr><td style=\"white-space:nowrap\">ECHINOCOCCOSIS_HYDATIDOSIS<a name=\"diseases-cs-ECHINOCOCCOSIS_HYDATIDOSIS\"> </a></td><td>Echinococcosis/hydatidosis</td></tr><tr><td style=\"white-space:nowrap\">ECTOPARASITISM<a name=\"diseases-cs-ECTOPARASITISM\"> </a></td><td>Ectoparasitism</td></tr><tr><td style=\"white-space:nowrap\">EGG_DROP_SYNDROME<a name=\"diseases-cs-EGG_DROP_SYNDROME\"> </a></td><td>Egg Drop Syndrome</td></tr><tr><td style=\"white-space:nowrap\">ENTERIC_SEPTICAEMIA_CATFISH_EDWARDSIELLA_ICTALURI<a name=\"diseases-cs-ENTERIC_SEPTICAEMIA_CATFISH_EDWARDSIELLA_ICTALURI\"> </a></td><td>Enteric septicaemia of catfish (Edwardsiella ictaluri)</td></tr><tr><td style=\"white-space:nowrap\">ENTEROTOXEMIA<a name=\"diseases-cs-ENTEROTOXEMIA\"> </a></td><td>Enterotoxemia</td></tr><tr><td style=\"white-space:nowrap\">ENZOOTIC_ABORTION_CHLAMYDIOSIS<a name=\"diseases-cs-ENZOOTIC_ABORTION_CHLAMYDIOSIS\"> </a></td><td>Enzootic abortion (chlamydiosis)</td></tr><tr><td style=\"white-space:nowrap\">ENZOOTIC_ABORTION_OF_EWES_OVINE_CHLAMYDIOSIS<a name=\"diseases-cs-ENZOOTIC_ABORTION_OF_EWES_OVINE_CHLAMYDIOSIS\"> </a></td><td>Enzootic abortion of ewes (ovine chlamydiosis)</td></tr><tr><td style=\"white-space:nowrap\">ENZOOTIC_BOVINE_LEUKOSIS<a name=\"diseases-cs-ENZOOTIC_BOVINE_LEUKOSIS\"> </a></td><td>Enzootic bovine leukosis</td></tr><tr><td style=\"white-space:nowrap\">EPHEMERAL_FEVER_3_DAY_STIFFNESS<a name=\"diseases-cs-EPHEMERAL_FEVER_3_DAY_STIFFNESS\"> </a></td><td>Ephemeral fever (3 day stiffness)</td></tr><tr><td style=\"white-space:nowrap\">EPIZOOTIC_HAEMATOPOIETIC_NECROSIS<a name=\"diseases-cs-EPIZOOTIC_HAEMATOPOIETIC_NECROSIS\"> </a></td><td>Epizootic haematopoietic necrosis</td></tr><tr><td style=\"white-space:nowrap\">EPIZOOTIC_HAEMORRHAGIC_DISEASE<a name=\"diseases-cs-EPIZOOTIC_HAEMORRHAGIC_DISEASE\"> </a></td><td>Epizootic haemorrhagic disease</td></tr><tr><td style=\"white-space:nowrap\">EPIZOOTIC_LYMPHANGITIS<a name=\"diseases-cs-EPIZOOTIC_LYMPHANGITIS\"> </a></td><td>Epizootic lymphangitis</td></tr><tr><td style=\"white-space:nowrap\">EPIZOOTIC_ULCERATIVE_SYNDROME<a name=\"diseases-cs-EPIZOOTIC_ULCERATIVE_SYNDROME\"> </a></td><td>Epizootic ulcerative syndrome</td></tr><tr><td style=\"white-space:nowrap\">EQUID_HERPRESVIRUS1_EHV1<a name=\"diseases-cs-EQUID_HERPRESVIRUS1_EHV1\"> </a></td><td>Equid herpresvirus1 (EHV-1)</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_ENCEPHALOMYELITIS_EAST_AND_WEST<a name=\"diseases-cs-EQUINE_ENCEPHALOMYELITIS_EAST_AND_WEST\"> </a></td><td>Equine Encephalomyelitis (East and West)</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_ENCEPHALOMYELITIS_EASTERN<a name=\"diseases-cs-EQUINE_ENCEPHALOMYELITIS_EASTERN\"> </a></td><td>Equine encephalomyelitis (Eastern)</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_ENCEPHALOMYELITIS_WESTERN<a name=\"diseases-cs-EQUINE_ENCEPHALOMYELITIS_WESTERN\"> </a></td><td>Equine encephalomyelitis (Western)</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_ENCEPHALOSIS<a name=\"diseases-cs-EQUINE_ENCEPHALOSIS\"> </a></td><td>Equine encephalosis</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_INFECTIOUS_ANAEMIA<a name=\"diseases-cs-EQUINE_INFECTIOUS_ANAEMIA\"> </a></td><td>Equine infectious anaemia</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_LYMPHANGITIS<a name=\"diseases-cs-EQUINE_LYMPHANGITIS\"> </a></td><td>Equine lymphangitis</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_PIROPLASMOSIS<a name=\"diseases-cs-EQUINE_PIROPLASMOSIS\"> </a></td><td>Equine piroplasmosis</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_RHINOPNEUMONITIS<a name=\"diseases-cs-EQUINE_RHINOPNEUMONITIS\"> </a></td><td>Equine rhinopneumonitis</td></tr><tr><td style=\"white-space:nowrap\">EQUINE_VIRAL_ARTERITIS<a name=\"diseases-cs-EQUINE_VIRAL_ARTERITIS\"> </a></td><td>Equine viral arteritis</td></tr><tr><td style=\"white-space:nowrap\">ERHLICHIOSIS<a name=\"diseases-cs-ERHLICHIOSIS\"> </a></td><td>Erhlichiosis</td></tr><tr><td style=\"white-space:nowrap\">ERYSIPELAS<a name=\"diseases-cs-ERYSIPELAS\"> </a></td><td>Erysipelas</td></tr><tr><td style=\"white-space:nowrap\">ESCHERICHIA_COLI<a name=\"diseases-cs-ESCHERICHIA_COLI\"> </a></td><td>Escherichia coli</td></tr><tr><td style=\"white-space:nowrap\">EUROPEAN_FOULBROOD_OF_HONEY_BEES<a name=\"diseases-cs-EUROPEAN_FOULBROOD_OF_HONEY_BEES\"> </a></td><td>European foulbrood of honey bees</td></tr><tr><td style=\"white-space:nowrap\">FOOD_BORNE_DISEASE<a name=\"diseases-cs-FOOD_BORNE_DISEASE\"> </a></td><td>Food borne disease</td></tr><tr><td style=\"white-space:nowrap\">FOOT_AND_MOUTH_DISEASE<a name=\"diseases-cs-FOOT_AND_MOUTH_DISEASE\"> </a></td><td>Foot and mouth disease</td></tr><tr><td style=\"white-space:nowrap\">FOOT_ROT<a name=\"diseases-cs-FOOT_ROT\"> </a></td><td>Foot rot</td></tr><tr><td style=\"white-space:nowrap\">FOULBROOD_OF_HONEY<a name=\"diseases-cs-FOULBROOD_OF_HONEY\"> </a></td><td>Foulbrood of honey</td></tr><tr><td style=\"white-space:nowrap\">FOWL_CHOLERA<a name=\"diseases-cs-FOWL_CHOLERA\"> </a></td><td>Fowl cholera</td></tr><tr><td style=\"white-space:nowrap\">FOWL_POX<a name=\"diseases-cs-FOWL_POX\"> </a></td><td>Fowl pox</td></tr><tr><td style=\"white-space:nowrap\">FOWL_TYPHOID<a name=\"diseases-cs-FOWL_TYPHOID\"> </a></td><td>Fowl typhoid</td></tr><tr><td style=\"white-space:nowrap\">FUSARIUM_SPP<a name=\"diseases-cs-FUSARIUM_SPP\"> </a></td><td>Fusarium spp</td></tr><tr><td style=\"white-space:nowrap\">GLANDERS<a name=\"diseases-cs-GLANDERS\"> </a></td><td>Glanders</td></tr><tr><td style=\"white-space:nowrap\">GREGARINE_INFECTION<a name=\"diseases-cs-GREGARINE_INFECTION\"> </a></td><td>Gregarine infection</td></tr><tr><td style=\"white-space:nowrap\">GYRODACTYLOSIS_GYRODACTYLUS_SALARIS<a name=\"diseases-cs-GYRODACTYLOSIS_GYRODACTYLUS_SALARIS\"> </a></td><td>Gyrodactylosis (Gyrodactylus salaris)</td></tr><tr><td style=\"white-space:nowrap\">HAEMORRHAGIC_SEPTICAEMIA<a name=\"diseases-cs-HAEMORRHAGIC_SEPTICAEMIA\"> </a></td><td>Haemorrhagic Septicaemia</td></tr><tr><td style=\"white-space:nowrap\">HALIPHTHOROS_SPPS<a name=\"diseases-cs-HALIPHTHOROS_SPPS\"> </a></td><td>Haliphthoros spps</td></tr><tr><td style=\"white-space:nowrap\">HALOCRSTCIDA_SPP<a name=\"diseases-cs-HALOCRSTCIDA_SPP\"> </a></td><td>Halocrstcida spp</td></tr><tr><td style=\"white-space:nowrap\">HEARTWATER<a name=\"diseases-cs-HEARTWATER\"> </a></td><td>Heartwater</td></tr><tr><td style=\"white-space:nowrap\">HELMINTHIASIS<a name=\"diseases-cs-HELMINTHIASIS\"> </a></td><td>Helminthiasis</td></tr><tr><td style=\"white-space:nowrap\">HENDRA_VIRUS_DISEASE<a name=\"diseases-cs-HENDRA_VIRUS_DISEASE\"> </a></td><td>Hendra Virus Disease</td></tr><tr><td style=\"white-space:nowrap\">HEPATITIS<a name=\"diseases-cs-HEPATITIS\"> </a></td><td>Hepatitis</td></tr><tr><td style=\"white-space:nowrap\">HERNIE_EMBILICAL<a name=\"diseases-cs-HERNIE_EMBILICAL\"> </a></td><td>Hernie Embilical</td></tr><tr><td style=\"white-space:nowrap\">HORSE_POX<a name=\"diseases-cs-HORSE_POX\"> </a></td><td>Horse pox</td></tr><tr><td style=\"white-space:nowrap\">INFECTION_WITH_HAPLOSPORIDIUM_NELSONI<a name=\"diseases-cs-INFECTION_WITH_HAPLOSPORIDIUM_NELSONI\"> </a></td><td>Infection with Haplosporidium nelsoni</td></tr><tr><td style=\"white-space:nowrap\">INFECTION_WITH_MARTEILIA_REFRINGENS<a name=\"diseases-cs-INFECTION_WITH_MARTEILIA_REFRINGENS\"> </a></td><td>Infection with Marteilia refringens</td></tr><tr><td style=\"white-space:nowrap\">INFECTION_WITH_MARTEILIA_SYDNEYI<a name=\"diseases-cs-INFECTION_WITH_MARTEILIA_SYDNEYI\"> </a></td><td>Infection with Marteilia sydneyi</td></tr><tr><td style=\"white-space:nowrap\">INFECTION_WITH_PERKINSUS_MARINUS<a name=\"diseases-cs-INFECTION_WITH_PERKINSUS_MARINUS\"> </a></td><td>Infection with Perkinsus marinus</td></tr><tr><td style=\"white-space:nowrap\">INFECTION_WITH_XENOHALIOTIS_CALIFORNIENSIS<a name=\"diseases-cs-INFECTION_WITH_XENOHALIOTIS_CALIFORNIENSIS\"> </a></td><td>Infection with Xenohaliotis californiensis</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_BOVINE_KERATOCONJUNCTIVITIS_PINKEYE<a name=\"diseases-cs-INFECTIOUS_BOVINE_KERATOCONJUNCTIVITIS_PINKEYE\"> </a></td><td>Infectious Bovine Keratoconjunctivitis (Pinkeye)</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_BOVINE_RHINOTRACHEITIS<a name=\"diseases-cs-INFECTIOUS_BOVINE_RHINOTRACHEITIS\"> </a></td><td>Infectious bovine rhinotracheitis</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_BRONCHITIS<a name=\"diseases-cs-INFECTIOUS_BRONCHITIS\"> </a></td><td>Infectious Bronchitis</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_BURSAL_DISEASE_GUMBORO_DISEASE<a name=\"diseases-cs-INFECTIOUS_BURSAL_DISEASE_GUMBORO_DISEASE\"> </a></td><td>Infectious bursal disease (Gumboro disease)</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_CORYZA<a name=\"diseases-cs-INFECTIOUS_CORYZA\"> </a></td><td>Infectious Coryza</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_HAEMATOPOIETIC_NECROSIS<a name=\"diseases-cs-INFECTIOUS_HAEMATOPOIETIC_NECROSIS\"> </a></td><td>Infectious haematopoietic necrosis</td></tr><tr><td style=\"white-space:nowrap\">IHHN<a name=\"diseases-cs-IHHN\"> </a></td><td>Infectious hypodermal and haematopoietic necrosis (IHHN)</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_MYONECROSIS<a name=\"diseases-cs-INFECTIOUS_MYONECROSIS\"> </a></td><td>Infectious myonecrosis</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_PUSTULAR_VULVOVAGINITIS<a name=\"diseases-cs-INFECTIOUS_PUSTULAR_VULVOVAGINITIS\"> </a></td><td>Infectious pustular vulvovaginitis</td></tr><tr><td style=\"white-space:nowrap\">INFECTIOUS_SALMON_ANAEMIA<a name=\"diseases-cs-INFECTIOUS_SALMON_ANAEMIA\"> </a></td><td>Infectious salmon anaemia</td></tr><tr><td style=\"white-space:nowrap\">INFLUENZA_AVIAN<a name=\"diseases-cs-INFLUENZA_AVIAN\"> </a></td><td>Influenza - Avian</td></tr><tr><td style=\"white-space:nowrap\">INFLUENZA_EQUINE<a name=\"diseases-cs-INFLUENZA_EQUINE\"> </a></td><td>Influenza - Equine</td></tr><tr><td style=\"white-space:nowrap\">INFLUENZA_SWINE<a name=\"diseases-cs-INFLUENZA_SWINE\"> </a></td><td>Influenza - Swine</td></tr><tr><td style=\"white-space:nowrap\">INTOXICATION<a name=\"diseases-cs-INTOXICATION\"> </a></td><td>Intoxication</td></tr><tr><td style=\"white-space:nowrap\">JAPANESE_ENCEPHALITIS<a name=\"diseases-cs-JAPANESE_ENCEPHALITIS\"> </a></td><td>Japanese Encephalitis</td></tr><tr><td style=\"white-space:nowrap\">KOI_HERPES_VIRUS_KHV_DISEASE<a name=\"diseases-cs-KOI_HERPES_VIRUS_KHV_DISEASE\"> </a></td><td>Koi herpes virus (KHV) disease</td></tr><tr><td style=\"white-space:nowrap\">KUNJIN_VIRUS<a name=\"diseases-cs-KUNJIN_VIRUS\"> </a></td><td>Kunjin virus</td></tr><tr><td style=\"white-space:nowrap\">KYASANUR_FOREST_DISEASE<a name=\"diseases-cs-KYASANUR_FOREST_DISEASE\"> </a></td><td>Kyasanur forest disease</td></tr><tr><td style=\"white-space:nowrap\">LAAGENIDIUM_SPP<a name=\"diseases-cs-LAAGENIDIUM_SPP\"> </a></td><td>Laagenidium spp</td></tr><tr><td style=\"white-space:nowrap\">LASSA_FEVER<a name=\"diseases-cs-LASSA_FEVER\"> </a></td><td>Lassa fever</td></tr><tr><td style=\"white-space:nowrap\">LEISHMANIOSIS<a name=\"diseases-cs-LEISHMANIOSIS\"> </a></td><td>Leishmaniosis</td></tr><tr><td style=\"white-space:nowrap\">LEPROSY_HANSEN'S_DISEASE<a name=\"diseases-cs-LEPROSY_HANSEN.39S_DISEASE\"> </a></td><td>Leprosy (Hansen's disease)</td></tr><tr><td style=\"white-space:nowrap\">LEPTOSPIROSIS<a name=\"diseases-cs-LEPTOSPIROSIS\"> </a></td><td>Leptospirosis</td></tr><tr><td style=\"white-space:nowrap\">LISTERIOSIS<a name=\"diseases-cs-LISTERIOSIS\"> </a></td><td>Listeriosis</td></tr><tr><td style=\"white-space:nowrap\">LIVESTOCK_PARASITIC_DISEASES<a name=\"diseases-cs-LIVESTOCK_PARASITIC_DISEASES\"> </a></td><td>Livestock parasitic diseases</td></tr><tr><td style=\"white-space:nowrap\">LUMINESCENT_BACTERIAL_DISEASES<a name=\"diseases-cs-LUMINESCENT_BACTERIAL_DISEASES\"> </a></td><td>Luminescent bacterial diseases</td></tr><tr><td style=\"white-space:nowrap\">LUMPY_SKIN_DISEASE<a name=\"diseases-cs-LUMPY_SKIN_DISEASE\"> </a></td><td>Lumpy skin disease</td></tr><tr><td style=\"white-space:nowrap\">LUMPY_WOOL_DERMATOPHILUS<a name=\"diseases-cs-LUMPY_WOOL_DERMATOPHILUS\"> </a></td><td>Lumpy wool (Dermatophilus)</td></tr><tr><td style=\"white-space:nowrap\">MAEDIVISNA<a name=\"diseases-cs-MAEDIVISNA\"> </a></td><td>Maedi-visna</td></tr><tr><td style=\"white-space:nowrap\">MALIGNANT_CATARRHAL_FEVER<a name=\"diseases-cs-MALIGNANT_CATARRHAL_FEVER\"> </a></td><td>Malignant catarrhal fever</td></tr><tr><td style=\"white-space:nowrap\">MANGE<a name=\"diseases-cs-MANGE\"> </a></td><td>Mange</td></tr><tr><td style=\"white-space:nowrap\">MARBURG_HEMORRHAGIC_FEVER<a name=\"diseases-cs-MARBURG_HEMORRHAGIC_FEVER\"> </a></td><td>Marburg Hemorrhagic Fever</td></tr><tr><td style=\"white-space:nowrap\">MAREK'S_DISEASE<a name=\"diseases-cs-MAREK.39S_DISEASE\"> </a></td><td>Marek's disease</td></tr><tr><td style=\"white-space:nowrap\">MASTITIS<a name=\"diseases-cs-MASTITIS\"> </a></td><td>Mastitis</td></tr><tr><td style=\"white-space:nowrap\">MERSCOV<a name=\"diseases-cs-MERSCOV\"> </a></td><td>MERS-CoV</td></tr><tr><td style=\"white-space:nowrap\">MICROSPORIDIAN_INFECTION<a name=\"diseases-cs-MICROSPORIDIAN_INFECTION\"> </a></td><td>Microsporidian infection</td></tr><tr><td style=\"white-space:nowrap\">MIKROCYTOS_MACKINI<a name=\"diseases-cs-MIKROCYTOS_MACKINI\"> </a></td><td>Mikrocytos mackini</td></tr><tr><td style=\"white-space:nowrap\">MONKEY_POX<a name=\"diseases-cs-MONKEY_POX\"> </a></td><td>Monkey Pox</td></tr><tr><td style=\"white-space:nowrap\">MORBILLIVIRUSES<a name=\"diseases-cs-MORBILLIVIRUSES\"> </a></td><td>Morbilliviruses  (esp. Peste des Petits Ruminants and Rinderpest)</td></tr><tr><td style=\"white-space:nowrap\">MUSCLE_NECROSIS_VIRUS<a name=\"diseases-cs-MUSCLE_NECROSIS_VIRUS\"> </a></td><td>Muscle necrosis virus</td></tr><tr><td style=\"white-space:nowrap\">MYXOMATOSIS<a name=\"diseases-cs-MYXOMATOSIS\"> </a></td><td>Myxomatosis</td></tr><tr><td style=\"white-space:nowrap\">NAIROBI_SHEEP_DISEASE<a name=\"diseases-cs-NAIROBI_SHEEP_DISEASE\"> </a></td><td>Nairobi sheep disease</td></tr><tr><td style=\"white-space:nowrap\">NECROTISING_HEPATOPANCREATIS<a name=\"diseases-cs-NECROTISING_HEPATOPANCREATIS\"> </a></td><td>Necrotising hepatopancreatis</td></tr><tr><td style=\"white-space:nowrap\">NEWCASTLE_DISEASE<a name=\"diseases-cs-NEWCASTLE_DISEASE\"> </a></td><td>Newcastle disease</td></tr><tr><td style=\"white-space:nowrap\">NEW_WORLD_SCREWWORM_COCHLIOMYIA_HOMINIVORAX<a name=\"diseases-cs-NEW_WORLD_SCREWWORM_COCHLIOMYIA_HOMINIVORAX\"> </a></td><td>New world screwworm (Cochliomyia hominivorax)</td></tr><tr><td style=\"white-space:nowrap\">NIPAH_VIRUS_ENCEPHALITIS<a name=\"diseases-cs-NIPAH_VIRUS_ENCEPHALITIS\"> </a></td><td>Nipah virus encephalitis</td></tr><tr><td style=\"white-space:nowrap\">OLD_WORLD_SCREWWORM_CHRYSOMYA_BEZZIANA<a name=\"diseases-cs-OLD_WORLD_SCREWWORM_CHRYSOMYA_BEZZIANA\"> </a></td><td>Old world screwworm (Chrysomya bezziana)</td></tr><tr><td style=\"white-space:nowrap\">OMPHALOPHLEBITIS_NAVEL_ILL_JOINT_ILL<a name=\"diseases-cs-OMPHALOPHLEBITIS_NAVEL_ILL_JOINT_ILL\"> </a></td><td>Omphalophlebitis (Navel ill- Joint ill)</td></tr><tr><td style=\"white-space:nowrap\">ONCORHYNCHUS_MASOU_VIRUS_DISEASE<a name=\"diseases-cs-ONCORHYNCHUS_MASOU_VIRUS_DISEASE\"> </a></td><td>Oncorhynchus masou virus disease</td></tr><tr><td style=\"white-space:nowrap\">ORF<a name=\"diseases-cs-ORF\"> </a></td><td>Orf</td></tr><tr><td style=\"white-space:nowrap\">ORMILO_ENCEPHALITIS_THELIRIOSIS<a name=\"diseases-cs-ORMILO_ENCEPHALITIS_THELIRIOSIS\"> </a></td><td>Ormilo/Encephalitis theliriosis</td></tr><tr><td style=\"white-space:nowrap\">OTHER_BACTERIAL_DISEASES<a name=\"diseases-cs-OTHER_BACTERIAL_DISEASES\"> </a></td><td>Other bacterial diseases</td></tr><tr><td style=\"white-space:nowrap\">OTHER_OPPORTUNISSTIC_BACTERIAL_PATHOGEN<a name=\"diseases-cs-OTHER_OPPORTUNISSTIC_BACTERIAL_PATHOGEN\"> </a></td><td>Other opportunisstic bacterial pathogen</td></tr><tr><td style=\"white-space:nowrap\">OVINE_EPIDIDYMITIS_BRUCELLA_OVIS<a name=\"diseases-cs-OVINE_EPIDIDYMITIS_BRUCELLA_OVIS\"> </a></td><td>Ovine epididymitis (Brucella ovis)</td></tr><tr><td style=\"white-space:nowrap\">OVINE_PULMONARY_ADENOMATOSIS<a name=\"diseases-cs-OVINE_PULMONARY_ADENOMATOSIS\"> </a></td><td>Ovine pulmonary adenomatosis</td></tr><tr><td style=\"white-space:nowrap\">PAPILLOMA_VIRUS_WARDS<a name=\"diseases-cs-PAPILLOMA_VIRUS_WARDS\"> </a></td><td>Papilloma Virus (wards)</td></tr><tr><td style=\"white-space:nowrap\">PARAPHIMOSIS<a name=\"diseases-cs-PARAPHIMOSIS\"> </a></td><td>Paraphimosis</td></tr><tr><td style=\"white-space:nowrap\">PARATUBERCULOSIS<a name=\"diseases-cs-PARATUBERCULOSIS\"> </a></td><td>Paratuberculosis</td></tr><tr><td style=\"white-space:nowrap\">PARVOVIRUS<a name=\"diseases-cs-PARVOVIRUS\"> </a></td><td>Parvovirus</td></tr><tr><td style=\"white-space:nowrap\">PERITRICH_CILIATES<a name=\"diseases-cs-PERITRICH_CILIATES\"> </a></td><td>Peritrich ciliates</td></tr><tr><td style=\"white-space:nowrap\">PESTE_DES_PETITS_RUMINANTS<a name=\"diseases-cs-PESTE_DES_PETITS_RUMINANTS\"> </a></td><td>Peste des petits ruminants</td></tr><tr><td style=\"white-space:nowrap\">PHIMOSIS<a name=\"diseases-cs-PHIMOSIS\"> </a></td><td>Phimosis</td></tr><tr><td style=\"white-space:nowrap\">PLAGUE<a name=\"diseases-cs-PLAGUE\"> </a></td><td>Plague</td></tr><tr><td style=\"white-space:nowrap\">POISONING<a name=\"diseases-cs-POISONING\"> </a></td><td>Poisoning</td></tr><tr><td style=\"white-space:nowrap\">POLIOVIRUS<a name=\"diseases-cs-POLIOVIRUS\"> </a></td><td>Poliovirus</td></tr><tr><td style=\"white-space:nowrap\">PORCINE_CYSTICERCOSIS<a name=\"diseases-cs-PORCINE_CYSTICERCOSIS\"> </a></td><td>Porcine cysticercosis</td></tr><tr><td style=\"white-space:nowrap\">PORCINE_ENTEROVIRAL_ENCEPHALOMYELITIS<a name=\"diseases-cs-PORCINE_ENTEROVIRAL_ENCEPHALOMYELITIS\"> </a></td><td>Porcine Enteroviral encephalomyelitis</td></tr><tr><td style=\"white-space:nowrap\">PORCINE_EPIDEMIC_DIARRHEA<a name=\"diseases-cs-PORCINE_EPIDEMIC_DIARRHEA\"> </a></td><td>Porcine epidemic diarrhea</td></tr><tr><td style=\"white-space:nowrap\">PORCINE_REPRODUCTIVE_AND_RESPIRATORY_SYNDROME<a name=\"diseases-cs-PORCINE_REPRODUCTIVE_AND_RESPIRATORY_SYNDROME\"> </a></td><td>Porcine reproductive and respiratory syndrome</td></tr><tr><td style=\"white-space:nowrap\">POSTWEANING_MULTISYSTEMIC_WASTING_SYNDROME_PMWS<a name=\"diseases-cs-POSTWEANING_MULTISYSTEMIC_WASTING_SYNDROME_PMWS\"> </a></td><td>Postweaning Multisystemic Wasting Syndrome (PMWS)</td></tr><tr><td style=\"white-space:nowrap\">PSITTACOSISCHLAMYDOPHILA_PSITTACI<a name=\"diseases-cs-PSITTACOSISCHLAMYDOPHILA_PSITTACI\"> </a></td><td>Psittacosis(Chlamydophila psittaci)</td></tr><tr><td style=\"white-space:nowrap\">PULLORUM_DISEASE<a name=\"diseases-cs-PULLORUM_DISEASE\"> </a></td><td>Pullorum disease</td></tr><tr><td style=\"white-space:nowrap\">Q_FEVER<a name=\"diseases-cs-Q_FEVER\"> </a></td><td>Q fever</td></tr><tr><td style=\"white-space:nowrap\">RABBIT_HAEMORRHAGIC_DISEASE<a name=\"diseases-cs-RABBIT_HAEMORRHAGIC_DISEASE\"> </a></td><td>Rabbit haemorrhagic disease</td></tr><tr><td style=\"white-space:nowrap\">RABIES<a name=\"diseases-cs-RABIES\"> </a></td><td>Rabies</td></tr><tr><td style=\"white-space:nowrap\">RANAVIRUS<a name=\"diseases-cs-RANAVIRUS\"> </a></td><td>Ranavirus</td></tr><tr><td style=\"white-space:nowrap\">RED_SEA_BREAM_IRIDOVIRAL_DISEASE<a name=\"diseases-cs-RED_SEA_BREAM_IRIDOVIRAL_DISEASE\"> </a></td><td>Red sea bream iridoviral disease</td></tr><tr><td style=\"white-space:nowrap\">RED_STERNUM_SYNDROME<a name=\"diseases-cs-RED_STERNUM_SYNDROME\"> </a></td><td>Red sternum syndrome</td></tr><tr><td style=\"white-space:nowrap\">REOVIRUS<a name=\"diseases-cs-REOVIRUS\"> </a></td><td>Reovirus</td></tr><tr><td style=\"white-space:nowrap\">RICKETTSIOSIS<a name=\"diseases-cs-RICKETTSIOSIS\"> </a></td><td>Rickettsiosis</td></tr><tr><td style=\"white-space:nowrap\">RIFT_VALLEY_FEVER<a name=\"diseases-cs-RIFT_VALLEY_FEVER\"> </a></td><td>Rift Valley fever</td></tr><tr><td style=\"white-space:nowrap\">RINDERPEST<a name=\"diseases-cs-RINDERPEST\"> </a></td><td>Rinderpest</td></tr><tr><td style=\"white-space:nowrap\">RUMINANT_MYCOPLASMOSES<a name=\"diseases-cs-RUMINANT_MYCOPLASMOSES\"> </a></td><td>Ruminant Mycoplasmoses</td></tr><tr><td style=\"white-space:nowrap\">SALMONELLOSIS_S_ABORTUSOVIS<a name=\"diseases-cs-SALMONELLOSIS_S_ABORTUSOVIS\"> </a></td><td>Salmonellosis (S. abortusovis)</td></tr><tr><td style=\"white-space:nowrap\">SALMONID_ALPHAVIRUS<a name=\"diseases-cs-SALMONID_ALPHAVIRUS\"> </a></td><td>Salmonid alphavirus</td></tr><tr><td style=\"white-space:nowrap\">SCHMALLENBERG<a name=\"diseases-cs-SCHMALLENBERG\"> </a></td><td>Schmallenberg</td></tr><tr><td style=\"white-space:nowrap\">SCRAPIE<a name=\"diseases-cs-SCRAPIE\"> </a></td><td>Scrapie</td></tr><tr><td style=\"white-space:nowrap\">SHEEP_POX_AND_GOAT_POX<a name=\"diseases-cs-SHEEP_POX_AND_GOAT_POX\"> </a></td><td>Sheep pox and goat pox</td></tr><tr><td style=\"white-space:nowrap\">SMALL_HIVE_BEETLE_INFESTATION_AETHINA_TUMIDA<a name=\"diseases-cs-SMALL_HIVE_BEETLE_INFESTATION_AETHINA_TUMIDA\"> </a></td><td>Small hive beetle infestation (Aethina tumida)</td></tr><tr><td style=\"white-space:nowrap\">SPHERICAL_BACULOVIROSIS<a name=\"diseases-cs-SPHERICAL_BACULOVIROSIS\"> </a></td><td>Spherical baculovirosis (Penaeus monodon-type baculovirus)</td></tr><tr><td style=\"white-space:nowrap\">SPRING_VIRAEMIA_OF_CARP<a name=\"diseases-cs-SPRING_VIRAEMIA_OF_CARP\"> </a></td><td>Spring viraemia of carp</td></tr><tr><td style=\"white-space:nowrap\">STARVATION<a name=\"diseases-cs-STARVATION\"> </a></td><td>Starvation</td></tr><tr><td style=\"white-space:nowrap\">STRANGLES<a name=\"diseases-cs-STRANGLES\"> </a></td><td>Strangles</td></tr><tr><td style=\"white-space:nowrap\">STREPTOCOCCUS_SUIS<a name=\"diseases-cs-STREPTOCOCCUS_SUIS\"> </a></td><td>Streptococcus suis</td></tr><tr><td style=\"white-space:nowrap\">SUCTORIAN_CILIATES<a name=\"diseases-cs-SUCTORIAN_CILIATES\"> </a></td><td>Suctorian ciliates</td></tr><tr><td style=\"white-space:nowrap\">SURRA_TRYPANOSOMA_EVANSI<a name=\"diseases-cs-SURRA_TRYPANOSOMA_EVANSI\"> </a></td><td>Surra (Trypanosoma evansi)</td></tr><tr><td style=\"white-space:nowrap\">SUSPECTED_NEW_EMERGING_DISEASE<a name=\"diseases-cs-SUSPECTED_NEW_EMERGING_DISEASE\"> </a></td><td>Suspected New Emerging Disease</td></tr><tr><td style=\"white-space:nowrap\">SWINE_DYSENTRY<a name=\"diseases-cs-SWINE_DYSENTRY\"> </a></td><td>Swine dysentry</td></tr><tr><td style=\"white-space:nowrap\">SWINE_INFLUENZA<a name=\"diseases-cs-SWINE_INFLUENZA\"> </a></td><td>Swine influenza</td></tr><tr><td style=\"white-space:nowrap\">SWINE_NOVEL_ENTERIC_CORONA_VIRUS_DISEASE<a name=\"diseases-cs-SWINE_NOVEL_ENTERIC_CORONA_VIRUS_DISEASE\"> </a></td><td>Swine Novel Enteric Corona Virus disease</td></tr><tr><td style=\"white-space:nowrap\">SWINE_VESICULAR_DISEASE<a name=\"diseases-cs-SWINE_VESICULAR_DISEASE\"> </a></td><td>Swine vesicular disease</td></tr><tr><td style=\"white-space:nowrap\">TAURA_SYNDROME<a name=\"diseases-cs-TAURA_SYNDROME\"> </a></td><td>Taura syndrome</td></tr><tr><td style=\"white-space:nowrap\">TESCHOVIRUS_ENCEPHALOMYELITIS<a name=\"diseases-cs-TESCHOVIRUS_ENCEPHALOMYELITIS\"> </a></td><td>Teschovirus encephalomyelitis</td></tr><tr><td style=\"white-space:nowrap\">TETANUS<a name=\"diseases-cs-TETANUS\"> </a></td><td>Tetanus</td></tr><tr><td style=\"white-space:nowrap\">TETRAHEDRAL_BACULOVIROSIS_BACULOVIRUS_PENAEI<a name=\"diseases-cs-TETRAHEDRAL_BACULOVIROSIS_BACULOVIRUS_PENAEI\"> </a></td><td>Tetrahedral baculovirosis (Baculovirus penaei)</td></tr><tr><td style=\"white-space:nowrap\">THEILERIOSIS<a name=\"diseases-cs-THEILERIOSIS\"> </a></td><td>Theileriosis</td></tr><tr><td style=\"white-space:nowrap\">THIRD_EYELID_PROLAPSE<a name=\"diseases-cs-THIRD_EYELID_PROLAPSE\"> </a></td><td>Third eyelid prolapse</td></tr><tr><td style=\"white-space:nowrap\">THREE_DAYS_SICKNESS<a name=\"diseases-cs-THREE_DAYS_SICKNESS\"> </a></td><td>Three days sickness</td></tr><tr><td style=\"white-space:nowrap\">TICKBORNE_ENCEPHALITIS<a name=\"diseases-cs-TICKBORNE_ENCEPHALITIS\"> </a></td><td>Tick-borne encephalitis</td></tr><tr><td style=\"white-space:nowrap\">TOXOPLASMOSIS<a name=\"diseases-cs-TOXOPLASMOSIS\"> </a></td><td>Toxoplasmosis</td></tr><tr><td style=\"white-space:nowrap\">TRANSMISSIBLE_GASTROENTERITIS<a name=\"diseases-cs-TRANSMISSIBLE_GASTROENTERITIS\"> </a></td><td>Transmissible gastroenteritis</td></tr><tr><td style=\"white-space:nowrap\">TRANSMISSIBLE_VENEREAL_TUMOR_TVT<a name=\"diseases-cs-TRANSMISSIBLE_VENEREAL_TUMOR_TVT\"> </a></td><td>Transmissible venereal tumor (TVT)</td></tr><tr><td style=\"white-space:nowrap\">TRAUMA_INJURY_FRACTURE<a name=\"diseases-cs-TRAUMA_INJURY_FRACTURE\"> </a></td><td>Trauma/injury/fracture</td></tr><tr><td style=\"white-space:nowrap\">TRAUMATIC_RETICULOPERICARDITIS<a name=\"diseases-cs-TRAUMATIC_RETICULOPERICARDITIS\"> </a></td><td>Traumatic Reticulopericarditis</td></tr><tr><td style=\"white-space:nowrap\">TRICHINELLOSIS<a name=\"diseases-cs-TRICHINELLOSIS\"> </a></td><td>Trichinellosis</td></tr><tr><td style=\"white-space:nowrap\">TRICHOMONOSIS<a name=\"diseases-cs-TRICHOMONOSIS\"> </a></td><td>Trichomonosis</td></tr><tr><td style=\"white-space:nowrap\">TROPILAELAPS_INFESTATION_OF_HONEY_BEES<a name=\"diseases-cs-TROPILAELAPS_INFESTATION_OF_HONEY_BEES\"> </a></td><td>Tropilaelaps infestation of honey bees</td></tr><tr><td style=\"white-space:nowrap\">TRYPANOSOMOSIS_TSETSETRANSMITTED<a name=\"diseases-cs-TRYPANOSOMOSIS_TSETSETRANSMITTED\"> </a></td><td>Trypanosomosis (tsetse-transmitted)</td></tr><tr><td style=\"white-space:nowrap\">TUBERCULOSIS<a name=\"diseases-cs-TUBERCULOSIS\"> </a></td><td>Tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">TULAREMIA<a name=\"diseases-cs-TULAREMIA\"> </a></td><td>Tularemia</td></tr><tr><td style=\"white-space:nowrap\">TURKEY_RHINOTRACHEITIS<a name=\"diseases-cs-TURKEY_RHINOTRACHEITIS\"> </a></td><td>Turkey rhinotracheitis</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN_DISEASE<a name=\"diseases-cs-UNKNOWN_DISEASE\"> </a></td><td>Unknown disease</td></tr><tr><td style=\"white-space:nowrap\">UTERINE_PROLAPSE<a name=\"diseases-cs-UTERINE_PROLAPSE\"> </a></td><td>Uterine Prolapse</td></tr><tr><td style=\"white-space:nowrap\">VARROA_MITES<a name=\"diseases-cs-VARROA_MITES\"> </a></td><td>Varroa mites</td></tr><tr><td style=\"white-space:nowrap\">VARROOSIS_OF_HONEY_BEES<a name=\"diseases-cs-VARROOSIS_OF_HONEY_BEES\"> </a></td><td>Varroosis of honey bees</td></tr><tr><td style=\"white-space:nowrap\">VECTORBORNE_DISEASES<a name=\"diseases-cs-VECTORBORNE_DISEASES\"> </a></td><td>Vector-borne diseases</td></tr><tr><td style=\"white-space:nowrap\">VENEZUELAN_EQUINE_ENCEPHALOMYELITIS<a name=\"diseases-cs-VENEZUELAN_EQUINE_ENCEPHALOMYELITIS\"> </a></td><td>Venezuelan equine encephalomyelitis</td></tr><tr><td style=\"white-space:nowrap\">VESICULAR_STOMATITIS<a name=\"diseases-cs-VESICULAR_STOMATITIS\"> </a></td><td>Vesicular stomatitis</td></tr><tr><td style=\"white-space:nowrap\">VIBRIO_ALGINOLYTICUS<a name=\"diseases-cs-VIBRIO_ALGINOLYTICUS\"> </a></td><td>Vibrio alginolyticus</td></tr><tr><td style=\"white-space:nowrap\">VIBRIO_ANGUILLARUM_RED_SORTED_DISEASE<a name=\"diseases-cs-VIBRIO_ANGUILLARUM_RED_SORTED_DISEASE\"> </a></td><td>Vibrio anguillarum/Red sorted disease</td></tr><tr><td style=\"white-space:nowrap\">VIBRIO_HARVEYI<a name=\"diseases-cs-VIBRIO_HARVEYI\"> </a></td><td>Vibrio harveyi</td></tr><tr><td style=\"white-space:nowrap\">VIBRIO_PARAHEMOLYTCUS_SCALE_DISEASES<a name=\"diseases-cs-VIBRIO_PARAHEMOLYTCUS_SCALE_DISEASES\"> </a></td><td>Vibrio parahemolytcus/ scale diseases</td></tr><tr><td style=\"white-space:nowrap\">VIRAL_ENCEPHALOPATHY_AND_RETINOPATHY<a name=\"diseases-cs-VIRAL_ENCEPHALOPATHY_AND_RETINOPATHY\"> </a></td><td>Viral encephalopathy and retinopathy</td></tr><tr><td style=\"white-space:nowrap\">VIRAL_HAEMORRHAGIC_FEVERS<a name=\"diseases-cs-VIRAL_HAEMORRHAGIC_FEVERS\"> </a></td><td>Viral Haemorrhagic Fevers</td></tr><tr><td style=\"white-space:nowrap\">VIRAL_HAEMORRHAGIC_SEPTICAEMIA<a name=\"diseases-cs-VIRAL_HAEMORRHAGIC_SEPTICAEMIA\"> </a></td><td>Viral haemorrhagic septicaemia</td></tr><tr><td style=\"white-space:nowrap\">WAX_MOTHS<a name=\"diseases-cs-WAX_MOTHS\"> </a></td><td>Wax moths</td></tr><tr><td style=\"white-space:nowrap\">WESTERN_EQUINE_ENCEPHALOMYELITIS<a name=\"diseases-cs-WESTERN_EQUINE_ENCEPHALOMYELITIS\"> </a></td><td>Western equine encephalomyelitis</td></tr><tr><td style=\"white-space:nowrap\">WEST_NILE_FEVER<a name=\"diseases-cs-WEST_NILE_FEVER\"> </a></td><td>West Nile Fever</td></tr><tr><td style=\"white-space:nowrap\">WHITE_SPOT_DISEASE<a name=\"diseases-cs-WHITE_SPOT_DISEASE\"> </a></td><td>White spot disease</td></tr><tr><td style=\"white-space:nowrap\">WHITE_SPOT_SYNDROME_VIRUS<a name=\"diseases-cs-WHITE_SPOT_SYNDROME_VIRUS\"> </a></td><td>White spot syndrome virus</td></tr><tr><td style=\"white-space:nowrap\">WHITE_TAIL_DISEASE<a name=\"diseases-cs-WHITE_TAIL_DISEASE\"> </a></td><td>White tail disease</td></tr><tr><td style=\"white-space:nowrap\">WOUND_ABCESS<a name=\"diseases-cs-WOUND_ABCESS\"> </a></td><td>Wound/Abcess</td></tr><tr><td style=\"white-space:nowrap\">YELLOW_FEVER<a name=\"diseases-cs-YELLOW_FEVER\"> </a></td><td>Yellow fever</td></tr><tr><td style=\"white-space:nowrap\">YELLOW_HEAD_DISEASE<a name=\"diseases-cs-YELLOW_HEAD_DISEASE\"> </a></td><td>Yellow head disease</td></tr><tr><td style=\"white-space:nowrap\">YEZO_VIRUS<a name=\"diseases-cs-YEZO_VIRUS\"> </a></td><td>Yezo virus</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/diseases-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DiseasesCS"] ; # 
+  fhir:title [ fhir:v "Diseases Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for diseases."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "284"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ABALONE_HERPES" ] ;
+     fhir:display [ fhir:v "Abalone Herpes" ]
+  ] [
+     fhir:code [ fhir:v "ACARAPISOSIS_OF_HONEY_BEES" ] ;
+     fhir:display [ fhir:v "Acarapisosis of honey bees" ]
+  ] [
+     fhir:code [ fhir:v "AFRICAN_HORSE_SICKNESS" ] ;
+     fhir:display [ fhir:v "African horse sickness" ]
+  ] [
+     fhir:code [ fhir:v "AFRICAN_SWINE_FEVER" ] ;
+     fhir:display [ fhir:v "African swine fever" ]
+  ] [
+     fhir:code [ fhir:v "AKABANE_DISEASE" ] ;
+     fhir:display [ fhir:v "Akabane Disease" ]
+  ] [
+     fhir:code [ fhir:v "ALASKAPOX_VIRUS" ] ;
+     fhir:display [ fhir:v "Alaskapox virus" ]
+  ] [
+     fhir:code [ fhir:v "ALGAL_BLOOM_OF_MICRCYSTICS" ] ;
+     fhir:display [ fhir:v "Algal bloom of micrcystics" ]
+  ] [
+     fhir:code [ fhir:v "AMERICAN_FOULBROOD_OF_HONEY_BEES" ] ;
+     fhir:display [ fhir:v "American foulbrood of honey bees" ]
+  ] [
+     fhir:code [ fhir:v "AMYLOODINIUM_SPP_INFECTION" ] ;
+     fhir:display [ fhir:v "Amyloodinium spp infection" ]
+  ] [
+     fhir:code [ fhir:v "ANAPLASMA_SPP" ] ;
+     fhir:display [ fhir:v "Anaplasma spp" ]
+  ] [
+     fhir:code [ fhir:v "ANTHRAX" ] ;
+     fhir:display [ fhir:v "Anthrax" ]
+  ] [
+     fhir:code [ fhir:v "ARENA_VIRUS" ] ;
+     fhir:display [ fhir:v "Arena virus" ]
+  ] [
+     fhir:code [ fhir:v "ARGENTINE_HEMORRHAGIC_FEVER_JUNIN_VIRUS" ] ;
+     fhir:display [ fhir:v "Argentine hemorrhagic fever (Junin virus)" ]
+  ] [
+     fhir:code [ fhir:v "ASPERGILLOSIS" ] ;
+     fhir:display [ fhir:v "Aspergillosis" ]
+  ] [
+     fhir:code [ fhir:v "ATKINSIELLA_SPP" ] ;
+     fhir:display [ fhir:v "Atkinsiella spp" ]
+  ] [
+     fhir:code [ fhir:v "ATRESIA_ANI" ] ;
+     fhir:display [ fhir:v "Atresia Ani" ]
+  ] [
+     fhir:code [ fhir:v "ATROPHIC_RHINITIS_AR" ] ;
+     fhir:display [ fhir:v "Atrophic Rhinitis (AR)" ]
+  ] [
+     fhir:code [ fhir:v "AUJESZKY'S_DISEASE" ] ;
+     fhir:display [ fhir:v "Aujeszky's disease" ]
+  ] [
+     fhir:code [ fhir:v "AVIAN_CHLAMYDIOSIS" ] ;
+     fhir:display [ fhir:v "Avian chlamydiosis" ]
+  ] [
+     fhir:code [ fhir:v "AVIAN_INFECTIOUS_BRONCHITIS" ] ;
+     fhir:display [ fhir:v "Avian infectious bronchitis" ]
+  ] [
+     fhir:code [ fhir:v "AVIAN_INFECTIOUS_LARYNGOTRACHEITIS" ] ;
+     fhir:display [ fhir:v "Avian infectious laryngotracheitis" ]
+  ] [
+     fhir:code [ fhir:v "AVIAN_MYCOPLASMOSIS_M_GALLISEPTICUM" ] ;
+     fhir:display [ fhir:v "Avian mycoplasmosis (M. gallisepticum)" ]
+  ] [
+     fhir:code [ fhir:v "AVIAN_MYCOPLASMOSIS_M_SYNOVIAE" ] ;
+     fhir:display [ fhir:v "Avian mycoplasmosis (M. synoviae)" ]
+  ] [
+     fhir:code [ fhir:v "AVIAN_MYCOPLASMOSIS_M_SYNSHEEPAE" ] ;
+     fhir:display [ fhir:v "Avian mycoplasmosis (M. synsheepae)" ]
+  ] [
+     fhir:code [ fhir:v "AVIAN_TUBERCULOSIS" ] ;
+     fhir:display [ fhir:v "Avian tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "BABESIA_SPP" ] ;
+     fhir:display [ fhir:v "Babesia spp" ]
+  ] [
+     fhir:code [ fhir:v "BACTERIAL_ENTERIC_DISEASES" ] ;
+     fhir:display [ fhir:v "Bacterial Enteric Diseases" ]
+  ] [
+     fhir:code [ fhir:v "BACTERIAL_KIDNEY_DISEASE" ] ;
+     fhir:display [ fhir:v "Bacterial kidney disease (Renibacterium salmoninarum)" ]
+  ] [
+     fhir:code [ fhir:v "BACTERIAL_MENINGITIS" ] ;
+     fhir:display [ fhir:v "Bacterial Meningitis" ]
+  ] [
+     fhir:code [ fhir:v "NECROSIS_SHELL_DISEASE_FILAMENTOUS_BACTERIAL" ] ;
+     fhir:display [ fhir:v "Bactrial necrosis/shell disease Filamentous bacterial diseases" ]
+  ] [
+     fhir:code [ fhir:v "BACULOVIRUS_INFECTION" ] ;
+     fhir:display [ fhir:v "Baculovirus infection" ]
+  ] [
+     fhir:code [ fhir:v "BATRACHOCHYTRIUM_DENDROBATIDIS" ] ;
+     fhir:display [ fhir:v "Batrachochytrium dendrobatidis" ]
+  ] [
+     fhir:code [ fhir:v "BEETLES" ] ;
+     fhir:display [ fhir:v "Beetles" ]
+  ] [
+     fhir:code [ fhir:v "BLACK_DISEASE" ] ;
+     fhir:display [ fhir:v "Black disease" ]
+  ] [
+     fhir:code [ fhir:v "BLACKLEG" ] ;
+     fhir:display [ fhir:v "Blackleg" ]
+  ] [
+     fhir:code [ fhir:v "BLUETONGUE" ] ;
+     fhir:display [ fhir:v "Bluetongue" ]
+  ] [
+     fhir:code [ fhir:v "BONAMIA_EXITIOSA" ] ;
+     fhir:display [ fhir:v "Bonamia exitiosa" ]
+  ] [
+     fhir:code [ fhir:v "BONAMIA_OSTREAE" ] ;
+     fhir:display [ fhir:v "Bonamia ostreae" ]
+  ] [
+     fhir:code [ fhir:v "BOTULISM" ] ;
+     fhir:display [ fhir:v "Botulism" ]
+  ] [
+     fhir:code [ fhir:v "BOVINE_ANAPLASMOSIS" ] ;
+     fhir:display [ fhir:v "Bovine anaplasmosis" ]
+  ] [
+     fhir:code [ fhir:v "BOVINE_BABESIOSIS" ] ;
+     fhir:display [ fhir:v "Bovine babesiosis" ]
+  ] [
+     fhir:code [ fhir:v "BOVINE_CYSTICERCOSIS" ] ;
+     fhir:display [ fhir:v "Bovine cysticercosis" ]
+  ] [
+     fhir:code [ fhir:v "BOVINE_GENITAL_CAMPYLOBACTERIOSIS" ] ;
+     fhir:display [ fhir:v "Bovine genital campylobacteriosis" ]
+  ] [
+     fhir:code [ fhir:v "BOVINE_SPONGIFORM_ENCEPHALOPATHY" ] ;
+     fhir:display [ fhir:v "Bovine spongiform encephalopathy" ]
+  ] [
+     fhir:code [ fhir:v "BOVINE_TUBERCULOSIS" ] ;
+     fhir:display [ fhir:v "Bovine tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "BOVINE_VIRAL_DIARRHOEA" ] ;
+     fhir:display [ fhir:v "Bovine viral diarrhoea" ]
+  ] [
+     fhir:code [ fhir:v "BRUCELLOSIS" ] ;
+     fhir:display [ fhir:v "Brucellosis" ]
+  ] [
+     fhir:code [ fhir:v "BRUCELLOSIS_BRUCELLA_ABORTUS" ] ;
+     fhir:display [ fhir:v "Brucellosis (Brucella abortus)" ]
+  ] [
+     fhir:code [ fhir:v "BRUCELLOSIS_BRUCELLA_MELITENSIS" ] ;
+     fhir:display [ fhir:v "Brucellosis (Brucella melitensis)" ]
+  ] [
+     fhir:code [ fhir:v "BRUCELLOSIS_BRUCELLA_SUIS" ] ;
+     fhir:display [ fhir:v "Brucellosis (Brucella suis)" ]
+  ] [
+     fhir:code [ fhir:v "CAMELPOX" ] ;
+     fhir:display [ fhir:v "Camelpox" ]
+  ] [
+     fhir:code [ fhir:v "CAMPYLOBACTERIOSIS" ] ;
+     fhir:display [ fhir:v "Campylobacteriosis" ]
+  ] [
+     fhir:code [ fhir:v "CANINE_DISTEMPER" ] ;
+     fhir:display [ fhir:v "Canine distemper" ]
+  ] [
+     fhir:code [ fhir:v "CAPRINE_ARTHRITIS_ENCEPHALITIS" ] ;
+     fhir:display [ fhir:v "Caprine arthritis/encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "CAT_FLUE" ] ;
+     fhir:display [ fhir:v "Cat flue" ]
+  ] [
+     fhir:code [ fhir:v "CHANNEL_CATFISH_VIRUS_DISEASE" ] ;
+     fhir:display [ fhir:v "Channel catfish virus disease" ]
+  ] [
+     fhir:code [ fhir:v "CHILL_BROOD" ] ;
+     fhir:display [ fhir:v "Chill brood" ]
+  ] [
+     fhir:code [ fhir:v "CHONDROCOCCUS_COLUMNARIS_FINS_EROSION" ] ;
+     fhir:display [ fhir:v "Chondrococcus columnaris/fins erosion" ]
+  ] [
+     fhir:code [ fhir:v "CHRONIC_RESPIRATORY_DISEASE" ] ;
+     fhir:display [ fhir:v "Chronic respiratory disease" ]
+  ] [
+     fhir:code [ fhir:v "CHRONIC_WASTING_DISEASE" ] ;
+     fhir:display [ fhir:v "Chronic wasting disease" ]
+  ] [
+     fhir:code [ fhir:v "CLASSICAL_SWINE_FEVER" ] ;
+     fhir:display [ fhir:v "Classical swine fever" ]
+  ] [
+     fhir:code [ fhir:v "COCCIDIOSIS" ] ;
+     fhir:display [ fhir:v "Coccidiosis" ]
+  ] [
+     fhir:code [ fhir:v "COLIBACILLOSIS" ] ;
+     fhir:display [ fhir:v "Colibacillosis" ]
+  ] [
+     fhir:code [ fhir:v "COLONY_COLLAPSE" ] ;
+     fhir:display [ fhir:v "Colony Collapse" ]
+  ] [
+     fhir:code [ fhir:v "CONTAGIOUS_AGALACTIA" ] ;
+     fhir:display [ fhir:v "Contagious agalactia" ]
+  ] [
+     fhir:code [ fhir:v "CONTAGIOUS_BOVINE_PLEUROPNEUMONIA" ] ;
+     fhir:display [ fhir:v "Contagious bovine pleuropneumonia" ]
+  ] [
+     fhir:code [ fhir:v "CONTAGIOUS_CAPRINE_PLEUROPNEUMONIA" ] ;
+     fhir:display [ fhir:v "Contagious caprine pleuropneumonia" ]
+  ] [
+     fhir:code [ fhir:v "CONTAGIOUS_ECTHYMA" ] ;
+     fhir:display [ fhir:v "Contagious Ecthyma" ]
+  ] [
+     fhir:code [ fhir:v "CONTAGIOUS_EQUINE_ANEMIA" ] ;
+     fhir:display [ fhir:v "Contagious Equine Anemia" ]
+  ] [
+     fhir:code [ fhir:v "CONTAGIOUS_EQUINE_METRITIS" ] ;
+     fhir:display [ fhir:v "Contagious equine metritis" ]
+  ] [
+     fhir:code [ fhir:v "COVID19_SARSCOV2" ] ;
+     fhir:display [ fhir:v "COVID-19 (SARS-COV-2)" ]
+  ] [
+     fhir:code [ fhir:v "CRAYFISH_PLAGUE_APHANOMYCES_ASTACI" ] ;
+     fhir:display [ fhir:v "Crayfish plague (Aphanomyces astaci)" ]
+  ] [
+     fhir:code [ fhir:v "CRIMEAN_CONGO_HAEMORRHAGIC_FEVER" ] ;
+     fhir:display [ fhir:v "Crimean Congo haemorrhagic fever" ]
+  ] [
+     fhir:code [ fhir:v "CYSTICERCOSIS" ] ;
+     fhir:display [ fhir:v "Cysticercosis" ]
+  ] [
+     fhir:code [ fhir:v "DENGUE" ] ;
+     fhir:display [ fhir:v "Dengue" ]
+  ] [
+     fhir:code [ fhir:v "DERMATOPHILOSIS" ] ;
+     fhir:display [ fhir:v "Dermatophilosis" ]
+  ] [
+     fhir:code [ fhir:v "DISTEMPER" ] ;
+     fhir:display [ fhir:v "Distemper" ]
+  ] [
+     fhir:code [ fhir:v "DISTOMATOSIS" ] ;
+     fhir:display [ fhir:v "Distomatosis" ]
+  ] [
+     fhir:code [ fhir:v "DOURINE" ] ;
+     fhir:display [ fhir:v "Dourine" ]
+  ] [
+     fhir:code [ fhir:v "DRACUNCULIASIS" ] ;
+     fhir:display [ fhir:v "Dracunculiasis" ]
+  ] [
+     fhir:code [ fhir:v "DUCK_VIRUS_ENTERITIS" ] ;
+     fhir:display [ fhir:v "Duck virus enteritis" ]
+  ] [
+     fhir:code [ fhir:v "DUCK_VIRUS_HEPATITIS" ] ;
+     fhir:display [ fhir:v "Duck virus hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "DYSTOCIA" ] ;
+     fhir:display [ fhir:v "Dystocia" ]
+  ] [
+     fhir:code [ fhir:v "EAST_COAST_FEVER" ] ;
+     fhir:display [ fhir:v "East Coast fever" ]
+  ] [
+     fhir:code [ fhir:v "EASTERN_EQUINE_ENCEPHALOMYELITIS" ] ;
+     fhir:display [ fhir:v "Eastern equine encephalomyelitis" ]
+  ] [
+     fhir:code [ fhir:v "EBOLARESTON" ] ;
+     fhir:display [ fhir:v "Ebola-Reston" ]
+  ] [
+     fhir:code [ fhir:v "EBOLA_VIRUS" ] ;
+     fhir:display [ fhir:v "Ebola Virus" ]
+  ] [
+     fhir:code [ fhir:v "ECHINOCOCCOSIS_HYDATIDOSIS" ] ;
+     fhir:display [ fhir:v "Echinococcosis/hydatidosis" ]
+  ] [
+     fhir:code [ fhir:v "ECTOPARASITISM" ] ;
+     fhir:display [ fhir:v "Ectoparasitism" ]
+  ] [
+     fhir:code [ fhir:v "EGG_DROP_SYNDROME" ] ;
+     fhir:display [ fhir:v "Egg Drop Syndrome" ]
+  ] [
+     fhir:code [ fhir:v "ENTERIC_SEPTICAEMIA_CATFISH_EDWARDSIELLA_ICTALURI" ] ;
+     fhir:display [ fhir:v "Enteric septicaemia of catfish (Edwardsiella ictaluri)" ]
+  ] [
+     fhir:code [ fhir:v "ENTEROTOXEMIA" ] ;
+     fhir:display [ fhir:v "Enterotoxemia" ]
+  ] [
+     fhir:code [ fhir:v "ENZOOTIC_ABORTION_CHLAMYDIOSIS" ] ;
+     fhir:display [ fhir:v "Enzootic abortion (chlamydiosis)" ]
+  ] [
+     fhir:code [ fhir:v "ENZOOTIC_ABORTION_OF_EWES_OVINE_CHLAMYDIOSIS" ] ;
+     fhir:display [ fhir:v "Enzootic abortion of ewes (ovine chlamydiosis)" ]
+  ] [
+     fhir:code [ fhir:v "ENZOOTIC_BOVINE_LEUKOSIS" ] ;
+     fhir:display [ fhir:v "Enzootic bovine leukosis" ]
+  ] [
+     fhir:code [ fhir:v "EPHEMERAL_FEVER_3_DAY_STIFFNESS" ] ;
+     fhir:display [ fhir:v "Ephemeral fever (3 day stiffness)" ]
+  ] [
+     fhir:code [ fhir:v "EPIZOOTIC_HAEMATOPOIETIC_NECROSIS" ] ;
+     fhir:display [ fhir:v "Epizootic haematopoietic necrosis" ]
+  ] [
+     fhir:code [ fhir:v "EPIZOOTIC_HAEMORRHAGIC_DISEASE" ] ;
+     fhir:display [ fhir:v "Epizootic haemorrhagic disease" ]
+  ] [
+     fhir:code [ fhir:v "EPIZOOTIC_LYMPHANGITIS" ] ;
+     fhir:display [ fhir:v "Epizootic lymphangitis" ]
+  ] [
+     fhir:code [ fhir:v "EPIZOOTIC_ULCERATIVE_SYNDROME" ] ;
+     fhir:display [ fhir:v "Epizootic ulcerative syndrome" ]
+  ] [
+     fhir:code [ fhir:v "EQUID_HERPRESVIRUS1_EHV1" ] ;
+     fhir:display [ fhir:v "Equid herpresvirus1 (EHV-1)" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_ENCEPHALOMYELITIS_EAST_AND_WEST" ] ;
+     fhir:display [ fhir:v "Equine Encephalomyelitis (East and West)" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_ENCEPHALOMYELITIS_EASTERN" ] ;
+     fhir:display [ fhir:v "Equine encephalomyelitis (Eastern)" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_ENCEPHALOMYELITIS_WESTERN" ] ;
+     fhir:display [ fhir:v "Equine encephalomyelitis (Western)" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_ENCEPHALOSIS" ] ;
+     fhir:display [ fhir:v "Equine encephalosis" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_INFECTIOUS_ANAEMIA" ] ;
+     fhir:display [ fhir:v "Equine infectious anaemia" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_LYMPHANGITIS" ] ;
+     fhir:display [ fhir:v "Equine lymphangitis" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_PIROPLASMOSIS" ] ;
+     fhir:display [ fhir:v "Equine piroplasmosis" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_RHINOPNEUMONITIS" ] ;
+     fhir:display [ fhir:v "Equine rhinopneumonitis" ]
+  ] [
+     fhir:code [ fhir:v "EQUINE_VIRAL_ARTERITIS" ] ;
+     fhir:display [ fhir:v "Equine viral arteritis" ]
+  ] [
+     fhir:code [ fhir:v "ERHLICHIOSIS" ] ;
+     fhir:display [ fhir:v "Erhlichiosis" ]
+  ] [
+     fhir:code [ fhir:v "ERYSIPELAS" ] ;
+     fhir:display [ fhir:v "Erysipelas" ]
+  ] [
+     fhir:code [ fhir:v "ESCHERICHIA_COLI" ] ;
+     fhir:display [ fhir:v "Escherichia coli" ]
+  ] [
+     fhir:code [ fhir:v "EUROPEAN_FOULBROOD_OF_HONEY_BEES" ] ;
+     fhir:display [ fhir:v "European foulbrood of honey bees" ]
+  ] [
+     fhir:code [ fhir:v "FOOD_BORNE_DISEASE" ] ;
+     fhir:display [ fhir:v "Food borne disease" ]
+  ] [
+     fhir:code [ fhir:v "FOOT_AND_MOUTH_DISEASE" ] ;
+     fhir:display [ fhir:v "Foot and mouth disease" ]
+  ] [
+     fhir:code [ fhir:v "FOOT_ROT" ] ;
+     fhir:display [ fhir:v "Foot rot" ]
+  ] [
+     fhir:code [ fhir:v "FOULBROOD_OF_HONEY" ] ;
+     fhir:display [ fhir:v "Foulbrood of honey" ]
+  ] [
+     fhir:code [ fhir:v "FOWL_CHOLERA" ] ;
+     fhir:display [ fhir:v "Fowl cholera" ]
+  ] [
+     fhir:code [ fhir:v "FOWL_POX" ] ;
+     fhir:display [ fhir:v "Fowl pox" ]
+  ] [
+     fhir:code [ fhir:v "FOWL_TYPHOID" ] ;
+     fhir:display [ fhir:v "Fowl typhoid" ]
+  ] [
+     fhir:code [ fhir:v "FUSARIUM_SPP" ] ;
+     fhir:display [ fhir:v "Fusarium spp" ]
+  ] [
+     fhir:code [ fhir:v "GLANDERS" ] ;
+     fhir:display [ fhir:v "Glanders" ]
+  ] [
+     fhir:code [ fhir:v "GREGARINE_INFECTION" ] ;
+     fhir:display [ fhir:v "Gregarine infection" ]
+  ] [
+     fhir:code [ fhir:v "GYRODACTYLOSIS_GYRODACTYLUS_SALARIS" ] ;
+     fhir:display [ fhir:v "Gyrodactylosis (Gyrodactylus salaris)" ]
+  ] [
+     fhir:code [ fhir:v "HAEMORRHAGIC_SEPTICAEMIA" ] ;
+     fhir:display [ fhir:v "Haemorrhagic Septicaemia" ]
+  ] [
+     fhir:code [ fhir:v "HALIPHTHOROS_SPPS" ] ;
+     fhir:display [ fhir:v "Haliphthoros spps" ]
+  ] [
+     fhir:code [ fhir:v "HALOCRSTCIDA_SPP" ] ;
+     fhir:display [ fhir:v "Halocrstcida spp" ]
+  ] [
+     fhir:code [ fhir:v "HEARTWATER" ] ;
+     fhir:display [ fhir:v "Heartwater" ]
+  ] [
+     fhir:code [ fhir:v "HELMINTHIASIS" ] ;
+     fhir:display [ fhir:v "Helminthiasis" ]
+  ] [
+     fhir:code [ fhir:v "HENDRA_VIRUS_DISEASE" ] ;
+     fhir:display [ fhir:v "Hendra Virus Disease" ]
+  ] [
+     fhir:code [ fhir:v "HEPATITIS" ] ;
+     fhir:display [ fhir:v "Hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "HERNIE_EMBILICAL" ] ;
+     fhir:display [ fhir:v "Hernie Embilical" ]
+  ] [
+     fhir:code [ fhir:v "HORSE_POX" ] ;
+     fhir:display [ fhir:v "Horse pox" ]
+  ] [
+     fhir:code [ fhir:v "INFECTION_WITH_HAPLOSPORIDIUM_NELSONI" ] ;
+     fhir:display [ fhir:v "Infection with Haplosporidium nelsoni" ]
+  ] [
+     fhir:code [ fhir:v "INFECTION_WITH_MARTEILIA_REFRINGENS" ] ;
+     fhir:display [ fhir:v "Infection with Marteilia refringens" ]
+  ] [
+     fhir:code [ fhir:v "INFECTION_WITH_MARTEILIA_SYDNEYI" ] ;
+     fhir:display [ fhir:v "Infection with Marteilia sydneyi" ]
+  ] [
+     fhir:code [ fhir:v "INFECTION_WITH_PERKINSUS_MARINUS" ] ;
+     fhir:display [ fhir:v "Infection with Perkinsus marinus" ]
+  ] [
+     fhir:code [ fhir:v "INFECTION_WITH_XENOHALIOTIS_CALIFORNIENSIS" ] ;
+     fhir:display [ fhir:v "Infection with Xenohaliotis californiensis" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_BOVINE_KERATOCONJUNCTIVITIS_PINKEYE" ] ;
+     fhir:display [ fhir:v "Infectious Bovine Keratoconjunctivitis (Pinkeye)" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_BOVINE_RHINOTRACHEITIS" ] ;
+     fhir:display [ fhir:v "Infectious bovine rhinotracheitis" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_BRONCHITIS" ] ;
+     fhir:display [ fhir:v "Infectious Bronchitis" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_BURSAL_DISEASE_GUMBORO_DISEASE" ] ;
+     fhir:display [ fhir:v "Infectious bursal disease (Gumboro disease)" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_CORYZA" ] ;
+     fhir:display [ fhir:v "Infectious Coryza" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_HAEMATOPOIETIC_NECROSIS" ] ;
+     fhir:display [ fhir:v "Infectious haematopoietic necrosis" ]
+  ] [
+     fhir:code [ fhir:v "IHHN" ] ;
+     fhir:display [ fhir:v "Infectious hypodermal and haematopoietic necrosis (IHHN)" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_MYONECROSIS" ] ;
+     fhir:display [ fhir:v "Infectious myonecrosis" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_PUSTULAR_VULVOVAGINITIS" ] ;
+     fhir:display [ fhir:v "Infectious pustular vulvovaginitis" ]
+  ] [
+     fhir:code [ fhir:v "INFECTIOUS_SALMON_ANAEMIA" ] ;
+     fhir:display [ fhir:v "Infectious salmon anaemia" ]
+  ] [
+     fhir:code [ fhir:v "INFLUENZA_AVIAN" ] ;
+     fhir:display [ fhir:v "Influenza - Avian" ]
+  ] [
+     fhir:code [ fhir:v "INFLUENZA_EQUINE" ] ;
+     fhir:display [ fhir:v "Influenza - Equine" ]
+  ] [
+     fhir:code [ fhir:v "INFLUENZA_SWINE" ] ;
+     fhir:display [ fhir:v "Influenza - Swine" ]
+  ] [
+     fhir:code [ fhir:v "INTOXICATION" ] ;
+     fhir:display [ fhir:v "Intoxication" ]
+  ] [
+     fhir:code [ fhir:v "JAPANESE_ENCEPHALITIS" ] ;
+     fhir:display [ fhir:v "Japanese Encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "KOI_HERPES_VIRUS_KHV_DISEASE" ] ;
+     fhir:display [ fhir:v "Koi herpes virus (KHV) disease" ]
+  ] [
+     fhir:code [ fhir:v "KUNJIN_VIRUS" ] ;
+     fhir:display [ fhir:v "Kunjin virus" ]
+  ] [
+     fhir:code [ fhir:v "KYASANUR_FOREST_DISEASE" ] ;
+     fhir:display [ fhir:v "Kyasanur forest disease" ]
+  ] [
+     fhir:code [ fhir:v "LAAGENIDIUM_SPP" ] ;
+     fhir:display [ fhir:v "Laagenidium spp" ]
+  ] [
+     fhir:code [ fhir:v "LASSA_FEVER" ] ;
+     fhir:display [ fhir:v "Lassa fever" ]
+  ] [
+     fhir:code [ fhir:v "LEISHMANIOSIS" ] ;
+     fhir:display [ fhir:v "Leishmaniosis" ]
+  ] [
+     fhir:code [ fhir:v "LEPROSY_HANSEN'S_DISEASE" ] ;
+     fhir:display [ fhir:v "Leprosy (Hansen's disease)" ]
+  ] [
+     fhir:code [ fhir:v "LEPTOSPIROSIS" ] ;
+     fhir:display [ fhir:v "Leptospirosis" ]
+  ] [
+     fhir:code [ fhir:v "LISTERIOSIS" ] ;
+     fhir:display [ fhir:v "Listeriosis" ]
+  ] [
+     fhir:code [ fhir:v "LIVESTOCK_PARASITIC_DISEASES" ] ;
+     fhir:display [ fhir:v "Livestock parasitic diseases" ]
+  ] [
+     fhir:code [ fhir:v "LUMINESCENT_BACTERIAL_DISEASES" ] ;
+     fhir:display [ fhir:v "Luminescent bacterial diseases" ]
+  ] [
+     fhir:code [ fhir:v "LUMPY_SKIN_DISEASE" ] ;
+     fhir:display [ fhir:v "Lumpy skin disease" ]
+  ] [
+     fhir:code [ fhir:v "LUMPY_WOOL_DERMATOPHILUS" ] ;
+     fhir:display [ fhir:v "Lumpy wool (Dermatophilus)" ]
+  ] [
+     fhir:code [ fhir:v "MAEDIVISNA" ] ;
+     fhir:display [ fhir:v "Maedi-visna" ]
+  ] [
+     fhir:code [ fhir:v "MALIGNANT_CATARRHAL_FEVER" ] ;
+     fhir:display [ fhir:v "Malignant catarrhal fever" ]
+  ] [
+     fhir:code [ fhir:v "MANGE" ] ;
+     fhir:display [ fhir:v "Mange" ]
+  ] [
+     fhir:code [ fhir:v "MARBURG_HEMORRHAGIC_FEVER" ] ;
+     fhir:display [ fhir:v "Marburg Hemorrhagic Fever" ]
+  ] [
+     fhir:code [ fhir:v "MAREK'S_DISEASE" ] ;
+     fhir:display [ fhir:v "Marek's disease" ]
+  ] [
+     fhir:code [ fhir:v "MASTITIS" ] ;
+     fhir:display [ fhir:v "Mastitis" ]
+  ] [
+     fhir:code [ fhir:v "MERSCOV" ] ;
+     fhir:display [ fhir:v "MERS-CoV" ]
+  ] [
+     fhir:code [ fhir:v "MICROSPORIDIAN_INFECTION" ] ;
+     fhir:display [ fhir:v "Microsporidian infection" ]
+  ] [
+     fhir:code [ fhir:v "MIKROCYTOS_MACKINI" ] ;
+     fhir:display [ fhir:v "Mikrocytos mackini" ]
+  ] [
+     fhir:code [ fhir:v "MONKEY_POX" ] ;
+     fhir:display [ fhir:v "Monkey Pox" ]
+  ] [
+     fhir:code [ fhir:v "MORBILLIVIRUSES" ] ;
+     fhir:display [ fhir:v "Morbilliviruses  (esp. Peste des Petits Ruminants and Rinderpest)" ]
+  ] [
+     fhir:code [ fhir:v "MUSCLE_NECROSIS_VIRUS" ] ;
+     fhir:display [ fhir:v "Muscle necrosis virus" ]
+  ] [
+     fhir:code [ fhir:v "MYXOMATOSIS" ] ;
+     fhir:display [ fhir:v "Myxomatosis" ]
+  ] [
+     fhir:code [ fhir:v "NAIROBI_SHEEP_DISEASE" ] ;
+     fhir:display [ fhir:v "Nairobi sheep disease" ]
+  ] [
+     fhir:code [ fhir:v "NECROTISING_HEPATOPANCREATIS" ] ;
+     fhir:display [ fhir:v "Necrotising hepatopancreatis" ]
+  ] [
+     fhir:code [ fhir:v "NEWCASTLE_DISEASE" ] ;
+     fhir:display [ fhir:v "Newcastle disease" ]
+  ] [
+     fhir:code [ fhir:v "NEW_WORLD_SCREWWORM_COCHLIOMYIA_HOMINIVORAX" ] ;
+     fhir:display [ fhir:v "New world screwworm (Cochliomyia hominivorax)" ]
+  ] [
+     fhir:code [ fhir:v "NIPAH_VIRUS_ENCEPHALITIS" ] ;
+     fhir:display [ fhir:v "Nipah virus encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "OLD_WORLD_SCREWWORM_CHRYSOMYA_BEZZIANA" ] ;
+     fhir:display [ fhir:v "Old world screwworm (Chrysomya bezziana)" ]
+  ] [
+     fhir:code [ fhir:v "OMPHALOPHLEBITIS_NAVEL_ILL_JOINT_ILL" ] ;
+     fhir:display [ fhir:v "Omphalophlebitis (Navel ill- Joint ill)" ]
+  ] [
+     fhir:code [ fhir:v "ONCORHYNCHUS_MASOU_VIRUS_DISEASE" ] ;
+     fhir:display [ fhir:v "Oncorhynchus masou virus disease" ]
+  ] [
+     fhir:code [ fhir:v "ORF" ] ;
+     fhir:display [ fhir:v "Orf" ]
+  ] [
+     fhir:code [ fhir:v "ORMILO_ENCEPHALITIS_THELIRIOSIS" ] ;
+     fhir:display [ fhir:v "Ormilo/Encephalitis theliriosis" ]
+  ] [
+     fhir:code [ fhir:v "OTHER_BACTERIAL_DISEASES" ] ;
+     fhir:display [ fhir:v "Other bacterial diseases" ]
+  ] [
+     fhir:code [ fhir:v "OTHER_OPPORTUNISSTIC_BACTERIAL_PATHOGEN" ] ;
+     fhir:display [ fhir:v "Other opportunisstic bacterial pathogen" ]
+  ] [
+     fhir:code [ fhir:v "OVINE_EPIDIDYMITIS_BRUCELLA_OVIS" ] ;
+     fhir:display [ fhir:v "Ovine epididymitis (Brucella ovis)" ]
+  ] [
+     fhir:code [ fhir:v "OVINE_PULMONARY_ADENOMATOSIS" ] ;
+     fhir:display [ fhir:v "Ovine pulmonary adenomatosis" ]
+  ] [
+     fhir:code [ fhir:v "PAPILLOMA_VIRUS_WARDS" ] ;
+     fhir:display [ fhir:v "Papilloma Virus (wards)" ]
+  ] [
+     fhir:code [ fhir:v "PARAPHIMOSIS" ] ;
+     fhir:display [ fhir:v "Paraphimosis" ]
+  ] [
+     fhir:code [ fhir:v "PARATUBERCULOSIS" ] ;
+     fhir:display [ fhir:v "Paratuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "PARVOVIRUS" ] ;
+     fhir:display [ fhir:v "Parvovirus" ]
+  ] [
+     fhir:code [ fhir:v "PERITRICH_CILIATES" ] ;
+     fhir:display [ fhir:v "Peritrich ciliates" ]
+  ] [
+     fhir:code [ fhir:v "PESTE_DES_PETITS_RUMINANTS" ] ;
+     fhir:display [ fhir:v "Peste des petits ruminants" ]
+  ] [
+     fhir:code [ fhir:v "PHIMOSIS" ] ;
+     fhir:display [ fhir:v "Phimosis" ]
+  ] [
+     fhir:code [ fhir:v "PLAGUE" ] ;
+     fhir:display [ fhir:v "Plague" ]
+  ] [
+     fhir:code [ fhir:v "POISONING" ] ;
+     fhir:display [ fhir:v "Poisoning" ]
+  ] [
+     fhir:code [ fhir:v "POLIOVIRUS" ] ;
+     fhir:display [ fhir:v "Poliovirus" ]
+  ] [
+     fhir:code [ fhir:v "PORCINE_CYSTICERCOSIS" ] ;
+     fhir:display [ fhir:v "Porcine cysticercosis" ]
+  ] [
+     fhir:code [ fhir:v "PORCINE_ENTEROVIRAL_ENCEPHALOMYELITIS" ] ;
+     fhir:display [ fhir:v "Porcine Enteroviral encephalomyelitis" ]
+  ] [
+     fhir:code [ fhir:v "PORCINE_EPIDEMIC_DIARRHEA" ] ;
+     fhir:display [ fhir:v "Porcine epidemic diarrhea" ]
+  ] [
+     fhir:code [ fhir:v "PORCINE_REPRODUCTIVE_AND_RESPIRATORY_SYNDROME" ] ;
+     fhir:display [ fhir:v "Porcine reproductive and respiratory syndrome" ]
+  ] [
+     fhir:code [ fhir:v "POSTWEANING_MULTISYSTEMIC_WASTING_SYNDROME_PMWS" ] ;
+     fhir:display [ fhir:v "Postweaning Multisystemic Wasting Syndrome (PMWS)" ]
+  ] [
+     fhir:code [ fhir:v "PSITTACOSISCHLAMYDOPHILA_PSITTACI" ] ;
+     fhir:display [ fhir:v "Psittacosis(Chlamydophila psittaci)" ]
+  ] [
+     fhir:code [ fhir:v "PULLORUM_DISEASE" ] ;
+     fhir:display [ fhir:v "Pullorum disease" ]
+  ] [
+     fhir:code [ fhir:v "Q_FEVER" ] ;
+     fhir:display [ fhir:v "Q fever" ]
+  ] [
+     fhir:code [ fhir:v "RABBIT_HAEMORRHAGIC_DISEASE" ] ;
+     fhir:display [ fhir:v "Rabbit haemorrhagic disease" ]
+  ] [
+     fhir:code [ fhir:v "RABIES" ] ;
+     fhir:display [ fhir:v "Rabies" ]
+  ] [
+     fhir:code [ fhir:v "RANAVIRUS" ] ;
+     fhir:display [ fhir:v "Ranavirus" ]
+  ] [
+     fhir:code [ fhir:v "RED_SEA_BREAM_IRIDOVIRAL_DISEASE" ] ;
+     fhir:display [ fhir:v "Red sea bream iridoviral disease" ]
+  ] [
+     fhir:code [ fhir:v "RED_STERNUM_SYNDROME" ] ;
+     fhir:display [ fhir:v "Red sternum syndrome" ]
+  ] [
+     fhir:code [ fhir:v "REOVIRUS" ] ;
+     fhir:display [ fhir:v "Reovirus" ]
+  ] [
+     fhir:code [ fhir:v "RICKETTSIOSIS" ] ;
+     fhir:display [ fhir:v "Rickettsiosis" ]
+  ] [
+     fhir:code [ fhir:v "RIFT_VALLEY_FEVER" ] ;
+     fhir:display [ fhir:v "Rift Valley fever" ]
+  ] [
+     fhir:code [ fhir:v "RINDERPEST" ] ;
+     fhir:display [ fhir:v "Rinderpest" ]
+  ] [
+     fhir:code [ fhir:v "RUMINANT_MYCOPLASMOSES" ] ;
+     fhir:display [ fhir:v "Ruminant Mycoplasmoses" ]
+  ] [
+     fhir:code [ fhir:v "SALMONELLOSIS_S_ABORTUSOVIS" ] ;
+     fhir:display [ fhir:v "Salmonellosis (S. abortusovis)" ]
+  ] [
+     fhir:code [ fhir:v "SALMONID_ALPHAVIRUS" ] ;
+     fhir:display [ fhir:v "Salmonid alphavirus" ]
+  ] [
+     fhir:code [ fhir:v "SCHMALLENBERG" ] ;
+     fhir:display [ fhir:v "Schmallenberg" ]
+  ] [
+     fhir:code [ fhir:v "SCRAPIE" ] ;
+     fhir:display [ fhir:v "Scrapie" ]
+  ] [
+     fhir:code [ fhir:v "SHEEP_POX_AND_GOAT_POX" ] ;
+     fhir:display [ fhir:v "Sheep pox and goat pox" ]
+  ] [
+     fhir:code [ fhir:v "SMALL_HIVE_BEETLE_INFESTATION_AETHINA_TUMIDA" ] ;
+     fhir:display [ fhir:v "Small hive beetle infestation (Aethina tumida)" ]
+  ] [
+     fhir:code [ fhir:v "SPHERICAL_BACULOVIROSIS" ] ;
+     fhir:display [ fhir:v "Spherical baculovirosis (Penaeus monodon-type baculovirus)" ]
+  ] [
+     fhir:code [ fhir:v "SPRING_VIRAEMIA_OF_CARP" ] ;
+     fhir:display [ fhir:v "Spring viraemia of carp" ]
+  ] [
+     fhir:code [ fhir:v "STARVATION" ] ;
+     fhir:display [ fhir:v "Starvation" ]
+  ] [
+     fhir:code [ fhir:v "STRANGLES" ] ;
+     fhir:display [ fhir:v "Strangles" ]
+  ] [
+     fhir:code [ fhir:v "STREPTOCOCCUS_SUIS" ] ;
+     fhir:display [ fhir:v "Streptococcus suis" ]
+  ] [
+     fhir:code [ fhir:v "SUCTORIAN_CILIATES" ] ;
+     fhir:display [ fhir:v "Suctorian ciliates" ]
+  ] [
+     fhir:code [ fhir:v "SURRA_TRYPANOSOMA_EVANSI" ] ;
+     fhir:display [ fhir:v "Surra (Trypanosoma evansi)" ]
+  ] [
+     fhir:code [ fhir:v "SUSPECTED_NEW_EMERGING_DISEASE" ] ;
+     fhir:display [ fhir:v "Suspected New Emerging Disease" ]
+  ] [
+     fhir:code [ fhir:v "SWINE_DYSENTRY" ] ;
+     fhir:display [ fhir:v "Swine dysentry" ]
+  ] [
+     fhir:code [ fhir:v "SWINE_INFLUENZA" ] ;
+     fhir:display [ fhir:v "Swine influenza" ]
+  ] [
+     fhir:code [ fhir:v "SWINE_NOVEL_ENTERIC_CORONA_VIRUS_DISEASE" ] ;
+     fhir:display [ fhir:v "Swine Novel Enteric Corona Virus disease" ]
+  ] [
+     fhir:code [ fhir:v "SWINE_VESICULAR_DISEASE" ] ;
+     fhir:display [ fhir:v "Swine vesicular disease" ]
+  ] [
+     fhir:code [ fhir:v "TAURA_SYNDROME" ] ;
+     fhir:display [ fhir:v "Taura syndrome" ]
+  ] [
+     fhir:code [ fhir:v "TESCHOVIRUS_ENCEPHALOMYELITIS" ] ;
+     fhir:display [ fhir:v "Teschovirus encephalomyelitis" ]
+  ] [
+     fhir:code [ fhir:v "TETANUS" ] ;
+     fhir:display [ fhir:v "Tetanus" ]
+  ] [
+     fhir:code [ fhir:v "TETRAHEDRAL_BACULOVIROSIS_BACULOVIRUS_PENAEI" ] ;
+     fhir:display [ fhir:v "Tetrahedral baculovirosis (Baculovirus penaei)" ]
+  ] [
+     fhir:code [ fhir:v "THEILERIOSIS" ] ;
+     fhir:display [ fhir:v "Theileriosis" ]
+  ] [
+     fhir:code [ fhir:v "THIRD_EYELID_PROLAPSE" ] ;
+     fhir:display [ fhir:v "Third eyelid prolapse" ]
+  ] [
+     fhir:code [ fhir:v "THREE_DAYS_SICKNESS" ] ;
+     fhir:display [ fhir:v "Three days sickness" ]
+  ] [
+     fhir:code [ fhir:v "TICKBORNE_ENCEPHALITIS" ] ;
+     fhir:display [ fhir:v "Tick-borne encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "TOXOPLASMOSIS" ] ;
+     fhir:display [ fhir:v "Toxoplasmosis" ]
+  ] [
+     fhir:code [ fhir:v "TRANSMISSIBLE_GASTROENTERITIS" ] ;
+     fhir:display [ fhir:v "Transmissible gastroenteritis" ]
+  ] [
+     fhir:code [ fhir:v "TRANSMISSIBLE_VENEREAL_TUMOR_TVT" ] ;
+     fhir:display [ fhir:v "Transmissible venereal tumor (TVT)" ]
+  ] [
+     fhir:code [ fhir:v "TRAUMA_INJURY_FRACTURE" ] ;
+     fhir:display [ fhir:v "Trauma/injury/fracture" ]
+  ] [
+     fhir:code [ fhir:v "TRAUMATIC_RETICULOPERICARDITIS" ] ;
+     fhir:display [ fhir:v "Traumatic Reticulopericarditis" ]
+  ] [
+     fhir:code [ fhir:v "TRICHINELLOSIS" ] ;
+     fhir:display [ fhir:v "Trichinellosis" ]
+  ] [
+     fhir:code [ fhir:v "TRICHOMONOSIS" ] ;
+     fhir:display [ fhir:v "Trichomonosis" ]
+  ] [
+     fhir:code [ fhir:v "TROPILAELAPS_INFESTATION_OF_HONEY_BEES" ] ;
+     fhir:display [ fhir:v "Tropilaelaps infestation of honey bees" ]
+  ] [
+     fhir:code [ fhir:v "TRYPANOSOMOSIS_TSETSETRANSMITTED" ] ;
+     fhir:display [ fhir:v "Trypanosomosis (tsetse-transmitted)" ]
+  ] [
+     fhir:code [ fhir:v "TUBERCULOSIS" ] ;
+     fhir:display [ fhir:v "Tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "TULAREMIA" ] ;
+     fhir:display [ fhir:v "Tularemia" ]
+  ] [
+     fhir:code [ fhir:v "TURKEY_RHINOTRACHEITIS" ] ;
+     fhir:display [ fhir:v "Turkey rhinotracheitis" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN_DISEASE" ] ;
+     fhir:display [ fhir:v "Unknown disease" ]
+  ] [
+     fhir:code [ fhir:v "UTERINE_PROLAPSE" ] ;
+     fhir:display [ fhir:v "Uterine Prolapse" ]
+  ] [
+     fhir:code [ fhir:v "VARROA_MITES" ] ;
+     fhir:display [ fhir:v "Varroa mites" ]
+  ] [
+     fhir:code [ fhir:v "VARROOSIS_OF_HONEY_BEES" ] ;
+     fhir:display [ fhir:v "Varroosis of honey bees" ]
+  ] [
+     fhir:code [ fhir:v "VECTORBORNE_DISEASES" ] ;
+     fhir:display [ fhir:v "Vector-borne diseases" ]
+  ] [
+     fhir:code [ fhir:v "VENEZUELAN_EQUINE_ENCEPHALOMYELITIS" ] ;
+     fhir:display [ fhir:v "Venezuelan equine encephalomyelitis" ]
+  ] [
+     fhir:code [ fhir:v "VESICULAR_STOMATITIS" ] ;
+     fhir:display [ fhir:v "Vesicular stomatitis" ]
+  ] [
+     fhir:code [ fhir:v "VIBRIO_ALGINOLYTICUS" ] ;
+     fhir:display [ fhir:v "Vibrio alginolyticus" ]
+  ] [
+     fhir:code [ fhir:v "VIBRIO_ANGUILLARUM_RED_SORTED_DISEASE" ] ;
+     fhir:display [ fhir:v "Vibrio anguillarum/Red sorted disease" ]
+  ] [
+     fhir:code [ fhir:v "VIBRIO_HARVEYI" ] ;
+     fhir:display [ fhir:v "Vibrio harveyi" ]
+  ] [
+     fhir:code [ fhir:v "VIBRIO_PARAHEMOLYTCUS_SCALE_DISEASES" ] ;
+     fhir:display [ fhir:v "Vibrio parahemolytcus/ scale diseases" ]
+  ] [
+     fhir:code [ fhir:v "VIRAL_ENCEPHALOPATHY_AND_RETINOPATHY" ] ;
+     fhir:display [ fhir:v "Viral encephalopathy and retinopathy" ]
+  ] [
+     fhir:code [ fhir:v "VIRAL_HAEMORRHAGIC_FEVERS" ] ;
+     fhir:display [ fhir:v "Viral Haemorrhagic Fevers" ]
+  ] [
+     fhir:code [ fhir:v "VIRAL_HAEMORRHAGIC_SEPTICAEMIA" ] ;
+     fhir:display [ fhir:v "Viral haemorrhagic septicaemia" ]
+  ] [
+     fhir:code [ fhir:v "WAX_MOTHS" ] ;
+     fhir:display [ fhir:v "Wax moths" ]
+  ] [
+     fhir:code [ fhir:v "WESTERN_EQUINE_ENCEPHALOMYELITIS" ] ;
+     fhir:display [ fhir:v "Western equine encephalomyelitis" ]
+  ] [
+     fhir:code [ fhir:v "WEST_NILE_FEVER" ] ;
+     fhir:display [ fhir:v "West Nile Fever" ]
+  ] [
+     fhir:code [ fhir:v "WHITE_SPOT_DISEASE" ] ;
+     fhir:display [ fhir:v "White spot disease" ]
+  ] [
+     fhir:code [ fhir:v "WHITE_SPOT_SYNDROME_VIRUS" ] ;
+     fhir:display [ fhir:v "White spot syndrome virus" ]
+  ] [
+     fhir:code [ fhir:v "WHITE_TAIL_DISEASE" ] ;
+     fhir:display [ fhir:v "White tail disease" ]
+  ] [
+     fhir:code [ fhir:v "WOUND_ABCESS" ] ;
+     fhir:display [ fhir:v "Wound/Abcess" ]
+  ] [
+     fhir:code [ fhir:v "YELLOW_FEVER" ] ;
+     fhir:display [ fhir:v "Yellow fever" ]
+  ] [
+     fhir:code [ fhir:v "YELLOW_HEAD_DISEASE" ] ;
+     fhir:display [ fhir:v "Yellow head disease" ]
+  ] [
+     fhir:code [ fhir:v "YEZO_VIRUS" ] ;
+     fhir:display [ fhir:v "Yezo virus" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-11T10:34:35+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -591,6 +591,198 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/clade-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/clade-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Clade Code System" ] ;
+       fhir:description [ fhir:v "Code system for clade." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/clade-vs> ;
+         fhir:reference [ fhir:v "ValueSet/clade-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Clade Value Set" ] ;
+       fhir:description [ fhir:v "Value set for clade." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/clinical-signs-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/clinical-signs-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Clinical Signs Code System" ] ;
+       fhir:description [ fhir:v "code system for clinical signs." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/clinical-signs-vs> ;
+         fhir:reference [ fhir:v "ValueSet/clinical-signs-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Clinical Signs Value Set" ] ;
+       fhir:description [ fhir:v "Value set for clinical signs." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/control-measures-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/control-measures-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Control Measures Code System" ] ;
+       fhir:description [ fhir:v "Code system for control measures." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/control-measures-vs> ;
+         fhir:reference [ fhir:v "ValueSet/control-measures-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Control Measures Value Set" ] ;
+       fhir:description [ fhir:v "Value set for control measures." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/diagnosis-basis-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Diagnosis Basis Code System" ] ;
+       fhir:description [ fhir:v "Code system for diagnosis basis." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs> ;
+         fhir:reference [ fhir:v "ValueSet/diagnosis-basis-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Diagnosis Basis Value Set" ] ;
+       fhir:description [ fhir:v "value set for diagnosis basis." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/diagnostic-source-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Diagnostic Source Code System" ] ;
+       fhir:description [ fhir:v "Code system for diagnostic source." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/diagnostic-source-vs> ;
+         fhir:reference [ fhir:v "ValueSet/diagnostic-source-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Diagnostic Source Value Set" ] ;
+       fhir:description [ fhir:v "Value set for diagnostic source." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/diagnostic-status-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Diagnostic Status Code System" ] ;
+       fhir:description [ fhir:v "Code system for diagnostic status" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/disease-status-vs> ;
+         fhir:reference [ fhir:v "ValueSet/disease-status-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Disease Status Value Set" ] ;
+       fhir:description [ fhir:v "Value set for diagnostic status." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/disease-subtype-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/disease-subtype-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Disease Subtype Code System" ] ;
+       fhir:description [ fhir:v "Code system for disease subtypes." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/disease-subtype-vs> ;
+         fhir:reference [ fhir:v "ValueSet/disease-subtype-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Disease Subtype Value Set" ] ;
+       fhir:description [ fhir:v "Value set for disease subtypes." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/diseases-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/diseases-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Diseases Code System" ] ;
+       fhir:description [ fhir:v "Code system for diseases." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/diseases-vs> ;
+         fhir:reference [ fhir:v "ValueSet/diseases-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Diseases Value Set" ] ;
+       fhir:description [ fhir:v "Value set for diseases." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://dhis2.org/fhir/CodeSystem/districts-cs> ;
          fhir:reference [ fhir:v "CodeSystem/districts-cs" ]
        ] ;
@@ -699,6 +891,78 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/necropsy-lesions-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Necropsy Lesions Code System" ] ;
+       fhir:description [ fhir:v "Code system for necropsy lesions." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs> ;
+         fhir:reference [ fhir:v "ValueSet/necropsy-lesions-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Necropsy Lesions Value Set" ] ;
+       fhir:description [ fhir:v "Value set for necropsy lesions." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/production-system-one-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/production-system-one-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Production System One Code System" ] ;
+       fhir:description [ fhir:v "Code system for production system one." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/production-system-one-vs> ;
+         fhir:reference [ fhir:v "ValueSet/production-system-one-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Production System One Value Set" ] ;
+       fhir:description [ fhir:v "Value set for production system one." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/production-system-two-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/production-system-two-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Production System Two Code System" ] ;
+       fhir:description [ fhir:v "Code system for production system two." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/production-system-two-vs> ;
+         fhir:reference [ fhir:v "ValueSet/production-system-two-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Production System Two Value Set" ] ;
+       fhir:description [ fhir:v "Value set for production system two." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://dhis2.org/fhir/CodeSystem/regions-cs> ;
          fhir:reference [ fhir:v "CodeSystem/regions-cs" ]
        ] ;
@@ -716,6 +980,54 @@
        ] ;
        fhir:name [ fhir:v "Regions Value Set" ] ;
        fhir:description [ fhir:v "Value set for regions." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/surveillance-type-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/surveillance-type-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Surveillance Type Code System" ] ;
+       fhir:description [ fhir:v "Code system for surveillance types." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/surveillance-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/surveillance-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Surveillance Type Value Set" ] ;
+       fhir:description [ fhir:v "Value set for surveillance types." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/treatments-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/treatments-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Treatments Code System" ] ;
+       fhir:description [ fhir:v "Code system for possible treatments." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/treatments-vs> ;
+         fhir:reference [ fhir:v "ValueSet/treatments-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Treatments Value Set" ] ;
+       fhir:description [ fhir:v "Value set for treatments." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

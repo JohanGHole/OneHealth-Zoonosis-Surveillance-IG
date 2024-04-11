@@ -1,0 +1,1444 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Diseases Code System - JSON Representation - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.35"}
+    h3,h4,h5,h6{--heading-prefix:"2.35"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Diseases Code System</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CodeSystem-diseases-cs.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-diseases-cs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-diseases-cs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Diseases Code System - JSON Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2024-04-11
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-diseases-cs.json" no-download="true">Raw json</a> | <a href="CodeSystem-diseases-cs.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "diseases-cs",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This  code system &lt;code&gt;https://dhis2.org/fhir/CodeSystem/diseases-cs&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ABALONE_HERPES&lt;a name=\&quot;diseases-cs-ABALONE_HERPES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abalone Herpes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ACARAPISOSIS_OF_HONEY_BEES&lt;a name=\&quot;diseases-cs-ACARAPISOSIS_OF_HONEY_BEES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Acarapisosis of honey bees&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AFRICAN_HORSE_SICKNESS&lt;a name=\&quot;diseases-cs-AFRICAN_HORSE_SICKNESS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;African horse sickness&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AFRICAN_SWINE_FEVER&lt;a name=\&quot;diseases-cs-AFRICAN_SWINE_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;African swine fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AKABANE_DISEASE&lt;a name=\&quot;diseases-cs-AKABANE_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Akabane Disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ALASKAPOX_VIRUS&lt;a name=\&quot;diseases-cs-ALASKAPOX_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Alaskapox virus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ALGAL_BLOOM_OF_MICRCYSTICS&lt;a name=\&quot;diseases-cs-ALGAL_BLOOM_OF_MICRCYSTICS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Algal bloom of micrcystics&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AMERICAN_FOULBROOD_OF_HONEY_BEES&lt;a name=\&quot;diseases-cs-AMERICAN_FOULBROOD_OF_HONEY_BEES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;American foulbrood of honey bees&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AMYLOODINIUM_SPP_INFECTION&lt;a name=\&quot;diseases-cs-AMYLOODINIUM_SPP_INFECTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Amyloodinium spp infection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANAPLASMA_SPP&lt;a name=\&quot;diseases-cs-ANAPLASMA_SPP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Anaplasma spp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANTHRAX&lt;a name=\&quot;diseases-cs-ANTHRAX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Anthrax&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ARENA_VIRUS&lt;a name=\&quot;diseases-cs-ARENA_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Arena virus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ARGENTINE_HEMORRHAGIC_FEVER_JUNIN_VIRUS&lt;a name=\&quot;diseases-cs-ARGENTINE_HEMORRHAGIC_FEVER_JUNIN_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Argentine hemorrhagic fever (Junin virus)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ASPERGILLOSIS&lt;a name=\&quot;diseases-cs-ASPERGILLOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aspergillosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ATKINSIELLA_SPP&lt;a name=\&quot;diseases-cs-ATKINSIELLA_SPP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atkinsiella spp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ATRESIA_ANI&lt;a name=\&quot;diseases-cs-ATRESIA_ANI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atresia Ani&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ATROPHIC_RHINITIS_AR&lt;a name=\&quot;diseases-cs-ATROPHIC_RHINITIS_AR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atrophic Rhinitis (AR)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AUJESZKY'S_DISEASE&lt;a name=\&quot;diseases-cs-AUJESZKY.39S_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aujeszky's disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AVIAN_CHLAMYDIOSIS&lt;a name=\&quot;diseases-cs-AVIAN_CHLAMYDIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Avian chlamydiosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AVIAN_INFECTIOUS_BRONCHITIS&lt;a name=\&quot;diseases-cs-AVIAN_INFECTIOUS_BRONCHITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Avian infectious bronchitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AVIAN_INFECTIOUS_LARYNGOTRACHEITIS&lt;a name=\&quot;diseases-cs-AVIAN_INFECTIOUS_LARYNGOTRACHEITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Avian infectious laryngotracheitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AVIAN_MYCOPLASMOSIS_M_GALLISEPTICUM&lt;a name=\&quot;diseases-cs-AVIAN_MYCOPLASMOSIS_M_GALLISEPTICUM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Avian mycoplasmosis (M. gallisepticum)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AVIAN_MYCOPLASMOSIS_M_SYNOVIAE&lt;a name=\&quot;diseases-cs-AVIAN_MYCOPLASMOSIS_M_SYNOVIAE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Avian mycoplasmosis (M. synoviae)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AVIAN_MYCOPLASMOSIS_M_SYNSHEEPAE&lt;a name=\&quot;diseases-cs-AVIAN_MYCOPLASMOSIS_M_SYNSHEEPAE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Avian mycoplasmosis (M. synsheepae)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AVIAN_TUBERCULOSIS&lt;a name=\&quot;diseases-cs-AVIAN_TUBERCULOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Avian tuberculosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BABESIA_SPP&lt;a name=\&quot;diseases-cs-BABESIA_SPP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Babesia spp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BACTERIAL_ENTERIC_DISEASES&lt;a name=\&quot;diseases-cs-BACTERIAL_ENTERIC_DISEASES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bacterial Enteric Diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BACTERIAL_KIDNEY_DISEASE&lt;a name=\&quot;diseases-cs-BACTERIAL_KIDNEY_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bacterial kidney disease (Renibacterium salmoninarum)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BACTERIAL_MENINGITIS&lt;a name=\&quot;diseases-cs-BACTERIAL_MENINGITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bacterial Meningitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NECROSIS_SHELL_DISEASE_FILAMENTOUS_BACTERIAL&lt;a name=\&quot;diseases-cs-NECROSIS_SHELL_DISEASE_FILAMENTOUS_BACTERIAL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bactrial necrosis/shell disease Filamentous bacterial diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BACULOVIRUS_INFECTION&lt;a name=\&quot;diseases-cs-BACULOVIRUS_INFECTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Baculovirus infection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BATRACHOCHYTRIUM_DENDROBATIDIS&lt;a name=\&quot;diseases-cs-BATRACHOCHYTRIUM_DENDROBATIDIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Batrachochytrium dendrobatidis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BEETLES&lt;a name=\&quot;diseases-cs-BEETLES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Beetles&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BLACK_DISEASE&lt;a name=\&quot;diseases-cs-BLACK_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Black disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BLACKLEG&lt;a name=\&quot;diseases-cs-BLACKLEG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blackleg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BLUETONGUE&lt;a name=\&quot;diseases-cs-BLUETONGUE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bluetongue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BONAMIA_EXITIOSA&lt;a name=\&quot;diseases-cs-BONAMIA_EXITIOSA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bonamia exitiosa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BONAMIA_OSTREAE&lt;a name=\&quot;diseases-cs-BONAMIA_OSTREAE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bonamia ostreae&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOTULISM&lt;a name=\&quot;diseases-cs-BOTULISM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Botulism&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOVINE_ANAPLASMOSIS&lt;a name=\&quot;diseases-cs-BOVINE_ANAPLASMOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bovine anaplasmosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOVINE_BABESIOSIS&lt;a name=\&quot;diseases-cs-BOVINE_BABESIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bovine babesiosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOVINE_CYSTICERCOSIS&lt;a name=\&quot;diseases-cs-BOVINE_CYSTICERCOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bovine cysticercosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOVINE_GENITAL_CAMPYLOBACTERIOSIS&lt;a name=\&quot;diseases-cs-BOVINE_GENITAL_CAMPYLOBACTERIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bovine genital campylobacteriosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOVINE_SPONGIFORM_ENCEPHALOPATHY&lt;a name=\&quot;diseases-cs-BOVINE_SPONGIFORM_ENCEPHALOPATHY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bovine spongiform encephalopathy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOVINE_TUBERCULOSIS&lt;a name=\&quot;diseases-cs-BOVINE_TUBERCULOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bovine tuberculosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOVINE_VIRAL_DIARRHOEA&lt;a name=\&quot;diseases-cs-BOVINE_VIRAL_DIARRHOEA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bovine viral diarrhoea&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BRUCELLOSIS&lt;a name=\&quot;diseases-cs-BRUCELLOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brucellosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BRUCELLOSIS_BRUCELLA_ABORTUS&lt;a name=\&quot;diseases-cs-BRUCELLOSIS_BRUCELLA_ABORTUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brucellosis (Brucella abortus)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BRUCELLOSIS_BRUCELLA_MELITENSIS&lt;a name=\&quot;diseases-cs-BRUCELLOSIS_BRUCELLA_MELITENSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brucellosis (Brucella melitensis)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BRUCELLOSIS_BRUCELLA_SUIS&lt;a name=\&quot;diseases-cs-BRUCELLOSIS_BRUCELLA_SUIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brucellosis (Brucella suis)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CAMELPOX&lt;a name=\&quot;diseases-cs-CAMELPOX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Camelpox&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CAMPYLOBACTERIOSIS&lt;a name=\&quot;diseases-cs-CAMPYLOBACTERIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Campylobacteriosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CANINE_DISTEMPER&lt;a name=\&quot;diseases-cs-CANINE_DISTEMPER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Canine distemper&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CAPRINE_ARTHRITIS_ENCEPHALITIS&lt;a name=\&quot;diseases-cs-CAPRINE_ARTHRITIS_ENCEPHALITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Caprine arthritis/encephalitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CAT_FLUE&lt;a name=\&quot;diseases-cs-CAT_FLUE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cat flue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHANNEL_CATFISH_VIRUS_DISEASE&lt;a name=\&quot;diseases-cs-CHANNEL_CATFISH_VIRUS_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Channel catfish virus disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHILL_BROOD&lt;a name=\&quot;diseases-cs-CHILL_BROOD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chill brood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHONDROCOCCUS_COLUMNARIS_FINS_EROSION&lt;a name=\&quot;diseases-cs-CHONDROCOCCUS_COLUMNARIS_FINS_EROSION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chondrococcus columnaris/fins erosion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHRONIC_RESPIRATORY_DISEASE&lt;a name=\&quot;diseases-cs-CHRONIC_RESPIRATORY_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chronic respiratory disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHRONIC_WASTING_DISEASE&lt;a name=\&quot;diseases-cs-CHRONIC_WASTING_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chronic wasting disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CLASSICAL_SWINE_FEVER&lt;a name=\&quot;diseases-cs-CLASSICAL_SWINE_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Classical swine fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;COCCIDIOSIS&lt;a name=\&quot;diseases-cs-COCCIDIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Coccidiosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;COLIBACILLOSIS&lt;a name=\&quot;diseases-cs-COLIBACILLOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colibacillosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;COLONY_COLLAPSE&lt;a name=\&quot;diseases-cs-COLONY_COLLAPSE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colony Collapse&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONTAGIOUS_AGALACTIA&lt;a name=\&quot;diseases-cs-CONTAGIOUS_AGALACTIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Contagious agalactia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONTAGIOUS_BOVINE_PLEUROPNEUMONIA&lt;a name=\&quot;diseases-cs-CONTAGIOUS_BOVINE_PLEUROPNEUMONIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Contagious bovine pleuropneumonia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONTAGIOUS_CAPRINE_PLEUROPNEUMONIA&lt;a name=\&quot;diseases-cs-CONTAGIOUS_CAPRINE_PLEUROPNEUMONIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Contagious caprine pleuropneumonia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONTAGIOUS_ECTHYMA&lt;a name=\&quot;diseases-cs-CONTAGIOUS_ECTHYMA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Contagious Ecthyma&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONTAGIOUS_EQUINE_ANEMIA&lt;a name=\&quot;diseases-cs-CONTAGIOUS_EQUINE_ANEMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Contagious Equine Anemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONTAGIOUS_EQUINE_METRITIS&lt;a name=\&quot;diseases-cs-CONTAGIOUS_EQUINE_METRITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Contagious equine metritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;COVID19_SARSCOV2&lt;a name=\&quot;diseases-cs-COVID19_SARSCOV2\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COVID-19 (SARS-COV-2)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CRAYFISH_PLAGUE_APHANOMYCES_ASTACI&lt;a name=\&quot;diseases-cs-CRAYFISH_PLAGUE_APHANOMYCES_ASTACI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Crayfish plague (Aphanomyces astaci)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CRIMEAN_CONGO_HAEMORRHAGIC_FEVER&lt;a name=\&quot;diseases-cs-CRIMEAN_CONGO_HAEMORRHAGIC_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Crimean Congo haemorrhagic fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CYSTICERCOSIS&lt;a name=\&quot;diseases-cs-CYSTICERCOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cysticercosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DENGUE&lt;a name=\&quot;diseases-cs-DENGUE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dengue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DERMATOPHILOSIS&lt;a name=\&quot;diseases-cs-DERMATOPHILOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dermatophilosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DISTEMPER&lt;a name=\&quot;diseases-cs-DISTEMPER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Distemper&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DISTOMATOSIS&lt;a name=\&quot;diseases-cs-DISTOMATOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Distomatosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DOURINE&lt;a name=\&quot;diseases-cs-DOURINE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dourine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DRACUNCULIASIS&lt;a name=\&quot;diseases-cs-DRACUNCULIASIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dracunculiasis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DUCK_VIRUS_ENTERITIS&lt;a name=\&quot;diseases-cs-DUCK_VIRUS_ENTERITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Duck virus enteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DUCK_VIRUS_HEPATITIS&lt;a name=\&quot;diseases-cs-DUCK_VIRUS_HEPATITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Duck virus hepatitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DYSTOCIA&lt;a name=\&quot;diseases-cs-DYSTOCIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dystocia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EAST_COAST_FEVER&lt;a name=\&quot;diseases-cs-EAST_COAST_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;East Coast fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EASTERN_EQUINE_ENCEPHALOMYELITIS&lt;a name=\&quot;diseases-cs-EASTERN_EQUINE_ENCEPHALOMYELITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Eastern equine encephalomyelitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EBOLARESTON&lt;a name=\&quot;diseases-cs-EBOLARESTON\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ebola-Reston&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EBOLA_VIRUS&lt;a name=\&quot;diseases-cs-EBOLA_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ebola Virus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ECHINOCOCCOSIS_HYDATIDOSIS&lt;a name=\&quot;diseases-cs-ECHINOCOCCOSIS_HYDATIDOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Echinococcosis/hydatidosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ECTOPARASITISM&lt;a name=\&quot;diseases-cs-ECTOPARASITISM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ectoparasitism&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EGG_DROP_SYNDROME&lt;a name=\&quot;diseases-cs-EGG_DROP_SYNDROME\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Egg Drop Syndrome&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENTERIC_SEPTICAEMIA_CATFISH_EDWARDSIELLA_ICTALURI&lt;a name=\&quot;diseases-cs-ENTERIC_SEPTICAEMIA_CATFISH_EDWARDSIELLA_ICTALURI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enteric septicaemia of catfish (Edwardsiella ictaluri)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENTEROTOXEMIA&lt;a name=\&quot;diseases-cs-ENTEROTOXEMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enterotoxemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENZOOTIC_ABORTION_CHLAMYDIOSIS&lt;a name=\&quot;diseases-cs-ENZOOTIC_ABORTION_CHLAMYDIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enzootic abortion (chlamydiosis)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENZOOTIC_ABORTION_OF_EWES_OVINE_CHLAMYDIOSIS&lt;a name=\&quot;diseases-cs-ENZOOTIC_ABORTION_OF_EWES_OVINE_CHLAMYDIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enzootic abortion of ewes (ovine chlamydiosis)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENZOOTIC_BOVINE_LEUKOSIS&lt;a name=\&quot;diseases-cs-ENZOOTIC_BOVINE_LEUKOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enzootic bovine leukosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EPHEMERAL_FEVER_3_DAY_STIFFNESS&lt;a name=\&quot;diseases-cs-EPHEMERAL_FEVER_3_DAY_STIFFNESS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ephemeral fever (3 day stiffness)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EPIZOOTIC_HAEMATOPOIETIC_NECROSIS&lt;a name=\&quot;diseases-cs-EPIZOOTIC_HAEMATOPOIETIC_NECROSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Epizootic haematopoietic necrosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EPIZOOTIC_HAEMORRHAGIC_DISEASE&lt;a name=\&quot;diseases-cs-EPIZOOTIC_HAEMORRHAGIC_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Epizootic haemorrhagic disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EPIZOOTIC_LYMPHANGITIS&lt;a name=\&quot;diseases-cs-EPIZOOTIC_LYMPHANGITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Epizootic lymphangitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EPIZOOTIC_ULCERATIVE_SYNDROME&lt;a name=\&quot;diseases-cs-EPIZOOTIC_ULCERATIVE_SYNDROME\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Epizootic ulcerative syndrome&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUID_HERPRESVIRUS1_EHV1&lt;a name=\&quot;diseases-cs-EQUID_HERPRESVIRUS1_EHV1\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equid herpresvirus1 (EHV-1)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_ENCEPHALOMYELITIS_EAST_AND_WEST&lt;a name=\&quot;diseases-cs-EQUINE_ENCEPHALOMYELITIS_EAST_AND_WEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine Encephalomyelitis (East and West)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_ENCEPHALOMYELITIS_EASTERN&lt;a name=\&quot;diseases-cs-EQUINE_ENCEPHALOMYELITIS_EASTERN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine encephalomyelitis (Eastern)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_ENCEPHALOMYELITIS_WESTERN&lt;a name=\&quot;diseases-cs-EQUINE_ENCEPHALOMYELITIS_WESTERN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine encephalomyelitis (Western)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_ENCEPHALOSIS&lt;a name=\&quot;diseases-cs-EQUINE_ENCEPHALOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine encephalosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_INFECTIOUS_ANAEMIA&lt;a name=\&quot;diseases-cs-EQUINE_INFECTIOUS_ANAEMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine infectious anaemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_LYMPHANGITIS&lt;a name=\&quot;diseases-cs-EQUINE_LYMPHANGITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine lymphangitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_PIROPLASMOSIS&lt;a name=\&quot;diseases-cs-EQUINE_PIROPLASMOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine piroplasmosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_RHINOPNEUMONITIS&lt;a name=\&quot;diseases-cs-EQUINE_RHINOPNEUMONITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine rhinopneumonitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EQUINE_VIRAL_ARTERITIS&lt;a name=\&quot;diseases-cs-EQUINE_VIRAL_ARTERITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Equine viral arteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ERHLICHIOSIS&lt;a name=\&quot;diseases-cs-ERHLICHIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Erhlichiosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ERYSIPELAS&lt;a name=\&quot;diseases-cs-ERYSIPELAS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Erysipelas&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ESCHERICHIA_COLI&lt;a name=\&quot;diseases-cs-ESCHERICHIA_COLI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Escherichia coli&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EUROPEAN_FOULBROOD_OF_HONEY_BEES&lt;a name=\&quot;diseases-cs-EUROPEAN_FOULBROOD_OF_HONEY_BEES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;European foulbrood of honey bees&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOOD_BORNE_DISEASE&lt;a name=\&quot;diseases-cs-FOOD_BORNE_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Food borne disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOOT_AND_MOUTH_DISEASE&lt;a name=\&quot;diseases-cs-FOOT_AND_MOUTH_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Foot and mouth disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOOT_ROT&lt;a name=\&quot;diseases-cs-FOOT_ROT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Foot rot&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOULBROOD_OF_HONEY&lt;a name=\&quot;diseases-cs-FOULBROOD_OF_HONEY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Foulbrood of honey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOWL_CHOLERA&lt;a name=\&quot;diseases-cs-FOWL_CHOLERA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fowl cholera&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOWL_POX&lt;a name=\&quot;diseases-cs-FOWL_POX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fowl pox&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOWL_TYPHOID&lt;a name=\&quot;diseases-cs-FOWL_TYPHOID\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fowl typhoid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FUSARIUM_SPP&lt;a name=\&quot;diseases-cs-FUSARIUM_SPP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fusarium spp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GLANDERS&lt;a name=\&quot;diseases-cs-GLANDERS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Glanders&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GREGARINE_INFECTION&lt;a name=\&quot;diseases-cs-GREGARINE_INFECTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gregarine infection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GYRODACTYLOSIS_GYRODACTYLUS_SALARIS&lt;a name=\&quot;diseases-cs-GYRODACTYLOSIS_GYRODACTYLUS_SALARIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gyrodactylosis (Gyrodactylus salaris)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMORRHAGIC_SEPTICAEMIA&lt;a name=\&quot;diseases-cs-HAEMORRHAGIC_SEPTICAEMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhagic Septicaemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HALIPHTHOROS_SPPS&lt;a name=\&quot;diseases-cs-HALIPHTHOROS_SPPS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haliphthoros spps&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HALOCRSTCIDA_SPP&lt;a name=\&quot;diseases-cs-HALOCRSTCIDA_SPP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Halocrstcida spp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEARTWATER&lt;a name=\&quot;diseases-cs-HEARTWATER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heartwater&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HELMINTHIASIS&lt;a name=\&quot;diseases-cs-HELMINTHIASIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Helminthiasis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HENDRA_VIRUS_DISEASE&lt;a name=\&quot;diseases-cs-HENDRA_VIRUS_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hendra Virus Disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEPATITIS&lt;a name=\&quot;diseases-cs-HEPATITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hepatitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HERNIE_EMBILICAL&lt;a name=\&quot;diseases-cs-HERNIE_EMBILICAL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hernie Embilical&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HORSE_POX&lt;a name=\&quot;diseases-cs-HORSE_POX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Horse pox&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTION_WITH_HAPLOSPORIDIUM_NELSONI&lt;a name=\&quot;diseases-cs-INFECTION_WITH_HAPLOSPORIDIUM_NELSONI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infection with Haplosporidium nelsoni&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTION_WITH_MARTEILIA_REFRINGENS&lt;a name=\&quot;diseases-cs-INFECTION_WITH_MARTEILIA_REFRINGENS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infection with Marteilia refringens&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTION_WITH_MARTEILIA_SYDNEYI&lt;a name=\&quot;diseases-cs-INFECTION_WITH_MARTEILIA_SYDNEYI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infection with Marteilia sydneyi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTION_WITH_PERKINSUS_MARINUS&lt;a name=\&quot;diseases-cs-INFECTION_WITH_PERKINSUS_MARINUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infection with Perkinsus marinus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTION_WITH_XENOHALIOTIS_CALIFORNIENSIS&lt;a name=\&quot;diseases-cs-INFECTION_WITH_XENOHALIOTIS_CALIFORNIENSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infection with Xenohaliotis californiensis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_BOVINE_KERATOCONJUNCTIVITIS_PINKEYE&lt;a name=\&quot;diseases-cs-INFECTIOUS_BOVINE_KERATOCONJUNCTIVITIS_PINKEYE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious Bovine Keratoconjunctivitis (Pinkeye)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_BOVINE_RHINOTRACHEITIS&lt;a name=\&quot;diseases-cs-INFECTIOUS_BOVINE_RHINOTRACHEITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious bovine rhinotracheitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_BRONCHITIS&lt;a name=\&quot;diseases-cs-INFECTIOUS_BRONCHITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious Bronchitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_BURSAL_DISEASE_GUMBORO_DISEASE&lt;a name=\&quot;diseases-cs-INFECTIOUS_BURSAL_DISEASE_GUMBORO_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious bursal disease (Gumboro disease)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_CORYZA&lt;a name=\&quot;diseases-cs-INFECTIOUS_CORYZA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious Coryza&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_HAEMATOPOIETIC_NECROSIS&lt;a name=\&quot;diseases-cs-INFECTIOUS_HAEMATOPOIETIC_NECROSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious haematopoietic necrosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IHHN&lt;a name=\&quot;diseases-cs-IHHN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious hypodermal and haematopoietic necrosis (IHHN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_MYONECROSIS&lt;a name=\&quot;diseases-cs-INFECTIOUS_MYONECROSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious myonecrosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_PUSTULAR_VULVOVAGINITIS&lt;a name=\&quot;diseases-cs-INFECTIOUS_PUSTULAR_VULVOVAGINITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious pustular vulvovaginitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFECTIOUS_SALMON_ANAEMIA&lt;a name=\&quot;diseases-cs-INFECTIOUS_SALMON_ANAEMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Infectious salmon anaemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFLUENZA_AVIAN&lt;a name=\&quot;diseases-cs-INFLUENZA_AVIAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Influenza - Avian&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFLUENZA_EQUINE&lt;a name=\&quot;diseases-cs-INFLUENZA_EQUINE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Influenza - Equine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INFLUENZA_SWINE&lt;a name=\&quot;diseases-cs-INFLUENZA_SWINE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Influenza - Swine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTOXICATION&lt;a name=\&quot;diseases-cs-INTOXICATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intoxication&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;JAPANESE_ENCEPHALITIS&lt;a name=\&quot;diseases-cs-JAPANESE_ENCEPHALITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Japanese Encephalitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KOI_HERPES_VIRUS_KHV_DISEASE&lt;a name=\&quot;diseases-cs-KOI_HERPES_VIRUS_KHV_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Koi herpes virus (KHV) disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KUNJIN_VIRUS&lt;a name=\&quot;diseases-cs-KUNJIN_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kunjin virus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KYASANUR_FOREST_DISEASE&lt;a name=\&quot;diseases-cs-KYASANUR_FOREST_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kyasanur forest disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LAAGENIDIUM_SPP&lt;a name=\&quot;diseases-cs-LAAGENIDIUM_SPP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Laagenidium spp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LASSA_FEVER&lt;a name=\&quot;diseases-cs-LASSA_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lassa fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LEISHMANIOSIS&lt;a name=\&quot;diseases-cs-LEISHMANIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Leishmaniosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LEPROSY_HANSEN'S_DISEASE&lt;a name=\&quot;diseases-cs-LEPROSY_HANSEN.39S_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Leprosy (Hansen's disease)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LEPTOSPIROSIS&lt;a name=\&quot;diseases-cs-LEPTOSPIROSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Leptospirosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LISTERIOSIS&lt;a name=\&quot;diseases-cs-LISTERIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Listeriosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LIVESTOCK_PARASITIC_DISEASES&lt;a name=\&quot;diseases-cs-LIVESTOCK_PARASITIC_DISEASES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Livestock parasitic diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LUMINESCENT_BACTERIAL_DISEASES&lt;a name=\&quot;diseases-cs-LUMINESCENT_BACTERIAL_DISEASES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Luminescent bacterial diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LUMPY_SKIN_DISEASE&lt;a name=\&quot;diseases-cs-LUMPY_SKIN_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lumpy skin disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LUMPY_WOOL_DERMATOPHILUS&lt;a name=\&quot;diseases-cs-LUMPY_WOOL_DERMATOPHILUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lumpy wool (Dermatophilus)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MAEDIVISNA&lt;a name=\&quot;diseases-cs-MAEDIVISNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maedi-visna&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MALIGNANT_CATARRHAL_FEVER&lt;a name=\&quot;diseases-cs-MALIGNANT_CATARRHAL_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Malignant catarrhal fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MANGE&lt;a name=\&quot;diseases-cs-MANGE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mange&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MARBURG_HEMORRHAGIC_FEVER&lt;a name=\&quot;diseases-cs-MARBURG_HEMORRHAGIC_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Marburg Hemorrhagic Fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MAREK'S_DISEASE&lt;a name=\&quot;diseases-cs-MAREK.39S_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Marek's disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MASTITIS&lt;a name=\&quot;diseases-cs-MASTITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mastitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MERSCOV&lt;a name=\&quot;diseases-cs-MERSCOV\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MERS-CoV&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MICROSPORIDIAN_INFECTION&lt;a name=\&quot;diseases-cs-MICROSPORIDIAN_INFECTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Microsporidian infection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MIKROCYTOS_MACKINI&lt;a name=\&quot;diseases-cs-MIKROCYTOS_MACKINI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mikrocytos mackini&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MONKEY_POX&lt;a name=\&quot;diseases-cs-MONKEY_POX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Monkey Pox&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MORBILLIVIRUSES&lt;a name=\&quot;diseases-cs-MORBILLIVIRUSES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Morbilliviruses  (esp. Peste des Petits Ruminants and Rinderpest)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MUSCLE_NECROSIS_VIRUS&lt;a name=\&quot;diseases-cs-MUSCLE_NECROSIS_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle necrosis virus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MYXOMATOSIS&lt;a name=\&quot;diseases-cs-MYXOMATOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Myxomatosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NAIROBI_SHEEP_DISEASE&lt;a name=\&quot;diseases-cs-NAIROBI_SHEEP_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nairobi sheep disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NECROTISING_HEPATOPANCREATIS&lt;a name=\&quot;diseases-cs-NECROTISING_HEPATOPANCREATIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Necrotising hepatopancreatis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NEWCASTLE_DISEASE&lt;a name=\&quot;diseases-cs-NEWCASTLE_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Newcastle disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NEW_WORLD_SCREWWORM_COCHLIOMYIA_HOMINIVORAX&lt;a name=\&quot;diseases-cs-NEW_WORLD_SCREWWORM_COCHLIOMYIA_HOMINIVORAX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;New world screwworm (Cochliomyia hominivorax)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NIPAH_VIRUS_ENCEPHALITIS&lt;a name=\&quot;diseases-cs-NIPAH_VIRUS_ENCEPHALITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nipah virus encephalitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OLD_WORLD_SCREWWORM_CHRYSOMYA_BEZZIANA&lt;a name=\&quot;diseases-cs-OLD_WORLD_SCREWWORM_CHRYSOMYA_BEZZIANA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Old world screwworm (Chrysomya bezziana)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OMPHALOPHLEBITIS_NAVEL_ILL_JOINT_ILL&lt;a name=\&quot;diseases-cs-OMPHALOPHLEBITIS_NAVEL_ILL_JOINT_ILL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Omphalophlebitis (Navel ill- Joint ill)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ONCORHYNCHUS_MASOU_VIRUS_DISEASE&lt;a name=\&quot;diseases-cs-ONCORHYNCHUS_MASOU_VIRUS_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oncorhynchus masou virus disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ORF&lt;a name=\&quot;diseases-cs-ORF\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orf&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ORMILO_ENCEPHALITIS_THELIRIOSIS&lt;a name=\&quot;diseases-cs-ORMILO_ENCEPHALITIS_THELIRIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ormilo/Encephalitis theliriosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OTHER_BACTERIAL_DISEASES&lt;a name=\&quot;diseases-cs-OTHER_BACTERIAL_DISEASES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Other bacterial diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OTHER_OPPORTUNISSTIC_BACTERIAL_PATHOGEN&lt;a name=\&quot;diseases-cs-OTHER_OPPORTUNISSTIC_BACTERIAL_PATHOGEN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Other opportunisstic bacterial pathogen&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OVINE_EPIDIDYMITIS_BRUCELLA_OVIS&lt;a name=\&quot;diseases-cs-OVINE_EPIDIDYMITIS_BRUCELLA_OVIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ovine epididymitis (Brucella ovis)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OVINE_PULMONARY_ADENOMATOSIS&lt;a name=\&quot;diseases-cs-OVINE_PULMONARY_ADENOMATOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ovine pulmonary adenomatosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAPILLOMA_VIRUS_WARDS&lt;a name=\&quot;diseases-cs-PAPILLOMA_VIRUS_WARDS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Papilloma Virus (wards)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PARAPHIMOSIS&lt;a name=\&quot;diseases-cs-PARAPHIMOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Paraphimosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PARATUBERCULOSIS&lt;a name=\&quot;diseases-cs-PARATUBERCULOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Paratuberculosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PARVOVIRUS&lt;a name=\&quot;diseases-cs-PARVOVIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Parvovirus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PERITRICH_CILIATES&lt;a name=\&quot;diseases-cs-PERITRICH_CILIATES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Peritrich ciliates&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PESTE_DES_PETITS_RUMINANTS&lt;a name=\&quot;diseases-cs-PESTE_DES_PETITS_RUMINANTS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Peste des petits ruminants&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHIMOSIS&lt;a name=\&quot;diseases-cs-PHIMOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phimosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PLAGUE&lt;a name=\&quot;diseases-cs-PLAGUE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plague&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;POISONING&lt;a name=\&quot;diseases-cs-POISONING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Poisoning&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;POLIOVIRUS&lt;a name=\&quot;diseases-cs-POLIOVIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Poliovirus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PORCINE_CYSTICERCOSIS&lt;a name=\&quot;diseases-cs-PORCINE_CYSTICERCOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Porcine cysticercosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PORCINE_ENTEROVIRAL_ENCEPHALOMYELITIS&lt;a name=\&quot;diseases-cs-PORCINE_ENTEROVIRAL_ENCEPHALOMYELITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Porcine Enteroviral encephalomyelitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PORCINE_EPIDEMIC_DIARRHEA&lt;a name=\&quot;diseases-cs-PORCINE_EPIDEMIC_DIARRHEA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Porcine epidemic diarrhea&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PORCINE_REPRODUCTIVE_AND_RESPIRATORY_SYNDROME&lt;a name=\&quot;diseases-cs-PORCINE_REPRODUCTIVE_AND_RESPIRATORY_SYNDROME\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Porcine reproductive and respiratory syndrome&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;POSTWEANING_MULTISYSTEMIC_WASTING_SYNDROME_PMWS&lt;a name=\&quot;diseases-cs-POSTWEANING_MULTISYSTEMIC_WASTING_SYNDROME_PMWS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Postweaning Multisystemic Wasting Syndrome (PMWS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PSITTACOSISCHLAMYDOPHILA_PSITTACI&lt;a name=\&quot;diseases-cs-PSITTACOSISCHLAMYDOPHILA_PSITTACI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Psittacosis(Chlamydophila psittaci)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PULLORUM_DISEASE&lt;a name=\&quot;diseases-cs-PULLORUM_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pullorum disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;Q_FEVER&lt;a name=\&quot;diseases-cs-Q_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Q fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RABBIT_HAEMORRHAGIC_DISEASE&lt;a name=\&quot;diseases-cs-RABBIT_HAEMORRHAGIC_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rabbit haemorrhagic disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RABIES&lt;a name=\&quot;diseases-cs-RABIES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rabies&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RANAVIRUS&lt;a name=\&quot;diseases-cs-RANAVIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ranavirus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RED_SEA_BREAM_IRIDOVIRAL_DISEASE&lt;a name=\&quot;diseases-cs-RED_SEA_BREAM_IRIDOVIRAL_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Red sea bream iridoviral disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RED_STERNUM_SYNDROME&lt;a name=\&quot;diseases-cs-RED_STERNUM_SYNDROME\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Red sternum syndrome&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;REOVIRUS&lt;a name=\&quot;diseases-cs-REOVIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Reovirus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RICKETTSIOSIS&lt;a name=\&quot;diseases-cs-RICKETTSIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rickettsiosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RIFT_VALLEY_FEVER&lt;a name=\&quot;diseases-cs-RIFT_VALLEY_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rift Valley fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RINDERPEST&lt;a name=\&quot;diseases-cs-RINDERPEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rinderpest&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RUMINANT_MYCOPLASMOSES&lt;a name=\&quot;diseases-cs-RUMINANT_MYCOPLASMOSES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ruminant Mycoplasmoses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SALMONELLOSIS_S_ABORTUSOVIS&lt;a name=\&quot;diseases-cs-SALMONELLOSIS_S_ABORTUSOVIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Salmonellosis (S. abortusovis)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SALMONID_ALPHAVIRUS&lt;a name=\&quot;diseases-cs-SALMONID_ALPHAVIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Salmonid alphavirus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SCHMALLENBERG&lt;a name=\&quot;diseases-cs-SCHMALLENBERG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Schmallenberg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SCRAPIE&lt;a name=\&quot;diseases-cs-SCRAPIE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scrapie&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SHEEP_POX_AND_GOAT_POX&lt;a name=\&quot;diseases-cs-SHEEP_POX_AND_GOAT_POX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sheep pox and goat pox&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SMALL_HIVE_BEETLE_INFESTATION_AETHINA_TUMIDA&lt;a name=\&quot;diseases-cs-SMALL_HIVE_BEETLE_INFESTATION_AETHINA_TUMIDA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Small hive beetle infestation (Aethina tumida)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SPHERICAL_BACULOVIROSIS&lt;a name=\&quot;diseases-cs-SPHERICAL_BACULOVIROSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Spherical baculovirosis (Penaeus monodon-type baculovirus)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SPRING_VIRAEMIA_OF_CARP&lt;a name=\&quot;diseases-cs-SPRING_VIRAEMIA_OF_CARP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Spring viraemia of carp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;STARVATION&lt;a name=\&quot;diseases-cs-STARVATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Starvation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;STRANGLES&lt;a name=\&quot;diseases-cs-STRANGLES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Strangles&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;STREPTOCOCCUS_SUIS&lt;a name=\&quot;diseases-cs-STREPTOCOCCUS_SUIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Streptococcus suis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SUCTORIAN_CILIATES&lt;a name=\&quot;diseases-cs-SUCTORIAN_CILIATES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suctorian ciliates&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SURRA_TRYPANOSOMA_EVANSI&lt;a name=\&quot;diseases-cs-SURRA_TRYPANOSOMA_EVANSI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Surra (Trypanosoma evansi)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SUSPECTED_NEW_EMERGING_DISEASE&lt;a name=\&quot;diseases-cs-SUSPECTED_NEW_EMERGING_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Suspected New Emerging Disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWINE_DYSENTRY&lt;a name=\&quot;diseases-cs-SWINE_DYSENTRY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swine dysentry&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWINE_INFLUENZA&lt;a name=\&quot;diseases-cs-SWINE_INFLUENZA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swine influenza&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWINE_NOVEL_ENTERIC_CORONA_VIRUS_DISEASE&lt;a name=\&quot;diseases-cs-SWINE_NOVEL_ENTERIC_CORONA_VIRUS_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swine Novel Enteric Corona Virus disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWINE_VESICULAR_DISEASE&lt;a name=\&quot;diseases-cs-SWINE_VESICULAR_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swine vesicular disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TAURA_SYNDROME&lt;a name=\&quot;diseases-cs-TAURA_SYNDROME\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Taura syndrome&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TESCHOVIRUS_ENCEPHALOMYELITIS&lt;a name=\&quot;diseases-cs-TESCHOVIRUS_ENCEPHALOMYELITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Teschovirus encephalomyelitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TETANUS&lt;a name=\&quot;diseases-cs-TETANUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tetanus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TETRAHEDRAL_BACULOVIROSIS_BACULOVIRUS_PENAEI&lt;a name=\&quot;diseases-cs-TETRAHEDRAL_BACULOVIROSIS_BACULOVIRUS_PENAEI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tetrahedral baculovirosis (Baculovirus penaei)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THEILERIOSIS&lt;a name=\&quot;diseases-cs-THEILERIOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Theileriosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THIRD_EYELID_PROLAPSE&lt;a name=\&quot;diseases-cs-THIRD_EYELID_PROLAPSE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Third eyelid prolapse&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THREE_DAYS_SICKNESS&lt;a name=\&quot;diseases-cs-THREE_DAYS_SICKNESS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Three days sickness&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TICKBORNE_ENCEPHALITIS&lt;a name=\&quot;diseases-cs-TICKBORNE_ENCEPHALITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tick-borne encephalitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TOXOPLASMOSIS&lt;a name=\&quot;diseases-cs-TOXOPLASMOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Toxoplasmosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRANSMISSIBLE_GASTROENTERITIS&lt;a name=\&quot;diseases-cs-TRANSMISSIBLE_GASTROENTERITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transmissible gastroenteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRANSMISSIBLE_VENEREAL_TUMOR_TVT&lt;a name=\&quot;diseases-cs-TRANSMISSIBLE_VENEREAL_TUMOR_TVT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transmissible venereal tumor (TVT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRAUMA_INJURY_FRACTURE&lt;a name=\&quot;diseases-cs-TRAUMA_INJURY_FRACTURE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Trauma/injury/fracture&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRAUMATIC_RETICULOPERICARDITIS&lt;a name=\&quot;diseases-cs-TRAUMATIC_RETICULOPERICARDITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Traumatic Reticulopericarditis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRICHINELLOSIS&lt;a name=\&quot;diseases-cs-TRICHINELLOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Trichinellosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRICHOMONOSIS&lt;a name=\&quot;diseases-cs-TRICHOMONOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Trichomonosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TROPILAELAPS_INFESTATION_OF_HONEY_BEES&lt;a name=\&quot;diseases-cs-TROPILAELAPS_INFESTATION_OF_HONEY_BEES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tropilaelaps infestation of honey bees&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRYPANOSOMOSIS_TSETSETRANSMITTED&lt;a name=\&quot;diseases-cs-TRYPANOSOMOSIS_TSETSETRANSMITTED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Trypanosomosis (tsetse-transmitted)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TUBERCULOSIS&lt;a name=\&quot;diseases-cs-TUBERCULOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tuberculosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TULAREMIA&lt;a name=\&quot;diseases-cs-TULAREMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tularemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TURKEY_RHINOTRACHEITIS&lt;a name=\&quot;diseases-cs-TURKEY_RHINOTRACHEITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Turkey rhinotracheitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;UNKNOWN_DISEASE&lt;a name=\&quot;diseases-cs-UNKNOWN_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Unknown disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;UTERINE_PROLAPSE&lt;a name=\&quot;diseases-cs-UTERINE_PROLAPSE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Uterine Prolapse&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VARROA_MITES&lt;a name=\&quot;diseases-cs-VARROA_MITES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Varroa mites&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VARROOSIS_OF_HONEY_BEES&lt;a name=\&quot;diseases-cs-VARROOSIS_OF_HONEY_BEES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Varroosis of honey bees&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VECTORBORNE_DISEASES&lt;a name=\&quot;diseases-cs-VECTORBORNE_DISEASES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vector-borne diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VENEZUELAN_EQUINE_ENCEPHALOMYELITIS&lt;a name=\&quot;diseases-cs-VENEZUELAN_EQUINE_ENCEPHALOMYELITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Venezuelan equine encephalomyelitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VESICULAR_STOMATITIS&lt;a name=\&quot;diseases-cs-VESICULAR_STOMATITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vesicular stomatitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIBRIO_ALGINOLYTICUS&lt;a name=\&quot;diseases-cs-VIBRIO_ALGINOLYTICUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vibrio alginolyticus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIBRIO_ANGUILLARUM_RED_SORTED_DISEASE&lt;a name=\&quot;diseases-cs-VIBRIO_ANGUILLARUM_RED_SORTED_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vibrio anguillarum/Red sorted disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIBRIO_HARVEYI&lt;a name=\&quot;diseases-cs-VIBRIO_HARVEYI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vibrio harveyi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIBRIO_PARAHEMOLYTCUS_SCALE_DISEASES&lt;a name=\&quot;diseases-cs-VIBRIO_PARAHEMOLYTCUS_SCALE_DISEASES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vibrio parahemolytcus/ scale diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIRAL_ENCEPHALOPATHY_AND_RETINOPATHY&lt;a name=\&quot;diseases-cs-VIRAL_ENCEPHALOPATHY_AND_RETINOPATHY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viral encephalopathy and retinopathy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIRAL_HAEMORRHAGIC_FEVERS&lt;a name=\&quot;diseases-cs-VIRAL_HAEMORRHAGIC_FEVERS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viral Haemorrhagic Fevers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIRAL_HAEMORRHAGIC_SEPTICAEMIA&lt;a name=\&quot;diseases-cs-VIRAL_HAEMORRHAGIC_SEPTICAEMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viral haemorrhagic septicaemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WAX_MOTHS&lt;a name=\&quot;diseases-cs-WAX_MOTHS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Wax moths&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WESTERN_EQUINE_ENCEPHALOMYELITIS&lt;a name=\&quot;diseases-cs-WESTERN_EQUINE_ENCEPHALOMYELITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Western equine encephalomyelitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WEST_NILE_FEVER&lt;a name=\&quot;diseases-cs-WEST_NILE_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;West Nile Fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WHITE_SPOT_DISEASE&lt;a name=\&quot;diseases-cs-WHITE_SPOT_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;White spot disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WHITE_SPOT_SYNDROME_VIRUS&lt;a name=\&quot;diseases-cs-WHITE_SPOT_SYNDROME_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;White spot syndrome virus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WHITE_TAIL_DISEASE&lt;a name=\&quot;diseases-cs-WHITE_TAIL_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;White tail disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WOUND_ABCESS&lt;a name=\&quot;diseases-cs-WOUND_ABCESS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Wound/Abcess&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;YELLOW_FEVER&lt;a name=\&quot;diseases-cs-YELLOW_FEVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yellow fever&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;YELLOW_HEAD_DISEASE&lt;a name=\&quot;diseases-cs-YELLOW_HEAD_DISEASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yellow head disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;YEZO_VIRUS&lt;a name=\&quot;diseases-cs-YEZO_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yezo virus&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://dhis2.org/fhir/CodeSystem/diseases-cs",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "DiseasesCS",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Diseases Code System",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-04-11T13:02:26+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "DHIS2",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "DHIS2",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://dhis2.org"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "johan.hole@dhis2.org"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Code system for diseases.",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 284,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ABALONE_HERPES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Abalone Herpes"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ACARAPISOSIS_OF_HONEY_BEES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Acarapisosis of honey bees"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AFRICAN_HORSE_SICKNESS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "African horse sickness"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AFRICAN_SWINE_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "African swine fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AKABANE_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Akabane Disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ALASKAPOX_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Alaskapox virus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ALGAL_BLOOM_OF_MICRCYSTICS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Algal bloom of micrcystics"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AMERICAN_FOULBROOD_OF_HONEY_BEES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "American foulbrood of honey bees"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AMYLOODINIUM_SPP_INFECTION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Amyloodinium spp infection"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ANAPLASMA_SPP",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Anaplasma spp"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ANTHRAX",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Anthrax"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ARENA_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Arena virus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ARGENTINE_HEMORRHAGIC_FEVER_JUNIN_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Argentine hemorrhagic fever (Junin virus)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ASPERGILLOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Aspergillosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ATKINSIELLA_SPP",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Atkinsiella spp"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ATRESIA_ANI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Atresia Ani"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ATROPHIC_RHINITIS_AR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Atrophic Rhinitis (AR)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AUJESZKY'S_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Aujeszky's disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AVIAN_CHLAMYDIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Avian chlamydiosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AVIAN_INFECTIOUS_BRONCHITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Avian infectious bronchitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AVIAN_INFECTIOUS_LARYNGOTRACHEITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Avian infectious laryngotracheitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AVIAN_MYCOPLASMOSIS_M_GALLISEPTICUM",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Avian mycoplasmosis (M. gallisepticum)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AVIAN_MYCOPLASMOSIS_M_SYNOVIAE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Avian mycoplasmosis (M. synoviae)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AVIAN_MYCOPLASMOSIS_M_SYNSHEEPAE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Avian mycoplasmosis (M. synsheepae)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AVIAN_TUBERCULOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Avian tuberculosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BABESIA_SPP",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Babesia spp"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BACTERIAL_ENTERIC_DISEASES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bacterial Enteric Diseases"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BACTERIAL_KIDNEY_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bacterial kidney disease (Renibacterium salmoninarum)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BACTERIAL_MENINGITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bacterial Meningitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NECROSIS_SHELL_DISEASE_FILAMENTOUS_BACTERIAL",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bactrial necrosis/shell disease Filamentous bacterial diseases"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BACULOVIRUS_INFECTION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Baculovirus infection"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BATRACHOCHYTRIUM_DENDROBATIDIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Batrachochytrium dendrobatidis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BEETLES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Beetles"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BLACK_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Black disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BLACKLEG",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Blackleg"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BLUETONGUE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bluetongue"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BONAMIA_EXITIOSA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bonamia exitiosa"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BONAMIA_OSTREAE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bonamia ostreae"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BOTULISM",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Botulism"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BOVINE_ANAPLASMOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bovine anaplasmosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BOVINE_BABESIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bovine babesiosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BOVINE_CYSTICERCOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bovine cysticercosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BOVINE_GENITAL_CAMPYLOBACTERIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bovine genital campylobacteriosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BOVINE_SPONGIFORM_ENCEPHALOPATHY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bovine spongiform encephalopathy"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BOVINE_TUBERCULOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bovine tuberculosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BOVINE_VIRAL_DIARRHOEA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bovine viral diarrhoea"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRUCELLOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Brucellosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRUCELLOSIS_BRUCELLA_ABORTUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Brucellosis (Brucella abortus)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRUCELLOSIS_BRUCELLA_MELITENSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Brucellosis (Brucella melitensis)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRUCELLOSIS_BRUCELLA_SUIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Brucellosis (Brucella suis)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CAMELPOX",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Camelpox"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CAMPYLOBACTERIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Campylobacteriosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CANINE_DISTEMPER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Canine distemper"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CAPRINE_ARTHRITIS_ENCEPHALITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Caprine arthritis/encephalitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CAT_FLUE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Cat flue"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHANNEL_CATFISH_VIRUS_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Channel catfish virus disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHILL_BROOD",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Chill brood"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHONDROCOCCUS_COLUMNARIS_FINS_EROSION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Chondrococcus columnaris/fins erosion"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHRONIC_RESPIRATORY_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Chronic respiratory disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CHRONIC_WASTING_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Chronic wasting disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CLASSICAL_SWINE_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Classical swine fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COCCIDIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Coccidiosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COLIBACILLOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Colibacillosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COLONY_COLLAPSE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Colony Collapse"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CONTAGIOUS_AGALACTIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Contagious agalactia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CONTAGIOUS_BOVINE_PLEUROPNEUMONIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Contagious bovine pleuropneumonia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CONTAGIOUS_CAPRINE_PLEUROPNEUMONIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Contagious caprine pleuropneumonia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CONTAGIOUS_ECTHYMA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Contagious Ecthyma"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CONTAGIOUS_EQUINE_ANEMIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Contagious Equine Anemia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CONTAGIOUS_EQUINE_METRITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Contagious equine metritis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COVID19_SARSCOV2",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "COVID-19 (SARS-COV-2)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CRAYFISH_PLAGUE_APHANOMYCES_ASTACI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Crayfish plague (Aphanomyces astaci)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CRIMEAN_CONGO_HAEMORRHAGIC_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Crimean Congo haemorrhagic fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CYSTICERCOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Cysticercosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DENGUE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Dengue"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DERMATOPHILOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Dermatophilosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DISTEMPER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Distemper"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DISTOMATOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Distomatosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DOURINE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Dourine"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DRACUNCULIASIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Dracunculiasis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DUCK_VIRUS_ENTERITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Duck virus enteritis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DUCK_VIRUS_HEPATITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Duck virus hepatitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DYSTOCIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Dystocia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EAST_COAST_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "East Coast fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EASTERN_EQUINE_ENCEPHALOMYELITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Eastern equine encephalomyelitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EBOLARESTON",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ebola-Reston"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EBOLA_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ebola Virus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ECHINOCOCCOSIS_HYDATIDOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Echinococcosis/hydatidosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ECTOPARASITISM",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ectoparasitism"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EGG_DROP_SYNDROME",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Egg Drop Syndrome"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENTERIC_SEPTICAEMIA_CATFISH_EDWARDSIELLA_ICTALURI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Enteric septicaemia of catfish (Edwardsiella ictaluri)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENTEROTOXEMIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Enterotoxemia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENZOOTIC_ABORTION_CHLAMYDIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Enzootic abortion (chlamydiosis)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENZOOTIC_ABORTION_OF_EWES_OVINE_CHLAMYDIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Enzootic abortion of ewes (ovine chlamydiosis)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENZOOTIC_BOVINE_LEUKOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Enzootic bovine leukosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EPHEMERAL_FEVER_3_DAY_STIFFNESS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ephemeral fever (3 day stiffness)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EPIZOOTIC_HAEMATOPOIETIC_NECROSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Epizootic haematopoietic necrosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EPIZOOTIC_HAEMORRHAGIC_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Epizootic haemorrhagic disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EPIZOOTIC_LYMPHANGITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Epizootic lymphangitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EPIZOOTIC_ULCERATIVE_SYNDROME",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Epizootic ulcerative syndrome"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUID_HERPRESVIRUS1_EHV1",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equid herpresvirus1 (EHV-1)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_ENCEPHALOMYELITIS_EAST_AND_WEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine Encephalomyelitis (East and West)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_ENCEPHALOMYELITIS_EASTERN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine encephalomyelitis (Eastern)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_ENCEPHALOMYELITIS_WESTERN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine encephalomyelitis (Western)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_ENCEPHALOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine encephalosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_INFECTIOUS_ANAEMIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine infectious anaemia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_LYMPHANGITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine lymphangitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_PIROPLASMOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine piroplasmosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_RHINOPNEUMONITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine rhinopneumonitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EQUINE_VIRAL_ARTERITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Equine viral arteritis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ERHLICHIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Erhlichiosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ERYSIPELAS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Erysipelas"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ESCHERICHIA_COLI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Escherichia coli"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EUROPEAN_FOULBROOD_OF_HONEY_BEES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "European foulbrood of honey bees"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FOOD_BORNE_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Food borne disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FOOT_AND_MOUTH_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Foot and mouth disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FOOT_ROT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Foot rot"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FOULBROOD_OF_HONEY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Foulbrood of honey"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FOWL_CHOLERA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Fowl cholera"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FOWL_POX",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Fowl pox"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FOWL_TYPHOID",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Fowl typhoid"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FUSARIUM_SPP",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Fusarium spp"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GLANDERS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Glanders"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GREGARINE_INFECTION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Gregarine infection"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GYRODACTYLOSIS_GYRODACTYLUS_SALARIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Gyrodactylosis (Gyrodactylus salaris)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HAEMORRHAGIC_SEPTICAEMIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Haemorrhagic Septicaemia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HALIPHTHOROS_SPPS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Haliphthoros spps"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HALOCRSTCIDA_SPP",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Halocrstcida spp"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HEARTWATER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Heartwater"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HELMINTHIASIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Helminthiasis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HENDRA_VIRUS_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Hendra Virus Disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HEPATITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Hepatitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HERNIE_EMBILICAL",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Hernie Embilical"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HORSE_POX",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Horse pox"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTION_WITH_HAPLOSPORIDIUM_NELSONI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infection with Haplosporidium nelsoni"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTION_WITH_MARTEILIA_REFRINGENS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infection with Marteilia refringens"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTION_WITH_MARTEILIA_SYDNEYI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infection with Marteilia sydneyi"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTION_WITH_PERKINSUS_MARINUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infection with Perkinsus marinus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTION_WITH_XENOHALIOTIS_CALIFORNIENSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infection with Xenohaliotis californiensis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_BOVINE_KERATOCONJUNCTIVITIS_PINKEYE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious Bovine Keratoconjunctivitis (Pinkeye)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_BOVINE_RHINOTRACHEITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious bovine rhinotracheitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_BRONCHITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious Bronchitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_BURSAL_DISEASE_GUMBORO_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious bursal disease (Gumboro disease)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_CORYZA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious Coryza"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_HAEMATOPOIETIC_NECROSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious haematopoietic necrosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IHHN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious hypodermal and haematopoietic necrosis (IHHN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_MYONECROSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious myonecrosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_PUSTULAR_VULVOVAGINITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious pustular vulvovaginitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFECTIOUS_SALMON_ANAEMIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Infectious salmon anaemia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFLUENZA_AVIAN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Influenza - Avian"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFLUENZA_EQUINE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Influenza - Equine"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INFLUENZA_SWINE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Influenza - Swine"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INTOXICATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Intoxication"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "JAPANESE_ENCEPHALITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Japanese Encephalitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "KOI_HERPES_VIRUS_KHV_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Koi herpes virus (KHV) disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "KUNJIN_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Kunjin virus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "KYASANUR_FOREST_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Kyasanur forest disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LAAGENIDIUM_SPP",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Laagenidium spp"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LASSA_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Lassa fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LEISHMANIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Leishmaniosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LEPROSY_HANSEN'S_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Leprosy (Hansen's disease)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LEPTOSPIROSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Leptospirosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LISTERIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Listeriosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LIVESTOCK_PARASITIC_DISEASES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Livestock parasitic diseases"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LUMINESCENT_BACTERIAL_DISEASES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Luminescent bacterial diseases"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LUMPY_SKIN_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Lumpy skin disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LUMPY_WOOL_DERMATOPHILUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Lumpy wool (Dermatophilus)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MAEDIVISNA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Maedi-visna"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MALIGNANT_CATARRHAL_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Malignant catarrhal fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MANGE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Mange"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MARBURG_HEMORRHAGIC_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Marburg Hemorrhagic Fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MAREK'S_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Marek's disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MASTITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Mastitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MERSCOV",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "MERS-CoV"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MICROSPORIDIAN_INFECTION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Microsporidian infection"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MIKROCYTOS_MACKINI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Mikrocytos mackini"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MONKEY_POX",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Monkey Pox"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MORBILLIVIRUSES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Morbilliviruses  (esp. Peste des Petits Ruminants and Rinderpest)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MUSCLE_NECROSIS_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Muscle necrosis virus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MYXOMATOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Myxomatosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NAIROBI_SHEEP_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Nairobi sheep disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NECROTISING_HEPATOPANCREATIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Necrotising hepatopancreatis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NEWCASTLE_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Newcastle disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NEW_WORLD_SCREWWORM_COCHLIOMYIA_HOMINIVORAX",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "New world screwworm (Cochliomyia hominivorax)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NIPAH_VIRUS_ENCEPHALITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Nipah virus encephalitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "OLD_WORLD_SCREWWORM_CHRYSOMYA_BEZZIANA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Old world screwworm (Chrysomya bezziana)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "OMPHALOPHLEBITIS_NAVEL_ILL_JOINT_ILL",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Omphalophlebitis (Navel ill- Joint ill)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ONCORHYNCHUS_MASOU_VIRUS_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Oncorhynchus masou virus disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ORF",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Orf"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ORMILO_ENCEPHALITIS_THELIRIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ormilo/Encephalitis theliriosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "OTHER_BACTERIAL_DISEASES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Other bacterial diseases"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "OTHER_OPPORTUNISSTIC_BACTERIAL_PATHOGEN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Other opportunisstic bacterial pathogen"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "OVINE_EPIDIDYMITIS_BRUCELLA_OVIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ovine epididymitis (Brucella ovis)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "OVINE_PULMONARY_ADENOMATOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ovine pulmonary adenomatosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PAPILLOMA_VIRUS_WARDS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Papilloma Virus (wards)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PARAPHIMOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Paraphimosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PARATUBERCULOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Paratuberculosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PARVOVIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Parvovirus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PERITRICH_CILIATES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Peritrich ciliates"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PESTE_DES_PETITS_RUMINANTS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Peste des petits ruminants"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PHIMOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Phimosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PLAGUE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Plague"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "POISONING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Poisoning"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "POLIOVIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Poliovirus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PORCINE_CYSTICERCOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Porcine cysticercosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PORCINE_ENTEROVIRAL_ENCEPHALOMYELITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Porcine Enteroviral encephalomyelitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PORCINE_EPIDEMIC_DIARRHEA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Porcine epidemic diarrhea"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PORCINE_REPRODUCTIVE_AND_RESPIRATORY_SYNDROME",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Porcine reproductive and respiratory syndrome"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "POSTWEANING_MULTISYSTEMIC_WASTING_SYNDROME_PMWS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Postweaning Multisystemic Wasting Syndrome (PMWS)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PSITTACOSISCHLAMYDOPHILA_PSITTACI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Psittacosis(Chlamydophila psittaci)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PULLORUM_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Pullorum disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "Q_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Q fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RABBIT_HAEMORRHAGIC_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rabbit haemorrhagic disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RABIES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rabies"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RANAVIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ranavirus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RED_SEA_BREAM_IRIDOVIRAL_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Red sea bream iridoviral disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RED_STERNUM_SYNDROME",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Red sternum syndrome"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "REOVIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Reovirus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RICKETTSIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rickettsiosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RIFT_VALLEY_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rift Valley fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RINDERPEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rinderpest"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RUMINANT_MYCOPLASMOSES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ruminant Mycoplasmoses"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SALMONELLOSIS_S_ABORTUSOVIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Salmonellosis (S. abortusovis)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SALMONID_ALPHAVIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Salmonid alphavirus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SCHMALLENBERG",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Schmallenberg"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SCRAPIE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Scrapie"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SHEEP_POX_AND_GOAT_POX",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Sheep pox and goat pox"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SMALL_HIVE_BEETLE_INFESTATION_AETHINA_TUMIDA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Small hive beetle infestation (Aethina tumida)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SPHERICAL_BACULOVIROSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Spherical baculovirosis (Penaeus monodon-type baculovirus)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SPRING_VIRAEMIA_OF_CARP",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Spring viraemia of carp"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "STARVATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Starvation"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "STRANGLES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Strangles"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "STREPTOCOCCUS_SUIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Streptococcus suis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SUCTORIAN_CILIATES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Suctorian ciliates"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SURRA_TRYPANOSOMA_EVANSI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Surra (Trypanosoma evansi)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SUSPECTED_NEW_EMERGING_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Suspected New Emerging Disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWINE_DYSENTRY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swine dysentry"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWINE_INFLUENZA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swine influenza"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWINE_NOVEL_ENTERIC_CORONA_VIRUS_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swine Novel Enteric Corona Virus disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWINE_VESICULAR_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swine vesicular disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TAURA_SYNDROME",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Taura syndrome"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TESCHOVIRUS_ENCEPHALOMYELITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Teschovirus encephalomyelitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TETANUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tetanus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TETRAHEDRAL_BACULOVIROSIS_BACULOVIRUS_PENAEI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tetrahedral baculovirosis (Baculovirus penaei)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "THEILERIOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Theileriosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "THIRD_EYELID_PROLAPSE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Third eyelid prolapse"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "THREE_DAYS_SICKNESS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Three days sickness"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TICKBORNE_ENCEPHALITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tick-borne encephalitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TOXOPLASMOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Toxoplasmosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRANSMISSIBLE_GASTROENTERITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Transmissible gastroenteritis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRANSMISSIBLE_VENEREAL_TUMOR_TVT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Transmissible venereal tumor (TVT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRAUMA_INJURY_FRACTURE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Trauma/injury/fracture"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRAUMATIC_RETICULOPERICARDITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Traumatic Reticulopericarditis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRICHINELLOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Trichinellosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRICHOMONOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Trichomonosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TROPILAELAPS_INFESTATION_OF_HONEY_BEES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tropilaelaps infestation of honey bees"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRYPANOSOMOSIS_TSETSETRANSMITTED",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Trypanosomosis (tsetse-transmitted)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TUBERCULOSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tuberculosis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TULAREMIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tularemia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TURKEY_RHINOTRACHEITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Turkey rhinotracheitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "UNKNOWN_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Unknown disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "UTERINE_PROLAPSE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Uterine Prolapse"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VARROA_MITES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Varroa mites"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VARROOSIS_OF_HONEY_BEES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Varroosis of honey bees"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VECTORBORNE_DISEASES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Vector-borne diseases"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VENEZUELAN_EQUINE_ENCEPHALOMYELITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Venezuelan equine encephalomyelitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VESICULAR_STOMATITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Vesicular stomatitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIBRIO_ALGINOLYTICUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Vibrio alginolyticus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIBRIO_ANGUILLARUM_RED_SORTED_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Vibrio anguillarum/Red sorted disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIBRIO_HARVEYI",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Vibrio harveyi"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIBRIO_PARAHEMOLYTCUS_SCALE_DISEASES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Vibrio parahemolytcus/ scale diseases"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIRAL_ENCEPHALOPATHY_AND_RETINOPATHY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Viral encephalopathy and retinopathy"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIRAL_HAEMORRHAGIC_FEVERS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Viral Haemorrhagic Fevers"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIRAL_HAEMORRHAGIC_SEPTICAEMIA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Viral haemorrhagic septicaemia"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WAX_MOTHS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Wax moths"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WESTERN_EQUINE_ENCEPHALOMYELITIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Western equine encephalomyelitis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WEST_NILE_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "West Nile Fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WHITE_SPOT_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "White spot disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WHITE_SPOT_SYNDROME_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "White spot syndrome virus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WHITE_TAIL_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "White tail disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WOUND_ABCESS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Wound/Abcess"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "YELLOW_FEVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Yellow fever"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "YELLOW_HEAD_DISEASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Yellow head disease"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "YEZO_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Yezo virus"
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 11, 2024 13:02+0000">2024-04-11</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

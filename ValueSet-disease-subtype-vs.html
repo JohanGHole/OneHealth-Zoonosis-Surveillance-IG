@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Disease Subtype Value Set - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.13"}
+    h3,h4,h5,h6{--heading-prefix:"2.13"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Disease Subtype Value Set</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-disease-subtype-vs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-disease-subtype-vs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-disease-subtype-vs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Disease Subtype Value Set
+
+  </h2>
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/ValueSet/disease-subtype-vs<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-04-11
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">DiseaseSubtypeVS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Value set for disease subtypes.</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-AnimalSurveillance.html">Logical Model - Animal Surveillance</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-disease-subtype-cs.html"><code>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</code></a></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-disease-subtype-cs.html">codesystem Disease Subtype Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 94 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-1"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_1">SUBTYPE_1</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>1</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-2"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_2">SUBTYPE_2</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>2</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-3"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_3">SUBTYPE_3</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>3</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-4"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_4">SUBTYPE_4</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>4</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-5"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_5">SUBTYPE_5</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>5</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-6"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_6">SUBTYPE_6</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>6</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-7"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_7">SUBTYPE_7</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>7</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-8"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_8">SUBTYPE_8</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>8</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-9"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_9">SUBTYPE_9</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>9</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-10"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_10">SUBTYPE_10</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>10</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-11"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_11">SUBTYPE_11</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>11</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-12"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_12">SUBTYPE_12</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>12</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-13"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_13">SUBTYPE_13</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>13</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-14"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_14">SUBTYPE_14</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>14</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-15"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_15">SUBTYPE_15</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>15</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-16"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_16">SUBTYPE_16</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>16</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-17"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_17">SUBTYPE_17</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>17</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-18"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_18">SUBTYPE_18</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>18</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-19"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_19">SUBTYPE_19</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>19</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-20"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_20">SUBTYPE_20</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>20</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-21"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_21">SUBTYPE_21</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>21</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-22"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_22">SUBTYPE_22</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>22</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-23"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_23">SUBTYPE_23</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>23</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-24"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_24">SUBTYPE_24</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>24</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-A"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_A">SUBTYPE_A</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>A</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-APMV-I"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_APMV_I">SUBTYPE_APMV_I</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>APMV-I</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-ASIA-1"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_ASIA_1">SUBTYPE_ASIA_1</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>Asia 1</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-C"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_C">SUBTYPE_C</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>C</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H10N3-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H10N3_LPAI">SUBTYPE_H10N3_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H10N3 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H10N7-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H10N7_LPAI">SUBTYPE_H10N7_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H10N7 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H10N8-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H10N8_LPAI">SUBTYPE_H10N8_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H10N8 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H1N1"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H1N1">SUBTYPE_H1N1</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H1N1</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H1N2"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H1N2">SUBTYPE_H1N2</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H1N2</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H2N2-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H2N2_LPAI">SUBTYPE_H2N2_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H2N2 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H3-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H3_LPAI">SUBTYPE_H3_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H3 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H3N1"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H3N1">SUBTYPE_H3N1</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H3N1</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H3N1-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H3N1_LPAI">SUBTYPE_H3N1_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H3N1 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H3N2"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H3N2">SUBTYPE_H3N2</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H3N2</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H3N8"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H3N8">SUBTYPE_H3N8</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H3N8</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H3N8-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H3N8_HPAI">SUBTYPE_H3N8_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H3N8 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H3N8-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H3N8_LPAI">SUBTYPE_H3N8_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H3N8 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5_HPAI">SUBTYPE_H5_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5_LPAI">SUBTYPE_H5_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N1-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N1_HPAI">SUBTYPE_H5N1_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N1 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N1-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N1_LPAI">SUBTYPE_H5N1_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N1 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N2-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N2_HPAI">SUBTYPE_H5N2_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N2 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N2-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N2_LPAI">SUBTYPE_H5N2_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N2 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N3-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N3_HPAI">SUBTYPE_H5N3_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N3 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N3-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N3_LPAI">SUBTYPE_H5N3_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N3 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N4-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N4_HPAI">SUBTYPE_H5N4_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N4 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N5-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N5_HPAI">SUBTYPE_H5N5_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N5 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N5-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N5_LPAI">SUBTYPE_H5N5_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N5 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N6-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N6_HPAI">SUBTYPE_H5N6_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N6 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N6-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N6_LPAI">SUBTYPE_H5N6_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N6 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N8-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N8_HPAI">SUBTYPE_H5N8_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N8 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N8-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N8_LPAI">SUBTYPE_H5N8_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N8 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N9-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N9_HPAI">SUBTYPE_H5N9_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N9 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H5N9-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H5N9_LPAI">SUBTYPE_H5N9_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H5N9 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H6N2-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H6N2_LPAI">SUBTYPE_H6N2_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H6N2 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7_HPAI">SUBTYPE_H7_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7_LPAI">SUBTYPE_H7_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N1-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N1_HPAI">SUBTYPE_H7N1_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N1 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N1-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N1_LPAI">SUBTYPE_H7N1_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N1 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N2-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N2_HPAI">SUBTYPE_H7N2_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N2 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N2-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N2_LPAI">SUBTYPE_H7N2_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N2 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N3-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N3_HPAI">SUBTYPE_H7N3_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N3 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N3-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N3_LPAI">SUBTYPE_H7N3_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N3 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N4-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N4_LPAI">SUBTYPE_H7N4_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N4 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N6-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N6_LPAI">SUBTYPE_H7N6_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N6 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N7"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N7">SUBTYPE_H7N7</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N7</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N7-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N7_HPAI">SUBTYPE_H7N7_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N7 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N7-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N7_LPAI">SUBTYPE_H7N7_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N7 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N8-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N8_LPAI">SUBTYPE_H7N8_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N8 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N9-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N9_HPAI">SUBTYPE_H7N9_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N9 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N9-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N9_LPAI">SUBTYPE_H7N9_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N9 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H9-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H9_LPAI">SUBTYPE_H9_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H9 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H9N1-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H9N1_LPAI">SUBTYPE_H9N1_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H9N1 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H9N2-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H9N2_HPAI">SUBTYPE_H9N2_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H9N2 HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H9N2-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H9N2_LPAI">SUBTYPE_H9N2_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H9N2 LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_HPAI">SUBTYPE_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>HPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-INDIANA"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_INDIANA">SUBTYPE_INDIANA</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>Indiana</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-JAGAR-01"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_JAGAR_01">SUBTYPE_JAGAR_01</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>JaGAr-01</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-LPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_LPAI">SUBTYPE_LPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>LPAI</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-NAKAYAMA"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_NAKAYAMA">SUBTYPE_NAKAYAMA</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>Nakayama</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-NEW-JERSEY"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_NEW_JERSEY">SUBTYPE_NEW_JERSEY</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>New Jersey</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-NOT-SPECIFIED"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_NOT_SPECIFIED">SUBTYPE_NOT_SPECIFIED</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>Not specified</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-O"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_O">SUBTYPE_O</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>O</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-RABV"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_RABV">SUBTYPE_RABV</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>RABV</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-RHDV1"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_RHDV1">SUBTYPE_RHDV1</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>RHDV1</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-RHDV2"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_RHDV2">SUBTYPE_RHDV2</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>RHDV2</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-SAT1"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_SAT1">SUBTYPE_SAT1</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>SAT1</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-SAT2"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_SAT2">SUBTYPE_SAT2</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>SAT2</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-SAT3"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_SAT3">SUBTYPE_SAT3</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>SAT3</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-disease-subtype-cs-SUBTYPE-H7N6-HPAI"> </a>  <a href="CodeSystem-disease-subtype-cs.html#disease-subtype-cs-SUBTYPE_H7N6_HPAI">SUBTYPE_H7N6_HPAI</a></td><td>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</td><td>H7N6 HPAI</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 11, 2024 13:02+0000">2024-04-11</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

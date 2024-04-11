@@ -1,0 +1,260 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "diagnostic-source-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ADT1<a name=\"diagnostic-source-cs-ADT1\"> </a></td><td>ADT1</td></tr><tr><td style=\"white-space:nowrap\">ADT2<a name=\"diagnostic-source-cs-ADT2\"> </a></td><td>ADT2</td></tr><tr><td style=\"white-space:nowrap\">ADT3<a name=\"diagnostic-source-cs-ADT3\"> </a></td><td>ADT3</td></tr><tr><td style=\"white-space:nowrap\">AHDG_KRG<a name=\"diagnostic-source-cs-AHDG_KRG\"> </a></td><td>Animal Health Department-Veterinary Directorate by Governorate (AHDG-KRG)</td></tr><tr><td style=\"white-space:nowrap\">ANIMAL_HEALTH_DIRECTORATE_AHD_KRG<a name=\"diagnostic-source-cs-ANIMAL_HEALTH_DIRECTORATE_AHD_KRG\"> </a></td><td>Animal Health Directorate (AHD) (KRG)</td></tr><tr><td style=\"white-space:nowrap\">ANIMAL_HEALTH_INSPECTOR_AHI<a name=\"diagnostic-source-cs-ANIMAL_HEALTH_INSPECTOR_AHI\"> </a></td><td>Animal Health Inspector (AHI)</td></tr><tr><td style=\"white-space:nowrap\">ATO<a name=\"diagnostic-source-cs-ATO\"> </a></td><td>ATO</td></tr><tr><td style=\"white-space:nowrap\">CENTRAL_TVLA_TVLA<a name=\"diagnostic-source-cs-CENTRAL_TVLA_TVLA\"> </a></td><td>Central TVLA (TVLA)</td></tr><tr><td style=\"white-space:nowrap\">CENTRAL_VETERINARY_LABORATORY_HEAD_OFFICE_CVL<a name=\"diagnostic-source-cs-CENTRAL_VETERINARY_LABORATORY_HEAD_OFFICE_CVL\"> </a></td><td>Central Veterinary Laboratory-Head Office (CVL)</td></tr><tr><td style=\"white-space:nowrap\">CENTRAL_VETRINARY_LABORATORY_BAGHDAD_CVLB<a name=\"diagnostic-source-cs-CENTRAL_VETRINARY_LABORATORY_BAGHDAD_CVLB\"> </a></td><td>Central Vetrinary Laboratory-Baghdad (CVLB)</td></tr><tr><td style=\"white-space:nowrap\">CENTRAL_VETRINARY_LABORATORY_ERBIL_CVLE<a name=\"diagnostic-source-cs-CENTRAL_VETRINARY_LABORATORY_ERBIL_CVLE\"> </a></td><td>Central Vetrinary Laboratory-Erbil (CVLE)</td></tr><tr><td style=\"white-space:nowrap\">CHIEF_ANIMAL_HEALTH_INSPECTOR_CAHI<a name=\"diagnostic-source-cs-CHIEF_ANIMAL_HEALTH_INSPECTOR_CAHI\"> </a></td><td>Chief Animal health Inspector (CAHI)</td></tr><tr><td style=\"white-space:nowrap\">CNASA<a name=\"diagnostic-source-cs-CNASA\"> </a></td><td>CNASA</td></tr><tr><td style=\"white-space:nowrap\">COMMUNITY_ANIMAL_HEALTH_WORKER_CAHW<a name=\"diagnostic-source-cs-COMMUNITY_ANIMAL_HEALTH_WORKER_CAHW\"> </a></td><td>Community Animal Health Worker (CAHW)</td></tr><tr><td style=\"white-space:nowrap\">DAP<a name=\"diagnostic-source-cs-DAP\"> </a></td><td>DAP</td></tr><tr><td style=\"white-space:nowrap\">DD/DR<a name=\"diagnostic-source-cs-DD.47DR\"> </a></td><td>DD/DR</td></tr><tr><td style=\"white-space:nowrap\">DIRECTOR_OF_FORESTRY<a name=\"diagnostic-source-cs-DIRECTOR_OF_FORESTRY\"> </a></td><td>Director of Forestry</td></tr><tr><td style=\"white-space:nowrap\">DIRECTOR_OF_LIVESTOCK_AND_VETERINARY_SERVICES<a name=\"diagnostic-source-cs-DIRECTOR_OF_LIVESTOCK_AND_VETERINARY_SERVICES\"> </a></td><td>Director of Livestock and Veterinary Services</td></tr><tr><td style=\"white-space:nowrap\">DISTRICT_AGRICULTURE_OFFICER_DAO<a name=\"diagnostic-source-cs-DISTRICT_AGRICULTURE_OFFICER_DAO\"> </a></td><td>District Agriculture Officer (DAO)</td></tr><tr><td style=\"white-space:nowrap\">DLO1<a name=\"diagnostic-source-cs-DLO1\"> </a></td><td>DLO1</td></tr><tr><td style=\"white-space:nowrap\">DLO2<a name=\"diagnostic-source-cs-DLO2\"> </a></td><td>DLO2</td></tr><tr><td style=\"white-space:nowrap\">DNSV<a name=\"diagnostic-source-cs-DNSV\"> </a></td><td>DNSV</td></tr><tr><td style=\"white-space:nowrap\">DPASV<a name=\"diagnostic-source-cs-DPASV\"> </a></td><td>DPASV</td></tr><tr><td style=\"white-space:nowrap\">DVL<a name=\"diagnostic-source-cs-DVL\"> </a></td><td>DVL</td></tr><tr><td style=\"white-space:nowrap\">DVO1<a name=\"diagnostic-source-cs-DVO1\"> </a></td><td>DVO1</td></tr><tr><td style=\"white-space:nowrap\">DVO2<a name=\"diagnostic-source-cs-DVO2\"> </a></td><td>DVO2</td></tr><tr><td style=\"white-space:nowrap\">DVO3<a name=\"diagnostic-source-cs-DVO3\"> </a></td><td>DVO3</td></tr><tr><td style=\"white-space:nowrap\">DVS<a name=\"diagnostic-source-cs-DVS\"> </a></td><td>DVS</td></tr><tr><td style=\"white-space:nowrap\">EC<a name=\"diagnostic-source-cs-EC\"> </a></td><td>EC</td></tr><tr><td style=\"white-space:nowrap\">EIOS<a name=\"diagnostic-source-cs-EIOS\"> </a></td><td>EIOS</td></tr><tr><td style=\"white-space:nowrap\">EPIDEMIOLOGY_DEPARTMENT_ED_FEDERAL<a name=\"diagnostic-source-cs-EPIDEMIOLOGY_DEPARTMENT_ED_FEDERAL\"> </a></td><td>Epidemiology Department (ED-Federal)</td></tr><tr><td style=\"white-space:nowrap\">EPIDEMIOLOGY_UNIT_VETERINAY_HOSPITAL_EUVH<a name=\"diagnostic-source-cs-EPIDEMIOLOGY_UNIT_VETERINAY_HOSPITAL_EUVH\"> </a></td><td>Epidemiology Unit-Veterinay Hospital (EUVH)</td></tr><tr><td style=\"white-space:nowrap\">EPI_UNIT_DVS<a name=\"diagnostic-source-cs-EPI_UNIT_DVS\"> </a></td><td>Epi Unit (DVS)</td></tr><tr><td style=\"white-space:nowrap\">FAO_ECTAD_RAF<a name=\"diagnostic-source-cs-FAO_ECTAD_RAF\"> </a></td><td>FAO ECTAD RAF</td></tr><tr><td style=\"white-space:nowrap\">FAO_FIELD_OFFICER<a name=\"diagnostic-source-cs-FAO_FIELD_OFFICER\"> </a></td><td>FAO Field Officer</td></tr><tr><td style=\"white-space:nowrap\">FAO_OFFICER<a name=\"diagnostic-source-cs-FAO_OFFICER\"> </a></td><td>FAO Officer</td></tr><tr><td style=\"white-space:nowrap\">FAO_REPORT<a name=\"diagnostic-source-cs-FAO_REPORT\"> </a></td><td>FAO-Report</td></tr><tr><td style=\"white-space:nowrap\">FVO<a name=\"diagnostic-source-cs-FVO\"> </a></td><td>Field Veterinary Officer from Veterinary Dispensay (FVO)</td></tr><tr><td style=\"white-space:nowrap\">GHANA_HEALTH_SERVICE<a name=\"diagnostic-source-cs-GHANA_HEALTH_SERVICE\"> </a></td><td>Ghana Health Service</td></tr><tr><td style=\"white-space:nowrap\">GLEWS_OFFICER<a name=\"diagnostic-source-cs-GLEWS_OFFICER\"> </a></td><td>GLEWS officer</td></tr><tr><td style=\"white-space:nowrap\">GOVERNORATE_VETERINARY_LABORATOYGVL<a name=\"diagnostic-source-cs-GOVERNORATE_VETERINARY_LABORATOYGVL\"> </a></td><td>Governorate Veterinary Laboratoy(GVL)</td></tr><tr><td style=\"white-space:nowrap\">GPHIN<a name=\"diagnostic-source-cs-GPHIN\"> </a></td><td>GPHIN</td></tr><tr><td style=\"white-space:nowrap\">HEALTH_MAP<a name=\"diagnostic-source-cs-HEALTH_MAP\"> </a></td><td>Health Map</td></tr><tr><td style=\"white-space:nowrap\">INTERNATIONAL_REFERENCE_LABOARATORY_IRL<a name=\"diagnostic-source-cs-INTERNATIONAL_REFERENCE_LABOARATORY_IRL\"> </a></td><td>International Reference Laboaratory (IRL)</td></tr><tr><td style=\"white-space:nowrap\">INTERNATIONAL_REFERENCE_LABORATORY<a name=\"diagnostic-source-cs-INTERNATIONAL_REFERENCE_LABORATORY\"> </a></td><td>International reference laboratory</td></tr><tr><td style=\"white-space:nowrap\">LANADA<a name=\"diagnostic-source-cs-LANADA\"> </a></td><td>LANADA</td></tr><tr><td style=\"white-space:nowrap\">LCV<a name=\"diagnostic-source-cs-LCV\"> </a></td><td>LCV</td></tr><tr><td style=\"white-space:nowrap\">LIVESTOCK_ASSISTANT<a name=\"diagnostic-source-cs-LIVESTOCK_ASSISTANT\"> </a></td><td>Livestock Assistant</td></tr><tr><td style=\"white-space:nowrap\">LIVESTOCK_INSPECTOR<a name=\"diagnostic-source-cs-LIVESTOCK_INSPECTOR\"> </a></td><td>Livestock Inspector</td></tr><tr><td style=\"white-space:nowrap\">LIVESTOCK_OFFICER<a name=\"diagnostic-source-cs-LIVESTOCK_OFFICER\"> </a></td><td>Livestock officer</td></tr><tr><td style=\"white-space:nowrap\">MANAGEMENT_INFORMATION_SYSTEMS_MIS<a name=\"diagnostic-source-cs-MANAGEMENT_INFORMATION_SYSTEMS_MIS\"> </a></td><td>Management Information Systems (MIS)</td></tr><tr><td style=\"white-space:nowrap\">MEDIA<a name=\"diagnostic-source-cs-MEDIA\"> </a></td><td>Media</td></tr><tr><td style=\"white-space:nowrap\">MOZAMBIQUE_HEALTH_SERVICE<a name=\"diagnostic-source-cs-MOZAMBIQUE_HEALTH_SERVICE\"> </a></td><td>Mozambique Health service</td></tr><tr><td style=\"white-space:nowrap\">NADDEC<a name=\"diagnostic-source-cs-NADDEC\"> </a></td><td>NADDEC</td></tr><tr><td style=\"white-space:nowrap\">NATIONAL_AUTHORITIES<a name=\"diagnostic-source-cs-NATIONAL_AUTHORITIES\"> </a></td><td>National authorities</td></tr><tr><td style=\"white-space:nowrap\">NATIONAL_INSTITUTE_FOR_COMMUNICABLE_DISEASES,_NICD<a name=\"diagnostic-source-cs-NATIONAL_INSTITUTE_FOR_COMMUNICABLE_DISEASES.44_NICD\"> </a></td><td>National Institute for Communicable Diseases, NICD</td></tr><tr><td style=\"white-space:nowrap\">OIE<a name=\"diagnostic-source-cs-OIE\"> </a></td><td>OIE</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"diagnostic-source-cs-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">PREVENT_TRANSPORT_POULTRY_PRODUCT_OUT_REGION<a name=\"diagnostic-source-cs-PREVENT_TRANSPORT_POULTRY_PRODUCT_OUT_REGION\"> </a></td><td>Prevent transport and poultry product out of the region</td></tr><tr><td style=\"white-space:nowrap\">PROVINCIAL_VETERINARY_OFFICER_PVO<a name=\"diagnostic-source-cs-PROVINCIAL_VETERINARY_OFFICER_PVO\"> </a></td><td>Provincial Veterinary Officer (PVO)</td></tr><tr><td style=\"white-space:nowrap\">PUBLICATIONS<a name=\"diagnostic-source-cs-PUBLICATIONS\"> </a></td><td>Publications</td></tr><tr><td style=\"white-space:nowrap\">QUARANTINE_OFFICER<a name=\"diagnostic-source-cs-QUARANTINE_OFFICER\"> </a></td><td>Quarantine Officer</td></tr><tr><td style=\"white-space:nowrap\">RVO<a name=\"diagnostic-source-cs-RVO\"> </a></td><td>RVO</td></tr><tr><td style=\"white-space:nowrap\">SEQUENCE_ONLY<a name=\"diagnostic-source-cs-SEQUENCE_ONLY\"> </a></td><td>Sequence only</td></tr><tr><td style=\"white-space:nowrap\">SURVEILLANCE_OFFICER<a name=\"diagnostic-source-cs-SURVEILLANCE_OFFICER\"> </a></td><td>Surveillance Officer</td></tr><tr><td style=\"white-space:nowrap\">UEMOA<a name=\"diagnostic-source-cs-UEMOA\"> </a></td><td>UEMOA</td></tr><tr><td style=\"white-space:nowrap\">UN_FIELD_OFFICER<a name=\"diagnostic-source-cs-UN_FIELD_OFFICER\"> </a></td><td>UN Field Officer</td></tr><tr><td style=\"white-space:nowrap\">US_NAVAL_MEDICAL_RESEARCH_UNIT_NO_3<a name=\"diagnostic-source-cs-US_NAVAL_MEDICAL_RESEARCH_UNIT_NO_3\"> </a></td><td>U.S. Naval Medical Research Unit No. 3</td></tr><tr><td style=\"white-space:nowrap\">VETERINARIAN_FROM_PRIVATE_VETERINARY_CLINIC_VPVC<a name=\"diagnostic-source-cs-VETERINARIAN_FROM_PRIVATE_VETERINARY_CLINIC_VPVC\"> </a></td><td>Veterinarian from Private Veterinary Clinic (VPVC)</td></tr><tr><td style=\"white-space:nowrap\">VETERINARY_EXTENSION_WORKER_VEW<a name=\"diagnostic-source-cs-VETERINARY_EXTENSION_WORKER_VEW\"> </a></td><td>Veterinary Extension Worker (VEW)</td></tr><tr><td style=\"white-space:nowrap\">WHO<a name=\"diagnostic-source-cs-WHO\"> </a></td><td>WHO</td></tr><tr><td style=\"white-space:nowrap\">WOAH<a name=\"diagnostic-source-cs-WOAH\"> </a></td><td>WOAH</td></tr><tr><td style=\"white-space:nowrap\">ZTVLA_TVLA<a name=\"diagnostic-source-cs-ZTVLA_TVLA\"> </a></td><td>ZTVLA (TVLA)</td></tr><tr><td style=\"white-space:nowrap\">ZVC_DVS<a name=\"diagnostic-source-cs-ZVC_DVS\"> </a></td><td>ZVC (DVS)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DiagnosticSourceCS"] ; # 
+  fhir:title [ fhir:v "Diagnostic Source Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for diagnostic source."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "74"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ADT1" ] ;
+     fhir:display [ fhir:v "ADT1" ]
+  ] [
+     fhir:code [ fhir:v "ADT2" ] ;
+     fhir:display [ fhir:v "ADT2" ]
+  ] [
+     fhir:code [ fhir:v "ADT3" ] ;
+     fhir:display [ fhir:v "ADT3" ]
+  ] [
+     fhir:code [ fhir:v "AHDG_KRG" ] ;
+     fhir:display [ fhir:v "Animal Health Department-Veterinary Directorate by Governorate (AHDG-KRG)" ]
+  ] [
+     fhir:code [ fhir:v "ANIMAL_HEALTH_DIRECTORATE_AHD_KRG" ] ;
+     fhir:display [ fhir:v "Animal Health Directorate (AHD) (KRG)" ]
+  ] [
+     fhir:code [ fhir:v "ANIMAL_HEALTH_INSPECTOR_AHI" ] ;
+     fhir:display [ fhir:v "Animal Health Inspector (AHI)" ]
+  ] [
+     fhir:code [ fhir:v "ATO" ] ;
+     fhir:display [ fhir:v "ATO" ]
+  ] [
+     fhir:code [ fhir:v "CENTRAL_TVLA_TVLA" ] ;
+     fhir:display [ fhir:v "Central TVLA (TVLA)" ]
+  ] [
+     fhir:code [ fhir:v "CENTRAL_VETERINARY_LABORATORY_HEAD_OFFICE_CVL" ] ;
+     fhir:display [ fhir:v "Central Veterinary Laboratory-Head Office (CVL)" ]
+  ] [
+     fhir:code [ fhir:v "CENTRAL_VETRINARY_LABORATORY_BAGHDAD_CVLB" ] ;
+     fhir:display [ fhir:v "Central Vetrinary Laboratory-Baghdad (CVLB)" ]
+  ] [
+     fhir:code [ fhir:v "CENTRAL_VETRINARY_LABORATORY_ERBIL_CVLE" ] ;
+     fhir:display [ fhir:v "Central Vetrinary Laboratory-Erbil (CVLE)" ]
+  ] [
+     fhir:code [ fhir:v "CHIEF_ANIMAL_HEALTH_INSPECTOR_CAHI" ] ;
+     fhir:display [ fhir:v "Chief Animal health Inspector (CAHI)" ]
+  ] [
+     fhir:code [ fhir:v "CNASA" ] ;
+     fhir:display [ fhir:v "CNASA" ]
+  ] [
+     fhir:code [ fhir:v "COMMUNITY_ANIMAL_HEALTH_WORKER_CAHW" ] ;
+     fhir:display [ fhir:v "Community Animal Health Worker (CAHW)" ]
+  ] [
+     fhir:code [ fhir:v "DAP" ] ;
+     fhir:display [ fhir:v "DAP" ]
+  ] [
+     fhir:code [ fhir:v "DD/DR" ] ;
+     fhir:display [ fhir:v "DD/DR" ]
+  ] [
+     fhir:code [ fhir:v "DIRECTOR_OF_FORESTRY" ] ;
+     fhir:display [ fhir:v "Director of Forestry" ]
+  ] [
+     fhir:code [ fhir:v "DIRECTOR_OF_LIVESTOCK_AND_VETERINARY_SERVICES" ] ;
+     fhir:display [ fhir:v "Director of Livestock and Veterinary Services" ]
+  ] [
+     fhir:code [ fhir:v "DISTRICT_AGRICULTURE_OFFICER_DAO" ] ;
+     fhir:display [ fhir:v "District Agriculture Officer (DAO)" ]
+  ] [
+     fhir:code [ fhir:v "DLO1" ] ;
+     fhir:display [ fhir:v "DLO1" ]
+  ] [
+     fhir:code [ fhir:v "DLO2" ] ;
+     fhir:display [ fhir:v "DLO2" ]
+  ] [
+     fhir:code [ fhir:v "DNSV" ] ;
+     fhir:display [ fhir:v "DNSV" ]
+  ] [
+     fhir:code [ fhir:v "DPASV" ] ;
+     fhir:display [ fhir:v "DPASV" ]
+  ] [
+     fhir:code [ fhir:v "DVL" ] ;
+     fhir:display [ fhir:v "DVL" ]
+  ] [
+     fhir:code [ fhir:v "DVO1" ] ;
+     fhir:display [ fhir:v "DVO1" ]
+  ] [
+     fhir:code [ fhir:v "DVO2" ] ;
+     fhir:display [ fhir:v "DVO2" ]
+  ] [
+     fhir:code [ fhir:v "DVO3" ] ;
+     fhir:display [ fhir:v "DVO3" ]
+  ] [
+     fhir:code [ fhir:v "DVS" ] ;
+     fhir:display [ fhir:v "DVS" ]
+  ] [
+     fhir:code [ fhir:v "EC" ] ;
+     fhir:display [ fhir:v "EC" ]
+  ] [
+     fhir:code [ fhir:v "EIOS" ] ;
+     fhir:display [ fhir:v "EIOS" ]
+  ] [
+     fhir:code [ fhir:v "EPIDEMIOLOGY_DEPARTMENT_ED_FEDERAL" ] ;
+     fhir:display [ fhir:v "Epidemiology Department (ED-Federal)" ]
+  ] [
+     fhir:code [ fhir:v "EPIDEMIOLOGY_UNIT_VETERINAY_HOSPITAL_EUVH" ] ;
+     fhir:display [ fhir:v "Epidemiology Unit-Veterinay Hospital (EUVH)" ]
+  ] [
+     fhir:code [ fhir:v "EPI_UNIT_DVS" ] ;
+     fhir:display [ fhir:v "Epi Unit (DVS)" ]
+  ] [
+     fhir:code [ fhir:v "FAO_ECTAD_RAF" ] ;
+     fhir:display [ fhir:v "FAO ECTAD RAF" ]
+  ] [
+     fhir:code [ fhir:v "FAO_FIELD_OFFICER" ] ;
+     fhir:display [ fhir:v "FAO Field Officer" ]
+  ] [
+     fhir:code [ fhir:v "FAO_OFFICER" ] ;
+     fhir:display [ fhir:v "FAO Officer" ]
+  ] [
+     fhir:code [ fhir:v "FAO_REPORT" ] ;
+     fhir:display [ fhir:v "FAO-Report" ]
+  ] [
+     fhir:code [ fhir:v "FVO" ] ;
+     fhir:display [ fhir:v "Field Veterinary Officer from Veterinary Dispensay (FVO)" ]
+  ] [
+     fhir:code [ fhir:v "GHANA_HEALTH_SERVICE" ] ;
+     fhir:display [ fhir:v "Ghana Health Service" ]
+  ] [
+     fhir:code [ fhir:v "GLEWS_OFFICER" ] ;
+     fhir:display [ fhir:v "GLEWS officer" ]
+  ] [
+     fhir:code [ fhir:v "GOVERNORATE_VETERINARY_LABORATOYGVL" ] ;
+     fhir:display [ fhir:v "Governorate Veterinary Laboratoy(GVL)" ]
+  ] [
+     fhir:code [ fhir:v "GPHIN" ] ;
+     fhir:display [ fhir:v "GPHIN" ]
+  ] [
+     fhir:code [ fhir:v "HEALTH_MAP" ] ;
+     fhir:display [ fhir:v "Health Map" ]
+  ] [
+     fhir:code [ fhir:v "INTERNATIONAL_REFERENCE_LABOARATORY_IRL" ] ;
+     fhir:display [ fhir:v "International Reference Laboaratory (IRL)" ]
+  ] [
+     fhir:code [ fhir:v "INTERNATIONAL_REFERENCE_LABORATORY" ] ;
+     fhir:display [ fhir:v "International reference laboratory" ]
+  ] [
+     fhir:code [ fhir:v "LANADA" ] ;
+     fhir:display [ fhir:v "LANADA" ]
+  ] [
+     fhir:code [ fhir:v "LCV" ] ;
+     fhir:display [ fhir:v "LCV" ]
+  ] [
+     fhir:code [ fhir:v "LIVESTOCK_ASSISTANT" ] ;
+     fhir:display [ fhir:v "Livestock Assistant" ]
+  ] [
+     fhir:code [ fhir:v "LIVESTOCK_INSPECTOR" ] ;
+     fhir:display [ fhir:v "Livestock Inspector" ]
+  ] [
+     fhir:code [ fhir:v "LIVESTOCK_OFFICER" ] ;
+     fhir:display [ fhir:v "Livestock officer" ]
+  ] [
+     fhir:code [ fhir:v "MANAGEMENT_INFORMATION_SYSTEMS_MIS" ] ;
+     fhir:display [ fhir:v "Management Information Systems (MIS)" ]
+  ] [
+     fhir:code [ fhir:v "MEDIA" ] ;
+     fhir:display [ fhir:v "Media" ]
+  ] [
+     fhir:code [ fhir:v "MOZAMBIQUE_HEALTH_SERVICE" ] ;
+     fhir:display [ fhir:v "Mozambique Health service" ]
+  ] [
+     fhir:code [ fhir:v "NADDEC" ] ;
+     fhir:display [ fhir:v "NADDEC" ]
+  ] [
+     fhir:code [ fhir:v "NATIONAL_AUTHORITIES" ] ;
+     fhir:display [ fhir:v "National authorities" ]
+  ] [
+     fhir:code [ fhir:v "NATIONAL_INSTITUTE_FOR_COMMUNICABLE_DISEASES,_NICD" ] ;
+     fhir:display [ fhir:v "National Institute for Communicable Diseases, NICD" ]
+  ] [
+     fhir:code [ fhir:v "OIE" ] ;
+     fhir:display [ fhir:v "OIE" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] [
+     fhir:code [ fhir:v "PREVENT_TRANSPORT_POULTRY_PRODUCT_OUT_REGION" ] ;
+     fhir:display [ fhir:v "Prevent transport and poultry product out of the region" ]
+  ] [
+     fhir:code [ fhir:v "PROVINCIAL_VETERINARY_OFFICER_PVO" ] ;
+     fhir:display [ fhir:v "Provincial Veterinary Officer (PVO)" ]
+  ] [
+     fhir:code [ fhir:v "PUBLICATIONS" ] ;
+     fhir:display [ fhir:v "Publications" ]
+  ] [
+     fhir:code [ fhir:v "QUARANTINE_OFFICER" ] ;
+     fhir:display [ fhir:v "Quarantine Officer" ]
+  ] [
+     fhir:code [ fhir:v "RVO" ] ;
+     fhir:display [ fhir:v "RVO" ]
+  ] [
+     fhir:code [ fhir:v "SEQUENCE_ONLY" ] ;
+     fhir:display [ fhir:v "Sequence only" ]
+  ] [
+     fhir:code [ fhir:v "SURVEILLANCE_OFFICER" ] ;
+     fhir:display [ fhir:v "Surveillance Officer" ]
+  ] [
+     fhir:code [ fhir:v "UEMOA" ] ;
+     fhir:display [ fhir:v "UEMOA" ]
+  ] [
+     fhir:code [ fhir:v "UN_FIELD_OFFICER" ] ;
+     fhir:display [ fhir:v "UN Field Officer" ]
+  ] [
+     fhir:code [ fhir:v "US_NAVAL_MEDICAL_RESEARCH_UNIT_NO_3" ] ;
+     fhir:display [ fhir:v "U.S. Naval Medical Research Unit No. 3" ]
+  ] [
+     fhir:code [ fhir:v "VETERINARIAN_FROM_PRIVATE_VETERINARY_CLINIC_VPVC" ] ;
+     fhir:display [ fhir:v "Veterinarian from Private Veterinary Clinic (VPVC)" ]
+  ] [
+     fhir:code [ fhir:v "VETERINARY_EXTENSION_WORKER_VEW" ] ;
+     fhir:display [ fhir:v "Veterinary Extension Worker (VEW)" ]
+  ] [
+     fhir:code [ fhir:v "WHO" ] ;
+     fhir:display [ fhir:v "WHO" ]
+  ] [
+     fhir:code [ fhir:v "WOAH" ] ;
+     fhir:display [ fhir:v "WOAH" ]
+  ] [
+     fhir:code [ fhir:v "ZTVLA_TVLA" ] ;
+     fhir:display [ fhir:v "ZTVLA (TVLA)" ]
+  ] [
+     fhir:code [ fhir:v "ZVC_DVS" ] ;
+     fhir:display [ fhir:v "ZVC (DVS)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,389 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "necropsy-lesions-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABOMASAL_IMPACTION<a name=\"necropsy-lesions-cs-ABOMASAL_IMPACTION\"> </a></td><td>Abomasal Impaction</td></tr><tr><td style=\"white-space:nowrap\">ABOMASITIS<a name=\"necropsy-lesions-cs-ABOMASITIS\"> </a></td><td>Abomasitis</td></tr><tr><td style=\"white-space:nowrap\">ABSCESSATION<a name=\"necropsy-lesions-cs-ABSCESSATION\"> </a></td><td>Abscessation</td></tr><tr><td style=\"white-space:nowrap\">ADHESIONS<a name=\"necropsy-lesions-cs-ADHESIONS\"> </a></td><td>Adhesions</td></tr><tr><td style=\"white-space:nowrap\">ALOPECIA<a name=\"necropsy-lesions-cs-ALOPECIA\"> </a></td><td>Alopecia</td></tr><tr><td style=\"white-space:nowrap\">ANAEMIA<a name=\"necropsy-lesions-cs-ANAEMIA\"> </a></td><td>Anaemia</td></tr><tr><td style=\"white-space:nowrap\">ASCITES<a name=\"necropsy-lesions-cs-ASCITES\"> </a></td><td>Ascites</td></tr><tr><td style=\"white-space:nowrap\">BLOAT<a name=\"necropsy-lesions-cs-BLOAT\"> </a></td><td>Bloat</td></tr><tr><td style=\"white-space:nowrap\">CATARRHAL_ENTERITIS<a name=\"necropsy-lesions-cs-CATARRHAL_ENTERITIS\"> </a></td><td>Catarrhal enteritis</td></tr><tr><td style=\"white-space:nowrap\">CONGESTION<a name=\"necropsy-lesions-cs-CONGESTION\"> </a></td><td>Congestion</td></tr><tr><td style=\"white-space:nowrap\">CONGESTION_IN_LUNG<a name=\"necropsy-lesions-cs-CONGESTION_IN_LUNG\"> </a></td><td>Congestion in lung</td></tr><tr><td style=\"white-space:nowrap\">CONJUNCTIVITIS<a name=\"necropsy-lesions-cs-CONJUNCTIVITIS\"> </a></td><td>Conjunctivitis</td></tr><tr><td style=\"white-space:nowrap\">CYANOSIS<a name=\"necropsy-lesions-cs-CYANOSIS\"> </a></td><td>Cyanosis</td></tr><tr><td style=\"white-space:nowrap\">DEHYDRATION<a name=\"necropsy-lesions-cs-DEHYDRATION\"> </a></td><td>Dehydration</td></tr><tr><td style=\"white-space:nowrap\">EMACIATION<a name=\"necropsy-lesions-cs-EMACIATION\"> </a></td><td>Emaciation</td></tr><tr><td style=\"white-space:nowrap\">ENCEPHALITIS<a name=\"necropsy-lesions-cs-ENCEPHALITIS\"> </a></td><td>Encephalitis</td></tr><tr><td style=\"white-space:nowrap\">ENCEPHALOMYELITIS<a name=\"necropsy-lesions-cs-ENCEPHALOMYELITIS\"> </a></td><td>Encephalomyelitis</td></tr><tr><td style=\"white-space:nowrap\">ENLARGED_GALL_BLADDER<a name=\"necropsy-lesions-cs-ENLARGED_GALL_BLADDER\"> </a></td><td>Enlarged gall bladder</td></tr><tr><td style=\"white-space:nowrap\">ENLARGED_LIVER<a name=\"necropsy-lesions-cs-ENLARGED_LIVER\"> </a></td><td>Enlarged Liver</td></tr><tr><td style=\"white-space:nowrap\">ENTERITIS<a name=\"necropsy-lesions-cs-ENTERITIS\"> </a></td><td>Enteritis</td></tr><tr><td style=\"white-space:nowrap\">ERYTHEMA<a name=\"necropsy-lesions-cs-ERYTHEMA\"> </a></td><td>Erythema</td></tr><tr><td style=\"white-space:nowrap\">FIBRINOUS_PLEURITIS<a name=\"necropsy-lesions-cs-FIBRINOUS_PLEURITIS\"> </a></td><td>Fibrinous pleuritis</td></tr><tr><td style=\"white-space:nowrap\">FIBRINOUS_PLEUROPNEUMONIA<a name=\"necropsy-lesions-cs-FIBRINOUS_PLEUROPNEUMONIA\"> </a></td><td>Fibrinous Pleuropneumonia</td></tr><tr><td style=\"white-space:nowrap\">FOETAL_MACERATION<a name=\"necropsy-lesions-cs-FOETAL_MACERATION\"> </a></td><td>Foetal maceration</td></tr><tr><td style=\"white-space:nowrap\">FOETAL_MUMMIFICATION<a name=\"necropsy-lesions-cs-FOETAL_MUMMIFICATION\"> </a></td><td>Foetal mummification</td></tr><tr><td style=\"white-space:nowrap\">GALLBLADDER_ENLARGED<a name=\"necropsy-lesions-cs-GALLBLADDER_ENLARGED\"> </a></td><td>Gallbladder enlarged</td></tr><tr><td style=\"white-space:nowrap\">GASTRITIS<a name=\"necropsy-lesions-cs-GASTRITIS\"> </a></td><td>Gastritis</td></tr><tr><td style=\"white-space:nowrap\">HAEMOPERITONEUM<a name=\"necropsy-lesions-cs-HAEMOPERITONEUM\"> </a></td><td>Haemoperitoneum</td></tr><tr><td style=\"white-space:nowrap\">HAEMORRHAGES<a name=\"necropsy-lesions-cs-HAEMORRHAGES\"> </a></td><td>Haemorrhages</td></tr><tr><td style=\"white-space:nowrap\">HAEMORRHAGIC_ENTERITIS<a name=\"necropsy-lesions-cs-HAEMORRHAGIC_ENTERITIS\"> </a></td><td>Haemorrhagic enteritis</td></tr><tr><td style=\"white-space:nowrap\">HAEMORRHAGIC_GASTRITIS<a name=\"necropsy-lesions-cs-HAEMORRHAGIC_GASTRITIS\"> </a></td><td>Haemorrhagic Gastritis</td></tr><tr><td style=\"white-space:nowrap\">HAEMORRHAGIC_GASTROENTERITIS<a name=\"necropsy-lesions-cs-HAEMORRHAGIC_GASTROENTERITIS\"> </a></td><td>Haemorrhagic gastroenteritis</td></tr><tr><td style=\"white-space:nowrap\">HAEMOTHORAX<a name=\"necropsy-lesions-cs-HAEMOTHORAX\"> </a></td><td>Haemothorax</td></tr><tr><td style=\"white-space:nowrap\">HEART_ECCHYMOSES<a name=\"necropsy-lesions-cs-HEART_ECCHYMOSES\"> </a></td><td>Heart, ecchymoses</td></tr><tr><td style=\"white-space:nowrap\">HEART_ENDOCARDITIS<a name=\"necropsy-lesions-cs-HEART_ENDOCARDITIS\"> </a></td><td>Heart, endocarditis</td></tr><tr><td style=\"white-space:nowrap\">HEART_ENLARGED<a name=\"necropsy-lesions-cs-HEART_ENLARGED\"> </a></td><td>Heart, enlarged</td></tr><tr><td style=\"white-space:nowrap\">HEART_INFARCTION<a name=\"necropsy-lesions-cs-HEART_INFARCTION\"> </a></td><td>Heart, infarction</td></tr><tr><td style=\"white-space:nowrap\">HEART_MYOCARDITIS<a name=\"necropsy-lesions-cs-HEART_MYOCARDITIS\"> </a></td><td>Heart, myocarditis</td></tr><tr><td style=\"white-space:nowrap\">HEART_PERICARDITIS<a name=\"necropsy-lesions-cs-HEART_PERICARDITIS\"> </a></td><td>Heart, pericarditis</td></tr><tr><td style=\"white-space:nowrap\">HEPATOMEGALY<a name=\"necropsy-lesions-cs-HEPATOMEGALY\"> </a></td><td>Hepatomegaly</td></tr><tr><td style=\"white-space:nowrap\">HYDROTHORAX<a name=\"necropsy-lesions-cs-HYDROTHORAX\"> </a></td><td>Hydrothorax</td></tr><tr><td style=\"white-space:nowrap\">ICTERUS<a name=\"necropsy-lesions-cs-ICTERUS\"> </a></td><td>Icterus</td></tr><tr><td style=\"white-space:nowrap\">INTERDIGITAL_BLISTERS<a name=\"necropsy-lesions-cs-INTERDIGITAL_BLISTERS\"> </a></td><td>Interdigital blisters</td></tr><tr><td style=\"white-space:nowrap\">INTERDIGITAL_DERMATITIS<a name=\"necropsy-lesions-cs-INTERDIGITAL_DERMATITIS\"> </a></td><td>Interdigital dermatitis</td></tr><tr><td style=\"white-space:nowrap\">INTERDIGITAL_VESICLES<a name=\"necropsy-lesions-cs-INTERDIGITAL_VESICLES\"> </a></td><td>Interdigital vesicles</td></tr><tr><td style=\"white-space:nowrap\">INTERNAL_BLEEDING<a name=\"necropsy-lesions-cs-INTERNAL_BLEEDING\"> </a></td><td>Internal bleeding</td></tr><tr><td style=\"white-space:nowrap\">INTUSSUSSEPTION<a name=\"necropsy-lesions-cs-INTUSSUSSEPTION\"> </a></td><td>Intussusseption</td></tr><tr><td style=\"white-space:nowrap\">KIDNEY_INFARCTION<a name=\"necropsy-lesions-cs-KIDNEY_INFARCTION\"> </a></td><td>Kidney, infarction</td></tr><tr><td style=\"white-space:nowrap\">KIDNEY_NEPHRITIS<a name=\"necropsy-lesions-cs-KIDNEY_NEPHRITIS\"> </a></td><td>Kidney, nephritis</td></tr><tr><td style=\"white-space:nowrap\">KIDNEY_PULPY<a name=\"necropsy-lesions-cs-KIDNEY_PULPY\"> </a></td><td>Kidney, pulpy</td></tr><tr><td style=\"white-space:nowrap\">LINGUAL_BLISTERS<a name=\"necropsy-lesions-cs-LINGUAL_BLISTERS\"> </a></td><td>Lingual blisters</td></tr><tr><td style=\"white-space:nowrap\">LINGUAL_ULCERS<a name=\"necropsy-lesions-cs-LINGUAL_ULCERS\"> </a></td><td>Lingual ulcers</td></tr><tr><td style=\"white-space:nowrap\">LINGUAL_VESICLES<a name=\"necropsy-lesions-cs-LINGUAL_VESICLES\"> </a></td><td>Lingual vesicles</td></tr><tr><td style=\"white-space:nowrap\">LIVER_ENLARGED<a name=\"necropsy-lesions-cs-LIVER_ENLARGED\"> </a></td><td>Liver enlarged</td></tr><tr><td style=\"white-space:nowrap\">LIVER_PALE<a name=\"necropsy-lesions-cs-LIVER_PALE\"> </a></td><td>Liver pale</td></tr><tr><td style=\"white-space:nowrap\">LIVER_YELLOW<a name=\"necropsy-lesions-cs-LIVER_YELLOW\"> </a></td><td>Liver yellow</td></tr><tr><td style=\"white-space:nowrap\">LUMPS<a name=\"necropsy-lesions-cs-LUMPS\"> </a></td><td>Lumps</td></tr><tr><td style=\"white-space:nowrap\">LUNG_ABSCESSATION<a name=\"necropsy-lesions-cs-LUNG_ABSCESSATION\"> </a></td><td>Lung abscessation</td></tr><tr><td style=\"white-space:nowrap\">LUNG_CONGESTION<a name=\"necropsy-lesions-cs-LUNG_CONGESTION\"> </a></td><td>Lung congestion</td></tr><tr><td style=\"white-space:nowrap\">LUNG_OEDEMA<a name=\"necropsy-lesions-cs-LUNG_OEDEMA\"> </a></td><td>Lung Oedema</td></tr><tr><td style=\"white-space:nowrap\">LYMPHNODES_ENLARGED<a name=\"necropsy-lesions-cs-LYMPHNODES_ENLARGED\"> </a></td><td>Lymphnodes enlarged</td></tr><tr><td style=\"white-space:nowrap\">METRITIS<a name=\"necropsy-lesions-cs-METRITIS\"> </a></td><td>Metritis</td></tr><tr><td style=\"white-space:nowrap\">MUCOPURULENT_PLEUROPNEUMONIA<a name=\"necropsy-lesions-cs-MUCOPURULENT_PLEUROPNEUMONIA\"> </a></td><td>Mucopurulent pleuropneumonia</td></tr><tr><td style=\"white-space:nowrap\">MUSCULAR_NECROSIS<a name=\"necropsy-lesions-cs-MUSCULAR_NECROSIS\"> </a></td><td>Muscular Necrosis</td></tr><tr><td style=\"white-space:nowrap\">MUSCULAR_SWELLING<a name=\"necropsy-lesions-cs-MUSCULAR_SWELLING\"> </a></td><td>Muscular swelling</td></tr><tr><td style=\"white-space:nowrap\">NODULES<a name=\"necropsy-lesions-cs-NODULES\"> </a></td><td>Nodules</td></tr><tr><td style=\"white-space:nowrap\">OMASAL_IMPACTION<a name=\"necropsy-lesions-cs-OMASAL_IMPACTION\"> </a></td><td>Omasal Impaction</td></tr><tr><td style=\"white-space:nowrap\">ORGAN_RUPTURE<a name=\"necropsy-lesions-cs-ORGAN_RUPTURE\"> </a></td><td>Organ-rupture</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"necropsy-lesions-cs-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">PERITONITIS<a name=\"necropsy-lesions-cs-PERITONITIS\"> </a></td><td>Peritonitis</td></tr><tr><td style=\"white-space:nowrap\">PETECHIATION<a name=\"necropsy-lesions-cs-PETECHIATION\"> </a></td><td>Petechiation</td></tr><tr><td style=\"white-space:nowrap\">PNEUMONIA<a name=\"necropsy-lesions-cs-PNEUMONIA\"> </a></td><td>Pneumonia</td></tr><tr><td style=\"white-space:nowrap\">PULMONARY_EMPHYSEMA<a name=\"necropsy-lesions-cs-PULMONARY_EMPHYSEMA\"> </a></td><td>Pulmonary Emphysema</td></tr><tr><td style=\"white-space:nowrap\">PUSTULAR_VULVO_VAGINITIS<a name=\"necropsy-lesions-cs-PUSTULAR_VULVO_VAGINITIS\"> </a></td><td>Pustular vulvo-vaginitis</td></tr><tr><td style=\"white-space:nowrap\">PUSTULES<a name=\"necropsy-lesions-cs-PUSTULES\"> </a></td><td>Pustules</td></tr><tr><td style=\"white-space:nowrap\">RUMENAL_IMPACTION<a name=\"necropsy-lesions-cs-RUMENAL_IMPACTION\"> </a></td><td>Rumenal Impaction</td></tr><tr><td style=\"white-space:nowrap\">RUMENITIS<a name=\"necropsy-lesions-cs-RUMENITIS\"> </a></td><td>Rumenitis</td></tr><tr><td style=\"white-space:nowrap\">RUPTURE_OF_ORGAN<a name=\"necropsy-lesions-cs-RUPTURE_OF_ORGAN\"> </a></td><td>Rupture of organ</td></tr><tr><td style=\"white-space:nowrap\">SCABS<a name=\"necropsy-lesions-cs-SCABS\"> </a></td><td>Scabs</td></tr><tr><td style=\"white-space:nowrap\">SEPTIC_METRITIS<a name=\"necropsy-lesions-cs-SEPTIC_METRITIS\"> </a></td><td>Septic metritis</td></tr><tr><td style=\"white-space:nowrap\">SEPTICAEMIA<a name=\"necropsy-lesions-cs-SEPTICAEMIA\"> </a></td><td>Septicaemia</td></tr><tr><td style=\"white-space:nowrap\">SEQUESTERS<a name=\"necropsy-lesions-cs-SEQUESTERS\"> </a></td><td>Sequesters</td></tr><tr><td style=\"white-space:nowrap\">SPLENOMEGALY<a name=\"necropsy-lesions-cs-SPLENOMEGALY\"> </a></td><td>SPLENOMEGALY</td></tr><tr><td style=\"white-space:nowrap\">SUBCUTANEOUS_OEDEMA<a name=\"necropsy-lesions-cs-SUBCUTANEOUS_OEDEMA\"> </a></td><td>Subcutaneous oedema</td></tr><tr><td style=\"white-space:nowrap\">TORSION<a name=\"necropsy-lesions-cs-TORSION\"> </a></td><td>Torsion</td></tr><tr><td style=\"white-space:nowrap\">TRACHEAL_FLUID<a name=\"necropsy-lesions-cs-TRACHEAL_FLUID\"> </a></td><td>Tracheal fluid</td></tr><tr><td style=\"white-space:nowrap\">ULCERS<a name=\"necropsy-lesions-cs-ULCERS\"> </a></td><td>Ulcers</td></tr><tr><td style=\"white-space:nowrap\">VAGINITIS<a name=\"necropsy-lesions-cs-VAGINITIS\"> </a></td><td>Vaginitis</td></tr><tr><td style=\"white-space:nowrap\">WEALS<a name=\"necropsy-lesions-cs-WEALS\"> </a></td><td>Weals</td></tr><tr><td style=\"white-space:nowrap\">ZEBRA_STRIPE_GUT<a name=\"necropsy-lesions-cs-ZEBRA_STRIPE_GUT\"> </a></td><td>Zebra stripe gut</td></tr></table></div>"
+  },
+  "url" : "https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs",
+  "version" : "0.1.0",
+  "name" : "NecropsyLesionsCS",
+  "title" : "Necropsy Lesions Code System",
+  "status" : "draft",
+  "date" : "2024-04-11T13:02:26+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Code system for necropsy lesions.",
+  "content" : "complete",
+  "count" : 90,
+  "concept" : [{
+    "code" : "ABOMASAL_IMPACTION",
+    "display" : "Abomasal Impaction"
+  },
+  {
+    "code" : "ABOMASITIS",
+    "display" : "Abomasitis"
+  },
+  {
+    "code" : "ABSCESSATION",
+    "display" : "Abscessation"
+  },
+  {
+    "code" : "ADHESIONS",
+    "display" : "Adhesions"
+  },
+  {
+    "code" : "ALOPECIA",
+    "display" : "Alopecia"
+  },
+  {
+    "code" : "ANAEMIA",
+    "display" : "Anaemia"
+  },
+  {
+    "code" : "ASCITES",
+    "display" : "Ascites"
+  },
+  {
+    "code" : "BLOAT",
+    "display" : "Bloat"
+  },
+  {
+    "code" : "CATARRHAL_ENTERITIS",
+    "display" : "Catarrhal enteritis"
+  },
+  {
+    "code" : "CONGESTION",
+    "display" : "Congestion"
+  },
+  {
+    "code" : "CONGESTION_IN_LUNG",
+    "display" : "Congestion in lung"
+  },
+  {
+    "code" : "CONJUNCTIVITIS",
+    "display" : "Conjunctivitis"
+  },
+  {
+    "code" : "CYANOSIS",
+    "display" : "Cyanosis"
+  },
+  {
+    "code" : "DEHYDRATION",
+    "display" : "Dehydration"
+  },
+  {
+    "code" : "EMACIATION",
+    "display" : "Emaciation"
+  },
+  {
+    "code" : "ENCEPHALITIS",
+    "display" : "Encephalitis"
+  },
+  {
+    "code" : "ENCEPHALOMYELITIS",
+    "display" : "Encephalomyelitis"
+  },
+  {
+    "code" : "ENLARGED_GALL_BLADDER",
+    "display" : "Enlarged gall bladder"
+  },
+  {
+    "code" : "ENLARGED_LIVER",
+    "display" : "Enlarged Liver"
+  },
+  {
+    "code" : "ENTERITIS",
+    "display" : "Enteritis"
+  },
+  {
+    "code" : "ERYTHEMA",
+    "display" : "Erythema"
+  },
+  {
+    "code" : "FIBRINOUS_PLEURITIS",
+    "display" : "Fibrinous pleuritis"
+  },
+  {
+    "code" : "FIBRINOUS_PLEUROPNEUMONIA",
+    "display" : "Fibrinous Pleuropneumonia"
+  },
+  {
+    "code" : "FOETAL_MACERATION",
+    "display" : "Foetal maceration"
+  },
+  {
+    "code" : "FOETAL_MUMMIFICATION",
+    "display" : "Foetal mummification"
+  },
+  {
+    "code" : "GALLBLADDER_ENLARGED",
+    "display" : "Gallbladder enlarged"
+  },
+  {
+    "code" : "GASTRITIS",
+    "display" : "Gastritis"
+  },
+  {
+    "code" : "HAEMOPERITONEUM",
+    "display" : "Haemoperitoneum"
+  },
+  {
+    "code" : "HAEMORRHAGES",
+    "display" : "Haemorrhages"
+  },
+  {
+    "code" : "HAEMORRHAGIC_ENTERITIS",
+    "display" : "Haemorrhagic enteritis"
+  },
+  {
+    "code" : "HAEMORRHAGIC_GASTRITIS",
+    "display" : "Haemorrhagic Gastritis"
+  },
+  {
+    "code" : "HAEMORRHAGIC_GASTROENTERITIS",
+    "display" : "Haemorrhagic gastroenteritis"
+  },
+  {
+    "code" : "HAEMOTHORAX",
+    "display" : "Haemothorax"
+  },
+  {
+    "code" : "HEART_ECCHYMOSES",
+    "display" : "Heart, ecchymoses"
+  },
+  {
+    "code" : "HEART_ENDOCARDITIS",
+    "display" : "Heart, endocarditis"
+  },
+  {
+    "code" : "HEART_ENLARGED",
+    "display" : "Heart, enlarged"
+  },
+  {
+    "code" : "HEART_INFARCTION",
+    "display" : "Heart, infarction"
+  },
+  {
+    "code" : "HEART_MYOCARDITIS",
+    "display" : "Heart, myocarditis"
+  },
+  {
+    "code" : "HEART_PERICARDITIS",
+    "display" : "Heart, pericarditis"
+  },
+  {
+    "code" : "HEPATOMEGALY",
+    "display" : "Hepatomegaly"
+  },
+  {
+    "code" : "HYDROTHORAX",
+    "display" : "Hydrothorax"
+  },
+  {
+    "code" : "ICTERUS",
+    "display" : "Icterus"
+  },
+  {
+    "code" : "INTERDIGITAL_BLISTERS",
+    "display" : "Interdigital blisters"
+  },
+  {
+    "code" : "INTERDIGITAL_DERMATITIS",
+    "display" : "Interdigital dermatitis"
+  },
+  {
+    "code" : "INTERDIGITAL_VESICLES",
+    "display" : "Interdigital vesicles"
+  },
+  {
+    "code" : "INTERNAL_BLEEDING",
+    "display" : "Internal bleeding"
+  },
+  {
+    "code" : "INTUSSUSSEPTION",
+    "display" : "Intussusseption"
+  },
+  {
+    "code" : "KIDNEY_INFARCTION",
+    "display" : "Kidney, infarction"
+  },
+  {
+    "code" : "KIDNEY_NEPHRITIS",
+    "display" : "Kidney, nephritis"
+  },
+  {
+    "code" : "KIDNEY_PULPY",
+    "display" : "Kidney, pulpy"
+  },
+  {
+    "code" : "LINGUAL_BLISTERS",
+    "display" : "Lingual blisters"
+  },
+  {
+    "code" : "LINGUAL_ULCERS",
+    "display" : "Lingual ulcers"
+  },
+  {
+    "code" : "LINGUAL_VESICLES",
+    "display" : "Lingual vesicles"
+  },
+  {
+    "code" : "LIVER_ENLARGED",
+    "display" : "Liver enlarged"
+  },
+  {
+    "code" : "LIVER_PALE",
+    "display" : "Liver pale"
+  },
+  {
+    "code" : "LIVER_YELLOW",
+    "display" : "Liver yellow"
+  },
+  {
+    "code" : "LUMPS",
+    "display" : "Lumps"
+  },
+  {
+    "code" : "LUNG_ABSCESSATION",
+    "display" : "Lung abscessation"
+  },
+  {
+    "code" : "LUNG_CONGESTION",
+    "display" : "Lung congestion"
+  },
+  {
+    "code" : "LUNG_OEDEMA",
+    "display" : "Lung Oedema"
+  },
+  {
+    "code" : "LYMPHNODES_ENLARGED",
+    "display" : "Lymphnodes enlarged"
+  },
+  {
+    "code" : "METRITIS",
+    "display" : "Metritis"
+  },
+  {
+    "code" : "MUCOPURULENT_PLEUROPNEUMONIA",
+    "display" : "Mucopurulent pleuropneumonia"
+  },
+  {
+    "code" : "MUSCULAR_NECROSIS",
+    "display" : "Muscular Necrosis"
+  },
+  {
+    "code" : "MUSCULAR_SWELLING",
+    "display" : "Muscular swelling"
+  },
+  {
+    "code" : "NODULES",
+    "display" : "Nodules"
+  },
+  {
+    "code" : "OMASAL_IMPACTION",
+    "display" : "Omasal Impaction"
+  },
+  {
+    "code" : "ORGAN_RUPTURE",
+    "display" : "Organ-rupture"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  },
+  {
+    "code" : "PERITONITIS",
+    "display" : "Peritonitis"
+  },
+  {
+    "code" : "PETECHIATION",
+    "display" : "Petechiation"
+  },
+  {
+    "code" : "PNEUMONIA",
+    "display" : "Pneumonia"
+  },
+  {
+    "code" : "PULMONARY_EMPHYSEMA",
+    "display" : "Pulmonary Emphysema"
+  },
+  {
+    "code" : "PUSTULAR_VULVO_VAGINITIS",
+    "display" : "Pustular vulvo-vaginitis"
+  },
+  {
+    "code" : "PUSTULES",
+    "display" : "Pustules"
+  },
+  {
+    "code" : "RUMENAL_IMPACTION",
+    "display" : "Rumenal Impaction"
+  },
+  {
+    "code" : "RUMENITIS",
+    "display" : "Rumenitis"
+  },
+  {
+    "code" : "RUPTURE_OF_ORGAN",
+    "display" : "Rupture of organ"
+  },
+  {
+    "code" : "SCABS",
+    "display" : "Scabs"
+  },
+  {
+    "code" : "SEPTIC_METRITIS",
+    "display" : "Septic metritis"
+  },
+  {
+    "code" : "SEPTICAEMIA",
+    "display" : "Septicaemia"
+  },
+  {
+    "code" : "SEQUESTERS",
+    "display" : "Sequesters"
+  },
+  {
+    "code" : "SPLENOMEGALY",
+    "display" : "SPLENOMEGALY"
+  },
+  {
+    "code" : "SUBCUTANEOUS_OEDEMA",
+    "display" : "Subcutaneous oedema"
+  },
+  {
+    "code" : "TORSION",
+    "display" : "Torsion"
+  },
+  {
+    "code" : "TRACHEAL_FLUID",
+    "display" : "Tracheal fluid"
+  },
+  {
+    "code" : "ULCERS",
+    "display" : "Ulcers"
+  },
+  {
+    "code" : "VAGINITIS",
+    "display" : "Vaginitis"
+  },
+  {
+    "code" : "WEALS",
+    "display" : "Weals"
+  },
+  {
+    "code" : "ZEBRA_STRIPE_GUT",
+    "display" : "Zebra stripe gut"
+  }]
+}

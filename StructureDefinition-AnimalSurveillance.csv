@@ -22,3 +22,47 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Animal Species","Animal Species","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/animal-species-vs","",,,,"AnimalSurveillance.animalSpecies",0,1,"",""
 "AnimalSurveillance.animalType","AnimalSurveillance.animalType","","","",0,1,"","","","code {[]} {[]}
 ","Animal Type","Animal Type","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/animal-type-vs","",,,,"AnimalSurveillance.animalType",0,1,"",""
+"AnimalSurveillance.animalsAtRisk","AnimalSurveillance.animalsAtRisk","","","",0,1,"","","","Count {[]} {[]}
+","Animals at Risk","Animals at Risk","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.animalsAtRisk",0,1,"",""
+"AnimalSurveillance.animalsCases","AnimalSurveillance.animalsCases","","","",0,1,"","","","Count {[]} {[]}
+","Animals Cases","Animals Cases","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.animalsCases",0,1,"",""
+"AnimalSurveillance.animalsDeaths","AnimalSurveillance.animalsDeaths","","","",0,1,"","","","Count {[]} {[]}
+","Animals Deaths","Animals Deaths","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.animalsDeaths",0,1,"",""
+"AnimalSurveillance.animalsDestroyed","AnimalSurveillance.animalsDestroyed","","","",0,1,"","","","Count {[]} {[]}
+","Animals Destroyed","Animals Destroyed","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.animalsDestroyed",0,1,"",""
+"AnimalSurveillance.animalsSlaughtered","AnimalSurveillance.animalsSlaughtered","","","",0,1,"","","","Count {[]} {[]}
+","Animals Slaughtered","Animals Slaughtered","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.animalsSlaughtered",0,1,"",""
+"AnimalSurveillance.vaccination","AnimalSurveillance.vaccination","","","",0,1,"","","","code {[]} {[]}
+","If the animals are vaccinated. YES | NO | UNKNOWN","If the animals are vaccinated. YES | NO | UNKNOWN","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/yes-no-unknown","",,,,"AnimalSurveillance.vaccination",0,1,"",""
+"AnimalSurveillance.vaccinated","AnimalSurveillance.vaccinated","","","",0,1,"","","","Count {[]} {[]}
+","Number of vaccinated animals","Number of vaccinated animals","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.vaccinated",0,1,"",""
+"AnimalSurveillance.productionSystemOne","AnimalSurveillance.productionSystemOne","","","",0,1,"","","","code {[]} {[]}
+","Production System One","Production System One","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/production-system-one-vs","",,,,"AnimalSurveillance.productionSystemOne",0,1,"",""
+"AnimalSurveillance.productionSystemTwo","AnimalSurveillance.productionSystemTwo","","","",0,1,"","","","code {[]} {[]}
+","Production System Two","Production System Two","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/production-system-two-vs","",,,,"AnimalSurveillance.productionSystemTwo",0,1,"",""
+"AnimalSurveillance.clinicalSigns","AnimalSurveillance.clinicalSigns","","","",0,5,"","","","code {[]} {[]}
+","Clinical signs. Note: can be more than one","Clinical signs. Note: can be more than one","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/clinical-signs-vs","",,,,"AnimalSurveillance.clinicalSigns",0,5,"",""
+"AnimalSurveillance.necropsyLesions","AnimalSurveillance.necropsyLesions","","","",0,5,"","","","code {[]} {[]}
+","Necropsy lesions. Note: can be more than one","Necropsy lesions. Note: can be more than one","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs","",,,,"AnimalSurveillance.necropsyLesions",0,5,"",""
+"AnimalSurveillance.surveillanceType","AnimalSurveillance.surveillanceType","","","",0,1,"","","","code {[]} {[]}
+","Surveillance Type.  PASSIVE | ROUTINE | ACTIVE | PDS | CAHO | GDS | SENTINEL","Surveillance Type.  PASSIVE | ROUTINE | ACTIVE | PDS | CAHO | GDS | SENTINEL","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/surveillance-type-vs","",,,,"AnimalSurveillance.surveillanceType",0,1,"",""
+"AnimalSurveillance.infectionSource","AnimalSurveillance.infectionSource","","","",0,5,"","","","code {[]} {[]}
+","Infection Source","Infection Source","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.infectionSource",0,5,"",""
+"AnimalSurveillance.diseaseStatus","AnimalSurveillance.diseaseStatus","","","",0,1,"","","","code {[]} {[]}
+","Disease Status. CONFIRMED | DENIED | SUSPECTED","Disease Status. CONFIRMED | DENIED | SUSPECTED","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/disease-status-vs","",,,,"AnimalSurveillance.diseaseStatus",0,1,"",""
+"AnimalSurveillance.disease","AnimalSurveillance.disease","","","",0,1,"","","","code {[]} {[]}
+","Disease","Disease","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/diseases-vs","",,,,"AnimalSurveillance.disease",0,1,"",""
+"AnimalSurveillance.diseaseSubTypes","AnimalSurveillance.diseaseSubTypes","","","",0,*,"","","","code {[]} {[]}
+","Disease Subtype(s)","Disease Subtype(s)","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/disease-subtype-vs","",,,,"AnimalSurveillance.diseaseSubTypes",0,*,"",""
+"AnimalSurveillance.clade","AnimalSurveillance.clade","","","",0,1,"","","","code {[]} {[]}
+","Clade","Clade","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/clade-vs","",,,,"AnimalSurveillance.clade",0,1,"",""
+"AnimalSurveillance.diagnosticSource","AnimalSurveillance.diagnosticSource","","","",0,1,"","","","code {[]} {[]}
+","Diagnostic Source","Diagnostic Source","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/diagnostic-source-vs","",,,,"AnimalSurveillance.diagnosticSource",0,1,"",""
+"AnimalSurveillance.diagnosisBasis","AnimalSurveillance.diagnosisBasis","","","",0,1,"","","","code {[]} {[]}
+","Diagnosis Basis. CLINICAL_SIGNS | NECROPSY_LESIONS | LABORATORY_TEST | OTHERS","Diagnosis Basis. CLINICAL_SIGNS | NECROPSY_LESIONS | LABORATORY_TEST | OTHERS","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs","",,,,"AnimalSurveillance.diagnosisBasis",0,1,"",""
+"AnimalSurveillance.controlMeasures","AnimalSurveillance.controlMeasures","","","",0,5,"","","","code {[]} {[]}
+","Control Measure. Note: can be more than one","Control Measure. Note: can be more than one","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/control-measures-vs","",,,,"AnimalSurveillance.controlMeasures",0,5,"",""
+"AnimalSurveillance.treatments","AnimalSurveillance.treatments","","","",0,5,"","","","code {[]} {[]}
+","Treatments. Note: can be more than one","Treatments. Note: can be more than one","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/treatments-vs","",,,,"AnimalSurveillance.treatments",0,5,"",""
+"AnimalSurveillance.comment","AnimalSurveillance.comment","","","",0,1,"","","","string {[]} {[]}
+","Animal Surveillance Comments","Animal Surveillance Comments","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.comment",0,1,"",""

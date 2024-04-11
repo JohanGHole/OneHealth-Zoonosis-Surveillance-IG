@@ -1,0 +1,89 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/production-system-two-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "production-system-two-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/production-system-two-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MEAT<a name=\"production-system-two-cs-MEAT\"> </a></td><td>Meat</td></tr><tr><td style=\"white-space:nowrap\">BREEDING<a name=\"production-system-two-cs-BREEDING\"> </a></td><td>Breeding</td></tr><tr><td style=\"white-space:nowrap\">BROILER<a name=\"production-system-two-cs-BROILER\"> </a></td><td>Broiler</td></tr><tr><td style=\"white-space:nowrap\">LAYER<a name=\"production-system-two-cs-LAYER\"> </a></td><td>Layer</td></tr><tr><td style=\"white-space:nowrap\">PARENT_STOCK<a name=\"production-system-two-cs-PARENT_STOCK\"> </a></td><td>Parent stock</td></tr><tr><td style=\"white-space:nowrap\">HATCHERY<a name=\"production-system-two-cs-HATCHERY\"> </a></td><td>Hatchery</td></tr><tr><td style=\"white-space:nowrap\">FREE_RANGE<a name=\"production-system-two-cs-FREE_RANGE\"> </a></td><td>Free range</td></tr><tr><td style=\"white-space:nowrap\">BIRD_SHOP<a name=\"production-system-two-cs-BIRD_SHOP\"> </a></td><td>Bird shop</td></tr><tr><td style=\"white-space:nowrap\">LIVE_MARKET<a name=\"production-system-two-cs-LIVE_MARKET\"> </a></td><td>Live market</td></tr><tr><td style=\"white-space:nowrap\">GAME_FARM<a name=\"production-system-two-cs-GAME_FARM\"> </a></td><td>Game farm</td></tr><tr><td style=\"white-space:nowrap\">HOUSEHOLD<a name=\"production-system-two-cs-HOUSEHOLD\"> </a></td><td>Household</td></tr><tr><td style=\"white-space:nowrap\">VILLAGE<a name=\"production-system-two-cs-VILLAGE\"> </a></td><td>Village</td></tr><tr><td style=\"white-space:nowrap\">DAIRY<a name=\"production-system-two-cs-DAIRY\"> </a></td><td>Dairy</td></tr><tr><td style=\"white-space:nowrap\">DUAL_PURPOSE<a name=\"production-system-two-cs-DUAL_PURPOSE\"> </a></td><td>Dual purpose</td></tr><tr><td style=\"white-space:nowrap\">WOOL_/_HAIR<a name=\"production-system-two-cs-WOOL_.47_HAIR\"> </a></td><td>Wool / Hair</td></tr><tr><td style=\"white-space:nowrap\">FATTENING<a name=\"production-system-two-cs-FATTENING\"> </a></td><td>Fattening</td></tr><tr><td style=\"white-space:nowrap\">POULTRY_SHOP<a name=\"production-system-two-cs-POULTRY_SHOP\"> </a></td><td>Poultry shop</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/production-system-two-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ProductionSystemTwoCS"] ; # 
+  fhir:title [ fhir:v "Production System Two Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for production system two."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "17"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "MEAT" ] ;
+     fhir:display [ fhir:v "Meat" ]
+  ] [
+     fhir:code [ fhir:v "BREEDING" ] ;
+     fhir:display [ fhir:v "Breeding" ]
+  ] [
+     fhir:code [ fhir:v "BROILER" ] ;
+     fhir:display [ fhir:v "Broiler" ]
+  ] [
+     fhir:code [ fhir:v "LAYER" ] ;
+     fhir:display [ fhir:v "Layer" ]
+  ] [
+     fhir:code [ fhir:v "PARENT_STOCK" ] ;
+     fhir:display [ fhir:v "Parent stock" ]
+  ] [
+     fhir:code [ fhir:v "HATCHERY" ] ;
+     fhir:display [ fhir:v "Hatchery" ]
+  ] [
+     fhir:code [ fhir:v "FREE_RANGE" ] ;
+     fhir:display [ fhir:v "Free range" ]
+  ] [
+     fhir:code [ fhir:v "BIRD_SHOP" ] ;
+     fhir:display [ fhir:v "Bird shop" ]
+  ] [
+     fhir:code [ fhir:v "LIVE_MARKET" ] ;
+     fhir:display [ fhir:v "Live market" ]
+  ] [
+     fhir:code [ fhir:v "GAME_FARM" ] ;
+     fhir:display [ fhir:v "Game farm" ]
+  ] [
+     fhir:code [ fhir:v "HOUSEHOLD" ] ;
+     fhir:display [ fhir:v "Household" ]
+  ] [
+     fhir:code [ fhir:v "VILLAGE" ] ;
+     fhir:display [ fhir:v "Village" ]
+  ] [
+     fhir:code [ fhir:v "DAIRY" ] ;
+     fhir:display [ fhir:v "Dairy" ]
+  ] [
+     fhir:code [ fhir:v "DUAL_PURPOSE" ] ;
+     fhir:display [ fhir:v "Dual purpose" ]
+  ] [
+     fhir:code [ fhir:v "WOOL_/_HAIR" ] ;
+     fhir:display [ fhir:v "Wool / Hair" ]
+  ] [
+     fhir:code [ fhir:v "FATTENING" ] ;
+     fhir:display [ fhir:v "Fattening" ]
+  ] [
+     fhir:code [ fhir:v "POULTRY_SHOP" ] ;
+     fhir:display [ fhir:v "Poultry shop" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,65 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "production-system-one-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/production-system-one-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">COMMERCIAL<a name=\"production-system-one-cs-COMMERCIAL\"> </a></td><td>Commercial</td></tr><tr><td style=\"white-space:nowrap\">BACKYARD/ROOFTOP<a name=\"production-system-one-cs-BACKYARD.47ROOFTOP\"> </a></td><td>Backyard/rooftop</td></tr><tr><td style=\"white-space:nowrap\">SMALLHOLDER<a name=\"production-system-one-cs-SMALLHOLDER\"> </a></td><td>Smallholder</td></tr><tr><td style=\"white-space:nowrap\">ZOO<a name=\"production-system-one-cs-ZOO\"> </a></td><td>Zoo</td></tr><tr><td style=\"white-space:nowrap\">HUNTING_BIRD<a name=\"production-system-one-cs-HUNTING_BIRD\"> </a></td><td>Hunting bird</td></tr><tr><td style=\"white-space:nowrap\">REHABILITATION_CENTER<a name=\"production-system-one-cs-REHABILITATION_CENTER\"> </a></td><td>Rehabilitation center</td></tr><tr><td style=\"white-space:nowrap\">PET<a name=\"production-system-one-cs-PET\"> </a></td><td>Pet</td></tr><tr><td style=\"white-space:nowrap\">BREEDING_AND_RELEASED_FOR_HUNTING<a name=\"production-system-one-cs-BREEDING_AND_RELEASED_FOR_HUNTING\"> </a></td><td>Breeding and released for hunting</td></tr><tr><td style=\"white-space:nowrap\">BACKYARD/GARDEN<a name=\"production-system-one-cs-BACKYARD.47GARDEN\"> </a></td><td>Backyard/garden</td></tr></table></div>"
+  },
+  "url" : "https://dhis2.org/fhir/CodeSystem/production-system-one-cs",
+  "version" : "0.1.0",
+  "name" : "ProductionSystemOneCS",
+  "title" : "Production System One Code System",
+  "status" : "draft",
+  "date" : "2024-04-11T13:02:26+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Code system for production system one.",
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "COMMERCIAL",
+    "display" : "Commercial"
+  },
+  {
+    "code" : "BACKYARD/ROOFTOP",
+    "display" : "Backyard/rooftop"
+  },
+  {
+    "code" : "SMALLHOLDER",
+    "display" : "Smallholder"
+  },
+  {
+    "code" : "ZOO",
+    "display" : "Zoo"
+  },
+  {
+    "code" : "HUNTING_BIRD",
+    "display" : "Hunting bird"
+  },
+  {
+    "code" : "REHABILITATION_CENTER",
+    "display" : "Rehabilitation center"
+  },
+  {
+    "code" : "PET",
+    "display" : "Pet"
+  },
+  {
+    "code" : "BREEDING_AND_RELEASED_FOR_HUNTING",
+    "display" : "Breeding and released for hunting"
+  },
+  {
+    "code" : "BACKYARD/GARDEN",
+    "display" : "Backyard/garden"
+  }]
+}

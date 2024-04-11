@@ -1,0 +1,320 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/disease-subtype-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "disease-subtype-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/disease-subtype-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_1<a name=\"disease-subtype-cs-SUBTYPE_1\"> </a></td><td>1</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_2<a name=\"disease-subtype-cs-SUBTYPE_2\"> </a></td><td>2</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_3<a name=\"disease-subtype-cs-SUBTYPE_3\"> </a></td><td>3</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_4<a name=\"disease-subtype-cs-SUBTYPE_4\"> </a></td><td>4</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_5<a name=\"disease-subtype-cs-SUBTYPE_5\"> </a></td><td>5</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_6<a name=\"disease-subtype-cs-SUBTYPE_6\"> </a></td><td>6</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_7<a name=\"disease-subtype-cs-SUBTYPE_7\"> </a></td><td>7</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_8<a name=\"disease-subtype-cs-SUBTYPE_8\"> </a></td><td>8</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_9<a name=\"disease-subtype-cs-SUBTYPE_9\"> </a></td><td>9</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_10<a name=\"disease-subtype-cs-SUBTYPE_10\"> </a></td><td>10</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_11<a name=\"disease-subtype-cs-SUBTYPE_11\"> </a></td><td>11</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_12<a name=\"disease-subtype-cs-SUBTYPE_12\"> </a></td><td>12</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_13<a name=\"disease-subtype-cs-SUBTYPE_13\"> </a></td><td>13</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_14<a name=\"disease-subtype-cs-SUBTYPE_14\"> </a></td><td>14</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_15<a name=\"disease-subtype-cs-SUBTYPE_15\"> </a></td><td>15</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_16<a name=\"disease-subtype-cs-SUBTYPE_16\"> </a></td><td>16</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_17<a name=\"disease-subtype-cs-SUBTYPE_17\"> </a></td><td>17</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_18<a name=\"disease-subtype-cs-SUBTYPE_18\"> </a></td><td>18</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_19<a name=\"disease-subtype-cs-SUBTYPE_19\"> </a></td><td>19</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_20<a name=\"disease-subtype-cs-SUBTYPE_20\"> </a></td><td>20</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_21<a name=\"disease-subtype-cs-SUBTYPE_21\"> </a></td><td>21</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_22<a name=\"disease-subtype-cs-SUBTYPE_22\"> </a></td><td>22</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_23<a name=\"disease-subtype-cs-SUBTYPE_23\"> </a></td><td>23</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_24<a name=\"disease-subtype-cs-SUBTYPE_24\"> </a></td><td>24</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_A<a name=\"disease-subtype-cs-SUBTYPE_A\"> </a></td><td>A</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_APMV_I<a name=\"disease-subtype-cs-SUBTYPE_APMV_I\"> </a></td><td>APMV-I</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_ASIA_1<a name=\"disease-subtype-cs-SUBTYPE_ASIA_1\"> </a></td><td>Asia 1</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_C<a name=\"disease-subtype-cs-SUBTYPE_C\"> </a></td><td>C</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H10N3_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H10N3_LPAI\"> </a></td><td>H10N3 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H10N7_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H10N7_LPAI\"> </a></td><td>H10N7 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H10N8_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H10N8_LPAI\"> </a></td><td>H10N8 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H1N1<a name=\"disease-subtype-cs-SUBTYPE_H1N1\"> </a></td><td>H1N1</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H1N2<a name=\"disease-subtype-cs-SUBTYPE_H1N2\"> </a></td><td>H1N2</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H2N2_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H2N2_LPAI\"> </a></td><td>H2N2 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H3_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H3_LPAI\"> </a></td><td>H3 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H3N1<a name=\"disease-subtype-cs-SUBTYPE_H3N1\"> </a></td><td>H3N1</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H3N1_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H3N1_LPAI\"> </a></td><td>H3N1 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H3N2<a name=\"disease-subtype-cs-SUBTYPE_H3N2\"> </a></td><td>H3N2</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H3N8<a name=\"disease-subtype-cs-SUBTYPE_H3N8\"> </a></td><td>H3N8</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H3N8_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H3N8_HPAI\"> </a></td><td>H3N8 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H3N8_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H3N8_LPAI\"> </a></td><td>H3N8 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5_HPAI\"> </a></td><td>H5 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H5_LPAI\"> </a></td><td>H5 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N1_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N1_HPAI\"> </a></td><td>H5N1 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N1_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N1_LPAI\"> </a></td><td>H5N1 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N2_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N2_HPAI\"> </a></td><td>H5N2 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N2_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N2_LPAI\"> </a></td><td>H5N2 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N3_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N3_HPAI\"> </a></td><td>H5N3 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N3_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N3_LPAI\"> </a></td><td>H5N3 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N4_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N4_HPAI\"> </a></td><td>H5N4 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N5_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N5_HPAI\"> </a></td><td>H5N5 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N5_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N5_LPAI\"> </a></td><td>H5N5 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N6_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N6_HPAI\"> </a></td><td>H5N6 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N6_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N6_LPAI\"> </a></td><td>H5N6 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N8_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N8_HPAI\"> </a></td><td>H5N8 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N8_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N8_LPAI\"> </a></td><td>H5N8 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N9_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N9_HPAI\"> </a></td><td>H5N9 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H5N9_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H5N9_LPAI\"> </a></td><td>H5N9 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H6N2_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H6N2_LPAI\"> </a></td><td>H6N2 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H7_HPAI\"> </a></td><td>H7 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7_LPAI\"> </a></td><td>H7 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N1_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N1_HPAI\"> </a></td><td>H7N1 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N1_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N1_LPAI\"> </a></td><td>H7N1 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N2_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N2_HPAI\"> </a></td><td>H7N2 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N2_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N2_LPAI\"> </a></td><td>H7N2 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N3_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N3_HPAI\"> </a></td><td>H7N3 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N3_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N3_LPAI\"> </a></td><td>H7N3 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N4_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N4_LPAI\"> </a></td><td>H7N4 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N6_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N6_LPAI\"> </a></td><td>H7N6 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N7<a name=\"disease-subtype-cs-SUBTYPE_H7N7\"> </a></td><td>H7N7</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N7_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N7_HPAI\"> </a></td><td>H7N7 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N7_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N7_LPAI\"> </a></td><td>H7N7 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N8_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N8_LPAI\"> </a></td><td>H7N8 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N9_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N9_HPAI\"> </a></td><td>H7N9 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N9_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N9_LPAI\"> </a></td><td>H7N9 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H9_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H9_LPAI\"> </a></td><td>H9 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H9N1_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H9N1_LPAI\"> </a></td><td>H9N1 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H9N2_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H9N2_HPAI\"> </a></td><td>H9N2 HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H9N2_LPAI<a name=\"disease-subtype-cs-SUBTYPE_H9N2_LPAI\"> </a></td><td>H9N2 LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_HPAI<a name=\"disease-subtype-cs-SUBTYPE_HPAI\"> </a></td><td>HPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_INDIANA<a name=\"disease-subtype-cs-SUBTYPE_INDIANA\"> </a></td><td>Indiana</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_JAGAR_01<a name=\"disease-subtype-cs-SUBTYPE_JAGAR_01\"> </a></td><td>JaGAr-01</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_LPAI<a name=\"disease-subtype-cs-SUBTYPE_LPAI\"> </a></td><td>LPAI</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_NAKAYAMA<a name=\"disease-subtype-cs-SUBTYPE_NAKAYAMA\"> </a></td><td>Nakayama</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_NEW_JERSEY<a name=\"disease-subtype-cs-SUBTYPE_NEW_JERSEY\"> </a></td><td>New Jersey</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_NOT_SPECIFIED<a name=\"disease-subtype-cs-SUBTYPE_NOT_SPECIFIED\"> </a></td><td>Not specified</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_O<a name=\"disease-subtype-cs-SUBTYPE_O\"> </a></td><td>O</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_RABV<a name=\"disease-subtype-cs-SUBTYPE_RABV\"> </a></td><td>RABV</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_RHDV1<a name=\"disease-subtype-cs-SUBTYPE_RHDV1\"> </a></td><td>RHDV1</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_RHDV2<a name=\"disease-subtype-cs-SUBTYPE_RHDV2\"> </a></td><td>RHDV2</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_SAT1<a name=\"disease-subtype-cs-SUBTYPE_SAT1\"> </a></td><td>SAT1</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_SAT2<a name=\"disease-subtype-cs-SUBTYPE_SAT2\"> </a></td><td>SAT2</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_SAT3<a name=\"disease-subtype-cs-SUBTYPE_SAT3\"> </a></td><td>SAT3</td></tr><tr><td style=\"white-space:nowrap\">SUBTYPE_H7N6_HPAI<a name=\"disease-subtype-cs-SUBTYPE_H7N6_HPAI\"> </a></td><td>H7N6 HPAI</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/disease-subtype-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DiseaseSubtypeCS"] ; # 
+  fhir:title [ fhir:v "Disease Subtype Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for disease subtypes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "94"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "SUBTYPE_1" ] ;
+     fhir:display [ fhir:v "1" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_2" ] ;
+     fhir:display [ fhir:v "2" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_3" ] ;
+     fhir:display [ fhir:v "3" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_4" ] ;
+     fhir:display [ fhir:v "4" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_5" ] ;
+     fhir:display [ fhir:v "5" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_6" ] ;
+     fhir:display [ fhir:v "6" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_7" ] ;
+     fhir:display [ fhir:v "7" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_8" ] ;
+     fhir:display [ fhir:v "8" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_9" ] ;
+     fhir:display [ fhir:v "9" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_10" ] ;
+     fhir:display [ fhir:v "10" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_11" ] ;
+     fhir:display [ fhir:v "11" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_12" ] ;
+     fhir:display [ fhir:v "12" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_13" ] ;
+     fhir:display [ fhir:v "13" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_14" ] ;
+     fhir:display [ fhir:v "14" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_15" ] ;
+     fhir:display [ fhir:v "15" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_16" ] ;
+     fhir:display [ fhir:v "16" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_17" ] ;
+     fhir:display [ fhir:v "17" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_18" ] ;
+     fhir:display [ fhir:v "18" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_19" ] ;
+     fhir:display [ fhir:v "19" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_20" ] ;
+     fhir:display [ fhir:v "20" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_21" ] ;
+     fhir:display [ fhir:v "21" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_22" ] ;
+     fhir:display [ fhir:v "22" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_23" ] ;
+     fhir:display [ fhir:v "23" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_24" ] ;
+     fhir:display [ fhir:v "24" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_A" ] ;
+     fhir:display [ fhir:v "A" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_APMV_I" ] ;
+     fhir:display [ fhir:v "APMV-I" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_ASIA_1" ] ;
+     fhir:display [ fhir:v "Asia 1" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_C" ] ;
+     fhir:display [ fhir:v "C" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H10N3_LPAI" ] ;
+     fhir:display [ fhir:v "H10N3 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H10N7_LPAI" ] ;
+     fhir:display [ fhir:v "H10N7 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H10N8_LPAI" ] ;
+     fhir:display [ fhir:v "H10N8 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H1N1" ] ;
+     fhir:display [ fhir:v "H1N1" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H1N2" ] ;
+     fhir:display [ fhir:v "H1N2" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H2N2_LPAI" ] ;
+     fhir:display [ fhir:v "H2N2 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H3_LPAI" ] ;
+     fhir:display [ fhir:v "H3 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H3N1" ] ;
+     fhir:display [ fhir:v "H3N1" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H3N1_LPAI" ] ;
+     fhir:display [ fhir:v "H3N1 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H3N2" ] ;
+     fhir:display [ fhir:v "H3N2" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H3N8" ] ;
+     fhir:display [ fhir:v "H3N8" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H3N8_HPAI" ] ;
+     fhir:display [ fhir:v "H3N8 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H3N8_LPAI" ] ;
+     fhir:display [ fhir:v "H3N8 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5_HPAI" ] ;
+     fhir:display [ fhir:v "H5 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5_LPAI" ] ;
+     fhir:display [ fhir:v "H5 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N1_HPAI" ] ;
+     fhir:display [ fhir:v "H5N1 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N1_LPAI" ] ;
+     fhir:display [ fhir:v "H5N1 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N2_HPAI" ] ;
+     fhir:display [ fhir:v "H5N2 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N2_LPAI" ] ;
+     fhir:display [ fhir:v "H5N2 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N3_HPAI" ] ;
+     fhir:display [ fhir:v "H5N3 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N3_LPAI" ] ;
+     fhir:display [ fhir:v "H5N3 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N4_HPAI" ] ;
+     fhir:display [ fhir:v "H5N4 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N5_HPAI" ] ;
+     fhir:display [ fhir:v "H5N5 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N5_LPAI" ] ;
+     fhir:display [ fhir:v "H5N5 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N6_HPAI" ] ;
+     fhir:display [ fhir:v "H5N6 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N6_LPAI" ] ;
+     fhir:display [ fhir:v "H5N6 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N8_HPAI" ] ;
+     fhir:display [ fhir:v "H5N8 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N8_LPAI" ] ;
+     fhir:display [ fhir:v "H5N8 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N9_HPAI" ] ;
+     fhir:display [ fhir:v "H5N9 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H5N9_LPAI" ] ;
+     fhir:display [ fhir:v "H5N9 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H6N2_LPAI" ] ;
+     fhir:display [ fhir:v "H6N2 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7_HPAI" ] ;
+     fhir:display [ fhir:v "H7 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7_LPAI" ] ;
+     fhir:display [ fhir:v "H7 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N1_HPAI" ] ;
+     fhir:display [ fhir:v "H7N1 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N1_LPAI" ] ;
+     fhir:display [ fhir:v "H7N1 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N2_HPAI" ] ;
+     fhir:display [ fhir:v "H7N2 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N2_LPAI" ] ;
+     fhir:display [ fhir:v "H7N2 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N3_HPAI" ] ;
+     fhir:display [ fhir:v "H7N3 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N3_LPAI" ] ;
+     fhir:display [ fhir:v "H7N3 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N4_LPAI" ] ;
+     fhir:display [ fhir:v "H7N4 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N6_LPAI" ] ;
+     fhir:display [ fhir:v "H7N6 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N7" ] ;
+     fhir:display [ fhir:v "H7N7" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N7_HPAI" ] ;
+     fhir:display [ fhir:v "H7N7 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N7_LPAI" ] ;
+     fhir:display [ fhir:v "H7N7 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N8_LPAI" ] ;
+     fhir:display [ fhir:v "H7N8 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N9_HPAI" ] ;
+     fhir:display [ fhir:v "H7N9 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N9_LPAI" ] ;
+     fhir:display [ fhir:v "H7N9 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H9_LPAI" ] ;
+     fhir:display [ fhir:v "H9 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H9N1_LPAI" ] ;
+     fhir:display [ fhir:v "H9N1 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H9N2_HPAI" ] ;
+     fhir:display [ fhir:v "H9N2 HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H9N2_LPAI" ] ;
+     fhir:display [ fhir:v "H9N2 LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_HPAI" ] ;
+     fhir:display [ fhir:v "HPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_INDIANA" ] ;
+     fhir:display [ fhir:v "Indiana" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_JAGAR_01" ] ;
+     fhir:display [ fhir:v "JaGAr-01" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_LPAI" ] ;
+     fhir:display [ fhir:v "LPAI" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_NAKAYAMA" ] ;
+     fhir:display [ fhir:v "Nakayama" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_NEW_JERSEY" ] ;
+     fhir:display [ fhir:v "New Jersey" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_NOT_SPECIFIED" ] ;
+     fhir:display [ fhir:v "Not specified" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_O" ] ;
+     fhir:display [ fhir:v "O" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_RABV" ] ;
+     fhir:display [ fhir:v "RABV" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_RHDV1" ] ;
+     fhir:display [ fhir:v "RHDV1" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_RHDV2" ] ;
+     fhir:display [ fhir:v "RHDV2" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_SAT1" ] ;
+     fhir:display [ fhir:v "SAT1" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_SAT2" ] ;
+     fhir:display [ fhir:v "SAT2" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_SAT3" ] ;
+     fhir:display [ fhir:v "SAT3" ]
+  ] [
+     fhir:code [ fhir:v "SUBTYPE_H7N6_HPAI" ] ;
+     fhir:display [ fhir:v "H7N6 HPAI" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

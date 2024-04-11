@@ -21,6 +21,62 @@
     "name" : "AnimalTypeCS"
   },
   {
+    "id" : "clade-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/clade-cs",
+    "version" : "0.1.0",
+    "name" : "CladeCS"
+  },
+  {
+    "id" : "clinical-signs-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/clinical-signs-cs",
+    "version" : "0.1.0",
+    "name" : "ClinicalSignsCS"
+  },
+  {
+    "id" : "control-measures-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/control-measures-cs",
+    "version" : "0.1.0",
+    "name" : "ControlMeasuresCS"
+  },
+  {
+    "id" : "diagnosis-basis-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs",
+    "version" : "0.1.0",
+    "name" : "DiagnosisBasisCS"
+  },
+  {
+    "id" : "diagnostic-source-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs",
+    "version" : "0.1.0",
+    "name" : "DiagnosticSourceCS"
+  },
+  {
+    "id" : "diagnostic-status-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs",
+    "version" : "0.1.0",
+    "name" : "DiagnosticStatusCS"
+  },
+  {
+    "id" : "disease-subtype-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/disease-subtype-cs",
+    "version" : "0.1.0",
+    "name" : "DiseaseSubtypeCS"
+  },
+  {
+    "id" : "diseases-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/diseases-cs",
+    "version" : "0.1.0",
+    "name" : "DiseasesCS"
+  },
+  {
     "id" : "districts-cs",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
@@ -42,11 +98,46 @@
     "name" : "LocalitySourceCS"
   },
   {
+    "id" : "necropsy-lesions-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs",
+    "version" : "0.1.0",
+    "name" : "NecropsyLesionsCS"
+  },
+  {
+    "id" : "production-system-one-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/production-system-one-cs",
+    "version" : "0.1.0",
+    "name" : "ProductionSystemOneCS"
+  },
+  {
+    "id" : "production-system-two-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/production-system-two-cs",
+    "version" : "0.1.0",
+    "name" : "ProductionSystemTwoCS"
+  },
+  {
     "id" : "regions-cs",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/regions-cs",
     "version" : "0.1.0",
     "name" : "RegionsCS"
+  },
+  {
+    "id" : "surveillance-type-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/surveillance-type-cs",
+    "version" : "0.1.0",
+    "name" : "SurveillanceTypeCS"
+  },
+  {
+    "id" : "treatments-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/treatments-cs",
+    "version" : "0.1.0",
+    "name" : "TreatmentsCS"
   },
   {
     "id" : "yes-no-unknown-cs",
@@ -105,6 +196,62 @@
     "name" : "AnimalTypeVS"
   },
   {
+    "id" : "clade-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/clade-vs",
+    "version" : "0.1.0",
+    "name" : "CladeVS"
+  },
+  {
+    "id" : "clinical-signs-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/clinical-signs-vs",
+    "version" : "0.1.0",
+    "name" : "ClinicalSignsVS"
+  },
+  {
+    "id" : "control-measures-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/control-measures-vs",
+    "version" : "0.1.0",
+    "name" : "ControlMeasuresVS"
+  },
+  {
+    "id" : "diagnosis-basis-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs",
+    "version" : "0.1.0",
+    "name" : "DiagnosisBasisVS"
+  },
+  {
+    "id" : "diagnostic-source-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/diagnostic-source-vs",
+    "version" : "0.1.0",
+    "name" : "DiagnosticSourceVS"
+  },
+  {
+    "id" : "disease-status-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/disease-status-vs",
+    "version" : "0.1.0",
+    "name" : "DiseaseStatusVS"
+  },
+  {
+    "id" : "disease-subtype-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/disease-subtype-vs",
+    "version" : "0.1.0",
+    "name" : "DiseaseSubtypeVS"
+  },
+  {
+    "id" : "diseases-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/diseases-vs",
+    "version" : "0.1.0",
+    "name" : "DiseasesVS"
+  },
+  {
     "id" : "districts-vs",
     "type" : "ValueSet",
     "url" : "https://dhis2.org/fhir/ValueSet/districts-vs",
@@ -126,11 +273,46 @@
     "name" : "LocalitySourceVS"
   },
   {
+    "id" : "necropsy-lesions-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs",
+    "version" : "0.1.0",
+    "name" : "NecropsyLesionsVS"
+  },
+  {
+    "id" : "production-system-one-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/production-system-one-vs",
+    "version" : "0.1.0",
+    "name" : "ProductionSystemOneVS"
+  },
+  {
+    "id" : "production-system-two-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/production-system-two-vs",
+    "version" : "0.1.0",
+    "name" : "ProductionSystemTwoVS"
+  },
+  {
     "id" : "regions-vs",
     "type" : "ValueSet",
     "url" : "https://dhis2.org/fhir/ValueSet/regions-vs",
     "version" : "0.1.0",
     "name" : "RegionsVS"
+  },
+  {
+    "id" : "surveillance-type-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/surveillance-type-vs",
+    "version" : "0.1.0",
+    "name" : "SurveillanceTypeVS"
+  },
+  {
+    "id" : "treatments-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/treatments-vs",
+    "version" : "0.1.0",
+    "name" : "TreatmentsVS"
   },
   {
     "id" : "yes-no-unknown",

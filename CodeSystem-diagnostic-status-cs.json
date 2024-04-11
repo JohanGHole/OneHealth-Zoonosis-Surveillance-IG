@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "diagnostic-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CONFIRMED<a name=\"diagnostic-status-cs-CONFIRMED\"> </a></td><td>Confirmed</td></tr><tr><td style=\"white-space:nowrap\">DENIED<a name=\"diagnostic-status-cs-DENIED\"> </a></td><td>Denied</td></tr><tr><td style=\"white-space:nowrap\">SUSPECTED<a name=\"diagnostic-status-cs-SUSPECTED\"> </a></td><td>Suspected</td></tr></table></div>"
+  },
+  "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs",
+  "version" : "0.1.0",
+  "name" : "DiagnosticStatusCS",
+  "title" : "Diagnostic Status Code System",
+  "status" : "draft",
+  "date" : "2024-04-11T13:02:26+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Code system for diagnostic status",
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "CONFIRMED",
+    "display" : "Confirmed"
+  },
+  {
+    "code" : "DENIED",
+    "display" : "Denied"
+  },
+  {
+    "code" : "SUSPECTED",
+    "display" : "Suspected"
+  }]
+}

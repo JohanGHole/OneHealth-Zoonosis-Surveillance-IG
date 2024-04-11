@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="treatments-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/treatments-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ACARICIDE<a name="treatments-cs-ACARICIDE"> </a></td><td>Acaricide</td></tr><tr><td style="white-space:nowrap">ACTIVATED_CHARCOAL<a name="treatments-cs-ACTIVATED_CHARCOAL"> </a></td><td>Activated Charcoal</td></tr><tr><td style="white-space:nowrap">ANTHELMINTIC<a name="treatments-cs-ANTHELMINTIC"> </a></td><td>Anthelmintic</td></tr><tr><td style="white-space:nowrap">ANTI_INFLAMMATORY<a name="treatments-cs-ANTI_INFLAMMATORY"> </a></td><td>Anti inflammatory</td></tr><tr><td style="white-space:nowrap">ANTIBABESIOSIS_TREATMENT<a name="treatments-cs-ANTIBABESIOSIS_TREATMENT"> </a></td><td>Antibabesiosis treatment</td></tr><tr><td style="white-space:nowrap">ANTIBIOTIC<a name="treatments-cs-ANTIBIOTIC"> </a></td><td>Antibiotic</td></tr><tr><td style="white-space:nowrap">ANTICOCCIDIOSIS_TREATMENT<a name="treatments-cs-ANTICOCCIDIOSIS_TREATMENT"> </a></td><td>Anticoccidiosis treatment</td></tr><tr><td style="white-space:nowrap">ANTIFUNGAL_TREATMENT<a name="treatments-cs-ANTIFUNGAL_TREATMENT"> </a></td><td>Antifungal Treatment</td></tr><tr><td style="white-space:nowrap">ANTIPROTOZOAN_TREATMENT<a name="treatments-cs-ANTIPROTOZOAN_TREATMENT"> </a></td><td>Antiprotozoan treatment</td></tr><tr><td style="white-space:nowrap">ANTIPYRITIC<a name="treatments-cs-ANTIPYRITIC"> </a></td><td>Antipyritic</td></tr><tr><td style="white-space:nowrap">ANTITHILERIOSIS_TREATMENT<a name="treatments-cs-ANTITHILERIOSIS_TREATMENT"> </a></td><td>Antithileriosis treatment</td></tr><tr><td style="white-space:nowrap">ANTIVIRAL_TREATMENT<a name="treatments-cs-ANTIVIRAL_TREATMENT"> </a></td><td>Antiviral Treatment</td></tr><tr><td style="white-space:nowrap">DICLOPHENAC<a name="treatments-cs-DICLOPHENAC"> </a></td><td>Diclophenac</td></tr><tr><td style="white-space:nowrap">DIP<a name="treatments-cs-DIP"> </a></td><td>Dip</td></tr><tr><td style="white-space:nowrap">DOXYCYCLINE<a name="treatments-cs-DOXYCYCLINE"> </a></td><td>Doxycycline</td></tr><tr><td style="white-space:nowrap">INSECTICIDE<a name="treatments-cs-INSECTICIDE"> </a></td><td>Insecticide</td></tr><tr><td style="white-space:nowrap">IVERMECTIN<a name="treatments-cs-IVERMECTIN"> </a></td><td>Ivermectin</td></tr><tr><td style="white-space:nowrap">NO_TREATMENT<a name="treatments-cs-NO_TREATMENT"> </a></td><td>No Treatment</td></tr><tr><td style="white-space:nowrap">NO_VACCINATION<a name="treatments-cs-NO_VACCINATION"> </a></td><td>No vaccination</td></tr><tr><td style="white-space:nowrap">OESTRUS_SYNCRONIZATION<a name="treatments-cs-OESTRUS_SYNCRONIZATION"> </a></td><td>Oestrus syncronization</td></tr><tr><td style="white-space:nowrap">SUPPORTIVE_TREATMENT<a name="treatments-cs-SUPPORTIVE_TREATMENT"> </a></td><td>Supportive treatment</td></tr><tr><td style="white-space:nowrap">SYMPTOMATIC_TREATMENT<a name="treatments-cs-SYMPTOMATIC_TREATMENT"> </a></td><td>Symptomatic Treatment</td></tr><tr><td style="white-space:nowrap">TOPICAL_TREATMENT<a name="treatments-cs-TOPICAL_TREATMENT"> </a></td><td>Topical treatment</td></tr><tr><td style="white-space:nowrap">VACCINATION<a name="treatments-cs-VACCINATION"> </a></td><td>Vaccination</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/fhir/CodeSystem/treatments-cs"/>
+  <version value="0.1.0"/>
+  <name value="TreatmentsCS"/>
+  <title value="Treatments Code System"/>
+  <status value="draft"/>
+  <date value="2024-04-11T13:02:26+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Code system for possible treatments."/>
+  <content value="complete"/>
+  <count value="24"/>
+  <concept>
+    <code value="ACARICIDE"/>
+    <display value="Acaricide"/>
+  </concept>
+  <concept>
+    <code value="ACTIVATED_CHARCOAL"/>
+    <display value="Activated Charcoal"/>
+  </concept>
+  <concept>
+    <code value="ANTHELMINTIC"/>
+    <display value="Anthelmintic"/>
+  </concept>
+  <concept>
+    <code value="ANTI_INFLAMMATORY"/>
+    <display value="Anti inflammatory"/>
+  </concept>
+  <concept>
+    <code value="ANTIBABESIOSIS_TREATMENT"/>
+    <display value="Antibabesiosis treatment"/>
+  </concept>
+  <concept>
+    <code value="ANTIBIOTIC"/>
+    <display value="Antibiotic"/>
+  </concept>
+  <concept>
+    <code value="ANTICOCCIDIOSIS_TREATMENT"/>
+    <display value="Anticoccidiosis treatment"/>
+  </concept>
+  <concept>
+    <code value="ANTIFUNGAL_TREATMENT"/>
+    <display value="Antifungal Treatment"/>
+  </concept>
+  <concept>
+    <code value="ANTIPROTOZOAN_TREATMENT"/>
+    <display value="Antiprotozoan treatment"/>
+  </concept>
+  <concept>
+    <code value="ANTIPYRITIC"/>
+    <display value="Antipyritic"/>
+  </concept>
+  <concept>
+    <code value="ANTITHILERIOSIS_TREATMENT"/>
+    <display value="Antithileriosis treatment"/>
+  </concept>
+  <concept>
+    <code value="ANTIVIRAL_TREATMENT"/>
+    <display value="Antiviral Treatment"/>
+  </concept>
+  <concept>
+    <code value="DICLOPHENAC"/>
+    <display value="Diclophenac"/>
+  </concept>
+  <concept>
+    <code value="DIP"/>
+    <display value="Dip"/>
+  </concept>
+  <concept>
+    <code value="DOXYCYCLINE"/>
+    <display value="Doxycycline"/>
+  </concept>
+  <concept>
+    <code value="INSECTICIDE"/>
+    <display value="Insecticide"/>
+  </concept>
+  <concept>
+    <code value="IVERMECTIN"/>
+    <display value="Ivermectin"/>
+  </concept>
+  <concept>
+    <code value="NO_TREATMENT"/>
+    <display value="No Treatment"/>
+  </concept>
+  <concept>
+    <code value="NO_VACCINATION"/>
+    <display value="No vaccination"/>
+  </concept>
+  <concept>
+    <code value="OESTRUS_SYNCRONIZATION"/>
+    <display value="Oestrus syncronization"/>
+  </concept>
+  <concept>
+    <code value="SUPPORTIVE_TREATMENT"/>
+    <display value="Supportive treatment"/>
+  </concept>
+  <concept>
+    <code value="SYMPTOMATIC_TREATMENT"/>
+    <display value="Symptomatic Treatment"/>
+  </concept>
+  <concept>
+    <code value="TOPICAL_TREATMENT"/>
+    <display value="Topical treatment"/>
+  </concept>
+  <concept>
+    <code value="VACCINATION"/>
+    <display value="Vaccination"/>
+  </concept>
+</CodeSystem>
