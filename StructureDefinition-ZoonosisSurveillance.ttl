@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "ZoonosisSurveillance"] ; # 
   fhir:title [ fhir:v "Logical Model - Zoonosis Surveillance"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-11T10:33:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-11T10:34:35+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;

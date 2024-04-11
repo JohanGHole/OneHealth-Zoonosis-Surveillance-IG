@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "animal-species-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-animal-species-cs.html\"><code>https://dhis2.org/fhir/CodeSystem/animal-species-cs</code></a></li></ul></div>"
+  },
+  "url" : "https://dhis2.org/fhir/ValueSet/animal-species-vs",
+  "version" : "0.1.0",
+  "name" : "AnimalSpeciesVS",
+  "title" : "Animal Species Value Set",
+  "status" : "draft",
+  "date" : "2024-04-11T10:34:35+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Value set for various animal species.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://dhis2.org/fhir/CodeSystem/animal-species-cs"
+    }]
+  }
+}

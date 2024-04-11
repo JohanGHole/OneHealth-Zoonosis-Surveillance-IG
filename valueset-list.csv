@@ -1,5 +1,6 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
 https://dhis2.org/fhir/ValueSet/animal-class-vs,0.1.0,draft,,AnimalClassVS,Animal Class Value Set,"Value set for classifying types of animals.",,"Internal"
+https://dhis2.org/fhir/ValueSet/animal-species-vs,0.1.0,draft,,AnimalSpeciesVS,Animal Species Value Set,"Value set for various animal species.",,"Internal"
 https://dhis2.org/fhir/ValueSet/animal-type-vs,0.1.0,draft,,AnimalTypeVS,Animal Type Value Set,"Value set for types of animals.",,"Internal"
 https://dhis2.org/fhir/ValueSet/districts-vs,0.1.0,draft,,DistrictsVS,Districts Value Set,"Value set for districts.",,"Internal"
 https://dhis2.org/fhir/ValueSet/locality-quality-vs,0.1.0,draft,,LocalityQualityVS,Locality Quality Value Set,"Value set for the quality of locality data.",,"Internal"

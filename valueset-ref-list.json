@@ -24,8 +24,20 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/animal-species-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AnimalSpeciesVS",
+      "title" : "Animal Species Value Set",
+      "description" : "Value set for various animal species.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-species-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-type-vs",
@@ -34,7 +46,10 @@
       "name" : "AnimalTypeVS",
       "title" : "Animal Type Value Set",
       "description" : "Value set for types of animals.",
-      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type"]
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type"],
+      "uses" : {
+      },
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/districts-vs",

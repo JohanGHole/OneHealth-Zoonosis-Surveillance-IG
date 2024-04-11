@@ -7,6 +7,13 @@
     "name" : "AnimalClassCS"
   },
   {
+    "id" : "animal-species-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/animal-species-cs",
+    "version" : "0.1.0",
+    "name" : "AnimalSpeciesCS"
+  },
+  {
     "id" : "animal-type",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
@@ -82,6 +89,13 @@
     "url" : "https://dhis2.org/fhir/ValueSet/animal-class-vs",
     "version" : "0.1.0",
     "name" : "AnimalClassVS"
+  },
+  {
+    "id" : "animal-species-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/animal-species-vs",
+    "version" : "0.1.0",
+    "name" : "AnimalSpeciesVS"
   },
   {
     "id" : "animal-type-vs",

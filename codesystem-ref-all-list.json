@@ -12,6 +12,17 @@
       "ValueSet-animal-class-vs.html" : "Animal Class Value Set"
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/animal-species-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AnimalSpeciesCS",
+      "title" : "Animal Species Code System",
+      "description" : "Code system representing various animal species.",
+      "uses" : {
+      },
+      "ValueSet-animal-species-vs.html" : "Animal Species Value Set"
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
       "version" : "0.1.0",
       "status" : "draft",

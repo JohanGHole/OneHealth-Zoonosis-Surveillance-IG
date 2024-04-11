@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-11T10:33:02+00:00"/>
+  <date value="2024-04-11T10:34:35+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -468,6 +468,28 @@
       </reference>
       <name value="Animal Class Value Set"/>
       <description value="Value set for classifying types of animals."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/animal-species-cs"/>
+      </reference>
+      <name value="Animal Species Code System"/>
+      <description value="Code system representing various animal species."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/animal-species-vs"/>
+      </reference>
+      <name value="Animal Species Value Set"/>
+      <description value="Value set for various animal species."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

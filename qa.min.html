@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 0, warn = 25, info = 7-->
+<!-- broken links = 0, errors = 0, warn = 28, info = 8-->
 <head>
   <title>OneHealthZoonosisSurveillanceIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for OneHealthZoonosisSurveillanceIG</h1>
- <p>Generated Thu Apr 11 10:33:23 UTC 2024, FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = <a href="https://dhis2.org/fhir">https://dhis2.org/fhir</a> (<a href="https://dhis2.org/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Thu Apr 11 10:35:01 UTC 2024, FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = <a href="https://dhis2.org/fhir">https://dhis2.org/fhir</a> (<a href="https://dhis2.org/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.4</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = zoonosis-surveillance-ig, Canonical = https://dhis2.org/fhir</td></tr>
@@ -65,7 +65,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
   </li>
   <li>
 hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureDefinition-resource-sort.html">ResourceSortExt</a>
- (17 uses)
+ (19 uses)
   </li>
 </ul>
 </td></tr>
@@ -73,7 +73,7 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://dhis2.org/fhir (Problem #1 with package-list.json at https://dhis2.org/fhir: Not Found)</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 0, warn = 25, info = 7, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 0, warn = 28, info = 8, broken links = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -84,6 +84,9 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_CodeSystem-animal-class"><b>/github/workspace/fsh-generated/resources/CodeSystem-animal-class</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_CodeSystem-animal-species-cs"><b>/github/workspace/fsh-generated/resources/CodeSystem-animal-species-cs</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_CodeSystem-animal-type"><b>/github/workspace/fsh-generated/resources/CodeSystem-animal-type</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
@@ -105,6 +108,9 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-animal-class-vs"><b>/github/workspace/fsh-generated/resources/ValueSet-animal-class-vs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-animal-species-vs"><b>/github/workspace/fsh-generated/resources/ValueSet-animal-species-vs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-animal-type-vs"><b>/github/workspace/fsh-generated/resources/ValueSet-animal-type-vs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -163,9 +169,28 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_CodeSystem-animal-type"> </a>
-<h2><a href="CodeSystem-animal-type.html">fsh-generated/resources/CodeSystem-animal-type.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_CodeSystem-animal-species-cs"> </a>
+<h2><a href="CodeSystem-animal-species-cs.html">fsh-generated/resources/CodeSystem-animal-species-cs.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem</b></td><td><b>information</b></td><td title=""><b>CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c170623)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c170623)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_CodeSystem-animal-type"> </a>
+<h2><a href="CodeSystem-animal-type.html">fsh-generated/resources/CodeSystem-animal-type.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -183,8 +208,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_CodeSystem-districts-cs"> </a>
-<h2><a href="CodeSystem-districts-cs.html">fsh-generated/resources/CodeSystem-districts-cs.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-districts-cs.html">fsh-generated/resources/CodeSystem-districts-cs.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -202,8 +227,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_CodeSystem-locality-quality-cs"> </a>
-<h2><a href="CodeSystem-locality-quality-cs.html">fsh-generated/resources/CodeSystem-locality-quality-cs.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-locality-quality-cs.html">fsh-generated/resources/CodeSystem-locality-quality-cs.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -221,8 +246,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_CodeSystem-locality-source-cs"> </a>
-<h2><a href="CodeSystem-locality-source-cs.html">fsh-generated/resources/CodeSystem-locality-source-cs.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-locality-source-cs.html">fsh-generated/resources/CodeSystem-locality-source-cs.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -240,8 +265,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_CodeSystem-regions-cs"> </a>
-<h2><a href="CodeSystem-regions-cs.html">fsh-generated/resources/CodeSystem-regions-cs.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-regions-cs.html">fsh-generated/resources/CodeSystem-regions-cs.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -259,8 +284,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_CodeSystem-yes-no-unknown-cs"> </a>
-<h2><a href="CodeSystem-yes-no-unknown-cs.html">fsh-generated/resources/CodeSystem-yes-no-unknown-cs.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-yes-no-unknown-cs.html">fsh-generated/resources/CodeSystem-yes-no-unknown-cs.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -278,8 +303,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_ValueSet-animal-class-vs"> </a>
-<h2><a href="ValueSet-animal-class-vs.html">fsh-generated/resources/ValueSet-animal-class-vs.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-animal-class-vs.html">fsh-generated/resources/ValueSet-animal-class-vs.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -290,9 +315,22 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
    </tr>
 </table>
 <hr/>
+<a name="_github_workspace_fsh-generated_resources_ValueSet-animal-species-vs"> </a>
+<h2><a href="ValueSet-animal-species-vs.html">fsh-generated/resources/ValueSet-animal-species-vs.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet (l1/c790)</b></td><td><b>warning</b></td><td title=""><b>Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="_github_workspace_fsh-generated_resources_ValueSet-animal-type-vs"> </a>
-<h2><a href="ValueSet-animal-type-vs.html">fsh-generated/resources/ValueSet-animal-type-vs.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-animal-type-vs.html">fsh-generated/resources/ValueSet-animal-type-vs.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -304,8 +342,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_ValueSet-districts-vs"> </a>
-<h2><a href="ValueSet-districts-vs.html">fsh-generated/resources/ValueSet-districts-vs.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-districts-vs.html">fsh-generated/resources/ValueSet-districts-vs.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -317,8 +355,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_ValueSet-locality-quality-vs"> </a>
-<h2><a href="ValueSet-locality-quality-vs.html">fsh-generated/resources/ValueSet-locality-quality-vs.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-locality-quality-vs.html">fsh-generated/resources/ValueSet-locality-quality-vs.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -330,8 +368,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_ValueSet-locality-source-vs"> </a>
-<h2><a href="ValueSet-locality-source-vs.html">fsh-generated/resources/ValueSet-locality-source-vs.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-locality-source-vs.html">fsh-generated/resources/ValueSet-locality-source-vs.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -343,8 +381,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_ValueSet-regions-vs"> </a>
-<h2><a href="ValueSet-regions-vs.html">fsh-generated/resources/ValueSet-regions-vs.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-regions-vs.html">fsh-generated/resources/ValueSet-regions-vs.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -356,8 +394,8 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_ValueSet-yes-no-unknown"> </a>
-<h2><a href="ValueSet-yes-no-unknown.html">fsh-generated/resources/ValueSet-yes-no-unknown.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-yes-no-unknown.html">fsh-generated/resources/ValueSet-yes-no-unknown.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi16"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -380,6 +418,12 @@ hl7.fhir.uv.tools#0.1.0:     <a href="http://hl7.org/fhir/tools/0.1.0/StructureD
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-animal-class.html">fsh-generated/resources/CodeSystem-animal-class.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-species-cs.html">fsh-generated/resources/CodeSystem-animal-species-cs.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-species-cs.html">fsh-generated/resources/CodeSystem-animal-species-cs.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-animal-type.html">fsh-generated/resources/CodeSystem-animal-type.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b></td>

@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-11T10:33:02+00:00",
+  "date" : "2024-04-11T10:34:35+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -624,6 +624,30 @@
       },
       "name" : "Animal Class Value Set",
       "description" : "Value set for classifying types of animals.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/animal-species-cs"
+      },
+      "name" : "Animal Species Code System",
+      "description" : "Code system representing various animal species.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/animal-species-vs"
+      },
+      "name" : "Animal Species Value Set",
+      "description" : "Value set for various animal species.",
       "exampleBoolean" : false
     },
     {

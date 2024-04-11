@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="animal-species-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-animal-species-cs.html"><code>https://dhis2.org/fhir/CodeSystem/animal-species-cs</code></a></li></ul></div>
+  </text>
+  <url value="https://dhis2.org/fhir/ValueSet/animal-species-vs"/>
+  <version value="0.1.0"/>
+  <name value="AnimalSpeciesVS"/>
+  <title value="Animal Species Value Set"/>
+  <status value="draft"/>
+  <date value="2024-04-11T10:34:35+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Value set for various animal species."/>
+  <compose>
+    <include>
+      <system value="https://dhis2.org/fhir/CodeSystem/animal-species-cs"/>
+    </include>
+  </compose>
+</ValueSet>

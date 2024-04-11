@@ -9,6 +9,14 @@
       "description" : "Code system for classifying types of animals."
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/animal-species-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AnimalSpeciesCS",
+      "title" : "Animal Species Code System",
+      "description" : "Code system representing various animal species."
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
       "version" : "0.1.0",
       "status" : "draft",

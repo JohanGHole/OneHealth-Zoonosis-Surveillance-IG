@@ -18,3 +18,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
 "AnimalSurveillance.animalClass","AnimalSurveillance.animalClass","","","",1,1,"","","","code {[]} {[]}
 ","Animal Class","Animal Class","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/animal-class-vs","",,,,"AnimalSurveillance.animalClass",1,1,"",""
+"AnimalSurveillance.animalSpecies","AnimalSurveillance.animalSpecies","","","",0,1,"","","","code {[]} {[]}
+","Animal Species","Animal Species","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/animal-species-vs","",,,,"AnimalSurveillance.animalSpecies",0,1,"",""
+"AnimalSurveillance.animalType","AnimalSurveillance.animalType","","","",0,1,"","","","code {[]} {[]}
+","Animal Type","Animal Type","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/animal-type-vs","",,,,"AnimalSurveillance.animalType",0,1,"",""

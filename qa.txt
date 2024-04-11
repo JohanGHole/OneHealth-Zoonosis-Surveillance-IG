@@ -1,11 +1,12 @@
 OneHealthZoonosisSurveillanceIG : Validation Results
 =========================================
 
-err = 0, warn = 25, info = 7
+err = 0, warn = 28, info = 8
 IG Publisher Version: 1.6.4
-Generated Thu Apr 11 10:33:23 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
+Generated Thu Apr 11 10:35:01 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-animal-class : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-animal-species-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-type : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-districts-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-locality-quality-cs : 0 / 2 / 2
@@ -17,6 +18,7 @@ Generated Thu Apr 11 10:33:23 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/StructureDefinition-Laboratory : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-ZoonosisSurveillance : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-animal-class-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-animal-species-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-animal-type-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-districts-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-locality-quality-vs : 0 / 1 / 1
@@ -33,6 +35,10 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 INFORMATION: CodeSystem/animal-class: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/animal-class: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/animal-class: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-animal-species-cs.json ==
+INFORMATION: CodeSystem/animal-species-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/animal-species-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/animal-species-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-animal-type.json ==
 INFORMATION: CodeSystem/animal-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/animal-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
@@ -63,6 +69,8 @@ WARNING: CodeSystem/yes-no-unknown-cs: CodeSystem: Published code systems SHOULD
 == fsh-generated/resources/StructureDefinition-ZoonosisSurveillance.json ==
 == fsh-generated/resources/ValueSet-animal-class-vs.json ==
 WARNING: ValueSet/animal-class-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-animal-species-vs.json ==
+WARNING: ValueSet/animal-species-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-animal-type-vs.json ==
 WARNING: ValueSet/animal-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-districts-vs.json ==
