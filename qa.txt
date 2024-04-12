@@ -3,7 +3,7 @@ OneHealthZoonosisSurveillanceIG : Validation Results
 
 err = 0, warn = 80, info = 25
 IG Publisher Version: 1.6.4
-Generated Fri Apr 12 09:40:47 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
+Generated Fri Apr 12 11:16:18 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-animal-class : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-species-cs : 0 / 2 / 2

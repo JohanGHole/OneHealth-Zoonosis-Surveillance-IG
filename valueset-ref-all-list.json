@@ -36,8 +36,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-species-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-type-vs",
