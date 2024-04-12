@@ -1,0 +1,410 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/test-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "test-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AESCULINE_DIHYDROLASE_TEST<a name=\"test-type-cs-AESCULINE_DIHYDROLASE_TEST\"> </a></td><td>Aesculine dihydrolase test</td></tr><tr><td style=\"white-space:nowrap\">AGAR_GEL_IMMUNODIFFUSION_(AGID)<a name=\"test-type-cs-AGAR_GEL_IMMUNODIFFUSION_.40AGID.41\"> </a></td><td>Agar-gel immunodiffusion (AGID)</td></tr><tr><td style=\"white-space:nowrap\">AGAR_GEL_PRECIPITATION_(AGP)<a name=\"test-type-cs-AGAR_GEL_PRECIPITATION_.40AGP.41\"> </a></td><td>Agar-gel precipitation (AGP)</td></tr><tr><td style=\"white-space:nowrap\">ANATOMO_PATHOLOGICAL_EXAMINATION<a name=\"test-type-cs-ANATOMO_PATHOLOGICAL_EXAMINATION\"> </a></td><td>Anatomo-pathological examination</td></tr><tr><td style=\"white-space:nowrap\">ANTIBODY_DETECTION_ELISA<a name=\"test-type-cs-ANTIBODY_DETECTION_ELISA\"> </a></td><td>Antibody detection ELISA</td></tr><tr><td style=\"white-space:nowrap\">ANTIGEN_DETECTION_ELISA<a name=\"test-type-cs-ANTIGEN_DETECTION_ELISA\"> </a></td><td>Antigen detection ELISA</td></tr><tr><td style=\"white-space:nowrap\">ARGININE_DIHYDROLASE_TEST<a name=\"test-type-cs-ARGININE_DIHYDROLASE_TEST\"> </a></td><td>Arginine dihydrolase test</td></tr><tr><td style=\"white-space:nowrap\">BACTERIOLOGICAL_EXAMINATION<a name=\"test-type-cs-BACTERIOLOGICAL_EXAMINATION\"> </a></td><td>Bacteriological examination</td></tr><tr><td style=\"white-space:nowrap\">BRUCELLOSIS_TEST<a name=\"test-type-cs-BRUCELLOSIS_TEST\"> </a></td><td>Brucellosis test</td></tr><tr><td style=\"white-space:nowrap\">BSE_ANTIGEN_TEST_KIT<a name=\"test-type-cs-BSE_ANTIGEN_TEST_KIT\"> </a></td><td>BSE Antigen Test kit</td></tr><tr><td style=\"white-space:nowrap\">BUFFY_COAT_EXAMINATION<a name=\"test-type-cs-BUFFY_COAT_EXAMINATION\"> </a></td><td>Buffy coat examination</td></tr><tr><td style=\"white-space:nowrap\">BUTTER_FAT_TEST<a name=\"test-type-cs-BUTTER_FAT_TEST\"> </a></td><td>Butter fat test</td></tr><tr><td style=\"white-space:nowrap\">CALCIUM_TEST_IN_FEED<a name=\"test-type-cs-CALCIUM_TEST_IN_FEED\"> </a></td><td>Calcium test in feed</td></tr><tr><td style=\"white-space:nowrap\">CARBOHYDRATE_FERMINTATION_TEST<a name=\"test-type-cs-CARBOHYDRATE_FERMINTATION_TEST\"> </a></td><td>Carbohydrate fermintation test</td></tr><tr><td style=\"white-space:nowrap\">CASEIN_HYDROLYSIS_TEST<a name=\"test-type-cs-CASEIN_HYDROLYSIS_TEST\"> </a></td><td>Casein hydrolysis test</td></tr><tr><td style=\"white-space:nowrap\">CATALASE_TEST<a name=\"test-type-cs-CATALASE_TEST\"> </a></td><td>Catalase test</td></tr><tr><td style=\"white-space:nowrap\">CENTRIFUGATION_TEST<a name=\"test-type-cs-CENTRIFUGATION_TEST\"> </a></td><td>Centrifugation test</td></tr><tr><td style=\"white-space:nowrap\">CITRATE_TESTVOGES_PROSKAEUR_TEST<a name=\"test-type-cs-CITRATE_TESTVOGES_PROSKAEUR_TEST\"> </a></td><td>Citrate testVoges proskaeur test</td></tr><tr><td style=\"white-space:nowrap\">COAGULATE_TEST<a name=\"test-type-cs-COAGULATE_TEST\"> </a></td><td>Coagulate test</td></tr><tr><td style=\"white-space:nowrap\">COGGIN'S_TEST<a name=\"test-type-cs-COGGIN.39S_TEST\"> </a></td><td>Coggin's test</td></tr><tr><td style=\"white-space:nowrap\">COMPETITIVE_ELISA_(C_ELISA)<a name=\"test-type-cs-COMPETITIVE_ELISA_.40C_ELISA.41\"> </a></td><td>Competitive ELISA (c-ELISA)</td></tr><tr><td style=\"white-space:nowrap\">COMPLEMENT_FIXATION_TEST_(CFT)<a name=\"test-type-cs-COMPLEMENT_FIXATION_TEST_.40CFT.41\"> </a></td><td>Complement fixation test (CFT)</td></tr><tr><td style=\"white-space:nowrap\">CULTURE_FOR_MYCOPLASMA<a name=\"test-type-cs-CULTURE_FOR_MYCOPLASMA\"> </a></td><td>Culture for Mycoplasma</td></tr><tr><td style=\"white-space:nowrap\">DET_BIRBRIGHT<a name=\"test-type-cs-DET_BIRBRIGHT\"> </a></td><td>Det Birbright</td></tr><tr><td style=\"white-space:nowrap\">DIRECT_FLUORESCENT_ANTIBODY_(FAT)_TEST<a name=\"test-type-cs-DIRECT_FLUORESCENT_ANTIBODY_.40FAT.41_TEST\"> </a></td><td>Direct fluorescent antibody (FAT) test</td></tr><tr><td style=\"white-space:nowrap\">DIRECT_IMMUNOFLUORESCENCE_(DIF)<a name=\"test-type-cs-DIRECT_IMMUNOFLUORESCENCE_.40DIF.41\"> </a></td><td>Direct immunofluorescence (DIF)</td></tr><tr><td style=\"white-space:nowrap\">DIRECT_RAPID_IMMUNOHISTOCHEMICAL_TEST_(DRIT)<a name=\"test-type-cs-DIRECT_RAPID_IMMUNOHISTOCHEMICAL_TEST_.40DRIT.41\"> </a></td><td>Direct rapid immunohistochemical test (DRIT)</td></tr><tr><td style=\"white-space:nowrap\">DIRECT_SMEAR_EXAMINATION<a name=\"test-type-cs-DIRECT_SMEAR_EXAMINATION\"> </a></td><td>Direct smear examination</td></tr><tr><td style=\"white-space:nowrap\">EGG_INOCULATON<a name=\"test-type-cs-EGG_INOCULATON\"> </a></td><td>Egg inoculaton</td></tr><tr><td style=\"white-space:nowrap\">ELECTROIMMUNOTRANSFER_BLOT_ASSAY_(EITB)<a name=\"test-type-cs-ELECTROIMMUNOTRANSFER_BLOT_ASSAY_.40EITB.41\"> </a></td><td>Electroimmunotransfer blot assay (EITB)</td></tr><tr><td style=\"white-space:nowrap\">ELECTRON_MICROSCOPY<a name=\"test-type-cs-ELECTRON_MICROSCOPY\"> </a></td><td>Electron microscopy</td></tr><tr><td style=\"white-space:nowrap\">ELISA_3ABC<a name=\"test-type-cs-ELISA_3ABC\"> </a></td><td>ELISA 3ABC</td></tr><tr><td style=\"white-space:nowrap\">ENTOMOLOGICAL_INVESTIGATIONS<a name=\"test-type-cs-ENTOMOLOGICAL_INVESTIGATIONS\"> </a></td><td>Entomological investigations</td></tr><tr><td style=\"white-space:nowrap\">ENZYM_IMMUNOASSAY_(EIA)_MEMBRANE_TEST<a name=\"test-type-cs-ENZYM_IMMUNOASSAY_.40EIA.41_MEMBRANE_TEST\"> </a></td><td>Enzym immunoassay (EIA) membrane test</td></tr><tr><td style=\"white-space:nowrap\">ENZYME_LINKED_IMMUNOSORBENT_ASSAY_(ELISA)<a name=\"test-type-cs-ENZYME_LINKED_IMMUNOSORBENT_ASSAY_.40ELISA.41\"> </a></td><td>Enzyme-linked immunosorbent assay (ELISA)</td></tr><tr><td style=\"white-space:nowrap\">FLOATATION_TEST<a name=\"test-type-cs-FLOATATION_TEST\"> </a></td><td>Floatation test</td></tr><tr><td style=\"white-space:nowrap\">FLUORESCENT_ANTIBODY_VIRUS<a name=\"test-type-cs-FLUORESCENT_ANTIBODY_VIRUS\"> </a></td><td>Fluorescent antibody virus</td></tr><tr><td style=\"white-space:nowrap\">FUORESCENCE_POLARISATION_ASSAY_(FPA)<a name=\"test-type-cs-FUORESCENCE_POLARISATION_ASSAY_.40FPA.41\"> </a></td><td>Fuorescence polarisation assay (FPA)</td></tr><tr><td style=\"white-space:nowrap\">GELATIN_HYDROLYSIS_TEST<a name=\"test-type-cs-GELATIN_HYDROLYSIS_TEST\"> </a></td><td>Gelatin hydrolysis test</td></tr><tr><td style=\"white-space:nowrap\">GENE_SEQUENCING<a name=\"test-type-cs-GENE_SEQUENCING\"> </a></td><td>Gene sequencing</td></tr><tr><td style=\"white-space:nowrap\">GIEMSA_STAINING<a name=\"test-type-cs-GIEMSA_STAINING\"> </a></td><td>Giemsa staining</td></tr><tr><td style=\"white-space:nowrap\">GLUCONATE_TEST<a name=\"test-type-cs-GLUCONATE_TEST\"> </a></td><td>Gluconate test</td></tr><tr><td style=\"white-space:nowrap\">GRAM_STAINING<a name=\"test-type-cs-GRAM_STAINING\"> </a></td><td>Gram staining</td></tr><tr><td style=\"white-space:nowrap\">HAEMAGGLUTINATION_(HA)_TEST<a name=\"test-type-cs-HAEMAGGLUTINATION_.40HA.41_TEST\"> </a></td><td>Haemagglutination (HA) test</td></tr><tr><td style=\"white-space:nowrap\">HAEMAGGLUTINATION_INHIBITION_TEST_(HIT)<a name=\"test-type-cs-HAEMAGGLUTINATION_INHIBITION_TEST_.40HIT.41\"> </a></td><td>Haemagglutination inhibition test (HIT)</td></tr><tr><td style=\"white-space:nowrap\">HISTOLOGICAL_TEST<a name=\"test-type-cs-HISTOLOGICAL_TEST\"> </a></td><td>Histological test</td></tr><tr><td style=\"white-space:nowrap\">HISTOPATHOLOGICAL_EXAMINATION<a name=\"test-type-cs-HISTOPATHOLOGICAL_EXAMINATION\"> </a></td><td>Histopathological examination</td></tr><tr><td style=\"white-space:nowrap\">IGG<a name=\"test-type-cs-IGG\"> </a></td><td>IgG</td></tr><tr><td style=\"white-space:nowrap\">IGG_CAPTURE_ELISA<a name=\"test-type-cs-IGG_CAPTURE_ELISA\"> </a></td><td>IgG-capture ELISA</td></tr><tr><td style=\"white-space:nowrap\">IGM<a name=\"test-type-cs-IGM\"> </a></td><td>IgM</td></tr><tr><td style=\"white-space:nowrap\">IGM_CAPTURE_ELISA<a name=\"test-type-cs-IGM_CAPTURE_ELISA\"> </a></td><td>IgM-capture ELISA</td></tr><tr><td style=\"white-space:nowrap\">IMMUNE_ELECTRON_MICROSCOPY<a name=\"test-type-cs-IMMUNE_ELECTRON_MICROSCOPY\"> </a></td><td>Immune electron microscopy</td></tr><tr><td style=\"white-space:nowrap\">IMMUNO_BLOTTING_(IB)<a name=\"test-type-cs-IMMUNO_BLOTTING_.40IB.41\"> </a></td><td>Immuno-blotting (IB)</td></tr><tr><td style=\"white-space:nowrap\">IMMUNOCAPTURE_ELISA<a name=\"test-type-cs-IMMUNOCAPTURE_ELISA\"> </a></td><td>Immunocapture ELISA</td></tr><tr><td style=\"white-space:nowrap\">IMMUNOELECTROPHORESIS_TEST_(IEPT)<a name=\"test-type-cs-IMMUNOELECTROPHORESIS_TEST_.40IEPT.41\"> </a></td><td>Immunoelectrophoresis test (IEPT)</td></tr><tr><td style=\"white-space:nowrap\">IMMUNOHISTOCHEMICAL_TEST<a name=\"test-type-cs-IMMUNOHISTOCHEMICAL_TEST\"> </a></td><td>Immunohistochemical test</td></tr><tr><td style=\"white-space:nowrap\">IMMUNOPEROXIDASE_MONOLAYER_ASSAY_(IPMA)<a name=\"test-type-cs-IMMUNOPEROXIDASE_MONOLAYER_ASSAY_.40IPMA.41\"> </a></td><td>Immunoperoxidase monolayer assay (IPMA)</td></tr><tr><td style=\"white-space:nowrap\">IN_SITU_HYBRIDISATION_(ISH)<a name=\"test-type-cs-IN_SITU_HYBRIDISATION_.40ISH.41\"> </a></td><td>In situ hybridisation (ISH)</td></tr><tr><td style=\"white-space:nowrap\">INDIRECT_ELISA<a name=\"test-type-cs-INDIRECT_ELISA\"> </a></td><td>Indirect ELISA</td></tr><tr><td style=\"white-space:nowrap\">INDIRECT_FLUORESCENT_ANTIBODY_(IFA)_TEST<a name=\"test-type-cs-INDIRECT_FLUORESCENT_ANTIBODY_.40IFA.41_TEST\"> </a></td><td>Indirect fluorescent antibody (IFA) test</td></tr><tr><td style=\"white-space:nowrap\">INDIRECT_SANDWICH_ELISA<a name=\"test-type-cs-INDIRECT_SANDWICH_ELISA\"> </a></td><td>Indirect sandwich ELISA</td></tr><tr><td style=\"white-space:nowrap\">INDOLE_TEST<a name=\"test-type-cs-INDOLE_TEST\"> </a></td><td>Indole test</td></tr><tr><td style=\"white-space:nowrap\">INOCULATION_TEST<a name=\"test-type-cs-INOCULATION_TEST\"> </a></td><td>Inoculation test</td></tr><tr><td style=\"white-space:nowrap\">INTRACEREBRAL_PATHOGENICITY_INDEX_(ICPI)_TEST<a name=\"test-type-cs-INTRACEREBRAL_PATHOGENICITY_INDEX_.40ICPI.41_TEST\"> </a></td><td>Intracerebral pathogenicity index (ICPI) test</td></tr><tr><td style=\"white-space:nowrap\">INTRAVENOUS_PATHOGENICITY_INDEX_(IVPI)_TEST<a name=\"test-type-cs-INTRAVENOUS_PATHOGENICITY_INDEX_.40IVPI.41_TEST\"> </a></td><td>Intravenous pathogenicity index (IVPI) test</td></tr><tr><td style=\"white-space:nowrap\">ISOENZYME_STUDIES<a name=\"test-type-cs-ISOENZYME_STUDIES\"> </a></td><td>Isoenzyme studies</td></tr><tr><td style=\"white-space:nowrap\">IZSLER_AG<a name=\"test-type-cs-IZSLER_AG\"> </a></td><td>Izsler Ag</td></tr><tr><td style=\"white-space:nowrap\">IZSLER_ELISA<a name=\"test-type-cs-IZSLER_ELISA\"> </a></td><td>Izsler Elisa</td></tr><tr><td style=\"white-space:nowrap\">LIQUID_PHASE_(LP)_BLOCKING_ELISA<a name=\"test-type-cs-LIQUID_PHASE_.40LP.41_BLOCKING_ELISA\"> </a></td><td>Liquid-phase (LP) blocking ELISA</td></tr><tr><td style=\"white-space:nowrap\">LUMINESCENCE_IMMUNOASSAY<a name=\"test-type-cs-LUMINESCENCE_IMMUNOASSAY\"> </a></td><td>Luminescence immunoassay</td></tr><tr><td style=\"white-space:nowrap\">LYSINE_DECARBOXYLATE_TEST<a name=\"test-type-cs-LYSINE_DECARBOXYLATE_TEST\"> </a></td><td>Lysine decarboxylate test</td></tr><tr><td style=\"white-space:nowrap\">MALLEIN_TEST<a name=\"test-type-cs-MALLEIN_TEST\"> </a></td><td>Mallein test</td></tr><tr><td style=\"white-space:nowrap\">MICROSCOPIC_AGGLUTINATION_TEST_(MAT)<a name=\"test-type-cs-MICROSCOPIC_AGGLUTINATION_TEST_.40MAT.41\"> </a></td><td>Microscopic agglutination test (MAT)</td></tr><tr><td style=\"white-space:nowrap\">MICROSCOPIC_EXAMINATION<a name=\"test-type-cs-MICROSCOPIC_EXAMINATION\"> </a></td><td>Microscopic examination</td></tr><tr><td style=\"white-space:nowrap\">MICROSCOPIC_EXAMINATION_OF_LARVAE<a name=\"test-type-cs-MICROSCOPIC_EXAMINATION_OF_LARVAE\"> </a></td><td>Microscopic examination of larvae</td></tr><tr><td style=\"white-space:nowrap\">MILK_DENSITY/MILK_QUALITY<a name=\"test-type-cs-MILK_DENSITY.47MILK_QUALITY\"> </a></td><td>Milk density/milk quality</td></tr><tr><td style=\"white-space:nowrap\">MONOCLONAL_ANTIBODIES_(MAB)_TEST<a name=\"test-type-cs-MONOCLONAL_ANTIBODIES_.40MAB.41_TEST\"> </a></td><td>Monoclonal antibodies (Mab) test</td></tr><tr><td style=\"white-space:nowrap\">MOTILITY_TEST<a name=\"test-type-cs-MOTILITY_TEST\"> </a></td><td>Motility test</td></tr><tr><td style=\"white-space:nowrap\">MULTIPLEX_PCR<a name=\"test-type-cs-MULTIPLEX_PCR\"> </a></td><td>Multiplex PCR</td></tr><tr><td style=\"white-space:nowrap\">NESTED_RT_PCR<a name=\"test-type-cs-NESTED_RT_PCR\"> </a></td><td>Nested RT-PCR</td></tr><tr><td style=\"white-space:nowrap\">NEURAMINIDASE_INHIBITION_ASSAY<a name=\"test-type-cs-NEURAMINIDASE_INHIBITION_ASSAY\"> </a></td><td>Neuraminidase inhibition assay</td></tr><tr><td style=\"white-space:nowrap\">NEUTRALISATION_(FAVN)<a name=\"test-type-cs-NEUTRALISATION_.40FAVN.41\"> </a></td><td>Neutralisation (FAVN)</td></tr><tr><td style=\"white-space:nowrap\">NITRATE_REDUCTION_TEST<a name=\"test-type-cs-NITRATE_REDUCTION_TEST\"> </a></td><td>Nitrate reduction test</td></tr><tr><td style=\"white-space:nowrap\">NO_TEST_DONE<a name=\"test-type-cs-NO_TEST_DONE\"> </a></td><td>No test done</td></tr><tr><td style=\"white-space:nowrap\">NON_STRUCTURAL_PROTEIN_ELISA<a name=\"test-type-cs-NON_STRUCTURAL_PROTEIN_ELISA\"> </a></td><td>Non-structural protein ELISA</td></tr><tr><td style=\"white-space:nowrap\">NOT_SPECIFIED_TEST<a name=\"test-type-cs-NOT_SPECIFIED_TEST\"> </a></td><td>Not Specified Test</td></tr><tr><td style=\"white-space:nowrap\">NPLA_(NEUTRALISING_PEROXIDASE_LINKED_ASSAY)<a name=\"test-type-cs-NPLA_.40NEUTRALISING_PEROXIDASE_LINKED_ASSAY.41\"> </a></td><td>NPLA (Neutralising peroxidase-linked assay)</td></tr><tr><td style=\"white-space:nowrap\">NUCLEOTIDE_SEQUENCING<a name=\"test-type-cs-NUCLEOTIDE_SEQUENCING\"> </a></td><td>Nucleotide sequencing</td></tr><tr><td style=\"white-space:nowrap\">OPTICAL_MICROSCOPY<a name=\"test-type-cs-OPTICAL_MICROSCOPY\"> </a></td><td>Optical microscopy</td></tr><tr><td style=\"white-space:nowrap\">ORMITHIAMINE_DECARBOXYLASE_TEST<a name=\"test-type-cs-ORMITHIAMINE_DECARBOXYLASE_TEST\"> </a></td><td>Ormithiamine decarboxylase test</td></tr><tr><td style=\"white-space:nowrap\">OXIDASE_TEST<a name=\"test-type-cs-OXIDASE_TEST\"> </a></td><td>Oxidase test</td></tr><tr><td style=\"white-space:nowrap\">PARASITOLOGICAL_EXAMINATION<a name=\"test-type-cs-PARASITOLOGICAL_EXAMINATION\"> </a></td><td>Parasitological examination</td></tr><tr><td style=\"white-space:nowrap\">PATHOGEN_ISOLATION_BY_EGG_INOCULATION<a name=\"test-type-cs-PATHOGEN_ISOLATION_BY_EGG_INOCULATION\"> </a></td><td>Pathogen isolation by egg inoculation</td></tr><tr><td style=\"white-space:nowrap\">PATHOGEN_ISOLATION_ON_CELL_CULTURE<a name=\"test-type-cs-PATHOGEN_ISOLATION_ON_CELL_CULTURE\"> </a></td><td>Pathogen isolation on cell culture</td></tr><tr><td style=\"white-space:nowrap\">PH_TEST_(_FEEDSSEMEN)<a name=\"test-type-cs-PH_TEST_.40_FEEDSSEMEN.41\"> </a></td><td>PH test ( feeds,semen)</td></tr><tr><td style=\"white-space:nowrap\">PHYLOGENETIC_ANALYSIS<a name=\"test-type-cs-PHYLOGENETIC_ANALYSIS\"> </a></td><td>Phylogenetic analysis</td></tr><tr><td style=\"white-space:nowrap\">PLAQUE_REDUCTION_NEUTRALISATION_TEST_(PRN)<a name=\"test-type-cs-PLAQUE_REDUCTION_NEUTRALISATION_TEST_.40PRN.41\"> </a></td><td>Plaque reduction neutralisation test (PRN)</td></tr><tr><td style=\"white-space:nowrap\">POLYMERASE_CHAIN_REACTION_(PCR)<a name=\"test-type-cs-POLYMERASE_CHAIN_REACTION_.40PCR.41\"> </a></td><td>Polymerase chain reaction (PCR)</td></tr><tr><td style=\"white-space:nowrap\">PROXIMATE_ANALYSIS<a name=\"test-type-cs-PROXIMATE_ANALYSIS\"> </a></td><td>Proximate analysis (protein,fat,NFE,fiber and moisture)</td></tr><tr><td style=\"white-space:nowrap\">RAPID_AGGULUTINATION_TEST<a name=\"test-type-cs-RAPID_AGGULUTINATION_TEST\"> </a></td><td>Rapid aggulutination test</td></tr><tr><td style=\"white-space:nowrap\">RAPID_SERUM_AGGLUTINATION_(RSA)<a name=\"test-type-cs-RAPID_SERUM_AGGLUTINATION_.40RSA.41\"> </a></td><td>Rapid serum agglutination (RSA)</td></tr><tr><td style=\"white-space:nowrap\">RAPID_TESTS<a name=\"test-type-cs-RAPID_TESTS\"> </a></td><td>Rapid tests</td></tr><tr><td style=\"white-space:nowrap\">REAL_TIME_PCR<a name=\"test-type-cs-REAL_TIME_PCR\"> </a></td><td>Real-time PCR</td></tr><tr><td style=\"white-space:nowrap\">REAL_TIME_REVERSE_TRANSCRIPTASE/POLYMERASE<a name=\"test-type-cs-REAL_TIME_REVERSE_TRANSCRIPTASE.47POLYMERASE\"> </a></td><td>Real-time reverse transcriptase/polymerase chain reaction (RRT-PCR)</td></tr><tr><td style=\"white-space:nowrap\">REVERSE_TRANSCRIPTION__POLYMERASE_CHAIN_REACTION<a name=\"test-type-cs-REVERSE_TRANSCRIPTION__POLYMERASE_CHAIN_REACTION\"> </a></td><td>Reverse transcription - polymerase chain reaction</td></tr><tr><td style=\"white-space:nowrap\">ROSE_BENGAL_TEST_(RBT)<a name=\"test-type-cs-ROSE_BENGAL_TEST_.40RBT.41\"> </a></td><td>Rose bengal test (RBT)</td></tr><tr><td style=\"white-space:nowrap\">SELLER'S_TEST<a name=\"test-type-cs-SELLER.39S_TEST\"> </a></td><td>Seller's test</td></tr><tr><td style=\"white-space:nowrap\">SEMEN_EXAMINATION<a name=\"test-type-cs-SEMEN_EXAMINATION\"> </a></td><td>Semen examination</td></tr><tr><td style=\"white-space:nowrap\">SERONEUTRALISATION_TEST_(SNT)<a name=\"test-type-cs-SERONEUTRALISATION_TEST_.40SNT.41\"> </a></td><td>Seroneutralisation test (SNT)</td></tr><tr><td style=\"white-space:nowrap\">SEROTYPING<a name=\"test-type-cs-SEROTYPING\"> </a></td><td>Serotyping</td></tr><tr><td style=\"white-space:nowrap\">SERUM_AGGLUTINATION_TEST<a name=\"test-type-cs-SERUM_AGGLUTINATION_TEST\"> </a></td><td>Serum agglutination test</td></tr><tr><td style=\"white-space:nowrap\">TISSUE_IMPRINTS<a name=\"test-type-cs-TISSUE_IMPRINTS\"> </a></td><td>Tissue imprints</td></tr><tr><td style=\"white-space:nowrap\">TRIPLE_SUGAR_IRON_AGAR_TEST<a name=\"test-type-cs-TRIPLE_SUGAR_IRON_AGAR_TEST\"> </a></td><td>Triple sugar iron agar test</td></tr><tr><td style=\"white-space:nowrap\">TUBE_AGGLUTINATION_TEST_(TAT)<a name=\"test-type-cs-TUBE_AGGLUTINATION_TEST_.40TAT.41\"> </a></td><td>Tube agglutination test (TAT)</td></tr><tr><td style=\"white-space:nowrap\">TYPING_ELISA<a name=\"test-type-cs-TYPING_ELISA\"> </a></td><td>Typing ELISA</td></tr><tr><td style=\"white-space:nowrap\">UREASE_TEST<a name=\"test-type-cs-UREASE_TEST\"> </a></td><td>Urease test</td></tr><tr><td style=\"white-space:nowrap\">VIRUS_ISOLATION<a name=\"test-type-cs-VIRUS_ISOLATION\"> </a></td><td>Virus isolation</td></tr><tr><td style=\"white-space:nowrap\">VIRUS_NEUTRALISATION_TEST_(VNT)<a name=\"test-type-cs-VIRUS_NEUTRALISATION_TEST_.40VNT.41\"> </a></td><td>Virus neutralisation test (VNT)</td></tr><tr><td style=\"white-space:nowrap\">VIRUS_SEQUENCING<a name=\"test-type-cs-VIRUS_SEQUENCING\"> </a></td><td>Virus sequencing</td></tr><tr><td style=\"white-space:nowrap\">VIRUS_INFECTION_ASSOCIATED_ANTIGEN_(VIAA)<a name=\"test-type-cs-VIRUS_INFECTION_ASSOCIATED_ANTIGEN_.40VIAA.41\"> </a></td><td>Virus-infection-associated antigen (VIAA)</td></tr><tr><td style=\"white-space:nowrap\">WESTERN_BLOT_ANALYSIS<a name=\"test-type-cs-WESTERN_BLOT_ANALYSIS\"> </a></td><td>Western blot analysis</td></tr><tr><td style=\"white-space:nowrap\">WESTERN_BLOTTING_(WB)<a name=\"test-type-cs-WESTERN_BLOTTING_.40WB.41\"> </a></td><td>Western blotting (WB)</td></tr><tr><td style=\"white-space:nowrap\">ZIEHL_NEELSEN_TEST<a name=\"test-type-cs-ZIEHL_NEELSEN_TEST\"> </a></td><td>Ziehl Neelsen test</td></tr><tr><td style=\"white-space:nowrap\">RTPCR<a name=\"test-type-cs-RTPCR\"> </a></td><td>Reverse transcription - polymerase chain reaction (RT-PCR)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/test-type-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TestTypeCS"] ; # 
+  fhir:title [ fhir:v "Test Type Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-12T09:40:09+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for test types."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "124"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AESCULINE_DIHYDROLASE_TEST" ] ;
+     fhir:display [ fhir:v "Aesculine dihydrolase test" ]
+  ] [
+     fhir:code [ fhir:v "AGAR_GEL_IMMUNODIFFUSION_(AGID)" ] ;
+     fhir:display [ fhir:v "Agar-gel immunodiffusion (AGID)" ]
+  ] [
+     fhir:code [ fhir:v "AGAR_GEL_PRECIPITATION_(AGP)" ] ;
+     fhir:display [ fhir:v "Agar-gel precipitation (AGP)" ]
+  ] [
+     fhir:code [ fhir:v "ANATOMO_PATHOLOGICAL_EXAMINATION" ] ;
+     fhir:display [ fhir:v "Anatomo-pathological examination" ]
+  ] [
+     fhir:code [ fhir:v "ANTIBODY_DETECTION_ELISA" ] ;
+     fhir:display [ fhir:v "Antibody detection ELISA" ]
+  ] [
+     fhir:code [ fhir:v "ANTIGEN_DETECTION_ELISA" ] ;
+     fhir:display [ fhir:v "Antigen detection ELISA" ]
+  ] [
+     fhir:code [ fhir:v "ARGININE_DIHYDROLASE_TEST" ] ;
+     fhir:display [ fhir:v "Arginine dihydrolase test" ]
+  ] [
+     fhir:code [ fhir:v "BACTERIOLOGICAL_EXAMINATION" ] ;
+     fhir:display [ fhir:v "Bacteriological examination" ]
+  ] [
+     fhir:code [ fhir:v "BRUCELLOSIS_TEST" ] ;
+     fhir:display [ fhir:v "Brucellosis test" ]
+  ] [
+     fhir:code [ fhir:v "BSE_ANTIGEN_TEST_KIT" ] ;
+     fhir:display [ fhir:v "BSE Antigen Test kit" ]
+  ] [
+     fhir:code [ fhir:v "BUFFY_COAT_EXAMINATION" ] ;
+     fhir:display [ fhir:v "Buffy coat examination" ]
+  ] [
+     fhir:code [ fhir:v "BUTTER_FAT_TEST" ] ;
+     fhir:display [ fhir:v "Butter fat test" ]
+  ] [
+     fhir:code [ fhir:v "CALCIUM_TEST_IN_FEED" ] ;
+     fhir:display [ fhir:v "Calcium test in feed" ]
+  ] [
+     fhir:code [ fhir:v "CARBOHYDRATE_FERMINTATION_TEST" ] ;
+     fhir:display [ fhir:v "Carbohydrate fermintation test" ]
+  ] [
+     fhir:code [ fhir:v "CASEIN_HYDROLYSIS_TEST" ] ;
+     fhir:display [ fhir:v "Casein hydrolysis test" ]
+  ] [
+     fhir:code [ fhir:v "CATALASE_TEST" ] ;
+     fhir:display [ fhir:v "Catalase test" ]
+  ] [
+     fhir:code [ fhir:v "CENTRIFUGATION_TEST" ] ;
+     fhir:display [ fhir:v "Centrifugation test" ]
+  ] [
+     fhir:code [ fhir:v "CITRATE_TESTVOGES_PROSKAEUR_TEST" ] ;
+     fhir:display [ fhir:v "Citrate testVoges proskaeur test" ]
+  ] [
+     fhir:code [ fhir:v "COAGULATE_TEST" ] ;
+     fhir:display [ fhir:v "Coagulate test" ]
+  ] [
+     fhir:code [ fhir:v "COGGIN'S_TEST" ] ;
+     fhir:display [ fhir:v "Coggin's test" ]
+  ] [
+     fhir:code [ fhir:v "COMPETITIVE_ELISA_(C_ELISA)" ] ;
+     fhir:display [ fhir:v "Competitive ELISA (c-ELISA)" ]
+  ] [
+     fhir:code [ fhir:v "COMPLEMENT_FIXATION_TEST_(CFT)" ] ;
+     fhir:display [ fhir:v "Complement fixation test (CFT)" ]
+  ] [
+     fhir:code [ fhir:v "CULTURE_FOR_MYCOPLASMA" ] ;
+     fhir:display [ fhir:v "Culture for Mycoplasma" ]
+  ] [
+     fhir:code [ fhir:v "DET_BIRBRIGHT" ] ;
+     fhir:display [ fhir:v "Det Birbright" ]
+  ] [
+     fhir:code [ fhir:v "DIRECT_FLUORESCENT_ANTIBODY_(FAT)_TEST" ] ;
+     fhir:display [ fhir:v "Direct fluorescent antibody (FAT) test" ]
+  ] [
+     fhir:code [ fhir:v "DIRECT_IMMUNOFLUORESCENCE_(DIF)" ] ;
+     fhir:display [ fhir:v "Direct immunofluorescence (DIF)" ]
+  ] [
+     fhir:code [ fhir:v "DIRECT_RAPID_IMMUNOHISTOCHEMICAL_TEST_(DRIT)" ] ;
+     fhir:display [ fhir:v "Direct rapid immunohistochemical test (DRIT)" ]
+  ] [
+     fhir:code [ fhir:v "DIRECT_SMEAR_EXAMINATION" ] ;
+     fhir:display [ fhir:v "Direct smear examination" ]
+  ] [
+     fhir:code [ fhir:v "EGG_INOCULATON" ] ;
+     fhir:display [ fhir:v "Egg inoculaton" ]
+  ] [
+     fhir:code [ fhir:v "ELECTROIMMUNOTRANSFER_BLOT_ASSAY_(EITB)" ] ;
+     fhir:display [ fhir:v "Electroimmunotransfer blot assay (EITB)" ]
+  ] [
+     fhir:code [ fhir:v "ELECTRON_MICROSCOPY" ] ;
+     fhir:display [ fhir:v "Electron microscopy" ]
+  ] [
+     fhir:code [ fhir:v "ELISA_3ABC" ] ;
+     fhir:display [ fhir:v "ELISA 3ABC" ]
+  ] [
+     fhir:code [ fhir:v "ENTOMOLOGICAL_INVESTIGATIONS" ] ;
+     fhir:display [ fhir:v "Entomological investigations" ]
+  ] [
+     fhir:code [ fhir:v "ENZYM_IMMUNOASSAY_(EIA)_MEMBRANE_TEST" ] ;
+     fhir:display [ fhir:v "Enzym immunoassay (EIA) membrane test" ]
+  ] [
+     fhir:code [ fhir:v "ENZYME_LINKED_IMMUNOSORBENT_ASSAY_(ELISA)" ] ;
+     fhir:display [ fhir:v "Enzyme-linked immunosorbent assay (ELISA)" ]
+  ] [
+     fhir:code [ fhir:v "FLOATATION_TEST" ] ;
+     fhir:display [ fhir:v "Floatation test" ]
+  ] [
+     fhir:code [ fhir:v "FLUORESCENT_ANTIBODY_VIRUS" ] ;
+     fhir:display [ fhir:v "Fluorescent antibody virus" ]
+  ] [
+     fhir:code [ fhir:v "FUORESCENCE_POLARISATION_ASSAY_(FPA)" ] ;
+     fhir:display [ fhir:v "Fuorescence polarisation assay (FPA)" ]
+  ] [
+     fhir:code [ fhir:v "GELATIN_HYDROLYSIS_TEST" ] ;
+     fhir:display [ fhir:v "Gelatin hydrolysis test" ]
+  ] [
+     fhir:code [ fhir:v "GENE_SEQUENCING" ] ;
+     fhir:display [ fhir:v "Gene sequencing" ]
+  ] [
+     fhir:code [ fhir:v "GIEMSA_STAINING" ] ;
+     fhir:display [ fhir:v "Giemsa staining" ]
+  ] [
+     fhir:code [ fhir:v "GLUCONATE_TEST" ] ;
+     fhir:display [ fhir:v "Gluconate test" ]
+  ] [
+     fhir:code [ fhir:v "GRAM_STAINING" ] ;
+     fhir:display [ fhir:v "Gram staining" ]
+  ] [
+     fhir:code [ fhir:v "HAEMAGGLUTINATION_(HA)_TEST" ] ;
+     fhir:display [ fhir:v "Haemagglutination (HA) test" ]
+  ] [
+     fhir:code [ fhir:v "HAEMAGGLUTINATION_INHIBITION_TEST_(HIT)" ] ;
+     fhir:display [ fhir:v "Haemagglutination inhibition test (HIT)" ]
+  ] [
+     fhir:code [ fhir:v "HISTOLOGICAL_TEST" ] ;
+     fhir:display [ fhir:v "Histological test" ]
+  ] [
+     fhir:code [ fhir:v "HISTOPATHOLOGICAL_EXAMINATION" ] ;
+     fhir:display [ fhir:v "Histopathological examination" ]
+  ] [
+     fhir:code [ fhir:v "IGG" ] ;
+     fhir:display [ fhir:v "IgG" ]
+  ] [
+     fhir:code [ fhir:v "IGG_CAPTURE_ELISA" ] ;
+     fhir:display [ fhir:v "IgG-capture ELISA" ]
+  ] [
+     fhir:code [ fhir:v "IGM" ] ;
+     fhir:display [ fhir:v "IgM" ]
+  ] [
+     fhir:code [ fhir:v "IGM_CAPTURE_ELISA" ] ;
+     fhir:display [ fhir:v "IgM-capture ELISA" ]
+  ] [
+     fhir:code [ fhir:v "IMMUNE_ELECTRON_MICROSCOPY" ] ;
+     fhir:display [ fhir:v "Immune electron microscopy" ]
+  ] [
+     fhir:code [ fhir:v "IMMUNO_BLOTTING_(IB)" ] ;
+     fhir:display [ fhir:v "Immuno-blotting (IB)" ]
+  ] [
+     fhir:code [ fhir:v "IMMUNOCAPTURE_ELISA" ] ;
+     fhir:display [ fhir:v "Immunocapture ELISA" ]
+  ] [
+     fhir:code [ fhir:v "IMMUNOELECTROPHORESIS_TEST_(IEPT)" ] ;
+     fhir:display [ fhir:v "Immunoelectrophoresis test (IEPT)" ]
+  ] [
+     fhir:code [ fhir:v "IMMUNOHISTOCHEMICAL_TEST" ] ;
+     fhir:display [ fhir:v "Immunohistochemical test" ]
+  ] [
+     fhir:code [ fhir:v "IMMUNOPEROXIDASE_MONOLAYER_ASSAY_(IPMA)" ] ;
+     fhir:display [ fhir:v "Immunoperoxidase monolayer assay (IPMA)" ]
+  ] [
+     fhir:code [ fhir:v "IN_SITU_HYBRIDISATION_(ISH)" ] ;
+     fhir:display [ fhir:v "In situ hybridisation (ISH)" ]
+  ] [
+     fhir:code [ fhir:v "INDIRECT_ELISA" ] ;
+     fhir:display [ fhir:v "Indirect ELISA" ]
+  ] [
+     fhir:code [ fhir:v "INDIRECT_FLUORESCENT_ANTIBODY_(IFA)_TEST" ] ;
+     fhir:display [ fhir:v "Indirect fluorescent antibody (IFA) test" ]
+  ] [
+     fhir:code [ fhir:v "INDIRECT_SANDWICH_ELISA" ] ;
+     fhir:display [ fhir:v "Indirect sandwich ELISA" ]
+  ] [
+     fhir:code [ fhir:v "INDOLE_TEST" ] ;
+     fhir:display [ fhir:v "Indole test" ]
+  ] [
+     fhir:code [ fhir:v "INOCULATION_TEST" ] ;
+     fhir:display [ fhir:v "Inoculation test" ]
+  ] [
+     fhir:code [ fhir:v "INTRACEREBRAL_PATHOGENICITY_INDEX_(ICPI)_TEST" ] ;
+     fhir:display [ fhir:v "Intracerebral pathogenicity index (ICPI) test" ]
+  ] [
+     fhir:code [ fhir:v "INTRAVENOUS_PATHOGENICITY_INDEX_(IVPI)_TEST" ] ;
+     fhir:display [ fhir:v "Intravenous pathogenicity index (IVPI) test" ]
+  ] [
+     fhir:code [ fhir:v "ISOENZYME_STUDIES" ] ;
+     fhir:display [ fhir:v "Isoenzyme studies" ]
+  ] [
+     fhir:code [ fhir:v "IZSLER_AG" ] ;
+     fhir:display [ fhir:v "Izsler Ag" ]
+  ] [
+     fhir:code [ fhir:v "IZSLER_ELISA" ] ;
+     fhir:display [ fhir:v "Izsler Elisa" ]
+  ] [
+     fhir:code [ fhir:v "LIQUID_PHASE_(LP)_BLOCKING_ELISA" ] ;
+     fhir:display [ fhir:v "Liquid-phase (LP) blocking ELISA" ]
+  ] [
+     fhir:code [ fhir:v "LUMINESCENCE_IMMUNOASSAY" ] ;
+     fhir:display [ fhir:v "Luminescence immunoassay" ]
+  ] [
+     fhir:code [ fhir:v "LYSINE_DECARBOXYLATE_TEST" ] ;
+     fhir:display [ fhir:v "Lysine decarboxylate test" ]
+  ] [
+     fhir:code [ fhir:v "MALLEIN_TEST" ] ;
+     fhir:display [ fhir:v "Mallein test" ]
+  ] [
+     fhir:code [ fhir:v "MICROSCOPIC_AGGLUTINATION_TEST_(MAT)" ] ;
+     fhir:display [ fhir:v "Microscopic agglutination test (MAT)" ]
+  ] [
+     fhir:code [ fhir:v "MICROSCOPIC_EXAMINATION" ] ;
+     fhir:display [ fhir:v "Microscopic examination" ]
+  ] [
+     fhir:code [ fhir:v "MICROSCOPIC_EXAMINATION_OF_LARVAE" ] ;
+     fhir:display [ fhir:v "Microscopic examination of larvae" ]
+  ] [
+     fhir:code [ fhir:v "MILK_DENSITY/MILK_QUALITY" ] ;
+     fhir:display [ fhir:v "Milk density/milk quality" ]
+  ] [
+     fhir:code [ fhir:v "MONOCLONAL_ANTIBODIES_(MAB)_TEST" ] ;
+     fhir:display [ fhir:v "Monoclonal antibodies (Mab) test" ]
+  ] [
+     fhir:code [ fhir:v "MOTILITY_TEST" ] ;
+     fhir:display [ fhir:v "Motility test" ]
+  ] [
+     fhir:code [ fhir:v "MULTIPLEX_PCR" ] ;
+     fhir:display [ fhir:v "Multiplex PCR" ]
+  ] [
+     fhir:code [ fhir:v "NESTED_RT_PCR" ] ;
+     fhir:display [ fhir:v "Nested RT-PCR" ]
+  ] [
+     fhir:code [ fhir:v "NEURAMINIDASE_INHIBITION_ASSAY" ] ;
+     fhir:display [ fhir:v "Neuraminidase inhibition assay" ]
+  ] [
+     fhir:code [ fhir:v "NEUTRALISATION_(FAVN)" ] ;
+     fhir:display [ fhir:v "Neutralisation (FAVN)" ]
+  ] [
+     fhir:code [ fhir:v "NITRATE_REDUCTION_TEST" ] ;
+     fhir:display [ fhir:v "Nitrate reduction test" ]
+  ] [
+     fhir:code [ fhir:v "NO_TEST_DONE" ] ;
+     fhir:display [ fhir:v "No test done" ]
+  ] [
+     fhir:code [ fhir:v "NON_STRUCTURAL_PROTEIN_ELISA" ] ;
+     fhir:display [ fhir:v "Non-structural protein ELISA" ]
+  ] [
+     fhir:code [ fhir:v "NOT_SPECIFIED_TEST" ] ;
+     fhir:display [ fhir:v "Not Specified Test" ]
+  ] [
+     fhir:code [ fhir:v "NPLA_(NEUTRALISING_PEROXIDASE_LINKED_ASSAY)" ] ;
+     fhir:display [ fhir:v "NPLA (Neutralising peroxidase-linked assay)" ]
+  ] [
+     fhir:code [ fhir:v "NUCLEOTIDE_SEQUENCING" ] ;
+     fhir:display [ fhir:v "Nucleotide sequencing" ]
+  ] [
+     fhir:code [ fhir:v "OPTICAL_MICROSCOPY" ] ;
+     fhir:display [ fhir:v "Optical microscopy" ]
+  ] [
+     fhir:code [ fhir:v "ORMITHIAMINE_DECARBOXYLASE_TEST" ] ;
+     fhir:display [ fhir:v "Ormithiamine decarboxylase test" ]
+  ] [
+     fhir:code [ fhir:v "OXIDASE_TEST" ] ;
+     fhir:display [ fhir:v "Oxidase test" ]
+  ] [
+     fhir:code [ fhir:v "PARASITOLOGICAL_EXAMINATION" ] ;
+     fhir:display [ fhir:v "Parasitological examination" ]
+  ] [
+     fhir:code [ fhir:v "PATHOGEN_ISOLATION_BY_EGG_INOCULATION" ] ;
+     fhir:display [ fhir:v "Pathogen isolation by egg inoculation" ]
+  ] [
+     fhir:code [ fhir:v "PATHOGEN_ISOLATION_ON_CELL_CULTURE" ] ;
+     fhir:display [ fhir:v "Pathogen isolation on cell culture" ]
+  ] [
+     fhir:code [ fhir:v "PH_TEST_(_FEEDSSEMEN)" ] ;
+     fhir:display [ fhir:v "PH test ( feeds,semen)" ]
+  ] [
+     fhir:code [ fhir:v "PHYLOGENETIC_ANALYSIS" ] ;
+     fhir:display [ fhir:v "Phylogenetic analysis" ]
+  ] [
+     fhir:code [ fhir:v "PLAQUE_REDUCTION_NEUTRALISATION_TEST_(PRN)" ] ;
+     fhir:display [ fhir:v "Plaque reduction neutralisation test (PRN)" ]
+  ] [
+     fhir:code [ fhir:v "POLYMERASE_CHAIN_REACTION_(PCR)" ] ;
+     fhir:display [ fhir:v "Polymerase chain reaction (PCR)" ]
+  ] [
+     fhir:code [ fhir:v "PROXIMATE_ANALYSIS" ] ;
+     fhir:display [ fhir:v "Proximate analysis (protein,fat,NFE,fiber and moisture)" ]
+  ] [
+     fhir:code [ fhir:v "RAPID_AGGULUTINATION_TEST" ] ;
+     fhir:display [ fhir:v "Rapid aggulutination test" ]
+  ] [
+     fhir:code [ fhir:v "RAPID_SERUM_AGGLUTINATION_(RSA)" ] ;
+     fhir:display [ fhir:v "Rapid serum agglutination (RSA)" ]
+  ] [
+     fhir:code [ fhir:v "RAPID_TESTS" ] ;
+     fhir:display [ fhir:v "Rapid tests" ]
+  ] [
+     fhir:code [ fhir:v "REAL_TIME_PCR" ] ;
+     fhir:display [ fhir:v "Real-time PCR" ]
+  ] [
+     fhir:code [ fhir:v "REAL_TIME_REVERSE_TRANSCRIPTASE/POLYMERASE" ] ;
+     fhir:display [ fhir:v "Real-time reverse transcriptase/polymerase chain reaction (RRT-PCR)" ]
+  ] [
+     fhir:code [ fhir:v "REVERSE_TRANSCRIPTION__POLYMERASE_CHAIN_REACTION" ] ;
+     fhir:display [ fhir:v "Reverse transcription - polymerase chain reaction" ]
+  ] [
+     fhir:code [ fhir:v "ROSE_BENGAL_TEST_(RBT)" ] ;
+     fhir:display [ fhir:v "Rose bengal test (RBT)" ]
+  ] [
+     fhir:code [ fhir:v "SELLER'S_TEST" ] ;
+     fhir:display [ fhir:v "Seller's test" ]
+  ] [
+     fhir:code [ fhir:v "SEMEN_EXAMINATION" ] ;
+     fhir:display [ fhir:v "Semen examination" ]
+  ] [
+     fhir:code [ fhir:v "SERONEUTRALISATION_TEST_(SNT)" ] ;
+     fhir:display [ fhir:v "Seroneutralisation test (SNT)" ]
+  ] [
+     fhir:code [ fhir:v "SEROTYPING" ] ;
+     fhir:display [ fhir:v "Serotyping" ]
+  ] [
+     fhir:code [ fhir:v "SERUM_AGGLUTINATION_TEST" ] ;
+     fhir:display [ fhir:v "Serum agglutination test" ]
+  ] [
+     fhir:code [ fhir:v "TISSUE_IMPRINTS" ] ;
+     fhir:display [ fhir:v "Tissue imprints" ]
+  ] [
+     fhir:code [ fhir:v "TRIPLE_SUGAR_IRON_AGAR_TEST" ] ;
+     fhir:display [ fhir:v "Triple sugar iron agar test" ]
+  ] [
+     fhir:code [ fhir:v "TUBE_AGGLUTINATION_TEST_(TAT)" ] ;
+     fhir:display [ fhir:v "Tube agglutination test (TAT)" ]
+  ] [
+     fhir:code [ fhir:v "TYPING_ELISA" ] ;
+     fhir:display [ fhir:v "Typing ELISA" ]
+  ] [
+     fhir:code [ fhir:v "UREASE_TEST" ] ;
+     fhir:display [ fhir:v "Urease test" ]
+  ] [
+     fhir:code [ fhir:v "VIRUS_ISOLATION" ] ;
+     fhir:display [ fhir:v "Virus isolation" ]
+  ] [
+     fhir:code [ fhir:v "VIRUS_NEUTRALISATION_TEST_(VNT)" ] ;
+     fhir:display [ fhir:v "Virus neutralisation test (VNT)" ]
+  ] [
+     fhir:code [ fhir:v "VIRUS_SEQUENCING" ] ;
+     fhir:display [ fhir:v "Virus sequencing" ]
+  ] [
+     fhir:code [ fhir:v "VIRUS_INFECTION_ASSOCIATED_ANTIGEN_(VIAA)" ] ;
+     fhir:display [ fhir:v "Virus-infection-associated antigen (VIAA)" ]
+  ] [
+     fhir:code [ fhir:v "WESTERN_BLOT_ANALYSIS" ] ;
+     fhir:display [ fhir:v "Western blot analysis" ]
+  ] [
+     fhir:code [ fhir:v "WESTERN_BLOTTING_(WB)" ] ;
+     fhir:display [ fhir:v "Western blotting (WB)" ]
+  ] [
+     fhir:code [ fhir:v "ZIEHL_NEELSEN_TEST" ] ;
+     fhir:display [ fhir:v "Ziehl Neelsen test" ]
+  ] [
+     fhir:code [ fhir:v "RTPCR" ] ;
+     fhir:display [ fhir:v "Reverse transcription - polymerase chain reaction (RT-PCR)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

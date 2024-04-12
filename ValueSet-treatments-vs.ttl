@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "TreatmentsVS"] ; # 
   fhir:title [ fhir:v "Treatments Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-11T13:02:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-12T09:40:09+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;

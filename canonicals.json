@@ -84,6 +84,13 @@
     "name" : "DistrictsCS"
   },
   {
+    "id" : "laboratory-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/laboratory-cs",
+    "version" : "0.1.0",
+    "name" : "LaboratoryCS"
+  },
+  {
     "id" : "locality-quality-cs",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
@@ -126,11 +133,32 @@
     "name" : "RegionsCS"
   },
   {
+    "id" : "sample-type-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/sample-type-cs",
+    "version" : "0.1.0",
+    "name" : "SampleTypeCS"
+  },
+  {
     "id" : "surveillance-type-cs",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/surveillance-type-cs",
     "version" : "0.1.0",
     "name" : "SurveillanceTypeCS"
+  },
+  {
+    "id" : "test-result-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/test-result-cs",
+    "version" : "0.1.0",
+    "name" : "TestResultCS"
+  },
+  {
+    "id" : "test-type-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/test-type-cs",
+    "version" : "0.1.0",
+    "name" : "TestTypeCS"
   },
   {
     "id" : "treatments-cs",
@@ -259,6 +287,20 @@
     "name" : "DistrictsVS"
   },
   {
+    "id" : "lab-diseases-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/lab-diseases-vs",
+    "version" : "0.1.0",
+    "name" : "LabDiseasesVS"
+  },
+  {
+    "id" : "laboratory-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/laboratory-vs",
+    "version" : "0.1.0",
+    "name" : "LaboratoryVS"
+  },
+  {
     "id" : "locality-quality-vs",
     "type" : "ValueSet",
     "url" : "https://dhis2.org/fhir/ValueSet/locality-quality-vs",
@@ -301,11 +343,32 @@
     "name" : "RegionsVS"
   },
   {
+    "id" : "sample-type-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/sample-type-vs",
+    "version" : "0.1.0",
+    "name" : "SampleTypeVS"
+  },
+  {
     "id" : "surveillance-type-vs",
     "type" : "ValueSet",
     "url" : "https://dhis2.org/fhir/ValueSet/surveillance-type-vs",
     "version" : "0.1.0",
     "name" : "SurveillanceTypeVS"
+  },
+  {
+    "id" : "test-result-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/test-result-vs",
+    "version" : "0.1.0",
+    "name" : "TestResultVS"
+  },
+  {
+    "id" : "test-type-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/test-type-vs",
+    "version" : "0.1.0",
+    "name" : "TestTypeVS"
   },
   {
     "id" : "treatments-vs",

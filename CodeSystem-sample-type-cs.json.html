@@ -1,0 +1,592 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Sample Type Code System - JSON Representation - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.49"}
+    h3,h4,h5,h6{--heading-prefix:"2.49"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Sample Type Code System</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CodeSystem-sample-type-cs.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-sample-type-cs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-sample-type-cs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Sample Type Code System - JSON Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2024-04-12
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-sample-type-cs.json" no-download="true">Raw json</a> | <a href="CodeSystem-sample-type-cs.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "sample-type-cs",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This  code system &lt;code&gt;https://dhis2.org/fhir/CodeSystem/sample-type-cs&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ABSCESS_(TUMOUR)_MATERIAL&lt;a name=\&quot;sample-type-cs-ABSCESS_.40TUMOUR.41_MATERIAL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abscess (Tumour) material&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BAIT&lt;a name=\&quot;sample-type-cs-BAIT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bait&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BIOPSY&lt;a name=\&quot;sample-type-cs-BIOPSY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Biopsy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BLOOD_SAMPLE&lt;a name=\&quot;sample-type-cs-BLOOD_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BLOOD_SMEAR&lt;a name=\&quot;sample-type-cs-BLOOD_SMEAR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood smear&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BODY_FLUID&lt;a name=\&quot;sample-type-cs-BODY_FLUID\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Body fluid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BONE_MARROW&lt;a name=\&quot;sample-type-cs-BONE_MARROW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bone marrow&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BONE_MEAL/BLOOD_MEAL&lt;a name=\&quot;sample-type-cs-BONE_MEAL.47BLOOD_MEAL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bone meal/Blood meal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BONE/BLOOD_MEAL&lt;a name=\&quot;sample-type-cs-BONE.47BLOOD_MEAL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bone/blood meal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BRAIN_IN_FORMALIN&lt;a name=\&quot;sample-type-cs-BRAIN_IN_FORMALIN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brain in formalin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BRAIN_IN_GLYCERINE&lt;a name=\&quot;sample-type-cs-BRAIN_IN_GLYCERINE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brain in glycerine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BRAIN_ON_ICE&lt;a name=\&quot;sample-type-cs-BRAIN_ON_ICE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brain on ice&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CADAVER&lt;a name=\&quot;sample-type-cs-CADAVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cadaver&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CARCASS&lt;a name=\&quot;sample-type-cs-CARCASS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Carcass&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CLOACAL_SWABS&lt;a name=\&quot;sample-type-cs-CLOACAL_SWABS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cloacal swabs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CRAB_SAMPLE&lt;a name=\&quot;sample-type-cs-CRAB_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Crab sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CROP_SAMPLE&lt;a name=\&quot;sample-type-cs-CROP_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Crop sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENVIRONMENTAL&lt;a name=\&quot;sample-type-cs-ENVIRONMENTAL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Environmental&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FAECES&lt;a name=\&quot;sample-type-cs-FAECES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Faeces&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FEATHER&lt;a name=\&quot;sample-type-cs-FEATHER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Feather&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FEED&lt;a name=\&quot;sample-type-cs-FEED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Feed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FILTER_PAPER_WITH_BLOOD&lt;a name=\&quot;sample-type-cs-FILTER_PAPER_WITH_BLOOD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Filter paper with blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FISH_SAMPLE&lt;a name=\&quot;sample-type-cs-FISH_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fish sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOETUS&lt;a name=\&quot;sample-type-cs-FOETUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Foetus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAIR&lt;a name=\&quot;sample-type-cs-HAIR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hair&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEAD&lt;a name=\&quot;sample-type-cs-HEAD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Head&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HONEY_BEE_SAMPLE&lt;a name=\&quot;sample-type-cs-HONEY_BEE_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Honey bee sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INSECT_SAMPLE&lt;a name=\&quot;sample-type-cs-INSECT_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Insect sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTESTINE_SCREAPING&lt;a name=\&quot;sample-type-cs-INTESTINE_SCREAPING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intestine screaping&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTESTINES&lt;a name=\&quot;sample-type-cs-INTESTINES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intestines&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTESTINES_CONTENT&lt;a name=\&quot;sample-type-cs-INTESTINES_CONTENT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intestines Content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;JOINT_FLUID&lt;a name=\&quot;sample-type-cs-JOINT_FLUID\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Joint fluid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LYMPHNODE_SMEAR&lt;a name=\&quot;sample-type-cs-LYMPHNODE_SMEAR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lymphnode smear&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MAIZE_BRAN&lt;a name=\&quot;sample-type-cs-MAIZE_BRAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maize bran&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MARINE_SAMPLE&lt;a name=\&quot;sample-type-cs-MARINE_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Marine sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MEAT_TRIMMINGS&lt;a name=\&quot;sample-type-cs-MEAT_TRIMMINGS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Meat Trimmings&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MILK&lt;a name=\&quot;sample-type-cs-MILK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Milk&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MUSCLE_SAMPLE&lt;a name=\&quot;sample-type-cs-MUSCLE_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NO_SAMPLE_TAKEN&lt;a name=\&quot;sample-type-cs-NO_SAMPLE_TAKEN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;No sample taken&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ORGAN_SAMPLE&lt;a name=\&quot;sample-type-cs-ORGAN_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Organ sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PLANT&lt;a name=\&quot;sample-type-cs-PLANT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PREPUCIAL_WASHINGS&lt;a name=\&quot;sample-type-cs-PREPUCIAL_WASHINGS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Prepucial washings&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PUS&lt;a name=\&quot;sample-type-cs-PUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RICE_BRAN&lt;a name=\&quot;sample-type-cs-RICE_BRAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rice bran&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SCRAPING&lt;a name=\&quot;sample-type-cs-SCRAPING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scraping&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEA_CUCCUMBER_SAMPLE&lt;a name=\&quot;sample-type-cs-SEA_CUCCUMBER_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sea cuccumber sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEMEN&lt;a name=\&quot;sample-type-cs-SEMEN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Semen&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SERUM&lt;a name=\&quot;sample-type-cs-SERUM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Serum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SKIN_SCRAPING&lt;a name=\&quot;sample-type-cs-SKIN_SCRAPING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Skin scraping&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SMEAR_(IMPRESSION)&lt;a name=\&quot;sample-type-cs-SMEAR_.40IMPRESSION.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Smear (impression)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;STOMACH_CONTENT&lt;a name=\&quot;sample-type-cs-STOMACH_CONTENT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Stomach content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;STOMOXYS_SAMPLE&lt;a name=\&quot;sample-type-cs-STOMOXYS_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Stomoxys sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWAB&lt;a name=\&quot;sample-type-cs-SWAB\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWAB_(ABATTOIR_HYGIENE)&lt;a name=\&quot;sample-type-cs-SWAB_.40ABATTOIR_HYGIENE.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab (abattoir hygiene)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWAB_(EYE)&lt;a name=\&quot;sample-type-cs-SWAB_.40EYE.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab (eye)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWAB_(NASAL)&lt;a name=\&quot;sample-type-cs-SWAB_.40NASAL.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab (nasal)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWAB_(THROAT)&lt;a name=\&quot;sample-type-cs-SWAB_.40THROAT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab (throat)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWAB_(VAGINAL)&lt;a name=\&quot;sample-type-cs-SWAB_.40VAGINAL.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab (vaginal)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THICK_BLOOD_SMEAR&lt;a name=\&quot;sample-type-cs-THICK_BLOOD_SMEAR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thick blood smear&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THIN_BLOOD_SMEAR&lt;a name=\&quot;sample-type-cs-THIN_BLOOD_SMEAR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thin blood smear&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TICK_SAMPLE&lt;a name=\&quot;sample-type-cs-TICK_SAMPLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tick sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TISSUE_IN_FORMALIN&lt;a name=\&quot;sample-type-cs-TISSUE_IN_FORMALIN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tissue in formalin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TISSUE_IN_PBS&lt;a name=\&quot;sample-type-cs-TISSUE_IN_PBS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tissue in PBS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TISSUE_ON_ICE&lt;a name=\&quot;sample-type-cs-TISSUE_ON_ICE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tissue on ice&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRACHEAL_SWABS&lt;a name=\&quot;sample-type-cs-TRACHEAL_SWABS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tracheal swabs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;URINE&lt;a name=\&quot;sample-type-cs-URINE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Urine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;UTERINE_CONTECT&lt;a name=\&quot;sample-type-cs-UTERINE_CONTECT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Uterine contect&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;UTERUS&lt;a name=\&quot;sample-type-cs-UTERUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Uterus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WATER&lt;a name=\&quot;sample-type-cs-WATER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Water&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WEAT_BRAN&lt;a name=\&quot;sample-type-cs-WEAT_BRAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Weat bran&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WHOLE_BLOOD&lt;a name=\&quot;sample-type-cs-WHOLE_BLOOD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Whole blood&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://dhis2.org/fhir/CodeSystem/sample-type-cs",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "SampleTypeCS",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Sample Type Code System",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-04-12T09:40:09+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "DHIS2",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "DHIS2",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://dhis2.org"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "johan.hole@dhis2.org"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Code system for sample types.",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 71,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ABSCESS_(TUMOUR)_MATERIAL",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Abscess (Tumour) material"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BAIT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bait"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BIOPSY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Biopsy"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BLOOD_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Blood sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BLOOD_SMEAR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Blood smear"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BODY_FLUID",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Body fluid"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BONE_MARROW",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bone marrow"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BONE_MEAL/BLOOD_MEAL",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bone meal/Blood meal"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BONE/BLOOD_MEAL",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bone/blood meal"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRAIN_IN_FORMALIN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Brain in formalin"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRAIN_IN_GLYCERINE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Brain in glycerine"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRAIN_ON_ICE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Brain on ice"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CADAVER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Cadaver"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CARCASS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Carcass"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CLOACAL_SWABS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Cloacal swabs"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CRAB_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Crab sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CROP_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Crop sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENVIRONMENTAL",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Environmental"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FAECES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Faeces"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FEATHER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Feather"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FEED",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Feed"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FILTER_PAPER_WITH_BLOOD",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Filter paper with blood"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FISH_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Fish sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FOETUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Foetus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HAIR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Hair"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HEAD",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Head"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HONEY_BEE_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Honey bee sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INSECT_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Insect sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INTESTINE_SCREAPING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Intestine screaping"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INTESTINES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Intestines"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INTESTINES_CONTENT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Intestines Content"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "JOINT_FLUID",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Joint fluid"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LYMPHNODE_SMEAR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Lymphnode smear"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MAIZE_BRAN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Maize bran"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MARINE_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Marine sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MEAT_TRIMMINGS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Meat Trimmings"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MILK",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Milk"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MUSCLE_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Muscle sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NO_SAMPLE_TAKEN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "No sample taken"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ORGAN_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Organ sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PLANT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Plant"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PREPUCIAL_WASHINGS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Prepucial washings"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Pus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RICE_BRAN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rice bran"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SCRAPING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Scraping"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SEA_CUCCUMBER_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Sea cuccumber sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SEMEN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Semen"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SERUM",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Serum"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SKIN_SCRAPING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Skin scraping"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SMEAR_(IMPRESSION)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Smear (impression)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "STOMACH_CONTENT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Stomach content"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "STOMOXYS_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Stomoxys sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWAB",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swab"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWAB_(ABATTOIR_HYGIENE)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swab (abattoir hygiene)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWAB_(EYE)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swab (eye)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWAB_(NASAL)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swab (nasal)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWAB_(THROAT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swab (throat)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SWAB_(VAGINAL)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Swab (vaginal)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "THICK_BLOOD_SMEAR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Thick blood smear"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "THIN_BLOOD_SMEAR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Thin blood smear"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TICK_SAMPLE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tick sample"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TISSUE_IN_FORMALIN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tissue in formalin"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TISSUE_IN_PBS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tissue in PBS"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TISSUE_ON_ICE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tissue on ice"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRACHEAL_SWABS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tracheal swabs"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "URINE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Urine"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "UTERINE_CONTECT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Uterine contect"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "UTERUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Uterus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WATER",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Water"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WEAT_BRAN",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Weat bran"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WHOLE_BLOOD",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Whole blood"
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 12, 2024 09:40+0000">2024-04-12</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="test-result-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/test-result-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">INCONCLUSIVE<a name="test-result-cs-INCONCLUSIVE"> </a></td><td>Inconclusive</td></tr><tr><td style="white-space:nowrap">NEGATIVE<a name="test-result-cs-NEGATIVE"> </a></td><td>Negative</td></tr><tr><td style="white-space:nowrap">NOT_TESTABLE<a name="test-result-cs-NOT_TESTABLE"> </a></td><td>Not Testable</td></tr><tr><td style="white-space:nowrap">PENDING<a name="test-result-cs-PENDING"> </a></td><td>Pending</td></tr><tr><td style="white-space:nowrap">POSITIVE<a name="test-result-cs-POSITIVE"> </a></td><td>Positive</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/fhir/CodeSystem/test-result-cs"/>
+  <version value="0.1.0"/>
+  <name value="TestResultCS"/>
+  <title value="Test Result Code System"/>
+  <status value="draft"/>
+  <date value="2024-04-12T09:40:09+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Code system for test results."/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="INCONCLUSIVE"/>
+    <display value="Inconclusive"/>
+  </concept>
+  <concept>
+    <code value="NEGATIVE"/>
+    <display value="Negative"/>
+  </concept>
+  <concept>
+    <code value="NOT_TESTABLE"/>
+    <display value="Not Testable"/>
+  </concept>
+  <concept>
+    <code value="PENDING"/>
+    <display value="Pending"/>
+  </concept>
+  <concept>
+    <code value="POSITIVE"/>
+    <display value="Positive"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sample-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/sample-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ABSCESS_(TUMOUR)_MATERIAL<a name="sample-type-cs-ABSCESS_.40TUMOUR.41_MATERIAL"> </a></td><td>Abscess (Tumour) material</td></tr><tr><td style="white-space:nowrap">BAIT<a name="sample-type-cs-BAIT"> </a></td><td>Bait</td></tr><tr><td style="white-space:nowrap">BIOPSY<a name="sample-type-cs-BIOPSY"> </a></td><td>Biopsy</td></tr><tr><td style="white-space:nowrap">BLOOD_SAMPLE<a name="sample-type-cs-BLOOD_SAMPLE"> </a></td><td>Blood sample</td></tr><tr><td style="white-space:nowrap">BLOOD_SMEAR<a name="sample-type-cs-BLOOD_SMEAR"> </a></td><td>Blood smear</td></tr><tr><td style="white-space:nowrap">BODY_FLUID<a name="sample-type-cs-BODY_FLUID"> </a></td><td>Body fluid</td></tr><tr><td style="white-space:nowrap">BONE_MARROW<a name="sample-type-cs-BONE_MARROW"> </a></td><td>Bone marrow</td></tr><tr><td style="white-space:nowrap">BONE_MEAL/BLOOD_MEAL<a name="sample-type-cs-BONE_MEAL.47BLOOD_MEAL"> </a></td><td>Bone meal/Blood meal</td></tr><tr><td style="white-space:nowrap">BONE/BLOOD_MEAL<a name="sample-type-cs-BONE.47BLOOD_MEAL"> </a></td><td>Bone/blood meal</td></tr><tr><td style="white-space:nowrap">BRAIN_IN_FORMALIN<a name="sample-type-cs-BRAIN_IN_FORMALIN"> </a></td><td>Brain in formalin</td></tr><tr><td style="white-space:nowrap">BRAIN_IN_GLYCERINE<a name="sample-type-cs-BRAIN_IN_GLYCERINE"> </a></td><td>Brain in glycerine</td></tr><tr><td style="white-space:nowrap">BRAIN_ON_ICE<a name="sample-type-cs-BRAIN_ON_ICE"> </a></td><td>Brain on ice</td></tr><tr><td style="white-space:nowrap">CADAVER<a name="sample-type-cs-CADAVER"> </a></td><td>Cadaver</td></tr><tr><td style="white-space:nowrap">CARCASS<a name="sample-type-cs-CARCASS"> </a></td><td>Carcass</td></tr><tr><td style="white-space:nowrap">CLOACAL_SWABS<a name="sample-type-cs-CLOACAL_SWABS"> </a></td><td>Cloacal swabs</td></tr><tr><td style="white-space:nowrap">CRAB_SAMPLE<a name="sample-type-cs-CRAB_SAMPLE"> </a></td><td>Crab sample</td></tr><tr><td style="white-space:nowrap">CROP_SAMPLE<a name="sample-type-cs-CROP_SAMPLE"> </a></td><td>Crop sample</td></tr><tr><td style="white-space:nowrap">ENVIRONMENTAL<a name="sample-type-cs-ENVIRONMENTAL"> </a></td><td>Environmental</td></tr><tr><td style="white-space:nowrap">FAECES<a name="sample-type-cs-FAECES"> </a></td><td>Faeces</td></tr><tr><td style="white-space:nowrap">FEATHER<a name="sample-type-cs-FEATHER"> </a></td><td>Feather</td></tr><tr><td style="white-space:nowrap">FEED<a name="sample-type-cs-FEED"> </a></td><td>Feed</td></tr><tr><td style="white-space:nowrap">FILTER_PAPER_WITH_BLOOD<a name="sample-type-cs-FILTER_PAPER_WITH_BLOOD"> </a></td><td>Filter paper with blood</td></tr><tr><td style="white-space:nowrap">FISH_SAMPLE<a name="sample-type-cs-FISH_SAMPLE"> </a></td><td>Fish sample</td></tr><tr><td style="white-space:nowrap">FOETUS<a name="sample-type-cs-FOETUS"> </a></td><td>Foetus</td></tr><tr><td style="white-space:nowrap">HAIR<a name="sample-type-cs-HAIR"> </a></td><td>Hair</td></tr><tr><td style="white-space:nowrap">HEAD<a name="sample-type-cs-HEAD"> </a></td><td>Head</td></tr><tr><td style="white-space:nowrap">HONEY_BEE_SAMPLE<a name="sample-type-cs-HONEY_BEE_SAMPLE"> </a></td><td>Honey bee sample</td></tr><tr><td style="white-space:nowrap">INSECT_SAMPLE<a name="sample-type-cs-INSECT_SAMPLE"> </a></td><td>Insect sample</td></tr><tr><td style="white-space:nowrap">INTESTINE_SCREAPING<a name="sample-type-cs-INTESTINE_SCREAPING"> </a></td><td>Intestine screaping</td></tr><tr><td style="white-space:nowrap">INTESTINES<a name="sample-type-cs-INTESTINES"> </a></td><td>Intestines</td></tr><tr><td style="white-space:nowrap">INTESTINES_CONTENT<a name="sample-type-cs-INTESTINES_CONTENT"> </a></td><td>Intestines Content</td></tr><tr><td style="white-space:nowrap">JOINT_FLUID<a name="sample-type-cs-JOINT_FLUID"> </a></td><td>Joint fluid</td></tr><tr><td style="white-space:nowrap">LYMPHNODE_SMEAR<a name="sample-type-cs-LYMPHNODE_SMEAR"> </a></td><td>Lymphnode smear</td></tr><tr><td style="white-space:nowrap">MAIZE_BRAN<a name="sample-type-cs-MAIZE_BRAN"> </a></td><td>Maize bran</td></tr><tr><td style="white-space:nowrap">MARINE_SAMPLE<a name="sample-type-cs-MARINE_SAMPLE"> </a></td><td>Marine sample</td></tr><tr><td style="white-space:nowrap">MEAT_TRIMMINGS<a name="sample-type-cs-MEAT_TRIMMINGS"> </a></td><td>Meat Trimmings</td></tr><tr><td style="white-space:nowrap">MILK<a name="sample-type-cs-MILK"> </a></td><td>Milk</td></tr><tr><td style="white-space:nowrap">MUSCLE_SAMPLE<a name="sample-type-cs-MUSCLE_SAMPLE"> </a></td><td>Muscle sample</td></tr><tr><td style="white-space:nowrap">NO_SAMPLE_TAKEN<a name="sample-type-cs-NO_SAMPLE_TAKEN"> </a></td><td>No sample taken</td></tr><tr><td style="white-space:nowrap">ORGAN_SAMPLE<a name="sample-type-cs-ORGAN_SAMPLE"> </a></td><td>Organ sample</td></tr><tr><td style="white-space:nowrap">PLANT<a name="sample-type-cs-PLANT"> </a></td><td>Plant</td></tr><tr><td style="white-space:nowrap">PREPUCIAL_WASHINGS<a name="sample-type-cs-PREPUCIAL_WASHINGS"> </a></td><td>Prepucial washings</td></tr><tr><td style="white-space:nowrap">PUS<a name="sample-type-cs-PUS"> </a></td><td>Pus</td></tr><tr><td style="white-space:nowrap">RICE_BRAN<a name="sample-type-cs-RICE_BRAN"> </a></td><td>Rice bran</td></tr><tr><td style="white-space:nowrap">SCRAPING<a name="sample-type-cs-SCRAPING"> </a></td><td>Scraping</td></tr><tr><td style="white-space:nowrap">SEA_CUCCUMBER_SAMPLE<a name="sample-type-cs-SEA_CUCCUMBER_SAMPLE"> </a></td><td>Sea cuccumber sample</td></tr><tr><td style="white-space:nowrap">SEMEN<a name="sample-type-cs-SEMEN"> </a></td><td>Semen</td></tr><tr><td style="white-space:nowrap">SERUM<a name="sample-type-cs-SERUM"> </a></td><td>Serum</td></tr><tr><td style="white-space:nowrap">SKIN_SCRAPING<a name="sample-type-cs-SKIN_SCRAPING"> </a></td><td>Skin scraping</td></tr><tr><td style="white-space:nowrap">SMEAR_(IMPRESSION)<a name="sample-type-cs-SMEAR_.40IMPRESSION.41"> </a></td><td>Smear (impression)</td></tr><tr><td style="white-space:nowrap">STOMACH_CONTENT<a name="sample-type-cs-STOMACH_CONTENT"> </a></td><td>Stomach content</td></tr><tr><td style="white-space:nowrap">STOMOXYS_SAMPLE<a name="sample-type-cs-STOMOXYS_SAMPLE"> </a></td><td>Stomoxys sample</td></tr><tr><td style="white-space:nowrap">SWAB<a name="sample-type-cs-SWAB"> </a></td><td>Swab</td></tr><tr><td style="white-space:nowrap">SWAB_(ABATTOIR_HYGIENE)<a name="sample-type-cs-SWAB_.40ABATTOIR_HYGIENE.41"> </a></td><td>Swab (abattoir hygiene)</td></tr><tr><td style="white-space:nowrap">SWAB_(EYE)<a name="sample-type-cs-SWAB_.40EYE.41"> </a></td><td>Swab (eye)</td></tr><tr><td style="white-space:nowrap">SWAB_(NASAL)<a name="sample-type-cs-SWAB_.40NASAL.41"> </a></td><td>Swab (nasal)</td></tr><tr><td style="white-space:nowrap">SWAB_(THROAT)<a name="sample-type-cs-SWAB_.40THROAT.41"> </a></td><td>Swab (throat)</td></tr><tr><td style="white-space:nowrap">SWAB_(VAGINAL)<a name="sample-type-cs-SWAB_.40VAGINAL.41"> </a></td><td>Swab (vaginal)</td></tr><tr><td style="white-space:nowrap">THICK_BLOOD_SMEAR<a name="sample-type-cs-THICK_BLOOD_SMEAR"> </a></td><td>Thick blood smear</td></tr><tr><td style="white-space:nowrap">THIN_BLOOD_SMEAR<a name="sample-type-cs-THIN_BLOOD_SMEAR"> </a></td><td>Thin blood smear</td></tr><tr><td style="white-space:nowrap">TICK_SAMPLE<a name="sample-type-cs-TICK_SAMPLE"> </a></td><td>Tick sample</td></tr><tr><td style="white-space:nowrap">TISSUE_IN_FORMALIN<a name="sample-type-cs-TISSUE_IN_FORMALIN"> </a></td><td>Tissue in formalin</td></tr><tr><td style="white-space:nowrap">TISSUE_IN_PBS<a name="sample-type-cs-TISSUE_IN_PBS"> </a></td><td>Tissue in PBS</td></tr><tr><td style="white-space:nowrap">TISSUE_ON_ICE<a name="sample-type-cs-TISSUE_ON_ICE"> </a></td><td>Tissue on ice</td></tr><tr><td style="white-space:nowrap">TRACHEAL_SWABS<a name="sample-type-cs-TRACHEAL_SWABS"> </a></td><td>Tracheal swabs</td></tr><tr><td style="white-space:nowrap">URINE<a name="sample-type-cs-URINE"> </a></td><td>Urine</td></tr><tr><td style="white-space:nowrap">UTERINE_CONTECT<a name="sample-type-cs-UTERINE_CONTECT"> </a></td><td>Uterine contect</td></tr><tr><td style="white-space:nowrap">UTERUS<a name="sample-type-cs-UTERUS"> </a></td><td>Uterus</td></tr><tr><td style="white-space:nowrap">WATER<a name="sample-type-cs-WATER"> </a></td><td>Water</td></tr><tr><td style="white-space:nowrap">WEAT_BRAN<a name="sample-type-cs-WEAT_BRAN"> </a></td><td>Weat bran</td></tr><tr><td style="white-space:nowrap">WHOLE_BLOOD<a name="sample-type-cs-WHOLE_BLOOD"> </a></td><td>Whole blood</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/fhir/CodeSystem/sample-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="SampleTypeCS"/>
+  <title value="Sample Type Code System"/>
+  <status value="draft"/>
+  <date value="2024-04-12T09:40:09+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Code system for sample types."/>
+  <content value="complete"/>
+  <count value="71"/>
+  <concept>
+    <code value="ABSCESS_(TUMOUR)_MATERIAL"/>
+    <display value="Abscess (Tumour) material"/>
+  </concept>
+  <concept>
+    <code value="BAIT"/>
+    <display value="Bait"/>
+  </concept>
+  <concept>
+    <code value="BIOPSY"/>
+    <display value="Biopsy"/>
+  </concept>
+  <concept>
+    <code value="BLOOD_SAMPLE"/>
+    <display value="Blood sample"/>
+  </concept>
+  <concept>
+    <code value="BLOOD_SMEAR"/>
+    <display value="Blood smear"/>
+  </concept>
+  <concept>
+    <code value="BODY_FLUID"/>
+    <display value="Body fluid"/>
+  </concept>
+  <concept>
+    <code value="BONE_MARROW"/>
+    <display value="Bone marrow"/>
+  </concept>
+  <concept>
+    <code value="BONE_MEAL/BLOOD_MEAL"/>
+    <display value="Bone meal/Blood meal"/>
+  </concept>
+  <concept>
+    <code value="BONE/BLOOD_MEAL"/>
+    <display value="Bone/blood meal"/>
+  </concept>
+  <concept>
+    <code value="BRAIN_IN_FORMALIN"/>
+    <display value="Brain in formalin"/>
+  </concept>
+  <concept>
+    <code value="BRAIN_IN_GLYCERINE"/>
+    <display value="Brain in glycerine"/>
+  </concept>
+  <concept>
+    <code value="BRAIN_ON_ICE"/>
+    <display value="Brain on ice"/>
+  </concept>
+  <concept>
+    <code value="CADAVER"/>
+    <display value="Cadaver"/>
+  </concept>
+  <concept>
+    <code value="CARCASS"/>
+    <display value="Carcass"/>
+  </concept>
+  <concept>
+    <code value="CLOACAL_SWABS"/>
+    <display value="Cloacal swabs"/>
+  </concept>
+  <concept>
+    <code value="CRAB_SAMPLE"/>
+    <display value="Crab sample"/>
+  </concept>
+  <concept>
+    <code value="CROP_SAMPLE"/>
+    <display value="Crop sample"/>
+  </concept>
+  <concept>
+    <code value="ENVIRONMENTAL"/>
+    <display value="Environmental"/>
+  </concept>
+  <concept>
+    <code value="FAECES"/>
+    <display value="Faeces"/>
+  </concept>
+  <concept>
+    <code value="FEATHER"/>
+    <display value="Feather"/>
+  </concept>
+  <concept>
+    <code value="FEED"/>
+    <display value="Feed"/>
+  </concept>
+  <concept>
+    <code value="FILTER_PAPER_WITH_BLOOD"/>
+    <display value="Filter paper with blood"/>
+  </concept>
+  <concept>
+    <code value="FISH_SAMPLE"/>
+    <display value="Fish sample"/>
+  </concept>
+  <concept>
+    <code value="FOETUS"/>
+    <display value="Foetus"/>
+  </concept>
+  <concept>
+    <code value="HAIR"/>
+    <display value="Hair"/>
+  </concept>
+  <concept>
+    <code value="HEAD"/>
+    <display value="Head"/>
+  </concept>
+  <concept>
+    <code value="HONEY_BEE_SAMPLE"/>
+    <display value="Honey bee sample"/>
+  </concept>
+  <concept>
+    <code value="INSECT_SAMPLE"/>
+    <display value="Insect sample"/>
+  </concept>
+  <concept>
+    <code value="INTESTINE_SCREAPING"/>
+    <display value="Intestine screaping"/>
+  </concept>
+  <concept>
+    <code value="INTESTINES"/>
+    <display value="Intestines"/>
+  </concept>
+  <concept>
+    <code value="INTESTINES_CONTENT"/>
+    <display value="Intestines Content"/>
+  </concept>
+  <concept>
+    <code value="JOINT_FLUID"/>
+    <display value="Joint fluid"/>
+  </concept>
+  <concept>
+    <code value="LYMPHNODE_SMEAR"/>
+    <display value="Lymphnode smear"/>
+  </concept>
+  <concept>
+    <code value="MAIZE_BRAN"/>
+    <display value="Maize bran"/>
+  </concept>
+  <concept>
+    <code value="MARINE_SAMPLE"/>
+    <display value="Marine sample"/>
+  </concept>
+  <concept>
+    <code value="MEAT_TRIMMINGS"/>
+    <display value="Meat Trimmings"/>
+  </concept>
+  <concept>
+    <code value="MILK"/>
+    <display value="Milk"/>
+  </concept>
+  <concept>
+    <code value="MUSCLE_SAMPLE"/>
+    <display value="Muscle sample"/>
+  </concept>
+  <concept>
+    <code value="NO_SAMPLE_TAKEN"/>
+    <display value="No sample taken"/>
+  </concept>
+  <concept>
+    <code value="ORGAN_SAMPLE"/>
+    <display value="Organ sample"/>
+  </concept>
+  <concept>
+    <code value="PLANT"/>
+    <display value="Plant"/>
+  </concept>
+  <concept>
+    <code value="PREPUCIAL_WASHINGS"/>
+    <display value="Prepucial washings"/>
+  </concept>
+  <concept>
+    <code value="PUS"/>
+    <display value="Pus"/>
+  </concept>
+  <concept>
+    <code value="RICE_BRAN"/>
+    <display value="Rice bran"/>
+  </concept>
+  <concept>
+    <code value="SCRAPING"/>
+    <display value="Scraping"/>
+  </concept>
+  <concept>
+    <code value="SEA_CUCCUMBER_SAMPLE"/>
+    <display value="Sea cuccumber sample"/>
+  </concept>
+  <concept>
+    <code value="SEMEN"/>
+    <display value="Semen"/>
+  </concept>
+  <concept>
+    <code value="SERUM"/>
+    <display value="Serum"/>
+  </concept>
+  <concept>
+    <code value="SKIN_SCRAPING"/>
+    <display value="Skin scraping"/>
+  </concept>
+  <concept>
+    <code value="SMEAR_(IMPRESSION)"/>
+    <display value="Smear (impression)"/>
+  </concept>
+  <concept>
+    <code value="STOMACH_CONTENT"/>
+    <display value="Stomach content"/>
+  </concept>
+  <concept>
+    <code value="STOMOXYS_SAMPLE"/>
+    <display value="Stomoxys sample"/>
+  </concept>
+  <concept>
+    <code value="SWAB"/>
+    <display value="Swab"/>
+  </concept>
+  <concept>
+    <code value="SWAB_(ABATTOIR_HYGIENE)"/>
+    <display value="Swab (abattoir hygiene)"/>
+  </concept>
+  <concept>
+    <code value="SWAB_(EYE)"/>
+    <display value="Swab (eye)"/>
+  </concept>
+  <concept>
+    <code value="SWAB_(NASAL)"/>
+    <display value="Swab (nasal)"/>
+  </concept>
+  <concept>
+    <code value="SWAB_(THROAT)"/>
+    <display value="Swab (throat)"/>
+  </concept>
+  <concept>
+    <code value="SWAB_(VAGINAL)"/>
+    <display value="Swab (vaginal)"/>
+  </concept>
+  <concept>
+    <code value="THICK_BLOOD_SMEAR"/>
+    <display value="Thick blood smear"/>
+  </concept>
+  <concept>
+    <code value="THIN_BLOOD_SMEAR"/>
+    <display value="Thin blood smear"/>
+  </concept>
+  <concept>
+    <code value="TICK_SAMPLE"/>
+    <display value="Tick sample"/>
+  </concept>
+  <concept>
+    <code value="TISSUE_IN_FORMALIN"/>
+    <display value="Tissue in formalin"/>
+  </concept>
+  <concept>
+    <code value="TISSUE_IN_PBS"/>
+    <display value="Tissue in PBS"/>
+  </concept>
+  <concept>
+    <code value="TISSUE_ON_ICE"/>
+    <display value="Tissue on ice"/>
+  </concept>
+  <concept>
+    <code value="TRACHEAL_SWABS"/>
+    <display value="Tracheal swabs"/>
+  </concept>
+  <concept>
+    <code value="URINE"/>
+    <display value="Urine"/>
+  </concept>
+  <concept>
+    <code value="UTERINE_CONTECT"/>
+    <display value="Uterine contect"/>
+  </concept>
+  <concept>
+    <code value="UTERUS"/>
+    <display value="Uterus"/>
+  </concept>
+  <concept>
+    <code value="WATER"/>
+    <display value="Water"/>
+  </concept>
+  <concept>
+    <code value="WEAT_BRAN"/>
+    <display value="Weat bran"/>
+  </concept>
+  <concept>
+    <code value="WHOLE_BLOOD"/>
+    <display value="Whole blood"/>
+  </concept>
+</CodeSystem>

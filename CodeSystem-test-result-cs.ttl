@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/test-result-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "test-result-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/test-result-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">INCONCLUSIVE<a name=\"test-result-cs-INCONCLUSIVE\"> </a></td><td>Inconclusive</td></tr><tr><td style=\"white-space:nowrap\">NEGATIVE<a name=\"test-result-cs-NEGATIVE\"> </a></td><td>Negative</td></tr><tr><td style=\"white-space:nowrap\">NOT_TESTABLE<a name=\"test-result-cs-NOT_TESTABLE\"> </a></td><td>Not Testable</td></tr><tr><td style=\"white-space:nowrap\">PENDING<a name=\"test-result-cs-PENDING\"> </a></td><td>Pending</td></tr><tr><td style=\"white-space:nowrap\">POSITIVE<a name=\"test-result-cs-POSITIVE\"> </a></td><td>Positive</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/test-result-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TestResultCS"] ; # 
+  fhir:title [ fhir:v "Test Result Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-12T09:40:09+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for test results."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "INCONCLUSIVE" ] ;
+     fhir:display [ fhir:v "Inconclusive" ]
+  ] [
+     fhir:code [ fhir:v "NEGATIVE" ] ;
+     fhir:display [ fhir:v "Negative" ]
+  ] [
+     fhir:code [ fhir:v "NOT_TESTABLE" ] ;
+     fhir:display [ fhir:v "Not Testable" ]
+  ] [
+     fhir:code [ fhir:v "PENDING" ] ;
+     fhir:display [ fhir:v "Pending" ]
+  ] [
+     fhir:code [ fhir:v "POSITIVE" ] ;
+     fhir:display [ fhir:v "Positive" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -109,6 +109,24 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/districts-cs"]
     },
     {
+      "url" : "https://dhis2.org/fhir/ValueSet/lab-diseases-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LabDiseasesVS",
+      "title" : "Lab Diseases Value Set",
+      "description" : "Value set for lab diseases.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/diseases-cs"]
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/laboratory-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LaboratoryVS",
+      "title" : "Laboratory Value Set",
+      "description" : "Value set of laboratories.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/laboratory-cs"]
+    },
+    {
       "url" : "https://dhis2.org/fhir/ValueSet/locality-quality-vs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -163,6 +181,15 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/regions-cs"]
     },
     {
+      "url" : "https://dhis2.org/fhir/ValueSet/sample-type-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SampleTypeVS",
+      "title" : "Sample Type Value Set",
+      "description" : "Value set for sample types.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/sample-type-cs"]
+    },
+    {
       "url" : "https://dhis2.org/fhir/ValueSet/surveillance-type-vs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -170,6 +197,24 @@
       "title" : "Surveillance Type Value Set",
       "description" : "Value set for surveillance types.",
       "systems" : ["https://dhis2.org/fhir/CodeSystem/surveillance-type-cs"]
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/test-result-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TestResultVS",
+      "title" : "Test Result Value Set",
+      "description" : "Value set for test results.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/test-result-cs"]
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/test-type-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TestTypeVS",
+      "title" : "Test Type Value Set",
+      "description" : "Value set for test types.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/test-type-cs"]
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/treatments-vs",

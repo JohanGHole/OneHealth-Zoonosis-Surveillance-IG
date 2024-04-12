@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Test Type Value Set - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.27"}
+    h3,h4,h5,h6{--heading-prefix:"2.27"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Test Type Value Set</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-test-type-vs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-test-type-vs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-test-type-vs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Test Type Value Set
+
+  </h2>
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/ValueSet/test-type-vs<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/test-type-vs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/test-type-vs|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-04-12
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">TestTypeVS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Value set for test types.</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-Laboratory.html">Logical Model - Laboratory</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-test-type-cs.html"><code>https://dhis2.org/fhir/CodeSystem/test-type-cs</code></a></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-test-type-cs.html">codesystem Test Type Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 124 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-AESCULINE-DIHYDROLASE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-AESCULINE_DIHYDROLASE_TEST">AESCULINE_DIHYDROLASE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Aesculine dihydrolase test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-AGAR-GEL-IMMUNODIFFUSION--AGID-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-AGAR_GEL_IMMUNODIFFUSION_.40AGID.41">AGAR_GEL_IMMUNODIFFUSION_(AGID)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Agar-gel immunodiffusion (AGID)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-AGAR-GEL-PRECIPITATION--AGP-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-AGAR_GEL_PRECIPITATION_.40AGP.41">AGAR_GEL_PRECIPITATION_(AGP)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Agar-gel precipitation (AGP)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ANATOMO-PATHOLOGICAL-EXAMINATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ANATOMO_PATHOLOGICAL_EXAMINATION">ANATOMO_PATHOLOGICAL_EXAMINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Anatomo-pathological examination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ANTIBODY-DETECTION-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ANTIBODY_DETECTION_ELISA">ANTIBODY_DETECTION_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Antibody detection ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ANTIGEN-DETECTION-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ANTIGEN_DETECTION_ELISA">ANTIGEN_DETECTION_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Antigen detection ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ARGININE-DIHYDROLASE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ARGININE_DIHYDROLASE_TEST">ARGININE_DIHYDROLASE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Arginine dihydrolase test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-BACTERIOLOGICAL-EXAMINATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-BACTERIOLOGICAL_EXAMINATION">BACTERIOLOGICAL_EXAMINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Bacteriological examination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-BRUCELLOSIS-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-BRUCELLOSIS_TEST">BRUCELLOSIS_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Brucellosis test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-BSE-ANTIGEN-TEST-KIT"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-BSE_ANTIGEN_TEST_KIT">BSE_ANTIGEN_TEST_KIT</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>BSE Antigen Test kit</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-BUFFY-COAT-EXAMINATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-BUFFY_COAT_EXAMINATION">BUFFY_COAT_EXAMINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Buffy coat examination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-BUTTER-FAT-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-BUTTER_FAT_TEST">BUTTER_FAT_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Butter fat test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-CALCIUM-TEST-IN-FEED"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-CALCIUM_TEST_IN_FEED">CALCIUM_TEST_IN_FEED</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Calcium test in feed</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-CARBOHYDRATE-FERMINTATION-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-CARBOHYDRATE_FERMINTATION_TEST">CARBOHYDRATE_FERMINTATION_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Carbohydrate fermintation test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-CASEIN-HYDROLYSIS-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-CASEIN_HYDROLYSIS_TEST">CASEIN_HYDROLYSIS_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Casein hydrolysis test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-CATALASE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-CATALASE_TEST">CATALASE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Catalase test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-CENTRIFUGATION-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-CENTRIFUGATION_TEST">CENTRIFUGATION_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Centrifugation test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-CITRATE-TESTVOGES-PROSKAEUR-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-CITRATE_TESTVOGES_PROSKAEUR_TEST">CITRATE_TESTVOGES_PROSKAEUR_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Citrate testVoges proskaeur test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-COAGULATE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-COAGULATE_TEST">COAGULATE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Coagulate test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-COGGIN-S-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-COGGIN.39S_TEST">COGGIN'S_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Coggin's test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-COMPETITIVE-ELISA--C-ELISA-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-COMPETITIVE_ELISA_.40C_ELISA.41">COMPETITIVE_ELISA_(C_ELISA)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Competitive ELISA (c-ELISA)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-COMPLEMENT-FIXATION-TEST--CFT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-COMPLEMENT_FIXATION_TEST_.40CFT.41">COMPLEMENT_FIXATION_TEST_(CFT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Complement fixation test (CFT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-CULTURE-FOR-MYCOPLASMA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-CULTURE_FOR_MYCOPLASMA">CULTURE_FOR_MYCOPLASMA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Culture for Mycoplasma</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-DET-BIRBRIGHT"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-DET_BIRBRIGHT">DET_BIRBRIGHT</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Det Birbright</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-DIRECT-FLUORESCENT-ANTIBODY--FAT--TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-DIRECT_FLUORESCENT_ANTIBODY_.40FAT.41_TEST">DIRECT_FLUORESCENT_ANTIBODY_(FAT)_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Direct fluorescent antibody (FAT) test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-DIRECT-IMMUNOFLUORESCENCE--DIF-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-DIRECT_IMMUNOFLUORESCENCE_.40DIF.41">DIRECT_IMMUNOFLUORESCENCE_(DIF)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Direct immunofluorescence (DIF)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-DIRECT-RAPID-IMMUNOHISTOCHEMICAL-TEST--DRIT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-DIRECT_RAPID_IMMUNOHISTOCHEMICAL_TEST_.40DRIT.41">DIRECT_RAPID_IMMUNOHISTOCHEMICAL_TEST_(DRIT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Direct rapid immunohistochemical test (DRIT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-DIRECT-SMEAR-EXAMINATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-DIRECT_SMEAR_EXAMINATION">DIRECT_SMEAR_EXAMINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Direct smear examination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-EGG-INOCULATON"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-EGG_INOCULATON">EGG_INOCULATON</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Egg inoculaton</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ELECTROIMMUNOTRANSFER-BLOT-ASSAY--EITB-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ELECTROIMMUNOTRANSFER_BLOT_ASSAY_.40EITB.41">ELECTROIMMUNOTRANSFER_BLOT_ASSAY_(EITB)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Electroimmunotransfer blot assay (EITB)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ELECTRON-MICROSCOPY"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ELECTRON_MICROSCOPY">ELECTRON_MICROSCOPY</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Electron microscopy</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ELISA-3ABC"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ELISA_3ABC">ELISA_3ABC</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>ELISA 3ABC</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ENTOMOLOGICAL-INVESTIGATIONS"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ENTOMOLOGICAL_INVESTIGATIONS">ENTOMOLOGICAL_INVESTIGATIONS</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Entomological investigations</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ENZYM-IMMUNOASSAY--EIA--MEMBRANE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ENZYM_IMMUNOASSAY_.40EIA.41_MEMBRANE_TEST">ENZYM_IMMUNOASSAY_(EIA)_MEMBRANE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Enzym immunoassay (EIA) membrane test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ENZYME-LINKED-IMMUNOSORBENT-ASSAY--ELISA-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ENZYME_LINKED_IMMUNOSORBENT_ASSAY_.40ELISA.41">ENZYME_LINKED_IMMUNOSORBENT_ASSAY_(ELISA)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Enzyme-linked immunosorbent assay (ELISA)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-FLOATATION-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-FLOATATION_TEST">FLOATATION_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Floatation test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-FLUORESCENT-ANTIBODY-VIRUS"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-FLUORESCENT_ANTIBODY_VIRUS">FLUORESCENT_ANTIBODY_VIRUS</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Fluorescent antibody virus</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-FUORESCENCE-POLARISATION-ASSAY--FPA-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-FUORESCENCE_POLARISATION_ASSAY_.40FPA.41">FUORESCENCE_POLARISATION_ASSAY_(FPA)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Fuorescence polarisation assay (FPA)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-GELATIN-HYDROLYSIS-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-GELATIN_HYDROLYSIS_TEST">GELATIN_HYDROLYSIS_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Gelatin hydrolysis test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-GENE-SEQUENCING"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-GENE_SEQUENCING">GENE_SEQUENCING</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Gene sequencing</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-GIEMSA-STAINING"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-GIEMSA_STAINING">GIEMSA_STAINING</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Giemsa staining</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-GLUCONATE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-GLUCONATE_TEST">GLUCONATE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Gluconate test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-GRAM-STAINING"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-GRAM_STAINING">GRAM_STAINING</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Gram staining</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-HAEMAGGLUTINATION--HA--TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-HAEMAGGLUTINATION_.40HA.41_TEST">HAEMAGGLUTINATION_(HA)_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Haemagglutination (HA) test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-HAEMAGGLUTINATION-INHIBITION-TEST--HIT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-HAEMAGGLUTINATION_INHIBITION_TEST_.40HIT.41">HAEMAGGLUTINATION_INHIBITION_TEST_(HIT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Haemagglutination inhibition test (HIT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-HISTOLOGICAL-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-HISTOLOGICAL_TEST">HISTOLOGICAL_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Histological test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-HISTOPATHOLOGICAL-EXAMINATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-HISTOPATHOLOGICAL_EXAMINATION">HISTOPATHOLOGICAL_EXAMINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Histopathological examination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IGG"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IGG">IGG</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>IgG</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IGG-CAPTURE-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IGG_CAPTURE_ELISA">IGG_CAPTURE_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>IgG-capture ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IGM"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IGM">IGM</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>IgM</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IGM-CAPTURE-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IGM_CAPTURE_ELISA">IGM_CAPTURE_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>IgM-capture ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IMMUNE-ELECTRON-MICROSCOPY"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IMMUNE_ELECTRON_MICROSCOPY">IMMUNE_ELECTRON_MICROSCOPY</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Immune electron microscopy</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IMMUNO-BLOTTING--IB-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IMMUNO_BLOTTING_.40IB.41">IMMUNO_BLOTTING_(IB)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Immuno-blotting (IB)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IMMUNOCAPTURE-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IMMUNOCAPTURE_ELISA">IMMUNOCAPTURE_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Immunocapture ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IMMUNOELECTROPHORESIS-TEST--IEPT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IMMUNOELECTROPHORESIS_TEST_.40IEPT.41">IMMUNOELECTROPHORESIS_TEST_(IEPT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Immunoelectrophoresis test (IEPT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IMMUNOHISTOCHEMICAL-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IMMUNOHISTOCHEMICAL_TEST">IMMUNOHISTOCHEMICAL_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Immunohistochemical test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IMMUNOPEROXIDASE-MONOLAYER-ASSAY--IPMA-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IMMUNOPEROXIDASE_MONOLAYER_ASSAY_.40IPMA.41">IMMUNOPEROXIDASE_MONOLAYER_ASSAY_(IPMA)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Immunoperoxidase monolayer assay (IPMA)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IN-SITU-HYBRIDISATION--ISH-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IN_SITU_HYBRIDISATION_.40ISH.41">IN_SITU_HYBRIDISATION_(ISH)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>In situ hybridisation (ISH)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-INDIRECT-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-INDIRECT_ELISA">INDIRECT_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Indirect ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-INDIRECT-FLUORESCENT-ANTIBODY--IFA--TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-INDIRECT_FLUORESCENT_ANTIBODY_.40IFA.41_TEST">INDIRECT_FLUORESCENT_ANTIBODY_(IFA)_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Indirect fluorescent antibody (IFA) test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-INDIRECT-SANDWICH-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-INDIRECT_SANDWICH_ELISA">INDIRECT_SANDWICH_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Indirect sandwich ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-INDOLE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-INDOLE_TEST">INDOLE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Indole test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-INOCULATION-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-INOCULATION_TEST">INOCULATION_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Inoculation test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-INTRACEREBRAL-PATHOGENICITY-INDEX--ICPI--TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-INTRACEREBRAL_PATHOGENICITY_INDEX_.40ICPI.41_TEST">INTRACEREBRAL_PATHOGENICITY_INDEX_(ICPI)_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Intracerebral pathogenicity index (ICPI) test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-INTRAVENOUS-PATHOGENICITY-INDEX--IVPI--TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-INTRAVENOUS_PATHOGENICITY_INDEX_.40IVPI.41_TEST">INTRAVENOUS_PATHOGENICITY_INDEX_(IVPI)_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Intravenous pathogenicity index (IVPI) test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ISOENZYME-STUDIES"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ISOENZYME_STUDIES">ISOENZYME_STUDIES</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Isoenzyme studies</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IZSLER-AG"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IZSLER_AG">IZSLER_AG</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Izsler Ag</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-IZSLER-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-IZSLER_ELISA">IZSLER_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Izsler Elisa</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-LIQUID-PHASE--LP--BLOCKING-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-LIQUID_PHASE_.40LP.41_BLOCKING_ELISA">LIQUID_PHASE_(LP)_BLOCKING_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Liquid-phase (LP) blocking ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-LUMINESCENCE-IMMUNOASSAY"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-LUMINESCENCE_IMMUNOASSAY">LUMINESCENCE_IMMUNOASSAY</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Luminescence immunoassay</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-LYSINE-DECARBOXYLATE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-LYSINE_DECARBOXYLATE_TEST">LYSINE_DECARBOXYLATE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Lysine decarboxylate test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-MALLEIN-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-MALLEIN_TEST">MALLEIN_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Mallein test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-MICROSCOPIC-AGGLUTINATION-TEST--MAT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-MICROSCOPIC_AGGLUTINATION_TEST_.40MAT.41">MICROSCOPIC_AGGLUTINATION_TEST_(MAT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Microscopic agglutination test (MAT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-MICROSCOPIC-EXAMINATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-MICROSCOPIC_EXAMINATION">MICROSCOPIC_EXAMINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Microscopic examination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-MICROSCOPIC-EXAMINATION-OF-LARVAE"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-MICROSCOPIC_EXAMINATION_OF_LARVAE">MICROSCOPIC_EXAMINATION_OF_LARVAE</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Microscopic examination of larvae</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-MILK-DENSITY-MILK-QUALITY"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-MILK_DENSITY.47MILK_QUALITY">MILK_DENSITY/MILK_QUALITY</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Milk density/milk quality</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-MONOCLONAL-ANTIBODIES--MAB--TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-MONOCLONAL_ANTIBODIES_.40MAB.41_TEST">MONOCLONAL_ANTIBODIES_(MAB)_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Monoclonal antibodies (Mab) test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-MOTILITY-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-MOTILITY_TEST">MOTILITY_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Motility test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-MULTIPLEX-PCR"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-MULTIPLEX_PCR">MULTIPLEX_PCR</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Multiplex PCR</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NESTED-RT-PCR"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NESTED_RT_PCR">NESTED_RT_PCR</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Nested RT-PCR</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NEURAMINIDASE-INHIBITION-ASSAY"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NEURAMINIDASE_INHIBITION_ASSAY">NEURAMINIDASE_INHIBITION_ASSAY</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Neuraminidase inhibition assay</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NEUTRALISATION--FAVN-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NEUTRALISATION_.40FAVN.41">NEUTRALISATION_(FAVN)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Neutralisation (FAVN)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NITRATE-REDUCTION-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NITRATE_REDUCTION_TEST">NITRATE_REDUCTION_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Nitrate reduction test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NO-TEST-DONE"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NO_TEST_DONE">NO_TEST_DONE</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>No test done</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NON-STRUCTURAL-PROTEIN-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NON_STRUCTURAL_PROTEIN_ELISA">NON_STRUCTURAL_PROTEIN_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Non-structural protein ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NOT-SPECIFIED-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NOT_SPECIFIED_TEST">NOT_SPECIFIED_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Not Specified Test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NPLA--NEUTRALISING-PEROXIDASE-LINKED-ASSAY-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NPLA_.40NEUTRALISING_PEROXIDASE_LINKED_ASSAY.41">NPLA_(NEUTRALISING_PEROXIDASE_LINKED_ASSAY)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>NPLA (Neutralising peroxidase-linked assay)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-NUCLEOTIDE-SEQUENCING"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-NUCLEOTIDE_SEQUENCING">NUCLEOTIDE_SEQUENCING</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Nucleotide sequencing</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-OPTICAL-MICROSCOPY"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-OPTICAL_MICROSCOPY">OPTICAL_MICROSCOPY</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Optical microscopy</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ORMITHIAMINE-DECARBOXYLASE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ORMITHIAMINE_DECARBOXYLASE_TEST">ORMITHIAMINE_DECARBOXYLASE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Ormithiamine decarboxylase test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-OXIDASE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-OXIDASE_TEST">OXIDASE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Oxidase test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-PARASITOLOGICAL-EXAMINATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-PARASITOLOGICAL_EXAMINATION">PARASITOLOGICAL_EXAMINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Parasitological examination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-PATHOGEN-ISOLATION-BY-EGG-INOCULATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-PATHOGEN_ISOLATION_BY_EGG_INOCULATION">PATHOGEN_ISOLATION_BY_EGG_INOCULATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Pathogen isolation by egg inoculation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-PATHOGEN-ISOLATION-ON-CELL-CULTURE"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-PATHOGEN_ISOLATION_ON_CELL_CULTURE">PATHOGEN_ISOLATION_ON_CELL_CULTURE</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Pathogen isolation on cell culture</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-PH-TEST---FEEDSSEMEN-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-PH_TEST_.40_FEEDSSEMEN.41">PH_TEST_(_FEEDSSEMEN)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>PH test ( feeds,semen)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-PHYLOGENETIC-ANALYSIS"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-PHYLOGENETIC_ANALYSIS">PHYLOGENETIC_ANALYSIS</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Phylogenetic analysis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-PLAQUE-REDUCTION-NEUTRALISATION-TEST--PRN-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-PLAQUE_REDUCTION_NEUTRALISATION_TEST_.40PRN.41">PLAQUE_REDUCTION_NEUTRALISATION_TEST_(PRN)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Plaque reduction neutralisation test (PRN)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-POLYMERASE-CHAIN-REACTION--PCR-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-POLYMERASE_CHAIN_REACTION_.40PCR.41">POLYMERASE_CHAIN_REACTION_(PCR)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Polymerase chain reaction (PCR)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-PROXIMATE-ANALYSIS"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-PROXIMATE_ANALYSIS">PROXIMATE_ANALYSIS</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Proximate analysis (protein,fat,NFE,fiber and moisture)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-RAPID-AGGULUTINATION-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-RAPID_AGGULUTINATION_TEST">RAPID_AGGULUTINATION_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Rapid aggulutination test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-RAPID-SERUM-AGGLUTINATION--RSA-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-RAPID_SERUM_AGGLUTINATION_.40RSA.41">RAPID_SERUM_AGGLUTINATION_(RSA)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Rapid serum agglutination (RSA)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-RAPID-TESTS"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-RAPID_TESTS">RAPID_TESTS</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Rapid tests</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-REAL-TIME-PCR"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-REAL_TIME_PCR">REAL_TIME_PCR</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Real-time PCR</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-REAL-TIME-REVERSE-TRANSCRIPTASE-POLYMERASE"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-REAL_TIME_REVERSE_TRANSCRIPTASE.47POLYMERASE">REAL_TIME_REVERSE_TRANSCRIPTASE/POLYMERASE</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Real-time reverse transcriptase/polymerase chain reaction (RRT-PCR)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-REVERSE-TRANSCRIPTION--POLYMERASE-CHAIN-REACTION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-REVERSE_TRANSCRIPTION__POLYMERASE_CHAIN_REACTION">REVERSE_TRANSCRIPTION__POLYMERASE_CHAIN_REACTION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Reverse transcription - polymerase chain reaction</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ROSE-BENGAL-TEST--RBT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ROSE_BENGAL_TEST_.40RBT.41">ROSE_BENGAL_TEST_(RBT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Rose bengal test (RBT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-SELLER-S-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-SELLER.39S_TEST">SELLER'S_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Seller's test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-SEMEN-EXAMINATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-SEMEN_EXAMINATION">SEMEN_EXAMINATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Semen examination</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-SERONEUTRALISATION-TEST--SNT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-SERONEUTRALISATION_TEST_.40SNT.41">SERONEUTRALISATION_TEST_(SNT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Seroneutralisation test (SNT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-SEROTYPING"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-SEROTYPING">SEROTYPING</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Serotyping</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-SERUM-AGGLUTINATION-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-SERUM_AGGLUTINATION_TEST">SERUM_AGGLUTINATION_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Serum agglutination test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-TISSUE-IMPRINTS"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-TISSUE_IMPRINTS">TISSUE_IMPRINTS</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Tissue imprints</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-TRIPLE-SUGAR-IRON-AGAR-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-TRIPLE_SUGAR_IRON_AGAR_TEST">TRIPLE_SUGAR_IRON_AGAR_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Triple sugar iron agar test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-TUBE-AGGLUTINATION-TEST--TAT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-TUBE_AGGLUTINATION_TEST_.40TAT.41">TUBE_AGGLUTINATION_TEST_(TAT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Tube agglutination test (TAT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-TYPING-ELISA"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-TYPING_ELISA">TYPING_ELISA</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Typing ELISA</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-UREASE-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-UREASE_TEST">UREASE_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Urease test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-VIRUS-ISOLATION"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-VIRUS_ISOLATION">VIRUS_ISOLATION</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Virus isolation</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-VIRUS-NEUTRALISATION-TEST--VNT-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-VIRUS_NEUTRALISATION_TEST_.40VNT.41">VIRUS_NEUTRALISATION_TEST_(VNT)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Virus neutralisation test (VNT)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-VIRUS-SEQUENCING"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-VIRUS_SEQUENCING">VIRUS_SEQUENCING</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Virus sequencing</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-VIRUS-INFECTION-ASSOCIATED-ANTIGEN--VIAA-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-VIRUS_INFECTION_ASSOCIATED_ANTIGEN_.40VIAA.41">VIRUS_INFECTION_ASSOCIATED_ANTIGEN_(VIAA)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Virus-infection-associated antigen (VIAA)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-WESTERN-BLOT-ANALYSIS"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-WESTERN_BLOT_ANALYSIS">WESTERN_BLOT_ANALYSIS</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Western blot analysis</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-WESTERN-BLOTTING--WB-"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-WESTERN_BLOTTING_.40WB.41">WESTERN_BLOTTING_(WB)</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Western blotting (WB)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-ZIEHL-NEELSEN-TEST"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-ZIEHL_NEELSEN_TEST">ZIEHL_NEELSEN_TEST</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Ziehl Neelsen test</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-test-type-cs-RTPCR"> </a>  <a href="CodeSystem-test-type-cs.html#test-type-cs-RTPCR">RTPCR</a></td><td>https://dhis2.org/fhir/CodeSystem/test-type-cs</td><td>Reverse transcription - polymerase chain reaction (RT-PCR)</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 12, 2024 09:40+0000">2024-04-12</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

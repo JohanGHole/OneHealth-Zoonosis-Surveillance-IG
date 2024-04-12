@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "laboratory-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-laboratory-cs.html\"><code>https://dhis2.org/fhir/CodeSystem/laboratory-cs</code></a></li></ul></div>"
+  },
+  "url" : "https://dhis2.org/fhir/ValueSet/laboratory-vs",
+  "version" : "0.1.0",
+  "name" : "LaboratoryVS",
+  "title" : "Laboratory Value Set",
+  "status" : "draft",
+  "date" : "2024-04-12T09:40:09+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Value set of laboratories.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://dhis2.org/fhir/CodeSystem/laboratory-cs"
+    }]
+  }
+}

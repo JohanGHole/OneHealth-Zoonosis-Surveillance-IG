@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-11T13:02:26+00:00"/>
+  <date value="2024-04-12T09:40:09+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -714,6 +714,39 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/lab-diseases-vs"/>
+      </reference>
+      <name value="Lab Diseases Value Set"/>
+      <description value="Value set for lab diseases."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/laboratory-cs"/>
+      </reference>
+      <name value="Laboratory Code System"/>
+      <description value="Code system of laboratories."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/laboratory-vs"/>
+      </reference>
+      <name value="Laboratory Value Set"/>
+      <description value="Value set of laboratories."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -882,6 +915,28 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/sample-type-cs"/>
+      </reference>
+      <name value="Sample Type Code System"/>
+      <description value="Code system for sample types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/sample-type-vs"/>
+      </reference>
+      <name value="Sample Type Value Set"/>
+      <description value="Value set for sample types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/surveillance-type-cs"/>
       </reference>
       <name value="Surveillance Type Code System"/>
@@ -897,6 +952,50 @@
       </reference>
       <name value="Surveillance Type Value Set"/>
       <description value="Value set for surveillance types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/test-result-cs"/>
+      </reference>
+      <name value="Test Result Code System"/>
+      <description value="Code system for test results."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/test-result-vs"/>
+      </reference>
+      <name value="Test Result Value Set"/>
+      <description value="Value set for test results."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/test-type-cs"/>
+      </reference>
+      <name value="Test Type Code System"/>
+      <description value="Code system for test types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/test-type-vs"/>
+      </reference>
+      <name value="Test Type Value Set"/>
+      <description value="Value set for test types."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

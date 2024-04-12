@@ -119,7 +119,8 @@
       "description" : "Code system for diseases.",
       "uses" : {
       },
-      "ValueSet-diseases-vs.html" : "Diseases Value Set"
+      "ValueSet-diseases-vs.html" : "Diseases Value Set",
+      "ValueSet-lab-diseases-vs.html" : "Lab Diseases Value Set"
     },
     {
       "url" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
@@ -131,6 +132,17 @@
       "uses" : {
       },
       "ValueSet-districts-vs.html" : "Districts Value Set"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/laboratory-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LaboratoryCS",
+      "title" : "Laboratory Code System",
+      "description" : "Code system of laboratories.",
+      "uses" : {
+      },
+      "ValueSet-laboratory-vs.html" : "Laboratory Value Set"
     },
     {
       "url" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
@@ -199,6 +211,17 @@
       "ValueSet-regions-vs.html" : "Regions Value Set"
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/sample-type-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SampleTypeCS",
+      "title" : "Sample Type Code System",
+      "description" : "Code system for sample types.",
+      "uses" : {
+      },
+      "ValueSet-sample-type-vs.html" : "Sample Type Value Set"
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/surveillance-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -208,6 +231,28 @@
       "uses" : {
       },
       "ValueSet-surveillance-type-vs.html" : "Surveillance Type Value Set"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/test-result-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TestResultCS",
+      "title" : "Test Result Code System",
+      "description" : "Code system for test results.",
+      "uses" : {
+      },
+      "ValueSet-test-result-vs.html" : "Test Result Value Set"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/test-type-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TestTypeCS",
+      "title" : "Test Type Code System",
+      "description" : "Code system for test types.",
+      "uses" : {
+      },
+      "ValueSet-test-type-vs.html" : "Test Type Value Set"
     },
     {
       "url" : "https://dhis2.org/fhir/CodeSystem/treatments-cs",

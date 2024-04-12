@@ -97,6 +97,14 @@
       "description" : "Code system for districts."
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/laboratory-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LaboratoryCS",
+      "title" : "Laboratory Code System",
+      "description" : "Code system of laboratories."
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -145,12 +153,36 @@
       "description" : "Code system for regions."
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/sample-type-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SampleTypeCS",
+      "title" : "Sample Type Code System",
+      "description" : "Code system for sample types."
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/surveillance-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SurveillanceTypeCS",
       "title" : "Surveillance Type Code System",
       "description" : "Code system for surveillance types."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/test-result-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TestResultCS",
+      "title" : "Test Result Code System",
+      "description" : "Code system for test results."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/test-type-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TestTypeCS",
+      "title" : "Test Type Code System",
+      "description" : "Code system for test types."
     },
     {
       "url" : "https://dhis2.org/fhir/CodeSystem/treatments-cs",

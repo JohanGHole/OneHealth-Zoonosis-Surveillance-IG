@@ -1,0 +1,251 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/sample-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "sample-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/sample-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABSCESS_(TUMOUR)_MATERIAL<a name=\"sample-type-cs-ABSCESS_.40TUMOUR.41_MATERIAL\"> </a></td><td>Abscess (Tumour) material</td></tr><tr><td style=\"white-space:nowrap\">BAIT<a name=\"sample-type-cs-BAIT\"> </a></td><td>Bait</td></tr><tr><td style=\"white-space:nowrap\">BIOPSY<a name=\"sample-type-cs-BIOPSY\"> </a></td><td>Biopsy</td></tr><tr><td style=\"white-space:nowrap\">BLOOD_SAMPLE<a name=\"sample-type-cs-BLOOD_SAMPLE\"> </a></td><td>Blood sample</td></tr><tr><td style=\"white-space:nowrap\">BLOOD_SMEAR<a name=\"sample-type-cs-BLOOD_SMEAR\"> </a></td><td>Blood smear</td></tr><tr><td style=\"white-space:nowrap\">BODY_FLUID<a name=\"sample-type-cs-BODY_FLUID\"> </a></td><td>Body fluid</td></tr><tr><td style=\"white-space:nowrap\">BONE_MARROW<a name=\"sample-type-cs-BONE_MARROW\"> </a></td><td>Bone marrow</td></tr><tr><td style=\"white-space:nowrap\">BONE_MEAL/BLOOD_MEAL<a name=\"sample-type-cs-BONE_MEAL.47BLOOD_MEAL\"> </a></td><td>Bone meal/Blood meal</td></tr><tr><td style=\"white-space:nowrap\">BONE/BLOOD_MEAL<a name=\"sample-type-cs-BONE.47BLOOD_MEAL\"> </a></td><td>Bone/blood meal</td></tr><tr><td style=\"white-space:nowrap\">BRAIN_IN_FORMALIN<a name=\"sample-type-cs-BRAIN_IN_FORMALIN\"> </a></td><td>Brain in formalin</td></tr><tr><td style=\"white-space:nowrap\">BRAIN_IN_GLYCERINE<a name=\"sample-type-cs-BRAIN_IN_GLYCERINE\"> </a></td><td>Brain in glycerine</td></tr><tr><td style=\"white-space:nowrap\">BRAIN_ON_ICE<a name=\"sample-type-cs-BRAIN_ON_ICE\"> </a></td><td>Brain on ice</td></tr><tr><td style=\"white-space:nowrap\">CADAVER<a name=\"sample-type-cs-CADAVER\"> </a></td><td>Cadaver</td></tr><tr><td style=\"white-space:nowrap\">CARCASS<a name=\"sample-type-cs-CARCASS\"> </a></td><td>Carcass</td></tr><tr><td style=\"white-space:nowrap\">CLOACAL_SWABS<a name=\"sample-type-cs-CLOACAL_SWABS\"> </a></td><td>Cloacal swabs</td></tr><tr><td style=\"white-space:nowrap\">CRAB_SAMPLE<a name=\"sample-type-cs-CRAB_SAMPLE\"> </a></td><td>Crab sample</td></tr><tr><td style=\"white-space:nowrap\">CROP_SAMPLE<a name=\"sample-type-cs-CROP_SAMPLE\"> </a></td><td>Crop sample</td></tr><tr><td style=\"white-space:nowrap\">ENVIRONMENTAL<a name=\"sample-type-cs-ENVIRONMENTAL\"> </a></td><td>Environmental</td></tr><tr><td style=\"white-space:nowrap\">FAECES<a name=\"sample-type-cs-FAECES\"> </a></td><td>Faeces</td></tr><tr><td style=\"white-space:nowrap\">FEATHER<a name=\"sample-type-cs-FEATHER\"> </a></td><td>Feather</td></tr><tr><td style=\"white-space:nowrap\">FEED<a name=\"sample-type-cs-FEED\"> </a></td><td>Feed</td></tr><tr><td style=\"white-space:nowrap\">FILTER_PAPER_WITH_BLOOD<a name=\"sample-type-cs-FILTER_PAPER_WITH_BLOOD\"> </a></td><td>Filter paper with blood</td></tr><tr><td style=\"white-space:nowrap\">FISH_SAMPLE<a name=\"sample-type-cs-FISH_SAMPLE\"> </a></td><td>Fish sample</td></tr><tr><td style=\"white-space:nowrap\">FOETUS<a name=\"sample-type-cs-FOETUS\"> </a></td><td>Foetus</td></tr><tr><td style=\"white-space:nowrap\">HAIR<a name=\"sample-type-cs-HAIR\"> </a></td><td>Hair</td></tr><tr><td style=\"white-space:nowrap\">HEAD<a name=\"sample-type-cs-HEAD\"> </a></td><td>Head</td></tr><tr><td style=\"white-space:nowrap\">HONEY_BEE_SAMPLE<a name=\"sample-type-cs-HONEY_BEE_SAMPLE\"> </a></td><td>Honey bee sample</td></tr><tr><td style=\"white-space:nowrap\">INSECT_SAMPLE<a name=\"sample-type-cs-INSECT_SAMPLE\"> </a></td><td>Insect sample</td></tr><tr><td style=\"white-space:nowrap\">INTESTINE_SCREAPING<a name=\"sample-type-cs-INTESTINE_SCREAPING\"> </a></td><td>Intestine screaping</td></tr><tr><td style=\"white-space:nowrap\">INTESTINES<a name=\"sample-type-cs-INTESTINES\"> </a></td><td>Intestines</td></tr><tr><td style=\"white-space:nowrap\">INTESTINES_CONTENT<a name=\"sample-type-cs-INTESTINES_CONTENT\"> </a></td><td>Intestines Content</td></tr><tr><td style=\"white-space:nowrap\">JOINT_FLUID<a name=\"sample-type-cs-JOINT_FLUID\"> </a></td><td>Joint fluid</td></tr><tr><td style=\"white-space:nowrap\">LYMPHNODE_SMEAR<a name=\"sample-type-cs-LYMPHNODE_SMEAR\"> </a></td><td>Lymphnode smear</td></tr><tr><td style=\"white-space:nowrap\">MAIZE_BRAN<a name=\"sample-type-cs-MAIZE_BRAN\"> </a></td><td>Maize bran</td></tr><tr><td style=\"white-space:nowrap\">MARINE_SAMPLE<a name=\"sample-type-cs-MARINE_SAMPLE\"> </a></td><td>Marine sample</td></tr><tr><td style=\"white-space:nowrap\">MEAT_TRIMMINGS<a name=\"sample-type-cs-MEAT_TRIMMINGS\"> </a></td><td>Meat Trimmings</td></tr><tr><td style=\"white-space:nowrap\">MILK<a name=\"sample-type-cs-MILK\"> </a></td><td>Milk</td></tr><tr><td style=\"white-space:nowrap\">MUSCLE_SAMPLE<a name=\"sample-type-cs-MUSCLE_SAMPLE\"> </a></td><td>Muscle sample</td></tr><tr><td style=\"white-space:nowrap\">NO_SAMPLE_TAKEN<a name=\"sample-type-cs-NO_SAMPLE_TAKEN\"> </a></td><td>No sample taken</td></tr><tr><td style=\"white-space:nowrap\">ORGAN_SAMPLE<a name=\"sample-type-cs-ORGAN_SAMPLE\"> </a></td><td>Organ sample</td></tr><tr><td style=\"white-space:nowrap\">PLANT<a name=\"sample-type-cs-PLANT\"> </a></td><td>Plant</td></tr><tr><td style=\"white-space:nowrap\">PREPUCIAL_WASHINGS<a name=\"sample-type-cs-PREPUCIAL_WASHINGS\"> </a></td><td>Prepucial washings</td></tr><tr><td style=\"white-space:nowrap\">PUS<a name=\"sample-type-cs-PUS\"> </a></td><td>Pus</td></tr><tr><td style=\"white-space:nowrap\">RICE_BRAN<a name=\"sample-type-cs-RICE_BRAN\"> </a></td><td>Rice bran</td></tr><tr><td style=\"white-space:nowrap\">SCRAPING<a name=\"sample-type-cs-SCRAPING\"> </a></td><td>Scraping</td></tr><tr><td style=\"white-space:nowrap\">SEA_CUCCUMBER_SAMPLE<a name=\"sample-type-cs-SEA_CUCCUMBER_SAMPLE\"> </a></td><td>Sea cuccumber sample</td></tr><tr><td style=\"white-space:nowrap\">SEMEN<a name=\"sample-type-cs-SEMEN\"> </a></td><td>Semen</td></tr><tr><td style=\"white-space:nowrap\">SERUM<a name=\"sample-type-cs-SERUM\"> </a></td><td>Serum</td></tr><tr><td style=\"white-space:nowrap\">SKIN_SCRAPING<a name=\"sample-type-cs-SKIN_SCRAPING\"> </a></td><td>Skin scraping</td></tr><tr><td style=\"white-space:nowrap\">SMEAR_(IMPRESSION)<a name=\"sample-type-cs-SMEAR_.40IMPRESSION.41\"> </a></td><td>Smear (impression)</td></tr><tr><td style=\"white-space:nowrap\">STOMACH_CONTENT<a name=\"sample-type-cs-STOMACH_CONTENT\"> </a></td><td>Stomach content</td></tr><tr><td style=\"white-space:nowrap\">STOMOXYS_SAMPLE<a name=\"sample-type-cs-STOMOXYS_SAMPLE\"> </a></td><td>Stomoxys sample</td></tr><tr><td style=\"white-space:nowrap\">SWAB<a name=\"sample-type-cs-SWAB\"> </a></td><td>Swab</td></tr><tr><td style=\"white-space:nowrap\">SWAB_(ABATTOIR_HYGIENE)<a name=\"sample-type-cs-SWAB_.40ABATTOIR_HYGIENE.41\"> </a></td><td>Swab (abattoir hygiene)</td></tr><tr><td style=\"white-space:nowrap\">SWAB_(EYE)<a name=\"sample-type-cs-SWAB_.40EYE.41\"> </a></td><td>Swab (eye)</td></tr><tr><td style=\"white-space:nowrap\">SWAB_(NASAL)<a name=\"sample-type-cs-SWAB_.40NASAL.41\"> </a></td><td>Swab (nasal)</td></tr><tr><td style=\"white-space:nowrap\">SWAB_(THROAT)<a name=\"sample-type-cs-SWAB_.40THROAT.41\"> </a></td><td>Swab (throat)</td></tr><tr><td style=\"white-space:nowrap\">SWAB_(VAGINAL)<a name=\"sample-type-cs-SWAB_.40VAGINAL.41\"> </a></td><td>Swab (vaginal)</td></tr><tr><td style=\"white-space:nowrap\">THICK_BLOOD_SMEAR<a name=\"sample-type-cs-THICK_BLOOD_SMEAR\"> </a></td><td>Thick blood smear</td></tr><tr><td style=\"white-space:nowrap\">THIN_BLOOD_SMEAR<a name=\"sample-type-cs-THIN_BLOOD_SMEAR\"> </a></td><td>Thin blood smear</td></tr><tr><td style=\"white-space:nowrap\">TICK_SAMPLE<a name=\"sample-type-cs-TICK_SAMPLE\"> </a></td><td>Tick sample</td></tr><tr><td style=\"white-space:nowrap\">TISSUE_IN_FORMALIN<a name=\"sample-type-cs-TISSUE_IN_FORMALIN\"> </a></td><td>Tissue in formalin</td></tr><tr><td style=\"white-space:nowrap\">TISSUE_IN_PBS<a name=\"sample-type-cs-TISSUE_IN_PBS\"> </a></td><td>Tissue in PBS</td></tr><tr><td style=\"white-space:nowrap\">TISSUE_ON_ICE<a name=\"sample-type-cs-TISSUE_ON_ICE\"> </a></td><td>Tissue on ice</td></tr><tr><td style=\"white-space:nowrap\">TRACHEAL_SWABS<a name=\"sample-type-cs-TRACHEAL_SWABS\"> </a></td><td>Tracheal swabs</td></tr><tr><td style=\"white-space:nowrap\">URINE<a name=\"sample-type-cs-URINE\"> </a></td><td>Urine</td></tr><tr><td style=\"white-space:nowrap\">UTERINE_CONTECT<a name=\"sample-type-cs-UTERINE_CONTECT\"> </a></td><td>Uterine contect</td></tr><tr><td style=\"white-space:nowrap\">UTERUS<a name=\"sample-type-cs-UTERUS\"> </a></td><td>Uterus</td></tr><tr><td style=\"white-space:nowrap\">WATER<a name=\"sample-type-cs-WATER\"> </a></td><td>Water</td></tr><tr><td style=\"white-space:nowrap\">WEAT_BRAN<a name=\"sample-type-cs-WEAT_BRAN\"> </a></td><td>Weat bran</td></tr><tr><td style=\"white-space:nowrap\">WHOLE_BLOOD<a name=\"sample-type-cs-WHOLE_BLOOD\"> </a></td><td>Whole blood</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/sample-type-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SampleTypeCS"] ; # 
+  fhir:title [ fhir:v "Sample Type Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-12T09:40:09+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for sample types."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "71"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ABSCESS_(TUMOUR)_MATERIAL" ] ;
+     fhir:display [ fhir:v "Abscess (Tumour) material" ]
+  ] [
+     fhir:code [ fhir:v "BAIT" ] ;
+     fhir:display [ fhir:v "Bait" ]
+  ] [
+     fhir:code [ fhir:v "BIOPSY" ] ;
+     fhir:display [ fhir:v "Biopsy" ]
+  ] [
+     fhir:code [ fhir:v "BLOOD_SAMPLE" ] ;
+     fhir:display [ fhir:v "Blood sample" ]
+  ] [
+     fhir:code [ fhir:v "BLOOD_SMEAR" ] ;
+     fhir:display [ fhir:v "Blood smear" ]
+  ] [
+     fhir:code [ fhir:v "BODY_FLUID" ] ;
+     fhir:display [ fhir:v "Body fluid" ]
+  ] [
+     fhir:code [ fhir:v "BONE_MARROW" ] ;
+     fhir:display [ fhir:v "Bone marrow" ]
+  ] [
+     fhir:code [ fhir:v "BONE_MEAL/BLOOD_MEAL" ] ;
+     fhir:display [ fhir:v "Bone meal/Blood meal" ]
+  ] [
+     fhir:code [ fhir:v "BONE/BLOOD_MEAL" ] ;
+     fhir:display [ fhir:v "Bone/blood meal" ]
+  ] [
+     fhir:code [ fhir:v "BRAIN_IN_FORMALIN" ] ;
+     fhir:display [ fhir:v "Brain in formalin" ]
+  ] [
+     fhir:code [ fhir:v "BRAIN_IN_GLYCERINE" ] ;
+     fhir:display [ fhir:v "Brain in glycerine" ]
+  ] [
+     fhir:code [ fhir:v "BRAIN_ON_ICE" ] ;
+     fhir:display [ fhir:v "Brain on ice" ]
+  ] [
+     fhir:code [ fhir:v "CADAVER" ] ;
+     fhir:display [ fhir:v "Cadaver" ]
+  ] [
+     fhir:code [ fhir:v "CARCASS" ] ;
+     fhir:display [ fhir:v "Carcass" ]
+  ] [
+     fhir:code [ fhir:v "CLOACAL_SWABS" ] ;
+     fhir:display [ fhir:v "Cloacal swabs" ]
+  ] [
+     fhir:code [ fhir:v "CRAB_SAMPLE" ] ;
+     fhir:display [ fhir:v "Crab sample" ]
+  ] [
+     fhir:code [ fhir:v "CROP_SAMPLE" ] ;
+     fhir:display [ fhir:v "Crop sample" ]
+  ] [
+     fhir:code [ fhir:v "ENVIRONMENTAL" ] ;
+     fhir:display [ fhir:v "Environmental" ]
+  ] [
+     fhir:code [ fhir:v "FAECES" ] ;
+     fhir:display [ fhir:v "Faeces" ]
+  ] [
+     fhir:code [ fhir:v "FEATHER" ] ;
+     fhir:display [ fhir:v "Feather" ]
+  ] [
+     fhir:code [ fhir:v "FEED" ] ;
+     fhir:display [ fhir:v "Feed" ]
+  ] [
+     fhir:code [ fhir:v "FILTER_PAPER_WITH_BLOOD" ] ;
+     fhir:display [ fhir:v "Filter paper with blood" ]
+  ] [
+     fhir:code [ fhir:v "FISH_SAMPLE" ] ;
+     fhir:display [ fhir:v "Fish sample" ]
+  ] [
+     fhir:code [ fhir:v "FOETUS" ] ;
+     fhir:display [ fhir:v "Foetus" ]
+  ] [
+     fhir:code [ fhir:v "HAIR" ] ;
+     fhir:display [ fhir:v "Hair" ]
+  ] [
+     fhir:code [ fhir:v "HEAD" ] ;
+     fhir:display [ fhir:v "Head" ]
+  ] [
+     fhir:code [ fhir:v "HONEY_BEE_SAMPLE" ] ;
+     fhir:display [ fhir:v "Honey bee sample" ]
+  ] [
+     fhir:code [ fhir:v "INSECT_SAMPLE" ] ;
+     fhir:display [ fhir:v "Insect sample" ]
+  ] [
+     fhir:code [ fhir:v "INTESTINE_SCREAPING" ] ;
+     fhir:display [ fhir:v "Intestine screaping" ]
+  ] [
+     fhir:code [ fhir:v "INTESTINES" ] ;
+     fhir:display [ fhir:v "Intestines" ]
+  ] [
+     fhir:code [ fhir:v "INTESTINES_CONTENT" ] ;
+     fhir:display [ fhir:v "Intestines Content" ]
+  ] [
+     fhir:code [ fhir:v "JOINT_FLUID" ] ;
+     fhir:display [ fhir:v "Joint fluid" ]
+  ] [
+     fhir:code [ fhir:v "LYMPHNODE_SMEAR" ] ;
+     fhir:display [ fhir:v "Lymphnode smear" ]
+  ] [
+     fhir:code [ fhir:v "MAIZE_BRAN" ] ;
+     fhir:display [ fhir:v "Maize bran" ]
+  ] [
+     fhir:code [ fhir:v "MARINE_SAMPLE" ] ;
+     fhir:display [ fhir:v "Marine sample" ]
+  ] [
+     fhir:code [ fhir:v "MEAT_TRIMMINGS" ] ;
+     fhir:display [ fhir:v "Meat Trimmings" ]
+  ] [
+     fhir:code [ fhir:v "MILK" ] ;
+     fhir:display [ fhir:v "Milk" ]
+  ] [
+     fhir:code [ fhir:v "MUSCLE_SAMPLE" ] ;
+     fhir:display [ fhir:v "Muscle sample" ]
+  ] [
+     fhir:code [ fhir:v "NO_SAMPLE_TAKEN" ] ;
+     fhir:display [ fhir:v "No sample taken" ]
+  ] [
+     fhir:code [ fhir:v "ORGAN_SAMPLE" ] ;
+     fhir:display [ fhir:v "Organ sample" ]
+  ] [
+     fhir:code [ fhir:v "PLANT" ] ;
+     fhir:display [ fhir:v "Plant" ]
+  ] [
+     fhir:code [ fhir:v "PREPUCIAL_WASHINGS" ] ;
+     fhir:display [ fhir:v "Prepucial washings" ]
+  ] [
+     fhir:code [ fhir:v "PUS" ] ;
+     fhir:display [ fhir:v "Pus" ]
+  ] [
+     fhir:code [ fhir:v "RICE_BRAN" ] ;
+     fhir:display [ fhir:v "Rice bran" ]
+  ] [
+     fhir:code [ fhir:v "SCRAPING" ] ;
+     fhir:display [ fhir:v "Scraping" ]
+  ] [
+     fhir:code [ fhir:v "SEA_CUCCUMBER_SAMPLE" ] ;
+     fhir:display [ fhir:v "Sea cuccumber sample" ]
+  ] [
+     fhir:code [ fhir:v "SEMEN" ] ;
+     fhir:display [ fhir:v "Semen" ]
+  ] [
+     fhir:code [ fhir:v "SERUM" ] ;
+     fhir:display [ fhir:v "Serum" ]
+  ] [
+     fhir:code [ fhir:v "SKIN_SCRAPING" ] ;
+     fhir:display [ fhir:v "Skin scraping" ]
+  ] [
+     fhir:code [ fhir:v "SMEAR_(IMPRESSION)" ] ;
+     fhir:display [ fhir:v "Smear (impression)" ]
+  ] [
+     fhir:code [ fhir:v "STOMACH_CONTENT" ] ;
+     fhir:display [ fhir:v "Stomach content" ]
+  ] [
+     fhir:code [ fhir:v "STOMOXYS_SAMPLE" ] ;
+     fhir:display [ fhir:v "Stomoxys sample" ]
+  ] [
+     fhir:code [ fhir:v "SWAB" ] ;
+     fhir:display [ fhir:v "Swab" ]
+  ] [
+     fhir:code [ fhir:v "SWAB_(ABATTOIR_HYGIENE)" ] ;
+     fhir:display [ fhir:v "Swab (abattoir hygiene)" ]
+  ] [
+     fhir:code [ fhir:v "SWAB_(EYE)" ] ;
+     fhir:display [ fhir:v "Swab (eye)" ]
+  ] [
+     fhir:code [ fhir:v "SWAB_(NASAL)" ] ;
+     fhir:display [ fhir:v "Swab (nasal)" ]
+  ] [
+     fhir:code [ fhir:v "SWAB_(THROAT)" ] ;
+     fhir:display [ fhir:v "Swab (throat)" ]
+  ] [
+     fhir:code [ fhir:v "SWAB_(VAGINAL)" ] ;
+     fhir:display [ fhir:v "Swab (vaginal)" ]
+  ] [
+     fhir:code [ fhir:v "THICK_BLOOD_SMEAR" ] ;
+     fhir:display [ fhir:v "Thick blood smear" ]
+  ] [
+     fhir:code [ fhir:v "THIN_BLOOD_SMEAR" ] ;
+     fhir:display [ fhir:v "Thin blood smear" ]
+  ] [
+     fhir:code [ fhir:v "TICK_SAMPLE" ] ;
+     fhir:display [ fhir:v "Tick sample" ]
+  ] [
+     fhir:code [ fhir:v "TISSUE_IN_FORMALIN" ] ;
+     fhir:display [ fhir:v "Tissue in formalin" ]
+  ] [
+     fhir:code [ fhir:v "TISSUE_IN_PBS" ] ;
+     fhir:display [ fhir:v "Tissue in PBS" ]
+  ] [
+     fhir:code [ fhir:v "TISSUE_ON_ICE" ] ;
+     fhir:display [ fhir:v "Tissue on ice" ]
+  ] [
+     fhir:code [ fhir:v "TRACHEAL_SWABS" ] ;
+     fhir:display [ fhir:v "Tracheal swabs" ]
+  ] [
+     fhir:code [ fhir:v "URINE" ] ;
+     fhir:display [ fhir:v "Urine" ]
+  ] [
+     fhir:code [ fhir:v "UTERINE_CONTECT" ] ;
+     fhir:display [ fhir:v "Uterine contect" ]
+  ] [
+     fhir:code [ fhir:v "UTERUS" ] ;
+     fhir:display [ fhir:v "Uterus" ]
+  ] [
+     fhir:code [ fhir:v "WATER" ] ;
+     fhir:display [ fhir:v "Water" ]
+  ] [
+     fhir:code [ fhir:v "WEAT_BRAN" ] ;
+     fhir:display [ fhir:v "Weat bran" ]
+  ] [
+     fhir:code [ fhir:v "WHOLE_BLOOD" ] ;
+     fhir:display [ fhir:v "Whole blood" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

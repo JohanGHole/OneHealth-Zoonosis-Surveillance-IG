@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-11T13:02:26+00:00",
+  "date" : "2024-04-12T09:40:09+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -893,6 +893,42 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/lab-diseases-vs"
+      },
+      "name" : "Lab Diseases Value Set",
+      "description" : "Value set for lab diseases.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/laboratory-cs"
+      },
+      "name" : "Laboratory Code System",
+      "description" : "Code system of laboratories.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/laboratory-vs"
+      },
+      "name" : "Laboratory Value Set",
+      "description" : "Value set of laboratories.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1076,6 +1112,30 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/sample-type-cs"
+      },
+      "name" : "Sample Type Code System",
+      "description" : "Code system for sample types.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/sample-type-vs"
+      },
+      "name" : "Sample Type Value Set",
+      "description" : "Value set for sample types.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/surveillance-type-cs"
       },
       "name" : "Surveillance Type Code System",
@@ -1092,6 +1152,54 @@
       },
       "name" : "Surveillance Type Value Set",
       "description" : "Value set for surveillance types.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/test-result-cs"
+      },
+      "name" : "Test Result Code System",
+      "description" : "Code system for test results.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/test-result-vs"
+      },
+      "name" : "Test Result Value Set",
+      "description" : "Value set for test results.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/test-type-cs"
+      },
+      "name" : "Test Type Code System",
+      "description" : "Code system for test types.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/test-type-vs"
+      },
+      "name" : "Test Type Value Set",
+      "description" : "Value set for test types.",
       "exampleBoolean" : false
     },
     {

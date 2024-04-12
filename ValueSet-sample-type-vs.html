@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Sample Type Value Set - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.24"}
+    h3,h4,h5,h6{--heading-prefix:"2.24"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Sample Type Value Set</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-sample-type-vs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-sample-type-vs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-sample-type-vs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Sample Type Value Set
+
+  </h2>
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/ValueSet/sample-type-vs<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/sample-type-vs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/sample-type-vs|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-04-12
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">SampleTypeVS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Value set for sample types.</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-Laboratory.html">Logical Model - Laboratory</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-sample-type-cs.html"><code>https://dhis2.org/fhir/CodeSystem/sample-type-cs</code></a></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-sample-type-cs.html">codesystem Sample Type Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 71 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-ABSCESS--TUMOUR--MATERIAL"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-ABSCESS_.40TUMOUR.41_MATERIAL">ABSCESS_(TUMOUR)_MATERIAL</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Abscess (Tumour) material</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BAIT"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BAIT">BAIT</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Bait</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BIOPSY"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BIOPSY">BIOPSY</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Biopsy</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BLOOD-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BLOOD_SAMPLE">BLOOD_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Blood sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BLOOD-SMEAR"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BLOOD_SMEAR">BLOOD_SMEAR</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Blood smear</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BODY-FLUID"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BODY_FLUID">BODY_FLUID</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Body fluid</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BONE-MARROW"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BONE_MARROW">BONE_MARROW</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Bone marrow</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BONE-MEAL-BLOOD-MEAL"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BONE_MEAL.47BLOOD_MEAL">BONE_MEAL/BLOOD_MEAL</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Bone meal/Blood meal</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BONE-BLOOD-MEAL"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BONE.47BLOOD_MEAL">BONE/BLOOD_MEAL</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Bone/blood meal</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BRAIN-IN-FORMALIN"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BRAIN_IN_FORMALIN">BRAIN_IN_FORMALIN</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Brain in formalin</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BRAIN-IN-GLYCERINE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BRAIN_IN_GLYCERINE">BRAIN_IN_GLYCERINE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Brain in glycerine</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-BRAIN-ON-ICE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-BRAIN_ON_ICE">BRAIN_ON_ICE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Brain on ice</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-CADAVER"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-CADAVER">CADAVER</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Cadaver</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-CARCASS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-CARCASS">CARCASS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Carcass</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-CLOACAL-SWABS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-CLOACAL_SWABS">CLOACAL_SWABS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Cloacal swabs</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-CRAB-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-CRAB_SAMPLE">CRAB_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Crab sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-CROP-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-CROP_SAMPLE">CROP_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Crop sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-ENVIRONMENTAL"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-ENVIRONMENTAL">ENVIRONMENTAL</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Environmental</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-FAECES"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-FAECES">FAECES</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Faeces</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-FEATHER"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-FEATHER">FEATHER</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Feather</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-FEED"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-FEED">FEED</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Feed</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-FILTER-PAPER-WITH-BLOOD"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-FILTER_PAPER_WITH_BLOOD">FILTER_PAPER_WITH_BLOOD</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Filter paper with blood</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-FISH-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-FISH_SAMPLE">FISH_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Fish sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-FOETUS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-FOETUS">FOETUS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Foetus</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-HAIR"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-HAIR">HAIR</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Hair</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-HEAD"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-HEAD">HEAD</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Head</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-HONEY-BEE-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-HONEY_BEE_SAMPLE">HONEY_BEE_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Honey bee sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-INSECT-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-INSECT_SAMPLE">INSECT_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Insect sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-INTESTINE-SCREAPING"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-INTESTINE_SCREAPING">INTESTINE_SCREAPING</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Intestine screaping</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-INTESTINES"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-INTESTINES">INTESTINES</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Intestines</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-INTESTINES-CONTENT"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-INTESTINES_CONTENT">INTESTINES_CONTENT</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Intestines Content</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-JOINT-FLUID"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-JOINT_FLUID">JOINT_FLUID</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Joint fluid</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-LYMPHNODE-SMEAR"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-LYMPHNODE_SMEAR">LYMPHNODE_SMEAR</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Lymphnode smear</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-MAIZE-BRAN"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-MAIZE_BRAN">MAIZE_BRAN</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Maize bran</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-MARINE-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-MARINE_SAMPLE">MARINE_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Marine sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-MEAT-TRIMMINGS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-MEAT_TRIMMINGS">MEAT_TRIMMINGS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Meat Trimmings</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-MILK"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-MILK">MILK</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Milk</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-MUSCLE-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-MUSCLE_SAMPLE">MUSCLE_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Muscle sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-NO-SAMPLE-TAKEN"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-NO_SAMPLE_TAKEN">NO_SAMPLE_TAKEN</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>No sample taken</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-ORGAN-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-ORGAN_SAMPLE">ORGAN_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Organ sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-PLANT"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-PLANT">PLANT</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Plant</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-PREPUCIAL-WASHINGS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-PREPUCIAL_WASHINGS">PREPUCIAL_WASHINGS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Prepucial washings</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-PUS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-PUS">PUS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Pus</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-RICE-BRAN"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-RICE_BRAN">RICE_BRAN</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Rice bran</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SCRAPING"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SCRAPING">SCRAPING</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Scraping</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SEA-CUCCUMBER-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SEA_CUCCUMBER_SAMPLE">SEA_CUCCUMBER_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Sea cuccumber sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SEMEN"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SEMEN">SEMEN</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Semen</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SERUM"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SERUM">SERUM</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Serum</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SKIN-SCRAPING"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SKIN_SCRAPING">SKIN_SCRAPING</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Skin scraping</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SMEAR--IMPRESSION-"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SMEAR_.40IMPRESSION.41">SMEAR_(IMPRESSION)</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Smear (impression)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-STOMACH-CONTENT"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-STOMACH_CONTENT">STOMACH_CONTENT</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Stomach content</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-STOMOXYS-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-STOMOXYS_SAMPLE">STOMOXYS_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Stomoxys sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SWAB"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SWAB">SWAB</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Swab</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SWAB--ABATTOIR-HYGIENE-"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SWAB_.40ABATTOIR_HYGIENE.41">SWAB_(ABATTOIR_HYGIENE)</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Swab (abattoir hygiene)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SWAB--EYE-"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SWAB_.40EYE.41">SWAB_(EYE)</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Swab (eye)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SWAB--NASAL-"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SWAB_.40NASAL.41">SWAB_(NASAL)</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Swab (nasal)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SWAB--THROAT-"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SWAB_.40THROAT.41">SWAB_(THROAT)</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Swab (throat)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-SWAB--VAGINAL-"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-SWAB_.40VAGINAL.41">SWAB_(VAGINAL)</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Swab (vaginal)</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-THICK-BLOOD-SMEAR"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-THICK_BLOOD_SMEAR">THICK_BLOOD_SMEAR</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Thick blood smear</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-THIN-BLOOD-SMEAR"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-THIN_BLOOD_SMEAR">THIN_BLOOD_SMEAR</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Thin blood smear</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-TICK-SAMPLE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-TICK_SAMPLE">TICK_SAMPLE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Tick sample</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-TISSUE-IN-FORMALIN"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-TISSUE_IN_FORMALIN">TISSUE_IN_FORMALIN</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Tissue in formalin</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-TISSUE-IN-PBS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-TISSUE_IN_PBS">TISSUE_IN_PBS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Tissue in PBS</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-TISSUE-ON-ICE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-TISSUE_ON_ICE">TISSUE_ON_ICE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Tissue on ice</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-TRACHEAL-SWABS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-TRACHEAL_SWABS">TRACHEAL_SWABS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Tracheal swabs</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-URINE"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-URINE">URINE</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Urine</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-UTERINE-CONTECT"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-UTERINE_CONTECT">UTERINE_CONTECT</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Uterine contect</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-UTERUS"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-UTERUS">UTERUS</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Uterus</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-WATER"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-WATER">WATER</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Water</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-WEAT-BRAN"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-WEAT_BRAN">WEAT_BRAN</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Weat bran</td></tr><tr><td style="white-space:nowrap"><a name="https---dhis2.org-fhir-CodeSystem-sample-type-cs-WHOLE-BLOOD"> </a>  <a href="CodeSystem-sample-type-cs.html#sample-type-cs-WHOLE_BLOOD">WHOLE_BLOOD</a></td><td>https://dhis2.org/fhir/CodeSystem/sample-type-cs</td><td>Whole blood</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 12, 2024 09:40+0000">2024-04-12</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

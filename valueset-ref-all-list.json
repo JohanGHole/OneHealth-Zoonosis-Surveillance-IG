@@ -24,7 +24,6 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class"],
       "uses" : {
       },
-      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory",
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
@@ -37,7 +36,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-species-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-type-vs",
@@ -160,6 +160,30 @@
       "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
     },
     {
+      "url" : "https://dhis2.org/fhir/ValueSet/lab-diseases-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LabDiseasesVS",
+      "title" : "Lab Diseases Value Set",
+      "description" : "Value set for lab diseases.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/diseases-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/laboratory-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LaboratoryVS",
+      "title" : "Laboratory Value Set",
+      "description" : "Value set of laboratories.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/laboratory-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
+    },
+    {
       "url" : "https://dhis2.org/fhir/ValueSet/locality-quality-vs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -232,6 +256,18 @@
       "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
     },
     {
+      "url" : "https://dhis2.org/fhir/ValueSet/sample-type-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SampleTypeVS",
+      "title" : "Sample Type Value Set",
+      "description" : "Value set for sample types.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/sample-type-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
+    },
+    {
       "url" : "https://dhis2.org/fhir/ValueSet/surveillance-type-vs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -242,6 +278,30 @@
       "uses" : {
       },
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/test-result-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TestResultVS",
+      "title" : "Test Result Value Set",
+      "description" : "Value set for test results.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/test-result-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/test-type-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TestTypeVS",
+      "title" : "Test Type Value Set",
+      "description" : "Value set for test types.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/test-type-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/treatments-vs",

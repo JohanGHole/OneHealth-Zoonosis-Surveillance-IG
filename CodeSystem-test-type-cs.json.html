@@ -1,0 +1,804 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Test Type Code System - JSON Representation - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.52"}
+    h3,h4,h5,h6{--heading-prefix:"2.52"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
+      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    </a>
+  </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+  </div>
+
+<!-- search icon - if you want -->
+<!--
+  <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+-->
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Test Type Code System</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CodeSystem-test-type-cs.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-test-type-cs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-test-type-cs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Test Type Code System - JSON Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2024-04-12
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-test-type-cs.json" no-download="true">Raw json</a> | <a href="CodeSystem-test-type-cs.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "test-type-cs",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This  code system &lt;code&gt;https://dhis2.org/fhir/CodeSystem/test-type-cs&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AESCULINE_DIHYDROLASE_TEST&lt;a name=\&quot;test-type-cs-AESCULINE_DIHYDROLASE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aesculine dihydrolase test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AGAR_GEL_IMMUNODIFFUSION_(AGID)&lt;a name=\&quot;test-type-cs-AGAR_GEL_IMMUNODIFFUSION_.40AGID.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Agar-gel immunodiffusion (AGID)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AGAR_GEL_PRECIPITATION_(AGP)&lt;a name=\&quot;test-type-cs-AGAR_GEL_PRECIPITATION_.40AGP.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Agar-gel precipitation (AGP)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANATOMO_PATHOLOGICAL_EXAMINATION&lt;a name=\&quot;test-type-cs-ANATOMO_PATHOLOGICAL_EXAMINATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Anatomo-pathological examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANTIBODY_DETECTION_ELISA&lt;a name=\&quot;test-type-cs-ANTIBODY_DETECTION_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Antibody detection ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANTIGEN_DETECTION_ELISA&lt;a name=\&quot;test-type-cs-ANTIGEN_DETECTION_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Antigen detection ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ARGININE_DIHYDROLASE_TEST&lt;a name=\&quot;test-type-cs-ARGININE_DIHYDROLASE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Arginine dihydrolase test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BACTERIOLOGICAL_EXAMINATION&lt;a name=\&quot;test-type-cs-BACTERIOLOGICAL_EXAMINATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bacteriological examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BRUCELLOSIS_TEST&lt;a name=\&quot;test-type-cs-BRUCELLOSIS_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brucellosis test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BSE_ANTIGEN_TEST_KIT&lt;a name=\&quot;test-type-cs-BSE_ANTIGEN_TEST_KIT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BSE Antigen Test kit&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BUFFY_COAT_EXAMINATION&lt;a name=\&quot;test-type-cs-BUFFY_COAT_EXAMINATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Buffy coat examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BUTTER_FAT_TEST&lt;a name=\&quot;test-type-cs-BUTTER_FAT_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Butter fat test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CALCIUM_TEST_IN_FEED&lt;a name=\&quot;test-type-cs-CALCIUM_TEST_IN_FEED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Calcium test in feed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CARBOHYDRATE_FERMINTATION_TEST&lt;a name=\&quot;test-type-cs-CARBOHYDRATE_FERMINTATION_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Carbohydrate fermintation test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CASEIN_HYDROLYSIS_TEST&lt;a name=\&quot;test-type-cs-CASEIN_HYDROLYSIS_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Casein hydrolysis test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CATALASE_TEST&lt;a name=\&quot;test-type-cs-CATALASE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Catalase test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CENTRIFUGATION_TEST&lt;a name=\&quot;test-type-cs-CENTRIFUGATION_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Centrifugation test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CITRATE_TESTVOGES_PROSKAEUR_TEST&lt;a name=\&quot;test-type-cs-CITRATE_TESTVOGES_PROSKAEUR_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Citrate testVoges proskaeur test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;COAGULATE_TEST&lt;a name=\&quot;test-type-cs-COAGULATE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Coagulate test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;COGGIN'S_TEST&lt;a name=\&quot;test-type-cs-COGGIN.39S_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Coggin's test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;COMPETITIVE_ELISA_(C_ELISA)&lt;a name=\&quot;test-type-cs-COMPETITIVE_ELISA_.40C_ELISA.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Competitive ELISA (c-ELISA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;COMPLEMENT_FIXATION_TEST_(CFT)&lt;a name=\&quot;test-type-cs-COMPLEMENT_FIXATION_TEST_.40CFT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Complement fixation test (CFT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CULTURE_FOR_MYCOPLASMA&lt;a name=\&quot;test-type-cs-CULTURE_FOR_MYCOPLASMA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Culture for Mycoplasma&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DET_BIRBRIGHT&lt;a name=\&quot;test-type-cs-DET_BIRBRIGHT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Det Birbright&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DIRECT_FLUORESCENT_ANTIBODY_(FAT)_TEST&lt;a name=\&quot;test-type-cs-DIRECT_FLUORESCENT_ANTIBODY_.40FAT.41_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Direct fluorescent antibody (FAT) test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DIRECT_IMMUNOFLUORESCENCE_(DIF)&lt;a name=\&quot;test-type-cs-DIRECT_IMMUNOFLUORESCENCE_.40DIF.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Direct immunofluorescence (DIF)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DIRECT_RAPID_IMMUNOHISTOCHEMICAL_TEST_(DRIT)&lt;a name=\&quot;test-type-cs-DIRECT_RAPID_IMMUNOHISTOCHEMICAL_TEST_.40DRIT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Direct rapid immunohistochemical test (DRIT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DIRECT_SMEAR_EXAMINATION&lt;a name=\&quot;test-type-cs-DIRECT_SMEAR_EXAMINATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Direct smear examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EGG_INOCULATON&lt;a name=\&quot;test-type-cs-EGG_INOCULATON\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Egg inoculaton&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ELECTROIMMUNOTRANSFER_BLOT_ASSAY_(EITB)&lt;a name=\&quot;test-type-cs-ELECTROIMMUNOTRANSFER_BLOT_ASSAY_.40EITB.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Electroimmunotransfer blot assay (EITB)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ELECTRON_MICROSCOPY&lt;a name=\&quot;test-type-cs-ELECTRON_MICROSCOPY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Electron microscopy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ELISA_3ABC&lt;a name=\&quot;test-type-cs-ELISA_3ABC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ELISA 3ABC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENTOMOLOGICAL_INVESTIGATIONS&lt;a name=\&quot;test-type-cs-ENTOMOLOGICAL_INVESTIGATIONS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Entomological investigations&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENZYM_IMMUNOASSAY_(EIA)_MEMBRANE_TEST&lt;a name=\&quot;test-type-cs-ENZYM_IMMUNOASSAY_.40EIA.41_MEMBRANE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enzym immunoassay (EIA) membrane test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENZYME_LINKED_IMMUNOSORBENT_ASSAY_(ELISA)&lt;a name=\&quot;test-type-cs-ENZYME_LINKED_IMMUNOSORBENT_ASSAY_.40ELISA.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enzyme-linked immunosorbent assay (ELISA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FLOATATION_TEST&lt;a name=\&quot;test-type-cs-FLOATATION_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Floatation test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FLUORESCENT_ANTIBODY_VIRUS&lt;a name=\&quot;test-type-cs-FLUORESCENT_ANTIBODY_VIRUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fluorescent antibody virus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FUORESCENCE_POLARISATION_ASSAY_(FPA)&lt;a name=\&quot;test-type-cs-FUORESCENCE_POLARISATION_ASSAY_.40FPA.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fuorescence polarisation assay (FPA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GELATIN_HYDROLYSIS_TEST&lt;a name=\&quot;test-type-cs-GELATIN_HYDROLYSIS_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gelatin hydrolysis test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GENE_SEQUENCING&lt;a name=\&quot;test-type-cs-GENE_SEQUENCING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gene sequencing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GIEMSA_STAINING&lt;a name=\&quot;test-type-cs-GIEMSA_STAINING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Giemsa staining&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GLUCONATE_TEST&lt;a name=\&quot;test-type-cs-GLUCONATE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gluconate test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GRAM_STAINING&lt;a name=\&quot;test-type-cs-GRAM_STAINING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gram staining&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMAGGLUTINATION_(HA)_TEST&lt;a name=\&quot;test-type-cs-HAEMAGGLUTINATION_.40HA.41_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemagglutination (HA) test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMAGGLUTINATION_INHIBITION_TEST_(HIT)&lt;a name=\&quot;test-type-cs-HAEMAGGLUTINATION_INHIBITION_TEST_.40HIT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemagglutination inhibition test (HIT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HISTOLOGICAL_TEST&lt;a name=\&quot;test-type-cs-HISTOLOGICAL_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Histological test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HISTOPATHOLOGICAL_EXAMINATION&lt;a name=\&quot;test-type-cs-HISTOPATHOLOGICAL_EXAMINATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Histopathological examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IGG&lt;a name=\&quot;test-type-cs-IGG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IgG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IGG_CAPTURE_ELISA&lt;a name=\&quot;test-type-cs-IGG_CAPTURE_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IgG-capture ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IGM&lt;a name=\&quot;test-type-cs-IGM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IgM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IGM_CAPTURE_ELISA&lt;a name=\&quot;test-type-cs-IGM_CAPTURE_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IgM-capture ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IMMUNE_ELECTRON_MICROSCOPY&lt;a name=\&quot;test-type-cs-IMMUNE_ELECTRON_MICROSCOPY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Immune electron microscopy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IMMUNO_BLOTTING_(IB)&lt;a name=\&quot;test-type-cs-IMMUNO_BLOTTING_.40IB.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Immuno-blotting (IB)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IMMUNOCAPTURE_ELISA&lt;a name=\&quot;test-type-cs-IMMUNOCAPTURE_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Immunocapture ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IMMUNOELECTROPHORESIS_TEST_(IEPT)&lt;a name=\&quot;test-type-cs-IMMUNOELECTROPHORESIS_TEST_.40IEPT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Immunoelectrophoresis test (IEPT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IMMUNOHISTOCHEMICAL_TEST&lt;a name=\&quot;test-type-cs-IMMUNOHISTOCHEMICAL_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Immunohistochemical test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IMMUNOPEROXIDASE_MONOLAYER_ASSAY_(IPMA)&lt;a name=\&quot;test-type-cs-IMMUNOPEROXIDASE_MONOLAYER_ASSAY_.40IPMA.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Immunoperoxidase monolayer assay (IPMA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IN_SITU_HYBRIDISATION_(ISH)&lt;a name=\&quot;test-type-cs-IN_SITU_HYBRIDISATION_.40ISH.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;In situ hybridisation (ISH)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INDIRECT_ELISA&lt;a name=\&quot;test-type-cs-INDIRECT_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indirect ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INDIRECT_FLUORESCENT_ANTIBODY_(IFA)_TEST&lt;a name=\&quot;test-type-cs-INDIRECT_FLUORESCENT_ANTIBODY_.40IFA.41_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indirect fluorescent antibody (IFA) test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INDIRECT_SANDWICH_ELISA&lt;a name=\&quot;test-type-cs-INDIRECT_SANDWICH_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indirect sandwich ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INDOLE_TEST&lt;a name=\&quot;test-type-cs-INDOLE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indole test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INOCULATION_TEST&lt;a name=\&quot;test-type-cs-INOCULATION_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Inoculation test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTRACEREBRAL_PATHOGENICITY_INDEX_(ICPI)_TEST&lt;a name=\&quot;test-type-cs-INTRACEREBRAL_PATHOGENICITY_INDEX_.40ICPI.41_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intracerebral pathogenicity index (ICPI) test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTRAVENOUS_PATHOGENICITY_INDEX_(IVPI)_TEST&lt;a name=\&quot;test-type-cs-INTRAVENOUS_PATHOGENICITY_INDEX_.40IVPI.41_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intravenous pathogenicity index (IVPI) test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ISOENZYME_STUDIES&lt;a name=\&quot;test-type-cs-ISOENZYME_STUDIES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Isoenzyme studies&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IZSLER_AG&lt;a name=\&quot;test-type-cs-IZSLER_AG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Izsler Ag&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IZSLER_ELISA&lt;a name=\&quot;test-type-cs-IZSLER_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Izsler Elisa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LIQUID_PHASE_(LP)_BLOCKING_ELISA&lt;a name=\&quot;test-type-cs-LIQUID_PHASE_.40LP.41_BLOCKING_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liquid-phase (LP) blocking ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LUMINESCENCE_IMMUNOASSAY&lt;a name=\&quot;test-type-cs-LUMINESCENCE_IMMUNOASSAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Luminescence immunoassay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LYSINE_DECARBOXYLATE_TEST&lt;a name=\&quot;test-type-cs-LYSINE_DECARBOXYLATE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lysine decarboxylate test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MALLEIN_TEST&lt;a name=\&quot;test-type-cs-MALLEIN_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mallein test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MICROSCOPIC_AGGLUTINATION_TEST_(MAT)&lt;a name=\&quot;test-type-cs-MICROSCOPIC_AGGLUTINATION_TEST_.40MAT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Microscopic agglutination test (MAT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MICROSCOPIC_EXAMINATION&lt;a name=\&quot;test-type-cs-MICROSCOPIC_EXAMINATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Microscopic examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MICROSCOPIC_EXAMINATION_OF_LARVAE&lt;a name=\&quot;test-type-cs-MICROSCOPIC_EXAMINATION_OF_LARVAE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Microscopic examination of larvae&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MILK_DENSITY/MILK_QUALITY&lt;a name=\&quot;test-type-cs-MILK_DENSITY.47MILK_QUALITY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Milk density/milk quality&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MONOCLONAL_ANTIBODIES_(MAB)_TEST&lt;a name=\&quot;test-type-cs-MONOCLONAL_ANTIBODIES_.40MAB.41_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Monoclonal antibodies (Mab) test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MOTILITY_TEST&lt;a name=\&quot;test-type-cs-MOTILITY_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Motility test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MULTIPLEX_PCR&lt;a name=\&quot;test-type-cs-MULTIPLEX_PCR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Multiplex PCR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NESTED_RT_PCR&lt;a name=\&quot;test-type-cs-NESTED_RT_PCR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nested RT-PCR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NEURAMINIDASE_INHIBITION_ASSAY&lt;a name=\&quot;test-type-cs-NEURAMINIDASE_INHIBITION_ASSAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Neuraminidase inhibition assay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NEUTRALISATION_(FAVN)&lt;a name=\&quot;test-type-cs-NEUTRALISATION_.40FAVN.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Neutralisation (FAVN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NITRATE_REDUCTION_TEST&lt;a name=\&quot;test-type-cs-NITRATE_REDUCTION_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nitrate reduction test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NO_TEST_DONE&lt;a name=\&quot;test-type-cs-NO_TEST_DONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;No test done&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NON_STRUCTURAL_PROTEIN_ELISA&lt;a name=\&quot;test-type-cs-NON_STRUCTURAL_PROTEIN_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Non-structural protein ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NOT_SPECIFIED_TEST&lt;a name=\&quot;test-type-cs-NOT_SPECIFIED_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Not Specified Test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NPLA_(NEUTRALISING_PEROXIDASE_LINKED_ASSAY)&lt;a name=\&quot;test-type-cs-NPLA_.40NEUTRALISING_PEROXIDASE_LINKED_ASSAY.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NPLA (Neutralising peroxidase-linked assay)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NUCLEOTIDE_SEQUENCING&lt;a name=\&quot;test-type-cs-NUCLEOTIDE_SEQUENCING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nucleotide sequencing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OPTICAL_MICROSCOPY&lt;a name=\&quot;test-type-cs-OPTICAL_MICROSCOPY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Optical microscopy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ORMITHIAMINE_DECARBOXYLASE_TEST&lt;a name=\&quot;test-type-cs-ORMITHIAMINE_DECARBOXYLASE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ormithiamine decarboxylase test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OXIDASE_TEST&lt;a name=\&quot;test-type-cs-OXIDASE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oxidase test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PARASITOLOGICAL_EXAMINATION&lt;a name=\&quot;test-type-cs-PARASITOLOGICAL_EXAMINATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Parasitological examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PATHOGEN_ISOLATION_BY_EGG_INOCULATION&lt;a name=\&quot;test-type-cs-PATHOGEN_ISOLATION_BY_EGG_INOCULATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pathogen isolation by egg inoculation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PATHOGEN_ISOLATION_ON_CELL_CULTURE&lt;a name=\&quot;test-type-cs-PATHOGEN_ISOLATION_ON_CELL_CULTURE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pathogen isolation on cell culture&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PH_TEST_(_FEEDSSEMEN)&lt;a name=\&quot;test-type-cs-PH_TEST_.40_FEEDSSEMEN.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PH test ( feeds,semen)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHYLOGENETIC_ANALYSIS&lt;a name=\&quot;test-type-cs-PHYLOGENETIC_ANALYSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phylogenetic analysis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PLAQUE_REDUCTION_NEUTRALISATION_TEST_(PRN)&lt;a name=\&quot;test-type-cs-PLAQUE_REDUCTION_NEUTRALISATION_TEST_.40PRN.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plaque reduction neutralisation test (PRN)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;POLYMERASE_CHAIN_REACTION_(PCR)&lt;a name=\&quot;test-type-cs-POLYMERASE_CHAIN_REACTION_.40PCR.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Polymerase chain reaction (PCR)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PROXIMATE_ANALYSIS&lt;a name=\&quot;test-type-cs-PROXIMATE_ANALYSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Proximate analysis (protein,fat,NFE,fiber and moisture)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RAPID_AGGULUTINATION_TEST&lt;a name=\&quot;test-type-cs-RAPID_AGGULUTINATION_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rapid aggulutination test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RAPID_SERUM_AGGLUTINATION_(RSA)&lt;a name=\&quot;test-type-cs-RAPID_SERUM_AGGLUTINATION_.40RSA.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rapid serum agglutination (RSA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RAPID_TESTS&lt;a name=\&quot;test-type-cs-RAPID_TESTS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rapid tests&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;REAL_TIME_PCR&lt;a name=\&quot;test-type-cs-REAL_TIME_PCR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Real-time PCR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;REAL_TIME_REVERSE_TRANSCRIPTASE/POLYMERASE&lt;a name=\&quot;test-type-cs-REAL_TIME_REVERSE_TRANSCRIPTASE.47POLYMERASE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Real-time reverse transcriptase/polymerase chain reaction (RRT-PCR)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;REVERSE_TRANSCRIPTION__POLYMERASE_CHAIN_REACTION&lt;a name=\&quot;test-type-cs-REVERSE_TRANSCRIPTION__POLYMERASE_CHAIN_REACTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Reverse transcription - polymerase chain reaction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ROSE_BENGAL_TEST_(RBT)&lt;a name=\&quot;test-type-cs-ROSE_BENGAL_TEST_.40RBT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rose bengal test (RBT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SELLER'S_TEST&lt;a name=\&quot;test-type-cs-SELLER.39S_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Seller's test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEMEN_EXAMINATION&lt;a name=\&quot;test-type-cs-SEMEN_EXAMINATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Semen examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SERONEUTRALISATION_TEST_(SNT)&lt;a name=\&quot;test-type-cs-SERONEUTRALISATION_TEST_.40SNT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Seroneutralisation test (SNT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEROTYPING&lt;a name=\&quot;test-type-cs-SEROTYPING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Serotyping&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SERUM_AGGLUTINATION_TEST&lt;a name=\&quot;test-type-cs-SERUM_AGGLUTINATION_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Serum agglutination test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TISSUE_IMPRINTS&lt;a name=\&quot;test-type-cs-TISSUE_IMPRINTS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tissue imprints&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRIPLE_SUGAR_IRON_AGAR_TEST&lt;a name=\&quot;test-type-cs-TRIPLE_SUGAR_IRON_AGAR_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Triple sugar iron agar test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TUBE_AGGLUTINATION_TEST_(TAT)&lt;a name=\&quot;test-type-cs-TUBE_AGGLUTINATION_TEST_.40TAT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tube agglutination test (TAT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TYPING_ELISA&lt;a name=\&quot;test-type-cs-TYPING_ELISA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Typing ELISA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;UREASE_TEST&lt;a name=\&quot;test-type-cs-UREASE_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Urease test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIRUS_ISOLATION&lt;a name=\&quot;test-type-cs-VIRUS_ISOLATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Virus isolation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIRUS_NEUTRALISATION_TEST_(VNT)&lt;a name=\&quot;test-type-cs-VIRUS_NEUTRALISATION_TEST_.40VNT.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Virus neutralisation test (VNT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIRUS_SEQUENCING&lt;a name=\&quot;test-type-cs-VIRUS_SEQUENCING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Virus sequencing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIRUS_INFECTION_ASSOCIATED_ANTIGEN_(VIAA)&lt;a name=\&quot;test-type-cs-VIRUS_INFECTION_ASSOCIATED_ANTIGEN_.40VIAA.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Virus-infection-associated antigen (VIAA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WESTERN_BLOT_ANALYSIS&lt;a name=\&quot;test-type-cs-WESTERN_BLOT_ANALYSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Western blot analysis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WESTERN_BLOTTING_(WB)&lt;a name=\&quot;test-type-cs-WESTERN_BLOTTING_.40WB.41\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Western blotting (WB)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ZIEHL_NEELSEN_TEST&lt;a name=\&quot;test-type-cs-ZIEHL_NEELSEN_TEST\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ziehl Neelsen test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RTPCR&lt;a name=\&quot;test-type-cs-RTPCR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Reverse transcription - polymerase chain reaction (RT-PCR)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://dhis2.org/fhir/CodeSystem/test-type-cs",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "TestTypeCS",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Test Type Code System",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-04-12T09:40:09+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "DHIS2",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "DHIS2",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://dhis2.org"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "johan.hole@dhis2.org"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Code system for test types.",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 124,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AESCULINE_DIHYDROLASE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Aesculine dihydrolase test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AGAR_GEL_IMMUNODIFFUSION_(AGID)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Agar-gel immunodiffusion (AGID)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AGAR_GEL_PRECIPITATION_(AGP)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Agar-gel precipitation (AGP)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ANATOMO_PATHOLOGICAL_EXAMINATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Anatomo-pathological examination"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ANTIBODY_DETECTION_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Antibody detection ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ANTIGEN_DETECTION_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Antigen detection ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ARGININE_DIHYDROLASE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Arginine dihydrolase test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BACTERIOLOGICAL_EXAMINATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Bacteriological examination"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BRUCELLOSIS_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Brucellosis test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BSE_ANTIGEN_TEST_KIT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "BSE Antigen Test kit"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BUFFY_COAT_EXAMINATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Buffy coat examination"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "BUTTER_FAT_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Butter fat test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CALCIUM_TEST_IN_FEED",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Calcium test in feed"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CARBOHYDRATE_FERMINTATION_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Carbohydrate fermintation test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CASEIN_HYDROLYSIS_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Casein hydrolysis test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CATALASE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Catalase test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CENTRIFUGATION_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Centrifugation test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CITRATE_TESTVOGES_PROSKAEUR_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Citrate testVoges proskaeur test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COAGULATE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Coagulate test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COGGIN'S_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Coggin's test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COMPETITIVE_ELISA_(C_ELISA)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Competitive ELISA (c-ELISA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "COMPLEMENT_FIXATION_TEST_(CFT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Complement fixation test (CFT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "CULTURE_FOR_MYCOPLASMA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Culture for Mycoplasma"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DET_BIRBRIGHT",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Det Birbright"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DIRECT_FLUORESCENT_ANTIBODY_(FAT)_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Direct fluorescent antibody (FAT) test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DIRECT_IMMUNOFLUORESCENCE_(DIF)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Direct immunofluorescence (DIF)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DIRECT_RAPID_IMMUNOHISTOCHEMICAL_TEST_(DRIT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Direct rapid immunohistochemical test (DRIT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "DIRECT_SMEAR_EXAMINATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Direct smear examination"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "EGG_INOCULATON",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Egg inoculaton"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ELECTROIMMUNOTRANSFER_BLOT_ASSAY_(EITB)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Electroimmunotransfer blot assay (EITB)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ELECTRON_MICROSCOPY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Electron microscopy"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ELISA_3ABC",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "ELISA 3ABC"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENTOMOLOGICAL_INVESTIGATIONS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Entomological investigations"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENZYM_IMMUNOASSAY_(EIA)_MEMBRANE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Enzym immunoassay (EIA) membrane test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ENZYME_LINKED_IMMUNOSORBENT_ASSAY_(ELISA)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Enzyme-linked immunosorbent assay (ELISA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FLOATATION_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Floatation test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FLUORESCENT_ANTIBODY_VIRUS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Fluorescent antibody virus"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "FUORESCENCE_POLARISATION_ASSAY_(FPA)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Fuorescence polarisation assay (FPA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GELATIN_HYDROLYSIS_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Gelatin hydrolysis test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GENE_SEQUENCING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Gene sequencing"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GIEMSA_STAINING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Giemsa staining"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GLUCONATE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Gluconate test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "GRAM_STAINING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Gram staining"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HAEMAGGLUTINATION_(HA)_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Haemagglutination (HA) test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HAEMAGGLUTINATION_INHIBITION_TEST_(HIT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Haemagglutination inhibition test (HIT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HISTOLOGICAL_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Histological test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "HISTOPATHOLOGICAL_EXAMINATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Histopathological examination"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IGG",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IgG"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IGG_CAPTURE_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IgG-capture ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IGM",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IgM"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IGM_CAPTURE_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "IgM-capture ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IMMUNE_ELECTRON_MICROSCOPY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Immune electron microscopy"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IMMUNO_BLOTTING_(IB)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Immuno-blotting (IB)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IMMUNOCAPTURE_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Immunocapture ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IMMUNOELECTROPHORESIS_TEST_(IEPT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Immunoelectrophoresis test (IEPT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IMMUNOHISTOCHEMICAL_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Immunohistochemical test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IMMUNOPEROXIDASE_MONOLAYER_ASSAY_(IPMA)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Immunoperoxidase monolayer assay (IPMA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IN_SITU_HYBRIDISATION_(ISH)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "In situ hybridisation (ISH)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INDIRECT_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Indirect ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INDIRECT_FLUORESCENT_ANTIBODY_(IFA)_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Indirect fluorescent antibody (IFA) test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INDIRECT_SANDWICH_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Indirect sandwich ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INDOLE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Indole test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INOCULATION_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Inoculation test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INTRACEREBRAL_PATHOGENICITY_INDEX_(ICPI)_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Intracerebral pathogenicity index (ICPI) test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "INTRAVENOUS_PATHOGENICITY_INDEX_(IVPI)_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Intravenous pathogenicity index (IVPI) test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ISOENZYME_STUDIES",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Isoenzyme studies"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IZSLER_AG",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Izsler Ag"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "IZSLER_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Izsler Elisa"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LIQUID_PHASE_(LP)_BLOCKING_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Liquid-phase (LP) blocking ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LUMINESCENCE_IMMUNOASSAY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Luminescence immunoassay"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "LYSINE_DECARBOXYLATE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Lysine decarboxylate test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MALLEIN_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Mallein test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MICROSCOPIC_AGGLUTINATION_TEST_(MAT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Microscopic agglutination test (MAT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MICROSCOPIC_EXAMINATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Microscopic examination"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MICROSCOPIC_EXAMINATION_OF_LARVAE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Microscopic examination of larvae"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MILK_DENSITY/MILK_QUALITY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Milk density/milk quality"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MONOCLONAL_ANTIBODIES_(MAB)_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Monoclonal antibodies (Mab) test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MOTILITY_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Motility test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MULTIPLEX_PCR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Multiplex PCR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NESTED_RT_PCR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Nested RT-PCR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NEURAMINIDASE_INHIBITION_ASSAY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Neuraminidase inhibition assay"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NEUTRALISATION_(FAVN)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Neutralisation (FAVN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NITRATE_REDUCTION_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Nitrate reduction test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NO_TEST_DONE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "No test done"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NON_STRUCTURAL_PROTEIN_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Non-structural protein ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NOT_SPECIFIED_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Not Specified Test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NPLA_(NEUTRALISING_PEROXIDASE_LINKED_ASSAY)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "NPLA (Neutralising peroxidase-linked assay)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "NUCLEOTIDE_SEQUENCING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Nucleotide sequencing"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "OPTICAL_MICROSCOPY",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Optical microscopy"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ORMITHIAMINE_DECARBOXYLASE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ormithiamine decarboxylase test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "OXIDASE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Oxidase test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PARASITOLOGICAL_EXAMINATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Parasitological examination"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PATHOGEN_ISOLATION_BY_EGG_INOCULATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Pathogen isolation by egg inoculation"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PATHOGEN_ISOLATION_ON_CELL_CULTURE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Pathogen isolation on cell culture"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PH_TEST_(_FEEDSSEMEN)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "PH test ( feeds,semen)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PHYLOGENETIC_ANALYSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Phylogenetic analysis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PLAQUE_REDUCTION_NEUTRALISATION_TEST_(PRN)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Plaque reduction neutralisation test (PRN)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "POLYMERASE_CHAIN_REACTION_(PCR)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Polymerase chain reaction (PCR)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PROXIMATE_ANALYSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Proximate analysis (protein,fat,NFE,fiber and moisture)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RAPID_AGGULUTINATION_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rapid aggulutination test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RAPID_SERUM_AGGLUTINATION_(RSA)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rapid serum agglutination (RSA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RAPID_TESTS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rapid tests"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "REAL_TIME_PCR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Real-time PCR"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "REAL_TIME_REVERSE_TRANSCRIPTASE/POLYMERASE",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Real-time reverse transcriptase/polymerase chain reaction (RRT-PCR)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "REVERSE_TRANSCRIPTION__POLYMERASE_CHAIN_REACTION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Reverse transcription - polymerase chain reaction"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ROSE_BENGAL_TEST_(RBT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Rose bengal test (RBT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SELLER'S_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Seller's test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SEMEN_EXAMINATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Semen examination"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SERONEUTRALISATION_TEST_(SNT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Seroneutralisation test (SNT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SEROTYPING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Serotyping"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SERUM_AGGLUTINATION_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Serum agglutination test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TISSUE_IMPRINTS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tissue imprints"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TRIPLE_SUGAR_IRON_AGAR_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Triple sugar iron agar test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TUBE_AGGLUTINATION_TEST_(TAT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Tube agglutination test (TAT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "TYPING_ELISA",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Typing ELISA"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "UREASE_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Urease test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIRUS_ISOLATION",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Virus isolation"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIRUS_NEUTRALISATION_TEST_(VNT)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Virus neutralisation test (VNT)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIRUS_SEQUENCING",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Virus sequencing"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "VIRUS_INFECTION_ASSOCIATED_ANTIGEN_(VIAA)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Virus-infection-associated antigen (VIAA)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WESTERN_BLOT_ANALYSIS",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Western blot analysis"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "WESTERN_BLOTTING_(WB)",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Western blotting (WB)"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ZIEHL_NEELSEN_TEST",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Ziehl Neelsen test"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "RTPCR",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Reverse transcription - polymerase chain reaction (RT-PCR)"
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 12, 2024 09:40+0000">2024-04-12</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
