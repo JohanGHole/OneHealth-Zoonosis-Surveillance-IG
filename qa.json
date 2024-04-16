@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "zoonosis-surveillance-ig",
   "ig-ver" : "0.1.0",
-  "date" : "Tue, 16 Apr, 2024 08:28:58 +0000",
-  "dateISO8601" : "2024-04-16T08:28:58+00:00",
+  "date" : "Tue, 16 Apr, 2024 18:12:52 +0000",
+  "dateISO8601" : "2024-04-16T18:12:52+00:00",
   "errs" : 0,
   "warnings" : 83,
-  "hints" : 26,
+  "hints" : 27,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1706917528
+  "maxMemory" : 1495772800
 }

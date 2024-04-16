@@ -189,6 +189,13 @@
     "name" : "OneHealthZoonosisSurveillanceIG"
   },
   {
+    "id" : "AnimalSurveillanceQuestionnaire",
+    "type" : "Questionnaire",
+    "url" : "https://dhis2.org/fhir/Questionnaire/AnimalSurveillanceQuestionnaire",
+    "version" : "0.1.0",
+    "name" : "AnimalSurveillanceQuestionnaire"
+  },
+  {
     "id" : "AnimalSurveillance",
     "type" : "StructureDefinition",
     "url" : "https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance",

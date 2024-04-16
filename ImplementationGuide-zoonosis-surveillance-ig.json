@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-16T08:28:58+00:00",
+  "date" : "2024-04-16T18:12:52+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -649,6 +649,18 @@
       "name" : "Animal Species Value Set",
       "description" : "Value set for various animal species.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/AnimalSurveillanceQuestionnaire"
+      },
+      "name" : "Animal Surveillance Questionnaire",
+      "description" : "A questionnaire instance adapted for capturing detailed animal surveillance data according to the specified logical model.",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{

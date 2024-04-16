@@ -24,6 +24,7 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class-cs"],
       "uses" : {
       },
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
@@ -36,6 +37,7 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-species-cs"],
       "uses" : {
       },
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
       "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
     },
@@ -49,6 +51,7 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type-cs"],
       "uses" : {
       },
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
