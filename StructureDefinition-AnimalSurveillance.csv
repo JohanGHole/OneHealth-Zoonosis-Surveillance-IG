@@ -40,19 +40,19 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Animal Species","Animal Species","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/animal-species-vs","",,,,"AnimalSurveillance.epidemiology.animalSpecies",0,1,"",""
 "AnimalSurveillance.epidemiology.animalType","AnimalSurveillance.epidemiology.animalType","","","",0,1,"","","","code {[]} {[]}
 ","Animal Type","Animal Type","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/animal-type-vs","",,,,"AnimalSurveillance.epidemiology.animalType",0,1,"",""
-"AnimalSurveillance.epidemiology.animalsAtRisk","AnimalSurveillance.epidemiology.animalsAtRisk","","","",0,1,"","","","Count {[]} {[]}
+"AnimalSurveillance.epidemiology.animalsAtRisk","AnimalSurveillance.epidemiology.animalsAtRisk","","","",0,1,"","","","positiveInt {[]} {[]}
 ","Animals at Risk","Animals at Risk","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.epidemiology.animalsAtRisk",0,1,"",""
-"AnimalSurveillance.epidemiology.animalsCases","AnimalSurveillance.epidemiology.animalsCases","","","",0,1,"","","","Count {[]} {[]}
+"AnimalSurveillance.epidemiology.animalsCases","AnimalSurveillance.epidemiology.animalsCases","","","",0,1,"","","","positiveInt {[]} {[]}
 ","Animals Cases","Animals Cases","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.epidemiology.animalsCases",0,1,"",""
-"AnimalSurveillance.epidemiology.animalsDeaths","AnimalSurveillance.epidemiology.animalsDeaths","","","",0,1,"","","","Count {[]} {[]}
+"AnimalSurveillance.epidemiology.animalsDeaths","AnimalSurveillance.epidemiology.animalsDeaths","","","",0,1,"","","","positiveInt {[]} {[]}
 ","Animals Deaths","Animals Deaths","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.epidemiology.animalsDeaths",0,1,"",""
-"AnimalSurveillance.epidemiology.animalsDestroyed","AnimalSurveillance.epidemiology.animalsDestroyed","","","",0,1,"","","","Count {[]} {[]}
+"AnimalSurveillance.epidemiology.animalsDestroyed","AnimalSurveillance.epidemiology.animalsDestroyed","","","",0,1,"","","","positiveInt {[]} {[]}
 ","Animals Destroyed","Animals Destroyed","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.epidemiology.animalsDestroyed",0,1,"",""
-"AnimalSurveillance.epidemiology.animalsSlaughtered","AnimalSurveillance.epidemiology.animalsSlaughtered","","","",0,1,"","","","Count {[]} {[]}
+"AnimalSurveillance.epidemiology.animalsSlaughtered","AnimalSurveillance.epidemiology.animalsSlaughtered","","","",0,1,"","","","positiveInt {[]} {[]}
 ","Animals Slaughtered","Animals Slaughtered","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.epidemiology.animalsSlaughtered",0,1,"",""
 "AnimalSurveillance.epidemiology.vaccination","AnimalSurveillance.epidemiology.vaccination","","","",0,1,"","","","code {[]} {[]}
 ","If the animals are vaccinated. YES | NO | UNKNOWN","If the animals are vaccinated. YES | NO | UNKNOWN","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs","",,,,"AnimalSurveillance.epidemiology.vaccination",0,1,"",""
-"AnimalSurveillance.epidemiology.vaccinated","AnimalSurveillance.epidemiology.vaccinated","","","",0,1,"","","","Count {[]} {[]}
+"AnimalSurveillance.epidemiology.vaccinated","AnimalSurveillance.epidemiology.vaccinated","","","",0,1,"","","","positiveInt {[]} {[]}
 ","Number of vaccinated animals","Number of vaccinated animals","","","","","","","","","",,,,,"",,,,"AnimalSurveillance.epidemiology.vaccinated",0,1,"",""
 "AnimalSurveillance.epidemiology.productionSystemOne","AnimalSurveillance.epidemiology.productionSystemOne","","","",0,1,"","","","code {[]} {[]}
 ","Production System One","Production System One","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/production-system-one-vs","",,,,"AnimalSurveillance.epidemiology.productionSystemOne",0,1,"",""
