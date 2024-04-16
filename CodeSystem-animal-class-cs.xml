@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="animal-class-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/animal-class-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">BIRDS<a name="animal-class-cs-BIRDS"> </a></td><td>Birds</td></tr><tr><td style="white-space:nowrap">MAMMAL<a name="animal-class-cs-MAMMAL"> </a></td><td>Mammal</td></tr><tr><td style="white-space:nowrap">ARTHROPOD<a name="animal-class-cs-ARTHROPOD"> </a></td><td>Arthropod</td></tr><tr><td style="white-space:nowrap">FISH<a name="animal-class-cs-FISH"> </a></td><td>Fish</td></tr><tr><td style="white-space:nowrap">CRUSTACEANS<a name="animal-class-cs-CRUSTACEANS"> </a></td><td>Crustaceans</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="animal-class-cs-UNKNOWN"> </a></td><td>Unknown</td></tr><tr><td style="white-space:nowrap">ENVIRONMENTAL_SAMPLE<a name="animal-class-cs-ENVIRONMENTAL_SAMPLE"> </a></td><td>Environmental sample</td></tr><tr><td style="white-space:nowrap">MOLLUSKS<a name="animal-class-cs-MOLLUSKS"> </a></td><td>Mollusks</td></tr><tr><td style="white-space:nowrap">AMPHIBIANS<a name="animal-class-cs-AMPHIBIANS"> </a></td><td>Amphibians</td></tr><tr><td style="white-space:nowrap">REPTILES<a name="animal-class-cs-REPTILES"> </a></td><td>Reptiles</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
+  <version value="0.1.0"/>
+  <name value="AnimalClassCS"/>
+  <title value="Animal Class Code System"/>
+  <status value="draft"/>
+  <date value="2024-04-16T08:17:53+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="johan.hole@dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Code system for classifying types of animals."/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="BIRDS"/>
+    <display value="Birds"/>
+  </concept>
+  <concept>
+    <code value="MAMMAL"/>
+    <display value="Mammal"/>
+  </concept>
+  <concept>
+    <code value="ARTHROPOD"/>
+    <display value="Arthropod"/>
+  </concept>
+  <concept>
+    <code value="FISH"/>
+    <display value="Fish"/>
+  </concept>
+  <concept>
+    <code value="CRUSTACEANS"/>
+    <display value="Crustaceans"/>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="Unknown"/>
+  </concept>
+  <concept>
+    <code value="ENVIRONMENTAL_SAMPLE"/>
+    <display value="Environmental sample"/>
+  </concept>
+  <concept>
+    <code value="MOLLUSKS"/>
+    <display value="Mollusks"/>
+  </concept>
+  <concept>
+    <code value="AMPHIBIANS"/>
+    <display value="Amphibians"/>
+  </concept>
+  <concept>
+    <code value="REPTILES"/>
+    <display value="Reptiles"/>
+  </concept>
+</CodeSystem>

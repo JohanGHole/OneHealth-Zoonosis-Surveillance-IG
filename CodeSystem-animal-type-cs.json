@@ -1,0 +1,41 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "animal-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/animal-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CAPTIVE<a name=\"animal-type-cs-CAPTIVE\"> </a></td><td>Captive</td></tr><tr><td style=\"white-space:nowrap\">WILD<a name=\"animal-type-cs-WILD\"> </a></td><td>Wild</td></tr><tr><td style=\"white-space:nowrap\">DOMESTIC<a name=\"animal-type-cs-DOMESTIC\"> </a></td><td>Domestic</td></tr></table></div>"
+  },
+  "url" : "https://dhis2.org/fhir/CodeSystem/animal-type-cs",
+  "version" : "0.1.0",
+  "name" : "AnimalTypeCS",
+  "title" : "Animal Type Code System",
+  "status" : "draft",
+  "date" : "2024-04-16T08:17:53+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    },
+    {
+      "system" : "email",
+      "value" : "johan.hole@dhis2.org"
+    }]
+  }],
+  "description" : "Code system for types of animals.",
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "CAPTIVE",
+    "display" : "Captive"
+  },
+  {
+    "code" : "WILD",
+    "display" : "Wild"
+  },
+  {
+    "code" : "DOMESTIC",
+    "display" : "Domestic"
+  }]
+}

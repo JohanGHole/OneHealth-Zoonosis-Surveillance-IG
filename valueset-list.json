@@ -7,7 +7,7 @@
       "name" : "AnimalClassVS",
       "title" : "Animal Class Value Set",
       "description" : "Value set for classifying types of animals.",
-      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class"]
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class-cs"]
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-species-vs",
@@ -25,7 +25,7 @@
       "name" : "AnimalTypeVS",
       "title" : "Animal Type Value Set",
       "description" : "Value set for types of animals.",
-      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type"]
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type-cs"]
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/clade-vs",
@@ -107,6 +107,15 @@
       "title" : "Districts Value Set",
       "description" : "Value set for districts.",
       "systems" : ["https://dhis2.org/fhir/CodeSystem/districts-cs"]
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/infection-source-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "InfectionSourceVS",
+      "title" : "Infection Source Value Set",
+      "description" : "Value set for infection source.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/infection-source-cs"]
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/lab-diseases-vs",
@@ -226,7 +235,7 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/treatments-cs"]
     },
     {
-      "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown",
+      "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "YesNoUnknownVS",

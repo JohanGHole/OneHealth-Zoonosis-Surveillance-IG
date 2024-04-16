@@ -21,7 +21,7 @@
       "name" : "AnimalClassVS",
       "title" : "Animal Class Value Set",
       "description" : "Value set for classifying types of animals.",
-      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class"],
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class-cs"],
       "uses" : {
       },
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
@@ -46,7 +46,7 @@
       "name" : "AnimalTypeVS",
       "title" : "Animal Type Value Set",
       "description" : "Value set for types of animals.",
-      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type"],
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type-cs"],
       "uses" : {
       },
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
@@ -158,6 +158,18 @@
       "uses" : {
       },
       "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
+    },
+    {
+      "url" : "https://dhis2.org/fhir/ValueSet/infection-source-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "InfectionSourceVS",
+      "title" : "Infection Source Value Set",
+      "description" : "Value set for infection source.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/infection-source-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/lab-diseases-vs",
@@ -316,7 +328,7 @@
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
-      "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown",
+      "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "YesNoUnknownVS",

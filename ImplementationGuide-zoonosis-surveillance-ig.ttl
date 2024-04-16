@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-12T11:15:39+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-16T08:17:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -519,8 +519,8 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://dhis2.org/fhir/CodeSystem/animal-class> ;
-         fhir:reference [ fhir:v "CodeSystem/animal-class" ]
+         fhir:link <https://dhis2.org/fhir/CodeSystem/animal-class-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/animal-class-cs" ]
        ] ;
        fhir:name [ fhir:v "Animal Class Code System" ] ;
        fhir:description [ fhir:v "Code system for classifying types of animals." ] ;
@@ -567,8 +567,8 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://dhis2.org/fhir/CodeSystem/animal-type> ;
-         fhir:reference [ fhir:v "CodeSystem/animal-type" ]
+         fhir:link <https://dhis2.org/fhir/CodeSystem/animal-type-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/animal-type-cs" ]
        ] ;
        fhir:name [ fhir:v "Animal Type Code System" ] ;
        fhir:description [ fhir:v "Code system for types of animals." ] ;
@@ -800,6 +800,30 @@
        ] ;
        fhir:name [ fhir:v "Districts Value Set" ] ;
        fhir:description [ fhir:v "Value set for districts." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/infection-source-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/infection-source-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Infection Source Code System" ] ;
+       fhir:description [ fhir:v "Code system for infection source." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/infection-source-vs> ;
+         fhir:reference [ fhir:v "ValueSet/infection-source-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Infection Source Value Set" ] ;
+       fhir:description [ fhir:v "Value set for infection source." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1155,8 +1179,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://dhis2.org/fhir/ValueSet/yes-no-unknown> ;
-         fhir:reference [ fhir:v "ValueSet/yes-no-unknown" ]
+         fhir:link <https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs> ;
+         fhir:reference [ fhir:v "ValueSet/yes-no-unknown-vs" ]
        ] ;
        fhir:name [ fhir:v "Yes/No/Unknown Value Set" ] ;
        fhir:description [ fhir:v "Value set for yes, no, and unknown responses." ] ;

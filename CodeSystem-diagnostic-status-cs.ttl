@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "DiagnosticStatusCS"] ; # 
   fhir:title [ fhir:v "Diagnostic Status Code System"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-12T11:15:39+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-16T08:17:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;

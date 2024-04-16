@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1268f275-13e4-4189-acf4-dc41f7c511af"/>
+  <id value="37e108c7-7986-4584-b8b6-83e84af4992b"/>
   <meta>
-    <lastUpdated value="2024-04-12T11:15:39.402+00:00"/>
+    <lastUpdated value="2024-04-16T08:17:53.978+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -14,7 +14,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-animal-class.html">codesystem Animal Class Code System v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-animal-class-cs.html">codesystem Animal Class Code System v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 10 concepts.</p>
             <table class="codes">
@@ -31,82 +31,82 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-BIRDS"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-BIRDS">BIRDS</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-BIRDS"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-BIRDS">BIRDS</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Birds</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-MAMMAL"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-MAMMAL">MAMMAL</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-MAMMAL"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-MAMMAL">MAMMAL</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Mammal</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-ARTHROPOD"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-ARTHROPOD">ARTHROPOD</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-ARTHROPOD"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-ARTHROPOD">ARTHROPOD</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Arthropod</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-FISH"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-FISH">FISH</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-FISH"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-FISH">FISH</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Fish</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-CRUSTACEANS"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-CRUSTACEANS">CRUSTACEANS</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-CRUSTACEANS"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-CRUSTACEANS">CRUSTACEANS</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Crustaceans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-UNKNOWN"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-UNKNOWN">UNKNOWN</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-UNKNOWN"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-UNKNOWN">UNKNOWN</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Unknown</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-ENVIRONMENTAL-SAMPLE"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-ENVIRONMENTAL_SAMPLE">ENVIRONMENTAL_SAMPLE</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-ENVIRONMENTAL-SAMPLE"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-ENVIRONMENTAL_SAMPLE">ENVIRONMENTAL_SAMPLE</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Environmental sample</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-MOLLUSKS"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-MOLLUSKS">MOLLUSKS</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-MOLLUSKS"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-MOLLUSKS">MOLLUSKS</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Mollusks</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-AMPHIBIANS"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-AMPHIBIANS">AMPHIBIANS</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-AMPHIBIANS"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-AMPHIBIANS">AMPHIBIANS</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Amphibians</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-REPTILES"> </a>  
-                  <a href="CodeSystem-animal-class.html#animal-class-REPTILES">REPTILES</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-class-cs-REPTILES"> </a>  
+                  <a href="CodeSystem-animal-class-cs.html#animal-class-cs-REPTILES">REPTILES</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-class</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-class-cs</td>
                 <td>Reptiles</td>
               </tr>
             </table>
@@ -117,10 +117,10 @@
         <name value="AnimalClassVS"/>
         <title value="Animal Class Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8b5fc92b-36b1-48bb-9b9f-d92169053367"/>
-          <timestamp value="2024-04-12T11:15:57+00:00"/>
+          <identifier value="urn:uuid:0f4fbc4a-f180-426d-9811-bc6662189206"/>
+          <timestamp value="2024-04-16T08:18:15+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -137,55 +137,55 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://dhis2.org/fhir/CodeSystem/animal-class|0.1.0"/>
+            <valueUri value="https://dhis2.org/fhir/CodeSystem/animal-class-cs|0.1.0"/>
           </parameter>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="BIRDS"/>
             <display value="Birds"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="MAMMAL"/>
             <display value="Mammal"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="ARTHROPOD"/>
             <display value="Arthropod"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="FISH"/>
             <display value="Fish"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="CRUSTACEANS"/>
             <display value="Crustaceans"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="UNKNOWN"/>
             <display value="Unknown"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="ENVIRONMENTAL_SAMPLE"/>
             <display value="Environmental sample"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="MOLLUSKS"/>
             <display value="Mollusks"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="AMPHIBIANS"/>
             <display value="Amphibians"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-class"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
             <code value="REPTILES"/>
             <display value="Reptiles"/>
           </contains>
@@ -6024,10 +6024,10 @@
         <name value="AnimalSpeciesVS"/>
         <title value="Animal Species Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5ee28f40-7914-4d33-895e-654f650e22c0"/>
-          <timestamp value="2024-04-12T11:15:57+00:00"/>
+          <identifier value="urn:uuid:86cf5b00-7909-432d-a1f8-ef9a612ab159"/>
+          <timestamp value="2024-04-16T08:18:15+00:00"/>
           <total value="725"/>
           <offset value="0"/>
           <parameter>
@@ -9683,7 +9683,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-animal-type.html">codesystem Animal Type Code System v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-animal-type-cs.html">codesystem Animal Type Code System v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts.</p>
             <table class="codes">
@@ -9700,26 +9700,26 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-type-CAPTIVE"> </a>  
-                  <a href="CodeSystem-animal-type.html#animal-type-CAPTIVE">CAPTIVE</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-type-cs-CAPTIVE"> </a>  
+                  <a href="CodeSystem-animal-type-cs.html#animal-type-cs-CAPTIVE">CAPTIVE</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-type</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-type-cs</td>
                 <td>Captive</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-type-WILD"> </a>  
-                  <a href="CodeSystem-animal-type.html#animal-type-WILD">WILD</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-type-cs-WILD"> </a>  
+                  <a href="CodeSystem-animal-type-cs.html#animal-type-cs-WILD">WILD</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-type</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-type-cs</td>
                 <td>Wild</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---dhis2.org-fhir-CodeSystem-animal-type-DOMESTIC"> </a>  
-                  <a href="CodeSystem-animal-type.html#animal-type-DOMESTIC">DOMESTIC</a>
+                  <a name="https---dhis2.org-fhir-CodeSystem-animal-type-cs-DOMESTIC"> </a>  
+                  <a href="CodeSystem-animal-type-cs.html#animal-type-cs-DOMESTIC">DOMESTIC</a>
                 </td>
-                <td>https://dhis2.org/fhir/CodeSystem/animal-type</td>
+                <td>https://dhis2.org/fhir/CodeSystem/animal-type-cs</td>
                 <td>Domestic</td>
               </tr>
             </table>
@@ -9730,10 +9730,10 @@
         <name value="AnimalTypeVS"/>
         <title value="Animal Type Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:77ea6127-c73f-4602-b0a2-0f734df655e6"/>
-          <timestamp value="2024-04-12T11:15:58+00:00"/>
+          <identifier value="urn:uuid:a8cd2700-425f-417c-b096-197a4518bd39"/>
+          <timestamp value="2024-04-16T08:18:16+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -9750,20 +9750,20 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://dhis2.org/fhir/CodeSystem/animal-type|0.1.0"/>
+            <valueUri value="https://dhis2.org/fhir/CodeSystem/animal-type-cs|0.1.0"/>
           </parameter>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-type"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-type-cs"/>
             <code value="CAPTIVE"/>
             <display value="Captive"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-type"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-type-cs"/>
             <code value="WILD"/>
             <display value="Wild"/>
           </contains>
           <contains>
-            <system value="https://dhis2.org/fhir/CodeSystem/animal-type"/>
+            <system value="https://dhis2.org/fhir/CodeSystem/animal-type-cs"/>
             <code value="DOMESTIC"/>
             <display value="Domestic"/>
           </contains>
@@ -10106,10 +10106,10 @@
         <name value="CladeVS"/>
         <title value="Clade Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9f997790-78ab-4ea7-bbb5-b5b3fb703fc7"/>
-          <timestamp value="2024-04-12T11:15:58+00:00"/>
+          <identifier value="urn:uuid:d16362d0-9c8f-4298-87c7-9ab095d596f0"/>
+          <timestamp value="2024-04-16T08:18:16+00:00"/>
           <total value="38"/>
           <offset value="0"/>
           <parameter>
@@ -11609,10 +11609,10 @@
         <name value="ClinicalSignsVS"/>
         <title value="Clinical Signs Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4c12e6bc-a9b4-4e46-a629-3f14e07aa88f"/>
-          <timestamp value="2024-04-12T11:15:58+00:00"/>
+          <identifier value="urn:uuid:e504d719-55b5-4d1f-bbc0-4c88a537ef57"/>
+          <timestamp value="2024-04-16T08:18:16+00:00"/>
           <total value="157"/>
           <offset value="0"/>
           <parameter>
@@ -13243,10 +13243,10 @@
         <name value="ControlMeasuresVS"/>
         <title value="Control Measures Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3af8163b-7b09-42b5-85aa-81587e01d7dc"/>
-          <timestamp value="2024-04-12T11:15:58+00:00"/>
+          <identifier value="urn:uuid:aee03223-49cf-43b6-9e18-643f32042cfd"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
           <total value="99"/>
           <offset value="0"/>
           <parameter>
@@ -13827,10 +13827,10 @@
         <name value="DiagnosisBasisVS"/>
         <title value="Diagnosis Basis Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:157bdf08-dc08-404c-bf40-62df22bb495a"/>
-          <timestamp value="2024-04-12T11:15:59+00:00"/>
+          <identifier value="urn:uuid:5ea0caea-a0e8-4623-b31b-a7994e17a492"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -14496,10 +14496,10 @@
         <name value="DiagnosticSourceVS"/>
         <title value="Diagnostic Source Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9e7ebfde-abb4-40ea-b006-8e79faf7e9fe"/>
-          <timestamp value="2024-04-12T11:15:59+00:00"/>
+          <identifier value="urn:uuid:59f8c70c-dc2d-4fdd-b504-ec15f1dcda88"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
           <total value="74"/>
           <offset value="0"/>
           <parameter>
@@ -14947,10 +14947,10 @@
         <name value="DiseaseStatusVS"/>
         <title value="Disease Status Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b24f6a81-ab8d-413e-aade-01d3edd1f9ad"/>
-          <timestamp value="2024-04-12T11:15:59+00:00"/>
+          <identifier value="urn:uuid:ae1f0fad-4e93-4bd5-9247-84f603c6a226"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -15771,10 +15771,10 @@
         <name value="DiseaseSubtypeVS"/>
         <title value="Disease Subtype Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c004d4cd-4a07-4768-9306-05fd535ea577"/>
-          <timestamp value="2024-04-12T11:15:59+00:00"/>
+          <identifier value="urn:uuid:4148f0ff-78cf-421d-b7f6-eded60d2b9e0"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
           <total value="94"/>
           <offset value="0"/>
           <parameter>
@@ -18570,10 +18570,10 @@
         <name value="DiseasesVS"/>
         <title value="Diseases Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:86b6974f-6516-498d-b50c-fd28fc1d74c1"/>
-          <timestamp value="2024-04-12T11:15:59+00:00"/>
+          <identifier value="urn:uuid:36999865-d22b-444a-bed1-be550da19097"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
           <total value="284"/>
           <offset value="0"/>
           <parameter>
@@ -21119,10 +21119,10 @@
         <name value="DistrictsVS"/>
         <title value="Districts Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:d675e7fa-7f27-4b46-b239-ca022bc6e37d"/>
-          <timestamp value="2024-04-12T11:15:59+00:00"/>
+          <identifier value="urn:uuid:b38def87-3a55-4df2-a196-cf59222a3a7f"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
           <total value="134"/>
           <offset value="0"/>
           <parameter>
@@ -21810,6 +21810,1428 @@
             <system value="https://dhis2.org/fhir/CodeSystem/districts-cs"/>
             <code value="XONBULY"/>
             <display value="Xonbuly"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/fhir/ValueSet/infection-source-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-infection-source-cs.html">codesystem Infection Source Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 105 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-AETHINA-TUMIDA-PRESENTE-BORDERING-STATES-OF-USA"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-AETHINA_TUMIDA_PRESENTE_BORDERING_STATES_OF_USA">AETHINA_TUMIDA_PRESENTE_BORDERING_STATES_OF_USA</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Aethina tumida is present in some bordering states of the United States of America.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-AFTER-EATING-UNDERCOOKED-INFECTED-PORK-BLOOD-PASTE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-AFTER_EATING_UNDERCOOKED_INFECTED_PORK_BLOOD_PASTE">AFTER_EATING_UNDERCOOKED_INFECTED_PORK_BLOOD_PASTE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>After eating undercooked infected pork, blood paste</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-AFTER-HANDLING-THE-CARCASS-OF-A-SICK-COW"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-AFTER_HANDLING_THE_CARCASS_OF_A_SICK_COW">AFTER_HANDLING_THE_CARCASS_OF_A_SICK_COW</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>After handling the carcass of a sick cow</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-AIRBORNE-SPREAD"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-AIRBORNE_SPREAD">AIRBORNE_SPREAD</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Airborne spread</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-ANIMAL-DOG-BITE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-ANIMAL.47DOG_BITE">ANIMAL/DOG_BITE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Animal/dog bite</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-ANIMALS-IN-AN-AREA-OF-ANTHRAXINFECTED-FIELDS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-ANIMALS_IN_AN_AREA_OF_ANTHRAXINFECTED_FIELDS">ANIMALS_IN_AN_AREA_OF_ANTHRAXINFECTED_FIELDS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Animals in an area of anthrax-infected fields</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-ANIMALS-INFECTED-AT-QUARANTINE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-ANIMALS_INFECTED_AT_QUARANTINE">ANIMALS_INFECTED_AT_QUARANTINE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Animals infected at quarantine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-ANIMALS-IN-TRANSIT"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-ANIMALS_IN_TRANSIT">ANIMALS_IN_TRANSIT</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Animals in transit</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CIRCULATION-OF-THE-VIRUS-IN-THE-WILD-ANIMAL"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CIRCULATION_OF_THE_VIRUS_IN_THE_WILD_ANIMAL">CIRCULATION_OF_THE_VIRUS_IN_THE_WILD_ANIMAL</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Circulation of the virus in the Wild animal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-AFTER-EATING-INFECTED-CARCASSES"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_AFTER_EATING_INFECTED_CARCASSES">CONTACT_AFTER_EATING_INFECTED_CARCASSES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact after eating infected carcasses</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-AFFECTED-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_AFFECTED_ANIMALS">CONTACT_WITH_AFFECTED_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with affected animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-ANIMALS-AND-PIGS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_ANIMALS_AND_PIGS">CONTACT_WITH_ANIMALS_AND_PIGS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with animals and pigs</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-ANIMALS-AT-MARKET-SLAUGHTERHOUSES"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_ANIMALS_AT_MARKET.47SLAUGHTERHOUSES">CONTACT_WITH_ANIMALS_AT_MARKET/SLAUGHTERHOUSES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with animals at market/slaughterhouses</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-ASYMPTOMATIC-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_ASYMPTOMATIC_ANIMALS">CONTACT_WITH_ASYMPTOMATIC_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with asymptomatic animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-BACKYARD-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_BACKYARD_POULTRY">CONTACT_WITH_BACKYARD_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with backyard poultry</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-CHICKEN-EGGS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_CHICKEN_EGGS">CONTACT_WITH_CHICKEN_EGGS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with chicken eggs</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-CONT-FARMING-EQUIP-VEHICLES-CLOTHING-FEED"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_CONT_FARMING_EQUIP_VEHICLES_CLOTHING_FEED">CONTACT_CONT_FARMING_EQUIP_VEHICLES_CLOTHING_FEED</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with contaminated farming equipment, vehicles, clothing, or feed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-DEAD-BACKYARD-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_DEAD_BACKYARD_POULTRY">CONTACT_WITH_DEAD_BACKYARD_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with dead backyard poultry</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-DEAD-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_DEAD_POULTRY">CONTACT_WITH_DEAD_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with dead poultry</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-HUMANS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_HUMANS">CONTACT_WITH_HUMANS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with humans</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-INFECTED-ANIMAL-AT-GRAZING-WATERING"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_INFECTED_ANIMAL_AT_GRAZING.47WATERING">CONTACT_WITH_INFECTED_ANIMAL_AT_GRAZING/WATERING</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with infected animal at grazing/watering</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-INFECTED-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_INFECTED_ANIMALS">CONTACT_WITH_INFECTED_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with infected animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-INFECTED-AREA"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_INFECTED_AREA">CONTACT_WITH_INFECTED_AREA</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with infected area</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-INFECTED-NEIGHBOURING-ESTABLISHMENT"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_INFECTED_NEIGHBOURING_ESTABLISHMENT">CONTACT_WITH_INFECTED_NEIGHBOURING_ESTABLISHMENT</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with infected neighbouring establishment</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-LIVE-POULTRY-IN-A-MARKET"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_LIVE_POULTRY_IN_A_MARKET">CONTACT_WITH_LIVE_POULTRY_IN_A_MARKET</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with live poultry in a market</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_POULTRY">CONTACT_WITH_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with poultry</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-POULTRY-PRODUCTION"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_POULTRY_PRODUCTION">CONTACT_WITH_POULTRY_PRODUCTION</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with poultry production</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-POULTRY-RAISED-IN-THE-NEIGHBOURHOOD"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_POULTRY_RAISED_IN_THE_NEIGHBOURHOOD">CONTACT_WITH_POULTRY_RAISED_IN_THE_NEIGHBOURHOOD</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with poultry raised in the neighbourhood.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-QUAILS--EGGS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_QUAILS.39_EGGS">CONTACT_WITH_QUAILS'_EGGS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with quails' eggs</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-SICK-AND-DEAD-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_SICK_AND_DEAD_POULTRY">CONTACT_WITH_SICK_AND_DEAD_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with sick and dead poultry</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-SICK-AND-OR-DEAD-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_SICK_AND.47OR_DEAD_POULTRY">CONTACT_WITH_SICK_AND/OR_DEAD_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with sick and/or dead poultry</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-SICK-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_SICK_ANIMALS">CONTACT_WITH_SICK_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with sick animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-SICK-OR-DEAD-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_SICK_OR_DEAD_ANIMALS">CONTACT_WITH_SICK_OR_DEAD_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with sick or dead animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-SICK-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_SICK_POULTRY">CONTACT_WITH_SICK_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with sick poultry</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-SICK-OR-DEAD-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_SICK_OR_DEAD_POULTRY">CONTACT_WITH_SICK_OR_DEAD_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with sick or dead poultry</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-SPORES-IN-THE-SOIL"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_SPORES_IN_THE_SOIL">CONTACT_WITH_SPORES_IN_THE_SOIL</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with spores in the soil</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-WILD-BIRDS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_WILD_BIRDS">CONTACT_WITH_WILD_BIRDS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with wild birds</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-WILDLIFE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_WILDLIFE">CONTACT_WITH_WILDLIFE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with wildlife</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTACT-WITH-WILD-SPECIES"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTACT_WITH_WILD_SPECIES">CONTACT_WITH_WILD_SPECIES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contact with wild species</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTAMINATED-ANIMAL-PRODUCTS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTAMINATED_ANIMAL_PRODUCTS">CONTAMINATED_ANIMAL_PRODUCTS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contaminated animal products</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-CONTAMINATED-MANURE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-CONTAMINATED_MANURE">CONTAMINATED_MANURE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Contaminated manure</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-DIRECT-CONTACT-SECRETIONS-DISEASED-PIGS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-DIRECT_CONTACT_SECRETIONS_DISEASED_PIGS">DIRECT_CONTACT_SECRETIONS_DISEASED_PIGS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Direct contact with secretions from diseased pigs via open wounds or respiratory tracts</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-DIRECT-OR-INDIRECT-EXPOSURE-TO-SWINE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-DIRECT_OR_INDIRECT_EXPOSURE_TO_SWINE">DIRECT_OR_INDIRECT_EXPOSURE_TO_SWINE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Direct or indirect exposure to swine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-DROPPING-FOR-FIENTE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-DROPPING_FOR_FIENTE">DROPPING_FOR_FIENTE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Dropping for fiente</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-ENVIRONMENTAL-CONTAMINATION"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-ENVIRONMENTAL_CONTAMINATION">ENVIRONMENTAL_CONTAMINATION</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Environmental contamination</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-EXPOSED-TO-SWINE-ON-THE-JOB"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-EXPOSED_TO_SWINE_ON_THE_JOB">EXPOSED_TO_SWINE_ON_THE_JOB</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Exposed to swine on the job</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-EXPOSURE-TO-A-POTENTIALLY-CONTAMINATED-ENVIRONMENT"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-EXPOSURE_TO_A_POTENTIALLY_CONTAMINATED_ENVIRONMENT">EXPOSURE_TO_A_POTENTIALLY_CONTAMINATED_ENVIRONMENT</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Exposure  to a potentially contaminated environment</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-FALSE-VERTICAL-SPREAD-CONTAMINATED-EGGS-GAMETES"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-FALSE_VERTICAL_SPREAD_CONTAMINATED_EGGS_GAMETES">FALSE_VERTICAL_SPREAD_CONTAMINATED_EGGS_GAMETES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>False vertical spread (though contaminated eggs or gametes)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-FEEDING-RAW-AQUATIC-ANIMAL-PRODUCT"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-FEEDING_RAW_AQUATIC_ANIMAL_PRODUCT">FEEDING_RAW_AQUATIC_ANIMAL_PRODUCT</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Feeding raw aquatic animal product</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-FLOODING-ASSOCIATED-WITH-MOSQUITO-MULTIPLICATION"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION">FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Flooding associated with mosquito multiplication</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-FOMITES-HUMANS-VEHICLES-FEED-ETC"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-FOMITES_HUMANS_VEHICLES_FEED_ETC">FOMITES_HUMANS_VEHICLES_FEED_ETC</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Fomites (humans, vehicles, feed, etc.)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-FOOD-LEFTOVERS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-FOOD_LEFTOVERS">FOOD_LEFTOVERS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Food leftovers</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-HEMATOPHAGOUS-BATS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-HEMATOPHAGOUS_BATS">HEMATOPHAGOUS_BATS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Hematophagous bats</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-HORIZONTAL-SPREAD-THROUGH-WATER"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-HORIZONTAL_SPREAD_THROUGH_WATER">HORIZONTAL_SPREAD_THROUGH_WATER</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Horizontal spread through water</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-ILLEGAL-MOVEMENT-OF-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-ILLEGAL_MOVEMENT_OF_ANIMALS">ILLEGAL_MOVEMENT_OF_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Illegal movement of animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-IMPORTED-STALLION"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-IMPORTED_STALLION">IMPORTED_STALLION</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Imported stallion</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-IMPORT-OF-LIVE-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-IMPORT_OF_LIVE_ANIMALS">IMPORT_OF_LIVE_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Import of live animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-IMPORT-SEMEN-INF-PORCINE-REPR-RESP-SYNDROME-VIRUS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-IMPORT_SEMEN_INF_PORCINE_REPR_RESP_SYNDROME_VIRUS">IMPORT_SEMEN_INF_PORCINE_REPR_RESP_SYNDROME_VIRUS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Import of semen infected with Porcine reproductive and respiratory syndrome virus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-INFORMAL-MOVEMENT-OF-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-INFORMAL_MOVEMENT_OF_ANIMALS">INFORMAL_MOVEMENT_OF_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Informal movement of animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-INTRODUCTION-OF-NEW-LIVE-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-INTRODUCTION_OF_NEW_LIVE_ANIMALS">INTRODUCTION_OF_NEW_LIVE_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Introduction of new live animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-INTRODUCTION-OF-NEW-NONVIABLE-ANIMAL-PRODUCTS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-INTRODUCTION_OF_NEW_NONVIABLE_ANIMAL_PRODUCTS">INTRODUCTION_OF_NEW_NONVIABLE_ANIMAL_PRODUCTS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Introduction of new non-viable animal products</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-INVOLVED-SLAUGHTER-CONSUMPTION-OF-SICK-POULTRY"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-INVOLVED_SLAUGHTER_CONSUMPTION_OF_SICK_POULTRY">INVOLVED_SLAUGHTER_CONSUMPTION_OF_SICK_POULTRY</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Involved in the slaughter and consumption of sick poultry.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-INVOLVED-WITH-SLAUGHTERING-AND-PROCESSING-THE-MEAT"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-INVOLVED_WITH_SLAUGHTERING_AND_PROCESSING_THE_MEAT">INVOLVED_WITH_SLAUGHTERING_AND_PROCESSING_THE_MEAT</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Involved with slaughtering and processing the meat</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-LABORATORY-ESCAPE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-LABORATORY_ESCAPE">LABORATORY_ESCAPE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Laboratory escape</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-LEGAL-MOVEMENT-OF-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-LEGAL_MOVEMENT_OF_ANIMALS">LEGAL_MOVEMENT_OF_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Legal movement of animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-LIVESTOCK-MARKET"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-LIVESTOCK_MARKET">LIVESTOCK_MARKET</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Livestock  Market</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-MANAGEMENT-PRACTICES"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-MANAGEMENT_PRACTICES">MANAGEMENT_PRACTICES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Management practices</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-MAY-BE-DUE-TO-MIGRATORY-BIRDS--DROPPINGS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-MAY_BE_DUE_TO_MIGRATORY_BIRDS.39_DROPPINGS">MAY_BE_DUE_TO_MIGRATORY_BIRDS'_DROPPINGS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>May be due to migratory birds' droppings.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-MIGRATION-OF-WILD-BIRDS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-MIGRATION_OF_WILD_BIRDS">MIGRATION_OF_WILD_BIRDS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Migration of wild birds</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-MOST-LIKELY-CONTACT-WITH-PEOPLE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-MOST_LIKELY_CONTACT_WITH_PEOPLE">MOST_LIKELY_CONTACT_WITH_PEOPLE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Most likely, contact with people</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-OTHER"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-OTHER">OTHER</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Other</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-POSSIBLE-CONTACT-WITH-WILD-BIRDS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-POSSIBLE_CONTACT_WITH_WILD_BIRDS">POSSIBLE_CONTACT_WITH_WILD_BIRDS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Possible contact with wild birds</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-POTENTIAL-CONTACT-WITH-WILDLIFE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-POTENTIAL_CONTACT_WITH_WILDLIFE">POTENTIAL_CONTACT_WITH_WILDLIFE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Potential contact with wildlife</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-PRESUMED-TO-BE-THE-PASTURE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-PRESUMED_TO_BE_THE_PASTURE">PRESUMED_TO_BE_THE_PASTURE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Presumed to be the pasture</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-PROBABLY-FORMER-BURIAL-OF-ANIMALS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-PROBABLY_FORMER_BURIAL_OF_ANIMALS">PROBABLY_FORMER_BURIAL_OF_ANIMALS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Probably former burial of animals</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-PROBABLY-HUNTED-WILD-DUCKS-AND-GEESE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-PROBABLY_HUNTED_WILD_DUCKS_AND_GEESE">PROBABLY_HUNTED_WILD_DUCKS_AND_GEESE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Probably, hunted wild ducks and geese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-PROCESSING-SLAUGHTERING"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-PROCESSING_SLAUGHTERING">PROCESSING_SLAUGHTERING</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Processing slaughtering</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-RABIES-RELATED-TO-HEMATOPHAGOUS-BATS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-RABIES_RELATED_TO_HEMATOPHAGOUS_BATS">RABIES_RELATED_TO_HEMATOPHAGOUS_BATS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Rabies related to hematophagous bats</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-RANDOM-MUTATION"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-RANDOM_MUTATION">RANDOM_MUTATION</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Random mutation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-REFUGEES"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-REFUGEES">REFUGEES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Refugees</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SEASONAL-MIGRATION-OF-WILD-BIRDS-SWANS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SEASONAL_MIGRATION_OF_WILD_BIRDS_SWANS">SEASONAL_MIGRATION_OF_WILD_BIRDS_SWANS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Seasonal migration of wild birds - swans</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SELLING-INFECTED-BEEF-IN-THE-CAPITAL"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SELLING_INFECTED_BEEF_IN_THE_CAPITAL">SELLING_INFECTED_BEEF_IN_THE_CAPITAL</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Selling infected beef in the largest market in the capital.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SEMEN"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SEMEN">SEMEN</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Semen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SLAUGHTER-AND-EAT-CHICKENS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SLAUGHTER_AND_EAT_CHICKENS">SLAUGHTER_AND_EAT_CHICKENS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Slaughter and eat chickens</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SLAUGHTERING"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SLAUGHTERING">SLAUGHTERING</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Slaughtering</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SOILBORNE-INFECTION"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SOILBORNE_INFECTION">SOILBORNE_INFECTION</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Soil-borne infection</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SPONTANEOUS-MUTATION"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SPONTANEOUS_MUTATION">SPONTANEOUS_MUTATION</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Spontaneous mutation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SPREAD-INFECTED-ANIMALS-THROUGH-AEROSOLS-CONTACT"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SPREAD_INFECTED_ANIMALS_THROUGH_AEROSOLS_CONTACT">SPREAD_INFECTED_ANIMALS_THROUGH_AEROSOLS_CONTACT</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Spread by infected animals through aerosols, contact with contaminated farming equipment</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SWILL-FEEDING"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SWILL_FEEDING">SWILL_FEEDING</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Swill feeding</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-TEST-INFECTION-SOURCE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-TEST_INFECTION_SOURCE">TEST_INFECTION_SOURCE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Test infection source</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-THE-BITES-OF-THE-CULEX-FEMALE-MOSQUITOES"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-THE_BITES_OF_THE_CULEX_FEMALE_MOSQUITOES">THE_BITES_OF_THE_CULEX_FEMALE_MOSQUITOES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>The bites of the culex female mosquitoes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-SUDDEN-POULTRY-DIEOFFS-IN-HIS-NEIGHBOURHOOD"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-SUDDEN_POULTRY_DIEOFFS_IN_HIS_NEIGHBOURHOOD">SUDDEN_POULTRY_DIEOFFS_IN_HIS_NEIGHBOURHOOD</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>There were sudden poultry die-offs in his neighbourhood</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-STRAW-COLLECTED-DEAD-WILD-BOAR"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-STRAW_COLLECTED_DEAD_WILD_BOAR">STRAW_COLLECTED_DEAD_WILD_BOAR</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>The straw collected on a field were a dead wild boar has been previously found.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-VIRUS-CIRCULATION-WILD-BIRDS-POPULATION-SUSPECTED"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-VIRUS_CIRCULATION_WILD_BIRDS_POPULATION_SUSPECTED">VIRUS_CIRCULATION_WILD_BIRDS_POPULATION_SUSPECTED</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>The virus circulation into the wild birds population is suspected.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-TO-HAVE-TAKEN-PART-IN-KILLING-A-SICK-COW"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-TO_HAVE_TAKEN_PART_IN_KILLING_A_SICK_COW">TO_HAVE_TAKEN_PART_IN_KILLING_A_SICK_COW</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>To have taken part in killing a sick cow.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-TRANSBOUNDARY-MIGRATION-OF-WILD-BOARS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-TRANSBOUNDARY_MIGRATION_OF_WILD_BOARS">TRANSBOUNDARY_MIGRATION_OF_WILD_BOARS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Transboundary migration of wild boars</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-TRANSBOUNDARY-SPREAD"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-TRANSBOUNDARY_SPREAD">TRANSBOUNDARY_SPREAD</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Transboundary spread</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-TRANSHUMANT-ANIMAL"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-TRANSHUMANT_ANIMAL">TRANSHUMANT_ANIMAL</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Transhumant animal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-TRANSMISSION-FROM-HUMANS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-TRANSMISSION_FROM_HUMANS">TRANSMISSION_FROM_HUMANS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Transmission from humans</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-VERTICAL-SPREAD-THROUGH-INFECTED-EGGS-OR-GAMETES"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-VERTICAL_SPREAD_THROUGH_INFECTED_EGGS_OR_GAMETES">VERTICAL_SPREAD_THROUGH_INFECTED_EGGS_OR_GAMETES</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>True vertical spread (through infected eggs or gametes)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-UNDER-INVESTIGATION"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-UNDER_INVESTIGATION">UNDER_INVESTIGATION</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Under investigation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-UNKNOWN-OR-INCONCLUSIVE"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-UNKNOWN_OR_INCONCLUSIVE">UNKNOWN_OR_INCONCLUSIVE</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Unknown or inconclusive</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-VAMPIRE-BATS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-VAMPIRE_BATS">VAMPIRE_BATS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Vampire bats</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-VECTORS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-VECTORS">VECTORS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Vectors</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-fhir-CodeSystem-infection-source-cs-WILD-STRAINS-OF-BRUCELLA-MELITENSIS"> </a>  
+                  <a href="CodeSystem-infection-source-cs.html#infection-source-cs-WILD_STRAINS_OF_BRUCELLA_MELITENSIS">WILD_STRAINS_OF_BRUCELLA_MELITENSIS</a>
+                </td>
+                <td>https://dhis2.org/fhir/CodeSystem/infection-source-cs</td>
+                <td>Wild strains of Brucella Melitensis</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/fhir/ValueSet/infection-source-vs"/>
+        <version value="0.1.0"/>
+        <name value="InfectionSourceVS"/>
+        <title value="Infection Source Value Set"/>
+        <status value="draft"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:0cd168c9-259c-43b6-a257-01ef4dafd869"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
+          <total value="105"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/fhir/CodeSystem/infection-source-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="AETHINA_TUMIDA_PRESENTE_BORDERING_STATES_OF_USA"/>
+            <display value="Aethina tumida is present in some bordering states of the United States of America."/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="AFTER_EATING_UNDERCOOKED_INFECTED_PORK_BLOOD_PASTE"/>
+            <display value="After eating undercooked infected pork, blood paste"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="AFTER_HANDLING_THE_CARCASS_OF_A_SICK_COW"/>
+            <display value="After handling the carcass of a sick cow"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="AIRBORNE_SPREAD"/>
+            <display value="Airborne spread"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="ANIMAL/DOG_BITE"/>
+            <display value="Animal/dog bite"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="ANIMALS_IN_AN_AREA_OF_ANTHRAXINFECTED_FIELDS"/>
+            <display value="Animals in an area of anthrax-infected fields"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="ANIMALS_INFECTED_AT_QUARANTINE"/>
+            <display value="Animals infected at quarantine"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="ANIMALS_IN_TRANSIT"/>
+            <display value="Animals in transit"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CIRCULATION_OF_THE_VIRUS_IN_THE_WILD_ANIMAL"/>
+            <display value="Circulation of the virus in the Wild animal"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_AFTER_EATING_INFECTED_CARCASSES"/>
+            <display value="Contact after eating infected carcasses"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_AFFECTED_ANIMALS"/>
+            <display value="Contact with affected animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_ANIMALS_AND_PIGS"/>
+            <display value="Contact with animals and pigs"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_ANIMALS_AT_MARKET/SLAUGHTERHOUSES"/>
+            <display value="Contact with animals at market/slaughterhouses"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_ASYMPTOMATIC_ANIMALS"/>
+            <display value="Contact with asymptomatic animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_BACKYARD_POULTRY"/>
+            <display value="Contact with backyard poultry"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_CHICKEN_EGGS"/>
+            <display value="Contact with chicken eggs"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_CONT_FARMING_EQUIP_VEHICLES_CLOTHING_FEED"/>
+            <display value="Contact with contaminated farming equipment, vehicles, clothing, or feed"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_DEAD_BACKYARD_POULTRY"/>
+            <display value="Contact with dead backyard poultry"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_DEAD_POULTRY"/>
+            <display value="Contact with dead poultry"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_HUMANS"/>
+            <display value="Contact with humans"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_INFECTED_ANIMAL_AT_GRAZING/WATERING"/>
+            <display value="Contact with infected animal at grazing/watering"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_INFECTED_ANIMALS"/>
+            <display value="Contact with infected animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_INFECTED_AREA"/>
+            <display value="Contact with infected area"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_INFECTED_NEIGHBOURING_ESTABLISHMENT"/>
+            <display value="Contact with infected neighbouring establishment"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_LIVE_POULTRY_IN_A_MARKET"/>
+            <display value="Contact with live poultry in a market"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_POULTRY"/>
+            <display value="Contact with poultry"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_POULTRY_PRODUCTION"/>
+            <display value="Contact with poultry production"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_POULTRY_RAISED_IN_THE_NEIGHBOURHOOD"/>
+            <display value="Contact with poultry raised in the neighbourhood."/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_QUAILS'_EGGS"/>
+            <display value="Contact with quails' eggs"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_SICK_AND_DEAD_POULTRY"/>
+            <display value="Contact with sick and dead poultry"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_SICK_AND/OR_DEAD_POULTRY"/>
+            <display value="Contact with sick and/or dead poultry"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_SICK_ANIMALS"/>
+            <display value="Contact with sick animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_SICK_OR_DEAD_ANIMALS"/>
+            <display value="Contact with sick or dead animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_SICK_POULTRY"/>
+            <display value="Contact with sick poultry"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_SICK_OR_DEAD_POULTRY"/>
+            <display value="Contact with sick or dead poultry"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_SPORES_IN_THE_SOIL"/>
+            <display value="Contact with spores in the soil"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_WILD_BIRDS"/>
+            <display value="Contact with wild birds"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_WILDLIFE"/>
+            <display value="Contact with wildlife"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTACT_WITH_WILD_SPECIES"/>
+            <display value="Contact with wild species"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTAMINATED_ANIMAL_PRODUCTS"/>
+            <display value="Contaminated animal products"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="CONTAMINATED_MANURE"/>
+            <display value="Contaminated manure"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="DIRECT_CONTACT_SECRETIONS_DISEASED_PIGS"/>
+            <display value="Direct contact with secretions from diseased pigs via open wounds or respiratory tracts"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="DIRECT_OR_INDIRECT_EXPOSURE_TO_SWINE"/>
+            <display value="Direct or indirect exposure to swine"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="DROPPING_FOR_FIENTE"/>
+            <display value="Dropping for fiente"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="ENVIRONMENTAL_CONTAMINATION"/>
+            <display value="Environmental contamination"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="EXPOSED_TO_SWINE_ON_THE_JOB"/>
+            <display value="Exposed to swine on the job"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="EXPOSURE_TO_A_POTENTIALLY_CONTAMINATED_ENVIRONMENT"/>
+            <display value="Exposure  to a potentially contaminated environment"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="FALSE_VERTICAL_SPREAD_CONTAMINATED_EGGS_GAMETES"/>
+            <display value="False vertical spread (though contaminated eggs or gametes)"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="FEEDING_RAW_AQUATIC_ANIMAL_PRODUCT"/>
+            <display value="Feeding raw aquatic animal product"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION"/>
+            <display value="Flooding associated with mosquito multiplication"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="FOMITES_HUMANS_VEHICLES_FEED_ETC"/>
+            <display value="Fomites (humans, vehicles, feed, etc.)"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="FOOD_LEFTOVERS"/>
+            <display value="Food leftovers"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="HEMATOPHAGOUS_BATS"/>
+            <display value="Hematophagous bats"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="HORIZONTAL_SPREAD_THROUGH_WATER"/>
+            <display value="Horizontal spread through water"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="ILLEGAL_MOVEMENT_OF_ANIMALS"/>
+            <display value="Illegal movement of animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="IMPORTED_STALLION"/>
+            <display value="Imported stallion"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="IMPORT_OF_LIVE_ANIMALS"/>
+            <display value="Import of live animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="IMPORT_SEMEN_INF_PORCINE_REPR_RESP_SYNDROME_VIRUS"/>
+            <display value="Import of semen infected with Porcine reproductive and respiratory syndrome virus"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="INFORMAL_MOVEMENT_OF_ANIMALS"/>
+            <display value="Informal movement of animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="INTRODUCTION_OF_NEW_LIVE_ANIMALS"/>
+            <display value="Introduction of new live animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="INTRODUCTION_OF_NEW_NONVIABLE_ANIMAL_PRODUCTS"/>
+            <display value="Introduction of new non-viable animal products"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="INVOLVED_SLAUGHTER_CONSUMPTION_OF_SICK_POULTRY"/>
+            <display value="Involved in the slaughter and consumption of sick poultry."/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="INVOLVED_WITH_SLAUGHTERING_AND_PROCESSING_THE_MEAT"/>
+            <display value="Involved with slaughtering and processing the meat"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="LABORATORY_ESCAPE"/>
+            <display value="Laboratory escape"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="LEGAL_MOVEMENT_OF_ANIMALS"/>
+            <display value="Legal movement of animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="LIVESTOCK_MARKET"/>
+            <display value="Livestock  Market"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="MANAGEMENT_PRACTICES"/>
+            <display value="Management practices"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="MAY_BE_DUE_TO_MIGRATORY_BIRDS'_DROPPINGS"/>
+            <display value="May be due to migratory birds' droppings."/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="MIGRATION_OF_WILD_BIRDS"/>
+            <display value="Migration of wild birds"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="MOST_LIKELY_CONTACT_WITH_PEOPLE"/>
+            <display value="Most likely, contact with people"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="OTHER"/>
+            <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="POSSIBLE_CONTACT_WITH_WILD_BIRDS"/>
+            <display value="Possible contact with wild birds"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="POTENTIAL_CONTACT_WITH_WILDLIFE"/>
+            <display value="Potential contact with wildlife"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="PRESUMED_TO_BE_THE_PASTURE"/>
+            <display value="Presumed to be the pasture"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="PROBABLY_FORMER_BURIAL_OF_ANIMALS"/>
+            <display value="Probably former burial of animals"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="PROBABLY_HUNTED_WILD_DUCKS_AND_GEESE"/>
+            <display value="Probably, hunted wild ducks and geese"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="PROCESSING_SLAUGHTERING"/>
+            <display value="Processing slaughtering"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="RABIES_RELATED_TO_HEMATOPHAGOUS_BATS"/>
+            <display value="Rabies related to hematophagous bats"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="RANDOM_MUTATION"/>
+            <display value="Random mutation"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="REFUGEES"/>
+            <display value="Refugees"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SEASONAL_MIGRATION_OF_WILD_BIRDS_SWANS"/>
+            <display value="Seasonal migration of wild birds - swans"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SELLING_INFECTED_BEEF_IN_THE_CAPITAL"/>
+            <display value="Selling infected beef in the largest market in the capital."/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SEMEN"/>
+            <display value="Semen"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SLAUGHTER_AND_EAT_CHICKENS"/>
+            <display value="Slaughter and eat chickens"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SLAUGHTERING"/>
+            <display value="Slaughtering"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SOILBORNE_INFECTION"/>
+            <display value="Soil-borne infection"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SPONTANEOUS_MUTATION"/>
+            <display value="Spontaneous mutation"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SPREAD_INFECTED_ANIMALS_THROUGH_AEROSOLS_CONTACT"/>
+            <display value="Spread by infected animals through aerosols, contact with contaminated farming equipment"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SWILL_FEEDING"/>
+            <display value="Swill feeding"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="TEST_INFECTION_SOURCE"/>
+            <display value="Test infection source"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="THE_BITES_OF_THE_CULEX_FEMALE_MOSQUITOES"/>
+            <display value="The bites of the culex female mosquitoes"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="SUDDEN_POULTRY_DIEOFFS_IN_HIS_NEIGHBOURHOOD"/>
+            <display value="There were sudden poultry die-offs in his neighbourhood"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="STRAW_COLLECTED_DEAD_WILD_BOAR"/>
+            <display value="The straw collected on a field were a dead wild boar has been previously found."/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="VIRUS_CIRCULATION_WILD_BIRDS_POPULATION_SUSPECTED"/>
+            <display value="The virus circulation into the wild birds population is suspected."/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="TO_HAVE_TAKEN_PART_IN_KILLING_A_SICK_COW"/>
+            <display value="To have taken part in killing a sick cow."/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="TRANSBOUNDARY_MIGRATION_OF_WILD_BOARS"/>
+            <display value="Transboundary migration of wild boars"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="TRANSBOUNDARY_SPREAD"/>
+            <display value="Transboundary spread"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="TRANSHUMANT_ANIMAL"/>
+            <display value="Transhumant animal"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="TRANSMISSION_FROM_HUMANS"/>
+            <display value="Transmission from humans"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="VERTICAL_SPREAD_THROUGH_INFECTED_EGGS_OR_GAMETES"/>
+            <display value="True vertical spread (through infected eggs or gametes)"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="UNDER_INVESTIGATION"/>
+            <display value="Under investigation"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="UNKNOWN_OR_INCONCLUSIVE"/>
+            <display value="Unknown or inconclusive"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="VAMPIRE_BATS"/>
+            <display value="Vampire bats"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="VECTORS"/>
+            <display value="Vectors"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+            <code value="WILD_STRAINS_OF_BRUCELLA_MELITENSIS"/>
+            <display value="Wild strains of Brucella Melitensis"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -24118,10 +25540,10 @@
         <name value="LabDiseasesVS"/>
         <title value="Lab Diseases Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4ef5f475-3bb0-4cfb-855a-9bd047c69985"/>
-          <timestamp value="2024-04-12T11:15:59+00:00"/>
+          <identifier value="urn:uuid:6408dd7b-c315-4c20-91a6-bb9625d75a84"/>
+          <timestamp value="2024-04-16T08:18:17+00:00"/>
           <total value="284"/>
           <offset value="0"/>
           <parameter>
@@ -31075,10 +32497,10 @@
         <name value="LaboratoryVS"/>
         <title value="Laboratory Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f9582b37-4614-4016-b6ee-367cdb6d4da1"/>
-          <timestamp value="2024-04-12T11:16:00+00:00"/>
+          <identifier value="urn:uuid:3f190e6e-e7e6-4112-ba83-5881875a596f"/>
+          <timestamp value="2024-04-16T08:18:18+00:00"/>
           <total value="685"/>
           <offset value="0"/>
           <parameter>
@@ -34605,10 +36027,10 @@
         <name value="LocalityQualityVS"/>
         <title value="Locality Quality Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:465c91c2-b427-419e-977a-a7a88c72a4b2"/>
-          <timestamp value="2024-04-12T11:16:00+00:00"/>
+          <identifier value="urn:uuid:f26e06c6-9fd2-4c4a-b1d7-bae1c79e9702"/>
+          <timestamp value="2024-04-16T08:18:18+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -34860,10 +36282,10 @@
         <name value="LocalitySourceVS"/>
         <title value="Locality Source Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:141de2f4-6707-40f9-8c69-2548dbc3e15a"/>
-          <timestamp value="2024-04-12T11:16:00+00:00"/>
+          <identifier value="urn:uuid:489e010f-bdfd-4bb6-9b46-62f6ec20f5bb"/>
+          <timestamp value="2024-04-16T08:18:18+00:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -35742,10 +37164,10 @@
         <name value="NecropsyLesionsVS"/>
         <title value="Necropsy Lesions Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:af26d686-85c9-44f8-871a-d5d7e80dea6c"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:ce45f515-117e-4c83-bce6-e31a37a4fd67"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="90"/>
           <offset value="0"/>
           <parameter>
@@ -36321,10 +37743,10 @@
         <name value="ProductionSystemOneVS"/>
         <title value="Production System One Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4ab7dbba-7c61-46e0-8316-ec050d0225cb"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:d89f960d-bd3c-4144-bf34-b1e249a1d39a"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -36559,10 +37981,10 @@
         <name value="ProductionSystemTwoVS"/>
         <title value="Production System Two Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:10f4484d-17e1-4e7d-aafb-9f7fc17f647c"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:906e4f90-e4d2-4a08-836b-49d2fb016f90"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -36837,10 +38259,10 @@
         <name value="RegionsVS"/>
         <title value="Regions Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4d488e74-3ad0-483f-9b5c-3ca3ebec3f7b"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:9ae405cb-ec11-4487-a517-2ed48d7478a9"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -37547,10 +38969,10 @@
         <name value="SampleTypeVS"/>
         <title value="Sample Type Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4ee06c27-d072-45dd-8a68-972ed8ae752a"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:9a84dcd6-6433-4f01-8e0e-3d754786fd70"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="71"/>
           <offset value="0"/>
           <parameter>
@@ -38015,10 +39437,10 @@
         <name value="SurveillanceTypeVS"/>
         <title value="Surveillance Type Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6e686eb6-3882-420c-8788-7d1a1a3361cd"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:d0fd8e98-9c27-47a7-b1e3-3e29dc4a970b"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -38147,10 +39569,10 @@
         <name value="TestResultVS"/>
         <title value="Test Result Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3571bbbc-a238-4659-b7a0-f6e4a139a32b"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:138e0e27-99c5-48e6-b60b-86844d3cd58b"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -39221,10 +40643,10 @@
         <name value="TestTypeVS"/>
         <title value="Test Type Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:614ec2a3-9916-4568-9669-34e473a13a44"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:f382b595-488e-437f-b3bd-e76adf87f6cf"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="124"/>
           <offset value="0"/>
           <parameter>
@@ -40090,10 +41512,10 @@
         <name value="TreatmentsVS"/>
         <title value="Treatments Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e0a06580-9b62-470b-a0c8-015a9133daba"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:8c72c3c0-0933-489e-a91e-852be35963a1"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="24"/>
           <offset value="0"/>
           <parameter>
@@ -40237,7 +41659,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://dhis2.org/fhir/ValueSet/yes-no-unknown"/>
+    <fullUrl value="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"/>
     <resource>
       <ValueSet>
         <text>
@@ -40286,15 +41708,15 @@
             </table>
           </div>
         </text>
-        <url value="https://dhis2.org/fhir/ValueSet/yes-no-unknown"/>
+        <url value="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"/>
         <version value="0.1.0"/>
         <name value="YesNoUnknownVS"/>
         <title value="Yes/No/Unknown Value Set"/>
         <status value="draft"/>
-        <date value="2024-04-12T11:15:39+00:00"/>
+        <date value="2024-04-16T08:17:53+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:df1176d4-22f9-4dcb-b7d5-3af75a2bf847"/>
-          <timestamp value="2024-04-12T11:16:01+00:00"/>
+          <identifier value="urn:uuid:273dad65-ebe2-4bfb-ac01-b9f43bbb9f63"/>
+          <timestamp value="2024-04-16T08:18:19+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-12T11:15:39+00:00",
+  "date" : "2024-04-16T08:17:53+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -608,7 +608,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/animal-class"
+        "reference" : "CodeSystem/animal-class-cs"
       },
       "name" : "Animal Class Code System",
       "description" : "Code system for classifying types of animals.",
@@ -656,7 +656,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/animal-type"
+        "reference" : "CodeSystem/animal-type-cs"
       },
       "name" : "Animal Type Code System",
       "description" : "Code system for types of animals.",
@@ -888,6 +888,30 @@
       },
       "name" : "Districts Value Set",
       "description" : "Value set for districts.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/infection-source-cs"
+      },
+      "name" : "Infection Source Code System",
+      "description" : "Code system for infection source.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/infection-source-vs"
+      },
+      "name" : "Infection Source Value Set",
+      "description" : "Value set for infection source.",
       "exampleBoolean" : false
     },
     {
@@ -1244,7 +1268,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/yes-no-unknown"
+        "reference" : "ValueSet/yes-no-unknown-vs"
       },
       "name" : "Yes/No/Unknown Value Set",
       "description" : "Value set for yes, no, and unknown responses.",

@@ -1,0 +1,353 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/fhir/CodeSystem/infection-source-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "infection-source-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/infection-source-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AETHINA_TUMIDA_PRESENTE_BORDERING_STATES_OF_USA<a name=\"infection-source-cs-AETHINA_TUMIDA_PRESENTE_BORDERING_STATES_OF_USA\"> </a></td><td>Aethina tumida is present in some bordering states of the United States of America.</td></tr><tr><td style=\"white-space:nowrap\">AFTER_EATING_UNDERCOOKED_INFECTED_PORK_BLOOD_PASTE<a name=\"infection-source-cs-AFTER_EATING_UNDERCOOKED_INFECTED_PORK_BLOOD_PASTE\"> </a></td><td>After eating undercooked infected pork, blood paste</td></tr><tr><td style=\"white-space:nowrap\">AFTER_HANDLING_THE_CARCASS_OF_A_SICK_COW<a name=\"infection-source-cs-AFTER_HANDLING_THE_CARCASS_OF_A_SICK_COW\"> </a></td><td>After handling the carcass of a sick cow</td></tr><tr><td style=\"white-space:nowrap\">AIRBORNE_SPREAD<a name=\"infection-source-cs-AIRBORNE_SPREAD\"> </a></td><td>Airborne spread</td></tr><tr><td style=\"white-space:nowrap\">ANIMAL/DOG_BITE<a name=\"infection-source-cs-ANIMAL.47DOG_BITE\"> </a></td><td>Animal/dog bite</td></tr><tr><td style=\"white-space:nowrap\">ANIMALS_IN_AN_AREA_OF_ANTHRAXINFECTED_FIELDS<a name=\"infection-source-cs-ANIMALS_IN_AN_AREA_OF_ANTHRAXINFECTED_FIELDS\"> </a></td><td>Animals in an area of anthrax-infected fields</td></tr><tr><td style=\"white-space:nowrap\">ANIMALS_INFECTED_AT_QUARANTINE<a name=\"infection-source-cs-ANIMALS_INFECTED_AT_QUARANTINE\"> </a></td><td>Animals infected at quarantine</td></tr><tr><td style=\"white-space:nowrap\">ANIMALS_IN_TRANSIT<a name=\"infection-source-cs-ANIMALS_IN_TRANSIT\"> </a></td><td>Animals in transit</td></tr><tr><td style=\"white-space:nowrap\">CIRCULATION_OF_THE_VIRUS_IN_THE_WILD_ANIMAL<a name=\"infection-source-cs-CIRCULATION_OF_THE_VIRUS_IN_THE_WILD_ANIMAL\"> </a></td><td>Circulation of the virus in the Wild animal</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_AFTER_EATING_INFECTED_CARCASSES<a name=\"infection-source-cs-CONTACT_AFTER_EATING_INFECTED_CARCASSES\"> </a></td><td>Contact after eating infected carcasses</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_AFFECTED_ANIMALS<a name=\"infection-source-cs-CONTACT_WITH_AFFECTED_ANIMALS\"> </a></td><td>Contact with affected animals</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_ANIMALS_AND_PIGS<a name=\"infection-source-cs-CONTACT_WITH_ANIMALS_AND_PIGS\"> </a></td><td>Contact with animals and pigs</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_ANIMALS_AT_MARKET/SLAUGHTERHOUSES<a name=\"infection-source-cs-CONTACT_WITH_ANIMALS_AT_MARKET.47SLAUGHTERHOUSES\"> </a></td><td>Contact with animals at market/slaughterhouses</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_ASYMPTOMATIC_ANIMALS<a name=\"infection-source-cs-CONTACT_WITH_ASYMPTOMATIC_ANIMALS\"> </a></td><td>Contact with asymptomatic animals</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_BACKYARD_POULTRY<a name=\"infection-source-cs-CONTACT_WITH_BACKYARD_POULTRY\"> </a></td><td>Contact with backyard poultry</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_CHICKEN_EGGS<a name=\"infection-source-cs-CONTACT_WITH_CHICKEN_EGGS\"> </a></td><td>Contact with chicken eggs</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_CONT_FARMING_EQUIP_VEHICLES_CLOTHING_FEED<a name=\"infection-source-cs-CONTACT_CONT_FARMING_EQUIP_VEHICLES_CLOTHING_FEED\"> </a></td><td>Contact with contaminated farming equipment, vehicles, clothing, or feed</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_DEAD_BACKYARD_POULTRY<a name=\"infection-source-cs-CONTACT_WITH_DEAD_BACKYARD_POULTRY\"> </a></td><td>Contact with dead backyard poultry</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_DEAD_POULTRY<a name=\"infection-source-cs-CONTACT_WITH_DEAD_POULTRY\"> </a></td><td>Contact with dead poultry</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_HUMANS<a name=\"infection-source-cs-CONTACT_WITH_HUMANS\"> </a></td><td>Contact with humans</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_INFECTED_ANIMAL_AT_GRAZING/WATERING<a name=\"infection-source-cs-CONTACT_WITH_INFECTED_ANIMAL_AT_GRAZING.47WATERING\"> </a></td><td>Contact with infected animal at grazing/watering</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_INFECTED_ANIMALS<a name=\"infection-source-cs-CONTACT_WITH_INFECTED_ANIMALS\"> </a></td><td>Contact with infected animals</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_INFECTED_AREA<a name=\"infection-source-cs-CONTACT_WITH_INFECTED_AREA\"> </a></td><td>Contact with infected area</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_INFECTED_NEIGHBOURING_ESTABLISHMENT<a name=\"infection-source-cs-CONTACT_WITH_INFECTED_NEIGHBOURING_ESTABLISHMENT\"> </a></td><td>Contact with infected neighbouring establishment</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_LIVE_POULTRY_IN_A_MARKET<a name=\"infection-source-cs-CONTACT_WITH_LIVE_POULTRY_IN_A_MARKET\"> </a></td><td>Contact with live poultry in a market</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_POULTRY<a name=\"infection-source-cs-CONTACT_WITH_POULTRY\"> </a></td><td>Contact with poultry</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_POULTRY_PRODUCTION<a name=\"infection-source-cs-CONTACT_WITH_POULTRY_PRODUCTION\"> </a></td><td>Contact with poultry production</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_POULTRY_RAISED_IN_THE_NEIGHBOURHOOD<a name=\"infection-source-cs-CONTACT_WITH_POULTRY_RAISED_IN_THE_NEIGHBOURHOOD\"> </a></td><td>Contact with poultry raised in the neighbourhood.</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_QUAILS'_EGGS<a name=\"infection-source-cs-CONTACT_WITH_QUAILS.39_EGGS\"> </a></td><td>Contact with quails' eggs</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_SICK_AND_DEAD_POULTRY<a name=\"infection-source-cs-CONTACT_WITH_SICK_AND_DEAD_POULTRY\"> </a></td><td>Contact with sick and dead poultry</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_SICK_AND/OR_DEAD_POULTRY<a name=\"infection-source-cs-CONTACT_WITH_SICK_AND.47OR_DEAD_POULTRY\"> </a></td><td>Contact with sick and/or dead poultry</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_SICK_ANIMALS<a name=\"infection-source-cs-CONTACT_WITH_SICK_ANIMALS\"> </a></td><td>Contact with sick animals</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_SICK_OR_DEAD_ANIMALS<a name=\"infection-source-cs-CONTACT_WITH_SICK_OR_DEAD_ANIMALS\"> </a></td><td>Contact with sick or dead animals</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_SICK_POULTRY<a name=\"infection-source-cs-CONTACT_WITH_SICK_POULTRY\"> </a></td><td>Contact with sick poultry</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_SICK_OR_DEAD_POULTRY<a name=\"infection-source-cs-CONTACT_WITH_SICK_OR_DEAD_POULTRY\"> </a></td><td>Contact with sick or dead poultry</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_SPORES_IN_THE_SOIL<a name=\"infection-source-cs-CONTACT_WITH_SPORES_IN_THE_SOIL\"> </a></td><td>Contact with spores in the soil</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_WILD_BIRDS<a name=\"infection-source-cs-CONTACT_WITH_WILD_BIRDS\"> </a></td><td>Contact with wild birds</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_WILDLIFE<a name=\"infection-source-cs-CONTACT_WITH_WILDLIFE\"> </a></td><td>Contact with wildlife</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_WITH_WILD_SPECIES<a name=\"infection-source-cs-CONTACT_WITH_WILD_SPECIES\"> </a></td><td>Contact with wild species</td></tr><tr><td style=\"white-space:nowrap\">CONTAMINATED_ANIMAL_PRODUCTS<a name=\"infection-source-cs-CONTAMINATED_ANIMAL_PRODUCTS\"> </a></td><td>Contaminated animal products</td></tr><tr><td style=\"white-space:nowrap\">CONTAMINATED_MANURE<a name=\"infection-source-cs-CONTAMINATED_MANURE\"> </a></td><td>Contaminated manure</td></tr><tr><td style=\"white-space:nowrap\">DIRECT_CONTACT_SECRETIONS_DISEASED_PIGS<a name=\"infection-source-cs-DIRECT_CONTACT_SECRETIONS_DISEASED_PIGS\"> </a></td><td>Direct contact with secretions from diseased pigs via open wounds or respiratory tracts</td></tr><tr><td style=\"white-space:nowrap\">DIRECT_OR_INDIRECT_EXPOSURE_TO_SWINE<a name=\"infection-source-cs-DIRECT_OR_INDIRECT_EXPOSURE_TO_SWINE\"> </a></td><td>Direct or indirect exposure to swine</td></tr><tr><td style=\"white-space:nowrap\">DROPPING_FOR_FIENTE<a name=\"infection-source-cs-DROPPING_FOR_FIENTE\"> </a></td><td>Dropping for fiente</td></tr><tr><td style=\"white-space:nowrap\">ENVIRONMENTAL_CONTAMINATION<a name=\"infection-source-cs-ENVIRONMENTAL_CONTAMINATION\"> </a></td><td>Environmental contamination</td></tr><tr><td style=\"white-space:nowrap\">EXPOSED_TO_SWINE_ON_THE_JOB<a name=\"infection-source-cs-EXPOSED_TO_SWINE_ON_THE_JOB\"> </a></td><td>Exposed to swine on the job</td></tr><tr><td style=\"white-space:nowrap\">EXPOSURE_TO_A_POTENTIALLY_CONTAMINATED_ENVIRONMENT<a name=\"infection-source-cs-EXPOSURE_TO_A_POTENTIALLY_CONTAMINATED_ENVIRONMENT\"> </a></td><td>Exposure  to a potentially contaminated environment</td></tr><tr><td style=\"white-space:nowrap\">FALSE_VERTICAL_SPREAD_CONTAMINATED_EGGS_GAMETES<a name=\"infection-source-cs-FALSE_VERTICAL_SPREAD_CONTAMINATED_EGGS_GAMETES\"> </a></td><td>False vertical spread (though contaminated eggs or gametes)</td></tr><tr><td style=\"white-space:nowrap\">FEEDING_RAW_AQUATIC_ANIMAL_PRODUCT<a name=\"infection-source-cs-FEEDING_RAW_AQUATIC_ANIMAL_PRODUCT\"> </a></td><td>Feeding raw aquatic animal product</td></tr><tr><td style=\"white-space:nowrap\">FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION<a name=\"infection-source-cs-FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION\"> </a></td><td>Flooding associated with mosquito multiplication</td></tr><tr><td style=\"white-space:nowrap\">FOMITES_HUMANS_VEHICLES_FEED_ETC<a name=\"infection-source-cs-FOMITES_HUMANS_VEHICLES_FEED_ETC\"> </a></td><td>Fomites (humans, vehicles, feed, etc.)</td></tr><tr><td style=\"white-space:nowrap\">FOOD_LEFTOVERS<a name=\"infection-source-cs-FOOD_LEFTOVERS\"> </a></td><td>Food leftovers</td></tr><tr><td style=\"white-space:nowrap\">HEMATOPHAGOUS_BATS<a name=\"infection-source-cs-HEMATOPHAGOUS_BATS\"> </a></td><td>Hematophagous bats</td></tr><tr><td style=\"white-space:nowrap\">HORIZONTAL_SPREAD_THROUGH_WATER<a name=\"infection-source-cs-HORIZONTAL_SPREAD_THROUGH_WATER\"> </a></td><td>Horizontal spread through water</td></tr><tr><td style=\"white-space:nowrap\">ILLEGAL_MOVEMENT_OF_ANIMALS<a name=\"infection-source-cs-ILLEGAL_MOVEMENT_OF_ANIMALS\"> </a></td><td>Illegal movement of animals</td></tr><tr><td style=\"white-space:nowrap\">IMPORTED_STALLION<a name=\"infection-source-cs-IMPORTED_STALLION\"> </a></td><td>Imported stallion</td></tr><tr><td style=\"white-space:nowrap\">IMPORT_OF_LIVE_ANIMALS<a name=\"infection-source-cs-IMPORT_OF_LIVE_ANIMALS\"> </a></td><td>Import of live animals</td></tr><tr><td style=\"white-space:nowrap\">IMPORT_SEMEN_INF_PORCINE_REPR_RESP_SYNDROME_VIRUS<a name=\"infection-source-cs-IMPORT_SEMEN_INF_PORCINE_REPR_RESP_SYNDROME_VIRUS\"> </a></td><td>Import of semen infected with Porcine reproductive and respiratory syndrome virus</td></tr><tr><td style=\"white-space:nowrap\">INFORMAL_MOVEMENT_OF_ANIMALS<a name=\"infection-source-cs-INFORMAL_MOVEMENT_OF_ANIMALS\"> </a></td><td>Informal movement of animals</td></tr><tr><td style=\"white-space:nowrap\">INTRODUCTION_OF_NEW_LIVE_ANIMALS<a name=\"infection-source-cs-INTRODUCTION_OF_NEW_LIVE_ANIMALS\"> </a></td><td>Introduction of new live animals</td></tr><tr><td style=\"white-space:nowrap\">INTRODUCTION_OF_NEW_NONVIABLE_ANIMAL_PRODUCTS<a name=\"infection-source-cs-INTRODUCTION_OF_NEW_NONVIABLE_ANIMAL_PRODUCTS\"> </a></td><td>Introduction of new non-viable animal products</td></tr><tr><td style=\"white-space:nowrap\">INVOLVED_SLAUGHTER_CONSUMPTION_OF_SICK_POULTRY<a name=\"infection-source-cs-INVOLVED_SLAUGHTER_CONSUMPTION_OF_SICK_POULTRY\"> </a></td><td>Involved in the slaughter and consumption of sick poultry.</td></tr><tr><td style=\"white-space:nowrap\">INVOLVED_WITH_SLAUGHTERING_AND_PROCESSING_THE_MEAT<a name=\"infection-source-cs-INVOLVED_WITH_SLAUGHTERING_AND_PROCESSING_THE_MEAT\"> </a></td><td>Involved with slaughtering and processing the meat</td></tr><tr><td style=\"white-space:nowrap\">LABORATORY_ESCAPE<a name=\"infection-source-cs-LABORATORY_ESCAPE\"> </a></td><td>Laboratory escape</td></tr><tr><td style=\"white-space:nowrap\">LEGAL_MOVEMENT_OF_ANIMALS<a name=\"infection-source-cs-LEGAL_MOVEMENT_OF_ANIMALS\"> </a></td><td>Legal movement of animals</td></tr><tr><td style=\"white-space:nowrap\">LIVESTOCK_MARKET<a name=\"infection-source-cs-LIVESTOCK_MARKET\"> </a></td><td>Livestock  Market</td></tr><tr><td style=\"white-space:nowrap\">MANAGEMENT_PRACTICES<a name=\"infection-source-cs-MANAGEMENT_PRACTICES\"> </a></td><td>Management practices</td></tr><tr><td style=\"white-space:nowrap\">MAY_BE_DUE_TO_MIGRATORY_BIRDS'_DROPPINGS<a name=\"infection-source-cs-MAY_BE_DUE_TO_MIGRATORY_BIRDS.39_DROPPINGS\"> </a></td><td>May be due to migratory birds' droppings.</td></tr><tr><td style=\"white-space:nowrap\">MIGRATION_OF_WILD_BIRDS<a name=\"infection-source-cs-MIGRATION_OF_WILD_BIRDS\"> </a></td><td>Migration of wild birds</td></tr><tr><td style=\"white-space:nowrap\">MOST_LIKELY_CONTACT_WITH_PEOPLE<a name=\"infection-source-cs-MOST_LIKELY_CONTACT_WITH_PEOPLE\"> </a></td><td>Most likely, contact with people</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"infection-source-cs-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">POSSIBLE_CONTACT_WITH_WILD_BIRDS<a name=\"infection-source-cs-POSSIBLE_CONTACT_WITH_WILD_BIRDS\"> </a></td><td>Possible contact with wild birds</td></tr><tr><td style=\"white-space:nowrap\">POTENTIAL_CONTACT_WITH_WILDLIFE<a name=\"infection-source-cs-POTENTIAL_CONTACT_WITH_WILDLIFE\"> </a></td><td>Potential contact with wildlife</td></tr><tr><td style=\"white-space:nowrap\">PRESUMED_TO_BE_THE_PASTURE<a name=\"infection-source-cs-PRESUMED_TO_BE_THE_PASTURE\"> </a></td><td>Presumed to be the pasture</td></tr><tr><td style=\"white-space:nowrap\">PROBABLY_FORMER_BURIAL_OF_ANIMALS<a name=\"infection-source-cs-PROBABLY_FORMER_BURIAL_OF_ANIMALS\"> </a></td><td>Probably former burial of animals</td></tr><tr><td style=\"white-space:nowrap\">PROBABLY_HUNTED_WILD_DUCKS_AND_GEESE<a name=\"infection-source-cs-PROBABLY_HUNTED_WILD_DUCKS_AND_GEESE\"> </a></td><td>Probably, hunted wild ducks and geese</td></tr><tr><td style=\"white-space:nowrap\">PROCESSING_SLAUGHTERING<a name=\"infection-source-cs-PROCESSING_SLAUGHTERING\"> </a></td><td>Processing slaughtering</td></tr><tr><td style=\"white-space:nowrap\">RABIES_RELATED_TO_HEMATOPHAGOUS_BATS<a name=\"infection-source-cs-RABIES_RELATED_TO_HEMATOPHAGOUS_BATS\"> </a></td><td>Rabies related to hematophagous bats</td></tr><tr><td style=\"white-space:nowrap\">RANDOM_MUTATION<a name=\"infection-source-cs-RANDOM_MUTATION\"> </a></td><td>Random mutation</td></tr><tr><td style=\"white-space:nowrap\">REFUGEES<a name=\"infection-source-cs-REFUGEES\"> </a></td><td>Refugees</td></tr><tr><td style=\"white-space:nowrap\">SEASONAL_MIGRATION_OF_WILD_BIRDS_SWANS<a name=\"infection-source-cs-SEASONAL_MIGRATION_OF_WILD_BIRDS_SWANS\"> </a></td><td>Seasonal migration of wild birds - swans</td></tr><tr><td style=\"white-space:nowrap\">SELLING_INFECTED_BEEF_IN_THE_CAPITAL<a name=\"infection-source-cs-SELLING_INFECTED_BEEF_IN_THE_CAPITAL\"> </a></td><td>Selling infected beef in the largest market in the capital.</td></tr><tr><td style=\"white-space:nowrap\">SEMEN<a name=\"infection-source-cs-SEMEN\"> </a></td><td>Semen</td></tr><tr><td style=\"white-space:nowrap\">SLAUGHTER_AND_EAT_CHICKENS<a name=\"infection-source-cs-SLAUGHTER_AND_EAT_CHICKENS\"> </a></td><td>Slaughter and eat chickens</td></tr><tr><td style=\"white-space:nowrap\">SLAUGHTERING<a name=\"infection-source-cs-SLAUGHTERING\"> </a></td><td>Slaughtering</td></tr><tr><td style=\"white-space:nowrap\">SOILBORNE_INFECTION<a name=\"infection-source-cs-SOILBORNE_INFECTION\"> </a></td><td>Soil-borne infection</td></tr><tr><td style=\"white-space:nowrap\">SPONTANEOUS_MUTATION<a name=\"infection-source-cs-SPONTANEOUS_MUTATION\"> </a></td><td>Spontaneous mutation</td></tr><tr><td style=\"white-space:nowrap\">SPREAD_INFECTED_ANIMALS_THROUGH_AEROSOLS_CONTACT<a name=\"infection-source-cs-SPREAD_INFECTED_ANIMALS_THROUGH_AEROSOLS_CONTACT\"> </a></td><td>Spread by infected animals through aerosols, contact with contaminated farming equipment</td></tr><tr><td style=\"white-space:nowrap\">SWILL_FEEDING<a name=\"infection-source-cs-SWILL_FEEDING\"> </a></td><td>Swill feeding</td></tr><tr><td style=\"white-space:nowrap\">TEST_INFECTION_SOURCE<a name=\"infection-source-cs-TEST_INFECTION_SOURCE\"> </a></td><td>Test infection source</td></tr><tr><td style=\"white-space:nowrap\">THE_BITES_OF_THE_CULEX_FEMALE_MOSQUITOES<a name=\"infection-source-cs-THE_BITES_OF_THE_CULEX_FEMALE_MOSQUITOES\"> </a></td><td>The bites of the culex female mosquitoes</td></tr><tr><td style=\"white-space:nowrap\">SUDDEN_POULTRY_DIEOFFS_IN_HIS_NEIGHBOURHOOD<a name=\"infection-source-cs-SUDDEN_POULTRY_DIEOFFS_IN_HIS_NEIGHBOURHOOD\"> </a></td><td>There were sudden poultry die-offs in his neighbourhood</td></tr><tr><td style=\"white-space:nowrap\">STRAW_COLLECTED_DEAD_WILD_BOAR<a name=\"infection-source-cs-STRAW_COLLECTED_DEAD_WILD_BOAR\"> </a></td><td>The straw collected on a field were a dead wild boar has been previously found.</td></tr><tr><td style=\"white-space:nowrap\">VIRUS_CIRCULATION_WILD_BIRDS_POPULATION_SUSPECTED<a name=\"infection-source-cs-VIRUS_CIRCULATION_WILD_BIRDS_POPULATION_SUSPECTED\"> </a></td><td>The virus circulation into the wild birds population is suspected.</td></tr><tr><td style=\"white-space:nowrap\">TO_HAVE_TAKEN_PART_IN_KILLING_A_SICK_COW<a name=\"infection-source-cs-TO_HAVE_TAKEN_PART_IN_KILLING_A_SICK_COW\"> </a></td><td>To have taken part in killing a sick cow.</td></tr><tr><td style=\"white-space:nowrap\">TRANSBOUNDARY_MIGRATION_OF_WILD_BOARS<a name=\"infection-source-cs-TRANSBOUNDARY_MIGRATION_OF_WILD_BOARS\"> </a></td><td>Transboundary migration of wild boars</td></tr><tr><td style=\"white-space:nowrap\">TRANSBOUNDARY_SPREAD<a name=\"infection-source-cs-TRANSBOUNDARY_SPREAD\"> </a></td><td>Transboundary spread</td></tr><tr><td style=\"white-space:nowrap\">TRANSHUMANT_ANIMAL<a name=\"infection-source-cs-TRANSHUMANT_ANIMAL\"> </a></td><td>Transhumant animal</td></tr><tr><td style=\"white-space:nowrap\">TRANSMISSION_FROM_HUMANS<a name=\"infection-source-cs-TRANSMISSION_FROM_HUMANS\"> </a></td><td>Transmission from humans</td></tr><tr><td style=\"white-space:nowrap\">VERTICAL_SPREAD_THROUGH_INFECTED_EGGS_OR_GAMETES<a name=\"infection-source-cs-VERTICAL_SPREAD_THROUGH_INFECTED_EGGS_OR_GAMETES\"> </a></td><td>True vertical spread (through infected eggs or gametes)</td></tr><tr><td style=\"white-space:nowrap\">UNDER_INVESTIGATION<a name=\"infection-source-cs-UNDER_INVESTIGATION\"> </a></td><td>Under investigation</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN_OR_INCONCLUSIVE<a name=\"infection-source-cs-UNKNOWN_OR_INCONCLUSIVE\"> </a></td><td>Unknown or inconclusive</td></tr><tr><td style=\"white-space:nowrap\">VAMPIRE_BATS<a name=\"infection-source-cs-VAMPIRE_BATS\"> </a></td><td>Vampire bats</td></tr><tr><td style=\"white-space:nowrap\">VECTORS<a name=\"infection-source-cs-VECTORS\"> </a></td><td>Vectors</td></tr><tr><td style=\"white-space:nowrap\">WILD_STRAINS_OF_BRUCELLA_MELITENSIS<a name=\"infection-source-cs-WILD_STRAINS_OF_BRUCELLA_MELITENSIS\"> </a></td><td>Wild strains of Brucella Melitensis</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/infection-source-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "InfectionSourceCS"] ; # 
+  fhir:title [ fhir:v "Infection Source Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-04-16T08:17:53+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "johan.hole@dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for infection source."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "105"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AETHINA_TUMIDA_PRESENTE_BORDERING_STATES_OF_USA" ] ;
+     fhir:display [ fhir:v "Aethina tumida is present in some bordering states of the United States of America." ]
+  ] [
+     fhir:code [ fhir:v "AFTER_EATING_UNDERCOOKED_INFECTED_PORK_BLOOD_PASTE" ] ;
+     fhir:display [ fhir:v "After eating undercooked infected pork, blood paste" ]
+  ] [
+     fhir:code [ fhir:v "AFTER_HANDLING_THE_CARCASS_OF_A_SICK_COW" ] ;
+     fhir:display [ fhir:v "After handling the carcass of a sick cow" ]
+  ] [
+     fhir:code [ fhir:v "AIRBORNE_SPREAD" ] ;
+     fhir:display [ fhir:v "Airborne spread" ]
+  ] [
+     fhir:code [ fhir:v "ANIMAL/DOG_BITE" ] ;
+     fhir:display [ fhir:v "Animal/dog bite" ]
+  ] [
+     fhir:code [ fhir:v "ANIMALS_IN_AN_AREA_OF_ANTHRAXINFECTED_FIELDS" ] ;
+     fhir:display [ fhir:v "Animals in an area of anthrax-infected fields" ]
+  ] [
+     fhir:code [ fhir:v "ANIMALS_INFECTED_AT_QUARANTINE" ] ;
+     fhir:display [ fhir:v "Animals infected at quarantine" ]
+  ] [
+     fhir:code [ fhir:v "ANIMALS_IN_TRANSIT" ] ;
+     fhir:display [ fhir:v "Animals in transit" ]
+  ] [
+     fhir:code [ fhir:v "CIRCULATION_OF_THE_VIRUS_IN_THE_WILD_ANIMAL" ] ;
+     fhir:display [ fhir:v "Circulation of the virus in the Wild animal" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_AFTER_EATING_INFECTED_CARCASSES" ] ;
+     fhir:display [ fhir:v "Contact after eating infected carcasses" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_AFFECTED_ANIMALS" ] ;
+     fhir:display [ fhir:v "Contact with affected animals" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_ANIMALS_AND_PIGS" ] ;
+     fhir:display [ fhir:v "Contact with animals and pigs" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_ANIMALS_AT_MARKET/SLAUGHTERHOUSES" ] ;
+     fhir:display [ fhir:v "Contact with animals at market/slaughterhouses" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_ASYMPTOMATIC_ANIMALS" ] ;
+     fhir:display [ fhir:v "Contact with asymptomatic animals" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_BACKYARD_POULTRY" ] ;
+     fhir:display [ fhir:v "Contact with backyard poultry" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_CHICKEN_EGGS" ] ;
+     fhir:display [ fhir:v "Contact with chicken eggs" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_CONT_FARMING_EQUIP_VEHICLES_CLOTHING_FEED" ] ;
+     fhir:display [ fhir:v "Contact with contaminated farming equipment, vehicles, clothing, or feed" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_DEAD_BACKYARD_POULTRY" ] ;
+     fhir:display [ fhir:v "Contact with dead backyard poultry" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_DEAD_POULTRY" ] ;
+     fhir:display [ fhir:v "Contact with dead poultry" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_HUMANS" ] ;
+     fhir:display [ fhir:v "Contact with humans" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_INFECTED_ANIMAL_AT_GRAZING/WATERING" ] ;
+     fhir:display [ fhir:v "Contact with infected animal at grazing/watering" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_INFECTED_ANIMALS" ] ;
+     fhir:display [ fhir:v "Contact with infected animals" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_INFECTED_AREA" ] ;
+     fhir:display [ fhir:v "Contact with infected area" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_INFECTED_NEIGHBOURING_ESTABLISHMENT" ] ;
+     fhir:display [ fhir:v "Contact with infected neighbouring establishment" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_LIVE_POULTRY_IN_A_MARKET" ] ;
+     fhir:display [ fhir:v "Contact with live poultry in a market" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_POULTRY" ] ;
+     fhir:display [ fhir:v "Contact with poultry" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_POULTRY_PRODUCTION" ] ;
+     fhir:display [ fhir:v "Contact with poultry production" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_POULTRY_RAISED_IN_THE_NEIGHBOURHOOD" ] ;
+     fhir:display [ fhir:v "Contact with poultry raised in the neighbourhood." ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_QUAILS'_EGGS" ] ;
+     fhir:display [ fhir:v "Contact with quails' eggs" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_SICK_AND_DEAD_POULTRY" ] ;
+     fhir:display [ fhir:v "Contact with sick and dead poultry" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_SICK_AND/OR_DEAD_POULTRY" ] ;
+     fhir:display [ fhir:v "Contact with sick and/or dead poultry" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_SICK_ANIMALS" ] ;
+     fhir:display [ fhir:v "Contact with sick animals" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_SICK_OR_DEAD_ANIMALS" ] ;
+     fhir:display [ fhir:v "Contact with sick or dead animals" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_SICK_POULTRY" ] ;
+     fhir:display [ fhir:v "Contact with sick poultry" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_SICK_OR_DEAD_POULTRY" ] ;
+     fhir:display [ fhir:v "Contact with sick or dead poultry" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_SPORES_IN_THE_SOIL" ] ;
+     fhir:display [ fhir:v "Contact with spores in the soil" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_WILD_BIRDS" ] ;
+     fhir:display [ fhir:v "Contact with wild birds" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_WILDLIFE" ] ;
+     fhir:display [ fhir:v "Contact with wildlife" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_WITH_WILD_SPECIES" ] ;
+     fhir:display [ fhir:v "Contact with wild species" ]
+  ] [
+     fhir:code [ fhir:v "CONTAMINATED_ANIMAL_PRODUCTS" ] ;
+     fhir:display [ fhir:v "Contaminated animal products" ]
+  ] [
+     fhir:code [ fhir:v "CONTAMINATED_MANURE" ] ;
+     fhir:display [ fhir:v "Contaminated manure" ]
+  ] [
+     fhir:code [ fhir:v "DIRECT_CONTACT_SECRETIONS_DISEASED_PIGS" ] ;
+     fhir:display [ fhir:v "Direct contact with secretions from diseased pigs via open wounds or respiratory tracts" ]
+  ] [
+     fhir:code [ fhir:v "DIRECT_OR_INDIRECT_EXPOSURE_TO_SWINE" ] ;
+     fhir:display [ fhir:v "Direct or indirect exposure to swine" ]
+  ] [
+     fhir:code [ fhir:v "DROPPING_FOR_FIENTE" ] ;
+     fhir:display [ fhir:v "Dropping for fiente" ]
+  ] [
+     fhir:code [ fhir:v "ENVIRONMENTAL_CONTAMINATION" ] ;
+     fhir:display [ fhir:v "Environmental contamination" ]
+  ] [
+     fhir:code [ fhir:v "EXPOSED_TO_SWINE_ON_THE_JOB" ] ;
+     fhir:display [ fhir:v "Exposed to swine on the job" ]
+  ] [
+     fhir:code [ fhir:v "EXPOSURE_TO_A_POTENTIALLY_CONTAMINATED_ENVIRONMENT" ] ;
+     fhir:display [ fhir:v "Exposure  to a potentially contaminated environment" ]
+  ] [
+     fhir:code [ fhir:v "FALSE_VERTICAL_SPREAD_CONTAMINATED_EGGS_GAMETES" ] ;
+     fhir:display [ fhir:v "False vertical spread (though contaminated eggs or gametes)" ]
+  ] [
+     fhir:code [ fhir:v "FEEDING_RAW_AQUATIC_ANIMAL_PRODUCT" ] ;
+     fhir:display [ fhir:v "Feeding raw aquatic animal product" ]
+  ] [
+     fhir:code [ fhir:v "FLOODING_ASSOCIATED_WITH_MOSQUITO_MULTIPLICATION" ] ;
+     fhir:display [ fhir:v "Flooding associated with mosquito multiplication" ]
+  ] [
+     fhir:code [ fhir:v "FOMITES_HUMANS_VEHICLES_FEED_ETC" ] ;
+     fhir:display [ fhir:v "Fomites (humans, vehicles, feed, etc.)" ]
+  ] [
+     fhir:code [ fhir:v "FOOD_LEFTOVERS" ] ;
+     fhir:display [ fhir:v "Food leftovers" ]
+  ] [
+     fhir:code [ fhir:v "HEMATOPHAGOUS_BATS" ] ;
+     fhir:display [ fhir:v "Hematophagous bats" ]
+  ] [
+     fhir:code [ fhir:v "HORIZONTAL_SPREAD_THROUGH_WATER" ] ;
+     fhir:display [ fhir:v "Horizontal spread through water" ]
+  ] [
+     fhir:code [ fhir:v "ILLEGAL_MOVEMENT_OF_ANIMALS" ] ;
+     fhir:display [ fhir:v "Illegal movement of animals" ]
+  ] [
+     fhir:code [ fhir:v "IMPORTED_STALLION" ] ;
+     fhir:display [ fhir:v "Imported stallion" ]
+  ] [
+     fhir:code [ fhir:v "IMPORT_OF_LIVE_ANIMALS" ] ;
+     fhir:display [ fhir:v "Import of live animals" ]
+  ] [
+     fhir:code [ fhir:v "IMPORT_SEMEN_INF_PORCINE_REPR_RESP_SYNDROME_VIRUS" ] ;
+     fhir:display [ fhir:v "Import of semen infected with Porcine reproductive and respiratory syndrome virus" ]
+  ] [
+     fhir:code [ fhir:v "INFORMAL_MOVEMENT_OF_ANIMALS" ] ;
+     fhir:display [ fhir:v "Informal movement of animals" ]
+  ] [
+     fhir:code [ fhir:v "INTRODUCTION_OF_NEW_LIVE_ANIMALS" ] ;
+     fhir:display [ fhir:v "Introduction of new live animals" ]
+  ] [
+     fhir:code [ fhir:v "INTRODUCTION_OF_NEW_NONVIABLE_ANIMAL_PRODUCTS" ] ;
+     fhir:display [ fhir:v "Introduction of new non-viable animal products" ]
+  ] [
+     fhir:code [ fhir:v "INVOLVED_SLAUGHTER_CONSUMPTION_OF_SICK_POULTRY" ] ;
+     fhir:display [ fhir:v "Involved in the slaughter and consumption of sick poultry." ]
+  ] [
+     fhir:code [ fhir:v "INVOLVED_WITH_SLAUGHTERING_AND_PROCESSING_THE_MEAT" ] ;
+     fhir:display [ fhir:v "Involved with slaughtering and processing the meat" ]
+  ] [
+     fhir:code [ fhir:v "LABORATORY_ESCAPE" ] ;
+     fhir:display [ fhir:v "Laboratory escape" ]
+  ] [
+     fhir:code [ fhir:v "LEGAL_MOVEMENT_OF_ANIMALS" ] ;
+     fhir:display [ fhir:v "Legal movement of animals" ]
+  ] [
+     fhir:code [ fhir:v "LIVESTOCK_MARKET" ] ;
+     fhir:display [ fhir:v "Livestock  Market" ]
+  ] [
+     fhir:code [ fhir:v "MANAGEMENT_PRACTICES" ] ;
+     fhir:display [ fhir:v "Management practices" ]
+  ] [
+     fhir:code [ fhir:v "MAY_BE_DUE_TO_MIGRATORY_BIRDS'_DROPPINGS" ] ;
+     fhir:display [ fhir:v "May be due to migratory birds' droppings." ]
+  ] [
+     fhir:code [ fhir:v "MIGRATION_OF_WILD_BIRDS" ] ;
+     fhir:display [ fhir:v "Migration of wild birds" ]
+  ] [
+     fhir:code [ fhir:v "MOST_LIKELY_CONTACT_WITH_PEOPLE" ] ;
+     fhir:display [ fhir:v "Most likely, contact with people" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] [
+     fhir:code [ fhir:v "POSSIBLE_CONTACT_WITH_WILD_BIRDS" ] ;
+     fhir:display [ fhir:v "Possible contact with wild birds" ]
+  ] [
+     fhir:code [ fhir:v "POTENTIAL_CONTACT_WITH_WILDLIFE" ] ;
+     fhir:display [ fhir:v "Potential contact with wildlife" ]
+  ] [
+     fhir:code [ fhir:v "PRESUMED_TO_BE_THE_PASTURE" ] ;
+     fhir:display [ fhir:v "Presumed to be the pasture" ]
+  ] [
+     fhir:code [ fhir:v "PROBABLY_FORMER_BURIAL_OF_ANIMALS" ] ;
+     fhir:display [ fhir:v "Probably former burial of animals" ]
+  ] [
+     fhir:code [ fhir:v "PROBABLY_HUNTED_WILD_DUCKS_AND_GEESE" ] ;
+     fhir:display [ fhir:v "Probably, hunted wild ducks and geese" ]
+  ] [
+     fhir:code [ fhir:v "PROCESSING_SLAUGHTERING" ] ;
+     fhir:display [ fhir:v "Processing slaughtering" ]
+  ] [
+     fhir:code [ fhir:v "RABIES_RELATED_TO_HEMATOPHAGOUS_BATS" ] ;
+     fhir:display [ fhir:v "Rabies related to hematophagous bats" ]
+  ] [
+     fhir:code [ fhir:v "RANDOM_MUTATION" ] ;
+     fhir:display [ fhir:v "Random mutation" ]
+  ] [
+     fhir:code [ fhir:v "REFUGEES" ] ;
+     fhir:display [ fhir:v "Refugees" ]
+  ] [
+     fhir:code [ fhir:v "SEASONAL_MIGRATION_OF_WILD_BIRDS_SWANS" ] ;
+     fhir:display [ fhir:v "Seasonal migration of wild birds - swans" ]
+  ] [
+     fhir:code [ fhir:v "SELLING_INFECTED_BEEF_IN_THE_CAPITAL" ] ;
+     fhir:display [ fhir:v "Selling infected beef in the largest market in the capital." ]
+  ] [
+     fhir:code [ fhir:v "SEMEN" ] ;
+     fhir:display [ fhir:v "Semen" ]
+  ] [
+     fhir:code [ fhir:v "SLAUGHTER_AND_EAT_CHICKENS" ] ;
+     fhir:display [ fhir:v "Slaughter and eat chickens" ]
+  ] [
+     fhir:code [ fhir:v "SLAUGHTERING" ] ;
+     fhir:display [ fhir:v "Slaughtering" ]
+  ] [
+     fhir:code [ fhir:v "SOILBORNE_INFECTION" ] ;
+     fhir:display [ fhir:v "Soil-borne infection" ]
+  ] [
+     fhir:code [ fhir:v "SPONTANEOUS_MUTATION" ] ;
+     fhir:display [ fhir:v "Spontaneous mutation" ]
+  ] [
+     fhir:code [ fhir:v "SPREAD_INFECTED_ANIMALS_THROUGH_AEROSOLS_CONTACT" ] ;
+     fhir:display [ fhir:v "Spread by infected animals through aerosols, contact with contaminated farming equipment" ]
+  ] [
+     fhir:code [ fhir:v "SWILL_FEEDING" ] ;
+     fhir:display [ fhir:v "Swill feeding" ]
+  ] [
+     fhir:code [ fhir:v "TEST_INFECTION_SOURCE" ] ;
+     fhir:display [ fhir:v "Test infection source" ]
+  ] [
+     fhir:code [ fhir:v "THE_BITES_OF_THE_CULEX_FEMALE_MOSQUITOES" ] ;
+     fhir:display [ fhir:v "The bites of the culex female mosquitoes" ]
+  ] [
+     fhir:code [ fhir:v "SUDDEN_POULTRY_DIEOFFS_IN_HIS_NEIGHBOURHOOD" ] ;
+     fhir:display [ fhir:v "There were sudden poultry die-offs in his neighbourhood" ]
+  ] [
+     fhir:code [ fhir:v "STRAW_COLLECTED_DEAD_WILD_BOAR" ] ;
+     fhir:display [ fhir:v "The straw collected on a field were a dead wild boar has been previously found." ]
+  ] [
+     fhir:code [ fhir:v "VIRUS_CIRCULATION_WILD_BIRDS_POPULATION_SUSPECTED" ] ;
+     fhir:display [ fhir:v "The virus circulation into the wild birds population is suspected." ]
+  ] [
+     fhir:code [ fhir:v "TO_HAVE_TAKEN_PART_IN_KILLING_A_SICK_COW" ] ;
+     fhir:display [ fhir:v "To have taken part in killing a sick cow." ]
+  ] [
+     fhir:code [ fhir:v "TRANSBOUNDARY_MIGRATION_OF_WILD_BOARS" ] ;
+     fhir:display [ fhir:v "Transboundary migration of wild boars" ]
+  ] [
+     fhir:code [ fhir:v "TRANSBOUNDARY_SPREAD" ] ;
+     fhir:display [ fhir:v "Transboundary spread" ]
+  ] [
+     fhir:code [ fhir:v "TRANSHUMANT_ANIMAL" ] ;
+     fhir:display [ fhir:v "Transhumant animal" ]
+  ] [
+     fhir:code [ fhir:v "TRANSMISSION_FROM_HUMANS" ] ;
+     fhir:display [ fhir:v "Transmission from humans" ]
+  ] [
+     fhir:code [ fhir:v "VERTICAL_SPREAD_THROUGH_INFECTED_EGGS_OR_GAMETES" ] ;
+     fhir:display [ fhir:v "True vertical spread (through infected eggs or gametes)" ]
+  ] [
+     fhir:code [ fhir:v "UNDER_INVESTIGATION" ] ;
+     fhir:display [ fhir:v "Under investigation" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN_OR_INCONCLUSIVE" ] ;
+     fhir:display [ fhir:v "Unknown or inconclusive" ]
+  ] [
+     fhir:code [ fhir:v "VAMPIRE_BATS" ] ;
+     fhir:display [ fhir:v "Vampire bats" ]
+  ] [
+     fhir:code [ fhir:v "VECTORS" ] ;
+     fhir:display [ fhir:v "Vectors" ]
+  ] [
+     fhir:code [ fhir:v "WILD_STRAINS_OF_BRUCELLA_MELITENSIS" ] ;
+     fhir:display [ fhir:v "Wild strains of Brucella Melitensis" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

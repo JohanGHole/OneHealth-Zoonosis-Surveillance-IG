@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/animal-class",
+      "url" : "https://dhis2.org/fhir/CodeSystem/animal-class-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalClassCS",
@@ -17,7 +17,7 @@
       "description" : "Code system representing various animal species."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
+      "url" : "https://dhis2.org/fhir/CodeSystem/animal-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalTypeCS",
@@ -95,6 +95,14 @@
       "name" : "DistrictsCS",
       "title" : "Districts Code System",
       "description" : "Code system for districts."
+    },
+    {
+      "url" : "https://dhis2.org/fhir/CodeSystem/infection-source-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "InfectionSourceCS",
+      "title" : "Infection Source Code System",
+      "description" : "Code system for infection source."
     },
     {
       "url" : "https://dhis2.org/fhir/CodeSystem/laboratory-cs",

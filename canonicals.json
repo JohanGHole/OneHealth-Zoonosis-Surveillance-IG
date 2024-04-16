@@ -1,8 +1,8 @@
 [
   {
-    "id" : "animal-class",
+    "id" : "animal-class-cs",
     "type" : "CodeSystem",
-    "url" : "https://dhis2.org/fhir/CodeSystem/animal-class",
+    "url" : "https://dhis2.org/fhir/CodeSystem/animal-class-cs",
     "version" : "0.1.0",
     "name" : "AnimalClassCS"
   },
@@ -14,9 +14,9 @@
     "name" : "AnimalSpeciesCS"
   },
   {
-    "id" : "animal-type",
+    "id" : "animal-type-cs",
     "type" : "CodeSystem",
-    "url" : "https://dhis2.org/fhir/CodeSystem/animal-type",
+    "url" : "https://dhis2.org/fhir/CodeSystem/animal-type-cs",
     "version" : "0.1.0",
     "name" : "AnimalTypeCS"
   },
@@ -82,6 +82,13 @@
     "url" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
     "version" : "0.1.0",
     "name" : "DistrictsCS"
+  },
+  {
+    "id" : "infection-source-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/infection-source-cs",
+    "version" : "0.1.0",
+    "name" : "InfectionSourceCS"
   },
   {
     "id" : "laboratory-cs",
@@ -287,6 +294,13 @@
     "name" : "DistrictsVS"
   },
   {
+    "id" : "infection-source-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/infection-source-vs",
+    "version" : "0.1.0",
+    "name" : "InfectionSourceVS"
+  },
+  {
     "id" : "lab-diseases-vs",
     "type" : "ValueSet",
     "url" : "https://dhis2.org/fhir/ValueSet/lab-diseases-vs",
@@ -378,9 +392,9 @@
     "name" : "TreatmentsVS"
   },
   {
-    "id" : "yes-no-unknown",
+    "id" : "yes-no-unknown-vs",
     "type" : "ValueSet",
-    "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown",
+    "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs",
     "version" : "0.1.0",
     "name" : "YesNoUnknownVS"
   }

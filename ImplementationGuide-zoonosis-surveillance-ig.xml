@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-12T11:15:39+00:00"/>
+  <date value="2024-04-16T08:17:53+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -453,7 +453,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/animal-class"/>
+        <reference value="CodeSystem/animal-class-cs"/>
       </reference>
       <name value="Animal Class Code System"/>
       <description value="Code system for classifying types of animals."/>
@@ -497,7 +497,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/animal-type"/>
+        <reference value="CodeSystem/animal-type-cs"/>
       </reference>
       <name value="Animal Type Code System"/>
       <description value="Code system for types of animals."/>
@@ -710,6 +710,28 @@
       </reference>
       <name value="Districts Value Set"/>
       <description value="Value set for districts."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/infection-source-cs"/>
+      </reference>
+      <name value="Infection Source Code System"/>
+      <description value="Code system for infection source."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/infection-source-vs"/>
+      </reference>
+      <name value="Infection Source Value Set"/>
+      <description value="Value set for infection source."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1036,7 +1058,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/yes-no-unknown"/>
+        <reference value="ValueSet/yes-no-unknown-vs"/>
       </reference>
       <name value="Yes/No/Unknown Value Set"/>
       <description value="Value set for yes, no, and unknown responses."/>

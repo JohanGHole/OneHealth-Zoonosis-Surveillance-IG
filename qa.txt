@@ -1,13 +1,13 @@
 OneHealthZoonosisSurveillanceIG : Validation Results
 =========================================
 
-err = 0, warn = 80, info = 25
+err = 0, warn = 83, info = 26
 IG Publisher Version: 1.6.4
-Generated Fri Apr 12 11:16:18 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
+Generated Tue Apr 16 08:18:37 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
  Build Errors : 0 / 4 / 0
- /github/workspace/fsh-generated/resources/CodeSystem-animal-class : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-animal-class-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-species-cs : 0 / 2 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-animal-type : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-animal-type-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-clade-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-clinical-signs-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-control-measures-cs : 0 / 2 / 2
@@ -17,6 +17,7 @@ Generated Fri Apr 12 11:16:18 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/CodeSystem-disease-subtype-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-diseases-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-districts-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-infection-source-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-laboratory-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-locality-quality-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-locality-source-cs : 0 / 2 / 2
@@ -46,6 +47,7 @@ Generated Fri Apr 12 11:16:18 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/ValueSet-disease-subtype-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-diseases-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-districts-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-infection-source-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-lab-diseases-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-laboratory-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-locality-quality-vs : 0 / 1 / 1
@@ -59,25 +61,25 @@ Generated Fri Apr 12 11:16:18 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/ValueSet-test-result-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-test-type-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-treatments-vs : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/ValueSet-yes-no-unknown : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-yes-no-unknown-vs : 0 / 1 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated/resources/CodeSystem-animal-class.json ==
-INFORMATION: CodeSystem/animal-class: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/animal-class: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-WARNING: CodeSystem/animal-class: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-animal-class-cs.json ==
+INFORMATION: CodeSystem/animal-class-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/animal-class-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/animal-class-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-animal-species-cs.json ==
 INFORMATION: CodeSystem/animal-species-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/animal-species-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/animal-species-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-animal-type.json ==
-INFORMATION: CodeSystem/animal-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/animal-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-WARNING: CodeSystem/animal-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-animal-type-cs.json ==
+INFORMATION: CodeSystem/animal-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/animal-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/animal-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-clade-cs.json ==
 INFORMATION: CodeSystem/clade-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/clade-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
@@ -114,6 +116,10 @@ WARNING: CodeSystem/diseases-cs: CodeSystem: Published code systems SHOULD confo
 INFORMATION: CodeSystem/districts-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/districts-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/districts-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-infection-source-cs.json ==
+INFORMATION: CodeSystem/infection-source-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/infection-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/infection-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-laboratory-cs.json ==
 INFORMATION: CodeSystem/laboratory-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/laboratory-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
@@ -194,6 +200,8 @@ WARNING: ValueSet/disease-subtype-vs: ValueSet: Published value sets SHOULD conf
 WARNING: ValueSet/diseases-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-districts-vs.json ==
 WARNING: ValueSet/districts-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-infection-source-vs.json ==
+WARNING: ValueSet/infection-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-lab-diseases-vs.json ==
 WARNING: ValueSet/lab-diseases-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-laboratory-vs.json ==
@@ -220,5 +228,5 @@ WARNING: ValueSet/test-result-vs: ValueSet: Published value sets SHOULD conform 
 WARNING: ValueSet/test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-treatments-vs.json ==
 WARNING: ValueSet/treatments-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-yes-no-unknown.json ==
-WARNING: ValueSet/yes-no-unknown: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-yes-no-unknown-vs.json ==
+WARNING: ValueSet/yes-no-unknown-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

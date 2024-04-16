@@ -10,14 +10,14 @@
   fhir:id [ fhir:v "animal-type-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-animal-type.html\"><code>https://dhis2.org/fhir/CodeSystem/animal-type</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-animal-type-cs.html\"><code>https://dhis2.org/fhir/CodeSystem/animal-type-cs</code></a></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "https://dhis2.org/fhir/ValueSet/animal-type-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "AnimalTypeVS"] ; # 
   fhir:title [ fhir:v "Animal Type Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-12T11:15:39+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-16T08:17:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -32,7 +32,7 @@
   fhir:description [ fhir:v "Value set for types of animals."] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://dhis2.org/fhir/CodeSystem/animal-type"^^xsd:anyURI ]
+       fhir:system [ fhir:v "https://dhis2.org/fhir/CodeSystem/animal-type-cs"^^xsd:anyURI ]
      ] )
   ] . # 
 

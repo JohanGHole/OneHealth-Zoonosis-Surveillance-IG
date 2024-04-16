@@ -12,6 +12,7 @@ https://dhis2.org/fhir/ValueSet/disease-status-vs,0.1.0,draft,,DiseaseStatusVS,D
 https://dhis2.org/fhir/ValueSet/disease-subtype-vs,0.1.0,draft,,DiseaseSubtypeVS,Disease Subtype Value Set,"Value set for disease subtypes.","StructureDefinition/AnimalSurveillance","Internal"
 https://dhis2.org/fhir/ValueSet/diseases-vs,0.1.0,draft,,DiseasesVS,Diseases Value Set,"Value set for diseases.","StructureDefinition/AnimalSurveillance","Internal"
 https://dhis2.org/fhir/ValueSet/districts-vs,0.1.0,draft,,DistrictsVS,Districts Value Set,"Value set for districts.","StructureDefinition/ZoonosisSurveillance","Internal"
+https://dhis2.org/fhir/ValueSet/infection-source-vs,0.1.0,draft,,InfectionSourceVS,Infection Source Value Set,"Value set for infection source.","StructureDefinition/AnimalSurveillance","Internal"
 https://dhis2.org/fhir/ValueSet/lab-diseases-vs,0.1.0,draft,,LabDiseasesVS,Lab Diseases Value Set,"Value set for lab diseases.","StructureDefinition/Laboratory","Internal"
 https://dhis2.org/fhir/ValueSet/laboratory-vs,0.1.0,draft,,LaboratoryVS,Laboratory Value Set,"Value set of laboratories.","StructureDefinition/Laboratory","Internal"
 https://dhis2.org/fhir/ValueSet/locality-quality-vs,0.1.0,draft,,LocalityQualityVS,Locality Quality Value Set,"Value set for the quality of locality data.","StructureDefinition/ZoonosisSurveillance","Internal"
@@ -25,4 +26,4 @@ https://dhis2.org/fhir/ValueSet/surveillance-type-vs,0.1.0,draft,,SurveillanceTy
 https://dhis2.org/fhir/ValueSet/test-result-vs,0.1.0,draft,,TestResultVS,Test Result Value Set,"Value set for test results.","StructureDefinition/Laboratory","Internal"
 https://dhis2.org/fhir/ValueSet/test-type-vs,0.1.0,draft,,TestTypeVS,Test Type Value Set,"Value set for test types.","StructureDefinition/Laboratory","Internal"
 https://dhis2.org/fhir/ValueSet/treatments-vs,0.1.0,draft,,TreatmentsVS,Treatments Value Set,"Value set for treatments.","StructureDefinition/AnimalSurveillance","Internal"
-https://dhis2.org/fhir/ValueSet/yes-no-unknown,0.1.0,draft,,YesNoUnknownVS,Yes/No/Unknown Value Set,"Value set for yes, no, and unknown responses.","StructureDefinition/AnimalSurveillance","Internal"
+https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs,0.1.0,draft,,YesNoUnknownVS,Yes/No/Unknown Value Set,"Value set for yes, no, and unknown responses.","StructureDefinition/AnimalSurveillance","Internal"

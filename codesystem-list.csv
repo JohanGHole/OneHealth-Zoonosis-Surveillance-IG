@@ -1,7 +1,7 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Used
-https://dhis2.org/fhir/CodeSystem/animal-class,0.1.0,draft,,AnimalClassCS,Animal Class Code System,"Code system for classifying types of animals.",
+https://dhis2.org/fhir/CodeSystem/animal-class-cs,0.1.0,draft,,AnimalClassCS,Animal Class Code System,"Code system for classifying types of animals.",
 https://dhis2.org/fhir/CodeSystem/animal-species-cs,0.1.0,draft,,AnimalSpeciesCS,Animal Species Code System,"Code system representing various animal species.",
-https://dhis2.org/fhir/CodeSystem/animal-type,0.1.0,draft,,AnimalTypeCS,Animal Type Code System,"Code system for types of animals.",
+https://dhis2.org/fhir/CodeSystem/animal-type-cs,0.1.0,draft,,AnimalTypeCS,Animal Type Code System,"Code system for types of animals.",
 https://dhis2.org/fhir/CodeSystem/clade-cs,0.1.0,draft,,CladeCS,Clade Code System,"Code system for clade.",
 https://dhis2.org/fhir/CodeSystem/clinical-signs-cs,0.1.0,draft,,ClinicalSignsCS,Clinical Signs Code System,"code system for clinical signs.",
 https://dhis2.org/fhir/CodeSystem/control-measures-cs,0.1.0,draft,,ControlMeasuresCS,Control Measures Code System,"Code system for control measures.",
@@ -11,6 +11,7 @@ https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs,0.1.0,draft,,DiagnosticSt
 https://dhis2.org/fhir/CodeSystem/disease-subtype-cs,0.1.0,draft,,DiseaseSubtypeCS,Disease Subtype Code System,"Code system for disease subtypes.",
 https://dhis2.org/fhir/CodeSystem/diseases-cs,0.1.0,draft,,DiseasesCS,Diseases Code System,"Code system for diseases.",
 https://dhis2.org/fhir/CodeSystem/districts-cs,0.1.0,draft,,DistrictsCS,Districts Code System,"Code system for districts.",
+https://dhis2.org/fhir/CodeSystem/infection-source-cs,0.1.0,draft,,InfectionSourceCS,Infection Source Code System,"Code system for infection source.",
 https://dhis2.org/fhir/CodeSystem/laboratory-cs,0.1.0,draft,,LaboratoryCS,Laboratory Code System,"Code system of laboratories.",
 https://dhis2.org/fhir/CodeSystem/locality-quality-cs,0.1.0,draft,,LocalityQualityCS,Locality Quality Code System,"Code system for the quality of locality data.",
 https://dhis2.org/fhir/CodeSystem/locality-source-cs,0.1.0,draft,,LocalitySourceCS,Locality Source Code System,"Code system for sources of locality information.",
