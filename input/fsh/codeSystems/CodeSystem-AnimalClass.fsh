@@ -1,5 +1,5 @@
 CodeSystem: AnimalClassCS
-Id: animal-class
+Id: animal-class-cs
 Title: "Animal Class Code System"
 Description: "Code system for classifying types of animals."
 * #BIRDS "Birds"

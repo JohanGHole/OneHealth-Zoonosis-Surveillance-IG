@@ -1,5 +1,5 @@
 CodeSystem: AnimalTypeCS
-Id: animal-type
+Id: animal-type-cs
 Title: "Animal Type Code System"
 Description: "Code system for types of animals."
 * #CAPTIVE "Captive"
