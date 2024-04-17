@@ -83,6 +83,10 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /github/workspace/fsh-generated/resources/CodeSystem-yes-no-unknown-cs.json: line 0, col 0, Info - CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/CodeSystem-yes-no-unknown-cs.json: line 1, col 1239, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present (REQUIRED)
 /github/workspace/fsh-generated/resources/CodeSystem-yes-no-unknown-cs.json: line 1, col 1239, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present (REQUIRED)
+/github/workspace/fsh-generated/resources/Questionnaire-AnimalSurveillanceQuestionnaire.json: line 1, col 56385, Error - Constraint failed: que-10: 'Maximum length can only be declared for simple question types' (INVARIANT)
+/github/workspace/fsh-generated/resources/Questionnaire-AnimalSurveillanceQuestionnaire.json: line 1, col 56588, Error - Constraint failed: que-10: 'Maximum length can only be declared for simple question types' (INVARIANT)
+/github/workspace/fsh-generated/resources/Questionnaire-AnimalSurveillanceQuestionnaire.json: line 1, col 57118, Error - Constraint failed: que-10: 'Maximum length can only be declared for simple question types' (INVARIANT)
+/github/workspace/fsh-generated/resources/Questionnaire-AnimalSurveillanceQuestionnaire.json: line 1, col 58576, Error - Constraint failed: que-10: 'Maximum length can only be declared for simple question types' (INVARIANT)
 /github/workspace/fsh-generated/resources/Questionnaire-AnimalSurveillanceQuestionnaire.json: line 0, col 0, Info - This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root) (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/ValueSet-animal-class-vs.json: line 1, col 782, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /github/workspace/fsh-generated/resources/ValueSet-animal-species-vs.json: line 1, col 790, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
@@ -112,5 +116,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /github/workspace/fsh-generated/resources/ValueSet-treatments-vs.json: line 1, col 751, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /github/workspace/fsh-generated/resources/ValueSet-yes-no-unknown-vs.json: line 1, col 797, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
-err = 0, warn = 83, info = 27
-IG Publisher Version: 1.6.4
+err = 4, warn = 83, info = 27
+IG Publisher Version: 1.6.5
