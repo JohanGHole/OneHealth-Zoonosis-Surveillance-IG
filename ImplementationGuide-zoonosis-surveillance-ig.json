@@ -3,14 +3,14 @@
   "id" : "zoonosis-surveillance-ig",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>OneHealthZoonosisSurveillanceIG</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig</pre><div><p>Content IG for the OneHealth-Zoonosis-Surveillance DHIS2 Tracker program.</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>OneHealthZoonosisSurveillanceIG</h2><p>The official URL for this implementation guide is: </p><pre>https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig</pre><div><p>Content IG for the OneHealth-Zoonosis-Surveillance DHIS2 Tracker program.</p>\n</div></div>"
   },
-  "url" : "https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig",
+  "url" : "https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig",
   "version" : "0.1.0",
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-17T10:25:03+00:00",
+  "date" : "2024-04-17T11:58:12+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -154,7 +154,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://dhis2.org/fhir/history.html"
+        "valueString" : "https://example.org/fhir/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -433,7 +433,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://dhis2.org/fhir/history.html"
+        "valueString" : "https://example.org/fhir/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

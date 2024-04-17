@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/animal-class-cs",
+      "url" : "https://example.org/fhir/CodeSystem/animal-class-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalClassCS",
@@ -9,7 +9,7 @@
       "description" : "Code system for classifying types of animals."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/animal-species-cs",
+      "url" : "https://example.org/fhir/CodeSystem/animal-species-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalSpeciesCS",
@@ -17,7 +17,7 @@
       "description" : "Code system representing various animal species."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/animal-type-cs",
+      "url" : "https://example.org/fhir/CodeSystem/animal-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalTypeCS",
@@ -25,7 +25,7 @@
       "description" : "Code system for types of animals."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/clade-cs",
+      "url" : "https://example.org/fhir/CodeSystem/clade-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "CladeCS",
@@ -33,7 +33,7 @@
       "description" : "Code system for clade."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/clinical-signs-cs",
+      "url" : "https://example.org/fhir/CodeSystem/clinical-signs-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ClinicalSignsCS",
@@ -41,7 +41,7 @@
       "description" : "code system for clinical signs."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/control-measures-cs",
+      "url" : "https://example.org/fhir/CodeSystem/control-measures-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ControlMeasuresCS",
@@ -49,7 +49,7 @@
       "description" : "Code system for control measures."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs",
+      "url" : "https://example.org/fhir/CodeSystem/diagnosis-basis-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiagnosisBasisCS",
@@ -57,7 +57,7 @@
       "description" : "Code system for diagnosis basis."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs",
+      "url" : "https://example.org/fhir/CodeSystem/diagnostic-source-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiagnosticSourceCS",
@@ -65,7 +65,7 @@
       "description" : "Code system for diagnostic source."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs",
+      "url" : "https://example.org/fhir/CodeSystem/diagnostic-status-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiagnosticStatusCS",
@@ -73,7 +73,7 @@
       "description" : "Code system for diagnostic status"
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/disease-subtype-cs",
+      "url" : "https://example.org/fhir/CodeSystem/disease-subtype-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiseaseSubtypeCS",
@@ -81,7 +81,7 @@
       "description" : "Code system for disease subtypes."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/diseases-cs",
+      "url" : "https://example.org/fhir/CodeSystem/diseases-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiseasesCS",
@@ -89,7 +89,7 @@
       "description" : "Code system for diseases."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
+      "url" : "https://example.org/fhir/CodeSystem/districts-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DistrictsCS",
@@ -97,7 +97,7 @@
       "description" : "Code system for districts."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+      "url" : "https://example.org/fhir/CodeSystem/empresi-countries-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "EmpresiCountriesCS",
@@ -105,7 +105,7 @@
       "description" : "Generated from CSV"
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/infection-source-cs",
+      "url" : "https://example.org/fhir/CodeSystem/infection-source-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "InfectionSourceCS",
@@ -113,7 +113,7 @@
       "description" : "Code system for infection source."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/laboratory-cs",
+      "url" : "https://example.org/fhir/CodeSystem/laboratory-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "LaboratoryCS",
@@ -121,7 +121,7 @@
       "description" : "Code system of laboratories."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
+      "url" : "https://example.org/fhir/CodeSystem/locality-quality-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "LocalityQualityCS",
@@ -129,7 +129,7 @@
       "description" : "Code system for the quality of locality data."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
+      "url" : "https://example.org/fhir/CodeSystem/locality-source-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "LocalitySourceCS",
@@ -137,7 +137,7 @@
       "description" : "Code system for sources of locality information."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs",
+      "url" : "https://example.org/fhir/CodeSystem/necropsy-lesions-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "NecropsyLesionsCS",
@@ -145,7 +145,7 @@
       "description" : "Code system for necropsy lesions."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/production-system-one-cs",
+      "url" : "https://example.org/fhir/CodeSystem/production-system-one-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ProductionSystemOneCS",
@@ -153,7 +153,7 @@
       "description" : "Code system for production system one."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/production-system-two-cs",
+      "url" : "https://example.org/fhir/CodeSystem/production-system-two-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ProductionSystemTwoCS",
@@ -161,7 +161,7 @@
       "description" : "Code system for production system two."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/regions-cs",
+      "url" : "https://example.org/fhir/CodeSystem/regions-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "RegionsCS",
@@ -169,7 +169,7 @@
       "description" : "Code system for regions."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/sample-type-cs",
+      "url" : "https://example.org/fhir/CodeSystem/sample-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SampleTypeCS",
@@ -177,7 +177,7 @@
       "description" : "Code system for sample types."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/surveillance-type-cs",
+      "url" : "https://example.org/fhir/CodeSystem/surveillance-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SurveillanceTypeCS",
@@ -185,7 +185,7 @@
       "description" : "Code system for surveillance types."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/test-result-cs",
+      "url" : "https://example.org/fhir/CodeSystem/test-result-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TestResultCS",
@@ -193,7 +193,7 @@
       "description" : "Code system for test results."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/test-type-cs",
+      "url" : "https://example.org/fhir/CodeSystem/test-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TestTypeCS",
@@ -201,7 +201,7 @@
       "description" : "Code system for test types."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/treatments-cs",
+      "url" : "https://example.org/fhir/CodeSystem/treatments-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TreatmentsCS",
@@ -209,7 +209,7 @@
       "description" : "Code system for possible treatments."
     },
     {
-      "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs",
+      "url" : "https://example.org/fhir/CodeSystem/yes-no-unknown-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "YesNoUnknownCS",

@@ -1,13 +1,13 @@
 {
-  "url" : "https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig",
+  "url" : "https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig",
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "description" : "Content IG for the OneHealth-Zoonosis-Surveillance DHIS2 Tracker program.",
   "status" : "draft",
   "package-id" : "zoonosis-surveillance-ig",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 17 Apr, 2024 10:25:03 +0000",
-  "dateISO8601" : "2024-04-17T10:25:03+00:00",
+  "date" : "Wed, 17 Apr, 2024 11:58:12 +0000",
+  "dateISO8601" : "2024-04-17T11:58:12+00:00",
   "errs" : 4,
   "warnings" : 86,
   "hints" : 28,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1643088880
+  "maxMemory" : 1634245008
 }

@@ -3,14 +3,14 @@
   "id" : "test-result-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/test-result-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">INCONCLUSIVE<a name=\"test-result-cs-INCONCLUSIVE\"> </a></td><td>Inconclusive</td></tr><tr><td style=\"white-space:nowrap\">NEGATIVE<a name=\"test-result-cs-NEGATIVE\"> </a></td><td>Negative</td></tr><tr><td style=\"white-space:nowrap\">NOT_TESTABLE<a name=\"test-result-cs-NOT_TESTABLE\"> </a></td><td>Not Testable</td></tr><tr><td style=\"white-space:nowrap\">PENDING<a name=\"test-result-cs-PENDING\"> </a></td><td>Pending</td></tr><tr><td style=\"white-space:nowrap\">POSITIVE<a name=\"test-result-cs-POSITIVE\"> </a></td><td>Positive</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/test-result-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">INCONCLUSIVE<a name=\"test-result-cs-INCONCLUSIVE\"> </a></td><td>Inconclusive</td></tr><tr><td style=\"white-space:nowrap\">NEGATIVE<a name=\"test-result-cs-NEGATIVE\"> </a></td><td>Negative</td></tr><tr><td style=\"white-space:nowrap\">NOT_TESTABLE<a name=\"test-result-cs-NOT_TESTABLE\"> </a></td><td>Not Testable</td></tr><tr><td style=\"white-space:nowrap\">PENDING<a name=\"test-result-cs-PENDING\"> </a></td><td>Pending</td></tr><tr><td style=\"white-space:nowrap\">POSITIVE<a name=\"test-result-cs-POSITIVE\"> </a></td><td>Positive</td></tr></table></div>"
   },
-  "url" : "https://dhis2.org/fhir/CodeSystem/test-result-cs",
+  "url" : "https://example.org/fhir/CodeSystem/test-result-cs",
   "version" : "0.1.0",
   "name" : "TestResultCS",
   "title" : "Test Result Code System",
   "status" : "draft",
-  "date" : "2024-04-17T10:25:03+00:00",
+  "date" : "2024-04-17T11:58:12+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",

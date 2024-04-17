@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="animal-type-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-animal-type-cs.html"><code>https://dhis2.org/fhir/CodeSystem/animal-type-cs</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-animal-type-cs.html"><code>https://example.org/fhir/CodeSystem/animal-type-cs</code></a></li></ul></div>
   </text>
-  <url value="https://dhis2.org/fhir/ValueSet/animal-type-vs"/>
+  <url value="https://example.org/fhir/ValueSet/animal-type-vs"/>
   <version value="0.1.0"/>
   <name value="AnimalTypeVS"/>
   <title value="Animal Type Value Set"/>
   <status value="draft"/>
-  <date value="2024-04-17T10:25:03+00:00"/>
+  <date value="2024-04-17T11:58:12+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -26,7 +26,7 @@
   <description value="Value set for types of animals."/>
   <compose>
     <include>
-      <system value="https://dhis2.org/fhir/CodeSystem/animal-type-cs"/>
+      <system value="https://example.org/fhir/CodeSystem/animal-type-cs"/>
     </include>
   </compose>
 </ValueSet>

@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="locality-quality-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-locality-quality-cs.html"><code>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-locality-quality-cs.html"><code>https://example.org/fhir/CodeSystem/locality-quality-cs</code></a></li></ul></div>
   </text>
-  <url value="https://dhis2.org/fhir/ValueSet/locality-quality-vs"/>
+  <url value="https://example.org/fhir/ValueSet/locality-quality-vs"/>
   <version value="0.1.0"/>
   <name value="LocalityQualityVS"/>
   <title value="Locality Quality Value Set"/>
   <status value="draft"/>
-  <date value="2024-04-17T10:25:03+00:00"/>
+  <date value="2024-04-17T11:58:12+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -26,7 +26,7 @@
   <description value="Value set for the quality of locality data."/>
   <compose>
     <include>
-      <system value="https://dhis2.org/fhir/CodeSystem/locality-quality-cs"/>
+      <system value="https://example.org/fhir/CodeSystem/locality-quality-cs"/>
     </include>
   </compose>
 </ValueSet>

@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://dhis2.org/fhir/ValueSet/disease-status-vs> a fhir:ValueSet ;
+<https://example.org/fhir/ValueSet/disease-status-vs> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "disease-status-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-diagnostic-status-cs.html\"><code>https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-diagnostic-status-cs.html\"><code>https://example.org/fhir/CodeSystem/diagnostic-status-cs</code></a></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://dhis2.org/fhir/ValueSet/disease-status-vs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://example.org/fhir/ValueSet/disease-status-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "DiseaseStatusVS"] ; # 
   fhir:title [ fhir:v "Disease Status Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-17T10:25:03+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-17T11:58:12+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -32,7 +32,7 @@
   fhir:description [ fhir:v "Value set for diagnostic status."] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs"^^xsd:anyURI ]
+       fhir:system [ fhir:v "https://example.org/fhir/CodeSystem/diagnostic-status-cs"^^xsd:anyURI ]
      ] )
   ] . # 
 

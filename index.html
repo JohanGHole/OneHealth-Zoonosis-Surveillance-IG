@@ -133,7 +133,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://example.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Home</h2>
   
 
@@ -145,10 +145,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <table class="colsd">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig"/></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig|0.1.0"/></span>
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig|0.1.0"/></span>
       </td>
     </tr>
 
@@ -188,12 +188,45 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#onehealth---zoonosis-surveillance-ig" id="markdown-toc-onehealth---zoonosis-surveillance-ig">OneHealth - Zoonosis Surveillance IG</a>    <ul>
+      <li><a href="#contents-artifact-index" id="markdown-toc-contents-artifact-index">Contents (Artifact Index)</a>        <ul>
+          <li><a href="#logical-models" id="markdown-toc-logical-models">Logical Models</a></li>
+          <li><a href="#value-sets-and-code-systems" id="markdown-toc-value-sets-and-code-systems">Value Sets and Code Systems</a></li>
+          <li><a href="#examples" id="markdown-toc-examples">Examples</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#disclaimer" id="markdown-toc-disclaimer">Disclaimer</a></li>
+</ul>
+
 </div>
 <h1 id="onehealth---zoonosis-surveillance-ig">OneHealth - Zoonosis Surveillance IG</h1>
 
-<p>This is a content IG for the OH-Zoonosis-Surveillance Tracker program.</p>
+<p>This is a draft Implementation Guide (IG) for the OneHealth Zoonosis Surveillance tracker program. This guide is designed to represent the DHIS2 zoonosis surveillance program within the context of OneHealth’s initiatives. This IG is a draft and is not intended for production use.</p>
+
+<h2 id="contents-artifact-index">Contents (Artifact Index)</h2>
+
+<h3 id="logical-models">Logical Models</h3>
+
+<p>The Logical Models section defines the structured data models used within the OneHealth Zoonosis Surveillance program. These models outline the essential data points required for surveillance activities, specifying data types, hierarchies, and relationships without prescribing specific user interaction mechanisms or display guidelines. An example of how elements within these logical models can be adapted to FHIR terminology includes the mapping of the attribute “country” in <a href="StructureDefinition-ZoonosisSurveillance.html">Zoonosis Surveillance</a> to the <a href="http://terminology.hl7.org/ValueSet/v3-Country">FHIR “country” ValueSet</a>, moving away from the <a href="ValueSet-empresi-countries-vs.html">Empresi countries ValueSet</a>, which lacked identifying codes.</p>
+
+<h3 id="value-sets-and-code-systems">Value Sets and Code Systems</h3>
+
+<p>This section includes the definitions of the Value Sets and Code Systems utilized throughout the IG. These components represent the various options available in the program, translating program-specific terminologies into code systems that provides the codes and names for the different option sets defined in the DHIS2 metadata.</p>
+
+<h3 id="examples">Examples</h3>
+
+<p>To demonstrate the practical application of the logical models in FHIR, we have included two examples: the <a href="Questionnaire-AnimalSurveillanceQuestionnaire.html">Animal Surveillance Questionnaire</a> and <a href="Questionnaire-AnimalSurveillanceQuestionnaire.html">Animal Surveillance QuestionnaireResponse</a>. The questionnaire is crafted from the Logical Model and showcases the data collection aspects of the IG. It exemplifies how structured data elements from the Logical Models section can be utilized in a user-facing application, emphasizing the difference in focus between data definition (Logical Model) and data collection (Questionnaire).</p>
+
+<p>Accompanying the questionnaire, the QuestionnaireResponse serves as a practical example of how the collected data is recorded and stored within a FHIR-based system. This response artifact demonstrates the actual inputs provided by users, reflecting real-world data capture scenarios. It validates the structured approach of the logical models by populating them with data, thus highlighting the practical usability and effectiveness of the designed questionnaire in capturing comprehensive surveillance data according to the specified standards and requirements.</p>
+
+<h1 id="disclaimer">Disclaimer</h1>
+
+<p>The specification herewith documented is a demo working specification, and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency, and the official publication supersedes this draft.
+No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
 
 
 
@@ -219,7 +252,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 17, 2024 10:25+0000">2024-04-17</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 17, 2024 11:58+0000">2024-04-17</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

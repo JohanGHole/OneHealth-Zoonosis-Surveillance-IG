@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="test-type-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-test-type-cs.html"><code>https://dhis2.org/fhir/CodeSystem/test-type-cs</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-test-type-cs.html"><code>https://example.org/fhir/CodeSystem/test-type-cs</code></a></li></ul></div>
   </text>
-  <url value="https://dhis2.org/fhir/ValueSet/test-type-vs"/>
+  <url value="https://example.org/fhir/ValueSet/test-type-vs"/>
   <version value="0.1.0"/>
   <name value="TestTypeVS"/>
   <title value="Test Type Value Set"/>
   <status value="draft"/>
-  <date value="2024-04-17T10:25:03+00:00"/>
+  <date value="2024-04-17T11:58:12+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -26,7 +26,7 @@
   <description value="Value set for test types."/>
   <compose>
     <include>
-      <system value="https://dhis2.org/fhir/CodeSystem/test-type-cs"/>
+      <system value="https://example.org/fhir/CodeSystem/test-type-cs"/>
     </include>
   </compose>
 </ValueSet>

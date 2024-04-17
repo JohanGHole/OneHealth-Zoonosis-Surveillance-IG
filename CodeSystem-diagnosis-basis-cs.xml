@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="diagnosis-basis-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CLINICAL_SIGNS<a name="diagnosis-basis-cs-CLINICAL_SIGNS"> </a></td><td>Clinical Signs</td></tr><tr><td style="white-space:nowrap">NECROPSY_LESIONS<a name="diagnosis-basis-cs-NECROPSY_LESIONS"> </a></td><td>Necropsy Lesions</td></tr><tr><td style="white-space:nowrap">LABORATORY_TEST<a name="diagnosis-basis-cs-LABORATORY_TEST"> </a></td><td>Laboratory Test</td></tr><tr><td style="white-space:nowrap">OTHERS<a name="diagnosis-basis-cs-OTHERS"> </a></td><td>Others</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://example.org/fhir/CodeSystem/diagnosis-basis-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CLINICAL_SIGNS<a name="diagnosis-basis-cs-CLINICAL_SIGNS"> </a></td><td>Clinical Signs</td></tr><tr><td style="white-space:nowrap">NECROPSY_LESIONS<a name="diagnosis-basis-cs-NECROPSY_LESIONS"> </a></td><td>Necropsy Lesions</td></tr><tr><td style="white-space:nowrap">LABORATORY_TEST<a name="diagnosis-basis-cs-LABORATORY_TEST"> </a></td><td>Laboratory Test</td></tr><tr><td style="white-space:nowrap">OTHERS<a name="diagnosis-basis-cs-OTHERS"> </a></td><td>Others</td></tr></table></div>
   </text>
-  <url value="https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs"/>
+  <url value="https://example.org/fhir/CodeSystem/diagnosis-basis-cs"/>
   <version value="0.1.0"/>
   <name value="DiagnosisBasisCS"/>
   <title value="Diagnosis Basis Code System"/>
   <status value="draft"/>
-  <date value="2024-04-17T10:25:03+00:00"/>
+  <date value="2024-04-17T11:58:12+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>

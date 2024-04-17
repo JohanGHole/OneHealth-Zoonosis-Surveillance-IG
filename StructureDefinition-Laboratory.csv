@@ -19,20 +19,20 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Laboratory.reportingDate","Laboratory.reportingDate","","","",0,1,"","","","date {[]} {[]}
 ","Reporting Date","Reporting Date","","","","","","","","","",,,,,"",,,,"Laboratory.reportingDate",0,1,"",""
 "Laboratory.laboratory","Laboratory.laboratory","","","",0,1,"","","","code {[]} {[]}
-","Laboratory","Laboratory","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/laboratory-vs","",,,,"Laboratory.laboratory",0,1,"",""
+","Laboratory","Laboratory","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/laboratory-vs","",,,,"Laboratory.laboratory",0,1,"",""
 "Laboratory.otherLaboratory","Laboratory.otherLaboratory","","","",0,1,"","","","string {[]} {[]}
 ","Other Laboratory","Other Laboratory","","","","","","","","","",,,,,"",,,,"Laboratory.otherLaboratory",0,1,"",""
 "Laboratory.labDisease","Laboratory.labDisease","","","",0,1,"","","","code {[]} {[]}
-","Lab Disease","Lab Disease","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/lab-diseases-vs","",,,,"Laboratory.labDisease",0,1,"",""
+","Lab Disease","Lab Disease","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/lab-diseases-vs","",,,,"Laboratory.labDisease",0,1,"",""
 "Laboratory.affectedSpecie","Laboratory.affectedSpecie","","","",0,*,"","","","code {[]} {[]}
-","Affected specie. Note: can be more than one","Affected specie. Note: can be more than one","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/animal-species-vs","",,,,"Laboratory.affectedSpecie",0,*,"",""
+","Affected specie. Note: can be more than one","Affected specie. Note: can be more than one","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/animal-species-vs","",,,,"Laboratory.affectedSpecie",0,*,"",""
 "Laboratory.samplingDate","Laboratory.samplingDate","","","",0,1,"","","","date {[]} {[]}
 ","Sampling Date","Sampling Date","","","","","","","","","",,,,,"",,,,"Laboratory.samplingDate",0,1,"",""
 "Laboratory.sampleType","Laboratory.sampleType","","","",0,1,"","","","code {[]} {[]}
-","Sample Type","Sample Type","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/sample-type-vs","",,,,"Laboratory.sampleType",0,1,"",""
+","Sample Type","Sample Type","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/sample-type-vs","",,,,"Laboratory.sampleType",0,1,"",""
 "Laboratory.testType","Laboratory.testType","","","",0,1,"","","","code {[]} {[]}
-","Test Type","Test Type","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/test-type-vs","",,,,"Laboratory.testType",0,1,"",""
+","Test Type","Test Type","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/test-type-vs","",,,,"Laboratory.testType",0,1,"",""
 "Laboratory.resultDate","Laboratory.resultDate","","","",0,1,"","","","date {[]} {[]}
 ","Result Date","Result Date","","","","","","","","","",,,,,"",,,,"Laboratory.resultDate",0,1,"",""
 "Laboratory.testResult","Laboratory.testResult","","","",0,1,"","","","code {[]} {[]}
-","Test Result","Test Result","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/test-result-vs","",,,,"Laboratory.testResult",0,1,"",""
+","Test Result","Test Result","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/test-result-vs","",,,,"Laboratory.testResult",0,1,"",""

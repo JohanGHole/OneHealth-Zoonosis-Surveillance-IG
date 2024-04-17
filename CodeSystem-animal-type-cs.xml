@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="animal-type-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/animal-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CAPTIVE<a name="animal-type-cs-CAPTIVE"> </a></td><td>Captive</td></tr><tr><td style="white-space:nowrap">WILD<a name="animal-type-cs-WILD"> </a></td><td>Wild</td></tr><tr><td style="white-space:nowrap">DOMESTIC<a name="animal-type-cs-DOMESTIC"> </a></td><td>Domestic</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://example.org/fhir/CodeSystem/animal-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CAPTIVE<a name="animal-type-cs-CAPTIVE"> </a></td><td>Captive</td></tr><tr><td style="white-space:nowrap">WILD<a name="animal-type-cs-WILD"> </a></td><td>Wild</td></tr><tr><td style="white-space:nowrap">DOMESTIC<a name="animal-type-cs-DOMESTIC"> </a></td><td>Domestic</td></tr></table></div>
   </text>
-  <url value="https://dhis2.org/fhir/CodeSystem/animal-type-cs"/>
+  <url value="https://example.org/fhir/CodeSystem/animal-type-cs"/>
   <version value="0.1.0"/>
   <name value="AnimalTypeCS"/>
   <title value="Animal Type Code System"/>
   <status value="draft"/>
-  <date value="2024-04-17T10:25:03+00:00"/>
+  <date value="2024-04-17T11:58:12+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
