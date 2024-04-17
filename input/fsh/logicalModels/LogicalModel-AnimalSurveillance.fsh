@@ -54,4 +54,3 @@ Description: "Logical model describing attributes related to animal surveillance
 * diagnosis.diagnosisBasis                                            from DiagnosisBasisVS      (required)
 * controlMeasuresAndTreatments.controlMeasures                        from ControlMeasuresVS     (required) 
 * controlMeasuresAndTreatments.treatments                             from TreatmentsVS          (required)
-
