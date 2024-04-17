@@ -11,7 +11,7 @@
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-17T08:50:12+00:00"/>
+  <date value="2024-04-17T10:25:03+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -721,6 +721,28 @@
       </reference>
       <name value="Districts Value Set"/>
       <description value="Value set for districts."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/empresi-countries-cs"/>
+      </reference>
+      <name value="Empresi Countries Code System"/>
+      <description value="Generated from CSV"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/empresi-countries-vs"/>
+      </reference>
+      <name value="Empresi Countries Value Set"/>
+      <description value="Value set for Empresi countries."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

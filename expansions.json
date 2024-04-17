@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "3e51f6a1-a2c3-4c1c-8acd-92eb2b8b081c",
+  "id" : "534746d3-5eb3-448d-aca9-e3a71be59296",
   "meta" : {
-    "lastUpdated" : "2024-04-17T08:50:12.590+00:00"
+    "lastUpdated" : "2024-04-17T10:25:03.433+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,10 +18,10 @@
       "name" : "AnimalClassVS",
       "title" : "Animal Class Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c2e6f0bf-9f6c-4a4b-a468-08b9162f553d",
-        "timestamp" : "2024-04-17T08:50:32+00:00",
+        "identifier" : "urn:uuid:225377ce-d4da-4063-a921-e456e44572ab",
+        "timestamp" : "2024-04-17T10:25:23+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -106,10 +106,10 @@
       "name" : "AnimalSpeciesVS",
       "title" : "Animal Species Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:fe0e8c32-7be7-4ff0-8bb7-b4ccdcef7e5f",
-        "timestamp" : "2024-04-17T08:50:32+00:00",
+        "identifier" : "urn:uuid:c8b4110e-76d5-4444-a673-fa2662d32cba",
+        "timestamp" : "2024-04-17T10:25:23+00:00",
         "total" : 725,
         "offset" : 0,
         "parameter" : [{
@@ -3769,10 +3769,10 @@
       "name" : "AnimalTypeVS",
       "title" : "Animal Type Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:91ac97d1-e671-4259-ba50-29d71953cc96",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:0a97758b-9a0a-4a04-8632-59309c4030e1",
+        "timestamp" : "2024-04-17T10:25:23+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3822,10 +3822,10 @@
       "name" : "CladeVS",
       "title" : "Clade Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7b5963c9-ac12-4caa-9051-b2a0258fef1c",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:b6778871-3b8f-4925-a53b-6d1b1691b423",
+        "timestamp" : "2024-04-17T10:25:23+00:00",
         "total" : 38,
         "offset" : 0,
         "parameter" : [{
@@ -4050,10 +4050,10 @@
       "name" : "ClinicalSignsVS",
       "title" : "Clinical Signs Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3d4c7a8b-27ee-4b39-805c-8692c808b1d2",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:e7160a52-70ad-446e-b1c2-f78ba0251eb9",
+        "timestamp" : "2024-04-17T10:25:24+00:00",
         "total" : 157,
         "offset" : 0,
         "parameter" : [{
@@ -4873,10 +4873,10 @@
       "name" : "ControlMeasuresVS",
       "title" : "Control Measures Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:155f80ab-19c0-49d6-b7fd-b352568ffc45",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:fc240ce2-0161-4743-896b-99f9cf509254",
+        "timestamp" : "2024-04-17T10:25:24+00:00",
         "total" : 99,
         "offset" : 0,
         "parameter" : [{
@@ -5406,10 +5406,10 @@
       "name" : "DiagnosisBasisVS",
       "title" : "Diagnosis Basis Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2f4aeebd-e687-48a2-bafb-a53a48f8e3f9",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:40162d49-a499-41a9-bef3-c27fb037858e",
+        "timestamp" : "2024-04-17T10:25:24+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -5464,10 +5464,10 @@
       "name" : "DiagnosticSourceVS",
       "title" : "Diagnostic Source Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bd366549-2d70-4a1e-a97b-fc763737aa0c",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:afcecf5d-feee-4f18-bb0b-d4fb43d4db43",
+        "timestamp" : "2024-04-17T10:25:24+00:00",
         "total" : 74,
         "offset" : 0,
         "parameter" : [{
@@ -5872,10 +5872,10 @@
       "name" : "DiseaseStatusVS",
       "title" : "Disease Status Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a918ec70-2cff-4ba7-b697-53116cb9a71d",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:3db2cd2f-3d21-4505-9edd-5e5b9a1e616f",
+        "timestamp" : "2024-04-17T10:25:24+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5925,10 +5925,10 @@
       "name" : "DiseaseSubtypeVS",
       "title" : "Disease Subtype Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8a935245-2863-4fd2-8b39-13b34a2b3356",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:d9231f8d-9d86-4caa-b4f1-9625326785cd",
+        "timestamp" : "2024-04-17T10:25:24+00:00",
         "total" : 94,
         "offset" : 0,
         "parameter" : [{
@@ -6433,10 +6433,10 @@
       "name" : "DiseasesVS",
       "title" : "Diseases Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7979610b-56c9-47de-9625-39bd16e15e9d",
-        "timestamp" : "2024-04-17T08:50:33+00:00",
+        "identifier" : "urn:uuid:48ece0c7-2fa5-4572-889e-6d3f5af31e65",
+        "timestamp" : "2024-04-17T10:25:24+00:00",
         "total" : 284,
         "offset" : 0,
         "parameter" : [{
@@ -7891,10 +7891,10 @@
       "name" : "DistrictsVS",
       "title" : "Districts Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b1c8927d-8e08-42da-8b45-51ae45b5d1a0",
-        "timestamp" : "2024-04-17T08:50:34+00:00",
+        "identifier" : "urn:uuid:e63aa26e-c4b2-4cd8-9f5f-b9a8a8ec8eec",
+        "timestamp" : "2024-04-17T10:25:24+00:00",
         "total" : 134,
         "offset" : 0,
         "parameter" : [{
@@ -8587,6 +8587,1429 @@
     }
   },
   {
+    "fullUrl" : "https://dhis2.org/fhir/ValueSet/empresi-countries-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-empresi-countries-cs.html\">codesystem Empresi Countries Code System v0.1.0 (CodeSystem)</a></p><p>This value set contains 277 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-125\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_125\">COUNTRIES_EMPRESI_125</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Abyei</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-208\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_208\">COUNTRIES_EMPRESI_208</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Afghanistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-76\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_76\">COUNTRIES_EMPRESI_76</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Aksai Chin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-217\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_217\">COUNTRIES_EMPRESI_217</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Albania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-122\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_122\">COUNTRIES_EMPRESI_122</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Algeria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-163\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_163\">COUNTRIES_EMPRESI_163</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>American Samoa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-218\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_218\">COUNTRIES_EMPRESI_218</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Andorra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-113\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_113\">COUNTRIES_EMPRESI_113</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Angola</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_14\">COUNTRIES_EMPRESI_14</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Anguilla</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_5\">COUNTRIES_EMPRESI_5</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Antarctica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-15\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_15\">COUNTRIES_EMPRESI_15</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Antigua and Barbuda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-173\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_173\">COUNTRIES_EMPRESI_173</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Argentina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-251\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_251\">COUNTRIES_EMPRESI_251</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Armenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-16\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_16\">COUNTRIES_EMPRESI_16</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Aruba</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-77\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_77\">COUNTRIES_EMPRESI_77</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Arunachal Pradesh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_10\">COUNTRIES_EMPRESI_10</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Ashmore and Cartier Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_11\">COUNTRIES_EMPRESI_11</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Australia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-270\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_270\">COUNTRIES_EMPRESI_270</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Austria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-252\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_252\">COUNTRIES_EMPRESI_252</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Azerbaijan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-233\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_233\">COUNTRIES_EMPRESI_233</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Azores Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-17\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_17\">COUNTRIES_EMPRESI_17</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bahamas</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-253\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_253\">COUNTRIES_EMPRESI_253</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bahrain</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-134\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_134\">COUNTRIES_EMPRESI_134</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Baker Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-209\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_209\">COUNTRIES_EMPRESI_209</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bangladesh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-18\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_18\">COUNTRIES_EMPRESI_18</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Barbados</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-53\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_53\">COUNTRIES_EMPRESI_53</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bassas da India</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-90\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_90\">COUNTRIES_EMPRESI_90</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Belarus</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-271\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_271\">COUNTRIES_EMPRESI_271</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Belgium</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-39\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_39\">COUNTRIES_EMPRESI_39</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Belize</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-234\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_234\">COUNTRIES_EMPRESI_234</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Benin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-135\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_135\">COUNTRIES_EMPRESI_135</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bermuda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-210\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_210\">COUNTRIES_EMPRESI_210</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bhutan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-19\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_19\">COUNTRIES_EMPRESI_19</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bird Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-174\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_174\">COUNTRIES_EMPRESI_174</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bolivia (Plurinational State of)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-219\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_219\">COUNTRIES_EMPRESI_219</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bosnia and Herzegovina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-203\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_203\">COUNTRIES_EMPRESI_203</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Botswana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_6\">COUNTRIES_EMPRESI_6</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bouvet Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-175\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_175\">COUNTRIES_EMPRESI_175</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Brazil</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-54\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_54\">COUNTRIES_EMPRESI_54</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>British Indian Ocean Territory</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-20\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_20\">COUNTRIES_EMPRESI_20</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>British Virgin Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-187\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_187\">COUNTRIES_EMPRESI_187</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Brunei Darussalam</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-91\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_91\">COUNTRIES_EMPRESI_91</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Bulgaria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-235\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_235\">COUNTRIES_EMPRESI_235</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Burkina Faso</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-55\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_55\">COUNTRIES_EMPRESI_55</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Burundi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-237\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_237\">COUNTRIES_EMPRESI_237</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>CÃ´te d'Ivoire</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-236\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_236\">COUNTRIES_EMPRESI_236</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Cabo Verde</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-188\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_188\">COUNTRIES_EMPRESI_188</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Cambodia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-114\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_114\">COUNTRIES_EMPRESI_114</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Cameroon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-136\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_136\">COUNTRIES_EMPRESI_136</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Canada</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-21\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_21\">COUNTRIES_EMPRESI_21</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Cayman Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-115\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_115\">COUNTRIES_EMPRESI_115</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Central African Republic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-116\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_116\">COUNTRIES_EMPRESI_116</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Chad</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-176\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_176\">COUNTRIES_EMPRESI_176</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Chile</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-293\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_293\">COUNTRIES_EMPRESI_293</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>China</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-86\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_86\">COUNTRIES_EMPRESI_86</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>China, Hong Kong SAR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-89\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_89\">COUNTRIES_EMPRESI_89</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>China, Taiwan Province of</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-78\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_78\">COUNTRIES_EMPRESI_78</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>China/India</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-189\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_189\">COUNTRIES_EMPRESI_189</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Christmas Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-40\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_40\">COUNTRIES_EMPRESI_40</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Clipperton Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-190\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_190\">COUNTRIES_EMPRESI_190</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Cocos (Keeling) Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-177\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_177\">COUNTRIES_EMPRESI_177</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Colombia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-56\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_56\">COUNTRIES_EMPRESI_56</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Comoros</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-117\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_117\">COUNTRIES_EMPRESI_117</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Congo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-164\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_164\">COUNTRIES_EMPRESI_164</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Cook Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-41\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_41\">COUNTRIES_EMPRESI_41</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Costa Rica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-220\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_220\">COUNTRIES_EMPRESI_220</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Croatia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-22\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_22\">COUNTRIES_EMPRESI_22</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Cuba</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-254\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_254\">COUNTRIES_EMPRESI_254</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Cyprus</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-92\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_92\">COUNTRIES_EMPRESI_92</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Czechia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-79\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_79\">COUNTRIES_EMPRESI_79</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Democratic People's Republic of Korea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-118\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_118\">COUNTRIES_EMPRESI_118</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Democratic Republic of the Congo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-147\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_147\">COUNTRIES_EMPRESI_147</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Denmark</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-57\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_57\">COUNTRIES_EMPRESI_57</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Djibouti</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-23\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_23\">COUNTRIES_EMPRESI_23</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Dominica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-24\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_24\">COUNTRIES_EMPRESI_24</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Dominican Republic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-178\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_178\">COUNTRIES_EMPRESI_178</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Ecuador</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-132\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_132\">COUNTRIES_EMPRESI_132</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Egypt</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-42\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_42\">COUNTRIES_EMPRESI_42</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>El Salvador</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-119\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_119\">COUNTRIES_EMPRESI_119</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Equatorial Guinea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-58\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_58\">COUNTRIES_EMPRESI_58</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Eritrea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-148\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_148\">COUNTRIES_EMPRESI_148</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Estonia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-207\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_207\">COUNTRIES_EMPRESI_207</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Eswatini</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-59\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_59\">COUNTRIES_EMPRESI_59</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Ethiopia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-60\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_60\">COUNTRIES_EMPRESI_60</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Europa Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-179\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_179\">COUNTRIES_EMPRESI_179</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Falkland Islands (Malvinas)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-149\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_149\">COUNTRIES_EMPRESI_149</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Faroe Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-100\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_100\">COUNTRIES_EMPRESI_100</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Fiji</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-150\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_150\">COUNTRIES_EMPRESI_150</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Finland</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-272\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_272\">COUNTRIES_EMPRESI_272</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>France</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-180\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_180\">COUNTRIES_EMPRESI_180</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>French Guiana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-165\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_165\">COUNTRIES_EMPRESI_165</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>French Polynesia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_7\">COUNTRIES_EMPRESI_7</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>French Southern and Antarctic Territories</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-120\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_120\">COUNTRIES_EMPRESI_120</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Gabon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-238\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_238\">COUNTRIES_EMPRESI_238</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Gambia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-255\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_255\">COUNTRIES_EMPRESI_255</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Gaza Strip</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-256\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_256\">COUNTRIES_EMPRESI_256</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Georgia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-273\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_273\">COUNTRIES_EMPRESI_273</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Germany</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-239\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_239\">COUNTRIES_EMPRESI_239</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Ghana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-221\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_221\">COUNTRIES_EMPRESI_221</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Gibraltar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-61\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_61\">COUNTRIES_EMPRESI_61</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Glorioso Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-222\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_222\">COUNTRIES_EMPRESI_222</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Greece</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-137\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_137\">COUNTRIES_EMPRESI_137</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Greenland</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-25\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_25\">COUNTRIES_EMPRESI_25</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Grenada</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-26\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_26\">COUNTRIES_EMPRESI_26</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Guadeloupe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-105\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_105\">COUNTRIES_EMPRESI_105</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Guam</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-43\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_43\">COUNTRIES_EMPRESI_43</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Guatemala</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-151\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_151\">COUNTRIES_EMPRESI_151</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Guernsey</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-241\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_241\">COUNTRIES_EMPRESI_241</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Guinea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-240\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_240\">COUNTRIES_EMPRESI_240</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Guinea-Bissau</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-181\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_181\">COUNTRIES_EMPRESI_181</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Guyana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-27\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_27\">COUNTRIES_EMPRESI_27</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Haiti</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-130\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_130\">COUNTRIES_EMPRESI_130</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Hala'ib triangle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_8\">COUNTRIES_EMPRESI_8</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Heard and McDonald Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-223\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_223\">COUNTRIES_EMPRESI_223</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Holy See</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-44\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_44\">COUNTRIES_EMPRESI_44</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Honduras</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-138\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_138\">COUNTRIES_EMPRESI_138</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Howland Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-93\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_93\">COUNTRIES_EMPRESI_93</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Hungary</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-152\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_152\">COUNTRIES_EMPRESI_152</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Iceland</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-133\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_133\">COUNTRIES_EMPRESI_133</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Ilemi triangle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-211\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_211\">COUNTRIES_EMPRESI_211</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>India</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-191\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_191\">COUNTRIES_EMPRESI_191</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Indonesia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-212\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_212\">COUNTRIES_EMPRESI_212</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Iran (Islamic Republic of)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-257\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_257\">COUNTRIES_EMPRESI_257</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Iraq</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-153\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_153\">COUNTRIES_EMPRESI_153</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Ireland</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-154\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_154\">COUNTRIES_EMPRESI_154</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Isle of Man</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-258\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_258\">COUNTRIES_EMPRESI_258</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Israel</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_2\">COUNTRIES_EMPRESI_2</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Italy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-28\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_28\">COUNTRIES_EMPRESI_28</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Jamaica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-87\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_87\">COUNTRIES_EMPRESI_87</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Jammu and Kashmir</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-80\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_80\">COUNTRIES_EMPRESI_80</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Japan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-139\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_139\">COUNTRIES_EMPRESI_139</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Jarvis Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-155\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_155\">COUNTRIES_EMPRESI_155</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Jersey</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-140\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_140\">COUNTRIES_EMPRESI_140</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Johnston Atoll</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-259\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_259\">COUNTRIES_EMPRESI_259</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Jordan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-62\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_62\">COUNTRIES_EMPRESI_62</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Juan de Nova Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-48\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_48\">COUNTRIES_EMPRESI_48</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Kazakhstan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_1\">COUNTRIES_EMPRESI_1</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Kenya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-141\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_141\">COUNTRIES_EMPRESI_141</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Kingman Reef</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-106\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_106\">COUNTRIES_EMPRESI_106</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Kiribati</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-81\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_81\">COUNTRIES_EMPRESI_81</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Kuril islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-260\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_260\">COUNTRIES_EMPRESI_260</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Kuwait</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-49\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_49\">COUNTRIES_EMPRESI_49</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Kyrgyzstan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-192\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_192\">COUNTRIES_EMPRESI_192</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Lao People's Democratic Republic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-156\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_156\">COUNTRIES_EMPRESI_156</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Latvia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-261\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_261\">COUNTRIES_EMPRESI_261</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Lebanon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-204\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_204\">COUNTRIES_EMPRESI_204</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Lesotho</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-242\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_242\">COUNTRIES_EMPRESI_242</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Liberia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-126\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_126\">COUNTRIES_EMPRESI_126</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Libya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-274\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_274\">COUNTRIES_EMPRESI_274</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Liechtenstein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-157\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_157\">COUNTRIES_EMPRESI_157</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Lithuania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-275\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_275\">COUNTRIES_EMPRESI_275</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Luxembourg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-131\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_131\">COUNTRIES_EMPRESI_131</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Ma'tan al-Sarra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-82\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_82\">COUNTRIES_EMPRESI_82</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Macau</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-63\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_63\">COUNTRIES_EMPRESI_63</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Madagascar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-224\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_224\">COUNTRIES_EMPRESI_224</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Madeira Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-64\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_64\">COUNTRIES_EMPRESI_64</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Malawi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-193\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_193\">COUNTRIES_EMPRESI_193</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Malaysia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-213\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_213\">COUNTRIES_EMPRESI_213</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Maldives</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-243\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_243\">COUNTRIES_EMPRESI_243</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Mali</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-225\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_225\">COUNTRIES_EMPRESI_225</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Malta</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-107\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_107\">COUNTRIES_EMPRESI_107</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Marshall Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-29\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_29\">COUNTRIES_EMPRESI_29</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Martinique</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-244\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_244\">COUNTRIES_EMPRESI_244</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Mauritania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-65\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_65\">COUNTRIES_EMPRESI_65</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Mauritius</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-66\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_66\">COUNTRIES_EMPRESI_66</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Mayotte</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-45\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_45\">COUNTRIES_EMPRESI_45</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Mexico</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-108\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_108\">COUNTRIES_EMPRESI_108</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Micronesia (Federated States of)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-142\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_142\">COUNTRIES_EMPRESI_142</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Midway Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-276\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_276\">COUNTRIES_EMPRESI_276</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Monaco</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-83\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_83\">COUNTRIES_EMPRESI_83</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Mongolia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-231\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_231\">COUNTRIES_EMPRESI_231</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Montenegro</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-30\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_30\">COUNTRIES_EMPRESI_30</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Montserrat</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-127\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_127\">COUNTRIES_EMPRESI_127</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Morocco</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-67\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_67\">COUNTRIES_EMPRESI_67</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Mozambique</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-194\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_194\">COUNTRIES_EMPRESI_194</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Myanmar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-205\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_205\">COUNTRIES_EMPRESI_205</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Namibia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-109\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_109\">COUNTRIES_EMPRESI_109</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Nauru</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-143\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_143\">COUNTRIES_EMPRESI_143</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Navassa Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-214\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_214\">COUNTRIES_EMPRESI_214</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Nepal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-277\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_277\">COUNTRIES_EMPRESI_277</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Netherlands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-31\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_31\">COUNTRIES_EMPRESI_31</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Netherlands Antilles</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-101\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_101\">COUNTRIES_EMPRESI_101</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>New Caledonia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_12\">COUNTRIES_EMPRESI_12</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>New Zealand</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-46\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_46\">COUNTRIES_EMPRESI_46</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Nicaragua</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-245\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_245\">COUNTRIES_EMPRESI_245</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Niger</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-246\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_246\">COUNTRIES_EMPRESI_246</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Nigeria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-166\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_166\">COUNTRIES_EMPRESI_166</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Niue</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_13\">COUNTRIES_EMPRESI_13</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Norfolk Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-230\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_230\">COUNTRIES_EMPRESI_230</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>North Macedonia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-110\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_110\">COUNTRIES_EMPRESI_110</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Northern Mariana Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-158\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_158\">COUNTRIES_EMPRESI_158</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Norway</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-162\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_162\">COUNTRIES_EMPRESI_162</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Not Available</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-262\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_262\">COUNTRIES_EMPRESI_262</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Oman</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-215\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_215\">COUNTRIES_EMPRESI_215</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Pakistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-111\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_111\">COUNTRIES_EMPRESI_111</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Palau</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-268\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_268\">COUNTRIES_EMPRESI_268</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Palestine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-144\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_144\">COUNTRIES_EMPRESI_144</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Palmyra Atoll</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-47\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_47\">COUNTRIES_EMPRESI_47</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Panama</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-102\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_102\">COUNTRIES_EMPRESI_102</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Papua New Guinea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-195\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_195\">COUNTRIES_EMPRESI_195</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Paracel Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-182\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_182\">COUNTRIES_EMPRESI_182</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Paraguay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-183\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_183\">COUNTRIES_EMPRESI_183</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Peru</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-196\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_196\">COUNTRIES_EMPRESI_196</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Philippines</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-167\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_167\">COUNTRIES_EMPRESI_167</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Pitcairn Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-95\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_95\">COUNTRIES_EMPRESI_95</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Poland</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-226\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_226\">COUNTRIES_EMPRESI_226</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Portugal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-32\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_32\">COUNTRIES_EMPRESI_32</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Puerto Rico</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-263\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_263\">COUNTRIES_EMPRESI_263</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Qatar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-69\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_69\">COUNTRIES_EMPRESI_69</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Reunion</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-84\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_84\">COUNTRIES_EMPRESI_84</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Republic of Korea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-94\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_94\">COUNTRIES_EMPRESI_94</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Republic of Moldova</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-96\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_96\">COUNTRIES_EMPRESI_96</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Romania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-97\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_97\">COUNTRIES_EMPRESI_97</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Russian Federation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-68\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_68\">COUNTRIES_EMPRESI_68</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Rwanda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-247\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_247\">COUNTRIES_EMPRESI_247</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Saint Helena, Ascension and Tristan da Cunha</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-33\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_33\">COUNTRIES_EMPRESI_33</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Saint Kitts and Nevis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-34\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_34\">COUNTRIES_EMPRESI_34</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Saint Lucia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-145\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_145\">COUNTRIES_EMPRESI_145</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Saint Pierre and Miquelon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-35\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_35\">COUNTRIES_EMPRESI_35</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Saint Vincent and the Grenadines</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-168\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_168\">COUNTRIES_EMPRESI_168</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Samoa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-227\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_227\">COUNTRIES_EMPRESI_227</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>San Marino</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-121\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_121\">COUNTRIES_EMPRESI_121</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Sao Tome and Principe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-264\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_264\">COUNTRIES_EMPRESI_264</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Saudi Arabia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-197\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_197\">COUNTRIES_EMPRESI_197</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Scarborough Reef</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-248\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_248\">COUNTRIES_EMPRESI_248</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Senegal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-85\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_85\">COUNTRIES_EMPRESI_85</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Senkaku Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-232\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_232\">COUNTRIES_EMPRESI_232</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Serbia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-70\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_70\">COUNTRIES_EMPRESI_70</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Seychelles</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-249\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_249\">COUNTRIES_EMPRESI_249</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Sierra Leone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-198\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_198\">COUNTRIES_EMPRESI_198</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Singapore</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-98\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_98\">COUNTRIES_EMPRESI_98</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Slovakia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-228\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_228\">COUNTRIES_EMPRESI_228</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Slovenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-103\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_103\">COUNTRIES_EMPRESI_103</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Solomon Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-71\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_71\">COUNTRIES_EMPRESI_71</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Somalia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-206\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_206\">COUNTRIES_EMPRESI_206</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>South Africa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_9\">COUNTRIES_EMPRESI_9</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>South Georgia and the South Sandwich Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-124\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_124\">COUNTRIES_EMPRESI_124</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>South Sudan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-229\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_229\">COUNTRIES_EMPRESI_229</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Spain</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-199\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_199\">COUNTRIES_EMPRESI_199</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Spratly Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-216\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_216\">COUNTRIES_EMPRESI_216</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Sri Lanka</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-123\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_123\">COUNTRIES_EMPRESI_123</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Sudan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-184\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_184\">COUNTRIES_EMPRESI_184</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Suriname</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-159\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_159\">COUNTRIES_EMPRESI_159</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Svalbard and Jan Mayen Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-160\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_160\">COUNTRIES_EMPRESI_160</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Sweden</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-278\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_278\">COUNTRIES_EMPRESI_278</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Switzerland</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-265\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_265\">COUNTRIES_EMPRESI_265</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Syrian Arab Republic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-266\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_266\">COUNTRIES_EMPRESI_266</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Turkye</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-50\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_50\">COUNTRIES_EMPRESI_50</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Tajikistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-200\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_200\">COUNTRIES_EMPRESI_200</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Thailand</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-201\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_201\">COUNTRIES_EMPRESI_201</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Timor-Leste</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-250\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_250\">COUNTRIES_EMPRESI_250</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Togo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-169\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_169\">COUNTRIES_EMPRESI_169</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Tokelau</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-170\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_170\">COUNTRIES_EMPRESI_170</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Tonga</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-36\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_36\">COUNTRIES_EMPRESI_36</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Trinidad and Tobago</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-72\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_72\">COUNTRIES_EMPRESI_72</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Tromelin Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-128\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_128\">COUNTRIES_EMPRESI_128</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Tunisia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-51\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_51\">COUNTRIES_EMPRESI_51</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Turkmenistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-37\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_37\">COUNTRIES_EMPRESI_37</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Turks and Caicos islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-171\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_171\">COUNTRIES_EMPRESI_171</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Tuvalu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_3\">COUNTRIES_EMPRESI_3</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Uganda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-99\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_99\">COUNTRIES_EMPRESI_99</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Ukraine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-267\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_267\">COUNTRIES_EMPRESI_267</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>United Arab Emirates</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-161\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_161\">COUNTRIES_EMPRESI_161</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>United Kingdom</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-73\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_73\">COUNTRIES_EMPRESI_73</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>United Republic of Tanzania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-146\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_146\">COUNTRIES_EMPRESI_146</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>United States of America</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-38\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_38\">COUNTRIES_EMPRESI_38</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>United States Virgin Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-185\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_185\">COUNTRIES_EMPRESI_185</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Uruguay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-52\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_52\">COUNTRIES_EMPRESI_52</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Uzbekistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-104\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_104\">COUNTRIES_EMPRESI_104</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Vanuatu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-186\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_186\">COUNTRIES_EMPRESI_186</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Venezuela (Bolivarian Republic of)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-202\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_202\">COUNTRIES_EMPRESI_202</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Viet Nam</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-112\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_112\">COUNTRIES_EMPRESI_112</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Wake Island</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-172\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_172\">COUNTRIES_EMPRESI_172</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Wallis and Futuna Islands</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-129\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_129\">COUNTRIES_EMPRESI_129</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Western Sahara</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-269\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_269\">COUNTRIES_EMPRESI_269</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Yemen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-74\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_74\">COUNTRIES_EMPRESI_74</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Zambia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---dhis2.org-fhir-CodeSystem-empresi-countries-cs-COUNTRIES-EMPRESI-75\"> </a>\u00a0\u00a0<a href=\"CodeSystem-empresi-countries-cs.html#empresi-countries-cs-COUNTRIES_EMPRESI_75\">COUNTRIES_EMPRESI_75</a></td><td>https://dhis2.org/fhir/CodeSystem/empresi-countries-cs</td><td>Zimbabwe</td></tr></table></div>"
+      },
+      "url" : "https://dhis2.org/fhir/ValueSet/empresi-countries-vs",
+      "version" : "0.1.0",
+      "name" : "EmpresiCountriesVS",
+      "title" : "Empresi Countries Value Set",
+      "status" : "draft",
+      "date" : "2024-04-17T10:25:03+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:5c4fd238-26f7-4c6d-add3-7c550b8979b8",
+        "timestamp" : "2024-04-17T10:25:25+00:00",
+        "total" : 277,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_125",
+          "display" : "Abyei"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_208",
+          "display" : "Afghanistan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_76",
+          "display" : "Aksai Chin"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_217",
+          "display" : "Albania"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_122",
+          "display" : "Algeria"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_163",
+          "display" : "American Samoa"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_218",
+          "display" : "Andorra"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_113",
+          "display" : "Angola"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_14",
+          "display" : "Anguilla"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_5",
+          "display" : "Antarctica"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_15",
+          "display" : "Antigua and Barbuda"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_173",
+          "display" : "Argentina"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_251",
+          "display" : "Armenia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_16",
+          "display" : "Aruba"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_77",
+          "display" : "Arunachal Pradesh"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_10",
+          "display" : "Ashmore and Cartier Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_11",
+          "display" : "Australia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_270",
+          "display" : "Austria"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_252",
+          "display" : "Azerbaijan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_233",
+          "display" : "Azores Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_17",
+          "display" : "Bahamas"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_253",
+          "display" : "Bahrain"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_134",
+          "display" : "Baker Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_209",
+          "display" : "Bangladesh"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_18",
+          "display" : "Barbados"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_53",
+          "display" : "Bassas da India"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_90",
+          "display" : "Belarus"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_271",
+          "display" : "Belgium"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_39",
+          "display" : "Belize"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_234",
+          "display" : "Benin"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_135",
+          "display" : "Bermuda"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_210",
+          "display" : "Bhutan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_19",
+          "display" : "Bird Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_174",
+          "display" : "Bolivia (Plurinational State of)"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_219",
+          "display" : "Bosnia and Herzegovina"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_203",
+          "display" : "Botswana"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_6",
+          "display" : "Bouvet Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_175",
+          "display" : "Brazil"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_54",
+          "display" : "British Indian Ocean Territory"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_20",
+          "display" : "British Virgin Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_187",
+          "display" : "Brunei Darussalam"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_91",
+          "display" : "Bulgaria"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_235",
+          "display" : "Burkina Faso"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_55",
+          "display" : "Burundi"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_237",
+          "display" : "CÃ´te d'Ivoire"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_236",
+          "display" : "Cabo Verde"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_188",
+          "display" : "Cambodia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_114",
+          "display" : "Cameroon"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_136",
+          "display" : "Canada"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_21",
+          "display" : "Cayman Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_115",
+          "display" : "Central African Republic"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_116",
+          "display" : "Chad"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_176",
+          "display" : "Chile"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_293",
+          "display" : "China"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_86",
+          "display" : "China, Hong Kong SAR"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_89",
+          "display" : "China, Taiwan Province of"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_78",
+          "display" : "China/India"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_189",
+          "display" : "Christmas Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_40",
+          "display" : "Clipperton Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_190",
+          "display" : "Cocos (Keeling) Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_177",
+          "display" : "Colombia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_56",
+          "display" : "Comoros"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_117",
+          "display" : "Congo"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_164",
+          "display" : "Cook Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_41",
+          "display" : "Costa Rica"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_220",
+          "display" : "Croatia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_22",
+          "display" : "Cuba"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_254",
+          "display" : "Cyprus"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_92",
+          "display" : "Czechia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_79",
+          "display" : "Democratic People's Republic of Korea"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_118",
+          "display" : "Democratic Republic of the Congo"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_147",
+          "display" : "Denmark"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_57",
+          "display" : "Djibouti"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_23",
+          "display" : "Dominica"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_24",
+          "display" : "Dominican Republic"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_178",
+          "display" : "Ecuador"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_132",
+          "display" : "Egypt"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_42",
+          "display" : "El Salvador"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_119",
+          "display" : "Equatorial Guinea"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_58",
+          "display" : "Eritrea"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_148",
+          "display" : "Estonia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_207",
+          "display" : "Eswatini"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_59",
+          "display" : "Ethiopia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_60",
+          "display" : "Europa Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_179",
+          "display" : "Falkland Islands (Malvinas)"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_149",
+          "display" : "Faroe Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_100",
+          "display" : "Fiji"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_150",
+          "display" : "Finland"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_272",
+          "display" : "France"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_180",
+          "display" : "French Guiana"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_165",
+          "display" : "French Polynesia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_7",
+          "display" : "French Southern and Antarctic Territories"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_120",
+          "display" : "Gabon"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_238",
+          "display" : "Gambia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_255",
+          "display" : "Gaza Strip"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_256",
+          "display" : "Georgia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_273",
+          "display" : "Germany"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_239",
+          "display" : "Ghana"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_221",
+          "display" : "Gibraltar"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_61",
+          "display" : "Glorioso Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_222",
+          "display" : "Greece"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_137",
+          "display" : "Greenland"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_25",
+          "display" : "Grenada"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_26",
+          "display" : "Guadeloupe"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_105",
+          "display" : "Guam"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_43",
+          "display" : "Guatemala"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_151",
+          "display" : "Guernsey"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_241",
+          "display" : "Guinea"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_240",
+          "display" : "Guinea-Bissau"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_181",
+          "display" : "Guyana"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_27",
+          "display" : "Haiti"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_130",
+          "display" : "Hala'ib triangle"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_8",
+          "display" : "Heard and McDonald Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_223",
+          "display" : "Holy See"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_44",
+          "display" : "Honduras"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_138",
+          "display" : "Howland Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_93",
+          "display" : "Hungary"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_152",
+          "display" : "Iceland"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_133",
+          "display" : "Ilemi triangle"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_211",
+          "display" : "India"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_191",
+          "display" : "Indonesia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_212",
+          "display" : "Iran (Islamic Republic of)"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_257",
+          "display" : "Iraq"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_153",
+          "display" : "Ireland"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_154",
+          "display" : "Isle of Man"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_258",
+          "display" : "Israel"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_2",
+          "display" : "Italy"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_28",
+          "display" : "Jamaica"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_87",
+          "display" : "Jammu and Kashmir"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_80",
+          "display" : "Japan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_139",
+          "display" : "Jarvis Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_155",
+          "display" : "Jersey"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_140",
+          "display" : "Johnston Atoll"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_259",
+          "display" : "Jordan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_62",
+          "display" : "Juan de Nova Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_48",
+          "display" : "Kazakhstan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_1",
+          "display" : "Kenya"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_141",
+          "display" : "Kingman Reef"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_106",
+          "display" : "Kiribati"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_81",
+          "display" : "Kuril islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_260",
+          "display" : "Kuwait"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_49",
+          "display" : "Kyrgyzstan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_192",
+          "display" : "Lao People's Democratic Republic"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_156",
+          "display" : "Latvia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_261",
+          "display" : "Lebanon"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_204",
+          "display" : "Lesotho"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_242",
+          "display" : "Liberia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_126",
+          "display" : "Libya"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_274",
+          "display" : "Liechtenstein"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_157",
+          "display" : "Lithuania"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_275",
+          "display" : "Luxembourg"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_131",
+          "display" : "Ma'tan al-Sarra"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_82",
+          "display" : "Macau"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_63",
+          "display" : "Madagascar"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_224",
+          "display" : "Madeira Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_64",
+          "display" : "Malawi"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_193",
+          "display" : "Malaysia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_213",
+          "display" : "Maldives"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_243",
+          "display" : "Mali"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_225",
+          "display" : "Malta"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_107",
+          "display" : "Marshall Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_29",
+          "display" : "Martinique"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_244",
+          "display" : "Mauritania"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_65",
+          "display" : "Mauritius"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_66",
+          "display" : "Mayotte"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_45",
+          "display" : "Mexico"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_108",
+          "display" : "Micronesia (Federated States of)"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_142",
+          "display" : "Midway Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_276",
+          "display" : "Monaco"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_83",
+          "display" : "Mongolia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_231",
+          "display" : "Montenegro"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_30",
+          "display" : "Montserrat"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_127",
+          "display" : "Morocco"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_67",
+          "display" : "Mozambique"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_194",
+          "display" : "Myanmar"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_205",
+          "display" : "Namibia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_109",
+          "display" : "Nauru"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_143",
+          "display" : "Navassa Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_214",
+          "display" : "Nepal"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_277",
+          "display" : "Netherlands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_31",
+          "display" : "Netherlands Antilles"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_101",
+          "display" : "New Caledonia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_12",
+          "display" : "New Zealand"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_46",
+          "display" : "Nicaragua"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_245",
+          "display" : "Niger"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_246",
+          "display" : "Nigeria"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_166",
+          "display" : "Niue"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_13",
+          "display" : "Norfolk Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_230",
+          "display" : "North Macedonia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_110",
+          "display" : "Northern Mariana Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_158",
+          "display" : "Norway"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_162",
+          "display" : "Not Available"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_262",
+          "display" : "Oman"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_215",
+          "display" : "Pakistan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_111",
+          "display" : "Palau"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_268",
+          "display" : "Palestine"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_144",
+          "display" : "Palmyra Atoll"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_47",
+          "display" : "Panama"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_102",
+          "display" : "Papua New Guinea"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_195",
+          "display" : "Paracel Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_182",
+          "display" : "Paraguay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_183",
+          "display" : "Peru"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_196",
+          "display" : "Philippines"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_167",
+          "display" : "Pitcairn Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_95",
+          "display" : "Poland"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_226",
+          "display" : "Portugal"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_32",
+          "display" : "Puerto Rico"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_263",
+          "display" : "Qatar"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_69",
+          "display" : "Reunion"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_84",
+          "display" : "Republic of Korea"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_94",
+          "display" : "Republic of Moldova"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_96",
+          "display" : "Romania"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_97",
+          "display" : "Russian Federation"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_68",
+          "display" : "Rwanda"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_247",
+          "display" : "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_33",
+          "display" : "Saint Kitts and Nevis"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_34",
+          "display" : "Saint Lucia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_145",
+          "display" : "Saint Pierre and Miquelon"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_35",
+          "display" : "Saint Vincent and the Grenadines"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_168",
+          "display" : "Samoa"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_227",
+          "display" : "San Marino"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_121",
+          "display" : "Sao Tome and Principe"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_264",
+          "display" : "Saudi Arabia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_197",
+          "display" : "Scarborough Reef"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_248",
+          "display" : "Senegal"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_85",
+          "display" : "Senkaku Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_232",
+          "display" : "Serbia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_70",
+          "display" : "Seychelles"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_249",
+          "display" : "Sierra Leone"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_198",
+          "display" : "Singapore"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_98",
+          "display" : "Slovakia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_228",
+          "display" : "Slovenia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_103",
+          "display" : "Solomon Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_71",
+          "display" : "Somalia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_206",
+          "display" : "South Africa"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_9",
+          "display" : "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_124",
+          "display" : "South Sudan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_229",
+          "display" : "Spain"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_199",
+          "display" : "Spratly Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_216",
+          "display" : "Sri Lanka"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_123",
+          "display" : "Sudan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_184",
+          "display" : "Suriname"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_159",
+          "display" : "Svalbard and Jan Mayen Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_160",
+          "display" : "Sweden"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_278",
+          "display" : "Switzerland"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_265",
+          "display" : "Syrian Arab Republic"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_266",
+          "display" : "Turkye"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_50",
+          "display" : "Tajikistan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_200",
+          "display" : "Thailand"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_201",
+          "display" : "Timor-Leste"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_250",
+          "display" : "Togo"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_169",
+          "display" : "Tokelau"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_170",
+          "display" : "Tonga"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_36",
+          "display" : "Trinidad and Tobago"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_72",
+          "display" : "Tromelin Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_128",
+          "display" : "Tunisia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_51",
+          "display" : "Turkmenistan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_37",
+          "display" : "Turks and Caicos islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_171",
+          "display" : "Tuvalu"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_3",
+          "display" : "Uganda"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_99",
+          "display" : "Ukraine"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_267",
+          "display" : "United Arab Emirates"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_161",
+          "display" : "United Kingdom"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_73",
+          "display" : "United Republic of Tanzania"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_146",
+          "display" : "United States of America"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_38",
+          "display" : "United States Virgin Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_185",
+          "display" : "Uruguay"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_52",
+          "display" : "Uzbekistan"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_104",
+          "display" : "Vanuatu"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_186",
+          "display" : "Venezuela (Bolivarian Republic of)"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_202",
+          "display" : "Viet Nam"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_112",
+          "display" : "Wake Island"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_172",
+          "display" : "Wallis and Futuna Islands"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_129",
+          "display" : "Western Sahara"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_269",
+          "display" : "Yemen"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_74",
+          "display" : "Zambia"
+        },
+        {
+          "system" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+          "code" : "COUNTRIES_EMPRESI_75",
+          "display" : "Zimbabwe"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://dhis2.org/fhir/ValueSet/infection-source-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -8599,10 +10022,10 @@
       "name" : "InfectionSourceVS",
       "title" : "Infection Source Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f586aad1-2603-4c29-9276-7e43b8048c8f",
-        "timestamp" : "2024-04-17T08:50:34+00:00",
+        "identifier" : "urn:uuid:79a5d7e1-5c6b-4c01-802b-e33892abd026",
+        "timestamp" : "2024-04-17T10:25:25+00:00",
         "total" : 105,
         "offset" : 0,
         "parameter" : [{
@@ -9162,10 +10585,10 @@
       "name" : "LabDiseasesVS",
       "title" : "Lab Diseases Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1babd433-6f93-4c21-a704-5bc4835b082c",
-        "timestamp" : "2024-04-17T08:50:34+00:00",
+        "identifier" : "urn:uuid:f73faaf9-3d8a-482b-9e82-46f8238f1b42",
+        "timestamp" : "2024-04-17T10:25:25+00:00",
         "total" : 284,
         "offset" : 0,
         "parameter" : [{
@@ -10620,10 +12043,10 @@
       "name" : "LaboratoryVS",
       "title" : "Laboratory Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c780fe66-650c-4939-845b-314ad5021acb",
-        "timestamp" : "2024-04-17T08:50:34+00:00",
+        "identifier" : "urn:uuid:02869ae1-a494-4b4f-bd52-385ad89f2c7f",
+        "timestamp" : "2024-04-17T10:25:25+00:00",
         "total" : 685,
         "offset" : 0,
         "parameter" : [{
@@ -14083,10 +15506,10 @@
       "name" : "LocalityQualityVS",
       "title" : "Locality Quality Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bad7d48e-ef4d-4b87-beb7-2ed1d2d26d9d",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:6f470d76-c8e9-4e31-abf8-0e94ee55b24b",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -14151,10 +15574,10 @@
       "name" : "LocalitySourceVS",
       "title" : "Locality Source Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:81b8a2c3-30b9-498a-8a90-3333007a9589",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:dd3e4991-382d-4dd6-975b-bd6908e90093",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 21,
         "offset" : 0,
         "parameter" : [{
@@ -14294,10 +15717,10 @@
       "name" : "NecropsyLesionsVS",
       "title" : "Necropsy Lesions Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5b9b63af-9649-44d9-b253-9ee011917716",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:91ccacfb-afde-4b28-80b7-c94142984917",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 90,
         "offset" : 0,
         "parameter" : [{
@@ -14782,10 +16205,10 @@
       "name" : "ProductionSystemOneVS",
       "title" : "Production System One Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c0b37efe-a5be-427e-8c45-233b4724153e",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:9a515240-c460-4f52-8dd6-2c10cf936c69",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -14865,10 +16288,10 @@
       "name" : "ProductionSystemTwoVS",
       "title" : "Production System Two Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:277d88f6-789e-44cf-a991-9f1d72e6d356",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:4715b07c-0b0a-41c6-b448-f36e97be9456",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -14988,10 +16411,10 @@
       "name" : "RegionsVS",
       "title" : "Regions Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2c996c48-ac9c-43f8-9ab4-27bbb0bd9871",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:d0b9a8b2-869d-4997-9b86-a669b21c4cea",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -15111,10 +16534,10 @@
       "name" : "SampleTypeVS",
       "title" : "Sample Type Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9125e951-7c9d-48c2-b1e3-eb7b62b26631",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:4dde202d-9916-4d09-9c50-f83fa6530d00",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 71,
         "offset" : 0,
         "parameter" : [{
@@ -15504,10 +16927,10 @@
       "name" : "SurveillanceTypeVS",
       "title" : "Surveillance Type Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:25a78183-d040-4675-b03a-26ddeac8f3be",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:6e00a609-a1c7-4834-9284-41f466b7285b",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -15577,10 +17000,10 @@
       "name" : "TestResultVS",
       "title" : "Test Result Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:39afc141-4367-41c4-a6b7-37f0ac4b78ae",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:3f17841f-315a-4af8-aef9-af30d582e5d3",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -15640,10 +17063,10 @@
       "name" : "TestTypeVS",
       "title" : "Test Type Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ae71868c-9fb2-46c6-bad5-1073c26e7075",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:5cbd2502-9942-4af7-accd-b5b91b3e6e5b",
+        "timestamp" : "2024-04-17T10:25:26+00:00",
         "total" : 124,
         "offset" : 0,
         "parameter" : [{
@@ -16298,10 +17721,10 @@
       "name" : "TreatmentsVS",
       "title" : "Treatments Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a3fb433d-a1ae-4538-89e8-3d2fbc839573",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:70c780d4-237a-43c8-a7c0-5b65c83f22a3",
+        "timestamp" : "2024-04-17T10:25:27+00:00",
         "total" : 24,
         "offset" : 0,
         "parameter" : [{
@@ -16456,10 +17879,10 @@
       "name" : "YesNoUnknownVS",
       "title" : "Yes/No/Unknown Value Set",
       "status" : "draft",
-      "date" : "2024-04-17T08:50:12+00:00",
+      "date" : "2024-04-17T10:25:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f6d68881-720f-4f04-8f91-a8099032dcf3",
-        "timestamp" : "2024-04-17T08:50:35+00:00",
+        "identifier" : "urn:uuid:4f714c6d-30b3-4a83-bbca-e8d6ab98f4f9",
+        "timestamp" : "2024-04-17T10:25:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

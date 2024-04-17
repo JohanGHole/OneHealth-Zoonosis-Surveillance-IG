@@ -134,6 +134,17 @@
       "ValueSet-districts-vs.html" : "Districts Value Set"
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EmpresiCountriesCS",
+      "title" : "Empresi Countries Code System",
+      "description" : "Generated from CSV",
+      "uses" : {
+      },
+      "ValueSet-empresi-countries-vs.html" : "Empresi Countries Value Set"
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/infection-source-cs",
       "version" : "0.1.0",
       "status" : "draft",

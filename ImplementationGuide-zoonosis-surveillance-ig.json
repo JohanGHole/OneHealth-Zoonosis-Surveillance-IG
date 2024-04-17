@@ -10,7 +10,7 @@
   "name" : "OneHealthZoonosisSurveillanceIG",
   "title" : "OneHealth - Zoonosis Surveillance IG",
   "status" : "draft",
-  "date" : "2024-04-17T08:50:12+00:00",
+  "date" : "2024-04-17T10:25:03+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -900,6 +900,30 @@
       },
       "name" : "Districts Value Set",
       "description" : "Value set for districts.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/empresi-countries-cs"
+      },
+      "name" : "Empresi Countries Code System",
+      "description" : "Generated from CSV",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/empresi-countries-vs"
+      },
+      "name" : "Empresi Countries Value Set",
+      "description" : "Value set for Empresi countries.",
       "exampleBoolean" : false
     },
     {

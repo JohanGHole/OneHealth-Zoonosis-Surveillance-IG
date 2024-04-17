@@ -97,6 +97,14 @@
       "description" : "Code system for districts."
     },
     {
+      "url" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EmpresiCountriesCS",
+      "title" : "Empresi Countries Code System",
+      "description" : "Generated from CSV"
+    },
+    {
       "url" : "https://dhis2.org/fhir/CodeSystem/infection-source-cs",
       "version" : "0.1.0",
       "status" : "draft",

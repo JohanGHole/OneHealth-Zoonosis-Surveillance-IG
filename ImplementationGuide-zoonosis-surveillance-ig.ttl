@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-17T08:50:12+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-17T10:25:03+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -812,6 +812,30 @@
        ] ;
        fhir:name [ fhir:v "Districts Value Set" ] ;
        fhir:description [ fhir:v "Value set for districts." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/CodeSystem/empresi-countries-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/empresi-countries-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Empresi Countries Code System" ] ;
+       fhir:description [ fhir:v "Generated from CSV" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/fhir/ValueSet/empresi-countries-vs> ;
+         fhir:reference [ fhir:v "ValueSet/empresi-countries-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Empresi Countries Value Set" ] ;
+       fhir:description [ fhir:v "Value set for Empresi countries." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

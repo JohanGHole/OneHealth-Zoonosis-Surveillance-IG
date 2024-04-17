@@ -109,6 +109,15 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/districts-cs"]
     },
     {
+      "url" : "https://dhis2.org/fhir/ValueSet/empresi-countries-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EmpresiCountriesVS",
+      "title" : "Empresi Countries Value Set",
+      "description" : "Value set for Empresi countries.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/empresi-countries-cs"]
+    },
+    {
       "url" : "https://dhis2.org/fhir/ValueSet/infection-source-vs",
       "version" : "0.1.0",
       "status" : "draft",

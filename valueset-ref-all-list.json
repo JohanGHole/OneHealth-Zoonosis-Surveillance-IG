@@ -24,8 +24,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-class-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-species-vs",
@@ -37,9 +37,9 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-species-cs"],
       "uses" : {
       },
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
       "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "StructureDefinition-Laboratory.html" : "Logical Model - Laboratory"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/animal-type-vs",
@@ -51,8 +51,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/animal-type-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/clade-vs",
@@ -64,8 +64,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/clade-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/clinical-signs-vs",
@@ -77,8 +77,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/clinical-signs-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/control-measures-vs",
@@ -90,8 +90,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/control-measures-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs",
@@ -103,8 +103,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/diagnostic-source-vs",
@@ -116,8 +116,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/disease-status-vs",
@@ -129,8 +129,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/disease-subtype-vs",
@@ -142,8 +142,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/disease-subtype-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/diseases-vs",
@@ -155,8 +155,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/diseases-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/districts-vs",
@@ -171,6 +171,15 @@
       "StructureDefinition-ZoonosisSurveillance.html" : "Logical Model - Zoonosis Surveillance"
     },
     {
+      "url" : "https://dhis2.org/fhir/ValueSet/empresi-countries-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EmpresiCountriesVS",
+      "title" : "Empresi Countries Value Set",
+      "description" : "Value set for Empresi countries.",
+      "systems" : ["https://dhis2.org/fhir/CodeSystem/empresi-countries-cs"]
+    },
+    {
       "url" : "https://dhis2.org/fhir/ValueSet/infection-source-vs",
       "version" : "0.1.0",
       "status" : "draft",
@@ -180,8 +189,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/infection-source-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/lab-diseases-vs",
@@ -241,8 +250,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/production-system-one-vs",
@@ -254,8 +263,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/production-system-one-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/production-system-two-vs",
@@ -267,8 +276,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/production-system-two-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/regions-vs",
@@ -304,8 +313,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/surveillance-type-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/test-result-vs",
@@ -341,8 +350,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/treatments-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     },
     {
       "url" : "https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs",
@@ -354,8 +363,8 @@
       "systems" : ["https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs"],
       "uses" : {
       },
-      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance",
-      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire"
+      "Questionnaire-AnimalSurveillanceQuestionnaire.html" : "Animal Surveillance Questionnaire",
+      "StructureDefinition-AnimalSurveillance.html" : "Logical Model - Animal Surveillance"
     }
   ]
 }

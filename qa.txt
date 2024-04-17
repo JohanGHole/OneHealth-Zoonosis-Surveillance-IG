@@ -1,9 +1,9 @@
 OneHealthZoonosisSurveillanceIG : Validation Results
 =========================================
 
-err = 4, warn = 83, info = 27
+err = 4, warn = 86, info = 28
 IG Publisher Version: 1.6.5
-Generated Wed Apr 17 08:50:50 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
+Generated Wed Apr 17 10:25:42 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-animal-class-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-species-cs : 0 / 2 / 2
@@ -17,6 +17,7 @@ Generated Wed Apr 17 08:50:50 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/CodeSystem-disease-subtype-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-diseases-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-districts-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-empresi-countries-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-infection-source-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-laboratory-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-locality-quality-cs : 0 / 2 / 2
@@ -48,6 +49,7 @@ Generated Wed Apr 17 08:50:50 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/ValueSet-disease-subtype-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-diseases-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-districts-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-empresi-countries-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-infection-source-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-lab-diseases-vs : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-laboratory-vs : 0 / 1 / 1
@@ -117,6 +119,10 @@ WARNING: CodeSystem/diseases-cs: CodeSystem: Published code systems SHOULD confo
 INFORMATION: CodeSystem/districts-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/districts-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/districts-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-empresi-countries-cs.json ==
+INFORMATION: CodeSystem/empresi-countries-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/empresi-countries-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/empresi-countries-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-infection-source-cs.json ==
 INFORMATION: CodeSystem/infection-source-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/infection-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
@@ -207,6 +213,8 @@ WARNING: ValueSet/disease-subtype-vs: ValueSet: Published value sets SHOULD conf
 WARNING: ValueSet/diseases-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-districts-vs.json ==
 WARNING: ValueSet/districts-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-empresi-countries-vs.json ==
+WARNING: ValueSet/empresi-countries-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-infection-source-vs.json ==
 WARNING: ValueSet/infection-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-lab-diseases-vs.json ==

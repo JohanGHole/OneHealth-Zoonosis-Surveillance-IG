@@ -84,6 +84,13 @@
     "name" : "DistrictsCS"
   },
   {
+    "id" : "empresi-countries-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
+    "version" : "0.1.0",
+    "name" : "EmpresiCountriesCS"
+  },
+  {
     "id" : "infection-source-cs",
     "type" : "CodeSystem",
     "url" : "https://dhis2.org/fhir/CodeSystem/infection-source-cs",
@@ -299,6 +306,13 @@
     "url" : "https://dhis2.org/fhir/ValueSet/districts-vs",
     "version" : "0.1.0",
     "name" : "DistrictsVS"
+  },
+  {
+    "id" : "empresi-countries-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/fhir/ValueSet/empresi-countries-vs",
+    "version" : "0.1.0",
+    "name" : "EmpresiCountriesVS"
   },
   {
     "id" : "infection-source-vs",

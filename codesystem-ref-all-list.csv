@@ -11,6 +11,7 @@ https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs,0.1.0,draft,,DiagnosticSt
 https://dhis2.org/fhir/CodeSystem/disease-subtype-cs,0.1.0,draft,,DiseaseSubtypeCS,Disease Subtype Code System,"Code system for disease subtypes.","ValueSet/disease-subtype-vs"
 https://dhis2.org/fhir/CodeSystem/diseases-cs,0.1.0,draft,,DiseasesCS,Diseases Code System,"Code system for diseases.","ValueSet/diseases-vs,ValueSet/lab-diseases-vs"
 https://dhis2.org/fhir/CodeSystem/districts-cs,0.1.0,draft,,DistrictsCS,Districts Code System,"Code system for districts.","ValueSet/districts-vs"
+https://dhis2.org/fhir/CodeSystem/empresi-countries-cs,0.1.0,draft,,EmpresiCountriesCS,Empresi Countries Code System,"Generated from CSV","ValueSet/empresi-countries-vs"
 https://dhis2.org/fhir/CodeSystem/infection-source-cs,0.1.0,draft,,InfectionSourceCS,Infection Source Code System,"Code system for infection source.","ValueSet/infection-source-vs"
 https://dhis2.org/fhir/CodeSystem/laboratory-cs,0.1.0,draft,,LaboratoryCS,Laboratory Code System,"Code system of laboratories.","ValueSet/laboratory-vs"
 https://dhis2.org/fhir/CodeSystem/locality-quality-cs,0.1.0,draft,,LocalityQualityCS,Locality Quality Code System,"Code system for the quality of locality data.","ValueSet/locality-quality-vs"

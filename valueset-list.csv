@@ -11,6 +11,7 @@ https://dhis2.org/fhir/ValueSet/disease-status-vs,0.1.0,draft,,DiseaseStatusVS,D
 https://dhis2.org/fhir/ValueSet/disease-subtype-vs,0.1.0,draft,,DiseaseSubtypeVS,Disease Subtype Value Set,"Value set for disease subtypes.",,"Internal"
 https://dhis2.org/fhir/ValueSet/diseases-vs,0.1.0,draft,,DiseasesVS,Diseases Value Set,"Value set for diseases.",,"Internal"
 https://dhis2.org/fhir/ValueSet/districts-vs,0.1.0,draft,,DistrictsVS,Districts Value Set,"Value set for districts.",,"Internal"
+https://dhis2.org/fhir/ValueSet/empresi-countries-vs,0.1.0,draft,,EmpresiCountriesVS,Empresi Countries Value Set,"Value set for Empresi countries.",,"Internal"
 https://dhis2.org/fhir/ValueSet/infection-source-vs,0.1.0,draft,,InfectionSourceVS,Infection Source Value Set,"Value set for infection source.",,"Internal"
 https://dhis2.org/fhir/ValueSet/lab-diseases-vs,0.1.0,draft,,LabDiseasesVS,Lab Diseases Value Set,"Value set for lab diseases.",,"Internal"
 https://dhis2.org/fhir/ValueSet/laboratory-vs,0.1.0,draft,,LaboratoryVS,Laboratory Value Set,"Value set of laboratories.",,"Internal"
