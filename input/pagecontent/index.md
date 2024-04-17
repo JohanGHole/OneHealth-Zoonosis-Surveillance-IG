@@ -14,9 +14,7 @@ This section includes the definitions of the Value Sets and Code Systems utilize
 
 ### Examples
 
-To demonstrate the practical application of the logical models in FHIR, we have included two examples: the [Animal Surveillance Questionnaire](Questionnaire-AnimalSurveillanceQuestionnaire.html) and [Animal Surveillance QuestionnaireResponse](Questionnaire-AnimalSurveillanceQuestionnaire.html). The questionnaire is crafted from the Logical Model and showcases the data collection aspects of the IG. It exemplifies how structured data elements from the Logical Models section can be utilized in a user-facing application, emphasizing the difference in focus between data definition (Logical Model) and data collection (Questionnaire).
-
-Accompanying the questionnaire, the QuestionnaireResponse serves as a practical example of how the collected data is recorded and stored within a FHIR-based system. This response artifact demonstrates the actual inputs provided by users, reflecting real-world data capture scenarios. It validates the structured approach of the logical models by populating them with data, thus highlighting the practical usability and effectiveness of the designed questionnaire in capturing comprehensive surveillance data according to the specified standards and requirements.
+To demonstrate the practical application of the logical models in FHIR, we have included the [Animal Surveillance Questionnaire](Questionnaire-AnimalSurveillanceQuestionnaire.html)). The questionnaire is crafted from the Logical Model and showcases the data collection aspects of the IG. It exemplifies how structured data elements from the Logical Models section can be utilized in a user-facing application, emphasizing the difference in focus between data definition (Logical Model) and data collection (Questionnaire).
 
 # Disclaimer
 
