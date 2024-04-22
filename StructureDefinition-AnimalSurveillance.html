@@ -1,43 +1,41 @@
-<!-- get modelType -->
-
-
-
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Logical Model - Animal Surveillance - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link href="fhir.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/colors.css"/>
 
-    <!-- Project extras -->
-    <link href="assets/css/project.css" rel="stylesheet"/>
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
-<!-- Placeholder for child template CSS declarations -->
-<link href="assets/css/colors.css" rel="stylesheet"/>
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 
-    <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -47,29 +45,76 @@
 
     <style type="text/css">h2{--heading-prefix:"2.1"}
     h3,h4,h5,h6{--heading-prefix:"2.1"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
-        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option disabled="null" selected="null">Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+          <!-- Left logo - typically the publisher's logo - project or affiliate -->
 <div id="project-nav">
-    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
-      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    <a no-external="true" id="project-logo" href="https://dhis2.org/integration/fhir/">
+      <img src="assets/images/dhis2.png" alt="Project home" height="60"/>
     </a>
   </div>
 
-<!-- Right logo - for example the FHIR logo -->
-<!-- Make sure you have authorization to use the FHIR logo -->
+  <!-- Right logo - for example the FHIR logo -->
+  <!-- Make sure you have authorization to use the FHIR logo -->
   <div id="family-nav">
-    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+    <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="80"/> </a>
   </div>
 
-<!-- search icon - if you want -->
-<!--
-  <div id="hl7-search">
+  <!-- search icon - if you want -->
+  <!-- <div id="hl7-search">
     <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-  </div>
--->
+  </div> -->
 
-        <div id="ig-status">
+        <div id="ig-status" class="ig-status-draft">
           <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - draft
@@ -78,59 +123,29 @@
             </span>
           </p>
         </div>
-      </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
-      <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
 
-        <nav class="navbar navbar-inverse">
-          <!--status-bar-->
-          <div class="container">
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
-              <span class="icon-bar"> </span>
-              <span class="icon-bar"> </span>
-              <span class="icon-bar"> </span>
-            </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
-            <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- menu.xml  -->
+      <!-- status-bar -->
 
-<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li>
-    <a href="index.html">Home</a>
-  </li>
-  <li>
-    <a href="artifacts.html">Artifacts</a>
-  </li>
-</ul>
-            </div>  <!-- /.nav-collapse -->
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
-
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Logical Model - Animal Surveillance</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Logical Model - Animal Surveillance</b></li>
 
         </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+    <!-- ReleaseHeader --><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   
 
 
@@ -207,10 +222,10 @@
   <table class="colsd">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance"/></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance<button data-clipboard-text="https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance" title="Click to copy URL" class="btn-copy"></button></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance|0.1.0"/></span>
+      <span class="copy-text">0.1.0<button data-clipboard-text="https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance|0.1.0" title="Click to copy versioned URL" class="btn-copy"></button></span>
       </td>
     </tr>
 
@@ -248,7 +263,7 @@
 
 
 
-<!-- insert intro if present -->
+  <!-- insert intro if present -->
 
 
 
@@ -259,7 +274,7 @@
 </ul>
 
 
-  <!-- no uri -->
+    <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formal Views of Profile Content</h3>
   <p>
@@ -277,19 +292,19 @@
         <a href="#tabs-snap">Snapshot Table</a>
       </li>
 
-<!--      <li>
+  <!-- <li>
         <a href="#tabs-xml">Pseudo-XML</a>
-      </li>-->
+      </li> -->
 
 
-<!--      <li>
+  <!-- <li>
         <a href="#tabs-json">Pseudo-JSON</a>
-      </li>-->
+      </li> -->
 
 
-      <!--<li>
+        <!-- <li>
         <a href="#tabs-ttl">Pseudo-TTL</a>
-      </li>-->
+      </li> -->
 
       <li>
         <a href="#tabs-summ">Statistics/References</a>
@@ -501,33 +516,33 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
           <a name="tx"> </a>
-          <!--Terminology Bindings heading in the fragment -->
+            <!-- Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings (Differential)</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
 </table>
 
         
           
-          <!-- 218 is size of empty table -->
+            <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -780,36 +795,36 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Animal Surveillance Comments</td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-          <!--Terminology Bindings heading in the fragment -->
+            <!-- Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
 </table>
 
         
           
-          <!-- 218 is size of empty table -->
+            <!-- 218 is size of empty table -->
           
             <a name="inv"> </a>
-            <!--Constraints  heading in the fragment -->
+              <!-- Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -1141,36 +1156,36 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Animal Surveillance Comments</td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-          <!--Terminology Bindings heading in the fragment -->
+            <!-- Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
 </table>
 
         
           
-          <!-- 218 is size of empty table -->
+            <!-- 218 is size of empty table -->
           
             <a name="inv"> </a>
-            <!--Constraints  heading in the fragment -->
+              <!-- Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -1183,7 +1198,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </div>
     </div>
 
-<!--    <a name="tabs-xml"> </a>
+  <!-- <a name="tabs-xml"> </a>
     <div id="tabs-xml">
       <div id="xml">
         <div id="xml-inner">
@@ -1191,10 +1206,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
         </div>
       </div>
-    </div>-->
+    </div> -->
 
 
-<!--    <a name="tabs-json"> </a>
+  <!-- <a name="tabs-json"> </a>
     <div id="tabs-json">
       <div id="json">
         <div id="json-inner">
@@ -1253,10 +1268,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
         </div>
       </div>
-    </div>-->
+    </div> -->
 
 
-    <!--<a name="tabs-ttl"> </a>
+      <!-- <a name="tabs-ttl"> </a>
     <div id="tabs-ttl">
       <div id="ttl">
         <div id="ttl-inner">
@@ -1264,7 +1279,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
         </div>
       </div>
-    </div>-->
+    </div> -->
 
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
@@ -1273,7 +1288,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </p>
         <div id="tbl-summ-inner">
           <a name="summary"> </a>
-          <p><i>Cannot invoke &quot;Object.hashCode()&quot; because &quot;key&quot; is null</i></p>
+          <p><i>Cannot invoke "Object.hashCode()" because "key" is null</i></p>
         </div>
       </div>
     </div>
@@ -1482,33 +1497,33 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Animal Surveillance Comments</td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-          <!--Terminology Bindings heading in the fragment -->
+            <!-- Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings (Differential)</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
 </table>
 
         
           
-          <!-- 218 is size of empty table -->
+            <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -1761,36 +1776,36 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Animal Surveillance Comments</td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-          <!--Terminology Bindings heading in the fragment -->
+            <!-- Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
 </table>
 
         
           
-          <!-- 218 is size of empty table -->
+            <!-- 218 is size of empty table -->
           
             <a name="inv"> </a>
-            <!--Constraints  heading in the fragment -->
+              <!-- Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -2122,36 +2137,36 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Animal Surveillance Comments</td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-          <!--Terminology Bindings heading in the fragment -->
+            <!-- Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs"></button></div><div>from this IG</div></td></tr>
-<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalClass</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-class-vs.html">AnimalClassVS</a> (a valid code from <a href="CodeSystem-animal-class-cs.html">Animal Class Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-class-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-class-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalSpecies</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-species-vs.html">AnimalSpeciesVS</a> (a valid code from <a href="CodeSystem-animal-species-cs.html">Animal Species Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-species-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-species-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.animalType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-animal-type-vs.html">AnimalTypeVS</a> (a valid code from <a href="CodeSystem-animal-type-cs.html">Animal Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/animal-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/animal-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.vaccination</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-yes-no-unknown-vs.html">YesNoUnknownVS</a> (a valid code from <a href="CodeSystem-yes-no-unknown-cs.html">Yes/No/Unknown Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemOne</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-one-vs.html">ProductionSystemOneVS</a> (a valid code from <a href="CodeSystem-production-system-one-cs.html">Production System One Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-one-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-one-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.epidemiology.productionSystemTwo</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-production-system-two-vs.html">ProductionSystemTwoVS</a> (a valid code from <a href="CodeSystem-production-system-two-cs.html">Production System Two Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/production-system-two-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/production-system-two-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.clinicalSigns</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clinical-signs-vs.html">ClinicalSignsVS</a> (a valid code from <a href="CodeSystem-clinical-signs-cs.html">Clinical Signs Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clinical-signs-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clinical-signs-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.clinicalSignsAndNecropsyLesions.necropsyLesions</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-necropsy-lesions-vs.html">NecropsyLesionsVS</a> (a valid code from <a href="CodeSystem-necropsy-lesions-cs.html">Necropsy Lesions Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.surveillanceType</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-surveillance-type-vs.html">SurveillanceTypeVS</a> (a valid code from <a href="CodeSystem-surveillance-type-cs.html">Surveillance Type Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/surveillance-type-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/surveillance-type-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.surveillanceTypeAndInfectionSource.infectionSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-infection-source-vs.html">InfectionSourceVS</a> (a valid code from <a href="CodeSystem-infection-source-cs.html">Infection Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/infection-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/infection-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-status-vs.html">DiseaseStatusVS</a> (a valid code from <a href="CodeSystem-diagnostic-status-cs.html">Diagnostic Status Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-status-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-status-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.disease</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diseases-vs.html">DiseasesVS</a> (a valid code from <a href="CodeSystem-diseases-cs.html">Diseases Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diseases-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diseases-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diseaseSubTypes</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-disease-subtype-vs.html">DiseaseSubtypeVS</a> (a valid code from <a href="CodeSystem-disease-subtype-cs.html">Disease Subtype Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/disease-subtype-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/disease-subtype-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.clade</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-clade-vs.html">CladeVS</a> (a valid code from <a href="CodeSystem-clade-cs.html">Clade Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/clade-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/clade-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosticSource</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnostic-source-vs.html">DiagnosticSourceVS</a> (a valid code from <a href="CodeSystem-diagnostic-source-cs.html">Diagnostic Source Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnostic-source-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.diagnosis.diagnosisBasis</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-diagnosis-basis-vs.html">DiagnosisBasisVS</a> (a valid code from <a href="CodeSystem-diagnosis-basis-cs.html">Diagnosis Basis Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.controlMeasures</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-control-measures-vs.html">ControlMeasuresVS</a> (a valid code from <a href="CodeSystem-control-measures-cs.html">Control Measures Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/control-measures-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/control-measures-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>AnimalSurveillance.controlMeasuresAndTreatments.treatments</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-treatments-vs.html">TreatmentsVS</a> (a valid code from <a href="CodeSystem-treatments-cs.html">Treatments Code System</a>)<div><code>https://dhis2.org/fhir/ValueSet/treatments-vs</code><button data-clipboard-text="https://dhis2.org/fhir/ValueSet/treatments-vs" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
 </table>
 
         
           
-          <!-- 218 is size of empty table -->
+            <!-- 218 is size of empty table -->
           
             <a name="inv"> </a>
-            <!--Constraints  heading in the fragment -->
+              <!-- Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -2163,7 +2178,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </div>
       </div>
 
-      <!--<div id="all-xml">
+        <!-- <div id="all-xml">
         <p>
           <b>XML Template</b>
         </p>
@@ -2171,10 +2186,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           <p><span style="color: maroon; font-weight: bold">yet to be done: Xml template</span></p>
 
         </div>
-      </div>-->
+      </div> -->
 
 
-      <!--<div id="all-json">
+        <!-- <div id="all-json">
         <p>
           <b>JSON Template</b>
         </p>
@@ -2233,10 +2248,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   }
 
         </div>
-      </div>-->
+      </div> -->
 
 
-      <!--<div id="all-ttl">
+        <!-- <div id="all-ttl">
         <p>
           <b>TTL Template</b>
         </p>
@@ -2244,78 +2259,78 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           <p><span style="color: maroon; font-weight: bold">yet to be done: Turtle template</span></p>
 
         </div>
-      </div>-->
+      </div> -->
 
       <div id="all-summ">
         <p>This structure is derived from <a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a>
         </p>
         <div id="all-summ-inner">
-          <p><i>Cannot invoke &quot;Object.hashCode()&quot; because &quot;key&quot; is null</i></p>
+          <p><i>Cannot invoke "Object.hashCode()" because "key" is null</i></p>
         </div>
       </div>
     </div>
   </div>
-  <p>&#160;</p>
+  <p>&nbsp;</p>
   <p>Other representations of profile: <a href="StructureDefinition-AnimalSurveillance.csv">CSV</a>, <a href="StructureDefinition-AnimalSurveillance.xlsx">Excel</a> 
   </p>
 
   
 
-<!-- insert notes if present -->
+  <!-- insert notes if present -->
 
 
 
 
 </div>
 
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
 
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script type="text/javascript" src="assets/js/tabs.js"> </script>
+  <script src="assets/js/tabs.js" type="text/javascript"> </script>
 
-  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 22, 2024 10:30+0000">2024-04-22</span>
+          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 22, 2024 11:02+0000">2024-04-22</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)">
+          <span style="color: var(--footer-highlight-text-color)"><a name="l10287">​</a>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
+| <a style="color: #81BEF7" href="https://dhis2.org/fhir/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
           </span>
         </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
   
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
   
-  <!-- Analytics Below
+    <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
-

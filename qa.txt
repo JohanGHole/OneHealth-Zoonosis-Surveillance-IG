@@ -1,10 +1,10 @@
 OneHealthZoonosisSurveillanceIG : Validation Results
 =========================================
 
-err = 4, warn = 86, info = 28
+err = 20, warn = 86, info = 28
 IG Publisher Version: 1.6.5
-Generated Mon Apr 22 10:31:39 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
- Build Errors : 0 / 4 / 0
+Generated Mon Apr 22 11:03:21 UTC 2024. FHIR version 4.0.1 for zoonosis-surveillance-ig#0.1.0 (canonical = https://dhis2.org/fhir)
+ Build Errors : 399 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-animal-class-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-species-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-animal-type-cs : 0 / 2 / 2
@@ -33,7 +33,7 @@ Generated Mon Apr 22 10:31:39 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/CodeSystem-treatments-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-yes-no-unknown-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-zoonosis-surveillance-ig : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-AnimalSurveillanceQuestionnaire : 4 / 0 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-AnimalSurveillanceQuestionnaire : 20 / 0 / 18
  /github/workspace/fsh-generated/resources/StructureDefinition-AnimalSurveillance : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Laboratory : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-ZoonosisSurveillance : 0 / 0 / 1
@@ -67,6 +67,405 @@ Generated Mon Apr 22 10:31:39 UTC 2024. FHIR version 4.0.1 for zoonosis-surveill
  /github/workspace/fsh-generated/resources/ValueSet-yes-no-unknown-vs : 0 / 1 / 1
 </table>
 == n/a ==
+ERROR: /github/workspace/output/Questionnaire-AnimalSurveillanceQuestionnaire-form.html: unexpected non-end of element null::div  at line 242 column 147
+ERROR: /github/workspace/output/CodeSystem-animal-class-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-class-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-class-cs.html#/html/body/div/div/div/p/span/a at Line 309, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-class-cs.json.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-class-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 320, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-class-cs.xml.html#/html/body/div/div/div/p/span/a at Line 323, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-species-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-species-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-species-cs.html#/html/body/div/div/div/p/span/a at Line 1739, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-species-cs.json.html#/html/body/div/div/div/p/span/a at Line 3189, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-species-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 2465, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-species-cs.xml.html#/html/body/div/div/div/p/span/a at Line 3214, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-type-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-type-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-type-cs.html#/html/body/div/div/div/p/span/a at Line 295, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-type-cs.json.html#/html/body/div/div/div/p/span/a at Line 301, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-type-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 299, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-animal-type-cs.xml.html#/html/body/div/div/div/p/span/a at Line 295, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clade-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clade-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clade-cs.html#/html/body/div/div/div/p/span/a at Line 365, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clade-cs.json.html#/html/body/div/div/div/p/span/a at Line 441, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clade-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 404, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clade-cs.xml.html#/html/body/div/div/div/p/span/a at Line 435, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clinical-signs-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clinical-signs-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clinical-signs-cs.html#/html/body/div/div/div/p/span/a at Line 603, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clinical-signs-cs.json.html#/html/body/div/div/div/p/span/a at Line 917, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clinical-signs-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 761, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-clinical-signs-cs.xml.html#/html/body/div/div/div/p/span/a at Line 911, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-control-measures-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-control-measures-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-control-measures-cs.html#/html/body/div/div/div/p/span/a at Line 487, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-control-measures-cs.json.html#/html/body/div/div/div/p/span/a at Line 685, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-control-measures-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 587, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-control-measures-cs.xml.html#/html/body/div/div/div/p/span/a at Line 692, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnosis-basis-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnosis-basis-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnosis-basis-cs.html#/html/body/div/div/div/p/span/a at Line 297, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnosis-basis-cs.json.html#/html/body/div/div/div/p/span/a at Line 305, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnosis-basis-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 302, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnosis-basis-cs.xml.html#/html/body/div/div/div/p/span/a at Line 299, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-source-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-source-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-source-cs.html#/html/body/div/div/div/p/span/a at Line 437, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-source-cs.json.html#/html/body/div/div/div/p/span/a at Line 585, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-source-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 512, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-source-cs.xml.html#/html/body/div/div/div/p/span/a at Line 581, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-status-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-status-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-status-cs.html#/html/body/div/div/div/p/span/a at Line 295, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-status-cs.json.html#/html/body/div/div/div/p/span/a at Line 301, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-status-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 299, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diagnostic-status-cs.xml.html#/html/body/div/div/div/p/span/a at Line 295, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-disease-subtype-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-disease-subtype-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-disease-subtype-cs.html#/html/body/div/div/div/p/span/a at Line 477, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-disease-subtype-cs.json.html#/html/body/div/div/div/p/span/a at Line 665, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-disease-subtype-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 572, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-disease-subtype-cs.xml.html#/html/body/div/div/div/p/span/a at Line 659, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diseases-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diseases-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diseases-cs.html#/html/body/div/div/div/p/span/a at Line 858, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diseases-cs.json.html#/html/body/div/div/div/p/span/a at Line 1425, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diseases-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 1142, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-diseases-cs.xml.html#/html/body/div/div/div/p/span/a at Line 1423, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-districts-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-districts-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-districts-cs.html#/html/body/div/div/div/p/span/a at Line 557, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-districts-cs.json.html#/html/body/div/div/div/p/span/a at Line 825, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-districts-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 692, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-districts-cs.xml.html#/html/body/div/div/div/p/span/a at Line 819, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-empresi-countries-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-empresi-countries-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-empresi-countries-cs.html#/html/body/div/div/div/p/span/a at Line 843, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-empresi-countries-cs.json.html#/html/body/div/div/div/p/span/a at Line 1397, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-empresi-countries-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 1121, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-empresi-countries-cs.xml.html#/html/body/div/div/div/p/span/a at Line 1391, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-infection-source-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-infection-source-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-infection-source-cs.html#/html/body/div/div/div/p/span/a at Line 499, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-infection-source-cs.json.html#/html/body/div/div/div/p/span/a at Line 709, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-infection-source-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 605, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-infection-source-cs.xml.html#/html/body/div/div/div/p/span/a at Line 713, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-laboratory-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-laboratory-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-laboratory-cs.html#/html/body/div/div/div/p/span/a at Line 1659, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-laboratory-cs.json.html#/html/body/div/div/div/p/span/a at Line 3029, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-laboratory-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 2345, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-laboratory-cs.xml.html#/html/body/div/div/div/p/span/a at Line 3237, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-quality-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-quality-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-quality-cs.html#/html/body/div/div/div/p/span/a at Line 301, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-quality-cs.json.html#/html/body/div/div/div/p/span/a at Line 313, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-quality-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 308, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-quality-cs.xml.html#/html/body/div/div/div/p/span/a at Line 307, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-source-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-source-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-source-cs.html#/html/body/div/div/div/p/span/a at Line 331, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-source-cs.json.html#/html/body/div/div/div/p/span/a at Line 373, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-source-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 353, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-locality-source-cs.xml.html#/html/body/div/div/div/p/span/a at Line 367, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-necropsy-lesions-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-necropsy-lesions-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-necropsy-lesions-cs.html#/html/body/div/div/div/p/span/a at Line 469, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-necropsy-lesions-cs.json.html#/html/body/div/div/div/p/span/a at Line 649, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-necropsy-lesions-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 560, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-necropsy-lesions-cs.xml.html#/html/body/div/div/div/p/span/a at Line 643, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-one-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-one-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-one-cs.html#/html/body/div/div/div/p/span/a at Line 307, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-one-cs.json.html#/html/body/div/div/div/p/span/a at Line 325, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-one-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 317, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-one-cs.xml.html#/html/body/div/div/div/p/span/a at Line 319, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-two-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-two-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-two-cs.html#/html/body/div/div/div/p/span/a at Line 323, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-two-cs.json.html#/html/body/div/div/div/p/span/a at Line 357, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-two-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 341, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-production-system-two-cs.xml.html#/html/body/div/div/div/p/span/a at Line 351, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-regions-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-regions-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-regions-cs.html#/html/body/div/div/div/p/span/a at Line 323, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-regions-cs.json.html#/html/body/div/div/div/p/span/a at Line 357, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-regions-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 341, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-regions-cs.xml.html#/html/body/div/div/div/p/span/a at Line 351, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-sample-type-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-sample-type-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-sample-type-cs.html#/html/body/div/div/div/p/span/a at Line 431, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-sample-type-cs.json.html#/html/body/div/div/div/p/span/a at Line 573, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-sample-type-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 503, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-sample-type-cs.xml.html#/html/body/div/div/div/p/span/a at Line 567, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-surveillance-type-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-surveillance-type-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-surveillance-type-cs.html#/html/body/div/div/div/p/span/a at Line 303, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-surveillance-type-cs.json.html#/html/body/div/div/div/p/span/a at Line 317, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-surveillance-type-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 311, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-surveillance-type-cs.xml.html#/html/body/div/div/div/p/span/a at Line 311, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-result-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-result-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-result-cs.html#/html/body/div/div/div/p/span/a at Line 299, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-result-cs.json.html#/html/body/div/div/div/p/span/a at Line 309, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-result-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 305, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-result-cs.xml.html#/html/body/div/div/div/p/span/a at Line 303, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-type-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-type-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-type-cs.html#/html/body/div/div/div/p/span/a at Line 537, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-type-cs.json.html#/html/body/div/div/div/p/span/a at Line 785, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-type-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 662, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-test-type-cs.xml.html#/html/body/div/div/div/p/span/a at Line 781, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-treatments-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-treatments-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-treatments-cs.html#/html/body/div/div/div/p/span/a at Line 337, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-treatments-cs.json.html#/html/body/div/div/div/p/span/a at Line 385, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-treatments-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 362, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-treatments-cs.xml.html#/html/body/div/div/div/p/span/a at Line 379, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-yes-no-unknown-cs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-yes-no-unknown-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-yes-no-unknown-cs.html#/html/body/div/div/div/p/span/a at Line 295, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-yes-no-unknown-cs.json.html#/html/body/div/div/div/p/span/a at Line 301, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-yes-no-unknown-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 299, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-yes-no-unknown-cs.xml.html#/html/body/div/div/div/p/span/a at Line 295, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-AnimalSurveillanceQuestionnaire-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-AnimalSurveillanceQuestionnaire.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-AnimalSurveillanceQuestionnaire.html#/html/body/div/div/div/p/span/a at Line 271, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-AnimalSurveillanceQuestionnaire.json.html#/html/body/div/div/div/p/span/a at Line 793, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-AnimalSurveillanceQuestionnaire.ttl.html#/html/body/div/div/div/p/span/a at Line 689, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-AnimalSurveillanceQuestionnaire.xml.html#/html/body/div/div/div/p/span/a at Line 818, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance-definitions.html#/html/body/div/div/div/p/span/a at Line 709, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance-examples.html#/html/body/div/div/div/p/span/a at Line 277, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance-mappings.html#/html/body/div/div/div/p/span/a at Line 303, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance.html#/html/body/div/div/div/p/span/a at Line 2316, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance.profile.history.html#/html/body/div/div/div/p/span/a at Line 266, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance.profile.json.html#/html/body/div/div/div/p/span/a at Line 2405, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1815, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AnimalSurveillance.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2207, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory-definitions.html#/html/body/div/div/div/p/span/a at Line 420, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory-examples.html#/html/body/div/div/div/p/span/a at Line 277, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory-mappings.html#/html/body/div/div/div/p/span/a at Line 283, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory.html#/html/body/div/div/div/p/span/a at Line 1144, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory.profile.history.html#/html/body/div/div/div/p/span/a at Line 266, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory.profile.json.html#/html/body/div/div/div/p/span/a at Line 878, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 725, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Laboratory.profile.xml.html#/html/body/div/div/div/p/span/a at Line 802, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance-definitions.html#/html/body/div/div/div/p/span/a at Line 541, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance-examples.html#/html/body/div/div/div/p/span/a at Line 277, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance-mappings.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance-testing.html#/html/body/div/div/div/p/span/a at Line 284, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance.html#/html/body/div/div/div/p/span/a at Line 1618, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance.profile.history.html#/html/body/div/div/div/p/span/a at Line 266, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance.profile.json.html#/html/body/div/div/div/p/span/a at Line 1467, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1121, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ZoonosisSurveillance.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1318, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_animal-class-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_animal-class-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_animal-species-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_animal-species-vs.html#/html/body/div/div/div/p/span/a at Line 311, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_animal-type-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_animal-type-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_clade-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_clade-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_clinical-signs-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_clinical-signs-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_diagnosis-basis-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_diagnosis-basis-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_diagnostic-source-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_diagnostic-source-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_disease-status-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_disease-status-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_disease-subtype-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_disease-subtype-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_diseases-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_diseases-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_infection-source-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_infection-source-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_necropsy-lesions-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_necropsy-lesions-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_production-system-one-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_production-system-one-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_production-system-two-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_production-system-two-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_surveillance-type-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_surveillance-type-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_yes-no-unknown-vs-testing.html#/html/body/div/div/div/p/span/a at Line 241, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-AnimalSurveillanceQuestionnaire_yes-no-unknown-vs.html#/html/body/div/div/div/p/span/a at Line 310, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-class-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-class-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-class-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-class-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-class-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-class-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-species-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-species-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-species-vs.html#/html/body/div/div/div/p/span/a at Line 331, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-species-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-species-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-species-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-type-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-type-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-type-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-type-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-type-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-animal-type-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clade-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clade-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clade-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clade-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clade-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clade-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clinical-signs-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clinical-signs-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clinical-signs-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clinical-signs-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clinical-signs-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-clinical-signs-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-control-measures-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-control-measures-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-control-measures-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-control-measures-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-control-measures-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-control-measures-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnosis-basis-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnosis-basis-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnosis-basis-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnosis-basis-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnosis-basis-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnosis-basis-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnostic-source-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnostic-source-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnostic-source-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnostic-source-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnostic-source-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diagnostic-source-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-status-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-status-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-status-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-status-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-status-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-status-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-subtype-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-subtype-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-subtype-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-subtype-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-subtype-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-disease-subtype-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diseases-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diseases-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diseases-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diseases-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diseases-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-diseases-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-districts-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-districts-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-districts-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-districts-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-districts-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-districts-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-empresi-countries-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-empresi-countries-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-empresi-countries-vs.html#/html/body/div/div/div/p/span/a at Line 327, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-empresi-countries-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-empresi-countries-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-empresi-countries-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-infection-source-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-infection-source-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-infection-source-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-infection-source-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-infection-source-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-infection-source-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-lab-diseases-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-lab-diseases-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-lab-diseases-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-lab-diseases-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-lab-diseases-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-lab-diseases-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-laboratory-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-laboratory-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-laboratory-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-laboratory-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-laboratory-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-laboratory-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-quality-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-quality-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-quality-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-quality-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-quality-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-quality-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-source-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-source-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-source-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-source-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-source-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-locality-source-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-necropsy-lesions-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-necropsy-lesions-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-necropsy-lesions-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-necropsy-lesions-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-necropsy-lesions-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-necropsy-lesions-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-one-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-one-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-one-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-one-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-one-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-one-vs.xml.html#/html/body/div/div/div/p/span/a at Line 287, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-two-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-two-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-two-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-two-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-two-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-production-system-two-vs.xml.html#/html/body/div/div/div/p/span/a at Line 287, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-regions-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-regions-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-regions-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-regions-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-regions-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-regions-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-sample-type-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-sample-type-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-sample-type-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-sample-type-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-sample-type-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-sample-type-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-surveillance-type-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-surveillance-type-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-surveillance-type-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-surveillance-type-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-surveillance-type-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-surveillance-type-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-result-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-result-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-result-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-result-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-result-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-result-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-type-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-type-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-type-vs.html#/html/body/div/div/div/p/span/a at Line 329, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-type-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-type-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-test-type-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-treatments-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-treatments-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-treatments-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-treatments-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-treatments-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-treatments-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-yes-no-unknown-vs-testing.html#/html/body/div/div/div/p/span/a at Line 261, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-yes-no-unknown-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-yes-no-unknown-vs.html#/html/body/div/div/div/p/span/a at Line 330, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-yes-no-unknown-vs.json.html#/html/body/div/div/div/p/span/a at Line 292, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-yes-no-unknown-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 291, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-yes-no-unknown-vs.xml.html#/html/body/div/div/div/p/span/a at Line 286, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/span/a at Line 752, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/span/a at Line 275, column 112: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/span/a at Line 186, column 112: The link 'license.html' for "License" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -185,6 +584,22 @@ ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.item[2].item
 ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.item[2].item[1]: Constraint failed: que-10: 'Maximum length can only be declared for simple question types'
 ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.item[3].item[1]: Constraint failed: que-10: 'Maximum length can only be declared for simple question types'
 ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.item[5].item[0]: Constraint failed: que-10: 'Maximum length can only be declared for simple question types'
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[0]: The contained resource 'animal-class-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[1]: The contained resource 'animal-species-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[2]: The contained resource 'animal-type-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[3]: The contained resource 'yes-no-unknown-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[4]: The contained resource 'production-system-one-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[5]: The contained resource 'production-system-two-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[6]: The contained resource 'clinical-signs-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[7]: The contained resource 'necropsy-lesions-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[8]: The contained resource 'surveillance-type-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[9]: The contained resource 'infection-source-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[10]: The contained resource 'diseases-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[11]: The contained resource 'disease-status-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[12]: The contained resource 'disease-subtype-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[13]: The contained resource 'clade-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[14]: The contained resource 'diagnosis-basis-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+ERROR: Questionnaire/AnimalSurveillanceQuestionnaire: Questionnaire.contained[15]: The contained resource 'diagnostic-source-vs' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
 INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-AnimalSurveillance.json ==
 == fsh-generated/resources/StructureDefinition-Laboratory.json ==

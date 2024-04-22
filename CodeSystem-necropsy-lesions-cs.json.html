@@ -1,41 +1,41 @@
-
-
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Necropsy Lesions Code System - JSON Representation - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link href="fhir.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/colors.css"/>
 
-    <!-- Project extras -->
-    <link href="assets/css/project.css" rel="stylesheet"/>
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
-<!-- Placeholder for child template CSS declarations -->
-<link href="assets/css/colors.css" rel="stylesheet"/>
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 
-    <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -45,29 +45,76 @@
 
     <style type="text/css">h2{--heading-prefix:"2.49"}
     h3,h4,h5,h6{--heading-prefix:"2.49"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
-        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option disabled="null" selected="null">Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+          <!-- Left logo - typically the publisher's logo - project or affiliate -->
 <div id="project-nav">
-    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
-      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    <a no-external="true" id="project-logo" href="https://dhis2.org/integration/fhir/">
+      <img src="assets/images/dhis2.png" alt="Project home" height="60"/>
     </a>
   </div>
 
-<!-- Right logo - for example the FHIR logo -->
-<!-- Make sure you have authorization to use the FHIR logo -->
+  <!-- Right logo - for example the FHIR logo -->
+  <!-- Make sure you have authorization to use the FHIR logo -->
   <div id="family-nav">
-    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+    <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="80"/> </a>
   </div>
 
-<!-- search icon - if you want -->
-<!--
-  <div id="hl7-search">
+  <!-- search icon - if you want -->
+  <!-- <div id="hl7-search">
     <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-  </div>
--->
+  </div> -->
 
-        <div id="ig-status">
+        <div id="ig-status" class="ig-status-draft">
           <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - draft
@@ -76,59 +123,29 @@
             </span>
           </p>
         </div>
-      </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
-      <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
 
-        <nav class="navbar navbar-inverse">
-          <!--status-bar-->
-          <div class="container">
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
-              <span class="icon-bar"> </span>
-              <span class="icon-bar"> </span>
-              <span class="icon-bar"> </span>
-            </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
-            <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- menu.xml  -->
+      <!-- status-bar -->
 
-<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li>
-    <a href="index.html">Home</a>
-  </li>
-  <li>
-    <a href="artifacts.html">Artifacts</a>
-  </li>
-</ul>
-            </div>  <!-- /.nav-collapse -->
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
-
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Necropsy Lesions Code System</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Necropsy Lesions Code System</b></li>
 
         </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!-- ReleaseHeader --><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
 
 
@@ -192,27 +209,27 @@
   </table>
 
 
-<p><a href="CodeSystem-necropsy-lesions-cs.json" no-download="true">Raw json</a> | <a href="CodeSystem-necropsy-lesions-cs.json" download>Download</a></p>
+<p><a href="CodeSystem-necropsy-lesions-cs.json" no-download="true">Raw json</a> | <a download="null" href="CodeSystem-necropsy-lesions-cs.json">Download</a></p>
 
-  <!-- insert intro if present -->
+    <!-- insert intro if present -->
   
 
 
 
-  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code style="white-space: pre; text-wrap: nowrap;">
+  <pre style="white-space: pre; text-wrap: nowrap;" class="json"><code style="white-space: pre; text-wrap: nowrap;">
 {
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "necropsy-lesions-cs",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This  code system &lt;code&gt;https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ABOMASAL_IMPACTION&lt;a name=\&quot;necropsy-lesions-cs-ABOMASAL_IMPACTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abomasal Impaction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ABOMASITIS&lt;a name=\&quot;necropsy-lesions-cs-ABOMASITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abomasitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ABSCESSATION&lt;a name=\&quot;necropsy-lesions-cs-ABSCESSATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abscessation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ADHESIONS&lt;a name=\&quot;necropsy-lesions-cs-ADHESIONS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Adhesions&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ALOPECIA&lt;a name=\&quot;necropsy-lesions-cs-ALOPECIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Alopecia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANAEMIA&lt;a name=\&quot;necropsy-lesions-cs-ANAEMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Anaemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ASCITES&lt;a name=\&quot;necropsy-lesions-cs-ASCITES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ascites&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BLOAT&lt;a name=\&quot;necropsy-lesions-cs-BLOAT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bloat&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CATARRHAL_ENTERITIS&lt;a name=\&quot;necropsy-lesions-cs-CATARRHAL_ENTERITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Catarrhal enteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONGESTION&lt;a name=\&quot;necropsy-lesions-cs-CONGESTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Congestion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONGESTION_IN_LUNG&lt;a name=\&quot;necropsy-lesions-cs-CONGESTION_IN_LUNG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Congestion in lung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONJUNCTIVITIS&lt;a name=\&quot;necropsy-lesions-cs-CONJUNCTIVITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Conjunctivitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CYANOSIS&lt;a name=\&quot;necropsy-lesions-cs-CYANOSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cyanosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DEHYDRATION&lt;a name=\&quot;necropsy-lesions-cs-DEHYDRATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dehydration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EMACIATION&lt;a name=\&quot;necropsy-lesions-cs-EMACIATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Emaciation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENCEPHALITIS&lt;a name=\&quot;necropsy-lesions-cs-ENCEPHALITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Encephalitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENCEPHALOMYELITIS&lt;a name=\&quot;necropsy-lesions-cs-ENCEPHALOMYELITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Encephalomyelitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENLARGED_GALL_BLADDER&lt;a name=\&quot;necropsy-lesions-cs-ENLARGED_GALL_BLADDER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enlarged gall bladder&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENLARGED_LIVER&lt;a name=\&quot;necropsy-lesions-cs-ENLARGED_LIVER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enlarged Liver&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENTERITIS&lt;a name=\&quot;necropsy-lesions-cs-ENTERITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ERYTHEMA&lt;a name=\&quot;necropsy-lesions-cs-ERYTHEMA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Erythema&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FIBRINOUS_PLEURITIS&lt;a name=\&quot;necropsy-lesions-cs-FIBRINOUS_PLEURITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fibrinous pleuritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FIBRINOUS_PLEUROPNEUMONIA&lt;a name=\&quot;necropsy-lesions-cs-FIBRINOUS_PLEUROPNEUMONIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fibrinous Pleuropneumonia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOETAL_MACERATION&lt;a name=\&quot;necropsy-lesions-cs-FOETAL_MACERATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Foetal maceration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FOETAL_MUMMIFICATION&lt;a name=\&quot;necropsy-lesions-cs-FOETAL_MUMMIFICATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Foetal mummification&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GALLBLADDER_ENLARGED&lt;a name=\&quot;necropsy-lesions-cs-GALLBLADDER_ENLARGED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gallbladder enlarged&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GASTRITIS&lt;a name=\&quot;necropsy-lesions-cs-GASTRITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gastritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMOPERITONEUM&lt;a name=\&quot;necropsy-lesions-cs-HAEMOPERITONEUM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemoperitoneum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMORRHAGES&lt;a name=\&quot;necropsy-lesions-cs-HAEMORRHAGES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhages&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMORRHAGIC_ENTERITIS&lt;a name=\&quot;necropsy-lesions-cs-HAEMORRHAGIC_ENTERITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhagic enteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMORRHAGIC_GASTRITIS&lt;a name=\&quot;necropsy-lesions-cs-HAEMORRHAGIC_GASTRITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhagic Gastritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMORRHAGIC_GASTROENTERITIS&lt;a name=\&quot;necropsy-lesions-cs-HAEMORRHAGIC_GASTROENTERITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhagic gastroenteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HAEMOTHORAX&lt;a name=\&quot;necropsy-lesions-cs-HAEMOTHORAX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemothorax&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEART_ECCHYMOSES&lt;a name=\&quot;necropsy-lesions-cs-HEART_ECCHYMOSES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, ecchymoses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEART_ENDOCARDITIS&lt;a name=\&quot;necropsy-lesions-cs-HEART_ENDOCARDITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, endocarditis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEART_ENLARGED&lt;a name=\&quot;necropsy-lesions-cs-HEART_ENLARGED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, enlarged&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEART_INFARCTION&lt;a name=\&quot;necropsy-lesions-cs-HEART_INFARCTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, infarction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEART_MYOCARDITIS&lt;a name=\&quot;necropsy-lesions-cs-HEART_MYOCARDITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, myocarditis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEART_PERICARDITIS&lt;a name=\&quot;necropsy-lesions-cs-HEART_PERICARDITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, pericarditis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HEPATOMEGALY&lt;a name=\&quot;necropsy-lesions-cs-HEPATOMEGALY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hepatomegaly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HYDROTHORAX&lt;a name=\&quot;necropsy-lesions-cs-HYDROTHORAX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hydrothorax&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ICTERUS&lt;a name=\&quot;necropsy-lesions-cs-ICTERUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Icterus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTERDIGITAL_BLISTERS&lt;a name=\&quot;necropsy-lesions-cs-INTERDIGITAL_BLISTERS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interdigital blisters&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTERDIGITAL_DERMATITIS&lt;a name=\&quot;necropsy-lesions-cs-INTERDIGITAL_DERMATITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interdigital dermatitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTERDIGITAL_VESICLES&lt;a name=\&quot;necropsy-lesions-cs-INTERDIGITAL_VESICLES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interdigital vesicles&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTERNAL_BLEEDING&lt;a name=\&quot;necropsy-lesions-cs-INTERNAL_BLEEDING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Internal bleeding&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INTUSSUSSEPTION&lt;a name=\&quot;necropsy-lesions-cs-INTUSSUSSEPTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intussusseption&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KIDNEY_INFARCTION&lt;a name=\&quot;necropsy-lesions-cs-KIDNEY_INFARCTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kidney, infarction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KIDNEY_NEPHRITIS&lt;a name=\&quot;necropsy-lesions-cs-KIDNEY_NEPHRITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kidney, nephritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KIDNEY_PULPY&lt;a name=\&quot;necropsy-lesions-cs-KIDNEY_PULPY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kidney, pulpy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LINGUAL_BLISTERS&lt;a name=\&quot;necropsy-lesions-cs-LINGUAL_BLISTERS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lingual blisters&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LINGUAL_ULCERS&lt;a name=\&quot;necropsy-lesions-cs-LINGUAL_ULCERS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lingual ulcers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LINGUAL_VESICLES&lt;a name=\&quot;necropsy-lesions-cs-LINGUAL_VESICLES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lingual vesicles&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LIVER_ENLARGED&lt;a name=\&quot;necropsy-lesions-cs-LIVER_ENLARGED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liver enlarged&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LIVER_PALE&lt;a name=\&quot;necropsy-lesions-cs-LIVER_PALE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liver pale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LIVER_YELLOW&lt;a name=\&quot;necropsy-lesions-cs-LIVER_YELLOW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liver yellow&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LUMPS&lt;a name=\&quot;necropsy-lesions-cs-LUMPS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lumps&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LUNG_ABSCESSATION&lt;a name=\&quot;necropsy-lesions-cs-LUNG_ABSCESSATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lung abscessation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LUNG_CONGESTION&lt;a name=\&quot;necropsy-lesions-cs-LUNG_CONGESTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lung congestion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LUNG_OEDEMA&lt;a name=\&quot;necropsy-lesions-cs-LUNG_OEDEMA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lung Oedema&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LYMPHNODES_ENLARGED&lt;a name=\&quot;necropsy-lesions-cs-LYMPHNODES_ENLARGED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lymphnodes enlarged&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;METRITIS&lt;a name=\&quot;necropsy-lesions-cs-METRITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Metritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MUCOPURULENT_PLEUROPNEUMONIA&lt;a name=\&quot;necropsy-lesions-cs-MUCOPURULENT_PLEUROPNEUMONIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mucopurulent pleuropneumonia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MUSCULAR_NECROSIS&lt;a name=\&quot;necropsy-lesions-cs-MUSCULAR_NECROSIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscular Necrosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MUSCULAR_SWELLING&lt;a name=\&quot;necropsy-lesions-cs-MUSCULAR_SWELLING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscular swelling&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NODULES&lt;a name=\&quot;necropsy-lesions-cs-NODULES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nodules&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OMASAL_IMPACTION&lt;a name=\&quot;necropsy-lesions-cs-OMASAL_IMPACTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Omasal Impaction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ORGAN_RUPTURE&lt;a name=\&quot;necropsy-lesions-cs-ORGAN_RUPTURE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Organ-rupture&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OTHER&lt;a name=\&quot;necropsy-lesions-cs-OTHER\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Other&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PERITONITIS&lt;a name=\&quot;necropsy-lesions-cs-PERITONITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Peritonitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PETECHIATION&lt;a name=\&quot;necropsy-lesions-cs-PETECHIATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Petechiation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PNEUMONIA&lt;a name=\&quot;necropsy-lesions-cs-PNEUMONIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pneumonia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PULMONARY_EMPHYSEMA&lt;a name=\&quot;necropsy-lesions-cs-PULMONARY_EMPHYSEMA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pulmonary Emphysema&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PUSTULAR_VULVO_VAGINITIS&lt;a name=\&quot;necropsy-lesions-cs-PUSTULAR_VULVO_VAGINITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pustular vulvo-vaginitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PUSTULES&lt;a name=\&quot;necropsy-lesions-cs-PUSTULES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pustules&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RUMENAL_IMPACTION&lt;a name=\&quot;necropsy-lesions-cs-RUMENAL_IMPACTION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rumenal Impaction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RUMENITIS&lt;a name=\&quot;necropsy-lesions-cs-RUMENITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rumenitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RUPTURE_OF_ORGAN&lt;a name=\&quot;necropsy-lesions-cs-RUPTURE_OF_ORGAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rupture of organ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SCABS&lt;a name=\&quot;necropsy-lesions-cs-SCABS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scabs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEPTIC_METRITIS&lt;a name=\&quot;necropsy-lesions-cs-SEPTIC_METRITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Septic metritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEPTICAEMIA&lt;a name=\&quot;necropsy-lesions-cs-SEPTICAEMIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Septicaemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEQUESTERS&lt;a name=\&quot;necropsy-lesions-cs-SEQUESTERS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sequesters&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SPLENOMEGALY&lt;a name=\&quot;necropsy-lesions-cs-SPLENOMEGALY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SPLENOMEGALY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SUBCUTANEOUS_OEDEMA&lt;a name=\&quot;necropsy-lesions-cs-SUBCUTANEOUS_OEDEMA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Subcutaneous oedema&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TORSION&lt;a name=\&quot;necropsy-lesions-cs-TORSION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Torsion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TRACHEAL_FLUID&lt;a name=\&quot;necropsy-lesions-cs-TRACHEAL_FLUID\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tracheal fluid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ULCERS&lt;a name=\&quot;necropsy-lesions-cs-ULCERS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ulcers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VAGINITIS&lt;a name=\&quot;necropsy-lesions-cs-VAGINITIS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vaginitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WEALS&lt;a name=\&quot;necropsy-lesions-cs-WEALS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Weals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ZEBRA_STRIPE_GUT&lt;a name=\&quot;necropsy-lesions-cs-ZEBRA_STRIPE_GUT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Zebra stripe gut&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This  code system &lt;code&gt;https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ABOMASAL_IMPACTION&lt;a name=\"necropsy-lesions-cs-ABOMASAL_IMPACTION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abomasal Impaction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ABOMASITIS&lt;a name=\"necropsy-lesions-cs-ABOMASITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abomasitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ABSCESSATION&lt;a name=\"necropsy-lesions-cs-ABSCESSATION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abscessation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ADHESIONS&lt;a name=\"necropsy-lesions-cs-ADHESIONS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Adhesions&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ALOPECIA&lt;a name=\"necropsy-lesions-cs-ALOPECIA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Alopecia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ANAEMIA&lt;a name=\"necropsy-lesions-cs-ANAEMIA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Anaemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ASCITES&lt;a name=\"necropsy-lesions-cs-ASCITES\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ascites&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BLOAT&lt;a name=\"necropsy-lesions-cs-BLOAT\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bloat&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CATARRHAL_ENTERITIS&lt;a name=\"necropsy-lesions-cs-CATARRHAL_ENTERITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Catarrhal enteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CONGESTION&lt;a name=\"necropsy-lesions-cs-CONGESTION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Congestion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CONGESTION_IN_LUNG&lt;a name=\"necropsy-lesions-cs-CONGESTION_IN_LUNG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Congestion in lung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CONJUNCTIVITIS&lt;a name=\"necropsy-lesions-cs-CONJUNCTIVITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Conjunctivitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CYANOSIS&lt;a name=\"necropsy-lesions-cs-CYANOSIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cyanosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;DEHYDRATION&lt;a name=\"necropsy-lesions-cs-DEHYDRATION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dehydration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;EMACIATION&lt;a name=\"necropsy-lesions-cs-EMACIATION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Emaciation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ENCEPHALITIS&lt;a name=\"necropsy-lesions-cs-ENCEPHALITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Encephalitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ENCEPHALOMYELITIS&lt;a name=\"necropsy-lesions-cs-ENCEPHALOMYELITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Encephalomyelitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ENLARGED_GALL_BLADDER&lt;a name=\"necropsy-lesions-cs-ENLARGED_GALL_BLADDER\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enlarged gall bladder&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ENLARGED_LIVER&lt;a name=\"necropsy-lesions-cs-ENLARGED_LIVER\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enlarged Liver&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ENTERITIS&lt;a name=\"necropsy-lesions-cs-ENTERITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ERYTHEMA&lt;a name=\"necropsy-lesions-cs-ERYTHEMA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Erythema&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;FIBRINOUS_PLEURITIS&lt;a name=\"necropsy-lesions-cs-FIBRINOUS_PLEURITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fibrinous pleuritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;FIBRINOUS_PLEUROPNEUMONIA&lt;a name=\"necropsy-lesions-cs-FIBRINOUS_PLEUROPNEUMONIA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fibrinous Pleuropneumonia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;FOETAL_MACERATION&lt;a name=\"necropsy-lesions-cs-FOETAL_MACERATION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Foetal maceration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;FOETAL_MUMMIFICATION&lt;a name=\"necropsy-lesions-cs-FOETAL_MUMMIFICATION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Foetal mummification&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;GALLBLADDER_ENLARGED&lt;a name=\"necropsy-lesions-cs-GALLBLADDER_ENLARGED\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gallbladder enlarged&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;GASTRITIS&lt;a name=\"necropsy-lesions-cs-GASTRITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gastritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HAEMOPERITONEUM&lt;a name=\"necropsy-lesions-cs-HAEMOPERITONEUM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemoperitoneum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HAEMORRHAGES&lt;a name=\"necropsy-lesions-cs-HAEMORRHAGES\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhages&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HAEMORRHAGIC_ENTERITIS&lt;a name=\"necropsy-lesions-cs-HAEMORRHAGIC_ENTERITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhagic enteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HAEMORRHAGIC_GASTRITIS&lt;a name=\"necropsy-lesions-cs-HAEMORRHAGIC_GASTRITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhagic Gastritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HAEMORRHAGIC_GASTROENTERITIS&lt;a name=\"necropsy-lesions-cs-HAEMORRHAGIC_GASTROENTERITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemorrhagic gastroenteritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HAEMOTHORAX&lt;a name=\"necropsy-lesions-cs-HAEMOTHORAX\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Haemothorax&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HEART_ECCHYMOSES&lt;a name=\"necropsy-lesions-cs-HEART_ECCHYMOSES\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, ecchymoses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HEART_ENDOCARDITIS&lt;a name=\"necropsy-lesions-cs-HEART_ENDOCARDITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, endocarditis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HEART_ENLARGED&lt;a name=\"necropsy-lesions-cs-HEART_ENLARGED\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, enlarged&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HEART_INFARCTION&lt;a name=\"necropsy-lesions-cs-HEART_INFARCTION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, infarction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HEART_MYOCARDITIS&lt;a name=\"necropsy-lesions-cs-HEART_MYOCARDITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, myocarditis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HEART_PERICARDITIS&lt;a name=\"necropsy-lesions-cs-HEART_PERICARDITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Heart, pericarditis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HEPATOMEGALY&lt;a name=\"necropsy-lesions-cs-HEPATOMEGALY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hepatomegaly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HYDROTHORAX&lt;a name=\"necropsy-lesions-cs-HYDROTHORAX\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hydrothorax&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ICTERUS&lt;a name=\"necropsy-lesions-cs-ICTERUS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Icterus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;INTERDIGITAL_BLISTERS&lt;a name=\"necropsy-lesions-cs-INTERDIGITAL_BLISTERS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interdigital blisters&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;INTERDIGITAL_DERMATITIS&lt;a name=\"necropsy-lesions-cs-INTERDIGITAL_DERMATITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interdigital dermatitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;INTERDIGITAL_VESICLES&lt;a name=\"necropsy-lesions-cs-INTERDIGITAL_VESICLES\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interdigital vesicles&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;INTERNAL_BLEEDING&lt;a name=\"necropsy-lesions-cs-INTERNAL_BLEEDING\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Internal bleeding&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;INTUSSUSSEPTION&lt;a name=\"necropsy-lesions-cs-INTUSSUSSEPTION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intussusseption&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KIDNEY_INFARCTION&lt;a name=\"necropsy-lesions-cs-KIDNEY_INFARCTION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kidney, infarction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KIDNEY_NEPHRITIS&lt;a name=\"necropsy-lesions-cs-KIDNEY_NEPHRITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kidney, nephritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KIDNEY_PULPY&lt;a name=\"necropsy-lesions-cs-KIDNEY_PULPY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kidney, pulpy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LINGUAL_BLISTERS&lt;a name=\"necropsy-lesions-cs-LINGUAL_BLISTERS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lingual blisters&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LINGUAL_ULCERS&lt;a name=\"necropsy-lesions-cs-LINGUAL_ULCERS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lingual ulcers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LINGUAL_VESICLES&lt;a name=\"necropsy-lesions-cs-LINGUAL_VESICLES\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lingual vesicles&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LIVER_ENLARGED&lt;a name=\"necropsy-lesions-cs-LIVER_ENLARGED\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liver enlarged&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LIVER_PALE&lt;a name=\"necropsy-lesions-cs-LIVER_PALE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liver pale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LIVER_YELLOW&lt;a name=\"necropsy-lesions-cs-LIVER_YELLOW\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liver yellow&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LUMPS&lt;a name=\"necropsy-lesions-cs-LUMPS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lumps&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LUNG_ABSCESSATION&lt;a name=\"necropsy-lesions-cs-LUNG_ABSCESSATION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lung abscessation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LUNG_CONGESTION&lt;a name=\"necropsy-lesions-cs-LUNG_CONGESTION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lung congestion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LUNG_OEDEMA&lt;a name=\"necropsy-lesions-cs-LUNG_OEDEMA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lung Oedema&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LYMPHNODES_ENLARGED&lt;a name=\"necropsy-lesions-cs-LYMPHNODES_ENLARGED\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lymphnodes enlarged&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;METRITIS&lt;a name=\"necropsy-lesions-cs-METRITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Metritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MUCOPURULENT_PLEUROPNEUMONIA&lt;a name=\"necropsy-lesions-cs-MUCOPURULENT_PLEUROPNEUMONIA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mucopurulent pleuropneumonia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MUSCULAR_NECROSIS&lt;a name=\"necropsy-lesions-cs-MUSCULAR_NECROSIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscular Necrosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MUSCULAR_SWELLING&lt;a name=\"necropsy-lesions-cs-MUSCULAR_SWELLING\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscular swelling&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NODULES&lt;a name=\"necropsy-lesions-cs-NODULES\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nodules&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;OMASAL_IMPACTION&lt;a name=\"necropsy-lesions-cs-OMASAL_IMPACTION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Omasal Impaction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ORGAN_RUPTURE&lt;a name=\"necropsy-lesions-cs-ORGAN_RUPTURE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Organ-rupture&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;OTHER&lt;a name=\"necropsy-lesions-cs-OTHER\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Other&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PERITONITIS&lt;a name=\"necropsy-lesions-cs-PERITONITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Peritonitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PETECHIATION&lt;a name=\"necropsy-lesions-cs-PETECHIATION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Petechiation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PNEUMONIA&lt;a name=\"necropsy-lesions-cs-PNEUMONIA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pneumonia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PULMONARY_EMPHYSEMA&lt;a name=\"necropsy-lesions-cs-PULMONARY_EMPHYSEMA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pulmonary Emphysema&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PUSTULAR_VULVO_VAGINITIS&lt;a name=\"necropsy-lesions-cs-PUSTULAR_VULVO_VAGINITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pustular vulvo-vaginitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PUSTULES&lt;a name=\"necropsy-lesions-cs-PUSTULES\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pustules&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;RUMENAL_IMPACTION&lt;a name=\"necropsy-lesions-cs-RUMENAL_IMPACTION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rumenal Impaction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;RUMENITIS&lt;a name=\"necropsy-lesions-cs-RUMENITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rumenitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;RUPTURE_OF_ORGAN&lt;a name=\"necropsy-lesions-cs-RUPTURE_OF_ORGAN\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rupture of organ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SCABS&lt;a name=\"necropsy-lesions-cs-SCABS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scabs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SEPTIC_METRITIS&lt;a name=\"necropsy-lesions-cs-SEPTIC_METRITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Septic metritis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SEPTICAEMIA&lt;a name=\"necropsy-lesions-cs-SEPTICAEMIA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Septicaemia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SEQUESTERS&lt;a name=\"necropsy-lesions-cs-SEQUESTERS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sequesters&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SPLENOMEGALY&lt;a name=\"necropsy-lesions-cs-SPLENOMEGALY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SPLENOMEGALY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SUBCUTANEOUS_OEDEMA&lt;a name=\"necropsy-lesions-cs-SUBCUTANEOUS_OEDEMA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Subcutaneous oedema&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;TORSION&lt;a name=\"necropsy-lesions-cs-TORSION\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Torsion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;TRACHEAL_FLUID&lt;a name=\"necropsy-lesions-cs-TRACHEAL_FLUID\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tracheal fluid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ULCERS&lt;a name=\"necropsy-lesions-cs-ULCERS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ulcers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;VAGINITIS&lt;a name=\"necropsy-lesions-cs-VAGINITIS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vaginitis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;WEALS&lt;a name=\"necropsy-lesions-cs-WEALS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Weals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ZEBRA_STRIPE_GUT&lt;a name=\"necropsy-lesions-cs-ZEBRA_STRIPE_GUT\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Zebra stripe gut&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "NecropsyLesionsCS",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Necropsy Lesions Code System",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-04-22T10:30:53+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-04-22T11:02:38+00:00",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "DHIS2",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
     {
@@ -597,58 +614,58 @@
 }</code></pre>
 
 
-  <!-- insert notes if present -->
+    <!-- insert notes if present -->
   
 
 
 
 </div>
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
 
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 22, 2024 10:30+0000">2024-04-22</span>
+          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 22, 2024 11:02+0000">2024-04-22</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)">
+          <span style="color: var(--footer-highlight-text-color)"><a name="l991">​</a>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
+| <a style="color: #81BEF7" href="https://dhis2.org/fhir/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
           </span>
         </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
   
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
   
-  <!-- Analytics Below
+    <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
-

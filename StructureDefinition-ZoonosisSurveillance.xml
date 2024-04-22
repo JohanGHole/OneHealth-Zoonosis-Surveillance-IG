@@ -32,7 +32,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <name value="ZoonosisSurveillance"/>
   <title value="Logical Model - Zoonosis Surveillance"/>
   <status value="draft"/>
-  <date value="2024-04-22T10:30:53+00:00"/>
+  <date value="2024-04-22T11:02:38+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>

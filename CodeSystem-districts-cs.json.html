@@ -1,41 +1,41 @@
-
-
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Districts Code System - JSON Representation - OneHealth - Zoonosis Surveillance IG v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link href="fhir.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/colors.css"/>
 
-    <!-- Project extras -->
-    <link href="assets/css/project.css" rel="stylesheet"/>
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
-<!-- Placeholder for child template CSS declarations -->
-<link href="assets/css/colors.css" rel="stylesheet"/>
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 
-    <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -45,29 +45,76 @@
 
     <style type="text/css">h2{--heading-prefix:"2.43"}
     h3,h4,h5,h6{--heading-prefix:"2.43"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
-        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option disabled="null" selected="null">Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+          <!-- Left logo - typically the publisher's logo - project or affiliate -->
 <div id="project-nav">
-    <a id="project-logo" no-external="true" href="https://dhis2.org/integration/fhir/">
-      <img height="60" alt="Project home" src="assets/images/dhis2.png"/>
+    <a no-external="true" id="project-logo" href="https://dhis2.org/integration/fhir/">
+      <img src="assets/images/dhis2.png" alt="Project home" height="60"/>
     </a>
   </div>
 
-<!-- Right logo - for example the FHIR logo -->
-<!-- Make sure you have authorization to use the FHIR logo -->
+  <!-- Right logo - for example the FHIR logo -->
+  <!-- Make sure you have authorization to use the FHIR logo -->
   <div id="family-nav">
-    <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="80" alt="FHIR website" src="assets/images/fhir.png"/> </a>
+    <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="80"/> </a>
   </div>
 
-<!-- search icon - if you want -->
-<!--
-  <div id="hl7-search">
+  <!-- search icon - if you want -->
+  <!-- <div id="hl7-search">
     <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-  </div>
--->
+  </div> -->
 
-        <div id="ig-status">
+        <div id="ig-status" class="ig-status-draft">
           <p><span style="font-size:12pt;font-weight:bold">OneHealth - Zoonosis Surveillance IG</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - draft
@@ -76,59 +123,29 @@
             </span>
           </p>
         </div>
-      </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
-      <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
 
-        <nav class="navbar navbar-inverse">
-          <!--status-bar-->
-          <div class="container">
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
-              <span class="icon-bar"> </span>
-              <span class="icon-bar"> </span>
-              <span class="icon-bar"> </span>
-            </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
-            <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- menu.xml  -->
+      <!-- status-bar -->
 
-<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li>
-    <a href="index.html">Home</a>
-  </li>
-  <li>
-    <a href="artifacts.html">Artifacts</a>
-  </li>
-</ul>
-            </div>  <!-- /.nav-collapse -->
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
-
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Districts Code System</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Districts Code System</b></li>
 
         </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!-- ReleaseHeader --><p id="publish-box">OneHealth - Zoonosis Surveillance IG - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://dhis2.org/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
 
 
@@ -192,27 +209,27 @@
   </table>
 
 
-<p><a href="CodeSystem-districts-cs.json" no-download="true">Raw json</a> | <a href="CodeSystem-districts-cs.json" download>Download</a></p>
+<p><a href="CodeSystem-districts-cs.json" no-download="true">Raw json</a> | <a download="null" href="CodeSystem-districts-cs.json">Download</a></p>
 
-  <!-- insert intro if present -->
+    <!-- insert intro if present -->
   
 
 
 
-  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code style="white-space: pre; text-wrap: nowrap;">
+  <pre style="white-space: pre; text-wrap: nowrap;" class="json"><code style="white-space: pre; text-wrap: nowrap;">
 {
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "districts-cs",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This  code system &lt;code&gt;https://dhis2.org/fhir/CodeSystem/districts-cs&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ATSAPHANGTHONG&lt;a name=\&quot;districts-cs-ATSAPHANGTHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atsaphangthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ATSAPHONE&lt;a name=\&quot;districts-cs-ATSAPHONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atsaphone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BACHIANGCHALEUNSOOK&lt;a name=\&quot;districts-cs-BACHIANGCHALEUNSOOK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bachiangchaleunsook&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BENG&lt;a name=\&quot;districts-cs-BENG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Beng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOLIKHANH&lt;a name=\&quot;districts-cs-BOLIKHANH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bolikhanh&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOON_NEUA&lt;a name=\&quot;districts-cs-BOON_NEUA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Boon Neua&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOONTAI&lt;a name=\&quot;districts-cs-BOONTAI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Boontai&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOTENE&lt;a name=\&quot;districts-cs-BOTENE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Botene&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BUALAPHA&lt;a name=\&quot;districts-cs-BUALAPHA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bualapha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHAMPASSACK&lt;a name=\&quot;districts-cs-CHAMPASSACK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Champassack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHAMPHONE&lt;a name=\&quot;districts-cs-CHAMPHONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Champhone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHANTHABULY&lt;a name=\&quot;districts-cs-CHANTHABULY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chanthabuly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CHOMPHET&lt;a name=\&quot;districts-cs-CHOMPHET\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chomphet&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DAKCHEUNG&lt;a name=\&quot;districts-cs-DAKCHEUNG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dakcheung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FEUANG&lt;a name=\&quot;districts-cs-FEUANG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Feuang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HADXAIFONG&lt;a name=\&quot;districts-cs-HADXAIFONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hadxaifong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HINBOON&lt;a name=\&quot;districts-cs-HINBOON\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hinboon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HINHURP&lt;a name=\&quot;districts-cs-HINHURP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hinhurp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HOM&lt;a name=\&quot;districts-cs-HOM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HONGSA&lt;a name=\&quot;districts-cs-HONGSA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hongsa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HOON&lt;a name=\&quot;districts-cs-HOON\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hoon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HOUIXAI&lt;a name=\&quot;districts-cs-HOUIXAI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Houixai&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HUAMEUANG&lt;a name=\&quot;districts-cs-HUAMEUANG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Huameuang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KALEUM&lt;a name=\&quot;districts-cs-KALEUM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kaleum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KASY&lt;a name=\&quot;districts-cs-KASY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kasy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KAYSONE_PHOMVIHANE&lt;a name=\&quot;districts-cs-KAYSONE_PHOMVIHANE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kaysone Phomvihane&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KENETHAO&lt;a name=\&quot;districts-cs-KENETHAO\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kenethao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KEO_OUDOM&lt;a name=\&quot;districts-cs-KEO_OUDOM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Keo Oudom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KHAM&lt;a name=\&quot;districts-cs-KHAM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kham&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KHAMKHEUTH&lt;a name=\&quot;districts-cs-KHAMKHEUTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khamkheuth&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KHONGXEDONE&lt;a name=\&quot;districts-cs-KHONGXEDONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khongxedone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KHOP&lt;a name=\&quot;districts-cs-KHOP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khop&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KHOUNE&lt;a name=\&quot;districts-cs-KHOUNE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khoune&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KHUA&lt;a name=\&quot;districts-cs-KHUA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khua&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LA&lt;a name=\&quot;districts-cs-LA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;La&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LAKHONEPHENG&lt;a name=\&quot;districts-cs-LAKHONEPHENG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lakhonepheng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LAMARM&lt;a name=\&quot;districts-cs-LAMARM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lamarm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LAO_NGARM&lt;a name=\&quot;districts-cs-LAO_NGARM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lao Ngarm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LOUANGPHRABANG&lt;a name=\&quot;districts-cs-LOUANGPHRABANG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Louangphrabang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MAD&lt;a name=\&quot;districts-cs-MAD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mad&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MAHAXAY&lt;a name=\&quot;districts-cs-MAHAXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mahaxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MAY&lt;a name=\&quot;districts-cs-MAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;May&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MAYPARKNGUM&lt;a name=\&quot;districts-cs-MAYPARKNGUM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mayparkngum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MEUNG&lt;a name=\&quot;districts-cs-MEUNG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Meung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MOONLAPAMOK&lt;a name=\&quot;districts-cs-MOONLAPAMOK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Moonlapamok&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MORKMAY&lt;a name=\&quot;districts-cs-MORKMAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Morkmay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MUANG_ET&lt;a name=\&quot;districts-cs-MUANG_ET\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muang Et&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NAKAI&lt;a name=\&quot;districts-cs-NAKAI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nakai&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NALAE&lt;a name=\&quot;districts-cs-NALAE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nalae&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NAMBAK&lt;a name=\&quot;districts-cs-NAMBAK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nambak&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NAMOR&lt;a name=\&quot;districts-cs-NAMOR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Namor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NAMTHA&lt;a name=\&quot;districts-cs-NAMTHA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Namtha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NAN&lt;a name=\&quot;districts-cs-NAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nan&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NAXAITHONG&lt;a name=\&quot;districts-cs-NAXAITHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Naxaithong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NGA&lt;a name=\&quot;districts-cs-NGA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nga&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NGEUN&lt;a name=\&quot;districts-cs-NGEUN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ngeun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NGOI&lt;a name=\&quot;districts-cs-NGOI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ngoi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NHOMMALATH&lt;a name=\&quot;districts-cs-NHOMMALATH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nhommalath&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NHOT_OU&lt;a name=\&quot;districts-cs-NHOT_OU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nhot Ou&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NONG&lt;a name=\&quot;districts-cs-NONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NONGBOK&lt;a name=\&quot;districts-cs-NONGBOK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nongbok&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NONGHED&lt;a name=\&quot;districts-cs-NONGHED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nonghed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OUTHOOMPHONE&lt;a name=\&quot;districts-cs-OUTHOOMPHONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Outhoomphone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAK_XENG&lt;a name=\&quot;districts-cs-PAK_XENG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pak Xeng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAKBENG&lt;a name=\&quot;districts-cs-PAKBENG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pakbeng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAKKADING&lt;a name=\&quot;districts-cs-PAKKADING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pakkading&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAKSANE&lt;a name=\&quot;districts-cs-PAKSANE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Paksane&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAKSONG&lt;a name=\&quot;districts-cs-PAKSONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Paksong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAKTHA&lt;a name=\&quot;districts-cs-PAKTHA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Paktha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAKXE&lt;a name=\&quot;districts-cs-PAKXE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pakxe&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PARK_OU&lt;a name=\&quot;districts-cs-PARK_OU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Park Ou&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PARKLAI&lt;a name=\&quot;districts-cs-PARKLAI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Parklai&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PATHOOMPHONE&lt;a name=\&quot;districts-cs-PATHOOMPHONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pathoomphone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PEK&lt;a name=\&quot;districts-cs-PEK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pek&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHA_OUDOM&lt;a name=\&quot;districts-cs-PHA_OUDOM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pha Oudom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHAXAY&lt;a name=\&quot;districts-cs-PHAXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phaxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHIANG&lt;a name=\&quot;districts-cs-PHIANG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phiang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHINE&lt;a name=\&quot;districts-cs-PHINE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHONGSALY&lt;a name=\&quot;districts-cs-PHONGSALY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phongsaly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHONHONG&lt;a name=\&quot;districts-cs-PHONHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phonhong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHONTHONG&lt;a name=\&quot;districts-cs-PHONTHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phonthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHONXAY&lt;a name=\&quot;districts-cs-PHONXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phonxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHOOKOOD&lt;a name=\&quot;districts-cs-PHOOKOOD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phookood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHOUKHOUNE&lt;a name=\&quot;districts-cs-PHOUKHOUNE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phoukhoune&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHOUVONG&lt;a name=\&quot;districts-cs-PHOUVONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phouvong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SAMAKKHIXAY&lt;a name=\&quot;districts-cs-SAMAKKHIXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Samakkhixay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SAMPHANH&lt;a name=\&quot;districts-cs-SAMPHANH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Samphanh&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SAMUOI&lt;a name=\&quot;districts-cs-SAMUOI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Samuoi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SANAMXAY&lt;a name=\&quot;districts-cs-SANAMXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sanamxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SANASOMBOON&lt;a name=\&quot;districts-cs-SANASOMBOON\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sanasomboon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SANGTHONG&lt;a name=\&quot;districts-cs-SANGTHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sangthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SANXAY&lt;a name=\&quot;districts-cs-SANXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sanxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SARAVANE&lt;a name=\&quot;districts-cs-SARAVANE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Saravane&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEPONE&lt;a name=\&quot;districts-cs-SEPONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sepone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SIKHOTTABONG&lt;a name=\&quot;districts-cs-SIKHOTTABONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sikhottabong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SING&lt;a name=\&quot;districts-cs-SING\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SISATTANAK&lt;a name=\&quot;districts-cs-SISATTANAK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sisattanak&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SONGKHONE&lt;a name=\&quot;districts-cs-SONGKHONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Songkhone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SOPBAO&lt;a name=\&quot;districts-cs-SOPBAO\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sopbao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SUKHUMA&lt;a name=\&quot;districts-cs-SUKHUMA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sukhuma&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TA_OI&lt;a name=\&quot;districts-cs-TA_OI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ta Oi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THAKHEK&lt;a name=\&quot;districts-cs-THAKHEK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thakhek&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THAPANGTHONG&lt;a name=\&quot;districts-cs-THAPANGTHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thapangthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THAPHABATH&lt;a name=\&quot;districts-cs-THAPHABATH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thaphabath&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THAPHALANXAY&lt;a name=\&quot;districts-cs-THAPHALANXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thaphalanxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THATENG&lt;a name=\&quot;districts-cs-THATENG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thateng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THATHOM&lt;a name=\&quot;districts-cs-THATHOM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thathom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THONGMYXAY&lt;a name=\&quot;districts-cs-THONGMYXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thongmyxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;THOULAKHOM&lt;a name=\&quot;districts-cs-THOULAKHOM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thoulakhom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TONPHEUNG&lt;a name=\&quot;districts-cs-TONPHEUNG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tonpheung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TOOMLARN&lt;a name=\&quot;districts-cs-TOOMLARN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Toomlarn&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VANGVIENG&lt;a name=\&quot;districts-cs-VANGVIENG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vangvieng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VAPY&lt;a name=\&quot;districts-cs-VAPY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vapy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIENGKHAM&lt;a name=\&quot;districts-cs-VIENGKHAM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viengkham&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIENGPHOUKHA&lt;a name=\&quot;districts-cs-VIENGPHOUKHA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viengphoukha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIENGTHONG&lt;a name=\&quot;districts-cs-VIENGTHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viengthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VIENGXAY&lt;a name=\&quot;districts-cs-VIENGXAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viengxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VILABULY&lt;a name=\&quot;districts-cs-VILABULY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vilabuly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAMNEUA&lt;a name=\&quot;districts-cs-XAMNEUA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xamneua&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAMTAY&lt;a name=\&quot;districts-cs-XAMTAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xamtay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XANAKHARM&lt;a name=\&quot;districts-cs-XANAKHARM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xanakharm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAY&lt;a name=\&quot;districts-cs-XAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAYABURY&lt;a name=\&quot;districts-cs-XAYABURY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xayabury&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAYBUATHONG&lt;a name=\&quot;districts-cs-XAYBUATHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaybuathong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAYBULY&lt;a name=\&quot;districts-cs-XAYBULY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaybuly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAYPHOOTHONG&lt;a name=\&quot;districts-cs-XAYPHOOTHONG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xayphoothong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAYSETHA&lt;a name=\&quot;districts-cs-XAYSETHA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaysetha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAYSOMBOUN&lt;a name=\&quot;districts-cs-XAYSOMBOUN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaysomboun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XAYTHANY&lt;a name=\&quot;districts-cs-XAYTHANY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaythany&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XEBANGFAY&lt;a name=\&quot;districts-cs-XEBANGFAY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xebangfay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XIENG_NGEUN&lt;a name=\&quot;districts-cs-XIENG_NGEUN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xieng Ngeun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XIENGHONE&lt;a name=\&quot;districts-cs-XIENGHONE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xienghone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XIENGKHOR&lt;a name=\&quot;districts-cs-XIENGKHOR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xiengkhor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;XONBULY&lt;a name=\&quot;districts-cs-XONBULY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xonbuly&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This  code system &lt;code&gt;https://dhis2.org/fhir/CodeSystem/districts-cs&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ATSAPHANGTHONG&lt;a name=\"districts-cs-ATSAPHANGTHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atsaphangthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ATSAPHONE&lt;a name=\"districts-cs-ATSAPHONE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atsaphone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BACHIANGCHALEUNSOOK&lt;a name=\"districts-cs-BACHIANGCHALEUNSOOK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bachiangchaleunsook&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BENG&lt;a name=\"districts-cs-BENG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Beng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BOLIKHANH&lt;a name=\"districts-cs-BOLIKHANH\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bolikhanh&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BOON_NEUA&lt;a name=\"districts-cs-BOON_NEUA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Boon Neua&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BOONTAI&lt;a name=\"districts-cs-BOONTAI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Boontai&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BOTENE&lt;a name=\"districts-cs-BOTENE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Botene&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BUALAPHA&lt;a name=\"districts-cs-BUALAPHA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bualapha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CHAMPASSACK&lt;a name=\"districts-cs-CHAMPASSACK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Champassack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CHAMPHONE&lt;a name=\"districts-cs-CHAMPHONE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Champhone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CHANTHABULY&lt;a name=\"districts-cs-CHANTHABULY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chanthabuly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CHOMPHET&lt;a name=\"districts-cs-CHOMPHET\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chomphet&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;DAKCHEUNG&lt;a name=\"districts-cs-DAKCHEUNG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dakcheung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;FEUANG&lt;a name=\"districts-cs-FEUANG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Feuang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HADXAIFONG&lt;a name=\"districts-cs-HADXAIFONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hadxaifong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HINBOON&lt;a name=\"districts-cs-HINBOON\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hinboon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HINHURP&lt;a name=\"districts-cs-HINHURP\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hinhurp&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HOM&lt;a name=\"districts-cs-HOM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HONGSA&lt;a name=\"districts-cs-HONGSA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hongsa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HOON&lt;a name=\"districts-cs-HOON\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hoon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HOUIXAI&lt;a name=\"districts-cs-HOUIXAI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Houixai&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HUAMEUANG&lt;a name=\"districts-cs-HUAMEUANG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Huameuang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KALEUM&lt;a name=\"districts-cs-KALEUM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kaleum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KASY&lt;a name=\"districts-cs-KASY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kasy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KAYSONE_PHOMVIHANE&lt;a name=\"districts-cs-KAYSONE_PHOMVIHANE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kaysone Phomvihane&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KENETHAO&lt;a name=\"districts-cs-KENETHAO\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kenethao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KEO_OUDOM&lt;a name=\"districts-cs-KEO_OUDOM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Keo Oudom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KHAM&lt;a name=\"districts-cs-KHAM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kham&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KHAMKHEUTH&lt;a name=\"districts-cs-KHAMKHEUTH\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khamkheuth&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KHONGXEDONE&lt;a name=\"districts-cs-KHONGXEDONE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khongxedone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KHOP&lt;a name=\"districts-cs-KHOP\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khop&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KHOUNE&lt;a name=\"districts-cs-KHOUNE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khoune&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;KHUA&lt;a name=\"districts-cs-KHUA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Khua&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LA&lt;a name=\"districts-cs-LA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;La&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LAKHONEPHENG&lt;a name=\"districts-cs-LAKHONEPHENG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lakhonepheng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LAMARM&lt;a name=\"districts-cs-LAMARM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lamarm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LAO_NGARM&lt;a name=\"districts-cs-LAO_NGARM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lao Ngarm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LOUANGPHRABANG&lt;a name=\"districts-cs-LOUANGPHRABANG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Louangphrabang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MAD&lt;a name=\"districts-cs-MAD\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mad&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MAHAXAY&lt;a name=\"districts-cs-MAHAXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mahaxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MAY&lt;a name=\"districts-cs-MAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;May&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MAYPARKNGUM&lt;a name=\"districts-cs-MAYPARKNGUM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mayparkngum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MEUNG&lt;a name=\"districts-cs-MEUNG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Meung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MOONLAPAMOK&lt;a name=\"districts-cs-MOONLAPAMOK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Moonlapamok&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MORKMAY&lt;a name=\"districts-cs-MORKMAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Morkmay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MUANG_ET&lt;a name=\"districts-cs-MUANG_ET\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muang Et&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NAKAI&lt;a name=\"districts-cs-NAKAI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nakai&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NALAE&lt;a name=\"districts-cs-NALAE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nalae&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NAMBAK&lt;a name=\"districts-cs-NAMBAK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nambak&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NAMOR&lt;a name=\"districts-cs-NAMOR\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Namor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NAMTHA&lt;a name=\"districts-cs-NAMTHA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Namtha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NAN&lt;a name=\"districts-cs-NAN\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nan&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NAXAITHONG&lt;a name=\"districts-cs-NAXAITHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Naxaithong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NGA&lt;a name=\"districts-cs-NGA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nga&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NGEUN&lt;a name=\"districts-cs-NGEUN\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ngeun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NGOI&lt;a name=\"districts-cs-NGOI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ngoi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NHOMMALATH&lt;a name=\"districts-cs-NHOMMALATH\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nhommalath&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NHOT_OU&lt;a name=\"districts-cs-NHOT_OU\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nhot Ou&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NONG&lt;a name=\"districts-cs-NONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NONGBOK&lt;a name=\"districts-cs-NONGBOK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nongbok&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;NONGHED&lt;a name=\"districts-cs-NONGHED\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nonghed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;OUTHOOMPHONE&lt;a name=\"districts-cs-OUTHOOMPHONE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Outhoomphone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PAK_XENG&lt;a name=\"districts-cs-PAK_XENG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pak Xeng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PAKBENG&lt;a name=\"districts-cs-PAKBENG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pakbeng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PAKKADING&lt;a name=\"districts-cs-PAKKADING\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pakkading&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PAKSANE&lt;a name=\"districts-cs-PAKSANE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Paksane&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PAKSONG&lt;a name=\"districts-cs-PAKSONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Paksong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PAKTHA&lt;a name=\"districts-cs-PAKTHA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Paktha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PAKXE&lt;a name=\"districts-cs-PAKXE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pakxe&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PARK_OU&lt;a name=\"districts-cs-PARK_OU\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Park Ou&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PARKLAI&lt;a name=\"districts-cs-PARKLAI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Parklai&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PATHOOMPHONE&lt;a name=\"districts-cs-PATHOOMPHONE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pathoomphone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PEK&lt;a name=\"districts-cs-PEK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pek&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHA_OUDOM&lt;a name=\"districts-cs-PHA_OUDOM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pha Oudom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHAXAY&lt;a name=\"districts-cs-PHAXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phaxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHIANG&lt;a name=\"districts-cs-PHIANG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phiang&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHINE&lt;a name=\"districts-cs-PHINE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHONGSALY&lt;a name=\"districts-cs-PHONGSALY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phongsaly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHONHONG&lt;a name=\"districts-cs-PHONHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phonhong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHONTHONG&lt;a name=\"districts-cs-PHONTHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phonthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHONXAY&lt;a name=\"districts-cs-PHONXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phonxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHOOKOOD&lt;a name=\"districts-cs-PHOOKOOD\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phookood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHOUKHOUNE&lt;a name=\"districts-cs-PHOUKHOUNE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phoukhoune&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHOUVONG&lt;a name=\"districts-cs-PHOUVONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phouvong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SAMAKKHIXAY&lt;a name=\"districts-cs-SAMAKKHIXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Samakkhixay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SAMPHANH&lt;a name=\"districts-cs-SAMPHANH\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Samphanh&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SAMUOI&lt;a name=\"districts-cs-SAMUOI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Samuoi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SANAMXAY&lt;a name=\"districts-cs-SANAMXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sanamxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SANASOMBOON&lt;a name=\"districts-cs-SANASOMBOON\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sanasomboon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SANGTHONG&lt;a name=\"districts-cs-SANGTHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sangthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SANXAY&lt;a name=\"districts-cs-SANXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sanxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SARAVANE&lt;a name=\"districts-cs-SARAVANE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Saravane&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SEPONE&lt;a name=\"districts-cs-SEPONE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sepone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SIKHOTTABONG&lt;a name=\"districts-cs-SIKHOTTABONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sikhottabong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SING&lt;a name=\"districts-cs-SING\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SISATTANAK&lt;a name=\"districts-cs-SISATTANAK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sisattanak&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SONGKHONE&lt;a name=\"districts-cs-SONGKHONE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Songkhone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SOPBAO&lt;a name=\"districts-cs-SOPBAO\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sopbao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SUKHUMA&lt;a name=\"districts-cs-SUKHUMA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sukhuma&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;TA_OI&lt;a name=\"districts-cs-TA_OI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ta Oi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;THAKHEK&lt;a name=\"districts-cs-THAKHEK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thakhek&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;THAPANGTHONG&lt;a name=\"districts-cs-THAPANGTHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thapangthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;THAPHABATH&lt;a name=\"districts-cs-THAPHABATH\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thaphabath&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;THAPHALANXAY&lt;a name=\"districts-cs-THAPHALANXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thaphalanxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;THATENG&lt;a name=\"districts-cs-THATENG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thateng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;THATHOM&lt;a name=\"districts-cs-THATHOM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thathom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;THONGMYXAY&lt;a name=\"districts-cs-THONGMYXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thongmyxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;THOULAKHOM&lt;a name=\"districts-cs-THOULAKHOM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thoulakhom&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;TONPHEUNG&lt;a name=\"districts-cs-TONPHEUNG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tonpheung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;TOOMLARN&lt;a name=\"districts-cs-TOOMLARN\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Toomlarn&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;VANGVIENG&lt;a name=\"districts-cs-VANGVIENG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vangvieng&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;VAPY&lt;a name=\"districts-cs-VAPY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vapy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;VIENGKHAM&lt;a name=\"districts-cs-VIENGKHAM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viengkham&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;VIENGPHOUKHA&lt;a name=\"districts-cs-VIENGPHOUKHA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viengphoukha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;VIENGTHONG&lt;a name=\"districts-cs-VIENGTHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viengthong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;VIENGXAY&lt;a name=\"districts-cs-VIENGXAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viengxay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;VILABULY&lt;a name=\"districts-cs-VILABULY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vilabuly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAMNEUA&lt;a name=\"districts-cs-XAMNEUA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xamneua&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAMTAY&lt;a name=\"districts-cs-XAMTAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xamtay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XANAKHARM&lt;a name=\"districts-cs-XANAKHARM\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xanakharm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAY&lt;a name=\"districts-cs-XAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAYABURY&lt;a name=\"districts-cs-XAYABURY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xayabury&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAYBUATHONG&lt;a name=\"districts-cs-XAYBUATHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaybuathong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAYBULY&lt;a name=\"districts-cs-XAYBULY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaybuly&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAYPHOOTHONG&lt;a name=\"districts-cs-XAYPHOOTHONG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xayphoothong&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAYSETHA&lt;a name=\"districts-cs-XAYSETHA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaysetha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAYSOMBOUN&lt;a name=\"districts-cs-XAYSOMBOUN\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaysomboun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XAYTHANY&lt;a name=\"districts-cs-XAYTHANY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xaythany&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XEBANGFAY&lt;a name=\"districts-cs-XEBANGFAY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xebangfay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XIENG_NGEUN&lt;a name=\"districts-cs-XIENG_NGEUN\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xieng Ngeun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XIENGHONE&lt;a name=\"districts-cs-XIENGHONE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xienghone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XIENGKHOR&lt;a name=\"districts-cs-XIENGKHOR\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xiengkhor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;XONBULY&lt;a name=\"districts-cs-XONBULY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Xonbuly&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "DistrictsCS",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Districts Code System",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-04-22T10:30:53+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-04-22T11:02:38+00:00",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "DHIS2",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
     {
@@ -773,58 +790,58 @@
 }</code></pre>
 
 
-  <!-- insert notes if present -->
+    <!-- insert notes if present -->
   
 
 
 
 </div>
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
 
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 22, 2024 10:30+0000">2024-04-22</span>
+          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package zoonosis-surveillance-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 22, 2024 11:02+0000">2024-04-22</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)">
+          <span style="color: var(--footer-highlight-text-color)"><a name="l1255">​</a>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
+| <a style="color: #81BEF7" href="https://dhis2.org/fhir/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
           </span>
         </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
   
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
   
-  <!-- Analytics Below
+    <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
-

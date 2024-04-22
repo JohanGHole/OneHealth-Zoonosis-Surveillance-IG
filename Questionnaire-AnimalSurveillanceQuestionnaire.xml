@@ -37,6 +37,246 @@
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" id="item.comment" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> comment</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">General Comments</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
+  <contained>
+    <ValueSet>
+      <id value="animal-class-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/animal-class-vs"/>
+      <name value="AnimalClassVS"/>
+      <title value="Animal Class Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for classifying types of animals."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/animal-class-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="animal-species-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/animal-species-vs"/>
+      <name value="AnimalSpeciesVS"/>
+      <title value="Animal Species Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for various animal species."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/animal-species-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="animal-type-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/animal-type-vs"/>
+      <name value="AnimalTypeVS"/>
+      <title value="Animal Type Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for types of animals."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/animal-type-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="yes-no-unknown-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs"/>
+      <name value="YesNoUnknownVS"/>
+      <title value="Yes/No/Unknown Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for yes, no, and unknown responses."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="production-system-one-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/production-system-one-vs"/>
+      <name value="ProductionSystemOneVS"/>
+      <title value="Production System One Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for production system one."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/production-system-one-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="production-system-two-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/production-system-two-vs"/>
+      <name value="ProductionSystemTwoVS"/>
+      <title value="Production System Two Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for production system two."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/production-system-two-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="clinical-signs-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/clinical-signs-vs"/>
+      <name value="ClinicalSignsVS"/>
+      <title value="Clinical Signs Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for clinical signs."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/clinical-signs-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="necropsy-lesions-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs"/>
+      <name value="NecropsyLesionsVS"/>
+      <title value="Necropsy Lesions Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for necropsy lesions."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="surveillance-type-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/surveillance-type-vs"/>
+      <name value="SurveillanceTypeVS"/>
+      <title value="Surveillance Type Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for surveillance types."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/surveillance-type-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="infection-source-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/infection-source-vs"/>
+      <name value="InfectionSourceVS"/>
+      <title value="Infection Source Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for infection source."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/infection-source-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="diseases-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/diseases-vs"/>
+      <name value="DiseasesVS"/>
+      <title value="Diseases Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for diseases."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/diseases-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="disease-status-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/disease-status-vs"/>
+      <name value="DiseaseStatusVS"/>
+      <title value="Disease Status Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for diagnostic status."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="disease-subtype-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/disease-subtype-vs"/>
+      <name value="DiseaseSubtypeVS"/>
+      <title value="Disease Subtype Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for disease subtypes."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/disease-subtype-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="clade-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/clade-vs"/>
+      <name value="CladeVS"/>
+      <title value="Clade Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for clade."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/clade-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="diagnosis-basis-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs"/>
+      <name value="DiagnosisBasisVS"/>
+      <title value="Diagnosis Basis Value Set"/>
+      <status value="draft"/>
+      <description value="value set for diagnosis basis."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
+  <contained>
+    <ValueSet>
+      <id value="diagnostic-source-vs"/>
+      <url value="https://dhis2.org/fhir/ValueSet/diagnostic-source-vs"/>
+      <name value="DiagnosticSourceVS"/>
+      <title value="Diagnostic Source Value Set"/>
+      <status value="draft"/>
+      <description value="Value set for diagnostic source."/>
+      <compose>
+        <include>
+          <system value="https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs"/>
+        </include>
+      </compose>
+    </ValueSet>
+  </contained>
   <url value="https://dhis2.org/fhir/Questionnaire/AnimalSurveillanceQuestionnaire"/>
   <version value="0.1.0"/>
   <name value="AnimalSurveillanceQuestionnaire"/>
