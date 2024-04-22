@@ -31,6 +31,24 @@ Description: "A questionnaire instance adapted for capturing detailed animal sur
 * item[=].item[=].answerValueSet = "https://dhis2.org/fhir/ValueSet/animal-class-vs"
 * item[=].item[=].prefix = "2.1"
 
+* contained[+] = AnimalClassVS
+* contained[+] = AnimalSpeciesVS
+* contained[+] = AnimalTypeVS
+* contained[+] = YesNoUnknownVS
+* contained[+] = ProductionSystemOneVS
+* contained[+] = ProductionSystemTwoVS
+* contained[+] = ClinicalSignsVS
+* contained[+] = NecropsyLesionsVS
+* contained[+] = SurveillanceTypeVS
+* contained[+] = InfectionSourceVS
+* contained[+] = DiseasesVS
+* contained[+] = DiseaseStatusVS
+* contained[+] = DiseaseSubtypeVS
+* contained[+] = CladeVS
+* contained[+] = DiagnosisBasisVS
+* contained[+] = DiagnosticSourceVS
+
+
 * item[=].item[+].type = #choice
 * item[=].item[=].linkId = "animalSpecies"
 * item[=].item[=].text = "Animal Species"

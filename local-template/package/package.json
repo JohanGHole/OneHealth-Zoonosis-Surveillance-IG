@@ -5,8 +5,8 @@
     "license": "CC0-1.0",
     "description": "Local template extension for FHIR IG",
     "author" : "DHIS2",
-    "base" : "fhir.base.template",
+    "base" : "who.template.root",
     "dependencies" : {
-      "fhir.base.template" : "current"
+      "who.template.root" : "current"
     }
   }
