@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: zoonosis-surveillance-ig
-canonical: https://example.org/fhir
+canonical: https://dhis2.org/fhir
 name: OneHealth - Zoonosis Surveillance IG
 title: OneHealth - Zoonosis Surveillance IG
 description: Content IG for the OneHealth-Zoonosis-Surveillance DHIS2 Tracker program.
