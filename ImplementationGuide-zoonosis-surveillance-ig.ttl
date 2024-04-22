@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig> a fhir:ImplementationGuide ;
+<https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "zoonosis-surveillance-ig"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>OneHealthZoonosisSurveillanceIG</h2><p>The official URL for this implementation guide is: </p><pre>https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig</pre><div><p>Content IG for the OneHealth-Zoonosis-Surveillance DHIS2 Tracker program.</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>OneHealthZoonosisSurveillanceIG</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig</pre><div><p>Content IG for the OneHealth-Zoonosis-Surveillance DHIS2 Tracker program.</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "OneHealthZoonosisSurveillanceIG"] ; # 
   fhir:title [ fhir:v "OneHealth - Zoonosis Surveillance IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-17T13:33:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-22T10:30:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -44,7 +44,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "5.3.0" ]
+     fhir:version [ fhir:v "5.5.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -146,7 +146,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "https://example.org/fhir/history.html" ]
+         fhir:value [ fhir:v "https://dhis2.org/fhir/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -374,7 +374,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "https://example.org/fhir/history.html" ]
+         fhir:value [ fhir:v "https://dhis2.org/fhir/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -519,7 +519,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/animal-class-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/animal-class-cs> ;
          fhir:reference [ fhir:v "CodeSystem/animal-class-cs" ]
        ] ;
        fhir:name [ fhir:v "Animal Class Code System" ] ;
@@ -531,7 +531,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/animal-class-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/animal-class-vs> ;
          fhir:reference [ fhir:v "ValueSet/animal-class-vs" ]
        ] ;
        fhir:name [ fhir:v "Animal Class Value Set" ] ;
@@ -543,7 +543,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/animal-species-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/animal-species-cs> ;
          fhir:reference [ fhir:v "CodeSystem/animal-species-cs" ]
        ] ;
        fhir:name [ fhir:v "Animal Species Code System" ] ;
@@ -555,7 +555,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/animal-species-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/animal-species-vs> ;
          fhir:reference [ fhir:v "ValueSet/animal-species-vs" ]
        ] ;
        fhir:name [ fhir:v "Animal Species Value Set" ] ;
@@ -567,7 +567,7 @@
          fhir:value [ fhir:v "Questionnaire" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/Questionnaire/AnimalSurveillanceQuestionnaire> ;
+         fhir:link <https://dhis2.org/fhir/Questionnaire/AnimalSurveillanceQuestionnaire> ;
          fhir:reference [ fhir:v "Questionnaire/AnimalSurveillanceQuestionnaire" ]
        ] ;
        fhir:name [ fhir:v "Animal Surveillance Questionnaire" ] ;
@@ -579,7 +579,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/animal-type-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/animal-type-cs> ;
          fhir:reference [ fhir:v "CodeSystem/animal-type-cs" ]
        ] ;
        fhir:name [ fhir:v "Animal Type Code System" ] ;
@@ -591,7 +591,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/animal-type-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/animal-type-vs> ;
          fhir:reference [ fhir:v "ValueSet/animal-type-vs" ]
        ] ;
        fhir:name [ fhir:v "Animal Type Value Set" ] ;
@@ -603,7 +603,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/clade-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/clade-cs> ;
          fhir:reference [ fhir:v "CodeSystem/clade-cs" ]
        ] ;
        fhir:name [ fhir:v "Clade Code System" ] ;
@@ -615,7 +615,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/clade-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/clade-vs> ;
          fhir:reference [ fhir:v "ValueSet/clade-vs" ]
        ] ;
        fhir:name [ fhir:v "Clade Value Set" ] ;
@@ -627,7 +627,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/clinical-signs-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/clinical-signs-cs> ;
          fhir:reference [ fhir:v "CodeSystem/clinical-signs-cs" ]
        ] ;
        fhir:name [ fhir:v "Clinical Signs Code System" ] ;
@@ -639,7 +639,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/clinical-signs-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/clinical-signs-vs> ;
          fhir:reference [ fhir:v "ValueSet/clinical-signs-vs" ]
        ] ;
        fhir:name [ fhir:v "Clinical Signs Value Set" ] ;
@@ -651,7 +651,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/control-measures-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/control-measures-cs> ;
          fhir:reference [ fhir:v "CodeSystem/control-measures-cs" ]
        ] ;
        fhir:name [ fhir:v "Control Measures Code System" ] ;
@@ -663,7 +663,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/control-measures-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/control-measures-vs> ;
          fhir:reference [ fhir:v "ValueSet/control-measures-vs" ]
        ] ;
        fhir:name [ fhir:v "Control Measures Value Set" ] ;
@@ -675,7 +675,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/diagnosis-basis-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs> ;
          fhir:reference [ fhir:v "CodeSystem/diagnosis-basis-cs" ]
        ] ;
        fhir:name [ fhir:v "Diagnosis Basis Code System" ] ;
@@ -687,7 +687,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/diagnosis-basis-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/diagnosis-basis-vs> ;
          fhir:reference [ fhir:v "ValueSet/diagnosis-basis-vs" ]
        ] ;
        fhir:name [ fhir:v "Diagnosis Basis Value Set" ] ;
@@ -699,7 +699,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/diagnostic-source-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs> ;
          fhir:reference [ fhir:v "CodeSystem/diagnostic-source-cs" ]
        ] ;
        fhir:name [ fhir:v "Diagnostic Source Code System" ] ;
@@ -711,7 +711,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/diagnostic-source-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/diagnostic-source-vs> ;
          fhir:reference [ fhir:v "ValueSet/diagnostic-source-vs" ]
        ] ;
        fhir:name [ fhir:v "Diagnostic Source Value Set" ] ;
@@ -723,7 +723,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/diagnostic-status-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs> ;
          fhir:reference [ fhir:v "CodeSystem/diagnostic-status-cs" ]
        ] ;
        fhir:name [ fhir:v "Diagnostic Status Code System" ] ;
@@ -735,7 +735,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/disease-status-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/disease-status-vs> ;
          fhir:reference [ fhir:v "ValueSet/disease-status-vs" ]
        ] ;
        fhir:name [ fhir:v "Disease Status Value Set" ] ;
@@ -747,7 +747,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/disease-subtype-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/disease-subtype-cs> ;
          fhir:reference [ fhir:v "CodeSystem/disease-subtype-cs" ]
        ] ;
        fhir:name [ fhir:v "Disease Subtype Code System" ] ;
@@ -759,7 +759,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/disease-subtype-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/disease-subtype-vs> ;
          fhir:reference [ fhir:v "ValueSet/disease-subtype-vs" ]
        ] ;
        fhir:name [ fhir:v "Disease Subtype Value Set" ] ;
@@ -771,7 +771,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/diseases-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/diseases-cs> ;
          fhir:reference [ fhir:v "CodeSystem/diseases-cs" ]
        ] ;
        fhir:name [ fhir:v "Diseases Code System" ] ;
@@ -783,7 +783,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/diseases-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/diseases-vs> ;
          fhir:reference [ fhir:v "ValueSet/diseases-vs" ]
        ] ;
        fhir:name [ fhir:v "Diseases Value Set" ] ;
@@ -795,7 +795,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/districts-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/districts-cs> ;
          fhir:reference [ fhir:v "CodeSystem/districts-cs" ]
        ] ;
        fhir:name [ fhir:v "Districts Code System" ] ;
@@ -807,7 +807,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/districts-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/districts-vs> ;
          fhir:reference [ fhir:v "ValueSet/districts-vs" ]
        ] ;
        fhir:name [ fhir:v "Districts Value Set" ] ;
@@ -819,7 +819,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/empresi-countries-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/empresi-countries-cs> ;
          fhir:reference [ fhir:v "CodeSystem/empresi-countries-cs" ]
        ] ;
        fhir:name [ fhir:v "Empresi Countries Code System" ] ;
@@ -831,7 +831,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/empresi-countries-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/empresi-countries-vs> ;
          fhir:reference [ fhir:v "ValueSet/empresi-countries-vs" ]
        ] ;
        fhir:name [ fhir:v "Empresi Countries Value Set" ] ;
@@ -843,7 +843,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/infection-source-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/infection-source-cs> ;
          fhir:reference [ fhir:v "CodeSystem/infection-source-cs" ]
        ] ;
        fhir:name [ fhir:v "Infection Source Code System" ] ;
@@ -855,7 +855,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/infection-source-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/infection-source-vs> ;
          fhir:reference [ fhir:v "ValueSet/infection-source-vs" ]
        ] ;
        fhir:name [ fhir:v "Infection Source Value Set" ] ;
@@ -867,7 +867,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/lab-diseases-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/lab-diseases-vs> ;
          fhir:reference [ fhir:v "ValueSet/lab-diseases-vs" ]
        ] ;
        fhir:name [ fhir:v "Lab Diseases Value Set" ] ;
@@ -879,7 +879,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/laboratory-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/laboratory-cs> ;
          fhir:reference [ fhir:v "CodeSystem/laboratory-cs" ]
        ] ;
        fhir:name [ fhir:v "Laboratory Code System" ] ;
@@ -891,7 +891,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/laboratory-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/laboratory-vs> ;
          fhir:reference [ fhir:v "ValueSet/laboratory-vs" ]
        ] ;
        fhir:name [ fhir:v "Laboratory Value Set" ] ;
@@ -903,7 +903,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/locality-quality-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/locality-quality-cs> ;
          fhir:reference [ fhir:v "CodeSystem/locality-quality-cs" ]
        ] ;
        fhir:name [ fhir:v "Locality Quality Code System" ] ;
@@ -915,7 +915,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/locality-quality-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/locality-quality-vs> ;
          fhir:reference [ fhir:v "ValueSet/locality-quality-vs" ]
        ] ;
        fhir:name [ fhir:v "Locality Quality Value Set" ] ;
@@ -927,7 +927,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/locality-source-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/locality-source-cs> ;
          fhir:reference [ fhir:v "CodeSystem/locality-source-cs" ]
        ] ;
        fhir:name [ fhir:v "Locality Source Code System" ] ;
@@ -939,7 +939,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/locality-source-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/locality-source-vs> ;
          fhir:reference [ fhir:v "ValueSet/locality-source-vs" ]
        ] ;
        fhir:name [ fhir:v "Locality Source Value Set" ] ;
@@ -951,7 +951,7 @@
          fhir:value [ fhir:v "StructureDefinition:logical" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/StructureDefinition/AnimalSurveillance> ;
+         fhir:link <https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance> ;
          fhir:reference [ fhir:v "StructureDefinition/AnimalSurveillance" ]
        ] ;
        fhir:name [ fhir:v "Logical Model - Animal Surveillance" ] ;
@@ -963,7 +963,7 @@
          fhir:value [ fhir:v "StructureDefinition:logical" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/StructureDefinition/Laboratory> ;
+         fhir:link <https://dhis2.org/fhir/StructureDefinition/Laboratory> ;
          fhir:reference [ fhir:v "StructureDefinition/Laboratory" ]
        ] ;
        fhir:name [ fhir:v "Logical Model - Laboratory" ] ;
@@ -975,7 +975,7 @@
          fhir:value [ fhir:v "StructureDefinition:logical" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/StructureDefinition/ZoonosisSurveillance> ;
+         fhir:link <https://dhis2.org/fhir/StructureDefinition/ZoonosisSurveillance> ;
          fhir:reference [ fhir:v "StructureDefinition/ZoonosisSurveillance" ]
        ] ;
        fhir:name [ fhir:v "Logical Model - Zoonosis Surveillance" ] ;
@@ -987,7 +987,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/necropsy-lesions-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs> ;
          fhir:reference [ fhir:v "CodeSystem/necropsy-lesions-cs" ]
        ] ;
        fhir:name [ fhir:v "Necropsy Lesions Code System" ] ;
@@ -999,7 +999,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/necropsy-lesions-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/necropsy-lesions-vs> ;
          fhir:reference [ fhir:v "ValueSet/necropsy-lesions-vs" ]
        ] ;
        fhir:name [ fhir:v "Necropsy Lesions Value Set" ] ;
@@ -1011,7 +1011,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/production-system-one-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/production-system-one-cs> ;
          fhir:reference [ fhir:v "CodeSystem/production-system-one-cs" ]
        ] ;
        fhir:name [ fhir:v "Production System One Code System" ] ;
@@ -1023,7 +1023,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/production-system-one-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/production-system-one-vs> ;
          fhir:reference [ fhir:v "ValueSet/production-system-one-vs" ]
        ] ;
        fhir:name [ fhir:v "Production System One Value Set" ] ;
@@ -1035,7 +1035,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/production-system-two-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/production-system-two-cs> ;
          fhir:reference [ fhir:v "CodeSystem/production-system-two-cs" ]
        ] ;
        fhir:name [ fhir:v "Production System Two Code System" ] ;
@@ -1047,7 +1047,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/production-system-two-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/production-system-two-vs> ;
          fhir:reference [ fhir:v "ValueSet/production-system-two-vs" ]
        ] ;
        fhir:name [ fhir:v "Production System Two Value Set" ] ;
@@ -1059,7 +1059,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/regions-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/regions-cs> ;
          fhir:reference [ fhir:v "CodeSystem/regions-cs" ]
        ] ;
        fhir:name [ fhir:v "Regions Code System" ] ;
@@ -1071,7 +1071,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/regions-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/regions-vs> ;
          fhir:reference [ fhir:v "ValueSet/regions-vs" ]
        ] ;
        fhir:name [ fhir:v "Regions Value Set" ] ;
@@ -1083,7 +1083,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/sample-type-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/sample-type-cs> ;
          fhir:reference [ fhir:v "CodeSystem/sample-type-cs" ]
        ] ;
        fhir:name [ fhir:v "Sample Type Code System" ] ;
@@ -1095,7 +1095,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/sample-type-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/sample-type-vs> ;
          fhir:reference [ fhir:v "ValueSet/sample-type-vs" ]
        ] ;
        fhir:name [ fhir:v "Sample Type Value Set" ] ;
@@ -1107,7 +1107,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/surveillance-type-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/surveillance-type-cs> ;
          fhir:reference [ fhir:v "CodeSystem/surveillance-type-cs" ]
        ] ;
        fhir:name [ fhir:v "Surveillance Type Code System" ] ;
@@ -1119,7 +1119,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/surveillance-type-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/surveillance-type-vs> ;
          fhir:reference [ fhir:v "ValueSet/surveillance-type-vs" ]
        ] ;
        fhir:name [ fhir:v "Surveillance Type Value Set" ] ;
@@ -1131,7 +1131,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/test-result-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/test-result-cs> ;
          fhir:reference [ fhir:v "CodeSystem/test-result-cs" ]
        ] ;
        fhir:name [ fhir:v "Test Result Code System" ] ;
@@ -1143,7 +1143,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/test-result-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/test-result-vs> ;
          fhir:reference [ fhir:v "ValueSet/test-result-vs" ]
        ] ;
        fhir:name [ fhir:v "Test Result Value Set" ] ;
@@ -1155,7 +1155,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/test-type-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/test-type-cs> ;
          fhir:reference [ fhir:v "CodeSystem/test-type-cs" ]
        ] ;
        fhir:name [ fhir:v "Test Type Code System" ] ;
@@ -1167,7 +1167,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/test-type-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/test-type-vs> ;
          fhir:reference [ fhir:v "ValueSet/test-type-vs" ]
        ] ;
        fhir:name [ fhir:v "Test Type Value Set" ] ;
@@ -1179,7 +1179,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/treatments-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/treatments-cs> ;
          fhir:reference [ fhir:v "CodeSystem/treatments-cs" ]
        ] ;
        fhir:name [ fhir:v "Treatments Code System" ] ;
@@ -1191,7 +1191,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/treatments-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/treatments-vs> ;
          fhir:reference [ fhir:v "ValueSet/treatments-vs" ]
        ] ;
        fhir:name [ fhir:v "Treatments Value Set" ] ;
@@ -1203,7 +1203,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/CodeSystem/yes-no-unknown-cs> ;
+         fhir:link <https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs> ;
          fhir:reference [ fhir:v "CodeSystem/yes-no-unknown-cs" ]
        ] ;
        fhir:name [ fhir:v "Yes/No/Unknown Code System" ] ;
@@ -1215,7 +1215,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://example.org/fhir/ValueSet/yes-no-unknown-vs> ;
+         fhir:link <https://dhis2.org/fhir/ValueSet/yes-no-unknown-vs> ;
          fhir:reference [ fhir:v "ValueSet/yes-no-unknown-vs" ]
        ] ;
        fhir:name [ fhir:v "Yes/No/Unknown Value Set" ] ;

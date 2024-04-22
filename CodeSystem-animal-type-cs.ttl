@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://example.org/fhir/CodeSystem/animal-type-cs> a fhir:CodeSystem ;
+<https://dhis2.org/fhir/CodeSystem/animal-type-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "animal-type-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/animal-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CAPTIVE<a name=\"animal-type-cs-CAPTIVE\"> </a></td><td>Captive</td></tr><tr><td style=\"white-space:nowrap\">WILD<a name=\"animal-type-cs-WILD\"> </a></td><td>Wild</td></tr><tr><td style=\"white-space:nowrap\">DOMESTIC<a name=\"animal-type-cs-DOMESTIC\"> </a></td><td>Domestic</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/animal-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CAPTIVE<a name=\"animal-type-cs-CAPTIVE\"> </a></td><td>Captive</td></tr><tr><td style=\"white-space:nowrap\">WILD<a name=\"animal-type-cs-WILD\"> </a></td><td>Wild</td></tr><tr><td style=\"white-space:nowrap\">DOMESTIC<a name=\"animal-type-cs-DOMESTIC\"> </a></td><td>Domestic</td></tr></table></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://example.org/fhir/CodeSystem/animal-type-cs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/animal-type-cs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "AnimalTypeCS"] ; # 
   fhir:title [ fhir:v "Animal Type Code System"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-17T13:33:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-22T10:30:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;

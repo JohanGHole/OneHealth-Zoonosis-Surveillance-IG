@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="zoonosis-surveillance-ig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>OneHealthZoonosisSurveillanceIG</h2><p>The official URL for this implementation guide is: </p><pre>https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig</pre><div><p>Content IG for the OneHealth-Zoonosis-Surveillance DHIS2 Tracker program.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>OneHealthZoonosisSurveillanceIG</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig</pre><div><p>Content IG for the OneHealth-Zoonosis-Surveillance DHIS2 Tracker program.</p>
 </div></div>
   </text>
-  <url value="https://example.org/fhir/ImplementationGuide/zoonosis-surveillance-ig"/>
+  <url value="https://dhis2.org/fhir/ImplementationGuide/zoonosis-surveillance-ig"/>
   <version value="0.1.0"/>
   <name value="OneHealthZoonosisSurveillanceIG"/>
   <title value="OneHealth - Zoonosis Surveillance IG"/>
   <status value="draft"/>
-  <date value="2024-04-17T13:33:19+00:00"/>
+  <date value="2024-04-22T10:30:53+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -34,7 +34,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="5.3.0"/>
+    <version value="5.5.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -122,7 +122,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://example.org/fhir/history.html"/>
+        <valueString value="https://dhis2.org/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -325,7 +325,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://example.org/fhir/history.html"/>
+        <valueString value="https://dhis2.org/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

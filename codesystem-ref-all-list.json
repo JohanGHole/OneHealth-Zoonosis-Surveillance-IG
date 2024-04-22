@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://example.org/fhir/CodeSystem/animal-class-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/animal-class-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalClassCS",
@@ -12,7 +12,7 @@
       "ValueSet-animal-class-vs.html" : "Animal Class Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/animal-species-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/animal-species-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalSpeciesCS",
@@ -23,7 +23,7 @@
       "ValueSet-animal-species-vs.html" : "Animal Species Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/animal-type-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/animal-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "AnimalTypeCS",
@@ -34,7 +34,7 @@
       "ValueSet-animal-type-vs.html" : "Animal Type Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/clade-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/clade-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "CladeCS",
@@ -45,7 +45,7 @@
       "ValueSet-clade-vs.html" : "Clade Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/clinical-signs-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/clinical-signs-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ClinicalSignsCS",
@@ -56,7 +56,7 @@
       "ValueSet-clinical-signs-vs.html" : "Clinical Signs Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/control-measures-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/control-measures-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ControlMeasuresCS",
@@ -67,7 +67,7 @@
       "ValueSet-control-measures-vs.html" : "Control Measures Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/diagnosis-basis-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/diagnosis-basis-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiagnosisBasisCS",
@@ -78,7 +78,7 @@
       "ValueSet-diagnosis-basis-vs.html" : "Diagnosis Basis Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/diagnostic-source-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-source-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiagnosticSourceCS",
@@ -89,7 +89,7 @@
       "ValueSet-diagnostic-source-vs.html" : "Diagnostic Source Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/diagnostic-status-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/diagnostic-status-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiagnosticStatusCS",
@@ -100,7 +100,7 @@
       "ValueSet-disease-status-vs.html" : "Disease Status Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/disease-subtype-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/disease-subtype-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiseaseSubtypeCS",
@@ -111,7 +111,7 @@
       "ValueSet-disease-subtype-vs.html" : "Disease Subtype Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/diseases-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/diseases-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DiseasesCS",
@@ -119,11 +119,11 @@
       "description" : "Code system for diseases.",
       "uses" : {
       },
-      "ValueSet-diseases-vs.html" : "Diseases Value Set",
-      "ValueSet-lab-diseases-vs.html" : "Lab Diseases Value Set"
+      "ValueSet-lab-diseases-vs.html" : "Lab Diseases Value Set",
+      "ValueSet-diseases-vs.html" : "Diseases Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/districts-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/districts-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "DistrictsCS",
@@ -134,7 +134,7 @@
       "ValueSet-districts-vs.html" : "Districts Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/empresi-countries-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/empresi-countries-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "EmpresiCountriesCS",
@@ -145,7 +145,7 @@
       "ValueSet-empresi-countries-vs.html" : "Empresi Countries Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/infection-source-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/infection-source-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "InfectionSourceCS",
@@ -156,7 +156,7 @@
       "ValueSet-infection-source-vs.html" : "Infection Source Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/laboratory-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/laboratory-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "LaboratoryCS",
@@ -167,7 +167,7 @@
       "ValueSet-laboratory-vs.html" : "Laboratory Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/locality-quality-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/locality-quality-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "LocalityQualityCS",
@@ -178,7 +178,7 @@
       "ValueSet-locality-quality-vs.html" : "Locality Quality Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/locality-source-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/locality-source-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "LocalitySourceCS",
@@ -189,7 +189,7 @@
       "ValueSet-locality-source-vs.html" : "Locality Source Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/necropsy-lesions-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/necropsy-lesions-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "NecropsyLesionsCS",
@@ -200,7 +200,7 @@
       "ValueSet-necropsy-lesions-vs.html" : "Necropsy Lesions Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/production-system-one-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/production-system-one-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ProductionSystemOneCS",
@@ -211,7 +211,7 @@
       "ValueSet-production-system-one-vs.html" : "Production System One Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/production-system-two-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/production-system-two-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ProductionSystemTwoCS",
@@ -222,7 +222,7 @@
       "ValueSet-production-system-two-vs.html" : "Production System Two Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/regions-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/regions-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "RegionsCS",
@@ -233,7 +233,7 @@
       "ValueSet-regions-vs.html" : "Regions Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/sample-type-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/sample-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SampleTypeCS",
@@ -244,7 +244,7 @@
       "ValueSet-sample-type-vs.html" : "Sample Type Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/surveillance-type-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/surveillance-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SurveillanceTypeCS",
@@ -255,7 +255,7 @@
       "ValueSet-surveillance-type-vs.html" : "Surveillance Type Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/test-result-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/test-result-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TestResultCS",
@@ -266,7 +266,7 @@
       "ValueSet-test-result-vs.html" : "Test Result Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/test-type-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/test-type-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TestTypeCS",
@@ -277,7 +277,7 @@
       "ValueSet-test-type-vs.html" : "Test Type Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/treatments-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/treatments-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TreatmentsCS",
@@ -288,7 +288,7 @@
       "ValueSet-treatments-vs.html" : "Treatments Value Set"
     },
     {
-      "url" : "https://example.org/fhir/CodeSystem/yes-no-unknown-cs",
+      "url" : "https://dhis2.org/fhir/CodeSystem/yes-no-unknown-cs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "YesNoUnknownCS",
@@ -300,7 +300,7 @@
     },
     {
       "url" : "urn:iso:std:iso:3166",
-      "version" : "1.0.0",
+      "version" : "1.0.1",
       "status" : "active",
       "name" : "ISO3166Part1",
       "title" : "ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
@@ -308,7 +308,7 @@
       "oids" : ["1.0.3166.1"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.3.0/ValueSet-v3-Country.html" : "Country"
+      "http://terminology.hl7.org/5.5.0/ValueSet-v3-Country.html" : "Country"
     }
   ]
 }

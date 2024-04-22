@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="treatments-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-treatments-cs.html"><code>https://example.org/fhir/CodeSystem/treatments-cs</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-treatments-cs.html"><code>https://dhis2.org/fhir/CodeSystem/treatments-cs</code></a></li></ul></div>
   </text>
-  <url value="https://example.org/fhir/ValueSet/treatments-vs"/>
+  <url value="https://dhis2.org/fhir/ValueSet/treatments-vs"/>
   <version value="0.1.0"/>
   <name value="TreatmentsVS"/>
   <title value="Treatments Value Set"/>
   <status value="draft"/>
-  <date value="2024-04-17T13:33:19+00:00"/>
+  <date value="2024-04-22T10:30:53+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -26,7 +26,7 @@
   <description value="Value set for treatments."/>
   <compose>
     <include>
-      <system value="https://example.org/fhir/CodeSystem/treatments-cs"/>
+      <system value="https://dhis2.org/fhir/CodeSystem/treatments-cs"/>
     </include>
   </compose>
 </ValueSet>

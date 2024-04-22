@@ -69,16 +69,16 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ZoonosisSurveillance.location.locality","ZoonosisSurveillance.location.locality","","","",0,1,"","","","string {[]} {[]}
 ","Locality","Locality","","","","","","","","","",,,,,"",,,,"ZoonosisSurveillance.location.locality",0,1,"",""
 "ZoonosisSurveillance.location.adminLevel1","ZoonosisSurveillance.location.adminLevel1","","","",0,1,"","","","code {[]} {[]}
-","Admin Level 1","Admin Level 1","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/regions-vs","",,,,"ZoonosisSurveillance.location.adminLevel1",0,1,"",""
+","Admin Level 1","Admin Level 1","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/regions-vs","",,,,"ZoonosisSurveillance.location.adminLevel1",0,1,"",""
 "ZoonosisSurveillance.location.adminLevel2","ZoonosisSurveillance.location.adminLevel2","","","",0,1,"","","","code {[]} {[]}
-","Admin Level 2","Admin Level 2","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/districts-vs","",,,,"ZoonosisSurveillance.location.adminLevel2",0,1,"",""
+","Admin Level 2","Admin Level 2","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/districts-vs","",,,,"ZoonosisSurveillance.location.adminLevel2",0,1,"",""
 "ZoonosisSurveillance.location.localitySource","ZoonosisSurveillance.location.localitySource","","","",0,1,"","","","code {[]} {[]}
-","Locality Source","Locality Source","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/locality-source-vs","",,,,"ZoonosisSurveillance.location.localitySource",0,1,"",""
+","Locality Source","Locality Source","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/locality-source-vs","",,,,"ZoonosisSurveillance.location.localitySource",0,1,"",""
 "ZoonosisSurveillance.location.localityQuality","ZoonosisSurveillance.location.localityQuality","","","",0,1,"","","","code {[]} {[]}
-","Locality Quality","Locality Quality","","","","","","","","","",,"required","","https://example.org/fhir/ValueSet/locality-quality-vs","",,,,"ZoonosisSurveillance.location.localityQuality",0,1,"",""
+","Locality Quality","Locality Quality","","","","","","","","","",,"required","","https://dhis2.org/fhir/ValueSet/locality-quality-vs","",,,,"ZoonosisSurveillance.location.localityQuality",0,1,"",""
 "ZoonosisSurveillance.location.eventCoordinates","ZoonosisSurveillance.location.eventCoordinates","","","",0,1,"","","","string {[]} {[]}
 ","Event Coordinates","Event Coordinates","","","","","","","","","",,,,,"",,,,"ZoonosisSurveillance.location.eventCoordinates",0,1,"",""
-"ZoonosisSurveillance.animalSurveillance","ZoonosisSurveillance.animalSurveillance","","","",0,*,"","","","https://example.org/fhir/StructureDefinition/AnimalSurveillance {[]} {[]}
+"ZoonosisSurveillance.animalSurveillance","ZoonosisSurveillance.animalSurveillance","","","",0,*,"","","","https://dhis2.org/fhir/StructureDefinition/AnimalSurveillance {[]} {[]}
 ","Logical Model for Animal Surveillance","Logical Model for Animal Surveillance","","","","","","","","","",,,,,"",,,,"ZoonosisSurveillance.animalSurveillance",0,*,"",""
-"ZoonosisSurveillance.laboratory","ZoonosisSurveillance.laboratory","","","",0,*,"","","","https://example.org/fhir/StructureDefinition/Laboratory {[]} {[]}
+"ZoonosisSurveillance.laboratory","ZoonosisSurveillance.laboratory","","","",0,*,"","","","https://dhis2.org/fhir/StructureDefinition/Laboratory {[]} {[]}
 ","Logical Model for Laboratory Information","Logical Model for Laboratory Information","","","","","","","","","",,,,,"",,,,"ZoonosisSurveillance.laboratory",0,*,"",""

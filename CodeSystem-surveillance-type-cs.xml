@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="surveillance-type-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://example.org/fhir/CodeSystem/surveillance-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">PASSIVE<a name="surveillance-type-cs-PASSIVE"> </a></td><td>Passive</td></tr><tr><td style="white-space:nowrap">ROUTINE<a name="surveillance-type-cs-ROUTINE"> </a></td><td>Routine</td></tr><tr><td style="white-space:nowrap">ACTIVE<a name="surveillance-type-cs-ACTIVE"> </a></td><td>Active</td></tr><tr><td style="white-space:nowrap">PDS<a name="surveillance-type-cs-PDS"> </a></td><td>PDS</td></tr><tr><td style="white-space:nowrap">CAHO<a name="surveillance-type-cs-CAHO"> </a></td><td>CAHO</td></tr><tr><td style="white-space:nowrap">GDS<a name="surveillance-type-cs-GDS"> </a></td><td>GDS</td></tr><tr><td style="white-space:nowrap">SENTINEL<a name="surveillance-type-cs-SENTINEL"> </a></td><td>Sentinel</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/surveillance-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">PASSIVE<a name="surveillance-type-cs-PASSIVE"> </a></td><td>Passive</td></tr><tr><td style="white-space:nowrap">ROUTINE<a name="surveillance-type-cs-ROUTINE"> </a></td><td>Routine</td></tr><tr><td style="white-space:nowrap">ACTIVE<a name="surveillance-type-cs-ACTIVE"> </a></td><td>Active</td></tr><tr><td style="white-space:nowrap">PDS<a name="surveillance-type-cs-PDS"> </a></td><td>PDS</td></tr><tr><td style="white-space:nowrap">CAHO<a name="surveillance-type-cs-CAHO"> </a></td><td>CAHO</td></tr><tr><td style="white-space:nowrap">GDS<a name="surveillance-type-cs-GDS"> </a></td><td>GDS</td></tr><tr><td style="white-space:nowrap">SENTINEL<a name="surveillance-type-cs-SENTINEL"> </a></td><td>Sentinel</td></tr></table></div>
   </text>
-  <url value="https://example.org/fhir/CodeSystem/surveillance-type-cs"/>
+  <url value="https://dhis2.org/fhir/CodeSystem/surveillance-type-cs"/>
   <version value="0.1.0"/>
   <name value="SurveillanceTypeCS"/>
   <title value="Surveillance Type Code System"/>
   <status value="draft"/>
-  <date value="2024-04-17T13:33:19+00:00"/>
+  <date value="2024-04-22T10:30:53+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>

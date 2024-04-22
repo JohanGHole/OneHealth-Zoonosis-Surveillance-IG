@@ -3,14 +3,14 @@
   "id" : "test-type-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-test-type-cs.html\"><code>https://example.org/fhir/CodeSystem/test-type-cs</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-test-type-cs.html\"><code>https://dhis2.org/fhir/CodeSystem/test-type-cs</code></a></li></ul></div>"
   },
-  "url" : "https://example.org/fhir/ValueSet/test-type-vs",
+  "url" : "https://dhis2.org/fhir/ValueSet/test-type-vs",
   "version" : "0.1.0",
   "name" : "TestTypeVS",
   "title" : "Test Type Value Set",
   "status" : "draft",
-  "date" : "2024-04-17T13:33:19+00:00",
+  "date" : "2024-04-22T10:30:53+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -26,7 +26,7 @@
   "description" : "Value set for test types.",
   "compose" : {
     "include" : [{
-      "system" : "https://example.org/fhir/CodeSystem/test-type-cs"
+      "system" : "https://dhis2.org/fhir/CodeSystem/test-type-cs"
     }]
   }
 }

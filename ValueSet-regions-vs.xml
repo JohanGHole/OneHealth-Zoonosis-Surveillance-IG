@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="regions-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-regions-cs.html"><code>https://example.org/fhir/CodeSystem/regions-cs</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-regions-cs.html"><code>https://dhis2.org/fhir/CodeSystem/regions-cs</code></a></li></ul></div>
   </text>
-  <url value="https://example.org/fhir/ValueSet/regions-vs"/>
+  <url value="https://dhis2.org/fhir/ValueSet/regions-vs"/>
   <version value="0.1.0"/>
   <name value="RegionsVS"/>
   <title value="Regions Value Set"/>
   <status value="draft"/>
-  <date value="2024-04-17T13:33:19+00:00"/>
+  <date value="2024-04-22T10:30:53+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -26,7 +26,7 @@
   <description value="Value set for regions."/>
   <compose>
     <include>
-      <system value="https://example.org/fhir/CodeSystem/regions-cs"/>
+      <system value="https://dhis2.org/fhir/CodeSystem/regions-cs"/>
     </include>
   </compose>
 </ValueSet>

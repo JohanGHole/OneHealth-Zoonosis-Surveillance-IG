@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://example.org/fhir/ValueSet/locality-source-vs> a fhir:ValueSet ;
+<https://dhis2.org/fhir/ValueSet/locality-source-vs> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "locality-source-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-locality-source-cs.html\"><code>https://example.org/fhir/CodeSystem/locality-source-cs</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-locality-source-cs.html\"><code>https://dhis2.org/fhir/CodeSystem/locality-source-cs</code></a></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://example.org/fhir/ValueSet/locality-source-vs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/ValueSet/locality-source-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "LocalitySourceVS"] ; # 
   fhir:title [ fhir:v "Locality Source Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-17T13:33:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-22T10:30:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -32,7 +32,7 @@
   fhir:description [ fhir:v "Value set for sources of locality information."] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://example.org/fhir/CodeSystem/locality-source-cs"^^xsd:anyURI ]
+       fhir:system [ fhir:v "https://dhis2.org/fhir/CodeSystem/locality-source-cs"^^xsd:anyURI ]
      ] )
   ] . # 
 

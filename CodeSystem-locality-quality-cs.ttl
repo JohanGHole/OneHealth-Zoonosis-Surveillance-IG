@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://example.org/fhir/CodeSystem/locality-quality-cs> a fhir:CodeSystem ;
+<https://dhis2.org/fhir/CodeSystem/locality-quality-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "locality-quality-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://example.org/fhir/CodeSystem/locality-quality-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN1<a name=\"locality-quality-cs-CENTROID_ADMIN1\"> </a></td><td>Centroid Admin1</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN2<a name=\"locality-quality-cs-CENTROID_ADMIN2\"> </a></td><td>Centroid Admin2</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN3<a name=\"locality-quality-cs-CENTROID_ADMIN3\"> </a></td><td>Centroid Admin3</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_LOCALITY<a name=\"locality-quality-cs-CENTROID_LOCALITY\"> </a></td><td>Centroid Locality</td></tr><tr><td style=\"white-space:nowrap\">EXACT<a name=\"locality-quality-cs-EXACT\"> </a></td><td>Exact</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"locality-quality-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/fhir/CodeSystem/locality-quality-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN1<a name=\"locality-quality-cs-CENTROID_ADMIN1\"> </a></td><td>Centroid Admin1</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN2<a name=\"locality-quality-cs-CENTROID_ADMIN2\"> </a></td><td>Centroid Admin2</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_ADMIN3<a name=\"locality-quality-cs-CENTROID_ADMIN3\"> </a></td><td>Centroid Admin3</td></tr><tr><td style=\"white-space:nowrap\">CENTROID_LOCALITY<a name=\"locality-quality-cs-CENTROID_LOCALITY\"> </a></td><td>Centroid Locality</td></tr><tr><td style=\"white-space:nowrap\">EXACT<a name=\"locality-quality-cs-EXACT\"> </a></td><td>Exact</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"locality-quality-cs-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://example.org/fhir/CodeSystem/locality-quality-cs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/fhir/CodeSystem/locality-quality-cs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "LocalityQualityCS"] ; # 
   fhir:title [ fhir:v "Locality Quality Code System"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-17T13:33:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-22T10:30:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
